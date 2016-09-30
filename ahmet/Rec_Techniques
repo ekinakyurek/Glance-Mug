@@ -1,0 +1,16 @@
+arecord -f dat -D plughw:1 -d 5 ahmetb30.wav
+bu iyi sonuc veriyor.
+
+bu kaydi yaptiktan sonra dosyayi sox ile raw formatina ceviriyoruz:
+sox ahmetb30.wav -c 1 -r 16000 -b 16 ahmetb30.raw
+
+and then we made it!
+python tutorial.py ahmetb30.raw
+{"results": [{"alternatives": [{"confidence": 0.80656725, "transcript": "yes now I am recording my voice"}]}]}
+
+dil kodunu turkceye cevirdigimizde de recognition calisiyor:
+
+'config': {
+                'encoding': 'LINEAR16',  # raw 16-bit signed LE samples
+                'sampleRate': 16000,  # 16 khz
+                'languageCode': 'tr-TR',  # a BCP-47 language tag
