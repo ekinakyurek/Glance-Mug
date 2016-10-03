@@ -13,12 +13,9 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600})
-  //var __dirname = '/home/pi/Desktop/electron-image-viewer/viewerjs-master/demo'
+  //var __dirname = 'viewerjs-master/demo'
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/viewerjs-master/demo/indexcopy.html`)
-
-  // Open the DevTools.
-  //mainWindow.webContents.openDevTools()
+  mainWindow.loadURL(`${__dirname}/index.html`)
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
