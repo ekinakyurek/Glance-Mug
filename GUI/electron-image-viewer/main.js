@@ -1,3 +1,5 @@
+'use strict'
+
 const electron = require('electron')
 // Module to control application life.
 const app = electron.app
@@ -11,9 +13,9 @@ let mainWindow
 function createWindow () {
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600})
-  var __dirname = '/home/pi/Desktop/electron-image-viewer/viewerjs-master/demo'
+  //var __dirname = '/home/pi/Desktop/electron-image-viewer/viewerjs-master/demo'
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/indexcopy.html`)
+  mainWindow.loadURL(`file://${__dirname}/viewerjs-master/demo/indexcopy.html`)
 
   // Open the DevTools.
   //mainWindow.webContents.openDevTools()
