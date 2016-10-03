@@ -26,7 +26,7 @@ if(!adc.busy){
             //logging / troubleshooting code goes here...
             throw err;
         }
-        delay = 1000 / samplesPerSecond + 1;
+        delay = 1000 / samplesPerSecond;
 
         setInterval(readinglopp, delay)
         // if you made it here, then the data object contains your reading!
@@ -38,11 +38,21 @@ if(!adc.busy){
 var readinglopp = function(){
     adc.getLastConversionResults(progGainAmp,function(err,data){
         data /= 3200
-        gestureArray.append([gestureArray.length,data])
-        console.log(data)
-        if(gestureArray.length%100==0){
-            var result = regression('linear', gestureArray);
-            console.log("slope: "+ result.equation[0]);
+        gestureArray.push([gestureArray.length,data])
+      //console.log(data)
+        if(gestureArray.length%25==0){
+   	    var test_data = [[0,1],[1,2], [2,3], [3,4]]
+            //var result = regression('linear',test_data);
+            var result = regression('linear', gestureArray)
+	    if(result.equation[0] > 0.02) {
+                console.log("swipe up")
+                console.log("slope: " + result.equation[0]);
+                console.log("correlation: " + result.equation[2]);
+            }else if(result.equation[0] < -0.02){
+                console.log("swipe down")
+                console.log("slope: " + result.equation[0]);
+                console.log("correlation: " + result.equation[2]);
+            }
             gestureArray.length = 0;
         }
 

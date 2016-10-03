@@ -56,7 +56,7 @@
 
             var gradient = (n * sum[3] - sum[0] * sum[1]) / (n * sum[2] - sum[0] * sum[0]);
             var intercept = (sum[1] / n) - (gradient * sum[0]) / n;
-            //  var correlation = (n * sum[3] - sum[0] * sum[1]) / Math.sqrt((n * sum[2] - sum[0] * sum[0]) * (n * sum[4] - sum[1] * sum[1]));
+            var correlation = (n * sum[3] - sum[0] * sum[1]) / Math.sqrt((n * sum[2] - sum[0] * sum[0]) * (n * sum[4] - sum[1] * sum[1]));
 
             for (var i = 0, len = data.length; i < len; i++) {
                 var coordinate = [data[i][0], data[i][0] * gradient + intercept];
@@ -65,7 +65,7 @@
 
             var string = 'y = ' + Math.round(gradient*100) / 100 + 'x + ' + Math.round(intercept*100) / 100;
 
-            return {equation: [gradient, intercept], points: results, string: string};
+            return {equation: [gradient, intercept, correlation], points: results, string: string};
         },
 
         linearThroughOrigin: function(data) {
