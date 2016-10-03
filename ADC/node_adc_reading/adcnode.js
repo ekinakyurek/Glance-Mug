@@ -1,6 +1,7 @@
 var ads1x15 = require('node-ads1x15');
-var chip = 1; //0 for ads1015, 1 for ads1115
+var regression = require('./regression')
 
+var chip = 1; //0 for ads1015, 1 for ads1115
 //Simple usage (default ADS address on pi 2b or 3):
 var adc = new ads1x15(chip);
 
@@ -12,7 +13,7 @@ var adc = new ads1x15(chip);
 var channel = 0; //channel 0, 1, 2, or 3...
 var samplesPerSecond = '250'; // see index.js for allowed values for your chip
 var progGainAmp = '4096'; // see index.js for allowed values for your chip
-
+var gestureArray = [];
 //somewhere to store our reading
 var reading  = 0;
 
@@ -27,7 +28,7 @@ if(!adc.busy){
         }
         delay = 1000 / samplesPerSecond + 1;
 
-        setInterval(readinglopp, 10)
+        setInterval(readinglopp, delay)
         // if you made it here, then the data object contains your reading!
 
         // any other data processing code goes here...
@@ -35,8 +36,16 @@ if(!adc.busy){
 }
 
 var readinglopp = function(){
-        adc.getLastConversionResults(progGainAmp,function(err,data){
-            console.log(data)
-        });
-}
+    adc.getLastConversionResults(progGainAmp,function(err,data){
+        data /= 3200
+        gestureArray.append([gestureArray.length,data])
+        console.log(data)
+        if(gestureArray.length%100==0){
+            var result = regression('linear', gestureArray);
+            console.log("slope: "+ result.equation[0]);
+            gestureArray.length = 0;
+        }
 
+
+    });
+}
