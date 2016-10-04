@@ -11,7 +11,7 @@ var adc = new ads1x15(chip);
 //    var adc = new ads1x15(chip, 0x48, 'dev/i2c-0');
 
 var channel = 0; //channel 0, 1, 2, or 3...
-var samplesPerSecond = '250'; // see index.js for allowed values for your chip
+var samplesPerSecond = '860'; // see index.js for allowed values for your chip
 var progGainAmp = '4096'; // see index.js for allowed values for your chip
 var gestureArray = [];
 //somewhere to store our reading
@@ -38,17 +38,20 @@ if(!adc.busy){
 var readinglopp = function(){
     adc.getLastConversionResults(progGainAmp,function(err,data){
         data /= 3200
+	data = data<0 ? 0:data
         gestureArray.push([gestureArray.length,data])
-      //console.log(data)
-        if(gestureArray.length%25==0){
+        // console.log(data)
+        if(gestureArray.length%20==0){
    	    var test_data = [[0,1],[1,2], [2,3], [3,4]]
             //var result = regression('linear',test_data);
-            var result = regression('linear', gestureArray)
-	    if(result.equation[0] > 0.02) {
+	    var result = regression('linear', gestureArray)
+	    //console.log("slope: " + result.equation[0]);
+	    //console.log("correlation: " + result.equation[2]);
+	    if(result.equation[0] > 0.0004 && result.equation[2] > 0.95) {
                 console.log("swipe up")
                 console.log("slope: " + result.equation[0]);
                 console.log("correlation: " + result.equation[2]);
-            }else if(result.equation[0] < -0.02){
+            }else if(result.equation[0] < -0.0004 && result.equation[2] < -0.95){
                 console.log("swipe down")
                 console.log("slope: " + result.equation[0]);
                 console.log("correlation: " + result.equation[2]);
