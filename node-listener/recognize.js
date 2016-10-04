@@ -83,5 +83,5 @@ if (module === require.main) {
     process.exit();
   }
   var inputFile = process.argv[2];
-  main(inputFile, console.log);
+  main(inputFile, console.log);  
 }
