@@ -1,1 +1,1 @@
-yes now I'm speaking to the microphone I will send this to Google"}]}, {"alternatives": [{"confidence": 0.980591, "transcript": " let's see if it will record my voice and recognize it"}]}, {"alternatives": [{"confidence": 0.4848789, "transcript": " I'm at
+python \u00e7ok g\u00fczel Ahmet g\u00fczelldum Ne kadar g\u00fczel bir sene
