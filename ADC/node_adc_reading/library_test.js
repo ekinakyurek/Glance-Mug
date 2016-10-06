@@ -9,14 +9,14 @@ var ee = new EventEmitter();
 var gesture_recognizer = new gesture(1,0,'4096','860')
 
 //Event handler functions
-ee.on("swipe-up", function () {
-    console.log("swipe_up gesture is called");
+ee.on("swipe-up", function (data) {
+    console.log("swipe_up gesture is called, velocity:" + data);
 });
-ee.on("swipe-down", function () {
-    console.log("swipe_down gesture is called");
+ee.on("swipe-down", function (data) {
+    console.log("swipe_down gesture is called, velocity:" + data);
 });
-ee.on("point-detection", function () {
-    console.log("point detected at point: data ");
+ee.on("point-detection", function (data) {
+    console.log("point detected at point:" + data);
 });
 
 

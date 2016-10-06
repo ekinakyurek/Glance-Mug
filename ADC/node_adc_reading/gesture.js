@@ -50,19 +50,24 @@ gesture.prototype.readinglopp = function(){
 	    var result = regression('linear', self.gestureArray)
 	    //console.log("slope: " + result.equation[0]);
 	    //console.log("correlation: " + result.equation[2]);
-	    if(result.equation[0] < 0.0004 && result.equation[0] > -0.0004 && (result.equation[2] > 0.95 || result.equation[2] <-0.90)){
-		self.event.emit("point-detection")
-	    }
-	    else if(result.equation[0] > 0.0004 && result.equation[2] > 0.95) {
-		self.event.emit("swipe-up");
+	    
+	    if(result.equation[0] > 0.00049 && result.equation[2] > 0.95) {
+		self.event.emit("swipe-up", result.equation[0]);
 		//console.log("swipe up")
 		//console.log("slope: " + result.equation[0]);
 		//console.log("correlation: " + result.equation[2]);
-	    }else if(result.equation[0] < -0.0004 && result.equation[2] < -0.95){
-		self.event.emit("swipe-down");
+	    }else if(result.equation[0] < -0.00049 && result.equation[2] < -0.95){
+		self.event.emit("swipe-down", result.equation[0]);
 		//console.log("swipe down")
 		//console.log("slope: " + result.equation[0]);
 		//console.log("correlation: " + result.equation[2]);
+	    }else if(result.equation[2] > 0.90 || result.equation[2]<-0.90){
+		average  = 0;
+		for(var i=0, n=self.gestureArray.length; i < n; i++)
+		{
+		    average += self.gestureArray[i][1];
+		}
+		self.event.emit("point-detection", average/20)
 	    }
 	    self.gestureArray.length = 0;
 	}
