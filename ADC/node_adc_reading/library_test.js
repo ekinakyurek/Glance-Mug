@@ -2,7 +2,7 @@
  * Created by ekin on 04/10/2016.
  */
 //Inlude gesture and event libraries
-var gesture = require("./gesture")
+var gesture = require("./node_modules/gesture")
 var EventEmitter = require("events").EventEmitter;
 //create eventEmitter and gesture_recognizer objects.
 var ee = new EventEmitter();
