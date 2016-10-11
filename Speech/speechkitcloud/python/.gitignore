@@ -1,9 +1,0 @@
-*.pyc
-*~
-MANIFEST
-dist/
-build/
-asrclient.egg-info/
-venv/
-*/*.sound
-*/*.txt
