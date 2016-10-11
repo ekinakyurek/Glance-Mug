@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- Put the following javascript before the closing  tag. -->
+</head>
+
+<body>
+<div id="test"></div>
+
+<script  type="text/javascript" charset="utf-8">
+var searchTerm = 'parrot';
+var startIndex = '1';
+var KEY = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+var CX = '007548910499588559159:lepkrgs8oig';
+var count = '5';
+// Get the API key from Google's developer console
+// Get the CSE ID from google.com/cse
+ 
+var url = "https://www.googleapis.com/customsearch/v1?q=" + searchTerm + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
+//var obj = JSON.parse(api);
+//console.log(obj.items.link)
+console.log(url)
+
+// ----receive function----v
+$.getJSON(url, function(data){
+    console.log(data)
+    for (i in data.items)
+    {
+        console.log(data.items[i].link)
+    }
+});
+
+
+</script>
+
+</body>
+</html>
