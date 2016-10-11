@@ -1,5 +1,5 @@
 var ads1x15 = require('node-ads1x15');
-var regression = require('./regression')
+var regression = require('./node_modules/regression')
 
 var chip = 1; //0 for ads1015, 1 for ads1115
 //Simple usage (default ADS address on pi 2b or 3):
