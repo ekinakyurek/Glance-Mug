@@ -53,7 +53,7 @@ def main(speech_file):
     text_file = open("test.txt", "r+")
     sentence_in_file = text_file.read()
     word_list = sentence_in_file.split(" ")
-    print u(word_list)
+    print (word_list)
     #print(json.dumps(response))
 
 if __name__ == '__main__':

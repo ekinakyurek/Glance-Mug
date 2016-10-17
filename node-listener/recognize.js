@@ -17,7 +17,7 @@ function getAuthClient (callback) {
     // in manually. When the code is  running in GCE or a Managed VM, the scopes
     // are pulled from the GCE metadata server.
     // See https://cloud.google.com/compute/docs/authentication for more
-    // information.
+    // information../asrclient-cli.py --key 4e9c6bb2-c18b-4f34-baa9-bee46f2c40ef --lang tr-TR --callback-module advanced_callback_splitter ../../../Voice_Files/ahmetb100_tr.wav
     if (authClient.createScopedRequired && authClient.createScopedRequired()) {
       // Scopes can be specified either as an array or as a single,
       // space-delimited string.
@@ -52,12 +52,16 @@ function prepareRequest (inputFile, callback) {
 
 function main (inputFile, callback) {
   var requestPayload;
+  
+  console.log('000');
 
   async.waterfall([
     function (cb) {
+      console.log('111');
       prepareRequest(inputFile, cb);
     },
     function (payload, cb) {
+      console.log('2222');
       requestPayload = payload;
       getAuthClient(cb);
     },
@@ -78,10 +82,14 @@ function main (inputFile, callback) {
 }
 
 if (module === require.main) {
+  console.log('aaaa');
+  
   if (process.argv.length < 3) {
     console.log('Usage: node recognize <inputFile>');
     process.exit();
   }
   var inputFile = process.argv[2];
+  
+  console.log('bbb');
   main(inputFile, console.log);  
 }

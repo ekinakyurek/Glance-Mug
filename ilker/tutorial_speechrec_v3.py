@@ -88,7 +88,7 @@ def hop(flac_cont, asd):
     """
     
     print "11111"
-    with open("ahmetb25.flac", 'rb') as speech:
+    with open("ahmetb100_tr.flac", 'rb') as speech:
         speech_content = base64.b64encode(speech.read())
 
     service = get_speech_service()
@@ -97,7 +97,7 @@ def hop(flac_cont, asd):
             'config': {
                 'encoding': 'FLAC',  # raw 16-bit signed LE samples
                 'sampleRate': 16000,  # 16 khz
-                'languageCode': 'en-US',  # a BCP-47 language tag tr-TR
+                'languageCode': 'tr-TR',  # a BCP-47 language tag tr-TR
             },
             'audio': {
                 'content': speech_content.decode('UTF-8')
@@ -120,9 +120,9 @@ def main(flac_cont):
     #hop(flac_cont)
     try:
        thread.start_new_thread( hop, (flac_cont, "asd", ) )
-       thread.start_new_thread( hop, (flac_cont, "asd", ) )
-       thread.start_new_thread( hop, (flac_cont, "asd", ) )
-       thread.start_new_thread( hop, (flac_cont, "asd", ) )
+       #thread.start_new_thread( hop, (flac_cont, "asd", ) )
+       #thread.start_new_thread( hop, (flac_cont, "asd", ) )
+       #thread.start_new_thread( hop, (flac_cont, "asd", ) )
        #thread.start_new_thread( print_time, ("Thread-2", 4, ) )
     except:
        print "Error: unable to start thread"
