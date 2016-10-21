@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "readPackageJson.js",
+  "sourceRoot": "",
+  "sources": [
+    "../../src/util/readPackageJson.ts"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,MAAY,AAAI,eAAM,AACtB,AAAC,AAD2B;AAC5B,6BAAmC,AAGnC,AAAC,AAH8C;AAE/C,AAAmC;AACnC,MAAM,AAAS,YAAG,AAAO,QAAC,AAAW,AAAC;AAEtC,MAAM,AAAa,gBAAG,AAAO,QAAC,AAAwB,AAAC;AAEvD,yBAAsC,AAAY;;AAChD,cAAM,AAAI,OAAG,MAAM,aAAQ,SAAC,AAAI,AAAC;AACjC,cAAM,AAAO,QAAC,AAAI,MAAE,AAAI,AAAC;AACzB,AAAa,sBAAC,AAAI,AAAC;AACnB,AAAM,eAAC,AAAI,AACb;AAAC;;AALqB,QAAe,kBAKpC;AAED,iBAAuB,AAAY,MAAE,AAAS;;AAC5C,AAAE,AAAC,YAAC,AAAI,KAAC,AAAY,gBAAI,AAAI,AAAC,MAAC,AAAC;AAC9B,AAAM,AACR;AAAC;AAED,YAAI,AAAU,aAAkB,AAAI;AACpC,YAAI,AAAC;AACH,AAAU,yBAAG,MAAM,aAAQ,SAAC,AAAI,KAAC,AAAO,QAAC,AAAI,KAAC,AAAO,QAAC,AAAI,AAAC,OAAE,AAAS,AAAC,YAAE,AAAM,AAAC,AAClF;AACA,UAAA,AAAK,AAAC,OAAC,AAAO,AAAC,SAAC,AAAC;AACf,AAAM,AACR;AAAC;AAED,AAAI,aAAC,AAAY,eAAG,AAAU,WAC3B,AAAK,MAAC,AAAQ,AAAC,UACf,AAAG,IAAC,AAAE,MAAI,AAAE,GAAC,AAAO,QAAC,AAAU,YAAE,AAAE,AAAC,IAAC,AAAI,AAAE,AAAC,AACjD;AAAC;AAAA",
+  "sourcesContent": [
+    "import * as path from \"path\"\nimport { readJson, readFile } from \"fs-extra-p\"\n\n//noinspection JSUnusedLocalSymbols\nconst __awaiter = require(\"./awaiter\")\n\nconst normalizeData = require(\"normalize-package-data\")\n\nexport async function readPackageJson(file: string): Promise<any> {\n  const data = await readJson(file)\n  await authors(file, data)\n  normalizeData(data)\n  return data\n}\n\nasync function authors(file: string, data: any) {\n  if (data.contributors != null) {\n    return\n  }\n\n  let authorData: string | null = null\n  try {\n    authorData = await readFile(path.resolve(path.dirname(file), \"AUTHORS\"), \"utf8\")\n  }\n  catch (ignored) {\n    return\n  }\n\n  data.contributors = authorData\n    .split(/\\r?\\n/g)\n    .map(it => it.replace(/^\\s*#.*$/, \"\").trim())\n}"
+  ]
+}

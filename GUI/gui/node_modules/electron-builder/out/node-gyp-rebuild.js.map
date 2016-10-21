@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "node-gyp-rebuild.js",
+  "sourceRoot": "",
+  "sources": [
+    "../src/node-gyp-rebuild.ts"
+  ],
+  "names": [],
+  "mappings": ";;;AAEA,uBAAoD,AAAa,AACjE,AAAC;AAAD,0BAAkC,AAAgB,AAClD,AAAC;AAAD,MAAY,AAAI,eAAM,AAAM,AAC5B,AAAC;AAAD,MAAO,AAAK,gBAAW,AAAO,AAAC;AAC/B,kCAAgC,AAAwB,AACxD,AAAC;AAAD,sBAAoB,AAAY,AAGhC,AAAC;AADD,AAAmC;AACnC,MAAM,AAAS,YAAG,AAAO,QAAC,AAAgB,AAAC;AAE3C,MAAM,AAAI,aACP,AAAM,OAAC,AAAM;AACZ,AAAO,aAAE,CAAC,AAAM,QAAE,AAAK,OAAE,AAAQ,AAAC,AACnC,AAAC;AAFc,CADA,AAAK,EAGlB,AAAI;AAET,MAAM,AAAU,aAAG,AAAO,QAAC,AAAG,AAAE;AAChC,MAAM,AAAc,iBAAG,AAAI,KAAC,AAAI,KAAC,AAAU,YAAE,AAAc,AAAC;AAE5D;;AACE,cAAM,AAAI,OAAG,AAAI,KAAC,AAAI,QAAI,AAAO,QAAC,AAAI;AACtC,cAAG,AAAC,0CAAqC,AAAI,IAAE,AAAC;AAChD,qBAAU,KAAC,AAAO,QAAC,AAAQ,aAAK,AAAO,UAAG,AAAc,iBAAG,AAAU,YAAE,CAAC,AAAS,AAAC;AAChF,AAAG,iBAAE,OAAS,WAAC,MAAM,OAAkB,oBAAC,MAAM,kBAAe,gBAAC,AAAc,AAAC,kBAAE,AAAc,AAAC,kBAAE,AAAI,AAAC,AACtG,AAAC,AACJ;AAHsF,SAA9E;AAGP;AAAA;AAED,AAAI,AAAE,OACH,AAAK,MAAC,UAAiB,AAAC",
+  "sourcesContent": [
+    "#! /usr/bin/env node\n\nimport { getElectronVersion, exec, getGypEnv } from \"./util/util\"\nimport { printErrorAndExit } from \"./util/promise\"\nimport * as path from \"path\"\nimport yargs = require(\"yargs\")\nimport { readPackageJson } from \"./util/readPackageJson\"\nimport { log } from \"./util/log\"\n\n//noinspection JSUnusedLocalSymbols\nconst __awaiter = require(\"./util/awaiter\")\n\nconst args: any = yargs\n  .option(\"arch\", {\n    choices: [\"ia32\", \"x64\", \"armv7l\"],\n  }).argv\n\nconst projectDir = process.cwd()\nconst devPackageFile = path.join(projectDir, \"package.json\")\n\nasync function main() {\n  const arch = args.arch || process.arch\n  log(`Execute node-gyp rebuild for arch ${arch}`)\n  await exec(process.platform === \"win32\" ? \"node-gyp.cmd\" : \"node-gyp\", [\"rebuild\"], {\n    env: getGypEnv(await getElectronVersion(await readPackageJson(devPackageFile), devPackageFile), arch),\n  })\n}\n\nmain()\n  .catch(printErrorAndExit)"
+  ]
+}

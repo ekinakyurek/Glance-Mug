@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "build-cli.js",
+  "sourceRoot": "",
+  "sources": [
+    "../src/build-cli.ts"
+  ],
+  "names": [],
+  "mappings": ";;;AAEA,0BAAkC,AAAW,AAC7C,AAAC;AAAD,0BAAkC,AAAgB,AAClD,AAAC;AAAD,6BAA4B,AAAc,AAC1C,AAAC;AAAD,6BAAyB,AAAY,AACrC,AAAC;AAAD,MAAY,AAAI,eAAM,AAAM,AAC5B,AAAC;AAAD,wBAAwC,AAAO,AAE/C,AAAC;AAAD,MAAO,AAAc,yBAAW,AAAiB,AAAC;AAClD,sBAAqB,AAAY,AAEjC,AAAC;AAAD,AAAE,AAAC,IAAC,AAAO,QAAC,AAAG,IAAC,AAAE,MAAI,AAAI,QAAI,AAAO,QAAC,AAAG,IAAC,AAAkB,sBAAI,AAAI,AAAC,MAAC,AAAC;AACrE,iBAAQ,SAAC,AAAI,KAAC,AAAI,KAAC,AAAS,WAAE,AAAI,MAAE,AAAc,AAAC,AAAC,iBACjD,AAAI,KAAC,AAAE;AACN,cAAM,AAAQ,WAAG,AAAc,eAAC,EAAC,AAAG,KAAE,AAAE,AAAC,AAAC;AAC1C,AAAE,AAAC,YAAC,AAAQ,SAAC,AAAM,UAAI,AAAI,AAAC,MAAC,AAAC;AAC5B,AAAQ,qBAAC,AAAM;AACb,AAAO,AAAE,8CAAoB,QAAG,IAAC,AAAQ,SAAC,AAAM,OAAC,AAAO,AAAC,aAAG,QAAK,MAAC,AAAK,AAAC,WAAG,QAAK,MAAC,AAAQ,SAAC,AAAM,OAAC,AAAM,AAAC,mBAAU,QAAI,KAAC,AAAmC,AAAC,oCAAY,AACxK,AAAC,AACJ;AAHkB;AAGjB,AACH;AAAC,AAAC,OACD,AAAK,MAAC,AAAC,KAAI,MAAI,AAAC,+BAAyB,AAAC,CAAE,AAAC,AAAC,AACnD;AAAC;AAED,UAAK,AAAa,MAAC,aAAW,AAAE,cAAC,AAAI,AAAC,AAAC,MACpC,AAAK,MAAC,UAAiB,AAAC",
+  "sourcesContent": [
+    "#! /usr/bin/env node\n\nimport { build, CliOptions } from \"./builder\"\nimport { printErrorAndExit } from \"./util/promise\"\nimport { createYargs } from \"./cliOptions\"\nimport { readJson } from \"fs-extra-p\"\nimport * as path from \"path\"\nimport { dim, reset, green, cyan } from \"chalk\"\n\nimport updateNotifier = require(\"update-notifier\")\nimport { warn } from \"./util/log\"\n\nif (process.env.CI == null && process.env.NO_UPDATE_NOTIFIER == null) {\n  readJson(path.join(__dirname, \"..\", \"package.json\"))\n    .then(it => {\n      const notifier = updateNotifier({pkg: it})\n      if (notifier.update != null) {\n        notifier.notify({\n          message: `Update available ${dim(notifier.update.current)}${reset(\" → \")}${green(notifier.update.latest)} \\nRun ${cyan(\"npm i electron-builder --save-dev\")} to update`\n        })\n      }\n    })\n    .catch(e => warn(`Cannot check updates: ${e}`))\n}\n\nbuild(<CliOptions>(createYargs().argv))\n  .catch(printErrorAndExit)"
+  ]
+}

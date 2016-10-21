@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "install-app-deps.js",
+  "sourceRoot": "",
+  "sources": [
+    "../src/install-app-deps.ts"
+  ],
+  "names": [],
+  "mappings": ";;;AAEA,uBAAyF,AAAa,AACtG,AAAC;AAAD,0BAAkC,AAAgB,AAClD,AAAC;AAAD,MAAY,AAAI,eAAM,AAAM,AAC5B,AAAC;AAAD,2BAA2C,AAAU,AACrD,AAAC;AACD,MAAO,AAAK,gBAAW,AAAO,AAAC;AAC/B,kCAAgC,AAAwB,AAGxD,AAAC;AADD,AAAmC;AACnC,MAAM,AAAS,YAAG,AAAO,QAAC,AAAgB,AAAC;AAE3C,MAAM,AAAI,aACP,AAAM,OAAC,AAAM;AACZ,AAAO,aAAE,CAAC,AAAM,QAAE,AAAK,OAAE,AAAK,AAAC,AAChC,AAAC;AAFc,CADA,AAAK,EAGlB,AAAI;AAET,MAAM,AAAU,aAAG,AAAO,QAAC,AAAG,AAAE;AAChC,MAAM,AAAc,iBAAG,AAAI,KAAC,AAAI,KAAC,AAAU,YAAE,AAAc,AAAC;AAE5D;;AACE,cAAM,AAAW,cAAgB,MAAM,kBAAe,gBAAC,AAAc,AAAC;AACtE,cAAM,AAAO,UAAkB,MAAM,WAAe,QAAC,AAAG,IAAC,CACvD,OAA0B,2BAAC,AAAU,YAAE,OAAG,IAAC,AAAW,YAAC,AAAW,aAAE,AAAE,MAAI,AAAG,GAAC,AAAG,AAAC,AAAC,OACnF,OAAkB,mBAAC,AAAW,aAAE,AAAc,AAAC,AAChD,AAAC;AAEF,AAAE,AAAC,YAAC,AAAO,QAAC,AAAC,AAAC,OAAK,AAAU,AAAC,YAAC,AAAC;AAC9B,kBAAM,IAAI,AAAK,MAAC,AAAgE,AAAC,AACnF;AAAC;AAED,cAAM,OAAmB,oBAAC,AAAO,QAAC,AAAC,AAAC,IAAE,AAAO,QAAC,AAAC,AAAC,IAAE,AAAI,KAAC,AAAI,MAAE,AAAW,YAAC,AAAK,MAAC,AAAsB,2BAAK,AAAI,AAAC,AACjH;AAAC;AAAA;AAED,AAAI,AAAE,OACH,AAAK,MAAC,UAAiB,AAAC",
+  "sourcesContent": [
+    "#! /usr/bin/env node\n\nimport { computeDefaultAppDirectory, installDependencies, getElectronVersion, use } from \"./util/util\"\nimport { printErrorAndExit } from \"./util/promise\"\nimport * as path from \"path\"\nimport { Promise as BluebirdPromise } from \"bluebird\"\nimport { DevMetadata } from \"./metadata\"\nimport yargs = require(\"yargs\")\nimport { readPackageJson } from \"./util/readPackageJson\"\n\n//noinspection JSUnusedLocalSymbols\nconst __awaiter = require(\"./util/awaiter\")\n\nconst args: any = yargs\n  .option(\"arch\", {\n    choices: [\"ia32\", \"x64\", \"all\"],\n  }).argv\n\nconst projectDir = process.cwd()\nconst devPackageFile = path.join(projectDir, \"package.json\")\n\nasync function main() {\n  const devMetadata: DevMetadata = await readPackageJson(devPackageFile)\n  const results: Array<string> = await BluebirdPromise.all([\n    computeDefaultAppDirectory(projectDir, use(devMetadata.directories, it => it!.app)),\n    getElectronVersion(devMetadata, devPackageFile)\n  ])\n\n  if (results[0] === projectDir) {\n    throw new Error(\"install-app-deps is only useful for two package.json structure\")\n  }\n\n  await installDependencies(results[0], results[1], args.arch, devMetadata.build.npmSkipBuildFromSource !== true)\n}\n\nmain()\n  .catch(printErrorAndExit)"
+  ]
+}

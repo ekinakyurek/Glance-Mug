@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "",
+  "sources": [
+    "../src/index.ts"
+  ],
+  "names": [],
+  "mappings": ";;AAAA,yBAAyB,AACzB,AAAC;AADQ,8BAA4B;AAErC,8BAA2C,AAC3C,AAAC;AADQ,qCAAU;AAAE,yCAA+C;AACpE,wBAA+D,AAC/D,AAAC;AADsB,0BAAK;AAAc,kCAAgC;AAE1E,yBAA6H,AAC7H,AAAC;AADkC,8BAAQ;AAAE,0BAAI;AAAE,oCAAsF;AAEtE",
+  "sourcesContent": [
+    "export { Packager } from \"./packager\"\nexport { PackagerOptions, ArtifactCreated, BuildInfo } from \"./platformPackager\"\nexport { DIR_TARGET, DEFAULT_TARGET } from \"./targets/targetFactory\"\nexport { BuildOptions, build, CliOptions, createTargets } from \"./builder\"\nexport { PublishOptions, Publisher } from \"./publish/publisher\"\nexport { AppMetadata, DevMetadata, Platform, Arch, archFromString, BuildMetadata, LinuxBuildOptions, CompressionLevel } from \"./metadata\"\nexport { MacOptions, DmgOptions, MasBuildOptions } from \"./options/macOptions\"\nexport { WinBuildOptions, NsisOptions } from \"./options/winOptions\""
+  ]
+}
