@@ -8,62 +8,127 @@
     <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.fullPage.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+div#WikiData0{
+    text-align: center;
+}
+div#WikiData1{
+    text-align: center;
+}
+div#header0 {
+    height:28px;
+    background:rgba(128, 128, 128, 0.6) ;
+    width:100%;
+    margin:0px auto;
+    text-align: center;
+}
+div#header1 {
+    height:28px;
+    background: rgba(128, 128, 128, 0.6) ;
+    width:100%;
+    margin:0px auto;
+    text-align: center;
+}
+p#info0 {
+    font-size: 22px;
+    vertical-align: middle;
+    font-style: bold;
+    font-family: "Verdana";
+    color: #000;
+}
+p#info1 {
+    font-size: 48px;
+    font-style: bold;
+    font-family: "Verdana";
+    color: #000;
+}
+img{
+    width: 80%;
+    padding-top: 0;
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+</style>
 </head>
 <body>
     <script type="text/javascript">
         $(document).ready(function () {
             $('#fullpage').fullpage({
-                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-                scrollingSpeed: 100
+                sectionsColor: ['#1bbc9b', '#4BBFC3'],
+                paddingBottom: '20px',
+                controlArrows: false,
+                scrollBar: true,
+                responsiveWidth: 400,
+                scrollingSpeed: 1000
             });
         });
     </script>
     <script>
-        //Node Dependencies
+        'use strict'
+        var ee = require('electron').ipcRenderer;
         var net = require('net');
         var client = new net.Socket();
-        //create eventEmitter and gesture_recognizer objects.
-        var gesture = require("./node_modules/gesture.js")
-        var EventEmitter = require("events").EventEmitter;
-        var searchTerm = 'parrot'
-        //Potentiometer 1
-        var ee = new EventEmitter();
-        var gesture_recognizer = new gesture(1, 0, '4096', '860')
-        //Event handler functions
+        var searchTerm = 'parrot';
         var yandexTanslateURL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20161109T203752Z.31a66f7b078518f9.4cfb304a7f2d5dadbb4aa80ac4261c70258e5816&text="+searchTerm+"&lang=tr-en&format=json"
+        var onprocess = true;
         var searchTerm = "";
         var countClick = 0;
         var countSlideLeft = 0;
         var countSlideRight = 0;
         var countMoveSectionUp = 0;
         var countMoveSectionDown = 0;
-        // Get the API key from Google's developer console
-        // Get the CSE ID from google.com/cse
 
-        ee.on("swipe-up,0", function (data) {
+	ee.on("swipe-up,2", function (data) {
+	    countSlideRight++;
+	    console.log("2:swipe_up gesture is called, velocity:" + data);
+        $.fn.fullpage.moveSlideRight();
+	});
+       ee.on("swipe-up,0", function (data) {
             countSlideRight++;
             console.log("0:swipe_up gesture is called, velocity:" + data);
             $.fn.fullpage.moveSlideRight();
-        });
+       });
 
         ee.on("swipe-down,0", function (data) {
             countSlideLeft++;
             console.log("0:swipe_down gesture is called, velocity:" + data);
             $.fn.fullpage.moveSlideLeft();
-        });
+      });
+      //Second potentiometer
+      ee.on("swipe-up,1", function (data) {
+            countMoveSectionUp++;
+            console.log("1:swipe_up gesture is called, velocity:" + data);
+            $.fn.fullpage.moveSectionUp();
+      });
 
-        ee.on("click-event,0", function (data) {
+      ee.on("swipe-down,1", function (data) {
+            countMoveSectionDown++;
+            console.log("1:swipe_down gesture is called, velocity:" + data);
+            $.fn.fullpage.moveSectionDown();
+      });
+
+      ee.on("click-event,1", function (data) {
             countClick++;
-            console.log("0:click detected at point:" + data);
-            client.connect(10000, '127.0.0.1', function () {
-                console.log('Connected');
-                client.write('Start');
-            });
+            console.log("1:click detected at point:" + data);
+      });
+      ee.on("click-event,0", function (data) {
+                countClick++;
+                console.log("0:click detected at point:" + data);
+		if (onprocess) {
+                client.connect(10000, '127.0.0.1', function () {
+                    console.log('Connected');
+                    client.write('Start');
+                    onprocess = false;
+            	});
             client.on('data', function (data) {
+                onprocess = false;
                 console.log('Received: ' + data);
                 searchTerm = data.toString();
                 var KEY = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
@@ -77,7 +142,7 @@
                 var yandexTanslateURL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20161109T203752Z.31a66f7b078518f9.4cfb304a7f2d5dadbb4aa80ac4261c70258e5816&text="+searchTerm+"&lang=tr-en&format=json"
                 console.log(yandexTanslateURL)
                 // ----receive function----v
-
+                document.getElementById("info0").p = searchTerm;
                 $.getJSON(url, function (data) {
                     console.log(data)
                     for (var i = 0; i < 5; i++) {
@@ -106,7 +171,7 @@
                                             } else {
                                                 $(this).find("extract").each(function () {
                                                     var description = $(this).text();
-                                                    document.getElementById("info0").innerHTML = description
+                                                    document.getElementById("WikiData0").innerHTML = description
                                                     console.log(description)
                                                 });
                                             }
@@ -121,7 +186,8 @@
                         }
                     });
                 });
-                function getWikiEN() {
+
+		function getWikiEN() {
                     $.getJSON(yandexTanslateURL, function (data) {
                     console.log(data)
                         var translation = data.text[0];
@@ -137,7 +203,7 @@
                                         $(this).find("page").each(function () {
                                             $(this).find("extract").each(function () {
                                                 var description = $(this).text();
-                                                document.getElementById("info0").innerHTML = description
+                                                document.getElementById("WikiData0").innerHTML = description
                                             });
                                         });
                                     });
@@ -155,100 +221,85 @@
 
                 client.destroy(); // kill client after server's response
             });
-
-            client.on('close', function () {
-                console.log('Connection closed');
+		}
+                client.on('close', function () {
+                    console.log('Connection closed');
+                    onprocess = true
+                });
             });
-        });
-
-        //Second potentiometer
-        ee.on("swipe-up,1", function (data) {
-            countMoveSectionUp++;
-            console.log("1:swipe_up gesture is called, velocity:" + data);
-            $.fn.fullpage.moveSectionUp();
-        });
-
-        ee.on("swipe-down,1", function (data) {
-            countMoveSectionDown++;
-            console.log("1:swipe_down gesture is called, velocity:" + data);
-            $.fn.fullpage.moveSectionDown();
-        });
-
-        ee.on("click-event,1", function (data) {
-            countClick++;
-            console.log("1:click detected at point:" + data);
-        });
-
-        gesture_recognizer.startMultiChannelReading(ee,[0,1]);
-
-    </script>
+           
+</script>
 
     <div id="fullpage">
 
         <div class="section active" id="section0">
-            <div class="slide">
-                <div class="intro" id="info0">
+
+            <div id="header0"><p id="info0">Hello</p></div>
+            
+             <div class="slide">
+                <div class="intro" id="WikiData0">
                     <p>Hello</p>
                 </div>
-
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img0" src="1.png" />
+                    <img class="img-responsive" id="img0" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img1" src="1.png" />
+                    <img class="img-responsive" id="img1" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img2" src="1.png" />
+                    <img class="img-responsive" id="img2" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img3" src="1.png" />
+                    <img class="img-responsive" id="img3" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img4" src="1.png" />
+                    <img class="img-responsive" id="img4" src="1.jpg" />
                 </div>
             </div>
         </div>
 
         <div class="section" id="section1">
+
+            <div id="header0"><p id="info0">Hello</p></div>
+
             <div class="slide">
-                <div class="intro" id="info1">
+                <div class="intro" id="WikiData1">
                     <p>Hello</p>
                 </div>
 
-            </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img01" src="1.png" />
+                    <img class="img-responsive" id="img01" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img11" src="1.png" />
+                    <img class="img-responsive" id="img11" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img21" src="1.png" />
+                    <img class="img-responsive" id="img21" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img31" src="1.png" />
+                    <img class="img-responsive" id="img31" src="1.jpg" />
                 </div>
             </div>
             <div class="slide">
                 <div class="intro">
-                    <img class="img-responsive" id="img41" src="1.png" />
+                    <img class="img-responsive" id="img41" src="1.jpg" />
                 </div>
             </div>
         </div>

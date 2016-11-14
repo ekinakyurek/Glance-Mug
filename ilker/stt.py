@@ -1,5 +1,5 @@
-"""Google Cloud Speech API sample application using the REST API for batch
-processing."""
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import pyaudio
 import wave
@@ -19,6 +19,9 @@ import socket
 
 import signal
 import sys
+
+import subprocess
+import commands
 
 
 DISCOVERY_URL = ('https://{api}.googleapis.com/$discovery/rest?'
@@ -197,7 +200,39 @@ def messageHandler():
     #print(unicode(totalResult, 'unicode-escape'))
     print(totalResult)
     
-    return totalResult    
+    return totalResult
+
+def discarder(words):
+    ret = ""
+
+    for i in range(len(words)):
+        word = words[i].encode('utf-8')
+        print word
+
+        cmd = 'foma -e "load /home/pi/Desktop/TRmorph/trmorph.fst" -e "up {0}" -e "quit"'.format(word)
+        p = subprocess.Popen(cmd, shell=True, universal_newlines=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        out, err = p.communicate()
+        asd = out.split("\n")
+
+        print out
+
+        #TODO: use find with threads
+        if (("<N>" in asd[1]) or ("<N:" in asd[1])):
+            print "yess.."
+            a = asd[1]
+            b = a[0:a.find("<")]
+
+            if (len(ret) > 0):
+                ret = ret + ' '
+            ret = ret + b.decode('utf-8')
+        elif ("???" in asd[1]):
+            if (len(ret) > 0):
+                ret = ret + ' '
+            ret = ret + word.decode('utf-8')
+        else:
+            print "noo"
+
+    return ret
         
 def reader():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -221,6 +256,12 @@ def reader():
                     print('sending data back to the client')
                     
                     ret = messageHandler()
+                    #ret = "bir iki 12 simit oluyor sdfds"
+                    if (len(ret) > 0):
+                        ret = discarder(ret.split())
+
+                    print "Sending: " + ret
+
                     ascii_text = ret.encode('utf-8').strip()
 
                     if (len(ascii_text) == 0):
