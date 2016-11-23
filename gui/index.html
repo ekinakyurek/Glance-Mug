@@ -106,31 +106,31 @@
             
 
         ee.on("swipe-up,0", function (data) {
-                remote.getGlobal('sharedObj').countSlideRight = countSlideRight++ ;
+                //remote.getGlobal('sharedObj').countSlideRight = countSlideRight++ ;
                 console.log("0:swipe_up gesture is called, velocity:" + data);
                 $.fn.fullpage.moveSlideRight();
         });
 
         ee.on("swipe-down,0", function (data) {
-                remote.getGlobal('sharedObj').countSlideLeft = countSlideLeft++ ;
+                //remote.getGlobal('sharedObj').countSlideLeft = countSlideLeft++ ;
                 console.log("0:swipe_down gesture is called, velocity:" + data);
                 $.fn.fullpage.moveSlideLeft();
         });
         //Second potentiometer
         ee.on("swipe-up,1", function (data) {
-                remote.getGlobal('sharedObj').countMoveSectionUp = countMoveSectionUp++ ; 
+                //remote.getGlobal('sharedObj').countMoveSectionUp = countMoveSectionUp++ ; 
                 console.log("1:swipe_up gesture is called, velocity:" + data);
                 $.fn.fullpage.moveSectionUp();
         });
 
         ee.on("swipe-down,1", function (data) {
-                remote.getGlobal('sharedObj').countMoveSectionDown = countMoveSectionDown++;
+                //remote.getGlobal('sharedObj').countMoveSectionDown = countMoveSectionDown++;
                 console.log("1:swipe_down gesture is called, velocity:" + data);
                 $.fn.fullpage.moveSectionDown();
         });
 
         ee.on("click-event,0", function (data) {
-                    remote.getGlobal('sharedObj').countClick = countClick++;
+                   // remote.getGlobal('sharedObj').countClick = countClick++;
                     console.log("0:click detected at point:" + data);
             if (onprocess) {
                     client.connect(10000, '127.0.0.1', function () {
