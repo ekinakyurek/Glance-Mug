@@ -87,10 +87,10 @@
             var net = require('net');
             var remote = require('electron').remote;
             var countClick = 0;
-var countSlideLeft = 0;
-var countSlideRight = 0;
-var countMoveSectionUp = 0;
-var countMoveSectionDown = 0;
+            var countSlideLeft = 0;
+            var countSlideRight = 0;
+            var countMoveSectionUp = 0;
+            var countMoveSectionDown = 0;
             var client = new net.Socket();
             var searchTerm = 'parrot';
             var yandexTanslateURL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20161109T203752Z.31a66f7b078518f9.4cfb304a7f2d5dadbb4aa80ac4261c70258e5816&text="+searchTerm+"&lang=tr-en&format=json"

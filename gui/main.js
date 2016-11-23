@@ -7,7 +7,7 @@ const electron = require('electron');
 var gesture = require("./node_modules/gesture");
 //var EventEmitter = require("events").EventEmitter;
 //var ee = new EventEmitter();
-var gesture_recognizer = new gesture(1,0,'4096','860');
+var gesture_recognizer = new gesture(0,0,'4096','3300');
 // Create a global object that will be used as log data
 var fs = require('fs');
 global.sharedObj = 
@@ -16,8 +16,9 @@ global.sharedObj =
                   countMoveSectionUp: 0,
                   countMoveSectionDown: 0,
                   countClick: 0,
-                  searchterms: [],
-                  searchLinks: []
+                  searchTerms: [],
+                  imageSearchLinks: [],
+                  kgSearch: []
                 };
 
 // Module to control application life.
@@ -43,11 +44,12 @@ function createWindow () {
   mainWindow.on('closed', function () {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
-    // when you should delete the corresponding element.
+      // when you should delete the corresponding element.
+    gesture_recognizer.quit()  
     mainWindow = null
   })
 
-  // gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
+  gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
 }
 
 
