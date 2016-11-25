@@ -225,10 +225,14 @@ def foma_thread(word, index, totalW, totalR):
             if (GRAPH_ENABLED):
                 ret = word.decode('utf-8')
             retR = b.decode('utf-8')
+            if (GRAPH_ENABLED):
+                retR = retR + ",Noun"
         elif ("???" in asd[1]):
             if (GRAPH_ENABLED):
                 ret = word.decode('utf-8')
             retR = word.decode('utf-8')
+            if (GRAPH_ENABLED):
+                retR = retR + ",Noun"
         else:
             #print "noo"
             if (GRAPH_ENABLED):
@@ -236,6 +240,7 @@ def foma_thread(word, index, totalW, totalR):
                 b = a[0:a.find("<")]
                 ret = word.decode('utf-8')
                 retR = b.decode('utf-8')
+                retR = retR + ",Other"
 
     totalW[index] = ret
     totalR[index] = retR
@@ -294,8 +299,8 @@ def reader():
                 if (data == "Start"):
                     print('sending data back to the client')
                     
-                    ret = messageHandler()
-                    #ret = "bir iki 12 simit oluyor sdfds izliyorum filmlerinki fazlalar"
+                    #ret = messageHandler()
+                    ret = "bir iki 12 simit oluyor sdfds izliyorum filmlerinki fazlalar"
                     #ret = "  aç"
 
                     #print "|" + ret + "|"
