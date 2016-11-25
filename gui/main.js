@@ -1,25 +1,11 @@
 'use strict'
-//variables
-
-
-const electron = require('electron');
+const electron = require('electron')
 //initialization for gesture.js
-var gesture = require("./node_modules/gesture");
+var gesture = require("./node_modules/gesture")
 //var EventEmitter = require("events").EventEmitter;
 //var ee = new EventEmitter();
-var gesture_recognizer = new gesture(0,0,'4096','3300');
-// Create a global object that will be used as log data
-var fs = require('fs');
-global.sharedObj = 
-                { countSlideRight: 0,
-                  countSlideLeft: 0,
-                  countMoveSectionUp: 0,
-                  countMoveSectionDown: 0,
-                  countClick: 0,
-                  searchTerms: [],
-                  imageSearchLinks: [],
-                  kgSearch: []
-                };
+var gesture_recognizer = new gesture(1,0,'4096','860')
+
 
 // Module to control application life.
 const app = electron.app
@@ -44,12 +30,11 @@ function createWindow () {
   mainWindow.on('closed', function () {
     // Dereference the window object, usually you would store windows
     // in an array if your app supports multi windows, this is the time
-      // when you should delete the corresponding element.
-    gesture_recognizer.quit()  
+    // when you should delete the corresponding element.
     mainWindow = null
   })
 
-  gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
+   gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
 }
 
 
@@ -65,14 +50,6 @@ app.on('window-all-closed', function () {
   if (process.platform !== 'darwin') {
     app.quit()
   }
-  var json = JSON.stringify(sharedObj);
-  fs.writeFile("logfile.json", json, function(err) {
-    if(err) {
-        return console.log(err);
-    }
-
-    console.log("The file was saved!");
-}); 
 })
 
 app.on('activate', function () {
