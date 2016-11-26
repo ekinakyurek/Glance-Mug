@@ -14,17 +14,19 @@ root_sentence = "orhan baba yeni kaset dinle";
 //root_sentence = "hiç tübitak kodlama yap mı"
 //root_sentence = "açlık oyunları izle mi";
 var test_input = test_sentence.split(" ").concat(root_sentence.split(" "));
-
+test_input = "orhan babanın yeni kasetini dinledim orhan,Noun baba,Noun yeni,Other kaset,Noun dinle,Other";
+//test_input = "bir iki 12 simit oluyor sdfds izliyorum filmlerinki fazlalar bir,Other iki,Other 12,Other simit,Noun ol,Other sdfds,Noun izle,Other film,Noun "
 
 
 var https = require('https')
 var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
 var api_host = 'kgsearch.googleapis.com';
+
 var main = function (test_input, event_emitter) {
 
 	var words = [];
 	var roots = [];
-
+	var roots_type = [];
 	var isSomethingFound = false;
 
 	var search_word = function (phrase, callback, limit) {
@@ -75,9 +77,19 @@ var main = function (test_input, event_emitter) {
 //testing
 // search_word('google', function(result, response){});
 
-	var init_state_machine = function (input_array) {
+	var init_state_machine = function (input) {
+		var input_array = input.split(" ");
 		words = input_array.slice(0, input_array.length / 2);
-		roots = input_array.slice(input_array.length / 2, input_array.length);
+		var temp_roots = input_array.slice(input_array.length / 2, input_array.length);
+
+		for (var i = 0; i < temp_roots.length; i++) {
+			var root_and_type = temp_roots[i].split(',');
+
+			roots_type.push(root_and_type[1]);
+		    roots.push(root_and_type[0]);
+		}
+
+
 		first_search(0);
 	}
 
@@ -88,8 +100,9 @@ var main = function (test_input, event_emitter) {
 					if (index + 1 < words.length) {
 						iterasyon(result, score, index + 1, words[index])
 					} else {
-						if (score > 50) {
+						if (roots_type[index]=='Noun') {
 							console.log(result.name)
+							isSomethingFound = true
 						} else {
 							//save for causion
 						}
@@ -145,11 +158,12 @@ var main = function (test_input, event_emitter) {
 
 	var matching = function (result, score, index, phrase) {
 		var words_unreached = words.slice(index, words.length)
-
+       // console.log(result)
 		var result_unreached = result.name.toLowerCase().replace(phrase, '').split(" ").splice(1)
 
 		var found = false;
 
+		var last_index = index;
 
 		for (var i = 0; i < result_unreached.length; i++) {
 
@@ -177,7 +191,7 @@ var main = function (test_input, event_emitter) {
 
 		}
 
-		if (phrase.split(" ").length == 1 && score < 50) {
+		if (phrase.split(" ").length == 1 && roots_type[last_index] == 'Noun') {
 			//save for causion
 		} else {
 			console.log(result)
