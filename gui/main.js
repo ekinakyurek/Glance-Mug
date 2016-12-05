@@ -2,8 +2,8 @@
 const electron = require('electron')
 //initialization for gesture.js
 var gesture = require("./node_modules/gesture")
-//var EventEmitter = require("events").EventEmitter;
-//var ee = new EventEmitter();
+var EventEmitter = require("events").EventEmitter;
+var ee = new EventEmitter();
 var gesture_recognizer = new gesture(1,0,'4096','860')
 
 
@@ -34,7 +34,7 @@ function createWindow () {
     mainWindow = null
   })
 
-   gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
+  gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
 }
 
 
