@@ -32,4 +32,15 @@ ee.on("swipe-down,1", function (data) {
 ee.on("click-event,1", function (data) {
     console.log("1:click detected at point:" + data);
 });
-gesture_recognizer.startMultiChannelReading(ee,[0,1]);
+ee.on("swipe-up,2", function (data) {
+	    console.log("2:swipe_up gesture is called, velocity:" + data);
+});
+
+ee.on("swipe-down,2", function (data) {
+	    console.log("2:swipe_down gesture is called, velocity:" + data);
+});
+
+ee.on("click-event,2", function (data) {
+	    console.log("2:click detected at point:" + data);
+});
+gesture_recognizer.startMultiChannelReading(ee,[0,1,2]);

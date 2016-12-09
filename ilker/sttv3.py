@@ -299,15 +299,15 @@ def reader():
                 if (data == "Start"):
                     print('sending data back to the client')
                     
-                    #ret = messageHandler()
-                    ret = "bir iki 12 simit oluyor sdfds izliyorum filmlerinki fazlalar"
+                    ret = messageHandler()
+                    #ret = "bir iki 12 simit oluyor sdfds izliyorum filmlerinki fazlalar"
                     #ret = "  aç"
 
                     #print "|" + ret + "|"
                     if (len(ret.strip()) > 0):
                         ret = discarder(ret.split(" "))
 
-                    #print "Sending: " + ret
+                    print "Sending: " + ret
 
                     ascii_text = ret.encode('utf-8').strip()
 

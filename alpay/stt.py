@@ -201,7 +201,7 @@ def messageHandler():
         
 def reader():
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = ('localhost', 10000)
+    server_address = ('localhost', 51381)
     
     print('starting up on %s port %s' % server_address)
     
@@ -215,7 +215,7 @@ def reader():
         try:
             print('connection from', client_address)
             while True:
-                data = connection.recv(10000)
+                data = connection.recv(51381)
                 print('received "%s"' % data)
                 if (data == "Start"):
                     print('sending data back to the client')
