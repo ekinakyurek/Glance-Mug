@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>I am a Mug</title>
+    <meta name="author" content="Design Lab KUAR" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="examples.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+                anchors: ['start-info', 'about-info', 'service-info', 'actual-info', 'contact-info'],
+                menu: '#menu',
+                scrollingSpeed: 1000
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        //Node Dependencies
+        var net = require('net');
+        var client = new net.Socket();
+        //create eventEmitter and gesture_recognizer objects.
+        var gesture = require("./node_modules/gesture")
+        var EventEmitter = require("events").EventEmitter;
+        var stringdata = "parrot""
+        //Potentiometer 1
+        var ee = new EventEmitter();
+        var gesture_recognizer = new gesture(1, 2, '10000', '860')
+        //Event handler functions
+
+        function listenPy(){
+            var searchTerm;
+            client.connect(10000, '127.0.0.1', function () {
+                console.log('Connected');
+                client.write('Start');
+            });
+            client.on('data', function (data) {
+                console.log('Received: ' + data);
+                console.log(data)
+                client.destroy(); // kill client after server's response
+                searchTerm = data;
+            });
+            client.on('close', function() {
+	            console.log('Connection closed');
+            });
+        }
+    
+        ee.on("swipe-up", function (data) {
+            $.fn.fullpage.moveSlideRight();
+                var searchTerm = listenPy()
+                var startIndex = '1';
+                var KEY = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+                var CX = '007548910499588559159:lepkrgs8oig';
+                var count = '5';
+                var format = 'json';
+
+                // Get the API key from Google's developer console
+                // Get the CSE ID from google.com/cse
+
+                var url = "https://www.googleapis.com/customsearch/v1?q=" + searchTerm + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
+                var texturl = "https://en.wikipedia.org/w/api.php?format=" + format + "&action=query&prop=extracts&exintro=&explaintext=&titles=" + searchTerm;
+                //var obj = JSON.parse(api);
+                //console.log(obj.items.link)
+                console.log("Url of image search: " + url)
+                console.log("Url of text search: " + texturl)
+
+                // ----receive function----v
+
+                $.getJSON(url, function (data) {
+                    console.log(data)
+                    for (var i = 0; i < 5; i++) {
+                        console.log(data.items[i].link)
+                    }
+                    document.getElementById("img0").src = data.items[0].link;
+                    document.getElementById("img1").src = data.items[1].link;
+                    document.getElementById("img2").src = data.items[2].link;
+                    document.getElementById("img3").src = data.items[3].link;
+                    document.getElementById("img4").src = data.items[4].link;
+                });
+
+                var dbpediaurl = "http://lookup.dbpedia.org/api/search.asmx/KeywordSearch?QueryString=" + searchTerm + "&MaxHits=1";
+                console.log("Url of dbpedia search: " + dbpediaurl)
+
+                $(function () {
+                    $.ajax({
+                        type: "get",
+                        url: dbpediaurl,
+                        dataType: "xml",
+                        success: function (data) {
+                            $(data).find('ArrayOfResult').each(function () {
+                                $(this).find("Result").each(function () {
+                                    $(this).find("Description").each(function () {
+                                        var description = $(this).text();
+                                        document.getElementById("info").innerHTML = description
+                                    });
+                                });
+                            });
+                        },
+                        error: function (xhr, status) {
+                            /* handle error here */
+                            $("#show_table").html(status);
+                        }
+                    });
+                });
+            });
+        
+
+        ee.on("swipe-down", function (data) {
+            $.fn.fullpage.moveSlideLeft();
+        });
+
+        gesture_recognizer.startReading(ee)
+
+    </script>
+
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <h1>fullPage.js</h1>
+            <input type="hidden" name="id" value="1" />
+            <p>Create Beautiful Fullscreen Scrolling Websites</p>
+            <img src="imgs/fullPage.png" alt="fullPage" />
+        </div>
+        <div class="section active" id="section1">
+            <div class="slide">
+                <div class="intro" id="info">
+                    <p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
+                </div>
+
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img0" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img1" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img2" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img3" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img5" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section2">
+            <div class="slide">
+                <div class="intro" id="info">
+                    <p>Not only vertical scrolling but also horizontal scrolling. With fullPage.js you will be able to add horizontal sliders in the most simple way ever.</p>
+                </div>
+
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img0" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img1" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img2" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img3" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img id="img5" src="imgs/1.png" alt="simple" />
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>Working On Tablets</h1>
+                <p>
+                    Designed to fit to different screen sizes as well as tablet and mobile devices.
+                    <br /><br /><br /><br /><br /><br />
+                </p>
+            </div>
+            <img src="imgs/tablets.png" alt="tablets" />
+        </div>
+    </div>
+
+</body>
+</html>

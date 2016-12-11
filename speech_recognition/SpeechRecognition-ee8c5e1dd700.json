@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "sharp-gecko-139117",
+  "private_key_id": "ee8c5e1dd7004933ed28bcbd4577808fe255ff9f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCngKQWpnj9NRvh\nVbaA4XjsgnhrTLE4cuoX0hchhoIdmNDlQ/roEU7DuX/4QNXWJ8nIUOdxvzo8QucK\nxsQA93gTvsaq+kPn0sSeoSSH84XyD4fWMpwqP3bszTR5YeF87tMLJiUQ7O3eR7fd\nXCvXhwVgWpH31pZdbIeG5LBTkA5aKtBCSoeM/BCbony30ysHULfpLGATxXptPHDX\nn2uzeH6Q9+SR8FFZDjnnPEjXNNNhismvP7qJg6Pv1h4B6++vgiKfebnZB2epEOiX\nXeraT4xmKUf7uJmMqxjDCc/PlF0UdCVMnOMXTgvsEPZoSGpmBbUikNozn9pYv5+f\nGzCwjYvbAgMBAAECggEAGeia+OntAvVpB5SzcwHtK2AO8kHdk6aqsN6NN2FP1PYj\nMaMvNyAeN8YElkipCsQCwRpKglyazGFozVDrVl7w0tUKc73cLQp74TF5rhGr4UIn\nt6kCYMKKSZyABlpuf12NhUb0KscLD/u14+Zy3ZaD7WB0/YnSnkbAO8w5veMlZSrD\n/2wFGzeTzf1qpQ1EEJaQHbv/wzSe/RSGV/r64vujGTOtgluxsdggCn4ld1p3Ve3n\nD74MWvn6tvj0z8MmHnL9eAjn5N6lGCwXwsX5wfPj0uCiDvUsXcpirKOTik9gu4QJ\nnYrBUqmtrDlOGfDAt0BFSp17SU58oJPI3L7WZoPGMQKBgQDaT+K/MDYy9y7BQS/d\nZAkYKOBKWlDiFCfT8YpB6klUoTXT2895Zf5mWBru8QLum4HCo+NWyBbH87b4/mOG\nijXneXe8eSATvt69nKf72lxTGomVE+rYXb8T9raNSQEnCGpigzemrmg4RitaggNl\nLkac2R7YDz9WGYgozC86WpNMEwKBgQDEa0VMLrE7krFi9iXQJ351PbsjtcI4l58r\nxfONsRQj1EMYabrQ49aUFIRseTm68WPxNWf0G18hAVuIS2Gsjw8RYLBLdzmH0QNS\nyHY6w4A4/4wT/gV7aEe0UB6gPwhQHKLFjM08Rd7SqmSHCJF5FUZq3tQfarcWy122\ngExT8ZAqGQKBgFi1OUfCyWMwOZlhaZemPGPKyEiuJkuXMQ/YB/v8vUtcLkkl+koz\n/YmMp3UMDcry+Wkjuw7aQxeAmorWo45ZvsmN++9jsHsVheC6NTALbJSAJgOjkjvU\n6/2qtEb4sTUxIDljZEugdszXBmrChaqpgRvexb+5glz0BvW88jvd7hhtAoGBAK+g\nFuNKcLCKts98tkzLs3fTTYxdjZ8ae3khU2ejKRXsSl3+08rJnejj+5AeSK9N/YYE\nscGD4+hYFWbluB0aAWgRYzDnFurIycbwdT6P5guQ+8g4fuBcWpjwdqHkGmO/Zw9q\nmWxGMTl+n8pZr/FrQ351ZYf93F2mU1HGn/kC6lupAoGAbnhGrfKikXAaTk4O4xUI\nJCbMtyNZ6BRqfntv3UJQ7jSxcNxmkmTGaOr2l8Qtey5+ewOkiPB+Nxt8EoIl+roH\nL6sP+1kJjWmvMb5zz1CPFy3//LRcjGV4qnT15Qov6SuIXFabZh/8lfYAfEl7BfmP\nBmyUqPogz+GhQRItIU63cGM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "forspeechrecognition@sharp-gecko-139117.iam.gserviceaccount.com",
+  "client_id": "106459636568485550199",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forspeechrecognition%40sharp-gecko-139117.iam.gserviceaccount.com"
+}

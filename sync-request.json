@@ -1,0 +1,9 @@
+{
+  "config": {
+      "encoding":"FLAC",
+      "sample_rate": 16000
+  },
+  "audio": {
+      "uri":"gs://my-voice/ahmetb25.flac"
+  }
+}
