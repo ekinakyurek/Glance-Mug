@@ -10,7 +10,7 @@ var adc = new ads1x15(chip);
 
 //    var adc = new ads1x15(chip, 0x48, 'dev/i2c-0');
 
-var channel = 1; //channel 0, 1, 2, or 3...
+var channel = 0; //channel 0, 1, 2, or 3...
 var samplesPerSecond = '860'; // see index.js for allowed values for your chip
 var progGainAmp = '4096'; // see index.js for allowed values for your chip
 var gestureArray = [];
@@ -37,8 +37,8 @@ if(!adc.busy){
 
 var readinglopp = function(){
     adc.getLastConversionResults(progGainAmp,function(err,data){
-        data /= 3200
-	data = data<0 ? 0:data
+        data /= 800
+	data = data
         gestureArray.push([gestureArray.length,data])
         console.log(data)
         if(gestureArray.length%20==0){
