@@ -13,10 +13,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style type="text/css">
-        ::-webkit-scrollbar {
-            display: none;
+        ::-webkit-scrollbar { 
+            display: none; 
         }
-
         div#WikiData0 {
             text-align: center;
         }
@@ -33,11 +32,11 @@
             text-align: center;
         }
 
-        p#articleBody0 {
+        p#WikiData0{
             color: #FFF;
         }
 
-        p#desc0 {
+        p#desc0{
             color: #FFF;
             font-weight: bold;
         }
@@ -70,7 +69,7 @@
                 autoScrolling: false,
                 scrollBar: false,
                 responsiveWidth: 400,
-                scrollingSpeed: 500
+                scrollingSpeed: 300
             });
         });
     </script>
@@ -100,8 +99,6 @@
         var api_host = 'kgsearch.googleapis.com';
         var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
         var resultStorage = [];
-        var imageArray = [];
-        var imgcnt = 0;
 
         //For logging/////
         var fs = require('fs');
@@ -119,25 +116,25 @@
         };
         ////////////////////
 
-        ee.on("swipe-up,2", function (data) {
+        ee.on("swipe-down,2", function (data) {
             countSlideRight++;
-            //console.log("0:swipe_up gesture is called, velocity:" + data);
+            console.log("0:swipe_up gesture is called, velocity:" + data);
             $.fn.fullpage.moveSlideRight();
         });
-        ee.on("swipe-down,1", function (data) {
+        ee.on("swipe-up,1", function (data) {
             countSlideRight++;
-            // console.log("0:swipe_up gesture is called, velocity:" + data);
+            console.log("0:swipe_up gesture is called, velocity:" + data);
             $.fn.fullpage.moveSlideRight();
         });
 
-        ee.on("swipe-down, 2", function (data) {
+        ee.on("swipe-up, 2", function (data) {
             countMoveSectionDown++;
-            // console.log("1:swipe_down gesture is called, velocity:" + data);
+            console.log("1:swipe_down gesture is called, velocity:" + data);
             $.fn.fullpage.moveSlideLeft();
         });
-        ee.on("swipe-up,1", function (data) {
+        ee.on("swipe-down,1", function (data) {
             countMoveSectionDown++;
-            // console.log("1:swipe_down gesture is called, velocity:" + data);
+            console.log("1:swipe_down gesture is called, velocity:" + data);
             $.fn.fullpage.moveSlideLeft();
         });
 
@@ -152,23 +149,29 @@
             console.log("0:swipe_down gesture is called, velocity:" + data);
             console.log("before swipe down count is: " + cnt)
             try {
-                if (resultStorage[cnt] === undefined) {
+                if (resultStorage[cnt] == "undefined") {
                     console.log('Nothing there')
                 } else {
                     document.getElementById("info0").innerHTML = resultStorage[cnt - 3];
                     document.getElementById("desc0").innerHTML = resultStorage[cnt - 2];
                     document.getElementById("WikiData0").innerHTML = resultStorage[cnt - 1];
-                    document.getElementById("img0").src = imageArray[imgcnt - 5];
-                    document.getElementById("img1").src = imageArray[imgcnt - 4];
-                    document.getElementById("img2").src = imageArray[imgcnt - 3];
-                    document.getElementById("img3").src = imageArray[imgcnt - 2];
-                    document.getElementById("img4").src = imageArray[imgcnt - 1];
+                    var url = "https://www.googleapis.com/customsearch/v1?q=" + resultStorage[cnt] + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
+                    $.getJSON(url, function (data) {
+                        console.log(data)
+                        for (var i = 0; i < 5; i++) {
+                            console.log(data.items[i].link)
+                        }
+                        document.getElementById("img0").src = data.items[0].link;
+                        document.getElementById("img1").src = data.items[1].link;
+                        document.getElementById("img2").src = data.items[2].link;
+                        document.getElementById("img3").src = data.items[3].link;
+                        document.getElementById("img4").src = data.items[4].link;
+                    });
                 }
             } catch (err) {
                 console.log(err)
             }
             cnt = cnt - 3;
-            imgcnt = imgcnt - 5;
             my_console_log("after swipe down count is: " + cnt)
         });
         //Second potentiometer
@@ -179,23 +182,29 @@
             console.log("1:swipe_up gesture is called, velocity:" + data);
             console.log("before swipe up count is: " + cnt)
             try {
-                if (resultStorage[cnt] === undefined) {
+                if (resultStorage[cnt] == "undefined") {
                     console.log('Nothing there')
                 } else {
                     document.getElementById("info0").innerHTML = resultStorage[cnt];
                     document.getElementById("desc0").innerHTML = resultStorage[cnt + 1];
                     document.getElementById("WikiData0").innerHTML = resultStorage[cnt + 2];
-                    document.getElementById("img0").src = imageArray[imgcnt].link;
-                    document.getElementById("img1").src = imageArray[imgcnt + 1];
-                    document.getElementById("img2").src = imageArray[imgcnt + 2];
-                    document.getElementById("img3").src = imageArray[imgcnt + 3];
-                    document.getElementById("img4").src = imageArray[imgcnt + 4];
+                    var url = "https://www.googleapis.com/customsearch/v1?q=" + resultStorage[cnt] + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
+                    $.getJSON(url, function (data) {
+                        console.log(data)
+                        for (var i = 0; i < 5; i++) {
+                            console.log(data.items[i].link)
+                        }
+                        document.getElementById("img0").src = data.items[0].link;
+                        document.getElementById("img1").src = data.items[1].link;
+                        document.getElementById("img2").src = data.items[2].link;
+                        document.getElementById("img3").src = data.items[3].link;
+                        document.getElementById("img4").src = data.items[4].link;
+                    });
                 }
             } catch (err) {
                 console.log(err)
             }
             cnt = cnt + 3;
-            imgcnt = imgcnt + 5;
             my_console_log("after swipe up count is: " + cnt)
 
         });
@@ -495,7 +504,6 @@
                             if (debug) my_console_log('finish')
                             if (!isSomethingFound) {
                                 cnt = 0;
-                                imgcnt = 0;
                                 console.log('Nothing found');
                                 document.getElementById("info0").innerHTML = "Nothing Here";
                                 document.getElementById("desc0").innerHTML = "I couldn't find anytihng";
@@ -538,9 +546,7 @@
                     kg_ee.on("result", function (data) {
                         console.log("before result count is: " + cnt)
                         cnt = 0
-                        imgcnt = 0;
-                        resultStorage = [];
-                        imageArray = [];
+                        resultStorage=[]
                         try {
                             resultStorage.push(data.name);
                             resultStorage.push(data.description);
@@ -556,6 +562,9 @@
                         var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
                         $.getJSON(url, function (data) {
                             console.log(data)
+                            for (var i = 0; i < 5; i++) {
+                                console.log(data.items[i].link)
+                            }
                             document.getElementById("img0").src = data.items[0].link;
                             document.getElementById("img1").src = data.items[1].link;
                             document.getElementById("img2").src = data.items[2].link;
@@ -564,18 +573,7 @@
                         });
                         dataLength = resultStorage.length;
                         cnt = 3;
-                        imgcnt = 5;
                         my_console_log("after result count is: " + cnt)
-                        for (var i = 0 ; i < dataLength ; i + 3) {
-                            var search_name = resultStorage[i];
-                            var url = "https://www.googleapis.com/customsearch/v1?q=" + search_name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
-                            $.getJSON(url, function (data) {
-                                for (var j = 0; j < 5; j++) {
-                                    imageArray.push(data.items[i].link)
-                                }
-                            });
-
-                        }
                     });
                     client.destroy(); // kill client after server's response
                 });

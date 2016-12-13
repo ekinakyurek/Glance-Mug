@@ -5,7 +5,7 @@ var fs = require('fs');
 var util = require('util');
 var log_file = fs.createWriteStream(__dirname + '/debug.log', {flags : 'w'});
 var log_stdout = process.stdout;
-
+console.time("websearch");
 var my_console_log = function(d) { //
 	if (util!=null) {
 		log_file.write(util.format(d) + '\n');
@@ -287,6 +287,7 @@ var main = function (test_input, my_event_emitter) {
 
 
 	var finish = function () {
+		console.timeEnd("websearch");
 		if (debug) my_console_log('finish')
 		if (!isSomethingFound) {
 		if (debug)	my_console_log('Nothing found');
