@@ -82,7 +82,6 @@
         var net = require('net');
         var client = new net.Socket();
         var event_emitter = require('events').EventEmitter;
-        var kg_ee = new event_emitter();
 
         var countClick = 0;
         var countSlideLeft = 0;
@@ -105,15 +104,14 @@
         var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
         var resultStorage = [];
         var imageArray = [];
+        var imgcnt = 0;
 
         var fs = require('fs');
         var util = require('util');
         var log_file = fs.createWriteStream(__dirname + '/debug.log', { flags: 'w' });
         var log_stdout = process.stdout;
 
-
-        
-	var my_console_log = function (d) { //
+        var my_console_log = function (d) { //
             if (util != null) {
                 log_file.write(util.format(d) + '\n');
                 log_stdout.write(util.format(d) + '\n');
@@ -122,30 +120,27 @@
             }
         };
 
-        ee.on("swipe-down,1", function (data) {
+        ee.on("swipe-up,2", function (data) {
             countSlideRight++;
             my_console_log("1: slide right gesture is called");
             $.fn.fullpage.moveSlideRight();
         });
-
-        ee.on("swipe-up,2", function (data) {
+        ee.on("swipe-down,1", function (data) {
             countSlideRight++;
-            my_console_log("2: slide right gesture is called");
+            my_console_log("1: lide right gesture is called");
             $.fn.fullpage.moveSlideRight();
         });
 
+        ee.on("swipe-down, 2", function (data) {
+            countSlideLeft++;
+            my_console_log("2: slide left gesture is called");
+            $.fn.fullpage.moveSlideLeft();
+        });
         ee.on("swipe-up,1", function (data) {
             countSlideLeft++;
             my_console_log("1: slide left gesture is called");
             $.fn.fullpage.moveSlideLeft();
         });
-
-        ee.on("swipe-down,2", function (data) {
-            countSlideLeft++;
-            my_console_log("2: slide left gesture is called");
-            $.fn.fullpage.moveSlideLeft();
-        });
-
 
         var handle_section_changes = function(direction){
             if(!direction){
@@ -187,6 +182,8 @@
             handle_section_changes(true)
         });
 
+
+        var https = require('https')
         var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
         var api_host = 'kgsearch.googleapis.com';
 
@@ -483,10 +480,14 @@
         }
 
         ee.on("click-event,2", function (data) {
+
             my_console_log("2:click detected at point:" + data);
             countClick++;
+
             if (!onprocess) {
+
                 onprocess = true;
+
                 document.getElementById("desc0").innerHTML = "ARIYORUM";
 
                 client.connect(10000, 'localhost', function () {
@@ -510,17 +511,12 @@
                     //var yandexTanslateURL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20161109T203752Z.31a66f7b078518f9.4cfb304a7f2d5dadbb4aa80ac4261c70258e5816&text=" + searchTerm + "&lang=tr-en&format=json"
                     // my_console_log(yandexTanslateURL)
                     // ----receive function----v
-		
 
-		   
-                  if(test_input != ''){
+                    var kg_ee = new event_emitter();
                     main(test_input, kg_ee)
-                            var received_result_no = 0;
-                  }else{
-                    kg_ee.emit('error', "NothingFound");
-                  }
+                    var received_result_no = 0;
 
-                  kg_ee.on("result", function (data) {
+                    kg_ee.on("result", function (data) {
                         var name = data.name || data.description;
                         var description = data.description || data.detailedDescription.articleBody;
 
@@ -530,29 +526,21 @@
                             imageArray.length = 0;
                             resultStorage.push(data);
 
+
                             document.getElementById("info0").innerHTML = name;
                             document.getElementById("desc0").innerHTML = description;
                             document.getElementById("WikiData0").innerHTML = data.detailedDescription.articleBody;
-
-                            var url = "https://www.googleapis.com/customsearch/v1?q=" + name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
-
-                            $.getJSON(url, function (data) {
-                                document.getElementById("img0").src = data.items[0].link;
-                                document.getElementById("img1").src = data.items[1].link;
-                                document.getElementById("img2").src = data.items[2].link;
-                                document.getElementById("img3").src = data.items[3].link;
-                                document.getElementById("img4").src = data.items[4].link;
-                            });
                         }else{
-                                resultStorage.push(data);
+                            resultStorage.push(data);
                         }
 
                         received_result_no++;
+
                         var url = "https://www.googleapis.com/customsearch/v1?q=" + name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
-                        my_console_log('Image Search URL: '+ url)
+
                         $.getJSON(url, function (data) {
                             console_log(data)
-                            if(received_result_no) {
+                            if(received_result_no == 0) {
                                 document.getElementById("img0").src = data.items[0].link;
                                 document.getElementById("img1").src = data.items[1].link;
                                 document.getElementById("img2").src = data.items[2].link;
