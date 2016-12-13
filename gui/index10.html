@@ -1,0 +1,630 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=240, initial-scale=1">
+    <title>I am a Mug</title>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        div#WikiData0 {
+            text-align: center;
+        }
+
+        div#WikiData1 {
+            text-align: center;
+        }
+
+        div#header0 {
+            height: 28px;
+            background: rgba(128, 128, 128, 0.6);
+            width: 100%;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        p#articleBody0 {
+            color: #FFF;
+        }
+
+        p#desc0 {
+            color: #FFF;
+            font-weight: bold;
+        }
+
+        p#info0 {
+            color: #FFF;
+            vertical-align: middle;
+            font-style: bold;
+            font-family: "Verdana";
+        }
+
+        img {
+            width: 80%;
+            padding-top: 0;
+            display: block;
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#000'],
+                paddingBottom: '20px',
+                controlArrows: false,
+                loopHorizontal: false,
+                autoScrolling: false,
+                scrollBar: false,
+                responsiveWidth: 400,
+                scrollingSpeed: 500
+            });
+        });
+    </script>
+    <script>
+        'use strict'
+        var ee = require('electron').ipcRenderer;
+        var net = require('net');
+        var remote = require('electron').remote;
+        var https = require('https')
+        var countClick = 0;
+        var countSlideLeft = 0;
+        var countSlideRight = 0;
+        var countMoveSectionUp = 0;
+        var countMoveSectionDown = 0;
+        var client = new net.Socket();
+        var cnt = 0;
+        var dataLength = 0;
+        var count = '5';
+        var format = 'xml';
+        var startIndex = '1';
+        var onprocess = true;
+        var debug = true;
+        var searchTerm = "";
+        var idCount = 0;
+        var KEY = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+        var CX = '007548910499588559159:lepkrgs8oig';
+        var api_host = 'kgsearch.googleapis.com';
+        var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+        var resultStorage = [];
+        var imageArray = [];
+        var imgcnt = 0;
+
+        //For logging/////
+        var fs = require('fs');
+        var util = require('util');
+        var log_file = fs.createWriteStream(__dirname + '/debug.log', { flags: 'w' });
+        var log_stdout = process.stdout;
+
+        var my_console_log = function (d) { //
+            if (util != null) {
+                log_file.write(util.format(d) + '\n');
+                log_stdout.write(util.format(d) + '\n');
+            } else {
+                console.log(d);
+            }
+        };
+        ////////////////////
+
+        ee.on("swipe-up,2", function (data) {
+            countSlideRight++;
+            //console.log("0:swipe_up gesture is called, velocity:" + data);
+            $.fn.fullpage.moveSlideRight();
+        });
+        ee.on("swipe-down,1", function (data) {
+            countSlideRight++;
+            // console.log("0:swipe_up gesture is called, velocity:" + data);
+            $.fn.fullpage.moveSlideRight();
+        });
+
+        ee.on("swipe-down, 2", function (data) {
+            countMoveSectionDown++;
+            // console.log("1:swipe_down gesture is called, velocity:" + data);
+            $.fn.fullpage.moveSlideLeft();
+        });
+        ee.on("swipe-up,1", function (data) {
+            countMoveSectionDown++;
+            // console.log("1:swipe_down gesture is called, velocity:" + data);
+            $.fn.fullpage.moveSlideLeft();
+        });
+
+        ee.on("click-event,1", function (data) {
+            countClick++;
+            console.log("1:click detected at point:" + data);
+        });
+
+        ee.on("swipe-down,0", function (data) {
+            if (cnt <= 0) { cnt = 3 }
+            countSlideLeft++;
+            console.log("0:swipe_down gesture is called, velocity:" + data);
+            console.log("before swipe down count is: " + cnt)
+            try {
+                if (resultStorage[cnt] === undefined) {
+                    console.log('Nothing there')
+                } else {
+                    document.getElementById("info0").innerHTML = resultStorage[cnt - 3];
+                    document.getElementById("desc0").innerHTML = resultStorage[cnt - 2];
+                    document.getElementById("WikiData0").innerHTML = resultStorage[cnt - 1];
+                    document.getElementById("img0").src = imageArray[imgcnt - 5];
+                    document.getElementById("img1").src = imageArray[imgcnt - 4];
+                    document.getElementById("img2").src = imageArray[imgcnt - 3];
+                    document.getElementById("img3").src = imageArray[imgcnt - 2];
+                    document.getElementById("img4").src = imageArray[imgcnt - 1];
+                }
+            } catch (err) {
+                console.log(err)
+            }
+            cnt = cnt - 3;
+            imgcnt = imgcnt - 5;
+            my_console_log("after swipe down count is: " + cnt)
+        });
+        //Second potentiometer
+        ee.on("swipe-up,0", function (data) {
+            my_console_log("dataLength is: " + dataLength)
+            if (dataLength <= cnt) { cnt = dataLength - 3 }
+            countMoveSectionUp++;
+            console.log("1:swipe_up gesture is called, velocity:" + data);
+            console.log("before swipe up count is: " + cnt)
+            try {
+                if (resultStorage[cnt] === undefined) {
+                    console.log('Nothing there')
+                } else {
+                    document.getElementById("info0").innerHTML = resultStorage[cnt];
+                    document.getElementById("desc0").innerHTML = resultStorage[cnt + 1];
+                    document.getElementById("WikiData0").innerHTML = resultStorage[cnt + 2];
+                    document.getElementById("img0").src = imageArray[imgcnt].link;
+                    document.getElementById("img1").src = imageArray[imgcnt + 1];
+                    document.getElementById("img2").src = imageArray[imgcnt + 2];
+                    document.getElementById("img3").src = imageArray[imgcnt + 3];
+                    document.getElementById("img4").src = imageArray[imgcnt + 4];
+                }
+            } catch (err) {
+                console.log(err)
+            }
+            cnt = cnt + 3;
+            imgcnt = imgcnt + 5;
+            my_console_log("after swipe up count is: " + cnt)
+
+        });
+
+        ee.on("click-event,2", function (data) {
+            document.getElementById("desc0").innerHTML = "ARIYORUM";
+            countClick++;
+            console.log("0:click detected at point:" + data);
+            if (onprocess) {
+                client.connect(10000, 'localhost', function () {
+                    console.log('Connected');
+                    client.write('Start');
+                    onprocess = false;
+                });
+                client.on('data', function (data) {
+                    onprocess = false;
+                    console.log('Received: ' + data);
+                    searchTerm = data.toString();
+                    idCount++;
+                    var count = '5';
+                    var format = 'xml';
+                    var startIndex = '1';
+                    var texturlTR = "https://tr.wikipedia.org/w/api.php?format=" + format + "&action=query&prop=extracts&exintro=&explaintext=&titles=" + searchTerm;
+                    console.log(texturlTR)
+                    var yandexTanslateURL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20161109T203752Z.31a66f7b078518f9.4cfb304a7f2d5dadbb4aa80ac4261c70258e5816&text=" + searchTerm + "&lang=tr-en&format=json"
+                    console.log(yandexTanslateURL)
+                    // ----receive function----v
+
+                    var test_input = searchTerm;
+                    my_console_log('SearchTerm from microphone:' + test_input);
+
+                    var https = require('https')
+                    var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+                    var api_host = 'kgsearch.googleapis.com';
+
+                    var main = function (test_input, my_event_emitter) {
+
+                        var words = [];
+                        var roots = [];
+                        var roots_type = [];
+                        var printed_results = [];
+                        var isSomethingFound = false;
+
+                        var search_word = function (phrase, callback, limit) {
+                            if (debug) my_console_log('Searching for phrase :' + phrase);
+
+                            if (limit == undefined) {
+                                limit = 1;
+                            }
+
+                            var query_string = '/v1/entities:search?languages=tr&query=' + phrase + '&key=' + api_key + '&limit=1&indent=True'
+                            query_string = encodeURI(query_string)
+                            //my_console_log(query_string)
+                            https.get({
+
+                                host: api_host,
+                                path: query_string
+                            }, function (response) {
+                                // Continuously update stream with data
+                                var body = '';
+                                response.on('data', function (d) {
+                                    body += d;
+                                });
+                                response.on('end', function () {
+                                    var response = JSON.parse(body);
+                                    var succeed = true;
+                                    // control if it was succeed
+                                    if (debug) my_console_log('Response for phrase :' + phrase + '\n');
+                                    if (debug) my_console_log(response);
+
+                                    if (response.hasOwnProperty('@context')) {
+                                        succeed = true;
+
+                                        var itemListElement = response['itemListElement'][0]
+                                        if (debug) my_console_log('ItemlistElement for phrase : ' + phrase);
+                                        if (debug) my_console_log(itemListElement);
+                                        //my_console_log(itemListElement['result']);
+                                        ///my_console_log(itemListElement['resultScore']);
+                                        if (itemListElement != [] && itemListElement != undefined) {
+                                            if (debug) my_console_log('Callback for phrase : ' + phrase);
+                                            callback(succeed, itemListElement['result'], itemListElement['resultScore'])
+                                        } else {
+                                            if (debug) my_console_log('Failed callback for phras : ' + phrase + '\n');
+                                            callback(true, null, null)
+                                        }
+                                    } else {
+                                        if (debug) my_console_log('Failed result for phrase : ' + phrase);
+                                        callback(false, null, null)
+                                    }
+
+
+                                    //my_console_log(response)
+                                });
+                            });
+                        }
+
+                        //testing
+                        // search_word('google', function(result, response){});
+
+                        var init_state_machine = function (input) {
+                            if (debug) my_console_log('State machine is initialized with input: ')
+                            if (debug) my_console_log(input);
+
+                            var input_array = input.split(" ");
+                            words = input_array.slice(0, input_array.length / 2);
+                            var temp_roots = input_array.slice(input_array.length / 2, input_array.length);
+
+                            for (var i = 0; i < temp_roots.length; i++) {
+                                var root_and_type = temp_roots[i].split(',');
+
+                                roots_type.push(root_and_type[1]);
+                                roots.push(root_and_type[0]);
+                            }
+                            if (debug) my_console_log('Input words : ');
+                            if (debug) my_console_log(words);
+                            if (debug) my_console_log('Input roots : ');
+                            if (debug) my_console_log(roots);
+
+                            first_search(0);
+                        }
+
+                        var first_search = function (index) {
+
+                            search_word(words[index], function (isSucceed, result, score) {
+
+                                if (isSucceed) {
+                                    if (debug) my_console_log('Callback for word is succeed :' + words[index]);
+                                    if (score != null) {
+                                        if (index + 1 < words.length) {
+                                            if (debug) my_console_log('Word is going to iteration : ' + words[index]);
+                                            iterasyon(result, score, index + 1, words[index])
+                                        } else {
+                                            if (roots_type[index] == 'Noun') {
+                                                if (debug) my_console_log('last word is noun here is the result of :' + words[index])
+                                                if (debug) my_console_log(result);
+                                                printed_results.push(result);
+                                                isSomethingFound = true
+                                                if (my_event_emitter != null) my_event_emitter.emit('result', result)
+                                            } else {
+                                                if (debug) my_console_log('last word is not noun :' + words[index])
+                                                if (debug) my_console_log(result);
+                                                //save for causion
+                                            }
+                                            finish();
+                                        }
+                                    } else {
+                                        if (debug) my_console_log('Word is going to root_serach : ' + words[index]);
+                                        root_search(index)
+                                    }
+                                } else {
+                                    if (debug) my_console_log('Callback for word is failed :' + words[index]);
+                                }
+                            })
+                        }
+
+                        var root_search = function (index) {
+                            search_word(roots[index], function (isSucceed, result, score) {
+                                if (isSucceed) {
+                                    if (debug) my_console_log('Callback for root is succeed :' + roots[index]);
+                                    if (score != null) {
+                                        if (index + 1 < words.length) {
+                                            if (debug) my_console_log('Root is going to iteration : ' + roots[index]);
+                                            iterasyon(result, score, index + 1, roots[index])
+                                        } else {
+                                            if (roots_type[index] == 'Noun') {
+                                                if (debug) my_console_log('Last root is noun here is the result of :' + roots[index])
+                                                if (debug) my_console_log(result);
+                                                printed_results.push(result);
+                                                isSomethingFound = true
+                                                if (my_event_emitter != null) my_event_emitter.emit('result', result);
+                                            } else {
+                                                if (debug) my_console_log('Last root is not noun :' + roots[index])
+                                                if (debug) my_console_log(result);
+                                                //save for causion
+                                            }
+                                        }
+                                    } else {
+                                        if (debug) my_console_log('Zero score even in the root. It is going next word search :' + roots[index])
+                                        if (debug) my_console_log(result);
+                                        first_search(index + 1)
+                                    }
+                                } else {
+                                    if (debug) my_console_log('Callback for root is failed :' + roots[index]);
+                                }
+                            })
+                        }
+                        var iterasyon = function (result, score, index, phrase) {
+                            var new_phrase = phrase + ' ' + words[index];
+                            if (debug) my_console_log('Iteration for phrase : ' + new_phrase);
+
+                            search_word(new_phrase, function (isSucceed, result2, score2) {
+                                if (isSucceed) {
+                                    if (debug) my_console_log('Callback for iteration phrase is succeed :' + new_phrase);
+                                    if (debug) my_console_log('Score for phrase is' + score2 + ' : ' + new_phrase)
+                                    if (score2 != null && score2 >= score) {
+                                        if (debug) my_console_log('iteration phrase is going next iteration :' + new_phrase);
+                                        iterasyon(result2, score2, index + 1, new_phrase)
+                                    } else if (score2 == null || score2 < score) {
+                                        if (debug) my_console_log('iteration phrase is going root iteration :' + new_phrase);
+                                        root_iterasyon(result, score, index, phrase)
+                                    }
+                                } else {
+                                    if (debug) my_console_log('Callback for iteration phrase is failed :' + new_phrase);
+                                }
+                            })
+                        }
+
+                        var root_iterasyon = function (result, score, index, phrase) {
+                            var new_phrase = phrase + ' ' + roots[index];
+                            if (debug) my_console_log('Root iteration for phrase : ' + new_phrase);
+                            search_word(new_phrase, function (isSucceed, result2, score2) {
+                                if (isSucceed) {
+                                    if (debug) my_console_log('Callback for root iteration phrase is succeed :' + new_phrase);
+                                    if (debug) my_console_log('Score for phrase is' + score2 + ' : ' + new_phrase)
+                                    if (score2 != null && score2 >= score) {
+                                        if (debug) my_console_log('Root iteration phrase is going next iteration :' + new_phrase);
+                                        iterasyon(result2, score2, index + 1, new_phrase)
+                                    } else if (score2 == null || score2 < score) {
+                                        if (debug) my_console_log('Root iteration phrase is going to matching :' + new_phrase);
+                                        matching(result, score, index, phrase)
+                                    }
+                                } else {
+                                    if (debug) my_console_log('Callback for root iteration phrase is failed :' + new_phrase);
+                                }
+                            })
+                        }
+
+                        var matching = function (result, score, index, phrase) {
+                            if (debug) my_console_log('Matching result for phrase : ' + phrase + '\n');
+                            if (debug) my_console_log(result)
+
+                            var words_unreached = words.slice(index, words.length)
+                            if (result.name != undefined) {
+                                var result_unreached = result.name.toLowerCase().replace(phrase, '').split(" ").splice(1)
+                            } else {
+                                var result_unreached = result.description.toLowerCase().replace(phrase, '').split(" ").splice(1)
+                            }
+
+                            var found = false;
+
+                            var last_index = index;
+
+                            for (var i = 0; i < result_unreached.length; i++) {
+
+                                if (i < words_unreached.length) {
+
+                                    if (words_unreached[i].length > result_unreached[i].length) {
+                                        if (words_unreached[i].indexOf(result_unreached[i]) != -1) {
+                                            index = index + 1
+                                            found = true
+                                        } else {
+                                            break;
+
+                                        }
+                                    } else {
+                                        if (result_unreached[i].indexOf(words_unreached[i]) != -1) {
+                                            found = true;
+                                            index = index + 1
+                                        } else {
+                                            break;
+                                        }
+                                    }
+                                } else {
+                                    break;
+                                }
+
+                            }
+
+                            if (phrase.split(" ").length == 1 && roots_type[last_index] == 'Noun') {
+                                if (debug) my_console_log('Result for phrase will be printed : ' + phrase);
+                                printed_results.push(result);
+                                isSomethingFound = true
+                                if (my_event_emitter != null) my_event_emitter.emit('result', result)
+
+                            } else if (phrase.split(" ").length > 1) {
+                                if (debug) my_console_log('Result for phrase will be printed : ' + phrase);
+                                printed_results.push(result);
+                                isSomethingFound = true
+                                if (my_event_emitter != null) my_event_emitter.emit('result', result)
+                                //print that results
+                            } else {
+                                if (debug) my_console_log('Result for phrase will not be printed because it is not noun : ' + phrase);
+                            }
+
+                            if (index < words.length) {
+                                if (debug) my_console_log('System goes new search ');
+                                first_search(index);
+                            } else {
+                                if (debug) my_console_log('System will be shutdown')
+                                finish()
+                            }
+                        }
+
+
+
+                        var finish = function () {
+                            if (debug) my_console_log('finish')
+                            if (!isSomethingFound) {
+                                cnt = 0;
+                                imgcnt = 0;
+                                console.log('Nothing found');
+                                document.getElementById("info0").innerHTML = "Nothing Here";
+                                document.getElementById("desc0").innerHTML = "I couldn't find anytihng";
+                                document.getElementById("WikiData0").innerHTML = "I am sorry :(";
+                                document.getElementById("img0").src = "travolta.gif";
+                                document.getElementById("img1").src = "travolta.gif";
+                                document.getElementById("img2").src = "travolta.gif";
+                                document.getElementById("img3").src = "travolta.gif";
+                                document.getElementById("img4").src = "travolta.gif";
+
+                                if (debug) my_console_log('Nothing found');
+                                if (event_emitter != null) {
+                                    event_emitter.emit("error", 'Nothing found')
+                                }
+                            }
+                            if (debug) my_console_log('-----------------Printed Results------------------------');
+                            else console.log('-----------------Printed Results------------------------');
+                            for (var i = 0 ; i < printed_results.length; i++) {
+                                if (printed_results[i].name != undefined) {
+                                    var name = printed_results[i].name
+                                } else {
+                                    var name = printed_results[i].description
+                                }
+                                if (debug) my_console_log(name);
+                                else console.log(name);
+                            }
+
+                            //evaluate if nothing is printed
+                        }
+
+
+                        init_state_machine(test_input);
+                    }
+
+                    var event_emitter = require('events').EventEmitter;
+                    var kg_ee = new event_emitter();
+
+                    main(test_input, kg_ee)
+
+                    kg_ee.on("result", function (data) {
+                        console.log("before result count is: " + cnt)
+                        cnt = 0
+                        imgcnt = 0;
+                        resultStorage = [];
+                        imageArray = [];
+                        try {
+                            resultStorage.push(data.name);
+                            resultStorage.push(data.description);
+                            resultStorage.push(data.detailedDescription.articleBody);
+                        }
+                        catch (err) {
+                            //document.getElementById("demo").innerHTML = err.message;
+                            resultStorage.push(" ");
+                        }
+                        document.getElementById("info0").innerHTML = data.name;
+                        document.getElementById("desc0").innerHTML = data.description;
+                        document.getElementById("WikiData0").innerHTML = data.detailedDescription.articleBody;
+                        var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
+                        $.getJSON(url, function (data) {
+                            console.log(data)
+                            document.getElementById("img0").src = data.items[0].link;
+                            document.getElementById("img1").src = data.items[1].link;
+                            document.getElementById("img2").src = data.items[2].link;
+                            document.getElementById("img3").src = data.items[3].link;
+                            document.getElementById("img4").src = data.items[4].link;
+                        });
+                        dataLength = resultStorage.length;
+                        cnt = 3;
+                        imgcnt = 5;
+                        my_console_log("after result count is: " + cnt)
+                        for (var i = 0 ; i < dataLength ; i + 3) {
+                            var search_name = resultStorage[i];
+                            var url = "https://www.googleapis.com/customsearch/v1?q=" + search_name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
+                            $.getJSON(url, function (data) {
+                                for (var j = 0; j < 5; j++) {
+                                    imageArray.push(data.items[i].link)
+                                }
+                            });
+
+                        }
+                    });
+                    client.destroy(); // kill client after server's response
+                });
+            }
+            client.on('close', function () {
+                console.log('Connection closed');
+                onprocess = true
+            });
+        });
+
+    </script>
+
+    <div id="fullpage">
+
+        <div class="section active" id="section0">
+            <div id="header0"><p id="info0">Hello</p><p id="desc0">Hello</p></div>
+
+            <div class="slide">
+                <div class="intro" id="WikiData0">
+                    <p>Hello</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img0" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img1" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img2" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img3" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img4" src="1.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
