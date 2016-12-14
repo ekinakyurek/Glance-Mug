@@ -37,12 +37,17 @@
             display: block;
             --webkit-margin-before: 1em;
             --webkit-margin-before: 1em;
-            --webkit-margin-before: 1em;
-            --webkit-margin-before: 1em;
+            --webkit-margin-before: 0px;
+            --webkit-margin-before: 0px;
         }
 
         p#articleBody0 {
-            color: #FFF;
+            color: white;
+            width: 200px;
+            height: 250px;
+            text-align: justify;
+            margin: auto;
+
         }
 
         p#desc0 {
@@ -53,6 +58,7 @@
         p#info0 {
             color: #FFF;
             vertical-align: middle;
+            font-weight: bold;
             font-style: bold;
             font-family: "Verdana";
         }
@@ -64,6 +70,8 @@
             margin-top: 0;
             margin-left: auto;
             margin-right: auto;
+            max-width: 100%;
+            max-height: 90%;
         }
     </style>
 </head>
@@ -252,21 +260,21 @@
 
                             var url = "https://www.googleapis.com/customsearch/v1?q=" + name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
 
-                            $.getJSON(url, function (data) {
-                                imageArray.push(data.items.map(function (item) { return item.link; }));
-                                document.getElementById("img0").src = data.items[0].link;
-                                document.getElementById("img1").src = data.items[1].link;
-                                document.getElementById("img2").src = data.items[2].link;
-                                document.getElementById("img3").src = data.items[3].link;
-                                document.getElementById("img4").src = data.items[4].link;
+                            $.getJSON(url, function (image_data) {
+                                imageArray.push(image_data.items.map(function (item) { return item.link; }));
+                                document.getElementById("img0").src = image_data.items[0].link;
+                                document.getElementById("img1").src = image_data.items[1].link;
+                                document.getElementById("img2").src = image_data.items[2].link;
+                                document.getElementById("img3").src = image_data.items[3].link;
+                                document.getElementById("img4").src = image_data.items[4].link;
                             });
                      }else{
                               resultStorage.push(data);
                               var url = "https://www.googleapis.com/customsearch/v1?q=" + name + "&num=" + count + "&start=" + startIndex + "&key=" + KEY + "&cx=" + CX + "&searchType=image";
 
-                              $.getJSON(url, function (data) {
-                                  imageArray.push(data.items.map(function (item) { return item.link; }));
-                              });
+                            //  $.getJSON(url, function (image_data) {
+                            //      imageArray.push(image_data.items.map(function (item) { return item.link; }));
+                            //  });
 
 
 			                    }
