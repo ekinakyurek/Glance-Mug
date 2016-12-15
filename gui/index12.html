@@ -128,9 +128,9 @@
         var cx = '007548910499588559159:lepkrgs8oig';
         var api_host = 'kgsearch.googleapis.com';
         var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
-        var resultStorage = [];
         var imageArray = [];
         var item = [];
+        var dataArray = [];
 
         var fs = require('fs');
         var util = require('util');
@@ -183,25 +183,25 @@
                 section_count--;
                 countMoveSectionUp++
             }
-
-            if (resultStorage.length <= section_count || imageArray.length <= section_count ) {
-                section_count = resultStorage.length;
+            my_console_log("length of dataArray is: " + dataArray.length)
+            if (dataArray.length <= section_count) {
+                section_count = dataArray.length;
             }else if(section_count < 0){
                 section_count=0;
             } else {
                 my_console_log("section_count is:"+ section_count)
-                var name = resultStorage[section_count]['name'] || resultStorage[section_count]['description'];
+                var name = dataArray[section_count][0] || dataArray[section_count][1];
                 document.getElementById("info0").innerHTML = name;
-                var description = resultStorage[section_count]['description'] || resultStorage[section_count]['detailedDescription']['articleBody'];
+                var description = dataArray[section_count][1] || dataArray[section_count][2];
 
                 document.getElementById("desc0").innerHTML = description;
-                document.getElementById("WikiData0").innerHTML = resultStorage[section_count]['detailedDescription']['articleBody'];
+                document.getElementById("WikiData0").innerHTML = dataArray[section_count][2];
 
-                document.getElementById("img0").src = imageArray[section_count][0];
-                document.getElementById("img1").src = imageArray[section_count][1];
-                document.getElementById("img2").src = imageArray[section_count][2];
-                document.getElementById("img3").src = imageArray[section_count][3];
-                document.getElementById("img4").src = imageArray[section_count][4];
+                document.getElementById("img0").src = dataArray[section_count][3][0];
+                document.getElementById("img1").src = dataArray[section_count][3][1];
+                document.getElementById("img2").src = dataArray[section_count][3][2];
+                document.getElementById("img3").src = dataArray[section_count][3][3];
+                document.getElementById("img4").src = dataArray[section_count][3][4];
             }
             var log_direction  = direction ? 'moveSectionUp':'moveSectionDown';
             my_console_log("After" + log_direction +" section_count is: " + section_count)
@@ -252,7 +252,8 @@
 
                    var received_result_no = 0;
                    var section_count =0; //extra
-		   var kg_ee = new event_emitter();
+                   var dataArray = [];
+		           var kg_ee = new event_emitter();
                   
 		   if(searchTerm != ''){
                        search.starter(searchTerm,debug, kg_ee, my_console_log)
@@ -276,13 +277,16 @@
 			        data.detailedDescription.articleBody = data.detailedDescription.articleBody || "";
 
 			            if(received_result_no == 0){
-                            resultStorage = [];
-                            imageArray = [];
-                            resultStorage.push(data);
+                            item = [];
+                            imageArray=[]
 
                             document.getElementById("info0").innerHTML = data.name;
                             document.getElementById("desc0").innerHTML = data.description;
                             document.getElementById("WikiData0").innerHTML = data.detailedDescription.articleBody;
+                            item.push(data.name)
+                            item.push(data.description)
+                            item.push(data.detailedDescription.articleBody)
+                            my_console_log("first data push: " +item)
                             var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key="+ key + "&cx=" + cx + "&searchType=image";
                             my_console_log(url);
                             $.getJSON(url, function (image_data) {
@@ -292,24 +296,31 @@
                                 document.getElementById("img2").src = image_data.items[2].link;
                                 document.getElementById("img3").src = image_data.items[3].link;
                                 document.getElementById("img4").src = image_data.items[4].link;
-                                item = [];
+                                imageArray = [];
                                 for(var i=0; i<image_data.items.length; i++){
-                                    item.push(image_data.items[i].link)
+                                    imageArray.push(image_data.items[i].link)
                                 }
-                                imageArray.push(item);
+                                item.push(imageArray)
+                                my_console_log("first image push:" + item)
+                                dataArray.push(item);
                             });
+                            my_console_log("first dataArray: " + dataArray)
                             }else{
-                              resultStorage.push(data);
-                              var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key=" + key + "&cx=" + cx + "&searchType=image";
-                              item = [];
+                                item=[];
+                                item.push(data.name)
+                                item.push(data.description)
+                                item.push(data.detailedDescription.articleBody)
+                                var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key=" + key + "&cx=" + cx + "&searchType=image";
+                                imageArray = [];
                              $.getJSON(url, function (image_data) {
-                                  //imageArray.push(image_data.items.map(function (item) { return item.link; }));            
-                        	    for(var i=0; i<image_data.items.length; i++){
-                                        item.push(image_data.items[i]);
+                                  //imageArray.push(image_data.items.map(function (item) { return item.link; }));
+                                    for(var i=0; i<image_data.items.length; i++){
+                                        imageArray.push(image_data.items[i].link)
                                     }
-                                    imageArray.push(item);
+                                    item.push(imageArray) 
+                                    dataArray.push[item]
                              });
-
+                                my_console_log("last dataArray: " + dataArray)
 			                }
                         //section_count++;//extra
                         received_result_no++;

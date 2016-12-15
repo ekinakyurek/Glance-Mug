@@ -1,0 +1,439 @@
+2016-12-15-08:29:41: 2:click detected at point:[object Object]
+2016-12-15-08:29:42: 2:click detected at point:[object Object]
+2016-12-15-08:29:42: Connected
+2016-12-15-08:29:48: Data received from stt: Orhan Gencebay Açlık Oyunları Orhan,Noun Gencebay,Noun açlık,Noun oyun,Noun
+2016-12-15-08:29:48: SearchTerm from microphone:Orhan Gencebay Açlık Oyunları Orhan,Noun Gencebay,Noun açlık,Noun oyun,Noun
+2016-12-15-08:29:48: State machine is initialized with input: 
+2016-12-15-08:29:48: Orhan Gencebay Açlık Oyunları Orhan,Noun Gencebay,Noun açlık,Noun oyun,Noun
+2016-12-15-08:29:48: Input words : 
+2016-12-15-08:29:48: [ 'Orhan', 'Gencebay', 'Açlık', 'Oyunları' ]
+2016-12-15-08:29:48: Input roots : 
+2016-12-15-08:29:48: [ 'Orhan', 'Gencebay', 'açlık', 'oyun' ]
+2016-12-15-08:29:48: Searching for phrase :Orhan
+2016-12-15-08:29:49: Connection closed
+2016-12-15-08:29:49: Response for phrase :Orhan
+
+2016-12-15-08:29:49: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-08:29:49: ItemlistElement for phrase : Orhan
+2016-12-15-08:29:49: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-08:29:49: Callback for phrase : Orhan
+2016-12-15-08:29:49: Callback for word is succeed :Orhan
+2016-12-15-08:29:49: Word is going to iteration : Orhan
+2016-12-15-08:29:49: Iteration for phrase : Orhan Gencebay
+2016-12-15-08:29:49: Searching for phrase :Orhan Gencebay
+2016-12-15-08:29:49: Response for phrase :Orhan Gencebay
+
+2016-12-15-08:29:49: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.885071 } ] }
+2016-12-15-08:29:50: ItemlistElement for phrase : Orhan Gencebay
+2016-12-15-08:29:50: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.885071 }
+2016-12-15-08:29:50: Callback for phrase : Orhan Gencebay
+2016-12-15-08:29:50: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-15-08:29:50: Score for phrase is596.885071 : Orhan Gencebay
+2016-12-15-08:29:50: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-15-08:29:50: Iteration for phrase : Orhan Gencebay Açlık
+2016-12-15-08:29:50: Searching for phrase :Orhan Gencebay Açlık
+2016-12-15-08:29:50: Response for phrase :Orhan Gencebay Açlık
+
+2016-12-15-08:29:50: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-08:29:50: ItemlistElement for phrase : Orhan Gencebay Açlık
+2016-12-15-08:29:50: undefined
+2016-12-15-08:29:50: Failed callback for phras : Orhan Gencebay Açlık
+
+2016-12-15-08:29:50: Callback for iteration phrase is succeed :Orhan Gencebay Açlık
+2016-12-15-08:29:50: Score for phrase isnull : Orhan Gencebay Açlık
+2016-12-15-08:29:50: iteration phrase is going root iteration :Orhan Gencebay Açlık
+2016-12-15-08:29:50: Root iteration for phrase : Orhan Gencebay açlık
+2016-12-15-08:29:50: Searching for phrase :Orhan Gencebay açlık
+2016-12-15-08:29:50: Response for phrase :Orhan Gencebay açlık
+
+2016-12-15-08:29:50: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-08:29:50: ItemlistElement for phrase : Orhan Gencebay açlık
+2016-12-15-08:29:50: undefined
+2016-12-15-08:29:50: Failed callback for phras : Orhan Gencebay açlık
+
+2016-12-15-08:29:50: Callback for root iteration phrase is succeed :Orhan Gencebay açlık
+2016-12-15-08:29:50: Score for phrase isnull : Orhan Gencebay açlık
+2016-12-15-08:29:50: Root iteration phrase is going to matching :Orhan Gencebay açlık
+2016-12-15-08:29:50: Matching result for phrase : Orhan Gencebay
+
+2016-12-15-08:29:50: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-08:29:50: Result for phrase will be printed : Orhan Gencebay
+2016-12-15-08:29:50: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-08:29:50: received_result_no=1
+2016-12-15-08:29:50: System goes new search 
+2016-12-15-08:29:50: Searching for phrase :Açlık
+2016-12-15-08:29:51: Response for phrase :Açlık
+
+2016-12-15-08:29:51: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.918663 } ] }
+2016-12-15-08:29:51: ItemlistElement for phrase : Açlık
+2016-12-15-08:29:51: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gkz15s',
+     name: 'Açlık Oyunları',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '2012 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+        url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.thehungergamesmovie.com/index.html' },
+  resultScore: 33.918663 }
+2016-12-15-08:29:51: Callback for phrase : Açlık
+2016-12-15-08:29:51: Callback for word is succeed :Açlık
+2016-12-15-08:29:51: Word is going to iteration : Açlık
+2016-12-15-08:29:51: Iteration for phrase : Açlık Oyunları
+2016-12-15-08:29:51: Searching for phrase :Açlık Oyunları
+2016-12-15-08:29:51: Response for phrase :Açlık Oyunları
+
+2016-12-15-08:29:51: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 593.33429 } ] }
+2016-12-15-08:29:51: ItemlistElement for phrase : Açlık Oyunları
+2016-12-15-08:29:51: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gkz15s',
+     name: 'Açlık Oyunları',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '2012 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+        url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.thehungergamesmovie.com/index.html' },
+  resultScore: 593.33429 }
+2016-12-15-08:29:51: Callback for phrase : Açlık Oyunları
+2016-12-15-08:29:51: Callback for iteration phrase is succeed :Açlık Oyunları
+2016-12-15-08:29:51: Score for phrase is593.33429 : Açlık Oyunları
+2016-12-15-08:29:51: iteration phrase is going next iteration :Açlık Oyunları
+2016-12-15-08:29:51: Iteration for phrase : Açlık Oyunları undefined
+2016-12-15-08:29:51: Searching for phrase :Açlık Oyunları undefined
+2016-12-15-08:29:52: Response for phrase :Açlık Oyunları undefined
+
+2016-12-15-08:29:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-08:29:52: ItemlistElement for phrase : Açlık Oyunları undefined
+2016-12-15-08:29:52: undefined
+2016-12-15-08:29:52: Failed callback for phras : Açlık Oyunları undefined
+
+2016-12-15-08:29:52: Callback for iteration phrase is succeed :Açlık Oyunları undefined
+2016-12-15-08:29:52: Score for phrase isnull : Açlık Oyunları undefined
+2016-12-15-08:29:52: iteration phrase is going root iteration :Açlık Oyunları undefined
+2016-12-15-08:29:52: Root iteration for phrase : Açlık Oyunları undefined
+2016-12-15-08:29:52: Searching for phrase :Açlık Oyunları undefined
+2016-12-15-08:29:52: Response for phrase :Açlık Oyunları undefined
+
+2016-12-15-08:29:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-08:29:52: ItemlistElement for phrase : Açlık Oyunları undefined
+2016-12-15-08:29:52: undefined
+2016-12-15-08:29:52: Failed callback for phras : Açlık Oyunları undefined
+
+2016-12-15-08:29:52: Callback for root iteration phrase is succeed :Açlık Oyunları undefined
+2016-12-15-08:29:52: Score for phrase isnull : Açlık Oyunları undefined
+2016-12-15-08:29:52: Root iteration phrase is going to matching :Açlık Oyunları undefined
+2016-12-15-08:29:52: Matching result for phrase : Açlık Oyunları
+
+2016-12-15-08:29:52: { '@id': 'kg:/m/0gkz15s',
+  name: 'Açlık Oyunları',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '2012 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+     url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.thehungergamesmovie.com/index.html' }
+2016-12-15-08:29:52: Result for phrase will be printed : Açlık Oyunları
+2016-12-15-08:29:52: received_result_no=2
+2016-12-15-08:29:52: System will be shutdown
+2016-12-15-08:29:52: finish
+2016-12-15-08:29:52: process is finished
+2016-12-15-08:29:52: -----------------Printed Results------------------------
+2016-12-15-08:29:52: Orhan Gencebay
+2016-12-15-08:29:52: Açlık Oyunları
+2016-12-15-08:29:57: section_count is:1
+2016-12-15-08:29:57: AftermoveSectionDown section_count is: 1
+2016-12-15-08:29:57: AftermoveSectionDown section_count is: 2
+2016-12-15-08:29:57: section_count is:1
+2016-12-15-08:29:57: AftermoveSectionUp section_count is: 1
+2016-12-15-08:29:59: 2: slide left gesture is called
+2016-12-15-08:29:59: 2: slide left gesture is called
+2016-12-15-08:29:59: 2: slide left gesture is called
+2016-12-15-08:30:00: 2: slide left gesture is called
+2016-12-15-08:30:00: 2: slide left gesture is called
+2016-12-15-08:30:00: 2: slide right gesture is called
+2016-12-15-08:30:00: 2: slide right gesture is called
+2016-12-15-08:30:02: 2: slide right gesture is called
+2016-12-15-08:30:02: 2: slide right gesture is called
+2016-12-15-08:30:03: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:03: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:04: section_count is:1
+2016-12-15-08:30:04: AftermoveSectionUp section_count is: 1
+2016-12-15-08:30:04: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:04: section_count is:1
+2016-12-15-08:30:04: AftermoveSectionUp section_count is: 1
+2016-12-15-08:30:05: section_count is:0
+2016-12-15-08:30:05: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:05: section_count is:1
+2016-12-15-08:30:05: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:06: section_count is:0
+2016-12-15-08:30:06: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:07: section_count is:1
+2016-12-15-08:30:07: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:07: section_count is:0
+2016-12-15-08:30:07: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:08: section_count is:1
+2016-12-15-08:30:08: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:09: 2: slide left gesture is called
+2016-12-15-08:30:09: 2: slide left gesture is called
+2016-12-15-08:30:10: 2: slide right gesture is called
+2016-12-15-08:30:11: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:11: section_count is:1
+2016-12-15-08:30:11: AftermoveSectionUp section_count is: 1
+2016-12-15-08:30:11: section_count is:0
+2016-12-15-08:30:11: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:12: section_count is:1
+2016-12-15-08:30:12: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:12: section_count is:0
+2016-12-15-08:30:12: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:12: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:13: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:13: section_count is:1
+2016-12-15-08:30:13: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:13: section_count is:0
+2016-12-15-08:30:13: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:13: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:14: section_count is:1
+2016-12-15-08:30:14: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:14: section_count is:0
+2016-12-15-08:30:14: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:14: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:24: section_count is:1
+2016-12-15-08:30:24: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:24: section_count is:0
+2016-12-15-08:30:24: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:26: section_count is:1
+2016-12-15-08:30:26: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:26: section_count is:0
+2016-12-15-08:30:26: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:27: section_count is:1
+2016-12-15-08:30:27: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:27: section_count is:0
+2016-12-15-08:30:27: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:27: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:27: section_count is:1
+2016-12-15-08:30:27: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:28: section_count is:0
+2016-12-15-08:30:28: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:28: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:28: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:28: section_count is:1
+2016-12-15-08:30:28: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:28: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:29: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:29: section_count is:1
+2016-12-15-08:30:29: AftermoveSectionUp section_count is: 1
+2016-12-15-08:30:29: section_count is:0
+2016-12-15-08:30:29: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:29: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:29: section_count is:1
+2016-12-15-08:30:29: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:30: section_count is:0
+2016-12-15-08:30:30: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:30: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:31: 2: slide left gesture is called
+2016-12-15-08:30:32: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:32: section_count is:1
+2016-12-15-08:30:32: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:33: section_count is:0
+2016-12-15-08:30:33: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:33: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:33: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:34: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:35: section_count is:1
+2016-12-15-08:30:35: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:35: section_count is:0
+2016-12-15-08:30:35: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:36: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:36: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:37: section_count is:1
+2016-12-15-08:30:37: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:37: section_count is:0
+2016-12-15-08:30:37: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:38: section_count is:1
+2016-12-15-08:30:38: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:38: section_count is:0
+2016-12-15-08:30:38: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:39: section_count is:1
+2016-12-15-08:30:39: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:39: section_count is:0
+2016-12-15-08:30:39: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:40: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:40: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:41: section_count is:1
+2016-12-15-08:30:41: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:41: section_count is:0
+2016-12-15-08:30:41: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:41: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:41: AftermoveSectionUp section_count is: 0
+2016-12-15-08:30:54: section_count is:1
+2016-12-15-08:30:54: AftermoveSectionDown section_count is: 1
+2016-12-15-08:30:54: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:57: AftermoveSectionDown section_count is: 2
+2016-12-15-08:30:58: section_count is:1
+2016-12-15-08:30:58: AftermoveSectionUp section_count is: 1
+2016-12-15-08:30:59: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:00: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:00: section_count is:1
+2016-12-15-08:31:00: AftermoveSectionUp section_count is: 1
+2016-12-15-08:31:00: section_count is:0
+2016-12-15-08:31:00: AftermoveSectionUp section_count is: 0
+2016-12-15-08:31:00: AftermoveSectionUp section_count is: 0
+2016-12-15-08:31:02: 2: slide left gesture is called
+2016-12-15-08:31:03: 2: slide right gesture is called
+2016-12-15-08:31:04: 2: slide right gesture is called
+2016-12-15-08:31:04: section_count is:1
+2016-12-15-08:31:04: AftermoveSectionDown section_count is: 1
+2016-12-15-08:31:04: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:04: section_count is:1
+2016-12-15-08:31:04: AftermoveSectionUp section_count is: 1
+2016-12-15-08:31:05: 2: slide left gesture is called
+2016-12-15-08:31:07: section_count is:0
+2016-12-15-08:31:07: AftermoveSectionUp section_count is: 0
+2016-12-15-08:31:08: section_count is:1
+2016-12-15-08:31:08: AftermoveSectionDown section_count is: 1
+2016-12-15-08:31:08: section_count is:0
+2016-12-15-08:31:08: AftermoveSectionUp section_count is: 0
+2016-12-15-08:31:09: section_count is:1
+2016-12-15-08:31:09: AftermoveSectionDown section_count is: 1
+2016-12-15-08:31:09: section_count is:0
+2016-12-15-08:31:09: AftermoveSectionUp section_count is: 0
+2016-12-15-08:31:09: section_count is:1
+2016-12-15-08:31:09: AftermoveSectionDown section_count is: 1
+2016-12-15-08:31:11: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:11: section_count is:1
+2016-12-15-08:31:11: AftermoveSectionUp section_count is: 1
+2016-12-15-08:31:12: 2: slide left gesture is called
+2016-12-15-08:31:12: 2: slide left gesture is called
+2016-12-15-08:31:13: 2: slide right gesture is called
+2016-12-15-08:31:14: 2: slide right gesture is called
+2016-12-15-08:31:14: 2: slide right gesture is called
+2016-12-15-08:31:16: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:17: section_count is:1
+2016-12-15-08:31:17: AftermoveSectionUp section_count is: 1
+2016-12-15-08:31:17: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:18: section_count is:1
+2016-12-15-08:31:18: AftermoveSectionUp section_count is: 1
+2016-12-15-08:31:19: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:21: AftermoveSectionDown section_count is: 2
+2016-12-15-08:31:21: section_count is:1
+2016-12-15-08:31:21: AftermoveSectionUp section_count is: 1
+2016-12-15-08:31:23: 2: slide left gesture is called
+2016-12-15-08:31:23: 2: slide left gesture is called

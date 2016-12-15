@@ -1,0 +1,3540 @@
+2016-12-15-00:26:46: 2:click detected at point:[object Object]
+2016-12-15-00:26:46: 2:click detected at point:[object Object]
+2016-12-15-00:26:46: Connected
+2016-12-15-00:26:56: Data received from stt: edho elle kaymış O her zaman kayması Orhan Baba zeytinyağı edho,Noun elle,Other kay,Noun O,Other her,Other zaman,Noun kay,Noun Orhan,Noun Baba,Noun zeytinyağı,Noun
+2016-12-15-00:26:56: SearchTerm from microphone:edho elle kaymış O her zaman kayması Orhan Baba zeytinyağı edho,Noun elle,Other kay,Noun O,Other her,Other zaman,Noun kay,Noun Orhan,Noun Baba,Noun zeytinyağı,Noun
+2016-12-15-00:26:56: State machine is initialized with input: 
+2016-12-15-00:26:56: edho elle kaymış O her zaman kayması Orhan Baba zeytinyağı edho,Noun elle,Other kay,Noun O,Other her,Other zaman,Noun kay,Noun Orhan,Noun Baba,Noun zeytinyağı,Noun
+2016-12-15-00:26:56: Input words : 
+2016-12-15-00:26:56: [ 'edho',
+  'elle',
+  'kaymış',
+  'O',
+  'her',
+  'zaman',
+  'kayması',
+  'Orhan',
+  'Baba',
+  'zeytinyağı' ]
+2016-12-15-00:26:56: Input roots : 
+2016-12-15-00:26:56: [ 'edho',
+  'elle',
+  'kay',
+  'O',
+  'her',
+  'zaman',
+  'kay',
+  'Orhan',
+  'Baba',
+  'zeytinyağı' ]
+2016-12-15-00:26:56: Searching for phrase :edho
+2016-12-15-00:26:57: Connection closed
+2016-12-15-00:26:57: Response for phrase :edho
+
+2016-12-15-00:26:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 8.894385 } ] }
+2016-12-15-00:26:57: ItemlistElement for phrase : edho
+2016-12-15-00:26:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/121_5_y2',
+     '@type': [ 'Airport', 'Thing', 'Place' ],
+     description: 'Havaalanı' },
+  resultScore: 8.894385 }
+2016-12-15-00:26:57: Callback for phrase : edho
+2016-12-15-00:26:57: Callback for word is succeed :edho
+2016-12-15-00:26:57: Word is going to iteration : edho
+2016-12-15-00:26:57: Iteration for phrase : edho elle
+2016-12-15-00:26:57: Searching for phrase :edho elle
+2016-12-15-00:26:57: Response for phrase :edho elle
+
+2016-12-15-00:26:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:26:57: ItemlistElement for phrase : edho elle
+2016-12-15-00:26:57: undefined
+2016-12-15-00:26:57: Failed callback for phras : edho elle
+
+2016-12-15-00:26:57: Callback for iteration phrase is succeed :edho elle
+2016-12-15-00:26:57: Score for phrase isnull : edho elle
+2016-12-15-00:26:57: iteration phrase is going root iteration :edho elle
+2016-12-15-00:26:57: Root iteration for phrase : edho elle
+2016-12-15-00:26:57: Searching for phrase :edho elle
+2016-12-15-00:26:58: Response for phrase :edho elle
+
+2016-12-15-00:26:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:26:58: ItemlistElement for phrase : edho elle
+2016-12-15-00:26:58: undefined
+2016-12-15-00:26:58: Failed callback for phras : edho elle
+
+2016-12-15-00:26:58: Callback for root iteration phrase is succeed :edho elle
+2016-12-15-00:26:58: Score for phrase isnull : edho elle
+2016-12-15-00:26:58: Root iteration phrase is going to matching :edho elle
+2016-12-15-00:26:58: Matching result for phrase : edho
+
+2016-12-15-00:26:58: { '@id': 'kg:/g/121_5_y2',
+  '@type': [ 'Airport', 'Thing', 'Place' ],
+  description: 'Havaalanı' }
+2016-12-15-00:26:58: Result for phrase will not be printed because it is not noun : edho
+2016-12-15-00:26:58: System goes new search 
+2016-12-15-00:26:58: Searching for phrase :elle
+2016-12-15-00:26:58: Response for phrase :elle
+
+2016-12-15-00:26:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.968605 } ] }
+2016-12-15-00:26:58: ItemlistElement for phrase : elle
+2016-12-15-00:26:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05kyb8',
+     name: 'Elle Fanning',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Oyuncu',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTGsVX7FxBWMuWzfjqGq6uctbI7135afcD9gnME1Xcf7DjsjEn_',
+        url: 'https://simple.wikipedia.org/wiki/Elle_Fanning',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Mary Elle Fanning, ABD\'li oyuncu. Aktris Dakota Fanning\'in kardeşidir. İlk Sinema Deneyiminde 2001 yapımı I Am Sam filminde Dakota Fanning ile birlikte rol almış ve onun karakterinin 2 yaşındaki halini canlandırmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Elle_Fanning',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.968605 }
+2016-12-15-00:26:58: Callback for phrase : elle
+2016-12-15-00:26:58: Callback for word is succeed :elle
+2016-12-15-00:26:58: Word is going to iteration : elle
+2016-12-15-00:26:58: Iteration for phrase : elle kaymış
+2016-12-15-00:26:58: Searching for phrase :elle kaymış
+2016-12-15-00:26:59: Response for phrase :elle kaymış
+
+2016-12-15-00:26:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:26:59: ItemlistElement for phrase : elle kaymış
+2016-12-15-00:26:59: undefined
+2016-12-15-00:26:59: Failed callback for phras : elle kaymış
+
+2016-12-15-00:26:59: Callback for iteration phrase is succeed :elle kaymış
+2016-12-15-00:26:59: Score for phrase isnull : elle kaymış
+2016-12-15-00:26:59: iteration phrase is going root iteration :elle kaymış
+2016-12-15-00:26:59: Root iteration for phrase : elle kay
+2016-12-15-00:26:59: Searching for phrase :elle kay
+2016-12-15-00:26:59: Response for phrase :elle kay
+
+2016-12-15-00:26:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:26:59: ItemlistElement for phrase : elle kay
+2016-12-15-00:26:59: undefined
+2016-12-15-00:26:59: Failed callback for phras : elle kay
+
+2016-12-15-00:26:59: Callback for root iteration phrase is succeed :elle kay
+2016-12-15-00:26:59: Score for phrase isnull : elle kay
+2016-12-15-00:26:59: Root iteration phrase is going to matching :elle kay
+2016-12-15-00:26:59: Matching result for phrase : elle
+
+2016-12-15-00:26:59: { '@id': 'kg:/m/05kyb8',
+  name: 'Elle Fanning',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Oyuncu',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTGsVX7FxBWMuWzfjqGq6uctbI7135afcD9gnME1Xcf7DjsjEn_',
+     url: 'https://simple.wikipedia.org/wiki/Elle_Fanning',
+     license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+  detailedDescription: 
+   { articleBody: 'Mary Elle Fanning, ABD\'li oyuncu. Aktris Dakota Fanning\'in kardeşidir. İlk Sinema Deneyiminde 2001 yapımı I Am Sam filminde Dakota Fanning ile birlikte rol almış ve onun karakterinin 2 yaşındaki halini canlandırmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Elle_Fanning',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:26:59: Result for phrase will be printed : elle
+2016-12-15-00:26:59: https://www.googleapis.com/customsearch/v1?q=Elle Fanning&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:26:59: received_result_no=1
+2016-12-15-00:26:59: System goes new search 
+2016-12-15-00:26:59: Searching for phrase :kaymış
+2016-12-15-00:26:59: Response for phrase :kaymış
+
+2016-12-15-00:26:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1.456614 } ] }
+2016-12-15-00:26:59: ItemlistElement for phrase : kaymış
+2016-12-15-00:26:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/037kc6',
+     name: 'Güyük',
+     '@type': [ 'Person', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTaXacHJzIeIbr7eBWAEuUxQ9fzV4nJUJmztCejHS0Vojusdg7I',
+        url: 'https://en.wikipedia.org/wiki/G%C3%BCy%C3%BCk_Khan' },
+     detailedDescription: 
+      { articleBody: 'Güyük Han, Göyük ya da Küyük olarak da bilinir. Cengiz Han\'ın torunu, Moğolların büyük kağanı Ögeday\'in büyük oğlu ve ardılı.\nAynı zamanda naiplik görevi yapan annesi Töregene\'nin siyasî manevraları sayesinde 1246\'da toplanan kurultayda büyük kağan seçildi. ',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCy%C3%BCk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1.456614 }
+2016-12-15-00:26:59: Callback for phrase : kaymış
+2016-12-15-00:26:59: Callback for word is succeed :kaymış
+2016-12-15-00:26:59: Word is going to iteration : kaymış
+2016-12-15-00:26:59: Iteration for phrase : kaymış O
+2016-12-15-00:26:59: Searching for phrase :kaymış O
+2016-12-15-00:27:00: Response for phrase :kaymış O
+
+2016-12-15-00:27:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1.456614 } ] }
+2016-12-15-00:27:00: ItemlistElement for phrase : kaymış O
+2016-12-15-00:27:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/037kc6',
+     name: 'Güyük',
+     '@type': [ 'Person', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTaXacHJzIeIbr7eBWAEuUxQ9fzV4nJUJmztCejHS0Vojusdg7I',
+        url: 'https://en.wikipedia.org/wiki/G%C3%BCy%C3%BCk_Khan' },
+     detailedDescription: 
+      { articleBody: 'Güyük Han, Göyük ya da Küyük olarak da bilinir. Cengiz Han\'ın torunu, Moğolların büyük kağanı Ögeday\'in büyük oğlu ve ardılı.\nAynı zamanda naiplik görevi yapan annesi Töregene\'nin siyasî manevraları sayesinde 1246\'da toplanan kurultayda büyük kağan seçildi. ',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCy%C3%BCk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1.456614 }
+2016-12-15-00:27:00: Callback for phrase : kaymış O
+2016-12-15-00:27:00: Callback for iteration phrase is succeed :kaymış O
+2016-12-15-00:27:00: Score for phrase is1.456614 : kaymış O
+2016-12-15-00:27:00: iteration phrase is going next iteration :kaymış O
+2016-12-15-00:27:00: Iteration for phrase : kaymış O her
+2016-12-15-00:27:00: Searching for phrase :kaymış O her
+2016-12-15-00:27:00: Response for phrase :kaymış O her
+
+2016-12-15-00:27:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1.456614 } ] }
+2016-12-15-00:27:00: ItemlistElement for phrase : kaymış O her
+2016-12-15-00:27:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/037kc6',
+     name: 'Güyük',
+     '@type': [ 'Person', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTaXacHJzIeIbr7eBWAEuUxQ9fzV4nJUJmztCejHS0Vojusdg7I',
+        url: 'https://en.wikipedia.org/wiki/G%C3%BCy%C3%BCk_Khan' },
+     detailedDescription: 
+      { articleBody: 'Güyük Han, Göyük ya da Küyük olarak da bilinir. Cengiz Han\'ın torunu, Moğolların büyük kağanı Ögeday\'in büyük oğlu ve ardılı.\nAynı zamanda naiplik görevi yapan annesi Töregene\'nin siyasî manevraları sayesinde 1246\'da toplanan kurultayda büyük kağan seçildi. ',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCy%C3%BCk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1.456614 }
+2016-12-15-00:27:00: Callback for phrase : kaymış O her
+2016-12-15-00:27:00: Callback for iteration phrase is succeed :kaymış O her
+2016-12-15-00:27:00: Score for phrase is1.456614 : kaymış O her
+2016-12-15-00:27:00: iteration phrase is going next iteration :kaymış O her
+2016-12-15-00:27:00: Iteration for phrase : kaymış O her zaman
+2016-12-15-00:27:00: Searching for phrase :kaymış O her zaman
+2016-12-15-00:27:01: Response for phrase :kaymış O her zaman
+
+2016-12-15-00:27:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:27:01: ItemlistElement for phrase : kaymış O her zaman
+2016-12-15-00:27:01: undefined
+2016-12-15-00:27:01: Failed callback for phras : kaymış O her zaman
+
+2016-12-15-00:27:01: Callback for iteration phrase is succeed :kaymış O her zaman
+2016-12-15-00:27:01: Score for phrase isnull : kaymış O her zaman
+2016-12-15-00:27:01: iteration phrase is going root iteration :kaymış O her zaman
+2016-12-15-00:27:01: Root iteration for phrase : kaymış O her zaman
+2016-12-15-00:27:01: Searching for phrase :kaymış O her zaman
+2016-12-15-00:27:01: Response for phrase :kaymış O her zaman
+
+2016-12-15-00:27:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:27:01: ItemlistElement for phrase : kaymış O her zaman
+2016-12-15-00:27:01: undefined
+2016-12-15-00:27:01: Failed callback for phras : kaymış O her zaman
+
+2016-12-15-00:27:01: Callback for root iteration phrase is succeed :kaymış O her zaman
+2016-12-15-00:27:01: Score for phrase isnull : kaymış O her zaman
+2016-12-15-00:27:01: Root iteration phrase is going to matching :kaymış O her zaman
+2016-12-15-00:27:01: Matching result for phrase : kaymış O her
+
+2016-12-15-00:27:01: { '@id': 'kg:/m/037kc6',
+  name: 'Güyük',
+  '@type': [ 'Person', 'Thing' ],
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTaXacHJzIeIbr7eBWAEuUxQ9fzV4nJUJmztCejHS0Vojusdg7I',
+     url: 'https://en.wikipedia.org/wiki/G%C3%BCy%C3%BCk_Khan' },
+  detailedDescription: 
+   { articleBody: 'Güyük Han, Göyük ya da Küyük olarak da bilinir. Cengiz Han\'ın torunu, Moğolların büyük kağanı Ögeday\'in büyük oğlu ve ardılı.\nAynı zamanda naiplik görevi yapan annesi Töregene\'nin siyasî manevraları sayesinde 1246\'da toplanan kurultayda büyük kağan seçildi. ',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%BCy%C3%BCk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:27:01: Result for phrase will be printed : kaymış O her
+2016-12-15-00:27:01: received_result_no=2
+2016-12-15-00:27:01: System goes new search 
+2016-12-15-00:27:01: Searching for phrase :zaman
+2016-12-15-00:27:02: Response for phrase :zaman
+
+2016-12-15-00:27:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.530243 } ] }
+2016-12-15-00:27:02: ItemlistElement for phrase : zaman
+2016-12-15-00:27:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02lcqs',
+     name: 'Pasifik Zaman Dilimi',
+     '@type': [ 'Thing', 'Place' ],
+     description: 'Saat Dilimi',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSSpgNF-R1ZLoj95EfKnJq_QZHeBSQUuEh91xwM9u_iXZcUeFI5',
+        url: 'https://en.wikipedia.org/wiki/Pacific_Time_Zone' },
+     detailedDescription: 
+      { articleBody: 'Pasifik Zaman Dilimi, Amerika Birleşik Devletleri ve Kanada\'nın batı kıyılarında kullanılan zaman dilimi. GMT\'den 8 saat geridedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pasifik_Zaman_Dilimi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 43.530243 }
+2016-12-15-00:27:02: Callback for phrase : zaman
+2016-12-15-00:27:02: Callback for word is succeed :zaman
+2016-12-15-00:27:02: Word is going to iteration : zaman
+2016-12-15-00:27:02: Iteration for phrase : zaman kayması
+2016-12-15-00:27:02: Searching for phrase :zaman kayması
+2016-12-15-00:27:02: Response for phrase :zaman kayması
+
+2016-12-15-00:27:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:27:02: ItemlistElement for phrase : zaman kayması
+2016-12-15-00:27:02: undefined
+2016-12-15-00:27:02: Failed callback for phras : zaman kayması
+
+2016-12-15-00:27:02: Callback for iteration phrase is succeed :zaman kayması
+2016-12-15-00:27:02: Score for phrase isnull : zaman kayması
+2016-12-15-00:27:02: iteration phrase is going root iteration :zaman kayması
+2016-12-15-00:27:02: Root iteration for phrase : zaman kay
+2016-12-15-00:27:02: Searching for phrase :zaman kay
+2016-12-15-00:27:02: Response for phrase :zaman kay
+
+2016-12-15-00:27:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:27:02: ItemlistElement for phrase : zaman kay
+2016-12-15-00:27:02: undefined
+2016-12-15-00:27:02: Failed callback for phras : zaman kay
+
+2016-12-15-00:27:02: Callback for root iteration phrase is succeed :zaman kay
+2016-12-15-00:27:02: Score for phrase isnull : zaman kay
+2016-12-15-00:27:02: Root iteration phrase is going to matching :zaman kay
+2016-12-15-00:27:02: Matching result for phrase : zaman
+
+2016-12-15-00:27:02: { '@id': 'kg:/m/02lcqs',
+  name: 'Pasifik Zaman Dilimi',
+  '@type': [ 'Thing', 'Place' ],
+  description: 'Saat Dilimi',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSSpgNF-R1ZLoj95EfKnJq_QZHeBSQUuEh91xwM9u_iXZcUeFI5',
+     url: 'https://en.wikipedia.org/wiki/Pacific_Time_Zone' },
+  detailedDescription: 
+   { articleBody: 'Pasifik Zaman Dilimi, Amerika Birleşik Devletleri ve Kanada\'nın batı kıyılarında kullanılan zaman dilimi. GMT\'den 8 saat geridedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Pasifik_Zaman_Dilimi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:27:02: Result for phrase will be printed : zaman
+2016-12-15-00:27:02: received_result_no=3
+2016-12-15-00:27:02: System goes new search 
+2016-12-15-00:27:02: Searching for phrase :Orhan
+2016-12-15-00:27:03: Response for phrase :Orhan
+
+2016-12-15-00:27:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-00:27:03: ItemlistElement for phrase : Orhan
+2016-12-15-00:27:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-00:27:03: Callback for phrase : Orhan
+2016-12-15-00:27:03: Callback for word is succeed :Orhan
+2016-12-15-00:27:03: Word is going to iteration : Orhan
+2016-12-15-00:27:03: Iteration for phrase : Orhan Baba
+2016-12-15-00:27:03: Searching for phrase :Orhan Baba
+2016-12-15-00:27:03: Response for phrase :Orhan Baba
+
+2016-12-15-00:27:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.518219 } ] }
+2016-12-15-00:27:03: ItemlistElement for phrase : Orhan Baba
+2016-12-15-00:27:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.518219 }
+2016-12-15-00:27:03: Callback for phrase : Orhan Baba
+2016-12-15-00:27:03: Callback for iteration phrase is succeed :Orhan Baba
+2016-12-15-00:27:03: Score for phrase is182.518219 : Orhan Baba
+2016-12-15-00:27:03: iteration phrase is going next iteration :Orhan Baba
+2016-12-15-00:27:03: Iteration for phrase : Orhan Baba zeytinyağı
+2016-12-15-00:27:03: Searching for phrase :Orhan Baba zeytinyağı
+2016-12-15-00:27:03: Response for phrase :Orhan Baba zeytinyağı
+
+2016-12-15-00:27:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:27:03: ItemlistElement for phrase : Orhan Baba zeytinyağı
+2016-12-15-00:27:03: undefined
+2016-12-15-00:27:03: Failed callback for phras : Orhan Baba zeytinyağı
+
+2016-12-15-00:27:03: Callback for iteration phrase is succeed :Orhan Baba zeytinyağı
+2016-12-15-00:27:03: Score for phrase isnull : Orhan Baba zeytinyağı
+2016-12-15-00:27:03: iteration phrase is going root iteration :Orhan Baba zeytinyağı
+2016-12-15-00:27:03: Root iteration for phrase : Orhan Baba zeytinyağı
+2016-12-15-00:27:03: Searching for phrase :Orhan Baba zeytinyağı
+2016-12-15-00:27:04: Response for phrase :Orhan Baba zeytinyağı
+
+2016-12-15-00:27:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:27:04: ItemlistElement for phrase : Orhan Baba zeytinyağı
+2016-12-15-00:27:04: undefined
+2016-12-15-00:27:04: Failed callback for phras : Orhan Baba zeytinyağı
+
+2016-12-15-00:27:04: Callback for root iteration phrase is succeed :Orhan Baba zeytinyağı
+2016-12-15-00:27:04: Score for phrase isnull : Orhan Baba zeytinyağı
+2016-12-15-00:27:04: Root iteration phrase is going to matching :Orhan Baba zeytinyağı
+2016-12-15-00:27:04: Matching result for phrase : Orhan Baba
+
+2016-12-15-00:27:04: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-00:27:04: Result for phrase will be printed : Orhan Baba
+2016-12-15-00:27:04: received_result_no=4
+2016-12-15-00:27:04: System goes new search 
+2016-12-15-00:27:04: Searching for phrase :zeytinyağı
+2016-12-15-00:27:04: Response for phrase :zeytinyağı
+
+2016-12-15-00:27:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 47.767426 } ] }
+2016-12-15-00:27:04: ItemlistElement for phrase : zeytinyağı
+2016-12-15-00:27:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05ml4',
+     name: 'Zeytinyağı',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+        url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 47.767426 }
+2016-12-15-00:27:04: Callback for phrase : zeytinyağı
+2016-12-15-00:27:04: Callback for word is succeed :zeytinyağı
+2016-12-15-00:27:04: last word is noun here is the result of :zeytinyağı
+2016-12-15-00:27:04: { '@id': 'kg:/m/05ml4',
+  name: 'Zeytinyağı',
+  '@type': [ 'Thing' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+     url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:27:04: received_result_no=5
+2016-12-15-00:27:04: finish
+2016-12-15-00:27:04: process is finished
+2016-12-15-00:27:04: -----------------Printed Results------------------------
+2016-12-15-00:27:04: Elle Fanning
+2016-12-15-00:27:04: Güyük
+2016-12-15-00:27:04: Pasifik Zaman Dilimi
+2016-12-15-00:27:04: Orhan Gencebay
+2016-12-15-00:27:04: Zeytinyağı
+2016-12-15-00:27:05: section_count is:1
+2016-12-15-00:27:05: AftermoveSectionDown section_count is: 1
+2016-12-15-00:27:06: section_count is:0
+2016-12-15-00:27:06: AftermoveSectionUp section_count is: 0
+2016-12-15-00:27:06: AftermoveSectionUp section_count is: 0
+2016-12-15-00:27:08: AftermoveSectionUp section_count is: 0
+2016-12-15-00:27:15: section_count is:1
+2016-12-15-00:27:15: AftermoveSectionDown section_count is: 1
+2016-12-15-00:27:18: 1: slide left gesture is called
+2016-12-15-00:27:18: 1: slide left gesture is called
+2016-12-15-00:27:18: 1: slide left gesture is called
+2016-12-15-00:27:18: 1: slide left gesture is called
+2016-12-15-00:27:19: 1: slide left gesture is called
+2016-12-15-00:27:19: 1: slide left gesture is called
+2016-12-15-00:27:19: 1: slide right gesture is called
+2016-12-15-00:27:20: 1: slide right gesture is called
+2016-12-15-00:27:20: 1: slide right gesture is called
+2016-12-15-00:27:20: 1: slide right gesture is called
+2016-12-15-00:27:21: 1: slide right gesture is called
+2016-12-15-00:27:21: 1: slide right gesture is called
+2016-12-15-00:27:22: 1: slide right gesture is called
+2016-12-15-00:27:22: 1: slide right gesture is called
+2016-12-15-00:27:23: 1: slide left gesture is called
+2016-12-15-00:27:24: 1: slide right gesture is called
+2016-12-15-00:27:24: 1: slide right gesture is called
+2016-12-15-00:27:25: 1: slide right gesture is called
+2016-12-15-00:27:26: 1: slide right gesture is called
+2016-12-15-00:27:26: 1: slide right gesture is called
+2016-12-15-00:27:26: 1: slide right gesture is called
+2016-12-15-00:27:26: 1: slide right gesture is called
+2016-12-15-00:27:26: 1: slide right gesture is called
+2016-12-15-00:27:27: 1: slide right gesture is called
+2016-12-15-00:27:27: 1: slide right gesture is called
+2016-12-15-00:27:27: 1: slide right gesture is called
+2016-12-15-00:27:28: 1: slide left gesture is called
+2016-12-15-00:27:28: 1: slide left gesture is called
+2016-12-15-00:27:28: 1: slide left gesture is called
+2016-12-15-00:27:28: 1: slide left gesture is called
+2016-12-15-00:27:29: 1: slide left gesture is called
+2016-12-15-00:27:32: section_count is:2
+2016-12-15-00:27:32: AftermoveSectionDown section_count is: 2
+2016-12-15-00:27:34: 1: slide left gesture is called
+2016-12-15-00:27:34: 1: slide right gesture is called
+2016-12-15-00:27:35: 1: slide right gesture is called
+2016-12-15-00:27:35: 1: slide left gesture is called
+2016-12-15-00:27:35: 1: slide left gesture is called
+2016-12-15-00:27:36: 1: slide left gesture is called
+2016-12-15-00:27:36: 1: slide left gesture is called
+2016-12-15-00:27:36: 1: slide left gesture is called
+2016-12-15-00:27:37: 1: slide left gesture is called
+2016-12-15-00:27:38: 1: slide right gesture is called
+2016-12-15-00:27:39: 1: slide right gesture is called
+2016-12-15-00:27:40: 1: slide right gesture is called
+2016-12-15-00:27:40: 1: slide right gesture is called
+2016-12-15-00:27:41: 1: slide right gesture is called
+2016-12-15-00:27:41: 1: slide right gesture is called
+2016-12-15-00:27:42: 1: slide right gesture is called
+2016-12-15-00:27:42: 1: slide right gesture is called
+2016-12-15-00:27:43: 1: slide left gesture is called
+2016-12-15-00:27:43: 1: slide left gesture is called
+2016-12-15-00:27:43: 1: slide left gesture is called
+2016-12-15-00:27:44: 1: slide left gesture is called
+2016-12-15-00:27:44: 1: slide left gesture is called
+2016-12-15-00:27:44: 1: slide left gesture is called
+2016-12-15-00:27:46: 1: slide left gesture is called
+2016-12-15-00:27:48: 1: slide left gesture is called
+2016-12-15-00:27:48: 1: slide left gesture is called
+2016-12-15-00:27:49: 1: slide right gesture is called
+2016-12-15-00:27:49: 1: slide right gesture is called
+2016-12-15-00:27:52: 1: slide right gesture is called
+2016-12-15-00:27:53: 1: slide right gesture is called
+2016-12-15-00:27:53: 1: slide right gesture is called
+2016-12-15-00:27:54: 1: slide right gesture is called
+2016-12-15-00:27:55: 1: slide left gesture is called
+2016-12-15-00:27:55: 1: slide left gesture is called
+2016-12-15-00:27:56: 1: slide left gesture is called
+2016-12-15-00:27:56: 1: slide left gesture is called
+2016-12-15-00:27:58: 1: slide left gesture is called
+2016-12-15-00:27:59: 1: slide left gesture is called
+2016-12-15-00:27:59: 1: slide right gesture is called
+2016-12-15-00:28:00: 1: slide right gesture is called
+2016-12-15-00:28:00: 1: slide right gesture is called
+2016-12-15-00:28:00: 1: slide right gesture is called
+2016-12-15-00:28:01: 1: slide right gesture is called
+2016-12-15-00:28:01: 1: slide right gesture is called
+2016-12-15-00:28:02: 1: slide right gesture is called
+2016-12-15-00:28:03: 1: slide left gesture is called
+2016-12-15-00:28:05: 1: slide left gesture is called
+2016-12-15-00:28:05: 1: slide left gesture is called
+2016-12-15-00:28:05: 1: slide left gesture is called
+2016-12-15-00:28:06: 1: slide left gesture is called
+2016-12-15-00:28:06: 1: slide left gesture is called
+2016-12-15-00:28:07: 1: slide left gesture is called
+2016-12-15-00:28:11: section_count is:3
+2016-12-15-00:28:11: AftermoveSectionDown section_count is: 3
+2016-12-15-00:28:22: 1: slide right gesture is called
+2016-12-15-00:28:23: 1: slide right gesture is called
+2016-12-15-00:28:23: 1: slide left gesture is called
+2016-12-15-00:28:23: 1: slide left gesture is called
+2016-12-15-00:28:24: 1: slide right gesture is called
+2016-12-15-00:28:25: 1: slide right gesture is called
+2016-12-15-00:28:25: 1: slide right gesture is called
+2016-12-15-00:28:26: 1: slide right gesture is called
+2016-12-15-00:28:26: 1: slide right gesture is called
+2016-12-15-00:28:26: 1: slide right gesture is called
+2016-12-15-00:28:27: 1: slide right gesture is called
+2016-12-15-00:28:28: 1: slide right gesture is called
+2016-12-15-00:28:28: 1: slide right gesture is called
+2016-12-15-00:28:29: 1: slide right gesture is called
+2016-12-15-00:28:29: 1: slide right gesture is called
+2016-12-15-00:28:29: 1: slide right gesture is called
+2016-12-15-00:28:29: 1: slide right gesture is called
+2016-12-15-00:28:30: 1: slide left gesture is called
+2016-12-15-00:28:30: 1: slide left gesture is called
+2016-12-15-00:28:30: 1: slide left gesture is called
+2016-12-15-00:28:31: 1: slide left gesture is called
+2016-12-15-00:28:31: 1: slide left gesture is called
+2016-12-15-00:28:32: 1: slide left gesture is called
+2016-12-15-00:28:32: 1: slide left gesture is called
+2016-12-15-00:28:32: 1: slide left gesture is called
+2016-12-15-00:28:33: 1: slide right gesture is called
+2016-12-15-00:28:35: 1: slide right gesture is called
+2016-12-15-00:28:36: section_count is:2
+2016-12-15-00:28:36: AftermoveSectionUp section_count is: 2
+2016-12-15-00:28:39: section_count is:1
+2016-12-15-00:28:39: AftermoveSectionUp section_count is: 1
+2016-12-15-00:28:39: section_count is:0
+2016-12-15-00:28:39: AftermoveSectionUp section_count is: 0
+2016-12-15-00:28:39: AftermoveSectionUp section_count is: 0
+2016-12-15-00:28:40: section_count is:1
+2016-12-15-00:28:40: AftermoveSectionDown section_count is: 1
+2016-12-15-00:28:41: section_count is:2
+2016-12-15-00:28:41: AftermoveSectionDown section_count is: 2
+2016-12-15-00:28:42: section_count is:1
+2016-12-15-00:28:42: AftermoveSectionUp section_count is: 1
+2016-12-15-00:28:42: section_count is:2
+2016-12-15-00:28:42: AftermoveSectionDown section_count is: 2
+2016-12-15-00:28:42: section_count is:1
+2016-12-15-00:28:42: AftermoveSectionUp section_count is: 1
+2016-12-15-00:28:44: section_count is:2
+2016-12-15-00:28:44: AftermoveSectionDown section_count is: 2
+2016-12-15-00:28:44: section_count is:1
+2016-12-15-00:28:44: AftermoveSectionUp section_count is: 1
+2016-12-15-00:28:50: 2:click detected at point:[object Object]
+2016-12-15-00:28:50: Connected
+2016-12-15-00:28:51: 2:click detected at point:[object Object]
+2016-12-15-00:28:51: 2:click detected at point:[object Object]
+2016-12-15-00:28:58: Data received from stt: Orhan Babanın resmine ne zeytinyağı çıktı üzerine Mehmet Ali Erbil Emel Sayın Orhan,Noun Baban,Noun resmi,Other ne,Other zeytinyağı,Noun çıktı,Noun üzer,Noun Mehmet,Noun Ali,Noun Erbil,Noun Emel,Noun Sayın,Noun
+2016-12-15-00:28:58: SearchTerm from microphone:Orhan Babanın resmine ne zeytinyağı çıktı üzerine Mehmet Ali Erbil Emel Sayın Orhan,Noun Baban,Noun resmi,Other ne,Other zeytinyağı,Noun çıktı,Noun üzer,Noun Mehmet,Noun Ali,Noun Erbil,Noun Emel,Noun Sayın,Noun
+2016-12-15-00:28:58: State machine is initialized with input: 
+2016-12-15-00:28:58: Orhan Babanın resmine ne zeytinyağı çıktı üzerine Mehmet Ali Erbil Emel Sayın Orhan,Noun Baban,Noun resmi,Other ne,Other zeytinyağı,Noun çıktı,Noun üzer,Noun Mehmet,Noun Ali,Noun Erbil,Noun Emel,Noun Sayın,Noun
+2016-12-15-00:28:58: Input words : 
+2016-12-15-00:28:58: [ 'Orhan',
+  'Babanın',
+  'resmine',
+  'ne',
+  'zeytinyağı',
+  'çıktı',
+  'üzerine',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Emel',
+  'Sayın' ]
+2016-12-15-00:28:58: Input roots : 
+2016-12-15-00:28:58: [ 'Orhan',
+  'Baban',
+  'resmi',
+  'ne',
+  'zeytinyağı',
+  'çıktı',
+  'üzer',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Emel',
+  'Sayın' ]
+2016-12-15-00:28:58: Searching for phrase :Orhan
+2016-12-15-00:28:58: Data received from stt: Orhan Babanın resmine ne zeytinyağı çıktı üzerine Mehmet Ali Erbil Emel Sayın Orhan,Noun Baban,Noun resmi,Other ne,Other zeytinyağı,Noun çıktı,Noun üzer,Noun Mehmet,Noun Ali,Noun Erbil,Noun Emel,Noun Sayın,Noun
+2016-12-15-00:28:58: SearchTerm from microphone:Orhan Babanın resmine ne zeytinyağı çıktı üzerine Mehmet Ali Erbil Emel Sayın Orhan,Noun Baban,Noun resmi,Other ne,Other zeytinyağı,Noun çıktı,Noun üzer,Noun Mehmet,Noun Ali,Noun Erbil,Noun Emel,Noun Sayın,Noun
+2016-12-15-00:28:58: State machine is initialized with input: 
+2016-12-15-00:28:58: Orhan Babanın resmine ne zeytinyağı çıktı üzerine Mehmet Ali Erbil Emel Sayın Orhan,Noun Baban,Noun resmi,Other ne,Other zeytinyağı,Noun çıktı,Noun üzer,Noun Mehmet,Noun Ali,Noun Erbil,Noun Emel,Noun Sayın,Noun
+2016-12-15-00:28:58: Input words : 
+2016-12-15-00:28:58: [ 'Orhan',
+  'Babanın',
+  'resmine',
+  'ne',
+  'zeytinyağı',
+  'çıktı',
+  'üzerine',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Emel',
+  'Sayın' ]
+2016-12-15-00:28:58: Input roots : 
+2016-12-15-00:28:58: [ 'Orhan',
+  'Baban',
+  'resmi',
+  'ne',
+  'zeytinyağı',
+  'çıktı',
+  'üzer',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Emel',
+  'Sayın' ]
+2016-12-15-00:28:58: Searching for phrase :Orhan
+2016-12-15-00:28:58: Connection closed
+2016-12-15-00:28:58: Connection closed
+2016-12-15-00:28:58: Response for phrase :Orhan
+
+2016-12-15-00:28:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-00:28:58: ItemlistElement for phrase : Orhan
+2016-12-15-00:28:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-00:28:58: Callback for phrase : Orhan
+2016-12-15-00:28:58: Callback for word is succeed :Orhan
+2016-12-15-00:28:58: Word is going to iteration : Orhan
+2016-12-15-00:28:58: Iteration for phrase : Orhan Babanın
+2016-12-15-00:28:58: Searching for phrase :Orhan Babanın
+2016-12-15-00:28:59: Response for phrase :Orhan
+
+2016-12-15-00:28:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-00:28:59: ItemlistElement for phrase : Orhan
+2016-12-15-00:28:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-00:28:59: Callback for phrase : Orhan
+2016-12-15-00:28:59: Callback for word is succeed :Orhan
+2016-12-15-00:28:59: Word is going to iteration : Orhan
+2016-12-15-00:28:59: Iteration for phrase : Orhan Babanın
+2016-12-15-00:28:59: Searching for phrase :Orhan Babanın
+2016-12-15-00:28:59: Response for phrase :Orhan Babanın
+
+2016-12-15-00:28:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:28:59: ItemlistElement for phrase : Orhan Babanın
+2016-12-15-00:28:59: undefined
+2016-12-15-00:28:59: Failed callback for phras : Orhan Babanın
+
+2016-12-15-00:28:59: Callback for iteration phrase is succeed :Orhan Babanın
+2016-12-15-00:28:59: Score for phrase isnull : Orhan Babanın
+2016-12-15-00:28:59: iteration phrase is going root iteration :Orhan Babanın
+2016-12-15-00:28:59: Root iteration for phrase : Orhan Baban
+2016-12-15-00:28:59: Searching for phrase :Orhan Baban
+2016-12-15-00:28:59: Response for phrase :Orhan Babanın
+
+2016-12-15-00:28:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:28:59: ItemlistElement for phrase : Orhan Babanın
+2016-12-15-00:28:59: undefined
+2016-12-15-00:28:59: Failed callback for phras : Orhan Babanın
+
+2016-12-15-00:28:59: Callback for iteration phrase is succeed :Orhan Babanın
+2016-12-15-00:28:59: Score for phrase isnull : Orhan Babanın
+2016-12-15-00:28:59: iteration phrase is going root iteration :Orhan Babanın
+2016-12-15-00:28:59: Root iteration for phrase : Orhan Baban
+2016-12-15-00:28:59: Searching for phrase :Orhan Baban
+2016-12-15-00:28:59: Response for phrase :Orhan Baban
+
+2016-12-15-00:28:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:28:59: ItemlistElement for phrase : Orhan Baban
+2016-12-15-00:28:59: undefined
+2016-12-15-00:28:59: Failed callback for phras : Orhan Baban
+
+2016-12-15-00:28:59: Callback for root iteration phrase is succeed :Orhan Baban
+2016-12-15-00:28:59: Score for phrase isnull : Orhan Baban
+2016-12-15-00:28:59: Root iteration phrase is going to matching :Orhan Baban
+2016-12-15-00:28:59: Matching result for phrase : Orhan
+
+2016-12-15-00:28:59: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:28:59: Result for phrase will be printed : Orhan
+2016-12-15-00:28:59: https://www.googleapis.com/customsearch/v1?q=Orhan Bey&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:28:59: received_result_no=1
+2016-12-15-00:28:59: System goes new search 
+2016-12-15-00:28:59: Searching for phrase :Babanın
+2016-12-15-00:28:59: Response for phrase :Orhan Baban
+
+2016-12-15-00:28:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:28:59: ItemlistElement for phrase : Orhan Baban
+2016-12-15-00:28:59: undefined
+2016-12-15-00:28:59: Failed callback for phras : Orhan Baban
+
+2016-12-15-00:28:59: Callback for root iteration phrase is succeed :Orhan Baban
+2016-12-15-00:28:59: Score for phrase isnull : Orhan Baban
+2016-12-15-00:28:59: Root iteration phrase is going to matching :Orhan Baban
+2016-12-15-00:28:59: Matching result for phrase : Orhan
+
+2016-12-15-00:28:59: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:28:59: Result for phrase will be printed : Orhan
+2016-12-15-00:28:59: https://www.googleapis.com/customsearch/v1?q=Orhan Bey&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:28:59: received_result_no=1
+2016-12-15-00:28:59: System goes new search 
+2016-12-15-00:28:59: Searching for phrase :Babanın
+2016-12-15-00:28:59: Response for phrase :Babanın
+
+2016-12-15-00:28:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.857542 } ] }
+2016-12-15-00:29:00: ItemlistElement for phrase : Babanın
+2016-12-15-00:29:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04x4p6',
+     name: 'Babanın Metresi',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '1988 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Babanın Metresi 1988 yapımı komedi filmi. Jonathan Damme tarafından yönetilmiş olup başrollerini Matthew Modine, Alec Baldwin, Michelle Pfeiffer, Joan Cusack ve Mercedes Ruehl paylaşmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Baban%C4%B1n_Metresi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.857542 }
+2016-12-15-00:29:00: Callback for phrase : Babanın
+2016-12-15-00:29:00: Callback for word is succeed :Babanın
+2016-12-15-00:29:00: Word is going to iteration : Babanın
+2016-12-15-00:29:00: Iteration for phrase : Babanın resmine
+2016-12-15-00:29:00: Searching for phrase :Babanın resmine
+2016-12-15-00:29:00: Response for phrase :Babanın
+
+2016-12-15-00:29:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.857542 } ] }
+2016-12-15-00:29:00: ItemlistElement for phrase : Babanın
+2016-12-15-00:29:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04x4p6',
+     name: 'Babanın Metresi',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '1988 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Babanın Metresi 1988 yapımı komedi filmi. Jonathan Damme tarafından yönetilmiş olup başrollerini Matthew Modine, Alec Baldwin, Michelle Pfeiffer, Joan Cusack ve Mercedes Ruehl paylaşmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Baban%C4%B1n_Metresi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.857542 }
+2016-12-15-00:29:00: Callback for phrase : Babanın
+2016-12-15-00:29:00: Callback for word is succeed :Babanın
+2016-12-15-00:29:00: Word is going to iteration : Babanın
+2016-12-15-00:29:00: Iteration for phrase : Babanın resmine
+2016-12-15-00:29:00: Searching for phrase :Babanın resmine
+2016-12-15-00:29:00: Response for phrase :Babanın resmine
+
+2016-12-15-00:29:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:00: ItemlistElement for phrase : Babanın resmine
+2016-12-15-00:29:00: undefined
+2016-12-15-00:29:00: Failed callback for phras : Babanın resmine
+
+2016-12-15-00:29:00: Callback for iteration phrase is succeed :Babanın resmine
+2016-12-15-00:29:00: Score for phrase isnull : Babanın resmine
+2016-12-15-00:29:00: iteration phrase is going root iteration :Babanın resmine
+2016-12-15-00:29:00: Root iteration for phrase : Babanın resmi
+2016-12-15-00:29:00: Searching for phrase :Babanın resmi
+2016-12-15-00:29:00: Response for phrase :Babanın resmine
+
+2016-12-15-00:29:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:00: ItemlistElement for phrase : Babanın resmine
+2016-12-15-00:29:00: undefined
+2016-12-15-00:29:00: Failed callback for phras : Babanın resmine
+
+2016-12-15-00:29:00: Callback for iteration phrase is succeed :Babanın resmine
+2016-12-15-00:29:00: Score for phrase isnull : Babanın resmine
+2016-12-15-00:29:00: iteration phrase is going root iteration :Babanın resmine
+2016-12-15-00:29:00: Root iteration for phrase : Babanın resmi
+2016-12-15-00:29:00: Searching for phrase :Babanın resmi
+2016-12-15-00:29:00: Response for phrase :Babanın resmi
+
+2016-12-15-00:29:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:00: ItemlistElement for phrase : Babanın resmi
+2016-12-15-00:29:00: undefined
+2016-12-15-00:29:00: Failed callback for phras : Babanın resmi
+
+2016-12-15-00:29:00: Callback for root iteration phrase is succeed :Babanın resmi
+2016-12-15-00:29:00: Score for phrase isnull : Babanın resmi
+2016-12-15-00:29:00: Root iteration phrase is going to matching :Babanın resmi
+2016-12-15-00:29:00: Matching result for phrase : Babanın
+
+2016-12-15-00:29:00: { '@id': 'kg:/m/04x4p6',
+  name: 'Babanın Metresi',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '1988 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Babanın Metresi 1988 yapımı komedi filmi. Jonathan Damme tarafından yönetilmiş olup başrollerini Matthew Modine, Alec Baldwin, Michelle Pfeiffer, Joan Cusack ve Mercedes Ruehl paylaşmaktadır.',
+     url: 'https://tr.wikipedia.org/wiki/Baban%C4%B1n_Metresi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:00: Result for phrase will not be printed because it is not noun : Babanın
+2016-12-15-00:29:00: System goes new search 
+2016-12-15-00:29:00: Searching for phrase :resmine
+2016-12-15-00:29:01: Response for phrase :Babanın resmi
+
+2016-12-15-00:29:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:01: ItemlistElement for phrase : Babanın resmi
+2016-12-15-00:29:01: undefined
+2016-12-15-00:29:01: Failed callback for phras : Babanın resmi
+
+2016-12-15-00:29:01: Callback for root iteration phrase is succeed :Babanın resmi
+2016-12-15-00:29:01: Score for phrase isnull : Babanın resmi
+2016-12-15-00:29:01: Root iteration phrase is going to matching :Babanın resmi
+2016-12-15-00:29:01: Matching result for phrase : Babanın
+
+2016-12-15-00:29:01: { '@id': 'kg:/m/04x4p6',
+  name: 'Babanın Metresi',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '1988 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Babanın Metresi 1988 yapımı komedi filmi. Jonathan Damme tarafından yönetilmiş olup başrollerini Matthew Modine, Alec Baldwin, Michelle Pfeiffer, Joan Cusack ve Mercedes Ruehl paylaşmaktadır.',
+     url: 'https://tr.wikipedia.org/wiki/Baban%C4%B1n_Metresi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:01: Result for phrase will not be printed because it is not noun : Babanın
+2016-12-15-00:29:01: System goes new search 
+2016-12-15-00:29:01: Searching for phrase :resmine
+2016-12-15-00:29:01: Response for phrase :resmine
+
+2016-12-15-00:29:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 11.89476 } ] }
+2016-12-15-00:29:01: ItemlistElement for phrase : resmine
+2016-12-15-00:29:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0ds606',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu' },
+  resultScore: 11.89476 }
+2016-12-15-00:29:01: Callback for phrase : resmine
+2016-12-15-00:29:01: Callback for word is succeed :resmine
+2016-12-15-00:29:01: Word is going to iteration : resmine
+2016-12-15-00:29:01: Iteration for phrase : resmine ne
+2016-12-15-00:29:01: Searching for phrase :resmine ne
+2016-12-15-00:29:01: Response for phrase :resmine
+
+2016-12-15-00:29:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 11.89476 } ] }
+2016-12-15-00:29:01: ItemlistElement for phrase : resmine
+2016-12-15-00:29:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0ds606',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu' },
+  resultScore: 11.89476 }
+2016-12-15-00:29:01: Callback for phrase : resmine
+2016-12-15-00:29:01: Callback for word is succeed :resmine
+2016-12-15-00:29:01: Word is going to iteration : resmine
+2016-12-15-00:29:01: Iteration for phrase : resmine ne
+2016-12-15-00:29:01: Searching for phrase :resmine ne
+2016-12-15-00:29:01: Response for phrase :resmine ne
+
+2016-12-15-00:29:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:01: ItemlistElement for phrase : resmine ne
+2016-12-15-00:29:01: undefined
+2016-12-15-00:29:01: Failed callback for phras : resmine ne
+
+2016-12-15-00:29:01: Callback for iteration phrase is succeed :resmine ne
+2016-12-15-00:29:01: Score for phrase isnull : resmine ne
+2016-12-15-00:29:01: iteration phrase is going root iteration :resmine ne
+2016-12-15-00:29:01: Root iteration for phrase : resmine ne
+2016-12-15-00:29:01: Searching for phrase :resmine ne
+2016-12-15-00:29:01: Response for phrase :resmine ne
+
+2016-12-15-00:29:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:01: ItemlistElement for phrase : resmine ne
+2016-12-15-00:29:01: undefined
+2016-12-15-00:29:01: Failed callback for phras : resmine ne
+
+2016-12-15-00:29:01: Callback for iteration phrase is succeed :resmine ne
+2016-12-15-00:29:01: Score for phrase isnull : resmine ne
+2016-12-15-00:29:01: iteration phrase is going root iteration :resmine ne
+2016-12-15-00:29:01: Root iteration for phrase : resmine ne
+2016-12-15-00:29:01: Searching for phrase :resmine ne
+2016-12-15-00:29:01: Response for phrase :resmine ne
+
+2016-12-15-00:29:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:01: ItemlistElement for phrase : resmine ne
+2016-12-15-00:29:01: undefined
+2016-12-15-00:29:01: Failed callback for phras : resmine ne
+
+2016-12-15-00:29:01: Callback for root iteration phrase is succeed :resmine ne
+2016-12-15-00:29:01: Score for phrase isnull : resmine ne
+2016-12-15-00:29:01: Root iteration phrase is going to matching :resmine ne
+2016-12-15-00:29:01: Matching result for phrase : resmine
+
+2016-12-15-00:29:02: { '@id': 'kg:/m/0ds606',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu' }
+2016-12-15-00:29:02: Result for phrase will not be printed because it is not noun : resmine
+2016-12-15-00:29:02: System goes new search 
+2016-12-15-00:29:02: Searching for phrase :ne
+2016-12-15-00:29:02: Response for phrase :resmine ne
+
+2016-12-15-00:29:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:02: ItemlistElement for phrase : resmine ne
+2016-12-15-00:29:02: undefined
+2016-12-15-00:29:02: Failed callback for phras : resmine ne
+
+2016-12-15-00:29:02: Callback for root iteration phrase is succeed :resmine ne
+2016-12-15-00:29:02: Score for phrase isnull : resmine ne
+2016-12-15-00:29:02: Root iteration phrase is going to matching :resmine ne
+2016-12-15-00:29:02: Matching result for phrase : resmine
+
+2016-12-15-00:29:02: { '@id': 'kg:/m/0ds606',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu' }
+2016-12-15-00:29:02: Result for phrase will not be printed because it is not noun : resmine
+2016-12-15-00:29:02: System goes new search 
+2016-12-15-00:29:02: Searching for phrase :ne
+2016-12-15-00:29:02: Response for phrase :ne
+
+2016-12-15-00:29:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 40.086056 } ] }
+2016-12-15-00:29:02: ItemlistElement for phrase : ne
+2016-12-15-00:29:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05fhy',
+     name: 'Nebraska',
+     '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQpX8OVWb-8_ljCLZEEiXpm67VyHAc4ljtPn40a8P3tOnUN93ka',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Nebraska.svg' },
+     detailedDescription: 
+      { articleBody: 'Nebraska, ABD\'nin eyâletlerinden birisidir. Büyük bir bölümü kurak topraklar ve çöllerden oluşmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Nebraska',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nebraska.gov/' },
+  resultScore: 40.086056 }
+2016-12-15-00:29:02: Callback for phrase : ne
+2016-12-15-00:29:02: Callback for word is succeed :ne
+2016-12-15-00:29:02: Word is going to iteration : ne
+2016-12-15-00:29:02: Iteration for phrase : ne zeytinyağı
+2016-12-15-00:29:02: Searching for phrase :ne zeytinyağı
+2016-12-15-00:29:02: Response for phrase :ne
+
+2016-12-15-00:29:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 40.086056 } ] }
+2016-12-15-00:29:02: ItemlistElement for phrase : ne
+2016-12-15-00:29:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05fhy',
+     name: 'Nebraska',
+     '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQpX8OVWb-8_ljCLZEEiXpm67VyHAc4ljtPn40a8P3tOnUN93ka',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Nebraska.svg' },
+     detailedDescription: 
+      { articleBody: 'Nebraska, ABD\'nin eyâletlerinden birisidir. Büyük bir bölümü kurak topraklar ve çöllerden oluşmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Nebraska',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nebraska.gov/' },
+  resultScore: 40.086056 }
+2016-12-15-00:29:02: Callback for phrase : ne
+2016-12-15-00:29:02: Callback for word is succeed :ne
+2016-12-15-00:29:02: Word is going to iteration : ne
+2016-12-15-00:29:02: Iteration for phrase : ne zeytinyağı
+2016-12-15-00:29:02: Searching for phrase :ne zeytinyağı
+2016-12-15-00:29:02: Response for phrase :ne zeytinyağı
+
+2016-12-15-00:29:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 47.767426 } ] }
+2016-12-15-00:29:02: ItemlistElement for phrase : ne zeytinyağı
+2016-12-15-00:29:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05ml4',
+     name: 'Zeytinyağı',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+        url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 47.767426 }
+2016-12-15-00:29:02: Callback for phrase : ne zeytinyağı
+2016-12-15-00:29:02: Callback for iteration phrase is succeed :ne zeytinyağı
+2016-12-15-00:29:02: Score for phrase is47.767426 : ne zeytinyağı
+2016-12-15-00:29:02: iteration phrase is going next iteration :ne zeytinyağı
+2016-12-15-00:29:02: Iteration for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:02: Searching for phrase :ne zeytinyağı çıktı
+2016-12-15-00:29:02: Response for phrase :ne zeytinyağı
+
+2016-12-15-00:29:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 47.767426 } ] }
+2016-12-15-00:29:02: ItemlistElement for phrase : ne zeytinyağı
+2016-12-15-00:29:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05ml4',
+     name: 'Zeytinyağı',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+        url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 47.767426 }
+2016-12-15-00:29:02: Callback for phrase : ne zeytinyağı
+2016-12-15-00:29:02: Callback for iteration phrase is succeed :ne zeytinyağı
+2016-12-15-00:29:02: Score for phrase is47.767426 : ne zeytinyağı
+2016-12-15-00:29:02: iteration phrase is going next iteration :ne zeytinyağı
+2016-12-15-00:29:02: Iteration for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:02: Searching for phrase :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Response for phrase :ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:03: ItemlistElement for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:03: undefined
+2016-12-15-00:29:03: Failed callback for phras : ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: Callback for iteration phrase is succeed :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Score for phrase isnull : ne zeytinyağı çıktı
+2016-12-15-00:29:03: iteration phrase is going root iteration :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Root iteration for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:03: Searching for phrase :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Response for phrase :ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:03: ItemlistElement for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:03: undefined
+2016-12-15-00:29:03: Failed callback for phras : ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: Callback for iteration phrase is succeed :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Score for phrase isnull : ne zeytinyağı çıktı
+2016-12-15-00:29:03: iteration phrase is going root iteration :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Root iteration for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:03: Searching for phrase :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Response for phrase :ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:03: ItemlistElement for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:03: undefined
+2016-12-15-00:29:03: Failed callback for phras : ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: Callback for root iteration phrase is succeed :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Score for phrase isnull : ne zeytinyağı çıktı
+2016-12-15-00:29:03: Root iteration phrase is going to matching :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Matching result for phrase : ne zeytinyağı
+
+2016-12-15-00:29:03: { '@id': 'kg:/m/05ml4',
+  name: 'Zeytinyağı',
+  '@type': [ 'Thing' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+     url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:03: Result for phrase will be printed : ne zeytinyağı
+2016-12-15-00:29:03: received_result_no=2
+2016-12-15-00:29:03: System goes new search 
+2016-12-15-00:29:03: Searching for phrase :çıktı
+2016-12-15-00:29:03: Response for phrase :ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:03: ItemlistElement for phrase : ne zeytinyağı çıktı
+2016-12-15-00:29:03: undefined
+2016-12-15-00:29:03: Failed callback for phras : ne zeytinyağı çıktı
+
+2016-12-15-00:29:03: Callback for root iteration phrase is succeed :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Score for phrase isnull : ne zeytinyağı çıktı
+2016-12-15-00:29:03: Root iteration phrase is going to matching :ne zeytinyağı çıktı
+2016-12-15-00:29:03: Matching result for phrase : ne zeytinyağı
+
+2016-12-15-00:29:03: { '@id': 'kg:/m/05ml4',
+  name: 'Zeytinyağı',
+  '@type': [ 'Thing' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+     url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:03: Result for phrase will be printed : ne zeytinyağı
+2016-12-15-00:29:03: received_result_no=2
+2016-12-15-00:29:03: System goes new search 
+2016-12-15-00:29:03: Searching for phrase :çıktı
+2016-12-15-00:29:03: Response for phrase :çıktı
+
+2016-12-15-00:29:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 17.551443 } ] }
+2016-12-15-00:29:03: ItemlistElement for phrase : çıktı
+2016-12-15-00:29:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06gplg',
+     name: 'Drakula Mezarından Çıktı',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1968 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Drakula Mezarından Kalktrı, 1968 tarihli, Freddie Francis yönetmenliğinde çekilen, Hammer yapımı korku filmidir.Hammer\'ın Drakula Serisinin dördüncü filmidir. Kont Drakula rolünü Christopher Lee oynamaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Drakula_Mezar%C4%B1ndan_Kalkt%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 17.551443 }
+2016-12-15-00:29:03: Callback for phrase : çıktı
+2016-12-15-00:29:03: Callback for word is succeed :çıktı
+2016-12-15-00:29:03: Word is going to iteration : çıktı
+2016-12-15-00:29:03: Iteration for phrase : çıktı üzerine
+2016-12-15-00:29:03: Searching for phrase :çıktı üzerine
+2016-12-15-00:29:03: Response for phrase :çıktı
+
+2016-12-15-00:29:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 17.551443 } ] }
+2016-12-15-00:29:03: ItemlistElement for phrase : çıktı
+2016-12-15-00:29:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06gplg',
+     name: 'Drakula Mezarından Çıktı',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1968 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Drakula Mezarından Kalktrı, 1968 tarihli, Freddie Francis yönetmenliğinde çekilen, Hammer yapımı korku filmidir.Hammer\'ın Drakula Serisinin dördüncü filmidir. Kont Drakula rolünü Christopher Lee oynamaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Drakula_Mezar%C4%B1ndan_Kalkt%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 17.551443 }
+2016-12-15-00:29:03: Callback for phrase : çıktı
+2016-12-15-00:29:03: Callback for word is succeed :çıktı
+2016-12-15-00:29:03: Word is going to iteration : çıktı
+2016-12-15-00:29:03: Iteration for phrase : çıktı üzerine
+2016-12-15-00:29:03: Searching for phrase :çıktı üzerine
+2016-12-15-00:29:04: Response for phrase :çıktı üzerine
+
+2016-12-15-00:29:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:04: ItemlistElement for phrase : çıktı üzerine
+2016-12-15-00:29:04: undefined
+2016-12-15-00:29:04: Failed callback for phras : çıktı üzerine
+
+2016-12-15-00:29:04: Callback for iteration phrase is succeed :çıktı üzerine
+2016-12-15-00:29:04: Score for phrase isnull : çıktı üzerine
+2016-12-15-00:29:04: iteration phrase is going root iteration :çıktı üzerine
+2016-12-15-00:29:04: Root iteration for phrase : çıktı üzer
+2016-12-15-00:29:04: Searching for phrase :çıktı üzer
+2016-12-15-00:29:04: Response for phrase :çıktı üzerine
+
+2016-12-15-00:29:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:04: ItemlistElement for phrase : çıktı üzerine
+2016-12-15-00:29:04: undefined
+2016-12-15-00:29:04: Failed callback for phras : çıktı üzerine
+
+2016-12-15-00:29:04: Callback for iteration phrase is succeed :çıktı üzerine
+2016-12-15-00:29:04: Score for phrase isnull : çıktı üzerine
+2016-12-15-00:29:04: iteration phrase is going root iteration :çıktı üzerine
+2016-12-15-00:29:04: Root iteration for phrase : çıktı üzer
+2016-12-15-00:29:04: Searching for phrase :çıktı üzer
+2016-12-15-00:29:04: Response for phrase :çıktı üzer
+
+2016-12-15-00:29:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:04: ItemlistElement for phrase : çıktı üzer
+2016-12-15-00:29:04: undefined
+2016-12-15-00:29:04: Failed callback for phras : çıktı üzer
+
+2016-12-15-00:29:04: Callback for root iteration phrase is succeed :çıktı üzer
+2016-12-15-00:29:04: Score for phrase isnull : çıktı üzer
+2016-12-15-00:29:04: Root iteration phrase is going to matching :çıktı üzer
+2016-12-15-00:29:04: Matching result for phrase : çıktı
+
+2016-12-15-00:29:04: { '@id': 'kg:/m/06gplg',
+  name: 'Drakula Mezarından Çıktı',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1968 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Drakula Mezarından Kalktrı, 1968 tarihli, Freddie Francis yönetmenliğinde çekilen, Hammer yapımı korku filmidir.Hammer\'ın Drakula Serisinin dördüncü filmidir. Kont Drakula rolünü Christopher Lee oynamaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Drakula_Mezar%C4%B1ndan_Kalkt%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:04: Result for phrase will be printed : çıktı
+2016-12-15-00:29:04: received_result_no=3
+2016-12-15-00:29:04: System goes new search 
+2016-12-15-00:29:04: Searching for phrase :üzerine
+2016-12-15-00:29:04: Response for phrase :çıktı üzer
+
+2016-12-15-00:29:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:04: ItemlistElement for phrase : çıktı üzer
+2016-12-15-00:29:04: undefined
+2016-12-15-00:29:04: Failed callback for phras : çıktı üzer
+
+2016-12-15-00:29:04: Callback for root iteration phrase is succeed :çıktı üzer
+2016-12-15-00:29:04: Score for phrase isnull : çıktı üzer
+2016-12-15-00:29:04: Root iteration phrase is going to matching :çıktı üzer
+2016-12-15-00:29:04: Matching result for phrase : çıktı
+
+2016-12-15-00:29:04: { '@id': 'kg:/m/06gplg',
+  name: 'Drakula Mezarından Çıktı',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1968 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Drakula Mezarından Kalktrı, 1968 tarihli, Freddie Francis yönetmenliğinde çekilen, Hammer yapımı korku filmidir.Hammer\'ın Drakula Serisinin dördüncü filmidir. Kont Drakula rolünü Christopher Lee oynamaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Drakula_Mezar%C4%B1ndan_Kalkt%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:04: Result for phrase will be printed : çıktı
+2016-12-15-00:29:04: received_result_no=3
+2016-12-15-00:29:04: System goes new search 
+2016-12-15-00:29:04: Searching for phrase :üzerine
+2016-12-15-00:29:04: Response for phrase :üzerine
+
+2016-12-15-00:29:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.949963 } ] }
+2016-12-15-00:29:04: ItemlistElement for phrase : üzerine
+2016-12-15-00:29:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05q4s',
+     name: 'Savaş Üzerine',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Carl von Clausewitz tarafından yazılan kitap',
+     detailedDescription: 
+      { articleBody: 'Savaş Üzerine, Carl von Clausewitz tarafından yazılmış, askeri strateji ve genel strateji üzerine yazarın teorilerini içeren kitap.\nKitap on bölümden oluşmaktadır. Yazar kitabı 1816-1830 yılları arasında yazmıştır ama kitabın ilk baskısı 1832 yılında yapılmıştır.\nKitap askeri ve siyasi çevrelerde çok etkili olmuş ve kitaptaki fikirler üzerine sayısız kitap ve makaleler yazılmıştır.\nKarl Marx\'tan Helmuth Karl Bernhard von Moltke\'ye, Mao Zedong\'dan Dwight D. ',
+        url: 'https://tr.wikipedia.org/wiki/Sava%C5%9F_%C3%9Czerine',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.949963 }
+2016-12-15-00:29:04: Callback for phrase : üzerine
+2016-12-15-00:29:04: Callback for word is succeed :üzerine
+2016-12-15-00:29:04: Word is going to iteration : üzerine
+2016-12-15-00:29:04: Iteration for phrase : üzerine Mehmet
+2016-12-15-00:29:04: Searching for phrase :üzerine Mehmet
+2016-12-15-00:29:04: Response for phrase :üzerine
+
+2016-12-15-00:29:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.949963 } ] }
+2016-12-15-00:29:04: ItemlistElement for phrase : üzerine
+2016-12-15-00:29:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05q4s',
+     name: 'Savaş Üzerine',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Carl von Clausewitz tarafından yazılan kitap',
+     detailedDescription: 
+      { articleBody: 'Savaş Üzerine, Carl von Clausewitz tarafından yazılmış, askeri strateji ve genel strateji üzerine yazarın teorilerini içeren kitap.\nKitap on bölümden oluşmaktadır. Yazar kitabı 1816-1830 yılları arasında yazmıştır ama kitabın ilk baskısı 1832 yılında yapılmıştır.\nKitap askeri ve siyasi çevrelerde çok etkili olmuş ve kitaptaki fikirler üzerine sayısız kitap ve makaleler yazılmıştır.\nKarl Marx\'tan Helmuth Karl Bernhard von Moltke\'ye, Mao Zedong\'dan Dwight D. ',
+        url: 'https://tr.wikipedia.org/wiki/Sava%C5%9F_%C3%9Czerine',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.949963 }
+2016-12-15-00:29:04: Callback for phrase : üzerine
+2016-12-15-00:29:04: Callback for word is succeed :üzerine
+2016-12-15-00:29:04: Word is going to iteration : üzerine
+2016-12-15-00:29:04: Iteration for phrase : üzerine Mehmet
+2016-12-15-00:29:04: Searching for phrase :üzerine Mehmet
+2016-12-15-00:29:05: AftermoveSectionUp section_count is: 0
+2016-12-15-00:29:05: Response for phrase :üzerine Mehmet
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:05: ItemlistElement for phrase : üzerine Mehmet
+2016-12-15-00:29:05: undefined
+2016-12-15-00:29:05: Failed callback for phras : üzerine Mehmet
+
+2016-12-15-00:29:05: Callback for iteration phrase is succeed :üzerine Mehmet
+2016-12-15-00:29:05: Score for phrase isnull : üzerine Mehmet
+2016-12-15-00:29:05: iteration phrase is going root iteration :üzerine Mehmet
+2016-12-15-00:29:05: Root iteration for phrase : üzerine Mehmet
+2016-12-15-00:29:05: Searching for phrase :üzerine Mehmet
+2016-12-15-00:29:05: Response for phrase :üzerine Mehmet
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:05: ItemlistElement for phrase : üzerine Mehmet
+2016-12-15-00:29:05: undefined
+2016-12-15-00:29:05: Failed callback for phras : üzerine Mehmet
+
+2016-12-15-00:29:05: Callback for iteration phrase is succeed :üzerine Mehmet
+2016-12-15-00:29:05: Score for phrase isnull : üzerine Mehmet
+2016-12-15-00:29:05: iteration phrase is going root iteration :üzerine Mehmet
+2016-12-15-00:29:05: Root iteration for phrase : üzerine Mehmet
+2016-12-15-00:29:05: Searching for phrase :üzerine Mehmet
+2016-12-15-00:29:05: Response for phrase :üzerine Mehmet
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:05: ItemlistElement for phrase : üzerine Mehmet
+2016-12-15-00:29:05: undefined
+2016-12-15-00:29:05: Failed callback for phras : üzerine Mehmet
+
+2016-12-15-00:29:05: Callback for root iteration phrase is succeed :üzerine Mehmet
+2016-12-15-00:29:05: Score for phrase isnull : üzerine Mehmet
+2016-12-15-00:29:05: Root iteration phrase is going to matching :üzerine Mehmet
+2016-12-15-00:29:05: Matching result for phrase : üzerine
+
+2016-12-15-00:29:05: { '@id': 'kg:/m/05q4s',
+  name: 'Savaş Üzerine',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Carl von Clausewitz tarafından yazılan kitap',
+  detailedDescription: 
+   { articleBody: 'Savaş Üzerine, Carl von Clausewitz tarafından yazılmış, askeri strateji ve genel strateji üzerine yazarın teorilerini içeren kitap.\nKitap on bölümden oluşmaktadır. Yazar kitabı 1816-1830 yılları arasında yazmıştır ama kitabın ilk baskısı 1832 yılında yapılmıştır.\nKitap askeri ve siyasi çevrelerde çok etkili olmuş ve kitaptaki fikirler üzerine sayısız kitap ve makaleler yazılmıştır.\nKarl Marx\'tan Helmuth Karl Bernhard von Moltke\'ye, Mao Zedong\'dan Dwight D. ',
+     url: 'https://tr.wikipedia.org/wiki/Sava%C5%9F_%C3%9Czerine',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:05: Result for phrase will be printed : üzerine
+2016-12-15-00:29:05: received_result_no=4
+2016-12-15-00:29:05: System goes new search 
+2016-12-15-00:29:05: Searching for phrase :Ali
+2016-12-15-00:29:05: Response for phrase :üzerine Mehmet
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:05: ItemlistElement for phrase : üzerine Mehmet
+2016-12-15-00:29:05: undefined
+2016-12-15-00:29:05: Failed callback for phras : üzerine Mehmet
+
+2016-12-15-00:29:05: Callback for root iteration phrase is succeed :üzerine Mehmet
+2016-12-15-00:29:05: Score for phrase isnull : üzerine Mehmet
+2016-12-15-00:29:05: Root iteration phrase is going to matching :üzerine Mehmet
+2016-12-15-00:29:05: Matching result for phrase : üzerine
+
+2016-12-15-00:29:05: { '@id': 'kg:/m/05q4s',
+  name: 'Savaş Üzerine',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Carl von Clausewitz tarafından yazılan kitap',
+  detailedDescription: 
+   { articleBody: 'Savaş Üzerine, Carl von Clausewitz tarafından yazılmış, askeri strateji ve genel strateji üzerine yazarın teorilerini içeren kitap.\nKitap on bölümden oluşmaktadır. Yazar kitabı 1816-1830 yılları arasında yazmıştır ama kitabın ilk baskısı 1832 yılında yapılmıştır.\nKitap askeri ve siyasi çevrelerde çok etkili olmuş ve kitaptaki fikirler üzerine sayısız kitap ve makaleler yazılmıştır.\nKarl Marx\'tan Helmuth Karl Bernhard von Moltke\'ye, Mao Zedong\'dan Dwight D. ',
+     url: 'https://tr.wikipedia.org/wiki/Sava%C5%9F_%C3%9Czerine',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:05: Result for phrase will be printed : üzerine
+2016-12-15-00:29:05: received_result_no=4
+2016-12-15-00:29:05: System goes new search 
+2016-12-15-00:29:05: Searching for phrase :Ali
+2016-12-15-00:29:05: Response for phrase :Ali
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 103.109184 } ] }
+2016-12-15-00:29:05: ItemlistElement for phrase : Ali
+2016-12-15-00:29:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/024c1p',
+     name: 'Ali',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'İmam',
+     detailedDescription: 
+      { articleBody: 'Ali bin Ebu Talib, İslam Devleti\'nin 656-661 yılları arasındaki halifesi. İslam peygamberi Muhammed\'in hem damadı hem de amcası Ebu Talib\'in oğlu olan Ali, Muhammed\'in İslam\'a davetini kabul eden ilk erkektir. ',
+        url: 'https://tr.wikipedia.org/wiki/Ali',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 103.109184 }
+2016-12-15-00:29:05: Callback for phrase : Ali
+2016-12-15-00:29:05: Callback for word is succeed :Ali
+2016-12-15-00:29:05: Word is going to iteration : Ali
+2016-12-15-00:29:05: Iteration for phrase : Ali Erbil
+2016-12-15-00:29:05: Searching for phrase :Ali Erbil
+2016-12-15-00:29:05: Response for phrase :Ali
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 103.109184 } ] }
+2016-12-15-00:29:05: ItemlistElement for phrase : Ali
+2016-12-15-00:29:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/024c1p',
+     name: 'Ali',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'İmam',
+     detailedDescription: 
+      { articleBody: 'Ali bin Ebu Talib, İslam Devleti\'nin 656-661 yılları arasındaki halifesi. İslam peygamberi Muhammed\'in hem damadı hem de amcası Ebu Talib\'in oğlu olan Ali, Muhammed\'in İslam\'a davetini kabul eden ilk erkektir. ',
+        url: 'https://tr.wikipedia.org/wiki/Ali',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 103.109184 }
+2016-12-15-00:29:05: Callback for phrase : Ali
+2016-12-15-00:29:05: Callback for word is succeed :Ali
+2016-12-15-00:29:05: Word is going to iteration : Ali
+2016-12-15-00:29:05: Iteration for phrase : Ali Erbil
+2016-12-15-00:29:05: Searching for phrase :Ali Erbil
+2016-12-15-00:29:05: Response for phrase :Ali Erbil
+
+2016-12-15-00:29:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 396.512726 } ] }
+2016-12-15-00:29:05: ItemlistElement for phrase : Ali Erbil
+2016-12-15-00:29:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 396.512726 }
+2016-12-15-00:29:05: Callback for phrase : Ali Erbil
+2016-12-15-00:29:05: Callback for iteration phrase is succeed :Ali Erbil
+2016-12-15-00:29:05: Score for phrase is396.512726 : Ali Erbil
+2016-12-15-00:29:05: iteration phrase is going next iteration :Ali Erbil
+2016-12-15-00:29:05: Iteration for phrase : Ali Erbil Emel
+2016-12-15-00:29:05: Searching for phrase :Ali Erbil Emel
+2016-12-15-00:29:06: Response for phrase :Ali Erbil
+
+2016-12-15-00:29:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 396.512726 } ] }
+2016-12-15-00:29:06: ItemlistElement for phrase : Ali Erbil
+2016-12-15-00:29:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 396.512726 }
+2016-12-15-00:29:06: Callback for phrase : Ali Erbil
+2016-12-15-00:29:06: Callback for iteration phrase is succeed :Ali Erbil
+2016-12-15-00:29:06: Score for phrase is396.512726 : Ali Erbil
+2016-12-15-00:29:06: iteration phrase is going next iteration :Ali Erbil
+2016-12-15-00:29:06: Iteration for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Searching for phrase :Ali Erbil Emel
+2016-12-15-00:29:06: Response for phrase :Ali Erbil Emel
+
+2016-12-15-00:29:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.599604 } ] }
+2016-12-15-00:29:06: ItemlistElement for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cp1t4h',
+     name: 'Engin Günaydın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Komedyen',
+     detailedDescription: 
+      { articleBody: 'Engin Günaydın Türk eski komedyen, eski sinema ve tiyatro oyuncusu.\nBir Demet Tiyatro ile televizyon hayatına başlayan, Aşkım Aşkım ve Zaga\'da daha geniş kitlelere kendini tanıtan Günaydın 2004 yılında Burhan Altıntop rolü ile Avrupa Yakası\'nda patlama yaşar. ',
+        url: 'https://tr.wikipedia.org/wiki/Engin_G%C3%BCnayd%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.engingunaydin.com/' },
+  resultScore: 19.599604 }
+2016-12-15-00:29:06: Callback for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Callback for iteration phrase is succeed :Ali Erbil Emel
+2016-12-15-00:29:06: Score for phrase is19.599604 : Ali Erbil Emel
+2016-12-15-00:29:06: iteration phrase is going root iteration :Ali Erbil Emel
+2016-12-15-00:29:06: Root iteration for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Searching for phrase :Ali Erbil Emel
+2016-12-15-00:29:06: Response for phrase :Ali Erbil Emel
+
+2016-12-15-00:29:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.599604 } ] }
+2016-12-15-00:29:06: ItemlistElement for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cp1t4h',
+     name: 'Engin Günaydın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Komedyen',
+     detailedDescription: 
+      { articleBody: 'Engin Günaydın Türk eski komedyen, eski sinema ve tiyatro oyuncusu.\nBir Demet Tiyatro ile televizyon hayatına başlayan, Aşkım Aşkım ve Zaga\'da daha geniş kitlelere kendini tanıtan Günaydın 2004 yılında Burhan Altıntop rolü ile Avrupa Yakası\'nda patlama yaşar. ',
+        url: 'https://tr.wikipedia.org/wiki/Engin_G%C3%BCnayd%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.engingunaydin.com/' },
+  resultScore: 19.599604 }
+2016-12-15-00:29:06: Callback for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Callback for iteration phrase is succeed :Ali Erbil Emel
+2016-12-15-00:29:06: Score for phrase is19.599604 : Ali Erbil Emel
+2016-12-15-00:29:06: iteration phrase is going root iteration :Ali Erbil Emel
+2016-12-15-00:29:06: Root iteration for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Searching for phrase :Ali Erbil Emel
+2016-12-15-00:29:06: Response for phrase :Ali Erbil Emel
+
+2016-12-15-00:29:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.599604 } ] }
+2016-12-15-00:29:06: ItemlistElement for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cp1t4h',
+     name: 'Engin Günaydın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Komedyen',
+     detailedDescription: 
+      { articleBody: 'Engin Günaydın Türk eski komedyen, eski sinema ve tiyatro oyuncusu.\nBir Demet Tiyatro ile televizyon hayatına başlayan, Aşkım Aşkım ve Zaga\'da daha geniş kitlelere kendini tanıtan Günaydın 2004 yılında Burhan Altıntop rolü ile Avrupa Yakası\'nda patlama yaşar. ',
+        url: 'https://tr.wikipedia.org/wiki/Engin_G%C3%BCnayd%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.engingunaydin.com/' },
+  resultScore: 19.599604 }
+2016-12-15-00:29:06: Callback for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Callback for root iteration phrase is succeed :Ali Erbil Emel
+2016-12-15-00:29:06: Score for phrase is19.599604 : Ali Erbil Emel
+2016-12-15-00:29:06: Root iteration phrase is going to matching :Ali Erbil Emel
+2016-12-15-00:29:06: Matching result for phrase : Ali Erbil
+
+2016-12-15-00:29:06: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:06: Result for phrase will be printed : Ali Erbil
+2016-12-15-00:29:06: received_result_no=5
+2016-12-15-00:29:06: System goes new search 
+2016-12-15-00:29:06: Searching for phrase :Emel
+2016-12-15-00:29:06: Response for phrase :Ali Erbil Emel
+
+2016-12-15-00:29:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.599604 } ] }
+2016-12-15-00:29:06: ItemlistElement for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cp1t4h',
+     name: 'Engin Günaydın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Komedyen',
+     detailedDescription: 
+      { articleBody: 'Engin Günaydın Türk eski komedyen, eski sinema ve tiyatro oyuncusu.\nBir Demet Tiyatro ile televizyon hayatına başlayan, Aşkım Aşkım ve Zaga\'da daha geniş kitlelere kendini tanıtan Günaydın 2004 yılında Burhan Altıntop rolü ile Avrupa Yakası\'nda patlama yaşar. ',
+        url: 'https://tr.wikipedia.org/wiki/Engin_G%C3%BCnayd%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.engingunaydin.com/' },
+  resultScore: 19.599604 }
+2016-12-15-00:29:06: Callback for phrase : Ali Erbil Emel
+2016-12-15-00:29:06: Callback for root iteration phrase is succeed :Ali Erbil Emel
+2016-12-15-00:29:06: Score for phrase is19.599604 : Ali Erbil Emel
+2016-12-15-00:29:06: Root iteration phrase is going to matching :Ali Erbil Emel
+2016-12-15-00:29:06: Matching result for phrase : Ali Erbil
+
+2016-12-15-00:29:06: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:06: Result for phrase will be printed : Ali Erbil
+2016-12-15-00:29:06: received_result_no=5
+2016-12-15-00:29:06: System goes new search 
+2016-12-15-00:29:06: Searching for phrase :Emel
+2016-12-15-00:29:07: Response for phrase :Emel
+
+2016-12-15-00:29:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 31.116432 } ] }
+2016-12-15-00:29:07: ItemlistElement for phrase : Emel
+2016-12-15-00:29:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01rft7w',
+     name: 'Emel Sayın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Ses sanatçısı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQV3zta1DV2Ikr1_Vc4EDbed0oMD_il0PTFx8obJnx2R9We98it',
+        url: 'https://en.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Emel Sayın, Türk ses sanatçısı, müzik yorumcusu ve sinema oyuncusu. 1998 yılında Türkiye hükûmeti tarafından Devlet Sanatçısı unvanı verilmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 31.116432 }
+2016-12-15-00:29:07: Callback for phrase : Emel
+2016-12-15-00:29:07: Callback for word is succeed :Emel
+2016-12-15-00:29:07: Word is going to iteration : Emel
+2016-12-15-00:29:07: Iteration for phrase : Emel Sayın
+2016-12-15-00:29:07: Searching for phrase :Emel Sayın
+2016-12-15-00:29:07: Response for phrase :Emel
+
+2016-12-15-00:29:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 31.116432 } ] }
+2016-12-15-00:29:07: ItemlistElement for phrase : Emel
+2016-12-15-00:29:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01rft7w',
+     name: 'Emel Sayın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Ses sanatçısı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQV3zta1DV2Ikr1_Vc4EDbed0oMD_il0PTFx8obJnx2R9We98it',
+        url: 'https://en.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Emel Sayın, Türk ses sanatçısı, müzik yorumcusu ve sinema oyuncusu. 1998 yılında Türkiye hükûmeti tarafından Devlet Sanatçısı unvanı verilmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 31.116432 }
+2016-12-15-00:29:07: Callback for phrase : Emel
+2016-12-15-00:29:07: Callback for word is succeed :Emel
+2016-12-15-00:29:07: Word is going to iteration : Emel
+2016-12-15-00:29:07: Iteration for phrase : Emel Sayın
+2016-12-15-00:29:07: Searching for phrase :Emel Sayın
+2016-12-15-00:29:07: Response for phrase :Emel Sayın
+
+2016-12-15-00:29:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 532.145325 } ] }
+2016-12-15-00:29:07: ItemlistElement for phrase : Emel Sayın
+2016-12-15-00:29:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01rft7w',
+     name: 'Emel Sayın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Ses sanatçısı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQV3zta1DV2Ikr1_Vc4EDbed0oMD_il0PTFx8obJnx2R9We98it',
+        url: 'https://en.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Emel Sayın, Türk ses sanatçısı, müzik yorumcusu ve sinema oyuncusu. 1998 yılında Türkiye hükûmeti tarafından Devlet Sanatçısı unvanı verilmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 532.145325 }
+2016-12-15-00:29:07: Callback for phrase : Emel Sayın
+2016-12-15-00:29:07: Callback for iteration phrase is succeed :Emel Sayın
+2016-12-15-00:29:07: Score for phrase is532.145325 : Emel Sayın
+2016-12-15-00:29:07: iteration phrase is going next iteration :Emel Sayın
+2016-12-15-00:29:07: Iteration for phrase : Emel Sayın undefined
+2016-12-15-00:29:07: Searching for phrase :Emel Sayın undefined
+2016-12-15-00:29:07: Response for phrase :Emel Sayın
+
+2016-12-15-00:29:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 532.145325 } ] }
+2016-12-15-00:29:07: ItemlistElement for phrase : Emel Sayın
+2016-12-15-00:29:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01rft7w',
+     name: 'Emel Sayın',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Ses sanatçısı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQV3zta1DV2Ikr1_Vc4EDbed0oMD_il0PTFx8obJnx2R9We98it',
+        url: 'https://en.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Emel Sayın, Türk ses sanatçısı, müzik yorumcusu ve sinema oyuncusu. 1998 yılında Türkiye hükûmeti tarafından Devlet Sanatçısı unvanı verilmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/Emel_Say%C4%B1n',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 532.145325 }
+2016-12-15-00:29:07: Callback for phrase : Emel Sayın
+2016-12-15-00:29:07: Callback for iteration phrase is succeed :Emel Sayın
+2016-12-15-00:29:07: Score for phrase is532.145325 : Emel Sayın
+2016-12-15-00:29:07: iteration phrase is going next iteration :Emel Sayın
+2016-12-15-00:29:07: Iteration for phrase : Emel Sayın undefined
+2016-12-15-00:29:07: Searching for phrase :Emel Sayın undefined
+2016-12-15-00:29:07: Response for phrase :Emel Sayın undefined
+
+2016-12-15-00:29:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:07: ItemlistElement for phrase : Emel Sayın undefined
+2016-12-15-00:29:07: undefined
+2016-12-15-00:29:07: Failed callback for phras : Emel Sayın undefined
+
+2016-12-15-00:29:07: Callback for iteration phrase is succeed :Emel Sayın undefined
+2016-12-15-00:29:07: Score for phrase isnull : Emel Sayın undefined
+2016-12-15-00:29:07: iteration phrase is going root iteration :Emel Sayın undefined
+2016-12-15-00:29:07: Root iteration for phrase : Emel Sayın undefined
+2016-12-15-00:29:07: Searching for phrase :Emel Sayın undefined
+2016-12-15-00:29:08: Response for phrase :Emel Sayın undefined
+
+2016-12-15-00:29:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:08: ItemlistElement for phrase : Emel Sayın undefined
+2016-12-15-00:29:08: undefined
+2016-12-15-00:29:08: Failed callback for phras : Emel Sayın undefined
+
+2016-12-15-00:29:08: Callback for iteration phrase is succeed :Emel Sayın undefined
+2016-12-15-00:29:08: Score for phrase isnull : Emel Sayın undefined
+2016-12-15-00:29:08: iteration phrase is going root iteration :Emel Sayın undefined
+2016-12-15-00:29:08: Root iteration for phrase : Emel Sayın undefined
+2016-12-15-00:29:08: Searching for phrase :Emel Sayın undefined
+2016-12-15-00:29:08: Response for phrase :Emel Sayın undefined
+
+2016-12-15-00:29:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:08: ItemlistElement for phrase : Emel Sayın undefined
+2016-12-15-00:29:08: undefined
+2016-12-15-00:29:08: Failed callback for phras : Emel Sayın undefined
+
+2016-12-15-00:29:08: Callback for root iteration phrase is succeed :Emel Sayın undefined
+2016-12-15-00:29:08: Score for phrase isnull : Emel Sayın undefined
+2016-12-15-00:29:08: Root iteration phrase is going to matching :Emel Sayın undefined
+2016-12-15-00:29:08: Matching result for phrase : Emel Sayın
+
+2016-12-15-00:29:08: { '@id': 'kg:/m/01rft7w',
+  name: 'Emel Sayın',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Ses sanatçısı',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQV3zta1DV2Ikr1_Vc4EDbed0oMD_il0PTFx8obJnx2R9We98it',
+     url: 'https://en.wikipedia.org/wiki/Emel_Say%C4%B1n',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+  detailedDescription: 
+   { articleBody: 'Emel Sayın, Türk ses sanatçısı, müzik yorumcusu ve sinema oyuncusu. 1998 yılında Türkiye hükûmeti tarafından Devlet Sanatçısı unvanı verilmiştir.',
+     url: 'https://tr.wikipedia.org/wiki/Emel_Say%C4%B1n',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:08: Result for phrase will be printed : Emel Sayın
+2016-12-15-00:29:08: received_result_no=6
+2016-12-15-00:29:08: System will be shutdown
+2016-12-15-00:29:08: finish
+2016-12-15-00:29:08: process is finished
+2016-12-15-00:29:08: -----------------Printed Results------------------------
+2016-12-15-00:29:08: Orhan Bey
+2016-12-15-00:29:08: Zeytinyağı
+2016-12-15-00:29:08: Drakula Mezarından Çıktı
+2016-12-15-00:29:08: Savaş Üzerine
+2016-12-15-00:29:08: Mehmet Ali Erbil
+2016-12-15-00:29:08: Emel Sayın
+2016-12-15-00:29:08: Response for phrase :Emel Sayın undefined
+
+2016-12-15-00:29:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:29:08: ItemlistElement for phrase : Emel Sayın undefined
+2016-12-15-00:29:08: undefined
+2016-12-15-00:29:08: Failed callback for phras : Emel Sayın undefined
+
+2016-12-15-00:29:08: Callback for root iteration phrase is succeed :Emel Sayın undefined
+2016-12-15-00:29:08: Score for phrase isnull : Emel Sayın undefined
+2016-12-15-00:29:08: Root iteration phrase is going to matching :Emel Sayın undefined
+2016-12-15-00:29:08: Matching result for phrase : Emel Sayın
+
+2016-12-15-00:29:08: { '@id': 'kg:/m/01rft7w',
+  name: 'Emel Sayın',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Ses sanatçısı',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQV3zta1DV2Ikr1_Vc4EDbed0oMD_il0PTFx8obJnx2R9We98it',
+     url: 'https://en.wikipedia.org/wiki/Emel_Say%C4%B1n',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+  detailedDescription: 
+   { articleBody: 'Emel Sayın, Türk ses sanatçısı, müzik yorumcusu ve sinema oyuncusu. 1998 yılında Türkiye hükûmeti tarafından Devlet Sanatçısı unvanı verilmiştir.',
+     url: 'https://tr.wikipedia.org/wiki/Emel_Say%C4%B1n',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:29:08: Result for phrase will be printed : Emel Sayın
+2016-12-15-00:29:08: received_result_no=6
+2016-12-15-00:29:08: System will be shutdown
+2016-12-15-00:29:08: finish
+2016-12-15-00:29:08: process is finished
+2016-12-15-00:29:08: -----------------Printed Results------------------------
+2016-12-15-00:29:08: Orhan Bey
+2016-12-15-00:29:08: Zeytinyağı
+2016-12-15-00:29:08: Drakula Mezarından Çıktı
+2016-12-15-00:29:08: Savaş Üzerine
+2016-12-15-00:29:08: Mehmet Ali Erbil
+2016-12-15-00:29:08: Emel Sayın
+2016-12-15-00:29:09: 1: slide left gesture is called
+2016-12-15-00:29:10: 1: slide left gesture is called
+2016-12-15-00:29:12: 1: slide right gesture is called
+2016-12-15-00:29:13: 1: slide right gesture is called
+2016-12-15-00:29:13: 1: slide right gesture is called
+2016-12-15-00:29:14: 1: slide right gesture is called
+2016-12-15-00:29:14: 1: slide right gesture is called
+2016-12-15-00:29:14: 1: slide right gesture is called
+2016-12-15-00:29:15: 1: slide right gesture is called
+2016-12-15-00:29:15: 1: slide right gesture is called
+2016-12-15-00:29:16: 1: slide right gesture is called
+2016-12-15-00:29:17: 1: slide right gesture is called
+2016-12-15-00:29:17: 1: slide right gesture is called
+2016-12-15-00:29:18: 1: slide left gesture is called
+2016-12-15-00:29:18: 1: slide left gesture is called
+2016-12-15-00:29:20: 1: slide left gesture is called
+2016-12-15-00:29:21: 1: slide left gesture is called
+2016-12-15-00:29:22: section_count is:1
+2016-12-15-00:29:22: AftermoveSectionDown section_count is: 1
+2016-12-15-00:29:25: section_count is:0
+2016-12-15-00:29:25: AftermoveSectionUp section_count is: 0
+2016-12-15-00:29:27: 1: slide left gesture is called
+2016-12-15-00:29:28: 1: slide left gesture is called
+2016-12-15-00:29:29: 1: slide right gesture is called
+2016-12-15-00:29:30: section_count is:1
+2016-12-15-00:29:30: AftermoveSectionDown section_count is: 1
+2016-12-15-00:29:30: section_count is:2
+2016-12-15-00:29:30: AftermoveSectionDown section_count is: 2
+2016-12-15-00:29:30: section_count is:1
+2016-12-15-00:29:30: AftermoveSectionUp section_count is: 1
+2016-12-15-00:29:32: section_count is:2
+2016-12-15-00:29:32: AftermoveSectionDown section_count is: 2
+2016-12-15-00:29:34: 1: slide left gesture is called
+2016-12-15-00:29:34: 1: slide left gesture is called
+2016-12-15-00:29:35: 1: slide left gesture is called
+2016-12-15-00:29:36: section_count is:3
+2016-12-15-00:29:36: AftermoveSectionDown section_count is: 3
+2016-12-15-00:29:36: section_count is:2
+2016-12-15-00:29:36: AftermoveSectionUp section_count is: 2
+2016-12-15-00:29:37: section_count is:3
+2016-12-15-00:29:37: AftermoveSectionDown section_count is: 3
+2016-12-15-00:29:37: section_count is:4
+2016-12-15-00:29:37: AftermoveSectionDown section_count is: 4
+2016-12-15-00:29:38: 1: slide left gesture is called
+2016-12-15-00:29:38: 1: slide left gesture is called
+2016-12-15-00:29:39: 1: slide left gesture is called
+2016-12-15-00:29:39: 1: slide left gesture is called
+2016-12-15-00:29:39: 1: slide left gesture is called
+2016-12-15-00:29:39: 1: slide left gesture is called
+2016-12-15-00:29:40: 1: slide right gesture is called
+2016-12-15-00:29:40: 1: slide right gesture is called
+2016-12-15-00:29:41: 1: slide right gesture is called
+2016-12-15-00:29:41: 1: slide right gesture is called
+2016-12-15-00:29:42: 1: slide right gesture is called
+2016-12-15-00:29:42: 1: slide right gesture is called
+2016-12-15-00:29:43: section_count is:3
+2016-12-15-00:29:43: AftermoveSectionUp section_count is: 3
+2016-12-15-00:29:45: section_count is:2
+2016-12-15-00:29:45: AftermoveSectionUp section_count is: 2
+2016-12-15-00:29:46: section_count is:3
+2016-12-15-00:29:46: AftermoveSectionDown section_count is: 3
+2016-12-15-00:29:49: section_count is:4
+2016-12-15-00:29:49: AftermoveSectionDown section_count is: 4
+2016-12-15-00:29:49: section_count is:5
+2016-12-15-00:29:49: AftermoveSectionDown section_count is: 5
+2016-12-15-00:29:49: section_count is:4
+2016-12-15-00:29:49: AftermoveSectionUp section_count is: 4
+2016-12-15-00:29:49: section_count is:3
+2016-12-15-00:29:49: AftermoveSectionUp section_count is: 3
+2016-12-15-00:29:50: section_count is:4
+2016-12-15-00:29:50: AftermoveSectionDown section_count is: 4
+2016-12-15-00:29:51: section_count is:3
+2016-12-15-00:29:51: AftermoveSectionUp section_count is: 3
+2016-12-15-00:29:51: section_count is:4
+2016-12-15-00:29:51: AftermoveSectionDown section_count is: 4
+2016-12-15-00:29:51: section_count is:5
+2016-12-15-00:29:51: AftermoveSectionDown section_count is: 5
+2016-12-15-00:29:51: section_count is:6
+2016-12-15-00:29:51: AftermoveSectionDown section_count is: 6
+2016-12-15-00:29:52: section_count is:5
+2016-12-15-00:29:52: AftermoveSectionUp section_count is: 5
+2016-12-15-00:29:52: section_count is:4
+2016-12-15-00:29:52: AftermoveSectionUp section_count is: 4
+2016-12-15-00:29:53: section_count is:5
+2016-12-15-00:29:53: AftermoveSectionDown section_count is: 5
+2016-12-15-00:29:53: section_count is:6
+2016-12-15-00:29:53: AftermoveSectionDown section_count is: 6
+2016-12-15-00:29:53: section_count is:5
+2016-12-15-00:29:53: AftermoveSectionUp section_count is: 5
+2016-12-15-00:29:54: section_count is:4
+2016-12-15-00:29:54: AftermoveSectionUp section_count is: 4
+2016-12-15-00:29:54: section_count is:3
+2016-12-15-00:29:54: AftermoveSectionUp section_count is: 3
+2016-12-15-00:29:54: section_count is:2
+2016-12-15-00:29:54: AftermoveSectionUp section_count is: 2
+2016-12-15-00:29:54: section_count is:1
+2016-12-15-00:29:54: AftermoveSectionUp section_count is: 1
+2016-12-15-00:29:54: section_count is:0
+2016-12-15-00:29:54: AftermoveSectionUp section_count is: 0
+2016-12-15-00:29:55: AftermoveSectionUp section_count is: 0
+2016-12-15-00:29:56: section_count is:1
+2016-12-15-00:29:56: AftermoveSectionDown section_count is: 1
+2016-12-15-00:29:56: section_count is:2
+2016-12-15-00:29:56: AftermoveSectionDown section_count is: 2
+2016-12-15-00:29:57: section_count is:1
+2016-12-15-00:29:57: AftermoveSectionUp section_count is: 1
+2016-12-15-00:29:58: section_count is:0
+2016-12-15-00:29:58: AftermoveSectionUp section_count is: 0
+2016-12-15-00:29:58: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:00: section_count is:1
+2016-12-15-00:30:00: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:00: section_count is:0
+2016-12-15-00:30:00: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:00: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:00: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:01: section_count is:1
+2016-12-15-00:30:01: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:02: section_count is:0
+2016-12-15-00:30:02: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:04: section_count is:1
+2016-12-15-00:30:04: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:05: section_count is:2
+2016-12-15-00:30:05: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:05: section_count is:1
+2016-12-15-00:30:05: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:06: section_count is:2
+2016-12-15-00:30:06: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:07: section_count is:1
+2016-12-15-00:30:07: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:07: section_count is:0
+2016-12-15-00:30:07: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:08: section_count is:1
+2016-12-15-00:30:08: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:08: section_count is:2
+2016-12-15-00:30:08: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:08: section_count is:1
+2016-12-15-00:30:08: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:08: section_count is:0
+2016-12-15-00:30:08: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:10: section_count is:1
+2016-12-15-00:30:10: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:10: section_count is:2
+2016-12-15-00:30:10: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:10: section_count is:1
+2016-12-15-00:30:10: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:10: section_count is:0
+2016-12-15-00:30:10: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:11: section_count is:1
+2016-12-15-00:30:11: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:11: section_count is:0
+2016-12-15-00:30:11: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:11: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:12: section_count is:1
+2016-12-15-00:30:12: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:13: section_count is:2
+2016-12-15-00:30:13: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:14: section_count is:1
+2016-12-15-00:30:14: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:14: section_count is:0
+2016-12-15-00:30:14: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:20: 2:click detected at point:[object Object]
+2016-12-15-00:30:20: Connected
+2016-12-15-00:30:20: 2:click detected at point:[object Object]
+2016-12-15-00:30:20: 2:click detected at point:[object Object]
+2016-12-15-00:30:26: Data received from stt: zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: SearchTerm from microphone:zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: State machine is initialized with input: 
+2016-12-15-00:30:26: zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: Input words : 
+2016-12-15-00:30:26: [ 'zeytin', 'peynir', 'ekmek' ]
+2016-12-15-00:30:26: Input roots : 
+2016-12-15-00:30:26: [ 'zeytin', 'peynir', 'ekmek' ]
+2016-12-15-00:30:26: Searching for phrase :zeytin
+2016-12-15-00:30:26: Data received from stt: zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: SearchTerm from microphone:zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: State machine is initialized with input: 
+2016-12-15-00:30:26: zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: Input words : 
+2016-12-15-00:30:26: [ 'zeytin', 'peynir', 'ekmek' ]
+2016-12-15-00:30:26: Input roots : 
+2016-12-15-00:30:26: [ 'zeytin', 'peynir', 'ekmek' ]
+2016-12-15-00:30:26: Searching for phrase :zeytin
+2016-12-15-00:30:26: Data received from stt: zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: SearchTerm from microphone:zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: State machine is initialized with input: 
+2016-12-15-00:30:26: zeytin peynir ekmek zeytin,Noun peynir,Noun ekmek,Noun
+2016-12-15-00:30:26: Input words : 
+2016-12-15-00:30:26: [ 'zeytin', 'peynir', 'ekmek' ]
+2016-12-15-00:30:26: Input roots : 
+2016-12-15-00:30:26: [ 'zeytin', 'peynir', 'ekmek' ]
+2016-12-15-00:30:26: Searching for phrase :zeytin
+2016-12-15-00:30:26: Connection closed
+2016-12-15-00:30:26: Connection closed
+2016-12-15-00:30:26: Connection closed
+2016-12-15-00:30:26: Response for phrase :zeytin
+
+2016-12-15-00:30:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 67.49585 } ] }
+2016-12-15-00:30:26: ItemlistElement for phrase : zeytin
+2016-12-15-00:30:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mln',
+     name: 'Zeytin',
+     '@type': [ 'Thing' ],
+     description: 'Bitki',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQPLL6edL2MSAsQHmnuMsFbcnNMvGXWVsplLn-4vtC7lk5ASkBQ',
+        url: 'https://commons.wikimedia.org/wiki/File:NCI_2_green_olives.jpg' },
+     detailedDescription: 
+      { articleBody: 'Zeytin, zeytingiller familyasından meyvesi yenen Akdeniz iklimine özgü bir ağaç türü.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytin',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 67.49585 }
+2016-12-15-00:30:26: Callback for phrase : zeytin
+2016-12-15-00:30:26: Callback for word is succeed :zeytin
+2016-12-15-00:30:26: Word is going to iteration : zeytin
+2016-12-15-00:30:26: Iteration for phrase : zeytin peynir
+2016-12-15-00:30:26: Searching for phrase :zeytin peynir
+2016-12-15-00:30:26: Response for phrase :zeytin
+
+2016-12-15-00:30:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 67.49585 } ] }
+2016-12-15-00:30:26: ItemlistElement for phrase : zeytin
+2016-12-15-00:30:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mln',
+     name: 'Zeytin',
+     '@type': [ 'Thing' ],
+     description: 'Bitki',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQPLL6edL2MSAsQHmnuMsFbcnNMvGXWVsplLn-4vtC7lk5ASkBQ',
+        url: 'https://commons.wikimedia.org/wiki/File:NCI_2_green_olives.jpg' },
+     detailedDescription: 
+      { articleBody: 'Zeytin, zeytingiller familyasından meyvesi yenen Akdeniz iklimine özgü bir ağaç türü.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytin',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 67.49585 }
+2016-12-15-00:30:26: Callback for phrase : zeytin
+2016-12-15-00:30:26: Callback for word is succeed :zeytin
+2016-12-15-00:30:26: Word is going to iteration : zeytin
+2016-12-15-00:30:26: Iteration for phrase : zeytin peynir
+2016-12-15-00:30:26: Searching for phrase :zeytin peynir
+2016-12-15-00:30:26: Response for phrase :zeytin
+
+2016-12-15-00:30:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 67.49585 } ] }
+2016-12-15-00:30:26: ItemlistElement for phrase : zeytin
+2016-12-15-00:30:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mln',
+     name: 'Zeytin',
+     '@type': [ 'Thing' ],
+     description: 'Bitki',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQPLL6edL2MSAsQHmnuMsFbcnNMvGXWVsplLn-4vtC7lk5ASkBQ',
+        url: 'https://commons.wikimedia.org/wiki/File:NCI_2_green_olives.jpg' },
+     detailedDescription: 
+      { articleBody: 'Zeytin, zeytingiller familyasından meyvesi yenen Akdeniz iklimine özgü bir ağaç türü.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytin',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 67.49585 }
+2016-12-15-00:30:26: Callback for phrase : zeytin
+2016-12-15-00:30:26: Callback for word is succeed :zeytin
+2016-12-15-00:30:26: Word is going to iteration : zeytin
+2016-12-15-00:30:26: Iteration for phrase : zeytin peynir
+2016-12-15-00:30:26: Searching for phrase :zeytin peynir
+2016-12-15-00:30:27: Response for phrase :zeytin peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.936899 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : zeytin peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01q6dt',
+     name: 'Pesto',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPTExE2uvIoQZqMYEyP8tK-87OBxpFMaB-gR9Q0gXUVzmEARpy',
+        url: 'https://commons.wikimedia.org/wiki/File:BasilPesto.JPG',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Pesto ezilmis fesleğen ve Sarımsak ile tuz, çam fıstığı, peynir ve zeytin yağı karışımından elde edilen bir sostur. Pesto Latince ezmek anlamına gelen pistare sözcüğünden türemiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pesto',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.936899 }
+2016-12-15-00:30:27: Callback for phrase : zeytin peynir
+2016-12-15-00:30:27: Callback for iteration phrase is succeed :zeytin peynir
+2016-12-15-00:30:27: Score for phrase is5.936899 : zeytin peynir
+2016-12-15-00:30:27: iteration phrase is going root iteration :zeytin peynir
+2016-12-15-00:30:27: Root iteration for phrase : zeytin peynir
+2016-12-15-00:30:27: Searching for phrase :zeytin peynir
+2016-12-15-00:30:27: Response for phrase :zeytin peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.936899 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : zeytin peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01q6dt',
+     name: 'Pesto',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPTExE2uvIoQZqMYEyP8tK-87OBxpFMaB-gR9Q0gXUVzmEARpy',
+        url: 'https://commons.wikimedia.org/wiki/File:BasilPesto.JPG',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Pesto ezilmis fesleğen ve Sarımsak ile tuz, çam fıstığı, peynir ve zeytin yağı karışımından elde edilen bir sostur. Pesto Latince ezmek anlamına gelen pistare sözcüğünden türemiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pesto',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.936899 }
+2016-12-15-00:30:27: Callback for phrase : zeytin peynir
+2016-12-15-00:30:27: Callback for iteration phrase is succeed :zeytin peynir
+2016-12-15-00:30:27: Score for phrase is5.936899 : zeytin peynir
+2016-12-15-00:30:27: iteration phrase is going root iteration :zeytin peynir
+2016-12-15-00:30:27: Root iteration for phrase : zeytin peynir
+2016-12-15-00:30:27: Searching for phrase :zeytin peynir
+2016-12-15-00:30:27: Response for phrase :zeytin peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.936899 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : zeytin peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01q6dt',
+     name: 'Pesto',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPTExE2uvIoQZqMYEyP8tK-87OBxpFMaB-gR9Q0gXUVzmEARpy',
+        url: 'https://commons.wikimedia.org/wiki/File:BasilPesto.JPG',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Pesto ezilmis fesleğen ve Sarımsak ile tuz, çam fıstığı, peynir ve zeytin yağı karışımından elde edilen bir sostur. Pesto Latince ezmek anlamına gelen pistare sözcüğünden türemiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pesto',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.936899 }
+2016-12-15-00:30:27: Callback for phrase : zeytin peynir
+2016-12-15-00:30:27: Callback for iteration phrase is succeed :zeytin peynir
+2016-12-15-00:30:27: Score for phrase is5.936899 : zeytin peynir
+2016-12-15-00:30:27: iteration phrase is going root iteration :zeytin peynir
+2016-12-15-00:30:27: Root iteration for phrase : zeytin peynir
+2016-12-15-00:30:27: Searching for phrase :zeytin peynir
+2016-12-15-00:30:27: Response for phrase :zeytin peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.936899 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : zeytin peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01q6dt',
+     name: 'Pesto',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPTExE2uvIoQZqMYEyP8tK-87OBxpFMaB-gR9Q0gXUVzmEARpy',
+        url: 'https://commons.wikimedia.org/wiki/File:BasilPesto.JPG',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Pesto ezilmis fesleğen ve Sarımsak ile tuz, çam fıstığı, peynir ve zeytin yağı karışımından elde edilen bir sostur. Pesto Latince ezmek anlamına gelen pistare sözcüğünden türemiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pesto',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.936899 }
+2016-12-15-00:30:27: Callback for phrase : zeytin peynir
+2016-12-15-00:30:27: Callback for root iteration phrase is succeed :zeytin peynir
+2016-12-15-00:30:27: Score for phrase is5.936899 : zeytin peynir
+2016-12-15-00:30:27: Root iteration phrase is going to matching :zeytin peynir
+2016-12-15-00:30:27: Matching result for phrase : zeytin
+
+2016-12-15-00:30:27: { '@id': 'kg:/m/05mln',
+  name: 'Zeytin',
+  '@type': [ 'Thing' ],
+  description: 'Bitki',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQPLL6edL2MSAsQHmnuMsFbcnNMvGXWVsplLn-4vtC7lk5ASkBQ',
+     url: 'https://commons.wikimedia.org/wiki/File:NCI_2_green_olives.jpg' },
+  detailedDescription: 
+   { articleBody: 'Zeytin, zeytingiller familyasından meyvesi yenen Akdeniz iklimine özgü bir ağaç türü.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytin',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:27: Result for phrase will be printed : zeytin
+2016-12-15-00:30:27: https://www.googleapis.com/customsearch/v1?q=Zeytin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:30:27: received_result_no=1
+2016-12-15-00:30:27: System goes new search 
+2016-12-15-00:30:27: Searching for phrase :peynir
+2016-12-15-00:30:27: Response for phrase :zeytin peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.936899 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : zeytin peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01q6dt',
+     name: 'Pesto',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPTExE2uvIoQZqMYEyP8tK-87OBxpFMaB-gR9Q0gXUVzmEARpy',
+        url: 'https://commons.wikimedia.org/wiki/File:BasilPesto.JPG',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Pesto ezilmis fesleğen ve Sarımsak ile tuz, çam fıstığı, peynir ve zeytin yağı karışımından elde edilen bir sostur. Pesto Latince ezmek anlamına gelen pistare sözcüğünden türemiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pesto',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.936899 }
+2016-12-15-00:30:27: Callback for phrase : zeytin peynir
+2016-12-15-00:30:27: Callback for root iteration phrase is succeed :zeytin peynir
+2016-12-15-00:30:27: Score for phrase is5.936899 : zeytin peynir
+2016-12-15-00:30:27: Root iteration phrase is going to matching :zeytin peynir
+2016-12-15-00:30:27: Matching result for phrase : zeytin
+
+2016-12-15-00:30:27: { '@id': 'kg:/m/05mln',
+  name: 'Zeytin',
+  '@type': [ 'Thing' ],
+  description: 'Bitki',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQPLL6edL2MSAsQHmnuMsFbcnNMvGXWVsplLn-4vtC7lk5ASkBQ',
+     url: 'https://commons.wikimedia.org/wiki/File:NCI_2_green_olives.jpg' },
+  detailedDescription: 
+   { articleBody: 'Zeytin, zeytingiller familyasından meyvesi yenen Akdeniz iklimine özgü bir ağaç türü.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytin',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:27: Result for phrase will be printed : zeytin
+2016-12-15-00:30:27: https://www.googleapis.com/customsearch/v1?q=Zeytin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:30:27: received_result_no=1
+2016-12-15-00:30:27: System goes new search 
+2016-12-15-00:30:27: Searching for phrase :peynir
+2016-12-15-00:30:27: Response for phrase :zeytin peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.936899 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : zeytin peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01q6dt',
+     name: 'Pesto',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTPTExE2uvIoQZqMYEyP8tK-87OBxpFMaB-gR9Q0gXUVzmEARpy',
+        url: 'https://commons.wikimedia.org/wiki/File:BasilPesto.JPG',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Pesto ezilmis fesleğen ve Sarımsak ile tuz, çam fıstığı, peynir ve zeytin yağı karışımından elde edilen bir sostur. Pesto Latince ezmek anlamına gelen pistare sözcüğünden türemiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pesto',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.936899 }
+2016-12-15-00:30:27: Callback for phrase : zeytin peynir
+2016-12-15-00:30:27: Callback for root iteration phrase is succeed :zeytin peynir
+2016-12-15-00:30:27: Score for phrase is5.936899 : zeytin peynir
+2016-12-15-00:30:27: Root iteration phrase is going to matching :zeytin peynir
+2016-12-15-00:30:27: Matching result for phrase : zeytin
+
+2016-12-15-00:30:27: { '@id': 'kg:/m/05mln',
+  name: 'Zeytin',
+  '@type': [ 'Thing' ],
+  description: 'Bitki',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQPLL6edL2MSAsQHmnuMsFbcnNMvGXWVsplLn-4vtC7lk5ASkBQ',
+     url: 'https://commons.wikimedia.org/wiki/File:NCI_2_green_olives.jpg' },
+  detailedDescription: 
+   { articleBody: 'Zeytin, zeytingiller familyasından meyvesi yenen Akdeniz iklimine özgü bir ağaç türü.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytin',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:27: Result for phrase will be printed : zeytin
+2016-12-15-00:30:27: https://www.googleapis.com/customsearch/v1?q=Zeytin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:30:27: received_result_no=1
+2016-12-15-00:30:27: System goes new search 
+2016-12-15-00:30:27: Searching for phrase :peynir
+2016-12-15-00:30:27: Response for phrase :peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 52.817726 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01nkt',
+     name: 'Peynir',
+     '@type': [ 'Thing' ],
+     description: 'Mandıra ürünü',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSyB6eUTjUM5Ek7asUeqqBLzbRsjDNt_G8XeyaUEmWWotcyguhb',
+        url: 'https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Peynir, çok büyük bir çeşitlilikteki aroma, tat, yapı ve şekle sahip bir grup fermente süt ürünü için kullanılan genel isimdir.',
+        url: 'https://tr.wikipedia.org/wiki/Peynir',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 52.817726 }
+2016-12-15-00:30:27: Callback for phrase : peynir
+2016-12-15-00:30:27: Callback for word is succeed :peynir
+2016-12-15-00:30:27: Word is going to iteration : peynir
+2016-12-15-00:30:27: Iteration for phrase : peynir ekmek
+2016-12-15-00:30:27: Searching for phrase :peynir ekmek
+2016-12-15-00:30:27: Response for phrase :peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 52.817726 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01nkt',
+     name: 'Peynir',
+     '@type': [ 'Thing' ],
+     description: 'Mandıra ürünü',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSyB6eUTjUM5Ek7asUeqqBLzbRsjDNt_G8XeyaUEmWWotcyguhb',
+        url: 'https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Peynir, çok büyük bir çeşitlilikteki aroma, tat, yapı ve şekle sahip bir grup fermente süt ürünü için kullanılan genel isimdir.',
+        url: 'https://tr.wikipedia.org/wiki/Peynir',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 52.817726 }
+2016-12-15-00:30:27: Callback for phrase : peynir
+2016-12-15-00:30:27: Callback for word is succeed :peynir
+2016-12-15-00:30:27: Word is going to iteration : peynir
+2016-12-15-00:30:27: Iteration for phrase : peynir ekmek
+2016-12-15-00:30:27: Searching for phrase :peynir ekmek
+2016-12-15-00:30:27: Response for phrase :peynir
+
+2016-12-15-00:30:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 52.817726 } ] }
+2016-12-15-00:30:27: ItemlistElement for phrase : peynir
+2016-12-15-00:30:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01nkt',
+     name: 'Peynir',
+     '@type': [ 'Thing' ],
+     description: 'Mandıra ürünü',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSyB6eUTjUM5Ek7asUeqqBLzbRsjDNt_G8XeyaUEmWWotcyguhb',
+        url: 'https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Peynir, çok büyük bir çeşitlilikteki aroma, tat, yapı ve şekle sahip bir grup fermente süt ürünü için kullanılan genel isimdir.',
+        url: 'https://tr.wikipedia.org/wiki/Peynir',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 52.817726 }
+2016-12-15-00:30:27: Callback for phrase : peynir
+2016-12-15-00:30:27: Callback for word is succeed :peynir
+2016-12-15-00:30:27: Word is going to iteration : peynir
+2016-12-15-00:30:27: Iteration for phrase : peynir ekmek
+2016-12-15-00:30:27: Searching for phrase :peynir ekmek
+2016-12-15-00:30:28: Response for phrase :peynir ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.233335 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : peynir ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0l515',
+     name: 'Sandviç',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR4U9AIM1PD6hnZF3Kr1EphweGDd7jQE5kEbDdRDs56TTdj4QoQ',
+        url: 'https://en.wikipedia.org/wiki/Sandwich',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Sandviç, iki ekmek dilimi arasına yerleştirilen et, peynir, marul çeşitli soslar ya da başka gıda maddeleriyle hazırlanan yiyecek. Sandviçlerin tarihi büyük bir olasılıkla et ve ekmek kadar eskidir. Sandviç adı ise ancak 18. yüzyılda ortaya çıktı.',
+        url: 'https://tr.wikipedia.org/wiki/Sandvi%C3%A7',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 9.233335 }
+2016-12-15-00:30:28: Callback for phrase : peynir ekmek
+2016-12-15-00:30:28: Callback for iteration phrase is succeed :peynir ekmek
+2016-12-15-00:30:28: Score for phrase is9.233335 : peynir ekmek
+2016-12-15-00:30:28: iteration phrase is going root iteration :peynir ekmek
+2016-12-15-00:30:28: Root iteration for phrase : peynir ekmek
+2016-12-15-00:30:28: Searching for phrase :peynir ekmek
+2016-12-15-00:30:28: Response for phrase :peynir ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.233335 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : peynir ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0l515',
+     name: 'Sandviç',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR4U9AIM1PD6hnZF3Kr1EphweGDd7jQE5kEbDdRDs56TTdj4QoQ',
+        url: 'https://en.wikipedia.org/wiki/Sandwich',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Sandviç, iki ekmek dilimi arasına yerleştirilen et, peynir, marul çeşitli soslar ya da başka gıda maddeleriyle hazırlanan yiyecek. Sandviçlerin tarihi büyük bir olasılıkla et ve ekmek kadar eskidir. Sandviç adı ise ancak 18. yüzyılda ortaya çıktı.',
+        url: 'https://tr.wikipedia.org/wiki/Sandvi%C3%A7',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 9.233335 }
+2016-12-15-00:30:28: Callback for phrase : peynir ekmek
+2016-12-15-00:30:28: Callback for iteration phrase is succeed :peynir ekmek
+2016-12-15-00:30:28: Score for phrase is9.233335 : peynir ekmek
+2016-12-15-00:30:28: iteration phrase is going root iteration :peynir ekmek
+2016-12-15-00:30:28: Root iteration for phrase : peynir ekmek
+2016-12-15-00:30:28: Searching for phrase :peynir ekmek
+2016-12-15-00:30:28: Response for phrase :peynir ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.233335 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : peynir ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0l515',
+     name: 'Sandviç',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR4U9AIM1PD6hnZF3Kr1EphweGDd7jQE5kEbDdRDs56TTdj4QoQ',
+        url: 'https://en.wikipedia.org/wiki/Sandwich',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Sandviç, iki ekmek dilimi arasına yerleştirilen et, peynir, marul çeşitli soslar ya da başka gıda maddeleriyle hazırlanan yiyecek. Sandviçlerin tarihi büyük bir olasılıkla et ve ekmek kadar eskidir. Sandviç adı ise ancak 18. yüzyılda ortaya çıktı.',
+        url: 'https://tr.wikipedia.org/wiki/Sandvi%C3%A7',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 9.233335 }
+2016-12-15-00:30:28: Callback for phrase : peynir ekmek
+2016-12-15-00:30:28: Callback for iteration phrase is succeed :peynir ekmek
+2016-12-15-00:30:28: Score for phrase is9.233335 : peynir ekmek
+2016-12-15-00:30:28: iteration phrase is going root iteration :peynir ekmek
+2016-12-15-00:30:28: Root iteration for phrase : peynir ekmek
+2016-12-15-00:30:28: Searching for phrase :peynir ekmek
+2016-12-15-00:30:28: Response for phrase :peynir ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.233335 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : peynir ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0l515',
+     name: 'Sandviç',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR4U9AIM1PD6hnZF3Kr1EphweGDd7jQE5kEbDdRDs56TTdj4QoQ',
+        url: 'https://en.wikipedia.org/wiki/Sandwich',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Sandviç, iki ekmek dilimi arasına yerleştirilen et, peynir, marul çeşitli soslar ya da başka gıda maddeleriyle hazırlanan yiyecek. Sandviçlerin tarihi büyük bir olasılıkla et ve ekmek kadar eskidir. Sandviç adı ise ancak 18. yüzyılda ortaya çıktı.',
+        url: 'https://tr.wikipedia.org/wiki/Sandvi%C3%A7',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 9.233335 }
+2016-12-15-00:30:28: Callback for phrase : peynir ekmek
+2016-12-15-00:30:28: Callback for root iteration phrase is succeed :peynir ekmek
+2016-12-15-00:30:28: Score for phrase is9.233335 : peynir ekmek
+2016-12-15-00:30:28: Root iteration phrase is going to matching :peynir ekmek
+2016-12-15-00:30:28: Matching result for phrase : peynir
+
+2016-12-15-00:30:28: { '@id': 'kg:/m/01nkt',
+  name: 'Peynir',
+  '@type': [ 'Thing' ],
+  description: 'Mandıra ürünü',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSyB6eUTjUM5Ek7asUeqqBLzbRsjDNt_G8XeyaUEmWWotcyguhb',
+     url: 'https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Peynir, çok büyük bir çeşitlilikteki aroma, tat, yapı ve şekle sahip bir grup fermente süt ürünü için kullanılan genel isimdir.',
+     url: 'https://tr.wikipedia.org/wiki/Peynir',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:28: Result for phrase will be printed : peynir
+2016-12-15-00:30:28: received_result_no=2
+2016-12-15-00:30:28: System goes new search 
+2016-12-15-00:30:28: Searching for phrase :ekmek
+2016-12-15-00:30:28: Response for phrase :peynir ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.233335 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : peynir ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0l515',
+     name: 'Sandviç',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR4U9AIM1PD6hnZF3Kr1EphweGDd7jQE5kEbDdRDs56TTdj4QoQ',
+        url: 'https://en.wikipedia.org/wiki/Sandwich',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Sandviç, iki ekmek dilimi arasına yerleştirilen et, peynir, marul çeşitli soslar ya da başka gıda maddeleriyle hazırlanan yiyecek. Sandviçlerin tarihi büyük bir olasılıkla et ve ekmek kadar eskidir. Sandviç adı ise ancak 18. yüzyılda ortaya çıktı.',
+        url: 'https://tr.wikipedia.org/wiki/Sandvi%C3%A7',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 9.233335 }
+2016-12-15-00:30:28: Callback for phrase : peynir ekmek
+2016-12-15-00:30:28: Callback for root iteration phrase is succeed :peynir ekmek
+2016-12-15-00:30:28: Score for phrase is9.233335 : peynir ekmek
+2016-12-15-00:30:28: Root iteration phrase is going to matching :peynir ekmek
+2016-12-15-00:30:28: Matching result for phrase : peynir
+
+2016-12-15-00:30:28: { '@id': 'kg:/m/01nkt',
+  name: 'Peynir',
+  '@type': [ 'Thing' ],
+  description: 'Mandıra ürünü',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSyB6eUTjUM5Ek7asUeqqBLzbRsjDNt_G8XeyaUEmWWotcyguhb',
+     url: 'https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Peynir, çok büyük bir çeşitlilikteki aroma, tat, yapı ve şekle sahip bir grup fermente süt ürünü için kullanılan genel isimdir.',
+     url: 'https://tr.wikipedia.org/wiki/Peynir',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:28: Result for phrase will be printed : peynir
+2016-12-15-00:30:28: received_result_no=2
+2016-12-15-00:30:28: System goes new search 
+2016-12-15-00:30:28: Searching for phrase :ekmek
+2016-12-15-00:30:28: Response for phrase :peynir ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.233335 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : peynir ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0l515',
+     name: 'Sandviç',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR4U9AIM1PD6hnZF3Kr1EphweGDd7jQE5kEbDdRDs56TTdj4QoQ',
+        url: 'https://en.wikipedia.org/wiki/Sandwich',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Sandviç, iki ekmek dilimi arasına yerleştirilen et, peynir, marul çeşitli soslar ya da başka gıda maddeleriyle hazırlanan yiyecek. Sandviçlerin tarihi büyük bir olasılıkla et ve ekmek kadar eskidir. Sandviç adı ise ancak 18. yüzyılda ortaya çıktı.',
+        url: 'https://tr.wikipedia.org/wiki/Sandvi%C3%A7',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 9.233335 }
+2016-12-15-00:30:28: Callback for phrase : peynir ekmek
+2016-12-15-00:30:28: Callback for root iteration phrase is succeed :peynir ekmek
+2016-12-15-00:30:28: Score for phrase is9.233335 : peynir ekmek
+2016-12-15-00:30:28: Root iteration phrase is going to matching :peynir ekmek
+2016-12-15-00:30:28: Matching result for phrase : peynir
+
+2016-12-15-00:30:28: { '@id': 'kg:/m/01nkt',
+  name: 'Peynir',
+  '@type': [ 'Thing' ],
+  description: 'Mandıra ürünü',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSyB6eUTjUM5Ek7asUeqqBLzbRsjDNt_G8XeyaUEmWWotcyguhb',
+     url: 'https://commons.wikimedia.org/wiki/File:Maasdam-cheese.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Peynir, çok büyük bir çeşitlilikteki aroma, tat, yapı ve şekle sahip bir grup fermente süt ürünü için kullanılan genel isimdir.',
+     url: 'https://tr.wikipedia.org/wiki/Peynir',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:28: Result for phrase will be printed : peynir
+2016-12-15-00:30:28: received_result_no=2
+2016-12-15-00:30:28: System goes new search 
+2016-12-15-00:30:28: Searching for phrase :ekmek
+2016-12-15-00:30:28: Response for phrase :ekmek
+
+2016-12-15-00:30:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 53.400505 } ] }
+2016-12-15-00:30:28: ItemlistElement for phrase : ekmek
+2016-12-15-00:30:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09728',
+     name: 'Ekmek',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3mRp3BW9KrN-QgwCS64vQu-X5x3G2v8frbPjKJEK9_tB9Lihj',
+        url: 'https://commons.wikimedia.org/wiki/File:Anadama_bread_(1).jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' },
+     detailedDescription: 
+      { articleBody: 'Ekmek, çeşitli tahıl unundan yapılmış hamurun ateşte, sac üzerinde, tandırda, fırında veya tepside pişirilmesiyle haz��rlanan yiyecek.',
+        url: 'https://tr.wikipedia.org/wiki/Ekmek',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 53.400505 }
+2016-12-15-00:30:28: Callback for phrase : ekmek
+2016-12-15-00:30:28: Callback for word is succeed :ekmek
+2016-12-15-00:30:28: last word is noun here is the result of :ekmek
+2016-12-15-00:30:28: { '@id': 'kg:/m/09728',
+  name: 'Ekmek',
+  '@type': [ 'Thing' ],
+  description: 'Yiyecek',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3mRp3BW9KrN-QgwCS64vQu-X5x3G2v8frbPjKJEK9_tB9Lihj',
+     url: 'https://commons.wikimedia.org/wiki/File:Anadama_bread_(1).jpg',
+     license: 'http://creativecommons.org/licenses/by/2.0' },
+  detailedDescription: 
+   { articleBody: 'Ekmek, çeşitli tahıl unundan yapılmış hamurun ateşte, sac üzerinde, tandırda, fırında veya tepside pişirilmesiyle haz��rlanan yiyecek.',
+     url: 'https://tr.wikipedia.org/wiki/Ekmek',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:28: received_result_no=3
+2016-12-15-00:30:28: finish
+2016-12-15-00:30:28: process is finished
+2016-12-15-00:30:28: -----------------Printed Results------------------------
+2016-12-15-00:30:28: Zeytin
+2016-12-15-00:30:28: Peynir
+2016-12-15-00:30:28: Ekmek
+2016-12-15-00:30:29: Response for phrase :ekmek
+
+2016-12-15-00:30:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 53.400505 } ] }
+2016-12-15-00:30:29: ItemlistElement for phrase : ekmek
+2016-12-15-00:30:29: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09728',
+     name: 'Ekmek',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3mRp3BW9KrN-QgwCS64vQu-X5x3G2v8frbPjKJEK9_tB9Lihj',
+        url: 'https://commons.wikimedia.org/wiki/File:Anadama_bread_(1).jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' },
+     detailedDescription: 
+      { articleBody: 'Ekmek, çeşitli tahıl unundan yapılmış hamurun ateşte, sac üzerinde, tandırda, fırında veya tepside pişirilmesiyle haz��rlanan yiyecek.',
+        url: 'https://tr.wikipedia.org/wiki/Ekmek',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 53.400505 }
+2016-12-15-00:30:29: Callback for phrase : ekmek
+2016-12-15-00:30:29: Callback for word is succeed :ekmek
+2016-12-15-00:30:29: last word is noun here is the result of :ekmek
+2016-12-15-00:30:29: { '@id': 'kg:/m/09728',
+  name: 'Ekmek',
+  '@type': [ 'Thing' ],
+  description: 'Yiyecek',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3mRp3BW9KrN-QgwCS64vQu-X5x3G2v8frbPjKJEK9_tB9Lihj',
+     url: 'https://commons.wikimedia.org/wiki/File:Anadama_bread_(1).jpg',
+     license: 'http://creativecommons.org/licenses/by/2.0' },
+  detailedDescription: 
+   { articleBody: 'Ekmek, çeşitli tahıl unundan yapılmış hamurun ateşte, sac üzerinde, tandırda, fırında veya tepside pişirilmesiyle haz��rlanan yiyecek.',
+     url: 'https://tr.wikipedia.org/wiki/Ekmek',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:29: received_result_no=3
+2016-12-15-00:30:29: finish
+2016-12-15-00:30:29: process is finished
+2016-12-15-00:30:29: -----------------Printed Results------------------------
+2016-12-15-00:30:29: Zeytin
+2016-12-15-00:30:29: Peynir
+2016-12-15-00:30:29: Ekmek
+2016-12-15-00:30:29: Response for phrase :ekmek
+
+2016-12-15-00:30:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 53.400505 } ] }
+2016-12-15-00:30:29: ItemlistElement for phrase : ekmek
+2016-12-15-00:30:29: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09728',
+     name: 'Ekmek',
+     '@type': [ 'Thing' ],
+     description: 'Yiyecek',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3mRp3BW9KrN-QgwCS64vQu-X5x3G2v8frbPjKJEK9_tB9Lihj',
+        url: 'https://commons.wikimedia.org/wiki/File:Anadama_bread_(1).jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' },
+     detailedDescription: 
+      { articleBody: 'Ekmek, çeşitli tahıl unundan yapılmış hamurun ateşte, sac üzerinde, tandırda, fırında veya tepside pişirilmesiyle haz��rlanan yiyecek.',
+        url: 'https://tr.wikipedia.org/wiki/Ekmek',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 53.400505 }
+2016-12-15-00:30:29: Callback for phrase : ekmek
+2016-12-15-00:30:29: Callback for word is succeed :ekmek
+2016-12-15-00:30:29: last word is noun here is the result of :ekmek
+2016-12-15-00:30:29: { '@id': 'kg:/m/09728',
+  name: 'Ekmek',
+  '@type': [ 'Thing' ],
+  description: 'Yiyecek',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3mRp3BW9KrN-QgwCS64vQu-X5x3G2v8frbPjKJEK9_tB9Lihj',
+     url: 'https://commons.wikimedia.org/wiki/File:Anadama_bread_(1).jpg',
+     license: 'http://creativecommons.org/licenses/by/2.0' },
+  detailedDescription: 
+   { articleBody: 'Ekmek, çeşitli tahıl unundan yapılmış hamurun ateşte, sac üzerinde, tandırda, fırında veya tepside pişirilmesiyle haz��rlanan yiyecek.',
+     url: 'https://tr.wikipedia.org/wiki/Ekmek',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:30:29: received_result_no=3
+2016-12-15-00:30:29: finish
+2016-12-15-00:30:29: process is finished
+2016-12-15-00:30:29: -----------------Printed Results------------------------
+2016-12-15-00:30:29: Zeytin
+2016-12-15-00:30:29: Peynir
+2016-12-15-00:30:29: Ekmek
+2016-12-15-00:30:30: 1: slide left gesture is called
+2016-12-15-00:30:30: 1: slide left gesture is called
+2016-12-15-00:30:30: 1: slide left gesture is called
+2016-12-15-00:30:30: 1: slide left gesture is called
+2016-12-15-00:30:31: 1: slide right gesture is called
+2016-12-15-00:30:32: 1: slide left gesture is called
+2016-12-15-00:30:32: 1: slide left gesture is called
+2016-12-15-00:30:32: 1: slide left gesture is called
+2016-12-15-00:30:32: 1: slide left gesture is called
+2016-12-15-00:30:33: 1: slide left gesture is called
+2016-12-15-00:30:35: section_count is:1
+2016-12-15-00:30:35: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:35: section_count is:0
+2016-12-15-00:30:36: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:37: section_count is:1
+2016-12-15-00:30:37: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:37: section_count is:0
+2016-12-15-00:30:37: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:37: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:38: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:39: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:39: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:39: 1: slide right gesture is called
+2016-12-15-00:30:40: 1: slide right gesture is called
+2016-12-15-00:30:41: section_count is:1
+2016-12-15-00:30:41: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:41: section_count is:2
+2016-12-15-00:30:41: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:41: section_count is:1
+2016-12-15-00:30:41: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:41: section_count is:0
+2016-12-15-00:30:41: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:42: section_count is:1
+2016-12-15-00:30:42: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:43: section_count is:0
+2016-12-15-00:30:43: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:43: section_count is:1
+2016-12-15-00:30:43: AftermoveSectionDown section_count is: 1
+2016-12-15-00:30:44: section_count is:2
+2016-12-15-00:30:44: AftermoveSectionDown section_count is: 2
+2016-12-15-00:30:44: section_count is:1
+2016-12-15-00:30:44: AftermoveSectionUp section_count is: 1
+2016-12-15-00:30:44: section_count is:0
+2016-12-15-00:30:44: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:44: AftermoveSectionUp section_count is: 0
+2016-12-15-00:30:44: AftermoveSectionUp section_count is: 0

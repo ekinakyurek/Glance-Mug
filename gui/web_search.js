@@ -1,34 +1,11 @@
 
-//For logging/////
-var fs = require('fs');
-var util = require('util');
-var log_file = fs.createWriteStream(__dirname + '/debug.log', {flags : 'w'});
-var log_stdout = process.stdout;
-
-console.time("websearch");
-
-
-var my_console_log = function(d) { //
-	if (util!=null) {
-		log_file.write(util.format(d) + '\n');
-		log_stdout.write(util.format(d) + '\n');
-	}else{
-		console.log(d);
-	}
-};
-////////////////////
-
-//Input
-var test_input = "Yasaklar konulsa da güneş balçıkla sıvanmaz RTÜK gerekçesi huzur ve güven ortamının bozuyor yasak,Noun konul,Other da,Other güneş,Noun balçık,Noun sıva,Other RTÜK,Noun gerekçe,Noun huzur,Noun ve,Other güven,Noun ortam,Noun boz,Other";
-
-
-//required global variables
 var https = require('https')
 var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
 var api_host = 'kgsearch.googleapis.com';
 
 
-this.starter = function (test_input, debug, my_event_emitter) {
+this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
+	
 	var words = [];
 	var roots = [];
 	var roots_type = [];
@@ -267,13 +244,13 @@ this.starter = function (test_input, debug, my_event_emitter) {
 			if (debug) my_console_log('Result for phrase will be printed : ' + phrase);
 			printed_results.push(result);
 			isSomethingFound = true
-			if(my_event_emitter!=null) my_event_emitter.emit('result',result)
+			if(my_event_emitter!=undefined) my_event_emitter.emit('result',result)
 
 		} else if(phrase.split(" ").length  > 1){
 			if (debug) my_console_log('Result for phrase will be printed : ' + phrase);
 			printed_results.push(result);
 			isSomethingFound = true
-			if(my_event_emitter!=null) my_event_emitter.emit('result',result)
+			if(my_event_emitter!=undefined) my_event_emitter.emit('result',result)
 			//print that results
 		}else{
 			if (debug) my_console_log('Result for phrase will not be printed because it is not noun : ' + phrase);
@@ -294,12 +271,12 @@ this.starter = function (test_input, debug, my_event_emitter) {
 
 		if (!isSomethingFound) {
 			if (debug)	my_console_log('Nothing found');
-			if (my_event_emitter != null){
+			if (my_event_emitter !=undefined){
 				my_event_emitter.emit("error_occurs", "NothingFound")
 			}
 		}else{
-			if (my_event_emitter != null){
-				my_event_emitter.emit("finish", "SearchIsFinished")
+			if (my_event_emitter != undefined){
+				my_event_emitter.emit("finished", "SearchIsFinished")
 			}
 		}
 

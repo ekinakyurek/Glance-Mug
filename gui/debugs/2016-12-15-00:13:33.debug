@@ -1,0 +1,1740 @@
+2016-12-15-00:14:17: 2:click detected at point:[object Object]
+2016-12-15-00:14:17: 2:click detected at point:[object Object]
+2016-12-15-00:14:17: Connected
+2016-12-15-00:14:24: Data received from stt: Orhan Gencebay zeytinyağlı Orhan,Noun Gencebay,Noun zeytinyağlı,Other
+2016-12-15-00:14:24: SearchTerm from microphone:Orhan Gencebay zeytinyağlı Orhan,Noun Gencebay,Noun zeytinyağlı,Other
+2016-12-15-00:14:24: State machine is initialized with input: 
+2016-12-15-00:14:24: Orhan Gencebay zeytinyağlı Orhan,Noun Gencebay,Noun zeytinyağlı,Other
+2016-12-15-00:14:24: Input words : 
+2016-12-15-00:14:24: [ 'Orhan', 'Gencebay', 'zeytinyağlı' ]
+2016-12-15-00:14:24: Input roots : 
+2016-12-15-00:14:24: [ 'Orhan', 'Gencebay', 'zeytinyağlı' ]
+2016-12-15-00:14:24: Searching for phrase :Orhan
+2016-12-15-00:14:24: Connection closed
+2016-12-15-00:14:24: Response for phrase :Orhan
+
+2016-12-15-00:14:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-00:14:25: ItemlistElement for phrase : Orhan
+2016-12-15-00:14:25: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-00:14:25: Callback for phrase : Orhan
+2016-12-15-00:14:25: Callback for word is succeed :Orhan
+2016-12-15-00:14:25: Word is going to iteration : Orhan
+2016-12-15-00:14:25: Iteration for phrase : Orhan Gencebay
+2016-12-15-00:14:25: Searching for phrase :Orhan Gencebay
+2016-12-15-00:14:25: Response for phrase :Orhan Gencebay
+
+2016-12-15-00:14:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.885071 } ] }
+2016-12-15-00:14:25: ItemlistElement for phrase : Orhan Gencebay
+2016-12-15-00:14:25: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.885071 }
+2016-12-15-00:14:25: Callback for phrase : Orhan Gencebay
+2016-12-15-00:14:25: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-15-00:14:25: Score for phrase is596.885071 : Orhan Gencebay
+2016-12-15-00:14:25: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-15-00:14:25: Iteration for phrase : Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: Searching for phrase :Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: Response for phrase :Orhan Gencebay zeytinyağlı
+
+2016-12-15-00:14:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:14:25: ItemlistElement for phrase : Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: undefined
+2016-12-15-00:14:25: Failed callback for phras : Orhan Gencebay zeytinyağlı
+
+2016-12-15-00:14:25: Callback for iteration phrase is succeed :Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: Score for phrase isnull : Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: iteration phrase is going root iteration :Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: Root iteration for phrase : Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:25: Searching for phrase :Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:26: Response for phrase :Orhan Gencebay zeytinyağlı
+
+2016-12-15-00:14:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:14:26: ItemlistElement for phrase : Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:26: undefined
+2016-12-15-00:14:26: Failed callback for phras : Orhan Gencebay zeytinyağlı
+
+2016-12-15-00:14:26: Callback for root iteration phrase is succeed :Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:26: Score for phrase isnull : Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:26: Root iteration phrase is going to matching :Orhan Gencebay zeytinyağlı
+2016-12-15-00:14:26: Matching result for phrase : Orhan Gencebay
+
+2016-12-15-00:14:26: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-00:14:26: Result for phrase will be printed : Orhan Gencebay
+2016-12-15-00:14:26: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:14:26: received_result_no=1
+2016-12-15-00:14:26: System goes new search 
+2016-12-15-00:14:26: Searching for phrase :zeytinyağlı
+2016-12-15-00:14:26: Response for phrase :zeytinyağlı
+
+2016-12-15-00:14:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.461296 } ] }
+2016-12-15-00:14:26: ItemlistElement for phrase : zeytinyağlı
+2016-12-15-00:14:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05ml4',
+     name: 'Zeytinyağı',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+        url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+        url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 27.461296 }
+2016-12-15-00:14:26: Callback for phrase : zeytinyağlı
+2016-12-15-00:14:26: Callback for word is succeed :zeytinyağlı
+2016-12-15-00:14:26: last word is not noun :zeytinyağlı
+2016-12-15-00:14:26: { '@id': 'kg:/m/05ml4',
+  name: 'Zeytinyağı',
+  '@type': [ 'Thing' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQhiBFbZqR7m9mMQhsLpPHuBP8CPdskPt4I-a-gIJJr9GrzR0kZ',
+     url: 'https://commons.wikimedia.org/wiki/File:Italian_olive_oil_2007.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Zeytinyağı, zeytin ağacının meyvesinden elde edilen yeşilimsi-sarımtırak renkte sıvı bir yağdır.',
+     url: 'https://tr.wikipedia.org/wiki/Zeytinya%C4%9F%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:14:26: finish
+2016-12-15-00:14:26: process is finished
+2016-12-15-00:14:26: -----------------Printed Results------------------------
+2016-12-15-00:14:26: Orhan Gencebay
+2016-12-15-00:14:28: 1: slide left gesture is called
+2016-12-15-00:14:28: 1: slide left gesture is called
+2016-12-15-00:14:28: 1: slide left gesture is called
+2016-12-15-00:14:28: 1: slide left gesture is called
+2016-12-15-00:14:29: 1: slide left gesture is called
+2016-12-15-00:14:29: 1: slide right gesture is called
+2016-12-15-00:14:29: 1: slide right gesture is called
+2016-12-15-00:14:31: 1: slide right gesture is called
+2016-12-15-00:14:33: 1: slide right gesture is called
+2016-12-15-00:14:33: 1: slide right gesture is called
+2016-12-15-00:14:34: 1: slide left gesture is called
+2016-12-15-00:14:35: 1: slide left gesture is called
+2016-12-15-00:14:38: 1: slide left gesture is called
+2016-12-15-00:14:42: 1: slide right gesture is called
+2016-12-15-00:14:43: 1: slide right gesture is called
+2016-12-15-00:14:43: 1: slide right gesture is called
+2016-12-15-00:14:45: 1: slide right gesture is called
+2016-12-15-00:14:45: 1: slide right gesture is called
+2016-12-15-00:14:47: 1: slide right gesture is called
+2016-12-15-00:14:47: 1: slide right gesture is called
+2016-12-15-00:14:49: 1: slide left gesture is called
+2016-12-15-00:14:49: 1: slide left gesture is called
+2016-12-15-00:14:50: 1: slide left gesture is called
+2016-12-15-00:14:50: 1: slide left gesture is called
+2016-12-15-00:14:51: 1: slide left gesture is called
+2016-12-15-00:14:51: 1: slide left gesture is called
+2016-12-15-00:14:52: 1: slide left gesture is called
+2016-12-15-00:14:52: 1: slide left gesture is called
+2016-12-15-00:14:53: 1: slide left gesture is called
+2016-12-15-00:14:53: 1: slide right gesture is called
+2016-12-15-00:14:53: 1: slide right gesture is called
+2016-12-15-00:14:54: 1: slide right gesture is called
+2016-12-15-00:14:54: 1: slide right gesture is called
+2016-12-15-00:14:54: 1: slide right gesture is called
+2016-12-15-00:14:56: 1: slide right gesture is called
+2016-12-15-00:14:56: 1: slide right gesture is called
+2016-12-15-00:14:57: 1: slide right gesture is called
+2016-12-15-00:14:57: 1: slide right gesture is called
+2016-12-15-00:14:57: 1: slide right gesture is called
+2016-12-15-00:14:58: 1: slide left gesture is called
+2016-12-15-00:14:58: 1: slide left gesture is called
+2016-12-15-00:14:58: 1: slide left gesture is called
+2016-12-15-00:15:00: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:00: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:01: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:01: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:01: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:01: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:02: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:02: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:02: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:02: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:02: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:03: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:03: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:04: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:04: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:04: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:05: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:05: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:05: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:05: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:05: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:05: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:06: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:06: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:06: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:06: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:07: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:08: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:08: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:08: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:08: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:08: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:08: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:09: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:09: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:09: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:09: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:09: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:10: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:11: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:11: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:11: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:11: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:11: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:11: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:12: AftermoveSectionDown section_count is: 0
+2016-12-15-00:15:12: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:12: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:12: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:12: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:12: AftermoveSectionUp section_count is: 0
+2016-12-15-00:15:16: 2:click detected at point:[object Object]
+2016-12-15-00:15:17: 2:click detected at point:[object Object]
+2016-12-15-00:15:17: Connected
+2016-12-15-00:15:17: 2:click detected at point:[object Object]
+2016-12-15-00:15:25: Data received from stt: tamam mı Nazım Hikmet Zeki Müren tamam,Other hı,Other Nazım,Noun Hikmet,Noun Zeki,Noun Güre,Noun
+2016-12-15-00:15:25: SearchTerm from microphone:tamam mı Nazım Hikmet Zeki Müren tamam,Other hı,Other Nazım,Noun Hikmet,Noun Zeki,Noun Güre,Noun
+2016-12-15-00:15:25: State machine is initialized with input: 
+2016-12-15-00:15:25: tamam mı Nazım Hikmet Zeki Müren tamam,Other hı,Other Nazım,Noun Hikmet,Noun Zeki,Noun Güre,Noun
+2016-12-15-00:15:25: Input words : 
+2016-12-15-00:15:25: [ 'tamam', 'mı', 'Nazım', 'Hikmet', 'Zeki', 'Müren' ]
+2016-12-15-00:15:25: Input roots : 
+2016-12-15-00:15:25: [ 'tamam', 'hı', 'Nazım', 'Hikmet', 'Zeki', 'Güre' ]
+2016-12-15-00:15:25: Searching for phrase :tamam
+2016-12-15-00:15:25: Data received from stt: tamam mı Nazım Hikmet Zeki Müren tamam,Other hı,Other Nazım,Noun Hikmet,Noun Zeki,Noun Güre,Noun
+2016-12-15-00:15:25: SearchTerm from microphone:tamam mı Nazım Hikmet Zeki Müren tamam,Other hı,Other Nazım,Noun Hikmet,Noun Zeki,Noun Güre,Noun
+2016-12-15-00:15:25: State machine is initialized with input: 
+2016-12-15-00:15:25: tamam mı Nazım Hikmet Zeki Müren tamam,Other hı,Other Nazım,Noun Hikmet,Noun Zeki,Noun Güre,Noun
+2016-12-15-00:15:25: Input words : 
+2016-12-15-00:15:25: [ 'tamam', 'mı', 'Nazım', 'Hikmet', 'Zeki', 'Müren' ]
+2016-12-15-00:15:25: Input roots : 
+2016-12-15-00:15:25: [ 'tamam', 'hı', 'Nazım', 'Hikmet', 'Zeki', 'Güre' ]
+2016-12-15-00:15:25: Searching for phrase :tamam
+2016-12-15-00:15:25: Connection closed
+2016-12-15-00:15:25: Connection closed
+2016-12-15-00:15:26: Response for phrase :tamam
+
+2016-12-15-00:15:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.323498 } ] }
+2016-12-15-00:15:26: ItemlistElement for phrase : tamam
+2016-12-15-00:15:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0s8xz0q',
+     name: 'Tamam Selam',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Siyasetçi',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS_AFxyo5nrzqC2tGfUV6JOHs5sciqP7ezNw6VnncdLkBHmLmvY',
+        url: 'https://en.wikipedia.org/wiki/Tammam_Salam' },
+     detailedDescription: 
+      { articleBody: 'Tamam Saeb Selam, Lübnanlı siyasetçi. 2008-2009 yılları arasında Kültür Bakanı olarak görev yaptı. 6 Nisan 2013 tarihinden beri Lübnan Başbakanı, 25 Mayıs 2014 tarihinden beri vekâleten Lübnan Cumhurbaşkanı olarak görev yapmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Tamam_Selam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.323498 }
+2016-12-15-00:15:26: Callback for phrase : tamam
+2016-12-15-00:15:26: Callback for word is succeed :tamam
+2016-12-15-00:15:26: Word is going to iteration : tamam
+2016-12-15-00:15:26: Iteration for phrase : tamam mı
+2016-12-15-00:15:26: Searching for phrase :tamam mı
+2016-12-15-00:15:26: Response for phrase :tamam
+
+2016-12-15-00:15:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.323498 } ] }
+2016-12-15-00:15:26: ItemlistElement for phrase : tamam
+2016-12-15-00:15:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0s8xz0q',
+     name: 'Tamam Selam',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Siyasetçi',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS_AFxyo5nrzqC2tGfUV6JOHs5sciqP7ezNw6VnncdLkBHmLmvY',
+        url: 'https://en.wikipedia.org/wiki/Tammam_Salam' },
+     detailedDescription: 
+      { articleBody: 'Tamam Saeb Selam, Lübnanlı siyasetçi. 2008-2009 yılları arasında Kültür Bakanı olarak görev yaptı. 6 Nisan 2013 tarihinden beri Lübnan Başbakanı, 25 Mayıs 2014 tarihinden beri vekâleten Lübnan Cumhurbaşkanı olarak görev yapmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Tamam_Selam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.323498 }
+2016-12-15-00:15:26: Callback for phrase : tamam
+2016-12-15-00:15:26: Callback for word is succeed :tamam
+2016-12-15-00:15:26: Word is going to iteration : tamam
+2016-12-15-00:15:26: Iteration for phrase : tamam mı
+2016-12-15-00:15:26: Searching for phrase :tamam mı
+2016-12-15-00:15:26: Response for phrase :tamam mı
+
+2016-12-15-00:15:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 137.879028 } ] }
+2016-12-15-00:15:26: ItemlistElement for phrase : tamam mı
+2016-12-15-00:15:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1q5jb7_gl',
+     name: 'Derdine Yan Tamam mı',
+     '@type': [ 'Thing' ],
+     description: 'İbrahim Tatlıses\'in şarkısı' },
+  resultScore: 137.879028 }
+2016-12-15-00:15:26: Callback for phrase : tamam mı
+2016-12-15-00:15:26: Callback for iteration phrase is succeed :tamam mı
+2016-12-15-00:15:26: Score for phrase is137.879028 : tamam mı
+2016-12-15-00:15:26: iteration phrase is going next iteration :tamam mı
+2016-12-15-00:15:26: Iteration for phrase : tamam mı Nazım
+2016-12-15-00:15:26: Searching for phrase :tamam mı Nazım
+2016-12-15-00:15:26: Response for phrase :tamam mı
+
+2016-12-15-00:15:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 137.879028 } ] }
+2016-12-15-00:15:26: ItemlistElement for phrase : tamam mı
+2016-12-15-00:15:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1q5jb7_gl',
+     name: 'Derdine Yan Tamam mı',
+     '@type': [ 'Thing' ],
+     description: 'İbrahim Tatlıses\'in şarkısı' },
+  resultScore: 137.879028 }
+2016-12-15-00:15:26: Callback for phrase : tamam mı
+2016-12-15-00:15:26: Callback for iteration phrase is succeed :tamam mı
+2016-12-15-00:15:26: Score for phrase is137.879028 : tamam mı
+2016-12-15-00:15:26: iteration phrase is going next iteration :tamam mı
+2016-12-15-00:15:26: Iteration for phrase : tamam mı Nazım
+2016-12-15-00:15:26: Searching for phrase :tamam mı Nazım
+2016-12-15-00:15:26: Response for phrase :tamam mı Nazım
+
+2016-12-15-00:15:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:15:26: ItemlistElement for phrase : tamam mı Nazım
+2016-12-15-00:15:26: undefined
+2016-12-15-00:15:26: Failed callback for phras : tamam mı Nazım
+
+2016-12-15-00:15:26: Callback for iteration phrase is succeed :tamam mı Nazım
+2016-12-15-00:15:26: Score for phrase isnull : tamam mı Nazım
+2016-12-15-00:15:26: iteration phrase is going root iteration :tamam mı Nazım
+2016-12-15-00:15:26: Root iteration for phrase : tamam mı Nazım
+2016-12-15-00:15:26: Searching for phrase :tamam mı Nazım
+2016-12-15-00:15:26: Response for phrase :tamam mı Nazım
+
+2016-12-15-00:15:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:15:26: ItemlistElement for phrase : tamam mı Nazım
+2016-12-15-00:15:26: undefined
+2016-12-15-00:15:26: Failed callback for phras : tamam mı Nazım
+
+2016-12-15-00:15:26: Callback for iteration phrase is succeed :tamam mı Nazım
+2016-12-15-00:15:26: Score for phrase isnull : tamam mı Nazım
+2016-12-15-00:15:26: iteration phrase is going root iteration :tamam mı Nazım
+2016-12-15-00:15:26: Root iteration for phrase : tamam mı Nazım
+2016-12-15-00:15:26: Searching for phrase :tamam mı Nazım
+2016-12-15-00:15:27: Response for phrase :tamam mı Nazım
+
+2016-12-15-00:15:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:15:27: ItemlistElement for phrase : tamam mı Nazım
+2016-12-15-00:15:27: undefined
+2016-12-15-00:15:27: Failed callback for phras : tamam mı Nazım
+
+2016-12-15-00:15:27: Callback for root iteration phrase is succeed :tamam mı Nazım
+2016-12-15-00:15:27: Score for phrase isnull : tamam mı Nazım
+2016-12-15-00:15:27: Root iteration phrase is going to matching :tamam mı Nazım
+2016-12-15-00:15:27: Matching result for phrase : tamam mı
+
+2016-12-15-00:15:27: { '@id': 'kg:/g/1q5jb7_gl',
+  name: 'Derdine Yan Tamam mı',
+  '@type': [ 'Thing' ],
+  description: 'İbrahim Tatlıses\'in şarkısı' }
+2016-12-15-00:15:27: Result for phrase will be printed : tamam mı
+2016-12-15-00:15:27: Response for phrase :tamam mı Nazım
+
+2016-12-15-00:15:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:15:27: ItemlistElement for phrase : tamam mı Nazım
+2016-12-15-00:15:27: undefined
+2016-12-15-00:15:27: Failed callback for phras : tamam mı Nazım
+
+2016-12-15-00:15:27: Callback for root iteration phrase is succeed :tamam mı Nazım
+2016-12-15-00:15:27: Score for phrase isnull : tamam mı Nazım
+2016-12-15-00:15:27: Root iteration phrase is going to matching :tamam mı Nazım
+2016-12-15-00:15:27: Matching result for phrase : tamam mı
+
+2016-12-15-00:15:27: { '@id': 'kg:/g/1q5jb7_gl',
+  name: 'Derdine Yan Tamam mı',
+  '@type': [ 'Thing' ],
+  description: 'İbrahim Tatlıses\'in şarkısı' }
+2016-12-15-00:15:27: Result for phrase will be printed : tamam mı
+2016-12-15-00:15:49: 1: slide left gesture is called
+2016-12-15-00:15:49: 1: slide left gesture is called
+2016-12-15-00:15:49: 1: slide left gesture is called
+2016-12-15-00:15:51: 1: slide right gesture is called
+2016-12-15-00:15:51: 1: slide right gesture is called
+2016-12-15-00:15:53: 1: slide right gesture is called
+2016-12-15-00:15:53: 1: slide right gesture is called
+2016-12-15-00:16:01: 1: slide right gesture is called
+2016-12-15-00:16:02: 1: slide left gesture is called
+2016-12-15-00:16:02: 1: slide left gesture is called
+2016-12-15-00:16:03: 1: slide left gesture is called
+2016-12-15-00:16:04: 1: slide left gesture is called
+2016-12-15-00:16:04: 1: slide left gesture is called
+2016-12-15-00:16:05: 1: slide left gesture is called
+2016-12-15-00:16:05: 1: slide left gesture is called
+2016-12-15-00:16:05: 1: slide left gesture is called
+2016-12-15-00:16:06: 1: slide left gesture is called
+2016-12-15-00:16:06: 1: slide left gesture is called
+2016-12-15-00:16:06: 1: slide left gesture is called
+2016-12-15-00:16:07: 1: slide right gesture is called
+2016-12-15-00:16:08: 1: slide left gesture is called
+2016-12-15-00:16:08: 1: slide left gesture is called
+2016-12-15-00:16:24: 2:click detected at point:[object Object]
+2016-12-15-00:16:24: Connected
+2016-12-15-00:16:25: 2:click detected at point:[object Object]
+2016-12-15-00:16:25: 2:click detected at point:[object Object]
+2016-12-15-00:16:31: Data received from stt: Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: SearchTerm from microphone:Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: State machine is initialized with input: 
+2016-12-15-00:16:31: Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: Input words : 
+2016-12-15-00:16:31: [ 'Latif',
+  'Avcılar',
+  'git',
+  'ya',
+  'Zeki',
+  'Müren',
+  'Nazım',
+  'Hikmet' ]
+2016-12-15-00:16:31: Input roots : 
+2016-12-15-00:16:31: [ 'Latif', 'avcı', 'git', 'ya', 'Zeki', 'Güre', 'Nazım', 'Hikmet' ]
+2016-12-15-00:16:31: Searching for phrase :Latif
+2016-12-15-00:16:31: Data received from stt: Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: SearchTerm from microphone:Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: State machine is initialized with input: 
+2016-12-15-00:16:31: Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: Input words : 
+2016-12-15-00:16:31: [ 'Latif',
+  'Avcılar',
+  'git',
+  'ya',
+  'Zeki',
+  'Müren',
+  'Nazım',
+  'Hikmet' ]
+2016-12-15-00:16:31: Input roots : 
+2016-12-15-00:16:31: [ 'Latif', 'avcı', 'git', 'ya', 'Zeki', 'Güre', 'Nazım', 'Hikmet' ]
+2016-12-15-00:16:31: Searching for phrase :Latif
+2016-12-15-00:16:31: Data received from stt: Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: SearchTerm from microphone:Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: State machine is initialized with input: 
+2016-12-15-00:16:31: Latif Avcılar git ya Zeki Müren Nazım Hikmet Latif,Noun avcı,Noun git,Other ya,Other Zeki,Noun Güre,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-00:16:31: Input words : 
+2016-12-15-00:16:31: [ 'Latif',
+  'Avcılar',
+  'git',
+  'ya',
+  'Zeki',
+  'Müren',
+  'Nazım',
+  'Hikmet' ]
+2016-12-15-00:16:31: Input roots : 
+2016-12-15-00:16:31: [ 'Latif', 'avcı', 'git', 'ya', 'Zeki', 'Güre', 'Nazım', 'Hikmet' ]
+2016-12-15-00:16:31: Searching for phrase :Latif
+2016-12-15-00:16:31: Connection closed
+2016-12-15-00:16:31: Connection closed
+2016-12-15-00:16:31: Connection closed
+2016-12-15-00:16:31: Response for phrase :Latif
+
+2016-12-15-00:16:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 25.287077 } ] }
+2016-12-15-00:16:31: ItemlistElement for phrase : Latif
+2016-12-15-00:16:31: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g05m1',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     url: 'http://www.coreylatifwilliams.org/' },
+  resultScore: 25.287077 }
+2016-12-15-00:16:31: Callback for phrase : Latif
+2016-12-15-00:16:31: Callback for word is succeed :Latif
+2016-12-15-00:16:31: Word is going to iteration : Latif
+2016-12-15-00:16:31: Iteration for phrase : Latif Avcılar
+2016-12-15-00:16:31: Searching for phrase :Latif Avcılar
+2016-12-15-00:16:31: Response for phrase :Latif
+
+2016-12-15-00:16:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 25.287077 } ] }
+2016-12-15-00:16:31: ItemlistElement for phrase : Latif
+2016-12-15-00:16:31: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g05m1',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     url: 'http://www.coreylatifwilliams.org/' },
+  resultScore: 25.287077 }
+2016-12-15-00:16:31: Callback for phrase : Latif
+2016-12-15-00:16:31: Callback for word is succeed :Latif
+2016-12-15-00:16:31: Word is going to iteration : Latif
+2016-12-15-00:16:31: Iteration for phrase : Latif Avcılar
+2016-12-15-00:16:31: Searching for phrase :Latif Avcılar
+2016-12-15-00:16:31: Response for phrase :Latif
+
+2016-12-15-00:16:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 25.287077 } ] }
+2016-12-15-00:16:31: ItemlistElement for phrase : Latif
+2016-12-15-00:16:31: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g05m1',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     url: 'http://www.coreylatifwilliams.org/' },
+  resultScore: 25.287077 }
+2016-12-15-00:16:31: Callback for phrase : Latif
+2016-12-15-00:16:31: Callback for word is succeed :Latif
+2016-12-15-00:16:31: Word is going to iteration : Latif
+2016-12-15-00:16:31: Iteration for phrase : Latif Avcılar
+2016-12-15-00:16:31: Searching for phrase :Latif Avcılar
+2016-12-15-00:16:32: Response for phrase :Latif Avcılar
+
+2016-12-15-00:16:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:16:32: ItemlistElement for phrase : Latif Avcılar
+2016-12-15-00:16:32: undefined
+2016-12-15-00:16:32: Failed callback for phras : Latif Avcılar
+
+2016-12-15-00:16:32: Callback for iteration phrase is succeed :Latif Avcılar
+2016-12-15-00:16:32: Score for phrase isnull : Latif Avcılar
+2016-12-15-00:16:32: iteration phrase is going root iteration :Latif Avcılar
+2016-12-15-00:16:32: Root iteration for phrase : Latif avcı
+2016-12-15-00:16:32: Searching for phrase :Latif avcı
+2016-12-15-00:16:32: Response for phrase :Latif Avcılar
+
+2016-12-15-00:16:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:16:32: ItemlistElement for phrase : Latif Avcılar
+2016-12-15-00:16:32: undefined
+2016-12-15-00:16:32: Failed callback for phras : Latif Avcılar
+
+2016-12-15-00:16:32: Callback for iteration phrase is succeed :Latif Avcılar
+2016-12-15-00:16:32: Score for phrase isnull : Latif Avcılar
+2016-12-15-00:16:32: iteration phrase is going root iteration :Latif Avcılar
+2016-12-15-00:16:32: Root iteration for phrase : Latif avcı
+2016-12-15-00:16:32: Searching for phrase :Latif avcı
+2016-12-15-00:16:32: Response for phrase :Latif Avcılar
+
+2016-12-15-00:16:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:16:32: ItemlistElement for phrase : Latif Avcılar
+2016-12-15-00:16:32: undefined
+2016-12-15-00:16:32: Failed callback for phras : Latif Avcılar
+
+2016-12-15-00:16:32: Callback for iteration phrase is succeed :Latif Avcılar
+2016-12-15-00:16:32: Score for phrase isnull : Latif Avcılar
+2016-12-15-00:16:32: iteration phrase is going root iteration :Latif Avcılar
+2016-12-15-00:16:32: Root iteration for phrase : Latif avcı
+2016-12-15-00:16:32: Searching for phrase :Latif avcı
+2016-12-15-00:16:32: Response for phrase :Latif avcı
+
+2016-12-15-00:16:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:16:32: ItemlistElement for phrase : Latif avcı
+2016-12-15-00:16:32: undefined
+2016-12-15-00:16:32: Failed callback for phras : Latif avcı
+
+2016-12-15-00:16:32: Callback for root iteration phrase is succeed :Latif avcı
+2016-12-15-00:16:32: Score for phrase isnull : Latif avcı
+2016-12-15-00:16:32: Root iteration phrase is going to matching :Latif avcı
+2016-12-15-00:16:32: Matching result for phrase : Latif
+
+2016-12-15-00:16:32: { '@id': 'kg:/m/0g05m1',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  url: 'http://www.coreylatifwilliams.org/' }
+2016-12-15-00:16:32: Result for phrase will be printed : Latif
+2016-12-15-00:16:32: Response for phrase :Latif avcı
+
+2016-12-15-00:16:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:16:32: ItemlistElement for phrase : Latif avcı
+2016-12-15-00:16:32: undefined
+2016-12-15-00:16:32: Failed callback for phras : Latif avcı
+
+2016-12-15-00:16:32: Callback for root iteration phrase is succeed :Latif avcı
+2016-12-15-00:16:32: Score for phrase isnull : Latif avcı
+2016-12-15-00:16:32: Root iteration phrase is going to matching :Latif avcı
+2016-12-15-00:16:32: Matching result for phrase : Latif
+
+2016-12-15-00:16:32: { '@id': 'kg:/m/0g05m1',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  url: 'http://www.coreylatifwilliams.org/' }
+2016-12-15-00:16:32: Result for phrase will be printed : Latif
+2016-12-15-00:16:32: Response for phrase :Latif avcı
+
+2016-12-15-00:16:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:16:32: ItemlistElement for phrase : Latif avcı
+2016-12-15-00:16:32: undefined
+2016-12-15-00:16:32: Failed callback for phras : Latif avcı
+
+2016-12-15-00:16:32: Callback for root iteration phrase is succeed :Latif avcı
+2016-12-15-00:16:32: Score for phrase isnull : Latif avcı
+2016-12-15-00:16:32: Root iteration phrase is going to matching :Latif avcı
+2016-12-15-00:16:32: Matching result for phrase : Latif
+
+2016-12-15-00:16:32: { '@id': 'kg:/m/0g05m1',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  url: 'http://www.coreylatifwilliams.org/' }
+2016-12-15-00:16:32: Result for phrase will be printed : Latif
+2016-12-15-00:16:39: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:39: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:39: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:40: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:40: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:40: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:41: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:41: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:41: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:41: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:41: 2: slide left gesture is called
+2016-12-15-00:16:41: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:42: 2: slide left gesture is called
+2016-12-15-00:16:42: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:42: 2: slide left gesture is called
+2016-12-15-00:16:42: 2: slide left gesture is called
+2016-12-15-00:16:42: 2: slide left gesture is called
+2016-12-15-00:16:42: 2: slide left gesture is called
+2016-12-15-00:16:42: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:42: 2: slide right gesture is called
+2016-12-15-00:16:42: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:43: 2: slide right gesture is called
+2016-12-15-00:16:43: 2: slide right gesture is called
+2016-12-15-00:16:43: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:43: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:43: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:44: 2: slide right gesture is called
+2016-12-15-00:16:44: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:44: 2: slide right gesture is called
+2016-12-15-00:16:44: 2: slide right gesture is called
+2016-12-15-00:16:44: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:44: 2: slide left gesture is called
+2016-12-15-00:16:44: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:44: 2: slide left gesture is called
+2016-12-15-00:16:44: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:45: 2: slide left gesture is called
+2016-12-15-00:16:45: 2: slide right gesture is called
+2016-12-15-00:16:45: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:45: 2: slide right gesture is called
+2016-12-15-00:16:45: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:45: 2: slide right gesture is called
+2016-12-15-00:16:45: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:45: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:46: 2: slide right gesture is called
+2016-12-15-00:16:46: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:46: 2: slide right gesture is called
+2016-12-15-00:16:46: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:46: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:46: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:46: 2: slide right gesture is called
+2016-12-15-00:16:46: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:47: 2: slide right gesture is called
+2016-12-15-00:16:47: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:47: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:47: 2: slide left gesture is called
+2016-12-15-00:16:47: 2: slide left gesture is called
+2016-12-15-00:16:47: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:47: 2: slide left gesture is called
+2016-12-15-00:16:48: 2: slide left gesture is called
+2016-12-15-00:16:48: 2: slide left gesture is called
+2016-12-15-00:16:48: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:48: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:48: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:48: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:48: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:49: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:49: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:49: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:50: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:50: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:50: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:50: AftermoveSectionDown section_count is: 0
+2016-12-15-00:16:51: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:51: AftermoveSectionUp section_count is: 0
+2016-12-15-00:16:57: 2: slide right gesture is called
+2016-12-15-00:16:58: 2:click detected at point:[object Object]
+2016-12-15-00:16:58: 2:click detected at point:[object Object]
+2016-12-15-00:16:58: Connected
+2016-12-15-00:16:59: 2:click detected at point:[object Object]
+2016-12-15-00:16:59: 2:click detected at point:[object Object]
+2016-12-15-00:17:05: Data received from stt: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: SearchTerm from microphone:Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: State machine is initialized with input: 
+2016-12-15-00:17:05: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: Input words : 
+2016-12-15-00:17:05: [ 'Zeki', 'Müren', 'Azize' ]
+2016-12-15-00:17:05: Input roots : 
+2016-12-15-00:17:05: [ 'Zeki', 'Güre', 'azize' ]
+2016-12-15-00:17:05: Searching for phrase :Zeki
+2016-12-15-00:17:05: Data received from stt: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: SearchTerm from microphone:Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: State machine is initialized with input: 
+2016-12-15-00:17:05: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: Input words : 
+2016-12-15-00:17:05: [ 'Zeki', 'Müren', 'Azize' ]
+2016-12-15-00:17:05: Input roots : 
+2016-12-15-00:17:05: [ 'Zeki', 'Güre', 'azize' ]
+2016-12-15-00:17:05: Searching for phrase :Zeki
+2016-12-15-00:17:05: Data received from stt: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: SearchTerm from microphone:Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: State machine is initialized with input: 
+2016-12-15-00:17:05: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: Input words : 
+2016-12-15-00:17:05: [ 'Zeki', 'Müren', 'Azize' ]
+2016-12-15-00:17:05: Input roots : 
+2016-12-15-00:17:05: [ 'Zeki', 'Güre', 'azize' ]
+2016-12-15-00:17:05: Searching for phrase :Zeki
+2016-12-15-00:17:05: Data received from stt: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: SearchTerm from microphone:Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: State machine is initialized with input: 
+2016-12-15-00:17:05: Zeki Müren Azize Zeki,Noun Güre,Noun azize,Noun
+2016-12-15-00:17:05: Input words : 
+2016-12-15-00:17:05: [ 'Zeki', 'Müren', 'Azize' ]
+2016-12-15-00:17:05: Input roots : 
+2016-12-15-00:17:05: [ 'Zeki', 'Güre', 'azize' ]
+2016-12-15-00:17:05: Searching for phrase :Zeki
+2016-12-15-00:17:05: Connection closed
+2016-12-15-00:17:05: Connection closed
+2016-12-15-00:17:05: Connection closed
+2016-12-15-00:17:05: Connection closed
+2016-12-15-00:17:05: Response for phrase :Zeki
+
+2016-12-15-00:17:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.227184 } ] }
+2016-12-15-00:17:05: ItemlistElement for phrase : Zeki
+2016-12-15-00:17:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.227184 }
+2016-12-15-00:17:05: Callback for phrase : Zeki
+2016-12-15-00:17:05: Callback for word is succeed :Zeki
+2016-12-15-00:17:05: Word is going to iteration : Zeki
+2016-12-15-00:17:05: Iteration for phrase : Zeki Müren
+2016-12-15-00:17:05: Searching for phrase :Zeki Müren
+2016-12-15-00:17:05: Response for phrase :Zeki
+
+2016-12-15-00:17:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.227184 } ] }
+2016-12-15-00:17:05: ItemlistElement for phrase : Zeki
+2016-12-15-00:17:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.227184 }
+2016-12-15-00:17:05: Callback for phrase : Zeki
+2016-12-15-00:17:05: Callback for word is succeed :Zeki
+2016-12-15-00:17:05: Word is going to iteration : Zeki
+2016-12-15-00:17:05: Iteration for phrase : Zeki Müren
+2016-12-15-00:17:05: Searching for phrase :Zeki Müren
+2016-12-15-00:17:05: Response for phrase :Zeki
+
+2016-12-15-00:17:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.227184 } ] }
+2016-12-15-00:17:05: ItemlistElement for phrase : Zeki
+2016-12-15-00:17:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.227184 }
+2016-12-15-00:17:05: Callback for phrase : Zeki
+2016-12-15-00:17:05: Callback for word is succeed :Zeki
+2016-12-15-00:17:05: Word is going to iteration : Zeki
+2016-12-15-00:17:05: Iteration for phrase : Zeki Müren
+2016-12-15-00:17:05: Searching for phrase :Zeki Müren
+2016-12-15-00:17:05: Response for phrase :Zeki
+
+2016-12-15-00:17:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.227184 } ] }
+2016-12-15-00:17:05: ItemlistElement for phrase : Zeki
+2016-12-15-00:17:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.227184 }
+2016-12-15-00:17:05: Callback for phrase : Zeki
+2016-12-15-00:17:05: Callback for word is succeed :Zeki
+2016-12-15-00:17:05: Word is going to iteration : Zeki
+2016-12-15-00:17:05: Iteration for phrase : Zeki Müren
+2016-12-15-00:17:05: Searching for phrase :Zeki Müren
+2016-12-15-00:17:05: Response for phrase :Zeki Müren
+
+2016-12-15-00:17:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 612.11615 } ] }
+2016-12-15-00:17:05: ItemlistElement for phrase : Zeki Müren
+2016-12-15-00:17:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 612.11615 }
+2016-12-15-00:17:05: Callback for phrase : Zeki Müren
+2016-12-15-00:17:05: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-15-00:17:05: Score for phrase is612.11615 : Zeki Müren
+2016-12-15-00:17:05: iteration phrase is going next iteration :Zeki Müren
+2016-12-15-00:17:05: Iteration for phrase : Zeki Müren Azize
+2016-12-15-00:17:05: Searching for phrase :Zeki Müren Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 612.11615 } ] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren
+2016-12-15-00:17:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 612.11615 }
+2016-12-15-00:17:06: Callback for phrase : Zeki Müren
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-15-00:17:06: Score for phrase is612.11615 : Zeki Müren
+2016-12-15-00:17:06: iteration phrase is going next iteration :Zeki Müren
+2016-12-15-00:17:06: Iteration for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 612.11615 } ] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren
+2016-12-15-00:17:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 612.11615 }
+2016-12-15-00:17:06: Callback for phrase : Zeki Müren
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-15-00:17:06: Score for phrase is612.11615 : Zeki Müren
+2016-12-15-00:17:06: iteration phrase is going next iteration :Zeki Müren
+2016-12-15-00:17:06: Iteration for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 612.11615 } ] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren
+2016-12-15-00:17:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 612.11615 }
+2016-12-15-00:17:06: Callback for phrase : Zeki Müren
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-15-00:17:06: Score for phrase is612.11615 : Zeki Müren
+2016-12-15-00:17:06: iteration phrase is going next iteration :Zeki Müren
+2016-12-15-00:17:06: Iteration for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren Azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren Azize
+
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren Azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren Azize
+2016-12-15-00:17:06: iteration phrase is going root iteration :Zeki Müren Azize
+2016-12-15-00:17:06: Root iteration for phrase : Zeki Müren azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren Azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren Azize
+
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren Azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren Azize
+2016-12-15-00:17:06: iteration phrase is going root iteration :Zeki Müren Azize
+2016-12-15-00:17:06: Root iteration for phrase : Zeki Müren azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren Azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren Azize
+
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren Azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren Azize
+2016-12-15-00:17:06: iteration phrase is going root iteration :Zeki Müren Azize
+2016-12-15-00:17:06: Root iteration for phrase : Zeki Müren azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren Azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren Azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren Azize
+
+2016-12-15-00:17:06: Callback for iteration phrase is succeed :Zeki Müren Azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren Azize
+2016-12-15-00:17:06: iteration phrase is going root iteration :Zeki Müren Azize
+2016-12-15-00:17:06: Root iteration for phrase : Zeki Müren azize
+2016-12-15-00:17:06: Searching for phrase :Zeki Müren azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren azize
+
+2016-12-15-00:17:06: Callback for root iteration phrase is succeed :Zeki Müren azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren azize
+2016-12-15-00:17:06: Root iteration phrase is going to matching :Zeki Müren azize
+2016-12-15-00:17:06: Matching result for phrase : Zeki Müren
+
+2016-12-15-00:17:06: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-15-00:17:06: Result for phrase will be printed : Zeki Müren
+2016-12-15-00:17:06: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:17:06: received_result_no=1
+2016-12-15-00:17:06: System goes new search 
+2016-12-15-00:17:06: Searching for phrase :Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren azize
+
+2016-12-15-00:17:06: Callback for root iteration phrase is succeed :Zeki Müren azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren azize
+2016-12-15-00:17:06: Root iteration phrase is going to matching :Zeki Müren azize
+2016-12-15-00:17:06: Matching result for phrase : Zeki Müren
+
+2016-12-15-00:17:06: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-15-00:17:06: Result for phrase will be printed : Zeki Müren
+2016-12-15-00:17:06: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:17:06: received_result_no=1
+2016-12-15-00:17:06: System goes new search 
+2016-12-15-00:17:06: Searching for phrase :Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren azize
+
+2016-12-15-00:17:06: Callback for root iteration phrase is succeed :Zeki Müren azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren azize
+2016-12-15-00:17:06: Root iteration phrase is going to matching :Zeki Müren azize
+2016-12-15-00:17:06: Matching result for phrase : Zeki Müren
+
+2016-12-15-00:17:06: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-15-00:17:06: Result for phrase will be printed : Zeki Müren
+2016-12-15-00:17:06: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:17:06: received_result_no=1
+2016-12-15-00:17:06: System goes new search 
+2016-12-15-00:17:06: Searching for phrase :Azize
+2016-12-15-00:17:06: Response for phrase :Zeki Müren azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Zeki Müren azize
+2016-12-15-00:17:06: undefined
+2016-12-15-00:17:06: Failed callback for phras : Zeki Müren azize
+
+2016-12-15-00:17:06: Callback for root iteration phrase is succeed :Zeki Müren azize
+2016-12-15-00:17:06: Score for phrase isnull : Zeki Müren azize
+2016-12-15-00:17:06: Root iteration phrase is going to matching :Zeki Müren azize
+2016-12-15-00:17:06: Matching result for phrase : Zeki Müren
+
+2016-12-15-00:17:06: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-15-00:17:06: Result for phrase will be printed : Zeki Müren
+2016-12-15-00:17:06: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-00:17:06: received_result_no=1
+2016-12-15-00:17:06: System goes new search 
+2016-12-15-00:17:06: Searching for phrase :Azize
+2016-12-15-00:17:06: Response for phrase :Azize
+
+2016-12-15-00:17:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.310282 } ] }
+2016-12-15-00:17:06: ItemlistElement for phrase : Azize
+2016-12-15-00:17:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07_v5',
+     name: 'Azize Veronica',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Aziz',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+        url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+     detailedDescription: 
+      { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+        url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 24.310282 }
+2016-12-15-00:17:06: Callback for phrase : Azize
+2016-12-15-00:17:06: Callback for word is succeed :Azize
+2016-12-15-00:17:06: last word is noun here is the result of :Azize
+2016-12-15-00:17:06: { '@id': 'kg:/m/07_v5',
+  name: 'Azize Veronica',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Aziz',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+     url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+  detailedDescription: 
+   { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+     url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:17:06: received_result_no=2
+2016-12-15-00:17:06: finish
+2016-12-15-00:17:06: process is finished
+2016-12-15-00:17:06: -----------------Printed Results------------------------
+2016-12-15-00:17:06: Zeki Müren
+2016-12-15-00:17:06: Azize Veronica
+2016-12-15-00:17:07: Response for phrase :Azize
+
+2016-12-15-00:17:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.310282 } ] }
+2016-12-15-00:17:07: ItemlistElement for phrase : Azize
+2016-12-15-00:17:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07_v5',
+     name: 'Azize Veronica',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Aziz',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+        url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+     detailedDescription: 
+      { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+        url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 24.310282 }
+2016-12-15-00:17:07: Callback for phrase : Azize
+2016-12-15-00:17:07: Callback for word is succeed :Azize
+2016-12-15-00:17:07: last word is noun here is the result of :Azize
+2016-12-15-00:17:07: { '@id': 'kg:/m/07_v5',
+  name: 'Azize Veronica',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Aziz',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+     url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+  detailedDescription: 
+   { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+     url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:17:07: received_result_no=2
+2016-12-15-00:17:07: finish
+2016-12-15-00:17:07: process is finished
+2016-12-15-00:17:07: -----------------Printed Results------------------------
+2016-12-15-00:17:07: Zeki Müren
+2016-12-15-00:17:07: Azize Veronica
+2016-12-15-00:17:07: Response for phrase :Azize
+
+2016-12-15-00:17:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.310282 } ] }
+2016-12-15-00:17:07: ItemlistElement for phrase : Azize
+2016-12-15-00:17:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07_v5',
+     name: 'Azize Veronica',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Aziz',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+        url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+     detailedDescription: 
+      { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+        url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 24.310282 }
+2016-12-15-00:17:07: Callback for phrase : Azize
+2016-12-15-00:17:07: Callback for word is succeed :Azize
+2016-12-15-00:17:07: last word is noun here is the result of :Azize
+2016-12-15-00:17:07: { '@id': 'kg:/m/07_v5',
+  name: 'Azize Veronica',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Aziz',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+     url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+  detailedDescription: 
+   { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+     url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:17:07: received_result_no=2
+2016-12-15-00:17:07: finish
+2016-12-15-00:17:07: process is finished
+2016-12-15-00:17:07: -----------------Printed Results------------------------
+2016-12-15-00:17:07: Zeki Müren
+2016-12-15-00:17:07: Azize Veronica
+2016-12-15-00:17:07: Response for phrase :Azize
+
+2016-12-15-00:17:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.310282 } ] }
+2016-12-15-00:17:07: ItemlistElement for phrase : Azize
+2016-12-15-00:17:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07_v5',
+     name: 'Azize Veronica',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Aziz',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+        url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+     detailedDescription: 
+      { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+        url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 24.310282 }
+2016-12-15-00:17:07: Callback for phrase : Azize
+2016-12-15-00:17:07: Callback for word is succeed :Azize
+2016-12-15-00:17:07: last word is noun here is the result of :Azize
+2016-12-15-00:17:07: { '@id': 'kg:/m/07_v5',
+  name: 'Azize Veronica',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Aziz',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTV2zXxnUt62tFTeWIP4G_oTxshEz0cfASSkTdVAzI3782ylHh8',
+     url: 'https://simple.wikipedia.org/wiki/Saint_Veronica' },
+  detailedDescription: 
+   { articleBody: 'Azize Veronica, birinci yüzyılda Kudüs\'te yaşamış dindar bir kadın. Bugün birçok dindar hristiyan ülkesinde bilinen ve anılan bir azize. ',
+     url: 'https://tr.wikipedia.org/wiki/Azize_Veronica',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-00:17:07: received_result_no=2
+2016-12-15-00:17:07: finish
+2016-12-15-00:17:07: process is finished
+2016-12-15-00:17:07: -----------------Printed Results------------------------
+2016-12-15-00:17:07: Zeki Müren
+2016-12-15-00:17:07: Azize Veronica
+2016-12-15-00:17:12: 1: slide left gesture is called
+2016-12-15-00:17:13: 1: slide left gesture is called
+2016-12-15-00:17:13: 1: slide left gesture is called
+2016-12-15-00:17:14: 1: slide left gesture is called
+2016-12-15-00:17:14: 1: slide left gesture is called
+2016-12-15-00:17:14: 1: slide left gesture is called
+2016-12-15-00:17:15: 1: slide left gesture is called
+2016-12-15-00:17:15: 1: slide left gesture is called
+2016-12-15-00:17:15: 1: slide left gesture is called
+2016-12-15-00:17:15: 1: slide left gesture is called
+2016-12-15-00:17:16: 1: slide right gesture is called
+2016-12-15-00:17:16: 1: slide right gesture is called
+2016-12-15-00:17:17: section_count is:1
+2016-12-15-00:17:17: AftermoveSectionDown section_count is: 1
+2016-12-15-00:17:17: section_count is:2
+2016-12-15-00:17:17: AftermoveSectionDown section_count is: 2
+2016-12-15-00:17:17: section_count is:3
+2016-12-15-00:17:17: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:17: section_count is:2
+2016-12-15-00:17:17: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:17: section_count is:1
+2016-12-15-00:17:17: AftermoveSectionUp section_count is: 1
+2016-12-15-00:17:19: 1: slide right gesture is called
+2016-12-15-00:17:19: 1: slide right gesture is called
+2016-12-15-00:17:19: 1: slide right gesture is called
+2016-12-15-00:17:20: 1: slide right gesture is called
+2016-12-15-00:17:20: 1: slide right gesture is called
+2016-12-15-00:17:21: 1: slide right gesture is called
+2016-12-15-00:17:21: 1: slide right gesture is called
+2016-12-15-00:17:21: 1: slide right gesture is called
+2016-12-15-00:17:22: 1: slide right gesture is called
+2016-12-15-00:17:22: 1: slide right gesture is called
+2016-12-15-00:17:23: 1: slide right gesture is called
+2016-12-15-00:17:23: 1: slide right gesture is called
+2016-12-15-00:17:23: 1: slide right gesture is called
+2016-12-15-00:17:24: 1: slide right gesture is called
+2016-12-15-00:17:24: 1: slide left gesture is called
+2016-12-15-00:17:24: 1: slide left gesture is called
+2016-12-15-00:17:24: 1: slide left gesture is called
+2016-12-15-00:17:25: 1: slide left gesture is called
+2016-12-15-00:17:25: section_count is:0
+2016-12-15-00:17:25: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:27: section_count is:1
+2016-12-15-00:17:27: AftermoveSectionDown section_count is: 1
+2016-12-15-00:17:27: section_count is:2
+2016-12-15-00:17:27: AftermoveSectionDown section_count is: 2
+2016-12-15-00:17:27: section_count is:3
+2016-12-15-00:17:27: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:27: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:27: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:29: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:29: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:29: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:29: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:29: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:29: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:30: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:30: section_count is:2
+2016-12-15-00:17:30: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:30: section_count is:3
+2016-12-15-00:17:30: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:31: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:31: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:31: section_count is:2
+2016-12-15-00:17:31: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:31: section_count is:1
+2016-12-15-00:17:31: AftermoveSectionUp section_count is: 1
+2016-12-15-00:17:33: section_count is:0
+2016-12-15-00:17:33: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:33: section_count is:1
+2016-12-15-00:17:33: AftermoveSectionDown section_count is: 1
+2016-12-15-00:17:33: section_count is:0
+2016-12-15-00:17:33: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:34: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:34: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:36: 1: slide left gesture is called
+2016-12-15-00:17:36: 1: slide left gesture is called
+2016-12-15-00:17:36: 1: slide left gesture is called
+2016-12-15-00:17:37: 1: slide right gesture is called
+2016-12-15-00:17:37: 1: slide right gesture is called
+2016-12-15-00:17:38: 1: slide left gesture is called
+2016-12-15-00:17:39: 1: slide right gesture is called
+2016-12-15-00:17:39: 1: slide right gesture is called
+2016-12-15-00:17:40: 1: slide right gesture is called
+2016-12-15-00:17:40: 1: slide right gesture is called
+2016-12-15-00:17:40: 1: slide right gesture is called
+2016-12-15-00:17:41: 1: slide right gesture is called
+2016-12-15-00:17:41: 1: slide right gesture is called
+2016-12-15-00:17:41: 1: slide right gesture is called
+2016-12-15-00:17:42: section_count is:1
+2016-12-15-00:17:42: AftermoveSectionDown section_count is: 1
+2016-12-15-00:17:42: section_count is:2
+2016-12-15-00:17:42: AftermoveSectionDown section_count is: 2
+2016-12-15-00:17:42: section_count is:3
+2016-12-15-00:17:42: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:42: section_count is:2
+2016-12-15-00:17:42: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:44: section_count is:3
+2016-12-15-00:17:44: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:44: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:45: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:45: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:45: section_count is:2
+2016-12-15-00:17:45: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:45: section_count is:3
+2016-12-15-00:17:45: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:46: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:46: section_count is:2
+2016-12-15-00:17:46: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:46: section_count is:3
+2016-12-15-00:17:46: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:46: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:46: AftermoveSectionDown section_count is: 3
+2016-12-15-00:17:51: 1: slide left gesture is called
+2016-12-15-00:17:51: 1: slide right gesture is called
+2016-12-15-00:17:51: 1: slide right gesture is called
+2016-12-15-00:17:51: 1: slide right gesture is called
+2016-12-15-00:17:51: 1: slide right gesture is called
+2016-12-15-00:17:53: section_count is:2
+2016-12-15-00:17:53: AftermoveSectionUp section_count is: 2
+2016-12-15-00:17:53: section_count is:1
+2016-12-15-00:17:53: AftermoveSectionUp section_count is: 1
+2016-12-15-00:17:53: section_count is:0
+2016-12-15-00:17:53: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:54: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:54: section_count is:1
+2016-12-15-00:17:54: AftermoveSectionDown section_count is: 1
+2016-12-15-00:17:54: section_count is:0
+2016-12-15-00:17:54: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:54: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:55: AftermoveSectionUp section_count is: 0
+2016-12-15-00:17:56: 1: slide left gesture is called
+2016-12-15-00:17:57: 1: slide left gesture is called
+2016-12-15-00:17:58: 1: slide left gesture is called
+2016-12-15-00:17:59: 1: slide left gesture is called
+2016-12-15-00:18:00: 1: slide left gesture is called
+2016-12-15-00:18:00: 1: slide left gesture is called
+2016-12-15-00:18:01: 1: slide left gesture is called
+2016-12-15-00:18:01: 1: slide left gesture is called
+2016-12-15-00:18:02: AftermoveSectionUp section_count is: 0
+2016-12-15-00:18:02: AftermoveSectionUp section_count is: 0
+2016-12-15-00:18:03: 1: slide right gesture is called
+2016-12-15-00:18:04: 1: slide right gesture is called
+2016-12-15-00:18:04: 1: slide right gesture is called
+2016-12-15-00:18:05: 1: slide right gesture is called
+2016-12-15-00:18:06: 1: slide right gesture is called
+2016-12-15-00:18:06: 1: slide right gesture is called
+2016-12-15-00:18:07: 1: slide right gesture is called
+2016-12-15-00:18:07: 1: slide right gesture is called

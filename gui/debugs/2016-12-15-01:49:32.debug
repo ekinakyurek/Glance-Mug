@@ -1,0 +1,827 @@
+2016-12-15-01:49:54: 2:click detected at point:[object Object]
+2016-12-15-01:49:54: 2:click detected at point:[object Object]
+2016-12-15-01:49:54: Connected
+2016-12-15-01:49:55: 2:click detected at point:[object Object]
+2016-12-15-01:50:06: Data received from stt: hepsinin farklı bir merkezi var niye burada çıkardın az kaldı niye burada çıkmalıyım Orhan Baba Fatih Terim ile başlayan hep,Noun farklı,Other bir,Other Merkez,Noun var,Noun niye,Other bura,Other çıkar,Noun az,Other kal,Noun niye,Other bura,Other çıkma,Noun Orhan,Noun Baba,Noun Fatih,Noun Terim,Noun ile,Other başla,Noun
+2016-12-15-01:50:06: SearchTerm from microphone:hepsinin farklı bir merkezi var niye burada çıkardın az kaldı niye burada çıkmalıyım Orhan Baba Fatih Terim ile başlayan hep,Noun farklı,Other bir,Other Merkez,Noun var,Noun niye,Other bura,Other çıkar,Noun az,Other kal,Noun niye,Other bura,Other çıkma,Noun Orhan,Noun Baba,Noun Fatih,Noun Terim,Noun ile,Other başla,Noun
+2016-12-15-01:50:06: State machine is initialized with input: 
+2016-12-15-01:50:06: hepsinin farklı bir merkezi var niye burada çıkardın az kaldı niye burada çıkmalıyım Orhan Baba Fatih Terim ile başlayan hep,Noun farklı,Other bir,Other Merkez,Noun var,Noun niye,Other bura,Other çıkar,Noun az,Other kal,Noun niye,Other bura,Other çıkma,Noun Orhan,Noun Baba,Noun Fatih,Noun Terim,Noun ile,Other başla,Noun
+2016-12-15-01:50:06: Input words : 
+2016-12-15-01:50:06: [ 'hepsinin',
+  'farklı',
+  'bir',
+  'merkezi',
+  'var',
+  'niye',
+  'burada',
+  'çıkardın',
+  'az',
+  'kaldı',
+  'niye',
+  'burada',
+  'çıkmalıyım',
+  'Orhan',
+  'Baba',
+  'Fatih',
+  'Terim',
+  'ile',
+  'başlayan' ]
+2016-12-15-01:50:06: Input roots : 
+2016-12-15-01:50:06: [ 'hep',
+  'farklı',
+  'bir',
+  'Merkez',
+  'var',
+  'niye',
+  'bura',
+  'çıkar',
+  'az',
+  'kal',
+  'niye',
+  'bura',
+  'çıkma',
+  'Orhan',
+  'Baba',
+  'Fatih',
+  'Terim',
+  'ile',
+  'başla' ]
+2016-12-15-01:50:06: Searching for phrase :hepsinin
+2016-12-15-01:50:06: Connection closed
+2016-12-15-01:50:06: Response for phrase :hepsinin
+
+2016-12-15-01:50:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 7.109921 } ] }
+2016-12-15-01:50:06: ItemlistElement for phrase : hepsinin
+2016-12-15-01:50:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/122y0cc1',
+     name: 'Aslında Hüzündü Hepsinin Yaşadığı',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Kitap',
+     detailedDescription: 
+      { articleBody: 'Aslında Hüzündü Hepsinin Yaşadığı, Füsun Önal\'ın yedinci kitabıdır ve İnkılap Kitabevi\'nden çıkmıştır. Aziz Nesin\'in isim babası olduğu 368 sayfalık bu romanda Önal, anne baskısı altında kalan bir adamın yakaladığı aşkı elinden kaçırdıktan sonraki altüst olan hayatını anlatıyor.',
+        url: 'https://tr.wikipedia.org/wiki/Asl%C4%B1nda_H%C3%BCz%C3%BCnd%C3%BC_Hepsinin_Ya%C5%9Fad%C4%B1%C4%9F%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 7.109921 }
+2016-12-15-01:50:06: Callback for phrase : hepsinin
+2016-12-15-01:50:06: Callback for word is succeed :hepsinin
+2016-12-15-01:50:06: Word is going to iteration : hepsinin
+2016-12-15-01:50:06: Iteration for phrase : hepsinin farklı
+2016-12-15-01:50:06: Searching for phrase :hepsinin farklı
+2016-12-15-01:50:07: Response for phrase :hepsinin farklı
+
+2016-12-15-01:50:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:50:07: ItemlistElement for phrase : hepsinin farklı
+2016-12-15-01:50:07: undefined
+2016-12-15-01:50:07: Failed callback for phras : hepsinin farklı
+
+2016-12-15-01:50:07: Callback for iteration phrase is succeed :hepsinin farklı
+2016-12-15-01:50:07: Score for phrase isnull : hepsinin farklı
+2016-12-15-01:50:07: iteration phrase is going root iteration :hepsinin farklı
+2016-12-15-01:50:07: Root iteration for phrase : hepsinin farklı
+2016-12-15-01:50:07: Searching for phrase :hepsinin farklı
+2016-12-15-01:50:07: Response for phrase :hepsinin farklı
+
+2016-12-15-01:50:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:50:07: ItemlistElement for phrase : hepsinin farklı
+2016-12-15-01:50:07: undefined
+2016-12-15-01:50:07: Failed callback for phras : hepsinin farklı
+
+2016-12-15-01:50:07: Callback for root iteration phrase is succeed :hepsinin farklı
+2016-12-15-01:50:07: Score for phrase isnull : hepsinin farklı
+2016-12-15-01:50:07: Root iteration phrase is going to matching :hepsinin farklı
+2016-12-15-01:50:07: Matching result for phrase : hepsinin
+
+2016-12-15-01:50:07: { '@id': 'kg:/g/122y0cc1',
+  name: 'Aslında Hüzündü Hepsinin Yaşadığı',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Kitap',
+  detailedDescription: 
+   { articleBody: 'Aslında Hüzündü Hepsinin Yaşadığı, Füsun Önal\'ın yedinci kitabıdır ve İnkılap Kitabevi\'nden çıkmıştır. Aziz Nesin\'in isim babası olduğu 368 sayfalık bu romanda Önal, anne baskısı altında kalan bir adamın yakaladığı aşkı elinden kaçırdıktan sonraki altüst olan hayatını anlatıyor.',
+     url: 'https://tr.wikipedia.org/wiki/Asl%C4%B1nda_H%C3%BCz%C3%BCnd%C3%BC_Hepsinin_Ya%C5%9Fad%C4%B1%C4%9F%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:50:07: Result for phrase will not be printed because it is not noun : hepsinin
+2016-12-15-01:50:07: System goes new search 
+2016-12-15-01:50:07: Searching for phrase :farklı
+2016-12-15-01:50:07: Response for phrase :farklı
+
+2016-12-15-01:50:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 18.914412 } ] }
+2016-12-15-01:50:07: ItemlistElement for phrase : farklı
+2016-12-15-01:50:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11cjj_5y84',
+     name: 'Farklı TV',
+     '@type': [ 'Thing' ],
+     description: 'TV kanalı',
+     detailedDescription: 
+      { articleBody: 'Farklı TV, 27 Kasım 2015\'de Yumurcak TV frekansından yayına başlamış çocuk kanalıdır. Fakat kanalın Samanyolu Yayın Grubu ve ya Yumurcak TV ile herhangi bir ilgisi yoktur. Kanalda çeşitli çizgi dizi, eğitici film ve çizgi sinemalar yayınlanmıştır.\n4 Haziran\'da kanal logo değiştirmiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Farkl%C4%B1_TV',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 18.914412 }
+2016-12-15-01:50:07: Callback for phrase : farklı
+2016-12-15-01:50:07: Callback for word is succeed :farklı
+2016-12-15-01:50:07: Word is going to iteration : farklı
+2016-12-15-01:50:07: Iteration for phrase : farklı bir
+2016-12-15-01:50:07: Searching for phrase :farklı bir
+2016-12-15-01:50:08: Response for phrase :farklı bir
+
+2016-12-15-01:50:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 266.736908 } ] }
+2016-12-15-01:50:08: ItemlistElement for phrase : farklı bir
+2016-12-15-01:50:08: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02sxmw',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1971 yapımı film' },
+  resultScore: 266.736908 }
+2016-12-15-01:50:08: Callback for phrase : farklı bir
+2016-12-15-01:50:08: Callback for iteration phrase is succeed :farklı bir
+2016-12-15-01:50:08: Score for phrase is266.736908 : farklı bir
+2016-12-15-01:50:08: iteration phrase is going next iteration :farklı bir
+2016-12-15-01:50:08: Iteration for phrase : farklı bir merkezi
+2016-12-15-01:50:08: Searching for phrase :farklı bir merkezi
+2016-12-15-01:50:08: Response for phrase :farklı bir merkezi
+
+2016-12-15-01:50:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:50:08: ItemlistElement for phrase : farklı bir merkezi
+2016-12-15-01:50:08: undefined
+2016-12-15-01:50:08: Failed callback for phras : farklı bir merkezi
+
+2016-12-15-01:50:08: Callback for iteration phrase is succeed :farklı bir merkezi
+2016-12-15-01:50:08: Score for phrase isnull : farklı bir merkezi
+2016-12-15-01:50:08: iteration phrase is going root iteration :farklı bir merkezi
+2016-12-15-01:50:08: Root iteration for phrase : farklı bir Merkez
+2016-12-15-01:50:08: Searching for phrase :farklı bir Merkez
+2016-12-15-01:50:08: Response for phrase :farklı bir Merkez
+
+2016-12-15-01:50:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:50:08: ItemlistElement for phrase : farklı bir Merkez
+2016-12-15-01:50:08: undefined
+2016-12-15-01:50:08: Failed callback for phras : farklı bir Merkez
+
+2016-12-15-01:50:08: Callback for root iteration phrase is succeed :farklı bir Merkez
+2016-12-15-01:50:08: Score for phrase isnull : farklı bir Merkez
+2016-12-15-01:50:08: Root iteration phrase is going to matching :farklı bir Merkez
+2016-12-15-01:50:08: Matching result for phrase : farklı bir
+
+2016-12-15-01:50:08: { '@id': 'kg:/m/02sxmw',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1971 yapımı film' }
+2016-12-15-01:50:08: Result for phrase will be printed : farklı bir
+2016-12-15-01:50:32: AftermoveSectionDown section_count is: 0
+2016-12-15-01:50:32: AftermoveSectionDown section_count is: 0
+2016-12-15-01:50:32: AftermoveSectionUp section_count is: 0
+2016-12-15-01:50:33: AftermoveSectionUp section_count is: 0
+2016-12-15-01:50:33: AftermoveSectionUp section_count is: 0
+2016-12-15-01:50:33: AftermoveSectionDown section_count is: 0
+2016-12-15-01:50:33: AftermoveSectionUp section_count is: 0
+2016-12-15-01:50:34: 2: slide right gesture is called
+2016-12-15-01:50:34: 2: slide right gesture is called
+2016-12-15-01:50:34: 2: slide left gesture is called
+2016-12-15-01:50:34: 2: slide left gesture is called
+2016-12-15-01:50:34: 2: slide left gesture is called
+2016-12-15-01:50:35: 2: slide right gesture is called
+2016-12-15-01:50:35: 2: slide right gesture is called
+2016-12-15-01:50:35: 2: slide right gesture is called
+2016-12-15-01:50:35: 2: slide right gesture is called
+2016-12-15-01:50:36: 2: slide right gesture is called
+2016-12-15-01:50:36: 2: slide right gesture is called
+2016-12-15-01:50:36: 2: slide right gesture is called
+2016-12-15-01:50:37: 2: slide left gesture is called
+2016-12-15-01:50:38: 2: slide left gesture is called
+2016-12-15-01:50:40: 2:click detected at point:[object Object]
+2016-12-15-01:50:40: Connected
+2016-12-15-01:50:40: 2:click detected at point:[object Object]
+2016-12-15-01:50:41: 2:click detected at point:[object Object]
+2016-12-15-01:50:43: 2:click detected at point:[object Object]
+2016-12-15-01:50:43: 2:click detected at point:[object Object]
+2016-12-15-01:50:52: Data received from stt: Sezen Aksu Orhan Sezen,Noun aksu,Noun Orhan,Noun
+2016-12-15-01:50:52: SearchTerm from microphone:Sezen Aksu Orhan Sezen,Noun aksu,Noun Orhan,Noun
+2016-12-15-01:50:52: State machine is initialized with input: 
+2016-12-15-01:50:52: Sezen Aksu Orhan Sezen,Noun aksu,Noun Orhan,Noun
+2016-12-15-01:50:52: Input words : 
+2016-12-15-01:50:52: [ 'Sezen', 'Aksu', 'Orhan' ]
+2016-12-15-01:50:52: Input roots : 
+2016-12-15-01:50:52: [ 'Sezen', 'aksu', 'Orhan' ]
+2016-12-15-01:50:52: Searching for phrase :Sezen
+2016-12-15-01:50:52: Data received from stt: Sezen Aksu Orhan Sezen,Noun aksu,Noun Orhan,Noun
+2016-12-15-01:50:52: SearchTerm from microphone:Sezen Aksu Orhan Sezen,Noun aksu,Noun Orhan,Noun
+2016-12-15-01:50:52: State machine is initialized with input: 
+2016-12-15-01:50:52: Sezen Aksu Orhan Sezen,Noun aksu,Noun Orhan,Noun
+2016-12-15-01:50:52: Input words : 
+2016-12-15-01:50:52: [ 'Sezen', 'Aksu', 'Orhan' ]
+2016-12-15-01:50:52: Input roots : 
+2016-12-15-01:50:52: [ 'Sezen', 'aksu', 'Orhan' ]
+2016-12-15-01:50:52: Searching for phrase :Sezen
+2016-12-15-01:50:52: Connection closed
+2016-12-15-01:50:52: Connection closed
+2016-12-15-01:50:52: Response for phrase :Sezen
+
+2016-12-15-01:50:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 37.343651 } ] }
+2016-12-15-01:50:52: ItemlistElement for phrase : Sezen
+2016-12-15-01:50:52: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03ghz2',
+     name: 'Sezen Aksu',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı-söz yazarı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJw6zVRx9ylTWhZgu7tM9C5-PR0FlZMGtHsprHnf_UZJYGLuJf',
+        url: 'https://en.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Fatma Sezen Yıldırım, bilinen sahne adıyla Sezen Aksu, Türk şarkıcı, söz yazarı ve besteci. Çıkış yaptığı 1970\'lerin ortalarından itibaren şarkılarıyla bir ikon hâline gelerek Türk pop müziğine yön verdi. ',
+        url: 'https://tr.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.sezenaksu.com.tr/' },
+  resultScore: 37.343651 }
+2016-12-15-01:50:52: Callback for phrase : Sezen
+2016-12-15-01:50:52: Callback for word is succeed :Sezen
+2016-12-15-01:50:52: Word is going to iteration : Sezen
+2016-12-15-01:50:52: Iteration for phrase : Sezen Aksu
+2016-12-15-01:50:52: Searching for phrase :Sezen Aksu
+2016-12-15-01:50:52: Response for phrase :Sezen
+
+2016-12-15-01:50:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 37.343651 } ] }
+2016-12-15-01:50:52: ItemlistElement for phrase : Sezen
+2016-12-15-01:50:52: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03ghz2',
+     name: 'Sezen Aksu',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı-söz yazarı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJw6zVRx9ylTWhZgu7tM9C5-PR0FlZMGtHsprHnf_UZJYGLuJf',
+        url: 'https://en.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Fatma Sezen Yıldırım, bilinen sahne adıyla Sezen Aksu, Türk şarkıcı, söz yazarı ve besteci. Çıkış yaptığı 1970\'lerin ortalarından itibaren şarkılarıyla bir ikon hâline gelerek Türk pop müziğine yön verdi. ',
+        url: 'https://tr.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.sezenaksu.com.tr/' },
+  resultScore: 37.343651 }
+2016-12-15-01:50:52: Callback for phrase : Sezen
+2016-12-15-01:50:52: Callback for word is succeed :Sezen
+2016-12-15-01:50:52: Word is going to iteration : Sezen
+2016-12-15-01:50:52: Iteration for phrase : Sezen Aksu
+2016-12-15-01:50:52: Searching for phrase :Sezen Aksu
+2016-12-15-01:50:52: Response for phrase :Sezen Aksu
+
+2016-12-15-01:50:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 638.33197 } ] }
+2016-12-15-01:50:52: ItemlistElement for phrase : Sezen Aksu
+2016-12-15-01:50:52: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03ghz2',
+     name: 'Sezen Aksu',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı-söz yazarı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJw6zVRx9ylTWhZgu7tM9C5-PR0FlZMGtHsprHnf_UZJYGLuJf',
+        url: 'https://en.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Fatma Sezen Yıldırım, bilinen sahne adıyla Sezen Aksu, Türk şarkıcı, söz yazarı ve besteci. Çıkış yaptığı 1970\'lerin ortalarından itibaren şarkılarıyla bir ikon hâline gelerek Türk pop müziğine yön verdi. ',
+        url: 'https://tr.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.sezenaksu.com.tr/' },
+  resultScore: 638.33197 }
+2016-12-15-01:50:52: Callback for phrase : Sezen Aksu
+2016-12-15-01:50:52: Callback for iteration phrase is succeed :Sezen Aksu
+2016-12-15-01:50:52: Score for phrase is638.33197 : Sezen Aksu
+2016-12-15-01:50:52: iteration phrase is going next iteration :Sezen Aksu
+2016-12-15-01:50:52: Iteration for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:52: Searching for phrase :Sezen Aksu Orhan
+2016-12-15-01:50:53: Response for phrase :Sezen Aksu
+
+2016-12-15-01:50:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 638.33197 } ] }
+2016-12-15-01:50:53: ItemlistElement for phrase : Sezen Aksu
+2016-12-15-01:50:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03ghz2',
+     name: 'Sezen Aksu',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı-söz yazarı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJw6zVRx9ylTWhZgu7tM9C5-PR0FlZMGtHsprHnf_UZJYGLuJf',
+        url: 'https://en.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Fatma Sezen Yıldırım, bilinen sahne adıyla Sezen Aksu, Türk şarkıcı, söz yazarı ve besteci. Çıkış yaptığı 1970\'lerin ortalarından itibaren şarkılarıyla bir ikon hâline gelerek Türk pop müziğine yön verdi. ',
+        url: 'https://tr.wikipedia.org/wiki/Sezen_Aksu',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.sezenaksu.com.tr/' },
+  resultScore: 638.33197 }
+2016-12-15-01:50:53: Callback for phrase : Sezen Aksu
+2016-12-15-01:50:53: Callback for iteration phrase is succeed :Sezen Aksu
+2016-12-15-01:50:53: Score for phrase is638.33197 : Sezen Aksu
+2016-12-15-01:50:53: iteration phrase is going next iteration :Sezen Aksu
+2016-12-15-01:50:53: Iteration for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Searching for phrase :Sezen Aksu Orhan
+2016-12-15-01:50:53: Response for phrase :Sezen Aksu Orhan
+
+2016-12-15-01:50:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.920795 } ] }
+2016-12-15-01:50:53: ItemlistElement for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/121d_tmw',
+     name: 'Bir Güneş Batışında',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Sibel Can\'ın müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Bir Güneş Batışında, Sibel Can\'ın 1991\'de beşinci stüdyo albümüdür. Albümde sanat müziği yanında ağırlıklı fantezi müzik tarzı şarkılar yer almaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Bir_G%C3%BCne%C5%9F_Bat%C4%B1%C5%9F%C4%B1nda',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 27.920795 }
+2016-12-15-01:50:53: Callback for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Callback for iteration phrase is succeed :Sezen Aksu Orhan
+2016-12-15-01:50:53: Score for phrase is27.920795 : Sezen Aksu Orhan
+2016-12-15-01:50:53: iteration phrase is going root iteration :Sezen Aksu Orhan
+2016-12-15-01:50:53: Root iteration for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Searching for phrase :Sezen Aksu Orhan
+2016-12-15-01:50:53: Response for phrase :Sezen Aksu Orhan
+
+2016-12-15-01:50:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.920795 } ] }
+2016-12-15-01:50:53: ItemlistElement for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/121d_tmw',
+     name: 'Bir Güneş Batışında',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Sibel Can\'ın müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Bir Güneş Batışında, Sibel Can\'ın 1991\'de beşinci stüdyo albümüdür. Albümde sanat müziği yanında ağırlıklı fantezi müzik tarzı şarkılar yer almaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Bir_G%C3%BCne%C5%9F_Bat%C4%B1%C5%9F%C4%B1nda',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 27.920795 }
+2016-12-15-01:50:53: Callback for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Callback for iteration phrase is succeed :Sezen Aksu Orhan
+2016-12-15-01:50:53: Score for phrase is27.920795 : Sezen Aksu Orhan
+2016-12-15-01:50:53: iteration phrase is going root iteration :Sezen Aksu Orhan
+2016-12-15-01:50:53: Root iteration for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Searching for phrase :Sezen Aksu Orhan
+2016-12-15-01:50:53: Response for phrase :Sezen Aksu Orhan
+
+2016-12-15-01:50:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.920795 } ] }
+2016-12-15-01:50:53: ItemlistElement for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/121d_tmw',
+     name: 'Bir Güneş Batışında',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Sibel Can\'ın müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Bir Güneş Batışında, Sibel Can\'ın 1991\'de beşinci stüdyo albümüdür. Albümde sanat müziği yanında ağırlıklı fantezi müzik tarzı şarkılar yer almaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Bir_G%C3%BCne%C5%9F_Bat%C4%B1%C5%9F%C4%B1nda',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 27.920795 }
+2016-12-15-01:50:53: Callback for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Callback for root iteration phrase is succeed :Sezen Aksu Orhan
+2016-12-15-01:50:53: Score for phrase is27.920795 : Sezen Aksu Orhan
+2016-12-15-01:50:53: Root iteration phrase is going to matching :Sezen Aksu Orhan
+2016-12-15-01:50:53: Matching result for phrase : Sezen Aksu
+
+2016-12-15-01:50:53: { '@id': 'kg:/m/03ghz2',
+  name: 'Sezen Aksu',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı-söz yazarı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJw6zVRx9ylTWhZgu7tM9C5-PR0FlZMGtHsprHnf_UZJYGLuJf',
+     url: 'https://en.wikipedia.org/wiki/Sezen_Aksu',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+  detailedDescription: 
+   { articleBody: 'Fatma Sezen Yıldırım, bilinen sahne adıyla Sezen Aksu, Türk şarkıcı, söz yazarı ve besteci. Çıkış yaptığı 1970\'lerin ortalarından itibaren şarkılarıyla bir ikon hâline gelerek Türk pop müziğine yön verdi. ',
+     url: 'https://tr.wikipedia.org/wiki/Sezen_Aksu',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.sezenaksu.com.tr/' }
+2016-12-15-01:50:53: Result for phrase will be printed : Sezen Aksu
+2016-12-15-01:50:53: https://www.googleapis.com/customsearch/v1?q=Sezen Aksu&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:50:53: received_result_no=1
+2016-12-15-01:50:53: System goes new search 
+2016-12-15-01:50:53: Searching for phrase :Orhan
+2016-12-15-01:50:53: Response for phrase :Orhan
+
+2016-12-15-01:50:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-01:50:53: ItemlistElement for phrase : Orhan
+2016-12-15-01:50:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-01:50:53: Callback for phrase : Orhan
+2016-12-15-01:50:53: Callback for word is succeed :Orhan
+2016-12-15-01:50:53: last word is noun here is the result of :Orhan
+2016-12-15-01:50:53: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:50:53: received_result_no=2
+2016-12-15-01:50:53: finish
+2016-12-15-01:50:53: process is finished
+2016-12-15-01:50:53: -----------------Printed Results------------------------
+2016-12-15-01:50:53: Sezen Aksu
+2016-12-15-01:50:53: Orhan Bey
+2016-12-15-01:50:53: Response for phrase :Sezen Aksu Orhan
+
+2016-12-15-01:50:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.920795 } ] }
+2016-12-15-01:50:53: ItemlistElement for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/121d_tmw',
+     name: 'Bir Güneş Batışında',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Sibel Can\'ın müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Bir Güneş Batışında, Sibel Can\'ın 1991\'de beşinci stüdyo albümüdür. Albümde sanat müziği yanında ağırlıklı fantezi müzik tarzı şarkılar yer almaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Bir_G%C3%BCne%C5%9F_Bat%C4%B1%C5%9F%C4%B1nda',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 27.920795 }
+2016-12-15-01:50:53: Callback for phrase : Sezen Aksu Orhan
+2016-12-15-01:50:53: Callback for root iteration phrase is succeed :Sezen Aksu Orhan
+2016-12-15-01:50:53: Score for phrase is27.920795 : Sezen Aksu Orhan
+2016-12-15-01:50:53: Root iteration phrase is going to matching :Sezen Aksu Orhan
+2016-12-15-01:50:53: Matching result for phrase : Sezen Aksu
+
+2016-12-15-01:50:53: { '@id': 'kg:/m/03ghz2',
+  name: 'Sezen Aksu',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı-söz yazarı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTJw6zVRx9ylTWhZgu7tM9C5-PR0FlZMGtHsprHnf_UZJYGLuJf',
+     url: 'https://en.wikipedia.org/wiki/Sezen_Aksu',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+  detailedDescription: 
+   { articleBody: 'Fatma Sezen Yıldırım, bilinen sahne adıyla Sezen Aksu, Türk şarkıcı, söz yazarı ve besteci. Çıkış yaptığı 1970\'lerin ortalarından itibaren şarkılarıyla bir ikon hâline gelerek Türk pop müziğine yön verdi. ',
+     url: 'https://tr.wikipedia.org/wiki/Sezen_Aksu',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.sezenaksu.com.tr/' }
+2016-12-15-01:50:53: Result for phrase will be printed : Sezen Aksu
+2016-12-15-01:50:53: https://www.googleapis.com/customsearch/v1?q=Sezen Aksu&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:50:53: received_result_no=1
+2016-12-15-01:50:53: System goes new search 
+2016-12-15-01:50:53: Searching for phrase :Orhan
+2016-12-15-01:50:54: Response for phrase :Orhan
+
+2016-12-15-01:50:54: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-01:50:54: ItemlistElement for phrase : Orhan
+2016-12-15-01:50:54: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-01:50:54: Callback for phrase : Orhan
+2016-12-15-01:50:54: Callback for word is succeed :Orhan
+2016-12-15-01:50:54: last word is noun here is the result of :Orhan
+2016-12-15-01:50:54: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:50:54: received_result_no=2
+2016-12-15-01:50:54: finish
+2016-12-15-01:50:54: process is finished
+2016-12-15-01:50:54: -----------------Printed Results------------------------
+2016-12-15-01:50:54: Sezen Aksu
+2016-12-15-01:50:54: Orhan Bey
+2016-12-15-01:51:01: 1: slide right gesture is called
+2016-12-15-01:51:01: 1: slide right gesture is called
+2016-12-15-01:51:01: 1: slide right gesture is called
+2016-12-15-01:51:02: 1: slide right gesture is called
+2016-12-15-01:51:02: 1: slide right gesture is called
+2016-12-15-01:51:03: 1: slide right gesture is called
+2016-12-15-01:51:03: 1: slide right gesture is called
+2016-12-15-01:51:03: 1: slide right gesture is called
+2016-12-15-01:51:04: 1: slide right gesture is called
+2016-12-15-01:51:04: 1: slide right gesture is called
+2016-12-15-01:51:04: 1: slide right gesture is called
+2016-12-15-01:51:04: 1: slide right gesture is called
+2016-12-15-01:51:04: 1: slide right gesture is called
+2016-12-15-01:51:05: 1: slide right gesture is called
+2016-12-15-01:51:05: 1: slide right gesture is called
+2016-12-15-01:51:05: 1: slide left gesture is called
+2016-12-15-01:51:05: 1: slide left gesture is called
+2016-12-15-01:51:05: 1: slide left gesture is called
+2016-12-15-01:51:06: 1: slide left gesture is called
+2016-12-15-01:51:07: 1: slide left gesture is called
+2016-12-15-01:51:08: 1: slide left gesture is called
+2016-12-15-01:51:08: 1: slide left gesture is called
+2016-12-15-01:51:08: 1: slide left gesture is called
+2016-12-15-01:51:09: 1: slide left gesture is called
+2016-12-15-01:51:09: 1: slide left gesture is called
+2016-12-15-01:51:10: 1: slide right gesture is called
+2016-12-15-01:51:11: 1: slide right gesture is called
+2016-12-15-01:51:11: 1: slide right gesture is called
+2016-12-15-01:51:11: 1: slide right gesture is called
+2016-12-15-01:51:11: 1: slide right gesture is called
+2016-12-15-01:51:12: 1: slide right gesture is called
+2016-12-15-01:51:13: 1: slide right gesture is called
+2016-12-15-01:51:13: 1: slide right gesture is called
+2016-12-15-01:51:13: 1: slide right gesture is called
+2016-12-15-01:51:14: 1: slide right gesture is called
+2016-12-15-01:51:15: 1: slide left gesture is called
+2016-12-15-01:51:15: 1: slide left gesture is called
+2016-12-15-01:51:16: 1: slide left gesture is called
+2016-12-15-01:51:16: 1: slide left gesture is called
+2016-12-15-01:51:17: 1: slide left gesture is called
+2016-12-15-01:51:17: 1: slide left gesture is called
+2016-12-15-01:51:17: 1: slide left gesture is called
+2016-12-15-01:51:18: 1: slide right gesture is called
+2016-12-15-01:51:18: 1: slide right gesture is called
+2016-12-15-01:51:18: 1: slide right gesture is called
+2016-12-15-01:51:19: 1: slide right gesture is called
+2016-12-15-01:51:22: 1: slide left gesture is called
+2016-12-15-01:51:24: 1: slide left gesture is called
+2016-12-15-01:51:24: 1: slide left gesture is called
+2016-12-15-01:51:24: 1: slide left gesture is called
+2016-12-15-01:51:25: 1: slide left gesture is called
+2016-12-15-01:51:25: 1: slide left gesture is called
+2016-12-15-01:51:25: 1: slide left gesture is called
+2016-12-15-01:51:25: 1: slide left gesture is called
+2016-12-15-01:51:26: 1: slide left gesture is called
+2016-12-15-01:51:26: 1: slide left gesture is called
+2016-12-15-01:51:28: section_count is:1
+2016-12-15-01:51:28: AftermoveSectionDown section_count is: 1
+2016-12-15-01:51:28: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:28: section_count is:1
+2016-12-15-01:51:28: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:29: 1: slide right gesture is called
+2016-12-15-01:51:29: 1: slide right gesture is called
+2016-12-15-01:51:29: 1: slide right gesture is called
+2016-12-15-01:51:30: 1: slide right gesture is called
+2016-12-15-01:51:31: 1: slide right gesture is called
+2016-12-15-01:51:31: 1: slide right gesture is called
+2016-12-15-01:51:31: 1: slide right gesture is called
+2016-12-15-01:51:32: 1: slide right gesture is called
+2016-12-15-01:51:32: 1: slide right gesture is called
+2016-12-15-01:51:33: 1: slide right gesture is called
+2016-12-15-01:51:33: 1: slide left gesture is called
+2016-12-15-01:51:33: 1: slide left gesture is called
+2016-12-15-01:51:34: 1: slide left gesture is called
+2016-12-15-01:51:34: 1: slide left gesture is called
+2016-12-15-01:51:35: 1: slide left gesture is called
+2016-12-15-01:51:35: 1: slide left gesture is called
+2016-12-15-01:51:36: 1: slide left gesture is called
+2016-12-15-01:51:36: 1: slide left gesture is called
+2016-12-15-01:51:36: 1: slide left gesture is called
+2016-12-15-01:51:36: 1: slide left gesture is called
+2016-12-15-01:51:37: 1: slide left gesture is called
+2016-12-15-01:51:38: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:38: section_count is:1
+2016-12-15-01:51:38: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:38: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:40: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:40: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:40: section_count is:1
+2016-12-15-01:51:40: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:41: 1: slide right gesture is called
+2016-12-15-01:51:41: 1: slide right gesture is called
+2016-12-15-01:51:42: 1: slide right gesture is called
+2016-12-15-01:51:42: 1: slide right gesture is called
+2016-12-15-01:51:42: 1: slide right gesture is called
+2016-12-15-01:51:43: 1: slide right gesture is called
+2016-12-15-01:51:43: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:43: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:44: section_count is:1
+2016-12-15-01:51:44: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:44: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:44: section_count is:1
+2016-12-15-01:51:44: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:45: 1: slide right gesture is called
+2016-12-15-01:51:45: 1: slide right gesture is called
+2016-12-15-01:51:46: 1: slide right gesture is called
+2016-12-15-01:51:47: 1: slide left gesture is called
+2016-12-15-01:51:47: 1: slide left gesture is called
+2016-12-15-01:51:48: 1: slide left gesture is called
+2016-12-15-01:51:49: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:49: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:49: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:49: section_count is:1
+2016-12-15-01:51:49: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:49: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:50: section_count is:1
+2016-12-15-01:51:50: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:50: section_count is:0
+2016-12-15-01:51:50: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:50: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:50: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:51: section_count is:1
+2016-12-15-01:51:51: AftermoveSectionDown section_count is: 1
+2016-12-15-01:51:51: section_count is:0
+2016-12-15-01:51:51: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:51: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:51: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:51: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:51: AftermoveSectionUp section_count is: 0
+2016-12-15-01:51:52: section_count is:1
+2016-12-15-01:51:52: AftermoveSectionDown section_count is: 1
+2016-12-15-01:51:52: AftermoveSectionDown section_count is: 2
+2016-12-15-01:51:52: section_count is:1
+2016-12-15-01:51:52: AftermoveSectionUp section_count is: 1
+2016-12-15-01:51:53: 1: slide right gesture is called
+2016-12-15-01:51:53: 1: slide right gesture is called
+2016-12-15-01:51:54: 1: slide right gesture is called
+2016-12-15-01:51:54: 1: slide right gesture is called
+2016-12-15-01:51:54: 1: slide right gesture is called
+2016-12-15-01:51:55: 1: slide right gesture is called
+2016-12-15-01:51:55: 1: slide right gesture is called
+2016-12-15-01:51:56: 1: slide right gesture is called

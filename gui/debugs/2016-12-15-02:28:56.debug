@@ -1,0 +1,1232 @@
+2016-12-15-02:29:01: 2:click detected at point:[object Object]
+2016-12-15-02:29:01: 2:click detected at point:[object Object]
+2016-12-15-02:29:01: Connected
+2016-12-15-02:29:02: 2:click detected at point:[object Object]
+2016-12-15-02:29:08: Data received from stt: Orhan Baba Ebru Gündeş Orhan,Noun Baba,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:29:08: SearchTerm from microphone:Orhan Baba Ebru Gündeş Orhan,Noun Baba,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:29:08: State machine is initialized with input: 
+2016-12-15-02:29:08: Orhan Baba Ebru Gündeş Orhan,Noun Baba,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:29:08: Input words : 
+2016-12-15-02:29:08: [ 'Orhan', 'Baba', 'Ebru', 'Gündeş' ]
+2016-12-15-02:29:08: Input roots : 
+2016-12-15-02:29:08: [ 'Orhan', 'Baba', 'Ebru', 'Gündeş' ]
+2016-12-15-02:29:08: Searching for phrase :Orhan
+2016-12-15-02:29:08: Connection closed
+2016-12-15-02:29:08: Response for phrase :Orhan
+
+2016-12-15-02:29:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-02:29:08: ItemlistElement for phrase : Orhan
+2016-12-15-02:29:08: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-02:29:08: Callback for phrase : Orhan
+2016-12-15-02:29:08: Callback for word is succeed :Orhan
+2016-12-15-02:29:08: Word is going to iteration : Orhan
+2016-12-15-02:29:08: Iteration for phrase : Orhan Baba
+2016-12-15-02:29:08: Searching for phrase :Orhan Baba
+2016-12-15-02:29:09: Response for phrase :Orhan Baba
+
+2016-12-15-02:29:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.518219 } ] }
+2016-12-15-02:29:09: ItemlistElement for phrase : Orhan Baba
+2016-12-15-02:29:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.518219 }
+2016-12-15-02:29:09: Callback for phrase : Orhan Baba
+2016-12-15-02:29:09: Callback for iteration phrase is succeed :Orhan Baba
+2016-12-15-02:29:09: Score for phrase is182.518219 : Orhan Baba
+2016-12-15-02:29:09: iteration phrase is going next iteration :Orhan Baba
+2016-12-15-02:29:09: Iteration for phrase : Orhan Baba Ebru
+2016-12-15-02:29:09: Searching for phrase :Orhan Baba Ebru
+2016-12-15-02:29:09: Response for phrase :Orhan Baba Ebru
+
+2016-12-15-02:29:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:29:09: ItemlistElement for phrase : Orhan Baba Ebru
+2016-12-15-02:29:09: undefined
+2016-12-15-02:29:09: Failed callback for phras : Orhan Baba Ebru
+
+2016-12-15-02:29:09: Callback for iteration phrase is succeed :Orhan Baba Ebru
+2016-12-15-02:29:09: Score for phrase isnull : Orhan Baba Ebru
+2016-12-15-02:29:09: iteration phrase is going root iteration :Orhan Baba Ebru
+2016-12-15-02:29:09: Root iteration for phrase : Orhan Baba Ebru
+2016-12-15-02:29:09: Searching for phrase :Orhan Baba Ebru
+2016-12-15-02:29:09: Response for phrase :Orhan Baba Ebru
+
+2016-12-15-02:29:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:29:09: ItemlistElement for phrase : Orhan Baba Ebru
+2016-12-15-02:29:09: undefined
+2016-12-15-02:29:09: Failed callback for phras : Orhan Baba Ebru
+
+2016-12-15-02:29:09: Callback for root iteration phrase is succeed :Orhan Baba Ebru
+2016-12-15-02:29:09: Score for phrase isnull : Orhan Baba Ebru
+2016-12-15-02:29:09: Root iteration phrase is going to matching :Orhan Baba Ebru
+2016-12-15-02:29:09: Matching result for phrase : Orhan Baba
+
+2016-12-15-02:29:09: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-02:29:09: Result for phrase will be printed : Orhan Baba
+2016-12-15-02:29:09: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:29:09: received_result_no=1
+2016-12-15-02:29:09: System goes new search 
+2016-12-15-02:29:09: Searching for phrase :Ebru
+2016-12-15-02:29:10: Response for phrase :Ebru
+
+2016-12-15-02:29:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.729332 } ] }
+2016-12-15-02:29:10: ItemlistElement for phrase : Ebru
+2016-12-15-02:29:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ebrugundes.com.tr/' },
+  resultScore: 34.729332 }
+2016-12-15-02:29:10: Callback for phrase : Ebru
+2016-12-15-02:29:10: Callback for word is succeed :Ebru
+2016-12-15-02:29:10: Word is going to iteration : Ebru
+2016-12-15-02:29:10: Iteration for phrase : Ebru Gündeş
+2016-12-15-02:29:10: Searching for phrase :Ebru Gündeş
+2016-12-15-02:29:10: Response for phrase :Ebru Gündeş
+
+2016-12-15-02:29:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 599.348755 } ] }
+2016-12-15-02:29:10: ItemlistElement for phrase : Ebru Gündeş
+2016-12-15-02:29:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ebrugundes.com.tr/' },
+  resultScore: 599.348755 }
+2016-12-15-02:29:10: Callback for phrase : Ebru Gündeş
+2016-12-15-02:29:10: Callback for iteration phrase is succeed :Ebru Gündeş
+2016-12-15-02:29:10: Score for phrase is599.348755 : Ebru Gündeş
+2016-12-15-02:29:10: iteration phrase is going next iteration :Ebru Gündeş
+2016-12-15-02:29:10: Iteration for phrase : Ebru Gündeş undefined
+2016-12-15-02:29:10: Searching for phrase :Ebru Gündeş undefined
+2016-12-15-02:29:10: Response for phrase :Ebru Gündeş undefined
+
+2016-12-15-02:29:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:29:10: ItemlistElement for phrase : Ebru Gündeş undefined
+2016-12-15-02:29:10: undefined
+2016-12-15-02:29:11: Failed callback for phras : Ebru Gündeş undefined
+
+2016-12-15-02:29:11: Callback for iteration phrase is succeed :Ebru Gündeş undefined
+2016-12-15-02:29:11: Score for phrase isnull : Ebru Gündeş undefined
+2016-12-15-02:29:11: iteration phrase is going root iteration :Ebru Gündeş undefined
+2016-12-15-02:29:11: Root iteration for phrase : Ebru Gündeş undefined
+2016-12-15-02:29:11: Searching for phrase :Ebru Gündeş undefined
+2016-12-15-02:29:11: Response for phrase :Ebru Gündeş undefined
+
+2016-12-15-02:29:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:29:11: ItemlistElement for phrase : Ebru Gündeş undefined
+2016-12-15-02:29:11: undefined
+2016-12-15-02:29:11: Failed callback for phras : Ebru Gündeş undefined
+
+2016-12-15-02:29:11: Callback for root iteration phrase is succeed :Ebru Gündeş undefined
+2016-12-15-02:29:11: Score for phrase isnull : Ebru Gündeş undefined
+2016-12-15-02:29:11: Root iteration phrase is going to matching :Ebru Gündeş undefined
+2016-12-15-02:29:11: Matching result for phrase : Ebru Gündeş
+
+2016-12-15-02:29:11: { '@id': 'kg:/m/0dp9lq',
+  name: 'Ebru Gündeş',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+     url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+     url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ebrugundes.com.tr/' }
+2016-12-15-02:29:11: Result for phrase will be printed : Ebru Gündeş
+2016-12-15-02:29:11: received_result_no=2
+2016-12-15-02:29:11: System will be shutdown
+2016-12-15-02:29:11: finish
+2016-12-15-02:29:11: process is finished
+2016-12-15-02:29:11: -----------------Printed Results------------------------
+2016-12-15-02:29:11: Orhan Gencebay
+2016-12-15-02:29:11: Ebru Gündeş
+2016-12-15-02:29:12: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:13: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:13: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:13: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:13: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:14: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:14: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:14: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:14: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:15: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:15: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:15: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:15: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:15: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:16: 1: slide right gesture is called
+2016-12-15-02:29:16: 1: slide right gesture is called
+2016-12-15-02:29:16: 1: slide right gesture is called
+2016-12-15-02:29:17: 1: slide left gesture is called
+2016-12-15-02:29:17: 1: slide left gesture is called
+2016-12-15-02:29:17: 1: slide left gesture is called
+2016-12-15-02:29:18: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:18: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:19: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:19: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:19: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:19: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:20: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:20: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:20: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:20: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:20: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:21: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:21: AftermoveSectionUp section_count is: 0
+2016-12-15-02:29:22: AftermoveSectionDown section_count is: 0
+2016-12-15-02:29:23: 2: slide left gesture is called
+2016-12-15-02:29:24: 2: slide left gesture is called
+2016-12-15-02:29:25: 1: slide right gesture is called
+2016-12-15-02:29:25: 1: slide right gesture is called
+2016-12-15-02:29:25: 1: slide left gesture is called
+2016-12-15-02:29:25: 1: slide left gesture is called
+2016-12-15-02:29:26: 2: slide left gesture is called
+2016-12-15-02:29:26: 2: slide left gesture is called
+2016-12-15-02:29:26: 2: slide left gesture is called
+2016-12-15-02:29:26: 2: slide left gesture is called
+2016-12-15-02:29:26: 2: slide left gesture is called
+2016-12-15-02:29:27: 2: slide right gesture is called
+2016-12-15-02:29:27: 2: slide right gesture is called
+2016-12-15-02:29:27: 2: slide right gesture is called
+2016-12-15-02:29:27: 2: slide left gesture is called
+2016-12-15-02:29:28: 2: slide left gesture is called
+2016-12-15-02:29:28: 2: slide left gesture is called
+2016-12-15-02:29:28: 2: slide left gesture is called
+2016-12-15-02:30:49: 2:click detected at point:[object Object]
+2016-12-15-02:30:49: Connected
+2016-12-15-02:30:50: 2:click detected at point:[object Object]
+2016-12-15-02:31:02: Data received from stt: ameliyatı Merhaba güzelim Seninle tanışmak istiyorum Nazım Hikmet Mehmet Ali Erbil Atatürk ameliyat,Noun merhaba,Noun güzelim,Other Senî,Noun tanı,Noun iste,Other Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun Atatürk,Noun
+2016-12-15-02:31:02: SearchTerm from microphone:ameliyatı Merhaba güzelim Seninle tanışmak istiyorum Nazım Hikmet Mehmet Ali Erbil Atatürk ameliyat,Noun merhaba,Noun güzelim,Other Senî,Noun tanı,Noun iste,Other Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun Atatürk,Noun
+2016-12-15-02:31:02: State machine is initialized with input: 
+2016-12-15-02:31:02: ameliyatı Merhaba güzelim Seninle tanışmak istiyorum Nazım Hikmet Mehmet Ali Erbil Atatürk ameliyat,Noun merhaba,Noun güzelim,Other Senî,Noun tanı,Noun iste,Other Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun Atatürk,Noun
+2016-12-15-02:31:02: Input words : 
+2016-12-15-02:31:02: [ 'ameliyatı',
+  'Merhaba',
+  'güzelim',
+  'Seninle',
+  'tanışmak',
+  'istiyorum',
+  'Nazım',
+  'Hikmet',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Atatürk' ]
+2016-12-15-02:31:02: Input roots : 
+2016-12-15-02:31:02: [ 'ameliyat',
+  'merhaba',
+  'güzelim',
+  'Senî',
+  'tanı',
+  'iste',
+  'Nazım',
+  'Hikmet',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Atatürk' ]
+2016-12-15-02:31:02: Searching for phrase :ameliyatı
+2016-12-15-02:31:02: Data received from stt: ameliyatı Merhaba güzelim Seninle tanışmak istiyorum Nazım Hikmet Mehmet Ali Erbil Atatürk ameliyat,Noun merhaba,Noun güzelim,Other Senî,Noun tanı,Noun iste,Other Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun Atatürk,Noun
+2016-12-15-02:31:02: SearchTerm from microphone:ameliyatı Merhaba güzelim Seninle tanışmak istiyorum Nazım Hikmet Mehmet Ali Erbil Atatürk ameliyat,Noun merhaba,Noun güzelim,Other Senî,Noun tanı,Noun iste,Other Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun Atatürk,Noun
+2016-12-15-02:31:02: State machine is initialized with input: 
+2016-12-15-02:31:02: ameliyatı Merhaba güzelim Seninle tanışmak istiyorum Nazım Hikmet Mehmet Ali Erbil Atatürk ameliyat,Noun merhaba,Noun güzelim,Other Senî,Noun tanı,Noun iste,Other Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun Atatürk,Noun
+2016-12-15-02:31:02: Input words : 
+2016-12-15-02:31:02: [ 'ameliyatı',
+  'Merhaba',
+  'güzelim',
+  'Seninle',
+  'tanışmak',
+  'istiyorum',
+  'Nazım',
+  'Hikmet',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Atatürk' ]
+2016-12-15-02:31:02: Input roots : 
+2016-12-15-02:31:02: [ 'ameliyat',
+  'merhaba',
+  'güzelim',
+  'Senî',
+  'tanı',
+  'iste',
+  'Nazım',
+  'Hikmet',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Atatürk' ]
+2016-12-15-02:31:02: Searching for phrase :ameliyatı
+2016-12-15-02:31:02: Connection closed
+2016-12-15-02:31:02: Connection closed
+2016-12-15-02:31:02: Response for phrase :ameliyatı
+
+2016-12-15-02:31:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 4.345566 } ] }
+2016-12-15-02:31:02: ItemlistElement for phrase : ameliyatı
+2016-12-15-02:31:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07bp0l',
+     name: 'Deliliğin Tedavisi',
+     '@type': [ 'VisualArtwork', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQy8Gz_8LshN_YAewiWIxbh6NV4EXhmho34mWIpqMyUUiEo6Utk',
+        url: 'https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_The_Cure_of_Folly_(Extraction_of_the_Stone_of_Madness)_-_WGA2495.jpg' },
+     detailedDescription: 
+      { articleBody: 'Deliliğin Tedavisi ya da Taş Ameliyatı, Hieronymus Bosch tarafından 1475 ile 1480 yılları arasında ahşap üzerine yağlı boyayla çizilen tablo. Tablo, Bosch\'un halk kültürünü temel alarak çizdiği ilk resimdir.',
+        url: 'https://tr.wikipedia.org/wiki/Delili%C4%9Fin_Tedavisi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 4.345566 }
+2016-12-15-02:31:02: Callback for phrase : ameliyatı
+2016-12-15-02:31:02: Callback for word is succeed :ameliyatı
+2016-12-15-02:31:02: Word is going to iteration : ameliyatı
+2016-12-15-02:31:02: Iteration for phrase : ameliyatı Merhaba
+2016-12-15-02:31:02: Searching for phrase :ameliyatı Merhaba
+2016-12-15-02:31:02: Response for phrase :ameliyatı
+
+2016-12-15-02:31:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 4.345566 } ] }
+2016-12-15-02:31:02: ItemlistElement for phrase : ameliyatı
+2016-12-15-02:31:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07bp0l',
+     name: 'Deliliğin Tedavisi',
+     '@type': [ 'VisualArtwork', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQy8Gz_8LshN_YAewiWIxbh6NV4EXhmho34mWIpqMyUUiEo6Utk',
+        url: 'https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_The_Cure_of_Folly_(Extraction_of_the_Stone_of_Madness)_-_WGA2495.jpg' },
+     detailedDescription: 
+      { articleBody: 'Deliliğin Tedavisi ya da Taş Ameliyatı, Hieronymus Bosch tarafından 1475 ile 1480 yılları arasında ahşap üzerine yağlı boyayla çizilen tablo. Tablo, Bosch\'un halk kültürünü temel alarak çizdiği ilk resimdir.',
+        url: 'https://tr.wikipedia.org/wiki/Delili%C4%9Fin_Tedavisi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 4.345566 }
+2016-12-15-02:31:02: Callback for phrase : ameliyatı
+2016-12-15-02:31:02: Callback for word is succeed :ameliyatı
+2016-12-15-02:31:02: Word is going to iteration : ameliyatı
+2016-12-15-02:31:02: Iteration for phrase : ameliyatı Merhaba
+2016-12-15-02:31:02: Searching for phrase :ameliyatı Merhaba
+2016-12-15-02:31:02: Response for phrase :ameliyatı Merhaba
+
+2016-12-15-02:31:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:02: ItemlistElement for phrase : ameliyatı Merhaba
+2016-12-15-02:31:02: undefined
+2016-12-15-02:31:02: Failed callback for phras : ameliyatı Merhaba
+
+2016-12-15-02:31:02: Callback for iteration phrase is succeed :ameliyatı Merhaba
+2016-12-15-02:31:02: Score for phrase isnull : ameliyatı Merhaba
+2016-12-15-02:31:02: iteration phrase is going root iteration :ameliyatı Merhaba
+2016-12-15-02:31:02: Root iteration for phrase : ameliyatı merhaba
+2016-12-15-02:31:02: Searching for phrase :ameliyatı merhaba
+2016-12-15-02:31:03: Response for phrase :ameliyatı Merhaba
+
+2016-12-15-02:31:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:03: ItemlistElement for phrase : ameliyatı Merhaba
+2016-12-15-02:31:03: undefined
+2016-12-15-02:31:03: Failed callback for phras : ameliyatı Merhaba
+
+2016-12-15-02:31:03: Callback for iteration phrase is succeed :ameliyatı Merhaba
+2016-12-15-02:31:03: Score for phrase isnull : ameliyatı Merhaba
+2016-12-15-02:31:03: iteration phrase is going root iteration :ameliyatı Merhaba
+2016-12-15-02:31:03: Root iteration for phrase : ameliyatı merhaba
+2016-12-15-02:31:03: Searching for phrase :ameliyatı merhaba
+2016-12-15-02:31:03: Response for phrase :ameliyatı merhaba
+
+2016-12-15-02:31:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:03: ItemlistElement for phrase : ameliyatı merhaba
+2016-12-15-02:31:03: undefined
+2016-12-15-02:31:03: Failed callback for phras : ameliyatı merhaba
+
+2016-12-15-02:31:03: Callback for root iteration phrase is succeed :ameliyatı merhaba
+2016-12-15-02:31:03: Score for phrase isnull : ameliyatı merhaba
+2016-12-15-02:31:03: Root iteration phrase is going to matching :ameliyatı merhaba
+2016-12-15-02:31:03: Matching result for phrase : ameliyatı
+
+2016-12-15-02:31:03: { '@id': 'kg:/m/07bp0l',
+  name: 'Deliliğin Tedavisi',
+  '@type': [ 'VisualArtwork', 'Thing' ],
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQy8Gz_8LshN_YAewiWIxbh6NV4EXhmho34mWIpqMyUUiEo6Utk',
+     url: 'https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_The_Cure_of_Folly_(Extraction_of_the_Stone_of_Madness)_-_WGA2495.jpg' },
+  detailedDescription: 
+   { articleBody: 'Deliliğin Tedavisi ya da Taş Ameliyatı, Hieronymus Bosch tarafından 1475 ile 1480 yılları arasında ahşap üzerine yağlı boyayla çizilen tablo. Tablo, Bosch\'un halk kültürünü temel alarak çizdiği ilk resimdir.',
+     url: 'https://tr.wikipedia.org/wiki/Delili%C4%9Fin_Tedavisi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:31:03: Result for phrase will be printed : ameliyatı
+2016-12-15-02:31:03: https://www.googleapis.com/customsearch/v1?q=Deliliğin Tedavisi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:31:03: received_result_no=1
+2016-12-15-02:31:03: System goes new search 
+2016-12-15-02:31:03: Searching for phrase :Merhaba
+2016-12-15-02:31:03: Response for phrase :ameliyatı merhaba
+
+2016-12-15-02:31:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:03: ItemlistElement for phrase : ameliyatı merhaba
+2016-12-15-02:31:03: undefined
+2016-12-15-02:31:03: Failed callback for phras : ameliyatı merhaba
+
+2016-12-15-02:31:03: Callback for root iteration phrase is succeed :ameliyatı merhaba
+2016-12-15-02:31:03: Score for phrase isnull : ameliyatı merhaba
+2016-12-15-02:31:03: Root iteration phrase is going to matching :ameliyatı merhaba
+2016-12-15-02:31:03: Matching result for phrase : ameliyatı
+
+2016-12-15-02:31:03: { '@id': 'kg:/m/07bp0l',
+  name: 'Deliliğin Tedavisi',
+  '@type': [ 'VisualArtwork', 'Thing' ],
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQy8Gz_8LshN_YAewiWIxbh6NV4EXhmho34mWIpqMyUUiEo6Utk',
+     url: 'https://commons.wikimedia.org/wiki/File:Hieronymus_Bosch_-_The_Cure_of_Folly_(Extraction_of_the_Stone_of_Madness)_-_WGA2495.jpg' },
+  detailedDescription: 
+   { articleBody: 'Deliliğin Tedavisi ya da Taş Ameliyatı, Hieronymus Bosch tarafından 1475 ile 1480 yılları arasında ahşap üzerine yağlı boyayla çizilen tablo. Tablo, Bosch\'un halk kültürünü temel alarak çizdiği ilk resimdir.',
+     url: 'https://tr.wikipedia.org/wiki/Delili%C4%9Fin_Tedavisi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:31:03: Result for phrase will be printed : ameliyatı
+2016-12-15-02:31:03: https://www.googleapis.com/customsearch/v1?q=Deliliğin Tedavisi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:31:03: received_result_no=1
+2016-12-15-02:31:03: System goes new search 
+2016-12-15-02:31:03: Searching for phrase :Merhaba
+2016-12-15-02:31:03: Response for phrase :Merhaba
+
+2016-12-15-02:31:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.14152 } ] }
+2016-12-15-02:31:03: ItemlistElement for phrase : Merhaba
+2016-12-15-02:31:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/015whm',
+     name: 'Merhaba Dünya',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1979 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+        url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 28.14152 }
+2016-12-15-02:31:03: Callback for phrase : Merhaba
+2016-12-15-02:31:03: Callback for word is succeed :Merhaba
+2016-12-15-02:31:03: Word is going to iteration : Merhaba
+2016-12-15-02:31:03: Iteration for phrase : Merhaba güzelim
+2016-12-15-02:31:03: Searching for phrase :Merhaba güzelim
+2016-12-15-02:31:03: Response for phrase :Merhaba
+
+2016-12-15-02:31:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.14152 } ] }
+2016-12-15-02:31:03: ItemlistElement for phrase : Merhaba
+2016-12-15-02:31:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/015whm',
+     name: 'Merhaba Dünya',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1979 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+        url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 28.14152 }
+2016-12-15-02:31:03: Callback for phrase : Merhaba
+2016-12-15-02:31:03: Callback for word is succeed :Merhaba
+2016-12-15-02:31:03: Word is going to iteration : Merhaba
+2016-12-15-02:31:03: Iteration for phrase : Merhaba güzelim
+2016-12-15-02:31:03: Searching for phrase :Merhaba güzelim
+2016-12-15-02:31:03: Response for phrase :Merhaba güzelim
+
+2016-12-15-02:31:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:03: ItemlistElement for phrase : Merhaba güzelim
+2016-12-15-02:31:03: undefined
+2016-12-15-02:31:03: Failed callback for phras : Merhaba güzelim
+
+2016-12-15-02:31:03: Callback for iteration phrase is succeed :Merhaba güzelim
+2016-12-15-02:31:03: Score for phrase isnull : Merhaba güzelim
+2016-12-15-02:31:03: iteration phrase is going root iteration :Merhaba güzelim
+2016-12-15-02:31:03: Root iteration for phrase : Merhaba güzelim
+2016-12-15-02:31:03: Searching for phrase :Merhaba güzelim
+2016-12-15-02:31:04: Response for phrase :Merhaba güzelim
+
+2016-12-15-02:31:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:04: ItemlistElement for phrase : Merhaba güzelim
+2016-12-15-02:31:04: undefined
+2016-12-15-02:31:04: Failed callback for phras : Merhaba güzelim
+
+2016-12-15-02:31:04: Callback for iteration phrase is succeed :Merhaba güzelim
+2016-12-15-02:31:04: Score for phrase isnull : Merhaba güzelim
+2016-12-15-02:31:04: iteration phrase is going root iteration :Merhaba güzelim
+2016-12-15-02:31:04: Root iteration for phrase : Merhaba güzelim
+2016-12-15-02:31:04: Searching for phrase :Merhaba güzelim
+2016-12-15-02:31:04: Response for phrase :Merhaba güzelim
+
+2016-12-15-02:31:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:04: ItemlistElement for phrase : Merhaba güzelim
+2016-12-15-02:31:04: undefined
+2016-12-15-02:31:04: Failed callback for phras : Merhaba güzelim
+
+2016-12-15-02:31:04: Callback for root iteration phrase is succeed :Merhaba güzelim
+2016-12-15-02:31:04: Score for phrase isnull : Merhaba güzelim
+2016-12-15-02:31:04: Root iteration phrase is going to matching :Merhaba güzelim
+2016-12-15-02:31:04: Matching result for phrase : Merhaba
+
+2016-12-15-02:31:04: { '@id': 'kg:/m/015whm',
+  name: 'Merhaba Dünya',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1979 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+     url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:31:04: Result for phrase will not be printed because it is not noun : Merhaba
+2016-12-15-02:31:04: System goes new search 
+2016-12-15-02:31:04: Searching for phrase :güzelim
+2016-12-15-02:31:04: Response for phrase :Merhaba güzelim
+
+2016-12-15-02:31:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:04: ItemlistElement for phrase : Merhaba güzelim
+2016-12-15-02:31:04: undefined
+2016-12-15-02:31:04: Failed callback for phras : Merhaba güzelim
+
+2016-12-15-02:31:04: Callback for root iteration phrase is succeed :Merhaba güzelim
+2016-12-15-02:31:04: Score for phrase isnull : Merhaba güzelim
+2016-12-15-02:31:04: Root iteration phrase is going to matching :Merhaba güzelim
+2016-12-15-02:31:04: Matching result for phrase : Merhaba
+
+2016-12-15-02:31:04: { '@id': 'kg:/m/015whm',
+  name: 'Merhaba Dünya',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1979 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+     url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:31:04: Result for phrase will not be printed because it is not noun : Merhaba
+2016-12-15-02:31:04: System goes new search 
+2016-12-15-02:31:04: Searching for phrase :güzelim
+2016-12-15-02:31:04: Response for phrase :güzelim
+
+2016-12-15-02:31:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 11.86906 } ] }
+2016-12-15-02:31:04: ItemlistElement for phrase : güzelim
+2016-12-15-02:31:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0h679zt',
+     name: 'Güzelim, Tufanbeyli',
+     '@type': [ 'Place', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Güzelim, Adana\'nın Tufanbeyli ilçesine bağlı bir mahalledir.',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCzelim,_Tufanbeyli',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 11.86906 }
+2016-12-15-02:31:04: Callback for phrase : güzelim
+2016-12-15-02:31:04: Callback for word is succeed :güzelim
+2016-12-15-02:31:04: Word is going to iteration : güzelim
+2016-12-15-02:31:04: Iteration for phrase : güzelim Seninle
+2016-12-15-02:31:04: Searching for phrase :güzelim Seninle
+2016-12-15-02:31:04: Response for phrase :güzelim
+
+2016-12-15-02:31:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 11.86906 } ] }
+2016-12-15-02:31:04: ItemlistElement for phrase : güzelim
+2016-12-15-02:31:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0h679zt',
+     name: 'Güzelim, Tufanbeyli',
+     '@type': [ 'Place', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Güzelim, Adana\'nın Tufanbeyli ilçesine bağlı bir mahalledir.',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCzelim,_Tufanbeyli',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 11.86906 }
+2016-12-15-02:31:04: Callback for phrase : güzelim
+2016-12-15-02:31:04: Callback for word is succeed :güzelim
+2016-12-15-02:31:04: Word is going to iteration : güzelim
+2016-12-15-02:31:04: Iteration for phrase : güzelim Seninle
+2016-12-15-02:31:04: Searching for phrase :güzelim Seninle
+2016-12-15-02:31:05: Response for phrase :güzelim Seninle
+
+2016-12-15-02:31:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:05: ItemlistElement for phrase : güzelim Seninle
+2016-12-15-02:31:05: undefined
+2016-12-15-02:31:05: Failed callback for phras : güzelim Seninle
+
+2016-12-15-02:31:05: Callback for iteration phrase is succeed :güzelim Seninle
+2016-12-15-02:31:05: Score for phrase isnull : güzelim Seninle
+2016-12-15-02:31:05: iteration phrase is going root iteration :güzelim Seninle
+2016-12-15-02:31:05: Root iteration for phrase : güzelim Senî
+2016-12-15-02:31:05: Searching for phrase :güzelim Senî
+2016-12-15-02:31:05: Response for phrase :güzelim Seninle
+
+2016-12-15-02:31:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:05: ItemlistElement for phrase : güzelim Seninle
+2016-12-15-02:31:05: undefined
+2016-12-15-02:31:05: Failed callback for phras : güzelim Seninle
+
+2016-12-15-02:31:05: Callback for iteration phrase is succeed :güzelim Seninle
+2016-12-15-02:31:05: Score for phrase isnull : güzelim Seninle
+2016-12-15-02:31:05: iteration phrase is going root iteration :güzelim Seninle
+2016-12-15-02:31:05: Root iteration for phrase : güzelim Senî
+2016-12-15-02:31:05: Searching for phrase :güzelim Senî
+2016-12-15-02:31:05: Response for phrase :güzelim Senî
+
+2016-12-15-02:31:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:05: ItemlistElement for phrase : güzelim Senî
+2016-12-15-02:31:05: undefined
+2016-12-15-02:31:05: Failed callback for phras : güzelim Senî
+
+2016-12-15-02:31:05: Callback for root iteration phrase is succeed :güzelim Senî
+2016-12-15-02:31:05: Score for phrase isnull : güzelim Senî
+2016-12-15-02:31:05: Root iteration phrase is going to matching :güzelim Senî
+2016-12-15-02:31:05: Matching result for phrase : güzelim
+
+2016-12-15-02:31:05: { '@id': 'kg:/m/0h679zt',
+  name: 'Güzelim, Tufanbeyli',
+  '@type': [ 'Place', 'Thing' ],
+  detailedDescription: 
+   { articleBody: 'Güzelim, Adana\'nın Tufanbeyli ilçesine bağlı bir mahalledir.',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%BCzelim,_Tufanbeyli',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:31:05: Result for phrase will be printed : güzelim
+2016-12-15-02:31:05: received_result_no=2
+2016-12-15-02:31:05: System goes new search 
+2016-12-15-02:31:05: Searching for phrase :Seninle
+2016-12-15-02:31:05: Response for phrase :güzelim Senî
+
+2016-12-15-02:31:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:05: ItemlistElement for phrase : güzelim Senî
+2016-12-15-02:31:05: undefined
+2016-12-15-02:31:05: Failed callback for phras : güzelim Senî
+
+2016-12-15-02:31:05: Callback for root iteration phrase is succeed :güzelim Senî
+2016-12-15-02:31:05: Score for phrase isnull : güzelim Senî
+2016-12-15-02:31:05: Root iteration phrase is going to matching :güzelim Senî
+2016-12-15-02:31:05: Matching result for phrase : güzelim
+
+2016-12-15-02:31:05: { '@id': 'kg:/m/0h679zt',
+  name: 'Güzelim, Tufanbeyli',
+  '@type': [ 'Place', 'Thing' ],
+  detailedDescription: 
+   { articleBody: 'Güzelim, Adana\'nın Tufanbeyli ilçesine bağlı bir mahalledir.',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%BCzelim,_Tufanbeyli',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:31:05: Result for phrase will be printed : güzelim
+2016-12-15-02:31:05: received_result_no=2
+2016-12-15-02:31:05: System goes new search 
+2016-12-15-02:31:05: Searching for phrase :Seninle
+2016-12-15-02:31:05: Response for phrase :Seninle
+
+2016-12-15-02:31:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.621994 } ] }
+2016-12-15-02:31:05: ItemlistElement for phrase : Seninle
+2016-12-15-02:31:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hz6mv8',
+     name: 'Seninle Yaşıyorum',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2013 yapımı film',
+     url: 'http://www.magpictures.com/howilivenow/' },
+  resultScore: 23.621994 }
+2016-12-15-02:31:05: Callback for phrase : Seninle
+2016-12-15-02:31:05: Callback for word is succeed :Seninle
+2016-12-15-02:31:05: Word is going to iteration : Seninle
+2016-12-15-02:31:05: Iteration for phrase : Seninle tanışmak
+2016-12-15-02:31:05: Searching for phrase :Seninle tanışmak
+2016-12-15-02:31:05: Response for phrase :Seninle
+
+2016-12-15-02:31:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.621994 } ] }
+2016-12-15-02:31:05: ItemlistElement for phrase : Seninle
+2016-12-15-02:31:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hz6mv8',
+     name: 'Seninle Yaşıyorum',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2013 yapımı film',
+     url: 'http://www.magpictures.com/howilivenow/' },
+  resultScore: 23.621994 }
+2016-12-15-02:31:05: Callback for phrase : Seninle
+2016-12-15-02:31:05: Callback for word is succeed :Seninle
+2016-12-15-02:31:05: Word is going to iteration : Seninle
+2016-12-15-02:31:05: Iteration for phrase : Seninle tanışmak
+2016-12-15-02:31:05: Searching for phrase :Seninle tanışmak
+2016-12-15-02:31:06: Response for phrase :Seninle tanışmak
+
+2016-12-15-02:31:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:06: ItemlistElement for phrase : Seninle tanışmak
+2016-12-15-02:31:06: undefined
+2016-12-15-02:31:06: Failed callback for phras : Seninle tanışmak
+
+2016-12-15-02:31:06: Callback for iteration phrase is succeed :Seninle tanışmak
+2016-12-15-02:31:06: Score for phrase isnull : Seninle tanışmak
+2016-12-15-02:31:06: iteration phrase is going root iteration :Seninle tanışmak
+2016-12-15-02:31:06: Root iteration for phrase : Seninle tanı
+2016-12-15-02:31:06: Searching for phrase :Seninle tanı
+2016-12-15-02:31:06: Response for phrase :Seninle tanışmak
+
+2016-12-15-02:31:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:06: ItemlistElement for phrase : Seninle tanışmak
+2016-12-15-02:31:06: undefined
+2016-12-15-02:31:06: Failed callback for phras : Seninle tanışmak
+
+2016-12-15-02:31:06: Callback for iteration phrase is succeed :Seninle tanışmak
+2016-12-15-02:31:06: Score for phrase isnull : Seninle tanışmak
+2016-12-15-02:31:06: iteration phrase is going root iteration :Seninle tanışmak
+2016-12-15-02:31:06: Root iteration for phrase : Seninle tanı
+2016-12-15-02:31:06: Searching for phrase :Seninle tanı
+2016-12-15-02:31:06: Response for phrase :Seninle tanı
+
+2016-12-15-02:31:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:06: ItemlistElement for phrase : Seninle tanı
+2016-12-15-02:31:06: undefined
+2016-12-15-02:31:06: Failed callback for phras : Seninle tanı
+
+2016-12-15-02:31:06: Callback for root iteration phrase is succeed :Seninle tanı
+2016-12-15-02:31:06: Score for phrase isnull : Seninle tanı
+2016-12-15-02:31:06: Root iteration phrase is going to matching :Seninle tanı
+2016-12-15-02:31:06: Matching result for phrase : Seninle
+
+2016-12-15-02:31:06: { '@id': 'kg:/m/0hz6mv8',
+  name: 'Seninle Yaşıyorum',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2013 yapımı film',
+  url: 'http://www.magpictures.com/howilivenow/' }
+2016-12-15-02:31:06: Result for phrase will be printed : Seninle
+2016-12-15-02:31:06: Response for phrase :Seninle tanı
+
+2016-12-15-02:31:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:31:06: ItemlistElement for phrase : Seninle tanı
+2016-12-15-02:31:06: undefined
+2016-12-15-02:31:06: Failed callback for phras : Seninle tanı
+
+2016-12-15-02:31:06: Callback for root iteration phrase is succeed :Seninle tanı
+2016-12-15-02:31:06: Score for phrase isnull : Seninle tanı
+2016-12-15-02:31:06: Root iteration phrase is going to matching :Seninle tanı
+2016-12-15-02:31:06: Matching result for phrase : Seninle
+
+2016-12-15-02:31:06: { '@id': 'kg:/m/0hz6mv8',
+  name: 'Seninle Yaşıyorum',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2013 yapımı film',
+  url: 'http://www.magpictures.com/howilivenow/' }
+2016-12-15-02:31:06: Result for phrase will be printed : Seninle
+2016-12-15-02:31:41: 2: slide right gesture is called
+2016-12-15-02:31:41: 2: slide right gesture is called
+2016-12-15-02:31:43: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:43: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:43: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:44: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:44: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:44: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:45: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:45: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:45: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:46: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:46: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:46: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:46: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:46: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:46: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:47: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:47: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:47: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:47: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:47: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:48: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:49: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:50: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:50: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:50: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:50: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:51: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:51: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:51: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:51: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:52: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:52: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:52: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:53: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:53: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:53: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:53: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:54: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:54: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:55: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:55: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:55: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:55: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:55: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:55: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:56: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:56: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:56: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:56: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:57: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:57: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:57: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:57: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:58: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:58: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:58: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:58: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:58: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:59: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:59: AftermoveSectionDown section_count is: 0
+2016-12-15-02:31:59: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:59: AftermoveSectionUp section_count is: 0
+2016-12-15-02:31:59: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:01: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:02: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:02: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:02: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:03: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:03: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:04: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:04: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:04: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:04: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:05: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:05: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:05: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:05: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:08: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:08: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:08: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:09: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:09: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:09: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:10: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:10: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:10: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:10: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:10: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:10: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:11: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:11: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:11: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:11: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:11: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:11: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:12: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:12: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:12: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:12: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:13: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:13: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:13: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:13: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:14: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:14: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:14: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:15: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:15: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:15: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:15: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:16: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:16: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:16: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:17: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:17: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:17: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:17: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:17: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:18: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:18: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:18: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:18: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:19: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:19: 1: slide right gesture is called
+2016-12-15-02:32:20: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:20: 1: slide left gesture is called
+2016-12-15-02:32:21: 1: slide left gesture is called
+2016-12-15-02:32:21: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:21: 1: slide right gesture is called
+2016-12-15-02:32:21: 1: slide right gesture is called
+2016-12-15-02:32:22: 1: slide right gesture is called
+2016-12-15-02:32:22: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:22: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:22: 1: slide right gesture is called
+2016-12-15-02:32:22: 1: slide right gesture is called
+2016-12-15-02:32:22: 1: slide right gesture is called
+2016-12-15-02:32:23: 1: slide right gesture is called
+2016-12-15-02:32:23: 1: slide right gesture is called
+2016-12-15-02:32:23: 1: slide right gesture is called
+2016-12-15-02:32:24: 1: slide right gesture is called
+2016-12-15-02:32:24: 1: slide right gesture is called
+2016-12-15-02:32:24: 1: slide right gesture is called
+2016-12-15-02:32:24: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:25: 1: slide right gesture is called
+2016-12-15-02:32:26: 1: slide right gesture is called
+2016-12-15-02:32:26: 1: slide right gesture is called
+2016-12-15-02:32:26: 1: slide right gesture is called
+2016-12-15-02:32:26: 1: slide left gesture is called
+2016-12-15-02:32:26: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:26: 1: slide left gesture is called
+2016-12-15-02:32:27: 1: slide left gesture is called
+2016-12-15-02:32:27: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:27: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:27: 1: slide left gesture is called
+2016-12-15-02:32:27: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:27: 1: slide left gesture is called
+2016-12-15-02:32:28: 1: slide right gesture is called
+2016-12-15-02:32:28: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:28: 1: slide left gesture is called
+2016-12-15-02:32:28: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:28: 1: slide left gesture is called
+2016-12-15-02:32:28: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:28: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:29: 1: slide left gesture is called
+2016-12-15-02:32:29: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:29: 1: slide left gesture is called
+2016-12-15-02:32:29: 1: slide left gesture is called
+2016-12-15-02:32:29: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:30: 1: slide left gesture is called
+2016-12-15-02:32:30: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:30: 1: slide left gesture is called
+2016-12-15-02:32:30: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:30: 1: slide left gesture is called
+2016-12-15-02:32:30: 1: slide right gesture is called
+2016-12-15-02:32:31: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:31: 1: slide left gesture is called
+2016-12-15-02:32:31: AftermoveSectionDown section_count is: 0
+2016-12-15-02:32:31: 1: slide left gesture is called
+2016-12-15-02:32:31: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:31: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:31: 1: slide right gesture is called
+2016-12-15-02:32:31: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:32: 1: slide left gesture is called
+2016-12-15-02:32:32: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:32: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:33: 1: slide right gesture is called
+2016-12-15-02:32:33: 1: slide right gesture is called
+2016-12-15-02:32:33: 1: slide right gesture is called
+2016-12-15-02:32:33: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:34: 1: slide left gesture is called
+2016-12-15-02:32:34: 1: slide left gesture is called
+2016-12-15-02:32:35: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:35: AftermoveSectionUp section_count is: 0
+2016-12-15-02:32:35: AftermoveSectionUp section_count is: 0

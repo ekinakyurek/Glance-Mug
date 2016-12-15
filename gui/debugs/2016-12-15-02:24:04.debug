@@ -1,0 +1,2256 @@
+2016-12-15-02:24:16: 2:click detected at point:[object Object]
+2016-12-15-02:24:17: 2:click detected at point:[object Object]
+2016-12-15-02:24:17: Connected
+2016-12-15-02:24:17: 2:click detected at point:[object Object]
+2016-12-15-02:24:25: Data received from stt: İstanbul Masalı acaba doğal Orhan Baba Nazım Hikmet İstanbul,Noun Basa,Noun acaba,Noun doğal,Other Orhan,Noun Baba,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-02:24:25: SearchTerm from microphone:İstanbul Masalı acaba doğal Orhan Baba Nazım Hikmet İstanbul,Noun Basa,Noun acaba,Noun doğal,Other Orhan,Noun Baba,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-02:24:25: State machine is initialized with input: 
+2016-12-15-02:24:25: İstanbul Masalı acaba doğal Orhan Baba Nazım Hikmet İstanbul,Noun Basa,Noun acaba,Noun doğal,Other Orhan,Noun Baba,Noun Nazım,Noun Hikmet,Noun
+2016-12-15-02:24:25: Input words : 
+2016-12-15-02:24:25: [ 'İstanbul',
+  'Masalı',
+  'acaba',
+  'doğal',
+  'Orhan',
+  'Baba',
+  'Nazım',
+  'Hikmet' ]
+2016-12-15-02:24:25: Input roots : 
+2016-12-15-02:24:25: [ 'İstanbul',
+  'Basa',
+  'acaba',
+  'doğal',
+  'Orhan',
+  'Baba',
+  'Nazım',
+  'Hikmet' ]
+2016-12-15-02:24:25: Searching for phrase :İstanbul
+2016-12-15-02:24:25: Connection closed
+2016-12-15-02:24:25: Response for phrase :İstanbul
+
+2016-12-15-02:24:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 173.178696 } ] }
+2016-12-15-02:24:25: ItemlistElement for phrase : İstanbul
+2016-12-15-02:24:25: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09949m',
+     name: 'İstanbul',
+     '@type': [ 'City', 'Place', 'LandmarksOrHistoricalBuildings', 'Thing' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRilD2tptrjKgN6sXPMfRnVbs_exp1wQUyoRzWmwH84SclGnHYy',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_(8274724020).jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' },
+     detailedDescription: 
+      { articleBody: 'İstanbul, Türkiye\'de yer alan şehir ve ülkenin 81 ilinden biri. Ülkenin en kalabalık, ekonomik ve sosyo-kültürel açıdan en önemli şehridir. ',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ibb.gov.tr/' },
+  resultScore: 173.178696 }
+2016-12-15-02:24:25: Callback for phrase : İstanbul
+2016-12-15-02:24:25: Callback for word is succeed :İstanbul
+2016-12-15-02:24:25: Word is going to iteration : İstanbul
+2016-12-15-02:24:25: Iteration for phrase : İstanbul Masalı
+2016-12-15-02:24:25: Searching for phrase :İstanbul Masalı
+2016-12-15-02:24:26: Response for phrase :İstanbul Masalı
+
+2016-12-15-02:24:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 345.566559 } ] }
+2016-12-15-02:24:26: ItemlistElement for phrase : İstanbul Masalı
+2016-12-15-02:24:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jt1f2y',
+     name: 'Bir İstanbul Masalı',
+     '@type': [ 'TVSeries', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Bir İstanbul Masalı, 2003-2005 yılları arasında yönetmenliğini Ömür Atay\'ın yaptığı ATV\'de yayınlanmış Türk dizisidir. Başrollerde Mehmet Aslantuğ, Ozan Güven ve Ahu Türkpençe oynamıştır. Dizinin senaryo yazarları Gaye Boralıoğlu, Neşe Şen\'dir. ',
+        url: 'https://tr.wikipedia.org/wiki/Bir_%C4%B0stanbul_Masal%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://tmc.com.tr/biristanbulmasali/' },
+  resultScore: 345.566559 }
+2016-12-15-02:24:26: Callback for phrase : İstanbul Masalı
+2016-12-15-02:24:26: Callback for iteration phrase is succeed :İstanbul Masalı
+2016-12-15-02:24:26: Score for phrase is345.566559 : İstanbul Masalı
+2016-12-15-02:24:26: iteration phrase is going next iteration :İstanbul Masalı
+2016-12-15-02:24:26: Iteration for phrase : İstanbul Masalı acaba
+2016-12-15-02:24:26: Searching for phrase :İstanbul Masalı acaba
+2016-12-15-02:24:26: Response for phrase :İstanbul Masalı acaba
+
+2016-12-15-02:24:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 283.572906 } ] }
+2016-12-15-02:24:26: ItemlistElement for phrase : İstanbul Masalı acaba
+2016-12-15-02:24:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jt1f2y',
+     name: 'Bir İstanbul Masalı',
+     '@type': [ 'TVSeries', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Bir İstanbul Masalı, 2003-2005 yılları arasında yönetmenliğini Ömür Atay\'ın yaptığı ATV\'de yayınlanmış Türk dizisidir. Başrollerde Mehmet Aslantuğ, Ozan Güven ve Ahu Türkpençe oynamıştır. Dizinin senaryo yazarları Gaye Boralıoğlu, Neşe Şen\'dir. ',
+        url: 'https://tr.wikipedia.org/wiki/Bir_%C4%B0stanbul_Masal%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://tmc.com.tr/biristanbulmasali/' },
+  resultScore: 283.572906 }
+2016-12-15-02:24:26: Callback for phrase : İstanbul Masalı acaba
+2016-12-15-02:24:26: Callback for iteration phrase is succeed :İstanbul Masalı acaba
+2016-12-15-02:24:26: Score for phrase is283.572906 : İstanbul Masalı acaba
+2016-12-15-02:24:26: iteration phrase is going root iteration :İstanbul Masalı acaba
+2016-12-15-02:24:26: Root iteration for phrase : İstanbul Masalı acaba
+2016-12-15-02:24:26: Searching for phrase :İstanbul Masalı acaba
+2016-12-15-02:24:26: Response for phrase :İstanbul Masalı acaba
+
+2016-12-15-02:24:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 283.572906 } ] }
+2016-12-15-02:24:26: ItemlistElement for phrase : İstanbul Masalı acaba
+2016-12-15-02:24:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jt1f2y',
+     name: 'Bir İstanbul Masalı',
+     '@type': [ 'TVSeries', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Bir İstanbul Masalı, 2003-2005 yılları arasında yönetmenliğini Ömür Atay\'ın yaptığı ATV\'de yayınlanmış Türk dizisidir. Başrollerde Mehmet Aslantuğ, Ozan Güven ve Ahu Türkpençe oynamıştır. Dizinin senaryo yazarları Gaye Boralıoğlu, Neşe Şen\'dir. ',
+        url: 'https://tr.wikipedia.org/wiki/Bir_%C4%B0stanbul_Masal%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://tmc.com.tr/biristanbulmasali/' },
+  resultScore: 283.572906 }
+2016-12-15-02:24:26: Callback for phrase : İstanbul Masalı acaba
+2016-12-15-02:24:26: Callback for root iteration phrase is succeed :İstanbul Masalı acaba
+2016-12-15-02:24:26: Score for phrase is283.572906 : İstanbul Masalı acaba
+2016-12-15-02:24:26: Root iteration phrase is going to matching :İstanbul Masalı acaba
+2016-12-15-02:24:26: Matching result for phrase : İstanbul Masalı
+
+2016-12-15-02:24:26: { '@id': 'kg:/m/0jt1f2y',
+  name: 'Bir İstanbul Masalı',
+  '@type': [ 'TVSeries', 'Thing' ],
+  detailedDescription: 
+   { articleBody: 'Bir İstanbul Masalı, 2003-2005 yılları arasında yönetmenliğini Ömür Atay\'ın yaptığı ATV\'de yayınlanmış Türk dizisidir. Başrollerde Mehmet Aslantuğ, Ozan Güven ve Ahu Türkpençe oynamıştır. Dizinin senaryo yazarları Gaye Boralıoğlu, Neşe Şen\'dir. ',
+     url: 'https://tr.wikipedia.org/wiki/Bir_%C4%B0stanbul_Masal%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://tmc.com.tr/biristanbulmasali/' }
+2016-12-15-02:24:26: Result for phrase will be printed : İstanbul Masalı
+2016-12-15-02:24:26: https://www.googleapis.com/customsearch/v1?q=Bir İstanbul Masalı&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:24:26: received_result_no=1
+2016-12-15-02:24:26: System goes new search 
+2016-12-15-02:24:26: Searching for phrase :acaba
+2016-12-15-02:24:27: Response for phrase :acaba
+
+2016-12-15-02:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.800241 } ] }
+2016-12-15-02:24:27: ItemlistElement for phrase : acaba
+2016-12-15-02:24:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11bytn99m7',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu' },
+  resultScore: 16.800241 }
+2016-12-15-02:24:27: Callback for phrase : acaba
+2016-12-15-02:24:27: Callback for word is succeed :acaba
+2016-12-15-02:24:27: Word is going to iteration : acaba
+2016-12-15-02:24:27: Iteration for phrase : acaba doğal
+2016-12-15-02:24:27: Searching for phrase :acaba doğal
+2016-12-15-02:24:27: Response for phrase :acaba doğal
+
+2016-12-15-02:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.485165 } ] }
+2016-12-15-02:24:27: ItemlistElement for phrase : acaba doğal
+2016-12-15-02:24:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hhgh69',
+     name: 'Doğal Kahramanlar',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2013 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Doğal Kahramanlar veya İngilizce adıyla Epic, William Joyce\'un çocuk kitabı olan The Leaf Men and the Brave Good Bugs\'a kısmen dayalı olan 2013 ABD yapımı 3D bilgisayar animasyonu macera, komedi ve dram filmidir. ',
+        url: 'https://tr.wikipedia.org/wiki/Do%C4%9Fal_Kahramanlar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 28.485165 }
+2016-12-15-02:24:27: Callback for phrase : acaba doğal
+2016-12-15-02:24:27: Callback for iteration phrase is succeed :acaba doğal
+2016-12-15-02:24:27: Score for phrase is28.485165 : acaba doğal
+2016-12-15-02:24:27: iteration phrase is going next iteration :acaba doğal
+2016-12-15-02:24:27: Iteration for phrase : acaba doğal Orhan
+2016-12-15-02:24:27: Searching for phrase :acaba doğal Orhan
+2016-12-15-02:24:27: Response for phrase :acaba doğal Orhan
+
+2016-12-15-02:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:24:27: ItemlistElement for phrase : acaba doğal Orhan
+2016-12-15-02:24:27: undefined
+2016-12-15-02:24:27: Failed callback for phras : acaba doğal Orhan
+
+2016-12-15-02:24:27: Callback for iteration phrase is succeed :acaba doğal Orhan
+2016-12-15-02:24:27: Score for phrase isnull : acaba doğal Orhan
+2016-12-15-02:24:27: iteration phrase is going root iteration :acaba doğal Orhan
+2016-12-15-02:24:27: Root iteration for phrase : acaba doğal Orhan
+2016-12-15-02:24:27: Searching for phrase :acaba doğal Orhan
+2016-12-15-02:24:28: Response for phrase :acaba doğal Orhan
+
+2016-12-15-02:24:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:24:28: ItemlistElement for phrase : acaba doğal Orhan
+2016-12-15-02:24:28: undefined
+2016-12-15-02:24:28: Failed callback for phras : acaba doğal Orhan
+
+2016-12-15-02:24:28: Callback for root iteration phrase is succeed :acaba doğal Orhan
+2016-12-15-02:24:28: Score for phrase isnull : acaba doğal Orhan
+2016-12-15-02:24:28: Root iteration phrase is going to matching :acaba doğal Orhan
+2016-12-15-02:24:28: Matching result for phrase : acaba doğal
+
+2016-12-15-02:24:28: { '@id': 'kg:/m/0hhgh69',
+  name: 'Doğal Kahramanlar',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2013 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Doğal Kahramanlar veya İngilizce adıyla Epic, William Joyce\'un çocuk kitabı olan The Leaf Men and the Brave Good Bugs\'a kısmen dayalı olan 2013 ABD yapımı 3D bilgisayar animasyonu macera, komedi ve dram filmidir. ',
+     url: 'https://tr.wikipedia.org/wiki/Do%C4%9Fal_Kahramanlar',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:24:28: Result for phrase will be printed : acaba doğal
+2016-12-15-02:24:28: received_result_no=2
+2016-12-15-02:24:28: System goes new search 
+2016-12-15-02:24:28: Searching for phrase :Orhan
+2016-12-15-02:24:28: Response for phrase :Orhan
+
+2016-12-15-02:24:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-02:24:28: ItemlistElement for phrase : Orhan
+2016-12-15-02:24:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-02:24:28: Callback for phrase : Orhan
+2016-12-15-02:24:28: Callback for word is succeed :Orhan
+2016-12-15-02:24:28: Word is going to iteration : Orhan
+2016-12-15-02:24:28: Iteration for phrase : Orhan Baba
+2016-12-15-02:24:28: Searching for phrase :Orhan Baba
+2016-12-15-02:24:29: Response for phrase :Orhan Baba
+
+2016-12-15-02:24:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.518219 } ] }
+2016-12-15-02:24:29: ItemlistElement for phrase : Orhan Baba
+2016-12-15-02:24:29: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.518219 }
+2016-12-15-02:24:29: Callback for phrase : Orhan Baba
+2016-12-15-02:24:29: Callback for iteration phrase is succeed :Orhan Baba
+2016-12-15-02:24:29: Score for phrase is182.518219 : Orhan Baba
+2016-12-15-02:24:29: iteration phrase is going next iteration :Orhan Baba
+2016-12-15-02:24:29: Iteration for phrase : Orhan Baba Nazım
+2016-12-15-02:24:29: Searching for phrase :Orhan Baba Nazım
+2016-12-15-02:24:29: Response for phrase :Orhan Baba Nazım
+
+2016-12-15-02:24:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:24:29: ItemlistElement for phrase : Orhan Baba Nazım
+2016-12-15-02:24:29: undefined
+2016-12-15-02:24:29: Failed callback for phras : Orhan Baba Nazım
+
+2016-12-15-02:24:29: Callback for iteration phrase is succeed :Orhan Baba Nazım
+2016-12-15-02:24:29: Score for phrase isnull : Orhan Baba Nazım
+2016-12-15-02:24:29: iteration phrase is going root iteration :Orhan Baba Nazım
+2016-12-15-02:24:29: Root iteration for phrase : Orhan Baba Nazım
+2016-12-15-02:24:29: Searching for phrase :Orhan Baba Nazım
+2016-12-15-02:24:29: Response for phrase :Orhan Baba Nazım
+
+2016-12-15-02:24:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:24:29: ItemlistElement for phrase : Orhan Baba Nazım
+2016-12-15-02:24:29: undefined
+2016-12-15-02:24:29: Failed callback for phras : Orhan Baba Nazım
+
+2016-12-15-02:24:29: Callback for root iteration phrase is succeed :Orhan Baba Nazım
+2016-12-15-02:24:29: Score for phrase isnull : Orhan Baba Nazım
+2016-12-15-02:24:29: Root iteration phrase is going to matching :Orhan Baba Nazım
+2016-12-15-02:24:29: Matching result for phrase : Orhan Baba
+
+2016-12-15-02:24:29: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-02:24:29: Result for phrase will be printed : Orhan Baba
+2016-12-15-02:24:29: received_result_no=3
+2016-12-15-02:24:29: System goes new search 
+2016-12-15-02:24:29: Searching for phrase :Nazım
+2016-12-15-02:24:30: Response for phrase :Nazım
+
+2016-12-15-02:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.841133 } ] }
+2016-12-15-02:24:30: ItemlistElement for phrase : Nazım
+2016-12-15-02:24:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.841133 }
+2016-12-15-02:24:30: Callback for phrase : Nazım
+2016-12-15-02:24:30: Callback for word is succeed :Nazım
+2016-12-15-02:24:30: Word is going to iteration : Nazım
+2016-12-15-02:24:30: Iteration for phrase : Nazım Hikmet
+2016-12-15-02:24:30: Searching for phrase :Nazım Hikmet
+2016-12-15-02:24:30: Response for phrase :Nazım Hikmet
+
+2016-12-15-02:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.138428 } ] }
+2016-12-15-02:24:30: ItemlistElement for phrase : Nazım Hikmet
+2016-12-15-02:24:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.138428 }
+2016-12-15-02:24:30: Callback for phrase : Nazım Hikmet
+2016-12-15-02:24:30: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-15-02:24:30: Score for phrase is410.138428 : Nazım Hikmet
+2016-12-15-02:24:30: iteration phrase is going next iteration :Nazım Hikmet
+2016-12-15-02:24:30: Iteration for phrase : Nazım Hikmet undefined
+2016-12-15-02:24:30: Searching for phrase :Nazım Hikmet undefined
+2016-12-15-02:24:30: Response for phrase :Nazım Hikmet undefined
+
+2016-12-15-02:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:24:30: ItemlistElement for phrase : Nazım Hikmet undefined
+2016-12-15-02:24:30: undefined
+2016-12-15-02:24:30: Failed callback for phras : Nazım Hikmet undefined
+
+2016-12-15-02:24:30: Callback for iteration phrase is succeed :Nazım Hikmet undefined
+2016-12-15-02:24:30: Score for phrase isnull : Nazım Hikmet undefined
+2016-12-15-02:24:30: iteration phrase is going root iteration :Nazım Hikmet undefined
+2016-12-15-02:24:30: Root iteration for phrase : Nazım Hikmet undefined
+2016-12-15-02:24:30: Searching for phrase :Nazım Hikmet undefined
+2016-12-15-02:24:31: Response for phrase :Nazım Hikmet undefined
+
+2016-12-15-02:24:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:24:31: ItemlistElement for phrase : Nazım Hikmet undefined
+2016-12-15-02:24:31: undefined
+2016-12-15-02:24:31: Failed callback for phras : Nazım Hikmet undefined
+
+2016-12-15-02:24:31: Callback for root iteration phrase is succeed :Nazım Hikmet undefined
+2016-12-15-02:24:31: Score for phrase isnull : Nazım Hikmet undefined
+2016-12-15-02:24:31: Root iteration phrase is going to matching :Nazım Hikmet undefined
+2016-12-15-02:24:31: Matching result for phrase : Nazım Hikmet
+
+2016-12-15-02:24:31: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-15-02:24:31: Result for phrase will be printed : Nazım Hikmet
+2016-12-15-02:24:31: received_result_no=4
+2016-12-15-02:24:31: System will be shutdown
+2016-12-15-02:24:31: finish
+2016-12-15-02:24:31: process is finished
+2016-12-15-02:24:31: -----------------Printed Results------------------------
+2016-12-15-02:24:31: Bir İstanbul Masalı
+2016-12-15-02:24:31: Doğal Kahramanlar
+2016-12-15-02:24:31: Orhan Gencebay
+2016-12-15-02:24:31: Nâzım Hikmet
+2016-12-15-02:24:41: 2: slide right gesture is called
+2016-12-15-02:24:41: 2: slide right gesture is called
+2016-12-15-02:24:42: 2: slide left gesture is called
+2016-12-15-02:24:42: 2: slide left gesture is called
+2016-12-15-02:24:42: 2: slide left gesture is called
+2016-12-15-02:24:42: 2: slide right gesture is called
+2016-12-15-02:24:43: 1: slide right gesture is called
+2016-12-15-02:24:43: 1: slide right gesture is called
+2016-12-15-02:24:44: 1: slide left gesture is called
+2016-12-15-02:24:44: 1: slide left gesture is called
+2016-12-15-02:24:44: 1: slide left gesture is called
+2016-12-15-02:24:44: 1: slide right gesture is called
+2016-12-15-02:24:44: 1: slide right gesture is called
+2016-12-15-02:24:45: 1: slide right gesture is called
+2016-12-15-02:24:53: 2:click detected at point:[object Object]
+2016-12-15-02:24:53: Connected
+2016-12-15-02:24:54: 2:click detected at point:[object Object]
+2016-12-15-02:24:54: 2:click detected at point:[object Object]
+2016-12-15-02:25:02: Data received from stt: Orhan Mahallesi Belki başka bir şey duyamadım Nazım Hikmet Ebru Gündeş Orhan,Noun mahalle,Noun belki,Other başka,Other bir,Other şey,Noun duy,Other Nazım,Noun Hikmet,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:25:02: SearchTerm from microphone:Orhan Mahallesi Belki başka bir şey duyamadım Nazım Hikmet Ebru Gündeş Orhan,Noun mahalle,Noun belki,Other başka,Other bir,Other şey,Noun duy,Other Nazım,Noun Hikmet,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:25:02: State machine is initialized with input: 
+2016-12-15-02:25:02: Orhan Mahallesi Belki başka bir şey duyamadım Nazım Hikmet Ebru Gündeş Orhan,Noun mahalle,Noun belki,Other başka,Other bir,Other şey,Noun duy,Other Nazım,Noun Hikmet,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:25:02: Input words : 
+2016-12-15-02:25:02: [ 'Orhan',
+  'Mahallesi',
+  'Belki',
+  'başka',
+  'bir',
+  'şey',
+  'duyamadım',
+  'Nazım',
+  'Hikmet',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-02:25:02: Input roots : 
+2016-12-15-02:25:02: [ 'Orhan',
+  'mahalle',
+  'belki',
+  'başka',
+  'bir',
+  'şey',
+  'duy',
+  'Nazım',
+  'Hikmet',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-02:25:02: Searching for phrase :Orhan
+2016-12-15-02:25:02: Data received from stt: Orhan Mahallesi Belki başka bir şey duyamadım Nazım Hikmet Ebru Gündeş Orhan,Noun mahalle,Noun belki,Other başka,Other bir,Other şey,Noun duy,Other Nazım,Noun Hikmet,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:25:02: SearchTerm from microphone:Orhan Mahallesi Belki başka bir şey duyamadım Nazım Hikmet Ebru Gündeş Orhan,Noun mahalle,Noun belki,Other başka,Other bir,Other şey,Noun duy,Other Nazım,Noun Hikmet,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:25:02: State machine is initialized with input: 
+2016-12-15-02:25:02: Orhan Mahallesi Belki başka bir şey duyamadım Nazım Hikmet Ebru Gündeş Orhan,Noun mahalle,Noun belki,Other başka,Other bir,Other şey,Noun duy,Other Nazım,Noun Hikmet,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-02:25:02: Input words : 
+2016-12-15-02:25:02: [ 'Orhan',
+  'Mahallesi',
+  'Belki',
+  'başka',
+  'bir',
+  'şey',
+  'duyamadım',
+  'Nazım',
+  'Hikmet',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-02:25:02: Input roots : 
+2016-12-15-02:25:02: [ 'Orhan',
+  'mahalle',
+  'belki',
+  'başka',
+  'bir',
+  'şey',
+  'duy',
+  'Nazım',
+  'Hikmet',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-02:25:02: Searching for phrase :Orhan
+2016-12-15-02:25:02: Connection closed
+2016-12-15-02:25:02: Connection closed
+2016-12-15-02:25:02: Response for phrase :Orhan
+
+2016-12-15-02:25:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-02:25:02: ItemlistElement for phrase : Orhan
+2016-12-15-02:25:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-02:25:02: Callback for phrase : Orhan
+2016-12-15-02:25:02: Callback for word is succeed :Orhan
+2016-12-15-02:25:02: Word is going to iteration : Orhan
+2016-12-15-02:25:02: Iteration for phrase : Orhan Mahallesi
+2016-12-15-02:25:02: Searching for phrase :Orhan Mahallesi
+2016-12-15-02:25:02: Response for phrase :Orhan
+
+2016-12-15-02:25:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-02:25:02: ItemlistElement for phrase : Orhan
+2016-12-15-02:25:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-02:25:02: Callback for phrase : Orhan
+2016-12-15-02:25:02: Callback for word is succeed :Orhan
+2016-12-15-02:25:02: Word is going to iteration : Orhan
+2016-12-15-02:25:02: Iteration for phrase : Orhan Mahallesi
+2016-12-15-02:25:02: Searching for phrase :Orhan Mahallesi
+2016-12-15-02:25:03: Response for phrase :Orhan Mahallesi
+
+2016-12-15-02:25:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:25:03: ItemlistElement for phrase : Orhan Mahallesi
+2016-12-15-02:25:03: undefined
+2016-12-15-02:25:03: Failed callback for phras : Orhan Mahallesi
+
+2016-12-15-02:25:03: Callback for iteration phrase is succeed :Orhan Mahallesi
+2016-12-15-02:25:03: Score for phrase isnull : Orhan Mahallesi
+2016-12-15-02:25:03: iteration phrase is going root iteration :Orhan Mahallesi
+2016-12-15-02:25:03: Root iteration for phrase : Orhan mahalle
+2016-12-15-02:25:03: Searching for phrase :Orhan mahalle
+2016-12-15-02:25:03: Response for phrase :Orhan Mahallesi
+
+2016-12-15-02:25:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:25:03: ItemlistElement for phrase : Orhan Mahallesi
+2016-12-15-02:25:03: undefined
+2016-12-15-02:25:03: Failed callback for phras : Orhan Mahallesi
+
+2016-12-15-02:25:03: Callback for iteration phrase is succeed :Orhan Mahallesi
+2016-12-15-02:25:03: Score for phrase isnull : Orhan Mahallesi
+2016-12-15-02:25:03: iteration phrase is going root iteration :Orhan Mahallesi
+2016-12-15-02:25:03: Root iteration for phrase : Orhan mahalle
+2016-12-15-02:25:03: Searching for phrase :Orhan mahalle
+2016-12-15-02:25:03: Response for phrase :Orhan mahalle
+
+2016-12-15-02:25:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1.544266 } ] }
+2016-12-15-02:25:03: ItemlistElement for phrase : Orhan mahalle
+2016-12-15-02:25:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1hc0g5dqq',
+     name: 'Büyükesence, Erenler',
+     '@type': [ 'Thing', 'Place' ],
+     detailedDescription: 
+      { articleBody: 'Büyük Esence, Sakarya ilinin Erenler ilçesine bağlı bir mahalledir.',
+        url: 'https://tr.wikipedia.org/wiki/B%C3%BCy%C3%BCkesence,_Erenler',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1.544266 }
+2016-12-15-02:25:03: Callback for phrase : Orhan mahalle
+2016-12-15-02:25:03: Callback for root iteration phrase is succeed :Orhan mahalle
+2016-12-15-02:25:03: Score for phrase is1.544266 : Orhan mahalle
+2016-12-15-02:25:03: Root iteration phrase is going to matching :Orhan mahalle
+2016-12-15-02:25:03: Matching result for phrase : Orhan
+
+2016-12-15-02:25:03: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:25:03: Result for phrase will be printed : Orhan
+2016-12-15-02:25:03: https://www.googleapis.com/customsearch/v1?q=Orhan Bey&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:25:03: received_result_no=1
+2016-12-15-02:25:03: System goes new search 
+2016-12-15-02:25:03: Searching for phrase :Mahallesi
+2016-12-15-02:25:03: Response for phrase :Orhan mahalle
+
+2016-12-15-02:25:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1.544266 } ] }
+2016-12-15-02:25:03: ItemlistElement for phrase : Orhan mahalle
+2016-12-15-02:25:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1hc0g5dqq',
+     name: 'Büyükesence, Erenler',
+     '@type': [ 'Thing', 'Place' ],
+     detailedDescription: 
+      { articleBody: 'Büyük Esence, Sakarya ilinin Erenler ilçesine bağlı bir mahalledir.',
+        url: 'https://tr.wikipedia.org/wiki/B%C3%BCy%C3%BCkesence,_Erenler',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1.544266 }
+2016-12-15-02:25:03: Callback for phrase : Orhan mahalle
+2016-12-15-02:25:03: Callback for root iteration phrase is succeed :Orhan mahalle
+2016-12-15-02:25:03: Score for phrase is1.544266 : Orhan mahalle
+2016-12-15-02:25:03: Root iteration phrase is going to matching :Orhan mahalle
+2016-12-15-02:25:03: Matching result for phrase : Orhan
+
+2016-12-15-02:25:03: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:25:03: Result for phrase will be printed : Orhan
+2016-12-15-02:25:03: https://www.googleapis.com/customsearch/v1?q=Orhan Bey&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:25:03: received_result_no=1
+2016-12-15-02:25:03: System goes new search 
+2016-12-15-02:25:03: Searching for phrase :Mahallesi
+2016-12-15-02:25:03: Response for phrase :Mahallesi
+
+2016-12-15-02:25:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 30.608686 } ] }
+2016-12-15-02:25:03: ItemlistElement for phrase : Mahallesi
+2016-12-15-02:25:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hv4t',
+     name: 'Çin Mahallesi',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1974 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Chinatown, yönetmenliğini Roman Polanski\' nin yaptığı, 1974 yılı yapımı bir ABD filmidir. Jack Nicholson, Faye Dunaway ve John Huston\' ın rol aldığı filmde Polanski\'nin de küçük bir rolü vardır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C3%87in_Mahallesi_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 30.608686 }
+2016-12-15-02:25:03: Callback for phrase : Mahallesi
+2016-12-15-02:25:03: Callback for word is succeed :Mahallesi
+2016-12-15-02:25:03: Word is going to iteration : Mahallesi
+2016-12-15-02:25:03: Iteration for phrase : Mahallesi Belki
+2016-12-15-02:25:03: Searching for phrase :Mahallesi Belki
+2016-12-15-02:25:03: Response for phrase :Mahallesi
+
+2016-12-15-02:25:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 30.608686 } ] }
+2016-12-15-02:25:03: ItemlistElement for phrase : Mahallesi
+2016-12-15-02:25:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hv4t',
+     name: 'Çin Mahallesi',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1974 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Chinatown, yönetmenliğini Roman Polanski\' nin yaptığı, 1974 yılı yapımı bir ABD filmidir. Jack Nicholson, Faye Dunaway ve John Huston\' ın rol aldığı filmde Polanski\'nin de küçük bir rolü vardır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C3%87in_Mahallesi_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 30.608686 }
+2016-12-15-02:25:03: Callback for phrase : Mahallesi
+2016-12-15-02:25:03: Callback for word is succeed :Mahallesi
+2016-12-15-02:25:03: Word is going to iteration : Mahallesi
+2016-12-15-02:25:03: Iteration for phrase : Mahallesi Belki
+2016-12-15-02:25:03: Searching for phrase :Mahallesi Belki
+2016-12-15-02:25:04: Response for phrase :Mahallesi Belki
+
+2016-12-15-02:25:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 30.608686 } ] }
+2016-12-15-02:25:04: ItemlistElement for phrase : Mahallesi Belki
+2016-12-15-02:25:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hv4t',
+     name: 'Çin Mahallesi',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1974 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Chinatown, yönetmenliğini Roman Polanski\' nin yaptığı, 1974 yılı yapımı bir ABD filmidir. Jack Nicholson, Faye Dunaway ve John Huston\' ın rol aldığı filmde Polanski\'nin de küçük bir rolü vardır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C3%87in_Mahallesi_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 30.608686 }
+2016-12-15-02:25:04: Callback for phrase : Mahallesi Belki
+2016-12-15-02:25:04: Callback for iteration phrase is succeed :Mahallesi Belki
+2016-12-15-02:25:04: Score for phrase is30.608686 : Mahallesi Belki
+2016-12-15-02:25:04: iteration phrase is going next iteration :Mahallesi Belki
+2016-12-15-02:25:04: Iteration for phrase : Mahallesi Belki başka
+2016-12-15-02:25:04: Searching for phrase :Mahallesi Belki başka
+2016-12-15-02:25:04: Response for phrase :Mahallesi Belki
+
+2016-12-15-02:25:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 30.608686 } ] }
+2016-12-15-02:25:04: ItemlistElement for phrase : Mahallesi Belki
+2016-12-15-02:25:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hv4t',
+     name: 'Çin Mahallesi',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1974 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Chinatown, yönetmenliğini Roman Polanski\' nin yaptığı, 1974 yılı yapımı bir ABD filmidir. Jack Nicholson, Faye Dunaway ve John Huston\' ın rol aldığı filmde Polanski\'nin de küçük bir rolü vardır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C3%87in_Mahallesi_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 30.608686 }
+2016-12-15-02:25:04: Callback for phrase : Mahallesi Belki
+2016-12-15-02:25:04: Callback for iteration phrase is succeed :Mahallesi Belki
+2016-12-15-02:25:04: Score for phrase is30.608686 : Mahallesi Belki
+2016-12-15-02:25:04: iteration phrase is going next iteration :Mahallesi Belki
+2016-12-15-02:25:04: Iteration for phrase : Mahallesi Belki başka
+2016-12-15-02:25:04: Searching for phrase :Mahallesi Belki başka
+2016-12-15-02:25:04: Response for phrase :Mahallesi Belki başka
+
+2016-12-15-02:25:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:25:04: ItemlistElement for phrase : Mahallesi Belki başka
+2016-12-15-02:25:04: undefined
+2016-12-15-02:25:04: Failed callback for phras : Mahallesi Belki başka
+
+2016-12-15-02:25:04: Callback for iteration phrase is succeed :Mahallesi Belki başka
+2016-12-15-02:25:04: Score for phrase isnull : Mahallesi Belki başka
+2016-12-15-02:25:04: iteration phrase is going root iteration :Mahallesi Belki başka
+2016-12-15-02:25:04: Root iteration for phrase : Mahallesi Belki başka
+2016-12-15-02:25:04: Searching for phrase :Mahallesi Belki başka
+2016-12-15-02:25:04: Response for phrase :Mahallesi Belki başka
+
+2016-12-15-02:25:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:25:04: ItemlistElement for phrase : Mahallesi Belki başka
+2016-12-15-02:25:04: undefined
+2016-12-15-02:25:04: Failed callback for phras : Mahallesi Belki başka
+
+2016-12-15-02:25:04: Callback for iteration phrase is succeed :Mahallesi Belki başka
+2016-12-15-02:25:04: Score for phrase isnull : Mahallesi Belki başka
+2016-12-15-02:25:04: iteration phrase is going root iteration :Mahallesi Belki başka
+2016-12-15-02:25:04: Root iteration for phrase : Mahallesi Belki başka
+2016-12-15-02:25:04: Searching for phrase :Mahallesi Belki başka
+2016-12-15-02:25:05: Response for phrase :Mahallesi Belki başka
+
+2016-12-15-02:25:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:25:05: ItemlistElement for phrase : Mahallesi Belki başka
+2016-12-15-02:25:05: undefined
+2016-12-15-02:25:05: Failed callback for phras : Mahallesi Belki başka
+
+2016-12-15-02:25:05: Callback for root iteration phrase is succeed :Mahallesi Belki başka
+2016-12-15-02:25:05: Score for phrase isnull : Mahallesi Belki başka
+2016-12-15-02:25:05: Root iteration phrase is going to matching :Mahallesi Belki başka
+2016-12-15-02:25:05: Matching result for phrase : Mahallesi Belki
+
+2016-12-15-02:25:05: { '@id': 'kg:/m/0hv4t',
+  name: 'Çin Mahallesi',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1974 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Chinatown, yönetmenliğini Roman Polanski\' nin yaptığı, 1974 yılı yapımı bir ABD filmidir. Jack Nicholson, Faye Dunaway ve John Huston\' ın rol aldığı filmde Polanski\'nin de küçük bir rolü vardır.\n',
+     url: 'https://tr.wikipedia.org/wiki/%C3%87in_Mahallesi_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:25:05: Result for phrase will be printed : Mahallesi Belki
+2016-12-15-02:25:05: received_result_no=2
+2016-12-15-02:25:05: System goes new search 
+2016-12-15-02:25:05: Searching for phrase :başka
+2016-12-15-02:25:05: Response for phrase :Mahallesi Belki başka
+
+2016-12-15-02:25:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:25:05: ItemlistElement for phrase : Mahallesi Belki başka
+2016-12-15-02:25:05: undefined
+2016-12-15-02:25:05: Failed callback for phras : Mahallesi Belki başka
+
+2016-12-15-02:25:05: Callback for root iteration phrase is succeed :Mahallesi Belki başka
+2016-12-15-02:25:05: Score for phrase isnull : Mahallesi Belki başka
+2016-12-15-02:25:05: Root iteration phrase is going to matching :Mahallesi Belki başka
+2016-12-15-02:25:05: Matching result for phrase : Mahallesi Belki
+
+2016-12-15-02:25:05: { '@id': 'kg:/m/0hv4t',
+  name: 'Çin Mahallesi',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1974 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Chinatown, yönetmenliğini Roman Polanski\' nin yaptığı, 1974 yılı yapımı bir ABD filmidir. Jack Nicholson, Faye Dunaway ve John Huston\' ın rol aldığı filmde Polanski\'nin de küçük bir rolü vardır.\n',
+     url: 'https://tr.wikipedia.org/wiki/%C3%87in_Mahallesi_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:25:05: Result for phrase will be printed : Mahallesi Belki
+2016-12-15-02:25:05: received_result_no=2
+2016-12-15-02:25:05: System goes new search 
+2016-12-15-02:25:05: Searching for phrase :başka
+2016-12-15-02:25:05: Response for phrase :başka
+
+2016-12-15-02:25:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.709797 } ] }
+2016-12-15-02:25:05: ItemlistElement for phrase : başka
+2016-12-15-02:25:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04v3q',
+     name: 'Malta',
+     '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQKknW_bFg6MVXB87G9zzotYo4cC-SSYNhDC8uEDvrHaTdy8vwG',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Malta.png' },
+     detailedDescription: 
+      { articleBody: 'Malta ya da resmî adıyla Malta Cumhuriyeti, Güney Avrupa\'da, Orta Akdeniz\'de yer alan, Sicilya\'nın güneyindeki adalar devleti. Malta takımadaları 3 büyük, 2 küçük adadan oluşur. Büyükleri: Malta, Gozo ve Comino. ',
+        url: 'https://tr.wikipedia.org/wiki/Malta',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.gov.mt/' },
+  resultScore: 27.709797 }
+2016-12-15-02:25:05: Callback for phrase : başka
+2016-12-15-02:25:05: Callback for word is succeed :başka
+2016-12-15-02:25:05: Word is going to iteration : başka
+2016-12-15-02:25:05: Iteration for phrase : başka bir
+2016-12-15-02:25:05: Searching for phrase :başka bir
+2016-12-15-02:25:05: Response for phrase :başka
+
+2016-12-15-02:25:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.709797 } ] }
+2016-12-15-02:25:05: ItemlistElement for phrase : başka
+2016-12-15-02:25:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04v3q',
+     name: 'Malta',
+     '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQKknW_bFg6MVXB87G9zzotYo4cC-SSYNhDC8uEDvrHaTdy8vwG',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Malta.png' },
+     detailedDescription: 
+      { articleBody: 'Malta ya da resmî adıyla Malta Cumhuriyeti, Güney Avrupa\'da, Orta Akdeniz\'de yer alan, Sicilya\'nın güneyindeki adalar devleti. Malta takımadaları 3 büyük, 2 küçük adadan oluşur. Büyükleri: Malta, Gozo ve Comino. ',
+        url: 'https://tr.wikipedia.org/wiki/Malta',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.gov.mt/' },
+  resultScore: 27.709797 }
+2016-12-15-02:25:05: Callback for phrase : başka
+2016-12-15-02:25:05: Callback for word is succeed :başka
+2016-12-15-02:25:05: Word is going to iteration : başka
+2016-12-15-02:25:05: Iteration for phrase : başka bir
+2016-12-15-02:25:05: Searching for phrase :başka bir
+2016-12-15-02:25:05: Response for phrase :başka bir
+
+2016-12-15-02:25:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 345.521606 } ] }
+2016-12-15-02:25:05: ItemlistElement for phrase : başka bir
+2016-12-15-02:25:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g5r4sy',
+     name: 'Başka Bir Dünya',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2011 yapımı film',
+     url: 'http://www.foxsearchlight.com/anotherearth/' },
+  resultScore: 345.521606 }
+2016-12-15-02:25:05: Callback for phrase : başka bir
+2016-12-15-02:25:05: Callback for iteration phrase is succeed :başka bir
+2016-12-15-02:25:05: Score for phrase is345.521606 : başka bir
+2016-12-15-02:25:05: iteration phrase is going next iteration :başka bir
+2016-12-15-02:25:05: Iteration for phrase : başka bir şey
+2016-12-15-02:25:05: Searching for phrase :başka bir şey
+2016-12-15-02:25:05: Response for phrase :başka bir
+
+2016-12-15-02:25:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 345.521606 } ] }
+2016-12-15-02:25:05: ItemlistElement for phrase : başka bir
+2016-12-15-02:25:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g5r4sy',
+     name: 'Başka Bir Dünya',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2011 yapımı film',
+     url: 'http://www.foxsearchlight.com/anotherearth/' },
+  resultScore: 345.521606 }
+2016-12-15-02:25:05: Callback for phrase : başka bir
+2016-12-15-02:25:05: Callback for iteration phrase is succeed :başka bir
+2016-12-15-02:25:05: Score for phrase is345.521606 : başka bir
+2016-12-15-02:25:05: iteration phrase is going next iteration :başka bir
+2016-12-15-02:25:05: Iteration for phrase : başka bir şey
+2016-12-15-02:25:05: Searching for phrase :başka bir şey
+2016-12-15-02:25:06: Response for phrase :başka bir şey
+
+2016-12-15-02:25:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 213.7901 } ] }
+2016-12-15-02:25:06: ItemlistElement for phrase : başka bir şey
+2016-12-15-02:25:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05p1v01',
+     name: 'Başka Bir Şey İstemem',
+     '@type': [ 'Thing' ],
+     description: 'Baha\'nın şarkısı' },
+  resultScore: 213.7901 }
+2016-12-15-02:25:06: Callback for phrase : başka bir şey
+2016-12-15-02:25:06: Callback for iteration phrase is succeed :başka bir şey
+2016-12-15-02:25:06: Score for phrase is213.7901 : başka bir şey
+2016-12-15-02:25:06: iteration phrase is going root iteration :başka bir şey
+2016-12-15-02:25:06: Root iteration for phrase : başka bir şey
+2016-12-15-02:25:06: Searching for phrase :başka bir şey
+2016-12-15-02:25:06: Response for phrase :başka bir şey
+
+2016-12-15-02:25:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 213.7901 } ] }
+2016-12-15-02:25:06: ItemlistElement for phrase : başka bir şey
+2016-12-15-02:25:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05p1v01',
+     name: 'Başka Bir Şey İstemem',
+     '@type': [ 'Thing' ],
+     description: 'Baha\'nın şarkısı' },
+  resultScore: 213.7901 }
+2016-12-15-02:25:06: Callback for phrase : başka bir şey
+2016-12-15-02:25:06: Callback for iteration phrase is succeed :başka bir şey
+2016-12-15-02:25:06: Score for phrase is213.7901 : başka bir şey
+2016-12-15-02:25:06: iteration phrase is going root iteration :başka bir şey
+2016-12-15-02:25:06: Root iteration for phrase : başka bir şey
+2016-12-15-02:25:06: Searching for phrase :başka bir şey
+2016-12-15-02:25:06: Response for phrase :başka bir şey
+
+2016-12-15-02:25:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 213.7901 } ] }
+2016-12-15-02:25:06: ItemlistElement for phrase : başka bir şey
+2016-12-15-02:25:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05p1v01',
+     name: 'Başka Bir Şey İstemem',
+     '@type': [ 'Thing' ],
+     description: 'Baha\'nın şarkısı' },
+  resultScore: 213.7901 }
+2016-12-15-02:25:06: Callback for phrase : başka bir şey
+2016-12-15-02:25:06: Callback for root iteration phrase is succeed :başka bir şey
+2016-12-15-02:25:06: Score for phrase is213.7901 : başka bir şey
+2016-12-15-02:25:06: Root iteration phrase is going to matching :başka bir şey
+2016-12-15-02:25:06: Matching result for phrase : başka bir
+
+2016-12-15-02:25:06: { '@id': 'kg:/m/0g5r4sy',
+  name: 'Başka Bir Dünya',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2011 yapımı film',
+  url: 'http://www.foxsearchlight.com/anotherearth/' }
+2016-12-15-02:25:06: Result for phrase will be printed : başka bir
+2016-12-15-02:25:06: 1: slide right gesture is called
+2016-12-15-02:25:06: Response for phrase :başka bir şey
+
+2016-12-15-02:25:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 213.7901 } ] }
+2016-12-15-02:25:06: ItemlistElement for phrase : başka bir şey
+2016-12-15-02:25:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05p1v01',
+     name: 'Başka Bir Şey İstemem',
+     '@type': [ 'Thing' ],
+     description: 'Baha\'nın şarkısı' },
+  resultScore: 213.7901 }
+2016-12-15-02:25:06: Callback for phrase : başka bir şey
+2016-12-15-02:25:06: Callback for root iteration phrase is succeed :başka bir şey
+2016-12-15-02:25:06: Score for phrase is213.7901 : başka bir şey
+2016-12-15-02:25:06: Root iteration phrase is going to matching :başka bir şey
+2016-12-15-02:25:06: Matching result for phrase : başka bir
+
+2016-12-15-02:25:06: { '@id': 'kg:/m/0g5r4sy',
+  name: 'Başka Bir Dünya',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2011 yapımı film',
+  url: 'http://www.foxsearchlight.com/anotherearth/' }
+2016-12-15-02:25:06: Result for phrase will be printed : başka bir
+2016-12-15-02:25:06: 1: slide right gesture is called
+2016-12-15-02:25:07: 1: slide right gesture is called
+2016-12-15-02:25:07: 1: slide right gesture is called
+2016-12-15-02:25:07: 1: slide right gesture is called
+2016-12-15-02:25:08: 1: slide right gesture is called
+2016-12-15-02:25:08: 1: slide right gesture is called
+2016-12-15-02:25:08: 1: slide right gesture is called
+2016-12-15-02:25:09: 1: slide right gesture is called
+2016-12-15-02:25:09: 1: slide right gesture is called
+2016-12-15-02:25:09: 1: slide left gesture is called
+2016-12-15-02:25:09: 1: slide left gesture is called
+2016-12-15-02:25:09: 1: slide left gesture is called
+2016-12-15-02:25:09: 1: slide left gesture is called
+2016-12-15-02:25:51: 2:click detected at point:[object Object]
+2016-12-15-02:25:52: 2:click detected at point:[object Object]
+2016-12-15-02:25:52: Connected
+2016-12-15-02:25:52: 2:click detected at point:[object Object]
+2016-12-15-02:25:58: Data received from stt: Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: SearchTerm from microphone:Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: State machine is initialized with input: 
+2016-12-15-02:25:58: Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: Input words : 
+2016-12-15-02:25:58: [ 'Nazım', 'Hikmet', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:25:58: Input roots : 
+2016-12-15-02:25:58: [ 'Nazım', 'Hikmet', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:25:58: Searching for phrase :Nazım
+2016-12-15-02:25:58: Data received from stt: Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: SearchTerm from microphone:Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: State machine is initialized with input: 
+2016-12-15-02:25:58: Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: Input words : 
+2016-12-15-02:25:58: [ 'Nazım', 'Hikmet', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:25:58: Input roots : 
+2016-12-15-02:25:58: [ 'Nazım', 'Hikmet', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:25:58: Searching for phrase :Nazım
+2016-12-15-02:25:58: Data received from stt: Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: SearchTerm from microphone:Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: State machine is initialized with input: 
+2016-12-15-02:25:58: Nazım Hikmet Mehmet Ali Erbil Nazım,Noun Hikmet,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:25:58: Input words : 
+2016-12-15-02:25:58: [ 'Nazım', 'Hikmet', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:25:58: Input roots : 
+2016-12-15-02:25:58: [ 'Nazım', 'Hikmet', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:25:58: Searching for phrase :Nazım
+2016-12-15-02:25:58: Connection closed
+2016-12-15-02:25:58: Connection closed
+2016-12-15-02:25:58: Connection closed
+2016-12-15-02:25:58: Response for phrase :Nazım
+
+2016-12-15-02:25:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.841133 } ] }
+2016-12-15-02:25:58: ItemlistElement for phrase : Nazım
+2016-12-15-02:25:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.841133 }
+2016-12-15-02:25:58: Callback for phrase : Nazım
+2016-12-15-02:25:58: Callback for word is succeed :Nazım
+2016-12-15-02:25:58: Word is going to iteration : Nazım
+2016-12-15-02:25:58: Iteration for phrase : Nazım Hikmet
+2016-12-15-02:25:58: Searching for phrase :Nazım Hikmet
+2016-12-15-02:25:58: Response for phrase :Nazım
+
+2016-12-15-02:25:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.841133 } ] }
+2016-12-15-02:25:58: ItemlistElement for phrase : Nazım
+2016-12-15-02:25:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.841133 }
+2016-12-15-02:25:58: Callback for phrase : Nazım
+2016-12-15-02:25:58: Callback for word is succeed :Nazım
+2016-12-15-02:25:58: Word is going to iteration : Nazım
+2016-12-15-02:25:58: Iteration for phrase : Nazım Hikmet
+2016-12-15-02:25:58: Searching for phrase :Nazım Hikmet
+2016-12-15-02:25:58: Response for phrase :Nazım
+
+2016-12-15-02:25:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.841133 } ] }
+2016-12-15-02:25:58: ItemlistElement for phrase : Nazım
+2016-12-15-02:25:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.841133 }
+2016-12-15-02:25:58: Callback for phrase : Nazım
+2016-12-15-02:25:58: Callback for word is succeed :Nazım
+2016-12-15-02:25:58: Word is going to iteration : Nazım
+2016-12-15-02:25:58: Iteration for phrase : Nazım Hikmet
+2016-12-15-02:25:58: Searching for phrase :Nazım Hikmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.138428 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.138428 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet
+2016-12-15-02:25:59: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-15-02:25:59: Score for phrase is410.138428 : Nazım Hikmet
+2016-12-15-02:25:59: iteration phrase is going next iteration :Nazım Hikmet
+2016-12-15-02:25:59: Iteration for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Searching for phrase :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.138428 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.138428 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet
+2016-12-15-02:25:59: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-15-02:25:59: Score for phrase is410.138428 : Nazım Hikmet
+2016-12-15-02:25:59: iteration phrase is going next iteration :Nazım Hikmet
+2016-12-15-02:25:59: Iteration for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Searching for phrase :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.138428 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.138428 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet
+2016-12-15-02:25:59: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-15-02:25:59: Score for phrase is410.138428 : Nazım Hikmet
+2016-12-15-02:25:59: iteration phrase is going next iteration :Nazım Hikmet
+2016-12-15-02:25:59: Iteration for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Searching for phrase :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet Mehmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.855961 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0w0_00m',
+     name: 'Mehmet Ran',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Nâzım Hikmet\'in oğlu' },
+  resultScore: 42.855961 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Callback for iteration phrase is succeed :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Score for phrase is42.855961 : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: iteration phrase is going root iteration :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Root iteration for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Searching for phrase :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet Mehmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.855961 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0w0_00m',
+     name: 'Mehmet Ran',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Nâzım Hikmet\'in oğlu' },
+  resultScore: 42.855961 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Callback for iteration phrase is succeed :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Score for phrase is42.855961 : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: iteration phrase is going root iteration :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Root iteration for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Searching for phrase :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet Mehmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.855961 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0w0_00m',
+     name: 'Mehmet Ran',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Nâzım Hikmet\'in oğlu' },
+  resultScore: 42.855961 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Callback for iteration phrase is succeed :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Score for phrase is42.855961 : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: iteration phrase is going root iteration :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Root iteration for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Searching for phrase :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet Mehmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.855961 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0w0_00m',
+     name: 'Mehmet Ran',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Nâzım Hikmet\'in oğlu' },
+  resultScore: 42.855961 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Callback for root iteration phrase is succeed :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Score for phrase is42.855961 : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Root iteration phrase is going to matching :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Matching result for phrase : Nazım Hikmet
+
+2016-12-15-02:25:59: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-15-02:25:59: Result for phrase will be printed : Nazım Hikmet
+2016-12-15-02:25:59: https://www.googleapis.com/customsearch/v1?q=Nâzım Hikmet&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:25:59: received_result_no=1
+2016-12-15-02:25:59: System goes new search 
+2016-12-15-02:25:59: Searching for phrase :Mehmet
+2016-12-15-02:25:59: Response for phrase :Nazım Hikmet Mehmet
+
+2016-12-15-02:25:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.855961 } ] }
+2016-12-15-02:25:59: ItemlistElement for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0w0_00m',
+     name: 'Mehmet Ran',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Nâzım Hikmet\'in oğlu' },
+  resultScore: 42.855961 }
+2016-12-15-02:25:59: Callback for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Callback for root iteration phrase is succeed :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Score for phrase is42.855961 : Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Root iteration phrase is going to matching :Nazım Hikmet Mehmet
+2016-12-15-02:25:59: Matching result for phrase : Nazım Hikmet
+
+2016-12-15-02:25:59: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-15-02:25:59: Result for phrase will be printed : Nazım Hikmet
+2016-12-15-02:25:59: https://www.googleapis.com/customsearch/v1?q=Nâzım Hikmet&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:25:59: received_result_no=1
+2016-12-15-02:25:59: System goes new search 
+2016-12-15-02:25:59: Searching for phrase :Mehmet
+2016-12-15-02:26:00: Response for phrase :Nazım Hikmet Mehmet
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.855961 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0w0_00m',
+     name: 'Mehmet Ran',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Nâzım Hikmet\'in oğlu' },
+  resultScore: 42.855961 }
+2016-12-15-02:26:00: Callback for phrase : Nazım Hikmet Mehmet
+2016-12-15-02:26:00: Callback for root iteration phrase is succeed :Nazım Hikmet Mehmet
+2016-12-15-02:26:00: Score for phrase is42.855961 : Nazım Hikmet Mehmet
+2016-12-15-02:26:00: Root iteration phrase is going to matching :Nazım Hikmet Mehmet
+2016-12-15-02:26:00: Matching result for phrase : Nazım Hikmet
+
+2016-12-15-02:26:00: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-15-02:26:00: Result for phrase will be printed : Nazım Hikmet
+2016-12-15-02:26:00: https://www.googleapis.com/customsearch/v1?q=Nâzım Hikmet&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:26:00: received_result_no=1
+2016-12-15-02:26:00: System goes new search 
+2016-12-15-02:26:00: Searching for phrase :Mehmet
+2016-12-15-02:26:00: Response for phrase :Mehmet
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Mehmet
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-02:26:00: Callback for phrase : Mehmet
+2016-12-15-02:26:00: Callback for word is succeed :Mehmet
+2016-12-15-02:26:00: Word is going to iteration : Mehmet
+2016-12-15-02:26:00: Iteration for phrase : Mehmet Ali
+2016-12-15-02:26:00: Searching for phrase :Mehmet Ali
+2016-12-15-02:26:00: Response for phrase :Mehmet
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Mehmet
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-02:26:00: Callback for phrase : Mehmet
+2016-12-15-02:26:00: Callback for word is succeed :Mehmet
+2016-12-15-02:26:00: Word is going to iteration : Mehmet
+2016-12-15-02:26:00: Iteration for phrase : Mehmet Ali
+2016-12-15-02:26:00: Searching for phrase :Mehmet Ali
+2016-12-15-02:26:00: Response for phrase :Mehmet
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Mehmet
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-02:26:00: Callback for phrase : Mehmet
+2016-12-15-02:26:00: Callback for word is succeed :Mehmet
+2016-12-15-02:26:00: Word is going to iteration : Mehmet
+2016-12-15-02:26:00: Iteration for phrase : Mehmet Ali
+2016-12-15-02:26:00: Searching for phrase :Mehmet Ali
+2016-12-15-02:26:00: Response for phrase :Mehmet Ali
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-02:26:00: Callback for phrase : Mehmet Ali
+2016-12-15-02:26:00: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-02:26:00: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-02:26:00: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-02:26:00: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:00: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-02:26:00: Response for phrase :Mehmet Ali
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-02:26:00: Callback for phrase : Mehmet Ali
+2016-12-15-02:26:00: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-02:26:00: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-02:26:00: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-02:26:00: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:00: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-02:26:00: Response for phrase :Mehmet Ali
+
+2016-12-15-02:26:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-02:26:00: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-02:26:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-02:26:00: Callback for phrase : Mehmet Ali
+2016-12-15-02:26:00: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-02:26:00: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-02:26:00: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-02:26:00: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:00: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-02:26:01: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:01: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-02:26:01: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-02:26:01: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-02:26:01: Iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-02:26:01: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:01: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-02:26:01: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-02:26:01: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-02:26:01: Iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-02:26:01: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-02:26:01: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-02:26:01: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-02:26:01: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-02:26:01: Iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: undefined
+2016-12-15-02:26:01: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: Callback for iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: iteration phrase is going root iteration :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Root iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: undefined
+2016-12-15-02:26:01: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: Callback for iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: iteration phrase is going root iteration :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Root iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: undefined
+2016-12-15-02:26:01: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: Callback for iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: iteration phrase is going root iteration :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Root iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: undefined
+2016-12-15-02:26:01: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: Callback for root iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Root iteration phrase is going to matching :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-02:26:01: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:26:01: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-02:26:01: received_result_no=2
+2016-12-15-02:26:01: System will be shutdown
+2016-12-15-02:26:01: finish
+2016-12-15-02:26:01: process is finished
+2016-12-15-02:26:01: -----------------Printed Results------------------------
+2016-12-15-02:26:01: Nâzım Hikmet
+2016-12-15-02:26:01: Mehmet Ali Erbil
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: undefined
+2016-12-15-02:26:01: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: Callback for root iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Root iteration phrase is going to matching :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-02:26:01: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:26:01: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-02:26:01: received_result_no=2
+2016-12-15-02:26:01: System will be shutdown
+2016-12-15-02:26:01: finish
+2016-12-15-02:26:01: process is finished
+2016-12-15-02:26:01: -----------------Printed Results------------------------
+2016-12-15-02:26:01: Nâzım Hikmet
+2016-12-15-02:26:01: Mehmet Ali Erbil
+2016-12-15-02:26:01: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:26:01: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: undefined
+2016-12-15-02:26:01: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:26:01: Callback for root iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Root iteration phrase is going to matching :Mehmet Ali Erbil undefined
+2016-12-15-02:26:01: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-02:26:01: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:26:01: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-02:26:01: received_result_no=2
+2016-12-15-02:26:01: System will be shutdown
+2016-12-15-02:26:01: finish
+2016-12-15-02:26:01: process is finished
+2016-12-15-02:26:01: -----------------Printed Results------------------------
+2016-12-15-02:26:01: Nâzım Hikmet
+2016-12-15-02:26:01: Mehmet Ali Erbil
+2016-12-15-02:26:08: 1: slide right gesture is called
+2016-12-15-02:26:08: 1: slide right gesture is called
+2016-12-15-02:26:08: 1: slide right gesture is called
+2016-12-15-02:26:08: 1: slide left gesture is called
+2016-12-15-02:26:09: 1: slide left gesture is called
+2016-12-15-02:26:09: 1: slide left gesture is called
+2016-12-15-02:26:09: 1: slide right gesture is called
+2016-12-15-02:26:09: 1: slide right gesture is called
+2016-12-15-02:26:10: 1: slide right gesture is called
+2016-12-15-02:26:10: 1: slide right gesture is called
+2016-12-15-02:26:10: 1: slide left gesture is called
+2016-12-15-02:26:11: 1: slide left gesture is called
+2016-12-15-02:26:11: 1: slide left gesture is called
+2016-12-15-02:26:11: 1: slide left gesture is called
+2016-12-15-02:26:11: 1: slide left gesture is called
+2016-12-15-02:26:12: 1: slide left gesture is called
+2016-12-15-02:26:12: 1: slide left gesture is called

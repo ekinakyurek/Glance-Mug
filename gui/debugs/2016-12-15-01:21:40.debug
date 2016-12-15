@@ -1,0 +1,2977 @@
+2016-12-15-01:21:50: 2: slide right gesture is called
+2016-12-15-01:21:50: 2:click detected at point:[object Object]
+2016-12-15-01:21:51: 2:click detected at point:[object Object]
+2016-12-15-01:21:51: Connected
+2016-12-15-01:21:51: 2:click detected at point:[object Object]
+2016-12-15-01:21:57: Data received from stt: Orhan Baba tekerlek Orhan,Noun Baba,Noun tekerlek,Noun
+2016-12-15-01:21:57: SearchTerm from microphone:Orhan Baba tekerlek Orhan,Noun Baba,Noun tekerlek,Noun
+2016-12-15-01:21:57: State machine is initialized with input: 
+2016-12-15-01:21:57: Orhan Baba tekerlek Orhan,Noun Baba,Noun tekerlek,Noun
+2016-12-15-01:21:57: Input words : 
+2016-12-15-01:21:57: [ 'Orhan', 'Baba', 'tekerlek' ]
+2016-12-15-01:21:57: Input roots : 
+2016-12-15-01:21:57: [ 'Orhan', 'Baba', 'tekerlek' ]
+2016-12-15-01:21:57: Searching for phrase :Orhan
+2016-12-15-01:21:57: Connection closed
+2016-12-15-01:21:58: Response for phrase :Orhan
+
+2016-12-15-01:21:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-01:21:58: ItemlistElement for phrase : Orhan
+2016-12-15-01:21:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-01:21:58: Callback for phrase : Orhan
+2016-12-15-01:21:58: Callback for word is succeed :Orhan
+2016-12-15-01:21:58: Word is going to iteration : Orhan
+2016-12-15-01:21:58: Iteration for phrase : Orhan Baba
+2016-12-15-01:21:58: Searching for phrase :Orhan Baba
+2016-12-15-01:21:58: Response for phrase :Orhan Baba
+
+2016-12-15-01:21:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.518219 } ] }
+2016-12-15-01:21:58: ItemlistElement for phrase : Orhan Baba
+2016-12-15-01:21:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.518219 }
+2016-12-15-01:21:58: Callback for phrase : Orhan Baba
+2016-12-15-01:21:58: Callback for iteration phrase is succeed :Orhan Baba
+2016-12-15-01:21:58: Score for phrase is182.518219 : Orhan Baba
+2016-12-15-01:21:58: iteration phrase is going next iteration :Orhan Baba
+2016-12-15-01:21:58: Iteration for phrase : Orhan Baba tekerlek
+2016-12-15-01:21:58: Searching for phrase :Orhan Baba tekerlek
+2016-12-15-01:21:59: Response for phrase :Orhan Baba tekerlek
+
+2016-12-15-01:21:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:21:59: ItemlistElement for phrase : Orhan Baba tekerlek
+2016-12-15-01:21:59: undefined
+2016-12-15-01:21:59: Failed callback for phras : Orhan Baba tekerlek
+
+2016-12-15-01:21:59: Callback for iteration phrase is succeed :Orhan Baba tekerlek
+2016-12-15-01:21:59: Score for phrase isnull : Orhan Baba tekerlek
+2016-12-15-01:21:59: iteration phrase is going root iteration :Orhan Baba tekerlek
+2016-12-15-01:21:59: Root iteration for phrase : Orhan Baba tekerlek
+2016-12-15-01:21:59: Searching for phrase :Orhan Baba tekerlek
+2016-12-15-01:21:59: Response for phrase :Orhan Baba tekerlek
+
+2016-12-15-01:21:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:21:59: ItemlistElement for phrase : Orhan Baba tekerlek
+2016-12-15-01:21:59: undefined
+2016-12-15-01:21:59: Failed callback for phras : Orhan Baba tekerlek
+
+2016-12-15-01:21:59: Callback for root iteration phrase is succeed :Orhan Baba tekerlek
+2016-12-15-01:21:59: Score for phrase isnull : Orhan Baba tekerlek
+2016-12-15-01:21:59: Root iteration phrase is going to matching :Orhan Baba tekerlek
+2016-12-15-01:21:59: Matching result for phrase : Orhan Baba
+
+2016-12-15-01:21:59: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-01:21:59: Result for phrase will be printed : Orhan Baba
+2016-12-15-01:21:59: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:21:59: received_result_no=1
+2016-12-15-01:21:59: System goes new search 
+2016-12-15-01:21:59: Searching for phrase :tekerlek
+2016-12-15-01:21:59: Response for phrase :tekerlek
+
+2016-12-15-01:21:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.677948 } ] }
+2016-12-15-01:21:59: ItemlistElement for phrase : tekerlek
+2016-12-15-01:21:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06k_y8',
+     name: 'Tekerlek Böceği',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTxuZfhRrcXk5-zz-miN27516B3fd9_E7jXPmIRCjtDXTEEvENX',
+        url: 'https://commons.wikimedia.org/wiki/File:A_Wheel_bug_(Arilus_cristatus)_eating_a_Japanese_beetle_(Popillia_japonica).jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' } },
+  resultScore: 19.677948 }
+2016-12-15-01:21:59: Callback for phrase : tekerlek
+2016-12-15-01:21:59: Callback for word is succeed :tekerlek
+2016-12-15-01:21:59: last word is noun here is the result of :tekerlek
+2016-12-15-01:21:59: { '@id': 'kg:/m/06k_y8',
+  name: 'Tekerlek Böceği',
+  '@type': [ 'Thing' ],
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTxuZfhRrcXk5-zz-miN27516B3fd9_E7jXPmIRCjtDXTEEvENX',
+     url: 'https://commons.wikimedia.org/wiki/File:A_Wheel_bug_(Arilus_cristatus)_eating_a_Japanese_beetle_(Popillia_japonica).jpg',
+     license: 'http://creativecommons.org/licenses/by/2.0' } }
+2016-12-15-01:22:02: 1: slide right gesture is called
+2016-12-15-01:22:02: 1: slide right gesture is called
+2016-12-15-01:22:03: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:04: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:04: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:05: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:06: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:06: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:06: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:07: 2: slide right gesture is called
+2016-12-15-01:22:07: 2: slide right gesture is called
+2016-12-15-01:22:08: 2: slide left gesture is called
+2016-12-15-01:22:08: 2: slide left gesture is called
+2016-12-15-01:22:08: 2: slide left gesture is called
+2016-12-15-01:22:09: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:09: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:09: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:10: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:10: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:10: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:10: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:10: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:10: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:11: 1: slide left gesture is called
+2016-12-15-01:22:11: 1: slide left gesture is called
+2016-12-15-01:22:11: 1: slide right gesture is called
+2016-12-15-01:22:12: 1: slide right gesture is called
+2016-12-15-01:22:12: 1: slide right gesture is called
+2016-12-15-01:22:12: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:12: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:13: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:13: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:13: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:13: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:13: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:13: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:14: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:14: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:14: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:14: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:14: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:14: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:15: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:15: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:18: 1: slide right gesture is called
+2016-12-15-01:22:18: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:19: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:19: AftermoveSectionDown section_count is: 0
+2016-12-15-01:22:19: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:19: AftermoveSectionUp section_count is: 0
+2016-12-15-01:22:25: 2:click detected at point:[object Object]
+2016-12-15-01:22:25: Connected
+2016-12-15-01:22:25: 2:click detected at point:[object Object]
+2016-12-15-01:22:33: Data received from stt: Hülya Avşar Mehmet Ali Erbil Mustafa Kemal Atatürk Hülya,Noun Avşar,Noun Mehmet,Noun Ali,Noun Erbil,Noun Mustafa,Noun kemal,Noun Atatürk,Noun
+2016-12-15-01:22:33: SearchTerm from microphone:Hülya Avşar Mehmet Ali Erbil Mustafa Kemal Atatürk Hülya,Noun Avşar,Noun Mehmet,Noun Ali,Noun Erbil,Noun Mustafa,Noun kemal,Noun Atatürk,Noun
+2016-12-15-01:22:33: State machine is initialized with input: 
+2016-12-15-01:22:33: Hülya Avşar Mehmet Ali Erbil Mustafa Kemal Atatürk Hülya,Noun Avşar,Noun Mehmet,Noun Ali,Noun Erbil,Noun Mustafa,Noun kemal,Noun Atatürk,Noun
+2016-12-15-01:22:33: Input words : 
+2016-12-15-01:22:33: [ 'Hülya',
+  'Avşar',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Mustafa',
+  'Kemal',
+  'Atatürk' ]
+2016-12-15-01:22:33: Input roots : 
+2016-12-15-01:22:33: [ 'Hülya',
+  'Avşar',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Mustafa',
+  'kemal',
+  'Atatürk' ]
+2016-12-15-01:22:33: Searching for phrase :Hülya
+2016-12-15-01:22:33: Data received from stt: Hülya Avşar Mehmet Ali Erbil Mustafa Kemal Atatürk Hülya,Noun Avşar,Noun Mehmet,Noun Ali,Noun Erbil,Noun Mustafa,Noun kemal,Noun Atatürk,Noun
+2016-12-15-01:22:33: SearchTerm from microphone:Hülya Avşar Mehmet Ali Erbil Mustafa Kemal Atatürk Hülya,Noun Avşar,Noun Mehmet,Noun Ali,Noun Erbil,Noun Mustafa,Noun kemal,Noun Atatürk,Noun
+2016-12-15-01:22:33: State machine is initialized with input: 
+2016-12-15-01:22:33: Hülya Avşar Mehmet Ali Erbil Mustafa Kemal Atatürk Hülya,Noun Avşar,Noun Mehmet,Noun Ali,Noun Erbil,Noun Mustafa,Noun kemal,Noun Atatürk,Noun
+2016-12-15-01:22:33: Input words : 
+2016-12-15-01:22:33: [ 'Hülya',
+  'Avşar',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Mustafa',
+  'Kemal',
+  'Atatürk' ]
+2016-12-15-01:22:33: Input roots : 
+2016-12-15-01:22:33: [ 'Hülya',
+  'Avşar',
+  'Mehmet',
+  'Ali',
+  'Erbil',
+  'Mustafa',
+  'kemal',
+  'Atatürk' ]
+2016-12-15-01:22:33: Searching for phrase :Hülya
+2016-12-15-01:22:33: Connection closed
+2016-12-15-01:22:33: Connection closed
+2016-12-15-01:22:34: Response for phrase :Hülya
+
+2016-12-15-01:22:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.311569 } ] }
+2016-12-15-01:22:34: ItemlistElement for phrase : Hülya
+2016-12-15-01:22:34: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gffmw',
+     name: 'Hülya Avşar',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Sinema oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Hülya Avşar, Kürt asıllı Türk sinema ve dizi oyuncusu, şarkıcı ve sunucu.',
+        url: 'https://tr.wikipedia.org/wiki/H%C3%BClya_Av%C5%9Far',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 41.311569 }
+2016-12-15-01:22:34: Callback for phrase : Hülya
+2016-12-15-01:22:34: Callback for word is succeed :Hülya
+2016-12-15-01:22:34: Word is going to iteration : Hülya
+2016-12-15-01:22:34: Iteration for phrase : Hülya Avşar
+2016-12-15-01:22:34: Searching for phrase :Hülya Avşar
+2016-12-15-01:22:34: Response for phrase :Hülya
+
+2016-12-15-01:22:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.311569 } ] }
+2016-12-15-01:22:34: ItemlistElement for phrase : Hülya
+2016-12-15-01:22:34: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gffmw',
+     name: 'Hülya Avşar',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Sinema oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Hülya Avşar, Kürt asıllı Türk sinema ve dizi oyuncusu, şarkıcı ve sunucu.',
+        url: 'https://tr.wikipedia.org/wiki/H%C3%BClya_Av%C5%9Far',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 41.311569 }
+2016-12-15-01:22:34: Callback for phrase : Hülya
+2016-12-15-01:22:34: Callback for word is succeed :Hülya
+2016-12-15-01:22:34: Word is going to iteration : Hülya
+2016-12-15-01:22:34: Iteration for phrase : Hülya Avşar
+2016-12-15-01:22:34: Searching for phrase :Hülya Avşar
+2016-12-15-01:22:34: Response for phrase :Hülya Avşar
+
+2016-12-15-01:22:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 574.348755 } ] }
+2016-12-15-01:22:34: ItemlistElement for phrase : Hülya Avşar
+2016-12-15-01:22:34: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gffmw',
+     name: 'Hülya Avşar',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Sinema oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Hülya Avşar, Kürt asıllı Türk sinema ve dizi oyuncusu, şarkıcı ve sunucu.',
+        url: 'https://tr.wikipedia.org/wiki/H%C3%BClya_Av%C5%9Far',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 574.348755 }
+2016-12-15-01:22:34: Callback for phrase : Hülya Avşar
+2016-12-15-01:22:34: Callback for iteration phrase is succeed :Hülya Avşar
+2016-12-15-01:22:34: Score for phrase is574.348755 : Hülya Avşar
+2016-12-15-01:22:34: iteration phrase is going next iteration :Hülya Avşar
+2016-12-15-01:22:34: Iteration for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:34: Searching for phrase :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Response for phrase :Hülya Avşar
+
+2016-12-15-01:22:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 574.348755 } ] }
+2016-12-15-01:22:34: ItemlistElement for phrase : Hülya Avşar
+2016-12-15-01:22:34: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gffmw',
+     name: 'Hülya Avşar',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Sinema oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Hülya Avşar, Kürt asıllı Türk sinema ve dizi oyuncusu, şarkıcı ve sunucu.',
+        url: 'https://tr.wikipedia.org/wiki/H%C3%BClya_Av%C5%9Far',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 574.348755 }
+2016-12-15-01:22:34: Callback for phrase : Hülya Avşar
+2016-12-15-01:22:34: Callback for iteration phrase is succeed :Hülya Avşar
+2016-12-15-01:22:34: Score for phrase is574.348755 : Hülya Avşar
+2016-12-15-01:22:34: iteration phrase is going next iteration :Hülya Avşar
+2016-12-15-01:22:34: Iteration for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:34: Searching for phrase :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Response for phrase :Hülya Avşar Mehmet
+
+2016-12-15-01:22:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:34: ItemlistElement for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:34: undefined
+2016-12-15-01:22:34: Failed callback for phras : Hülya Avşar Mehmet
+
+2016-12-15-01:22:34: Callback for iteration phrase is succeed :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Score for phrase isnull : Hülya Avşar Mehmet
+2016-12-15-01:22:34: iteration phrase is going root iteration :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Root iteration for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:34: Searching for phrase :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Response for phrase :Hülya Avşar Mehmet
+
+2016-12-15-01:22:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:34: ItemlistElement for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:34: undefined
+2016-12-15-01:22:34: Failed callback for phras : Hülya Avşar Mehmet
+
+2016-12-15-01:22:34: Callback for iteration phrase is succeed :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Score for phrase isnull : Hülya Avşar Mehmet
+2016-12-15-01:22:34: iteration phrase is going root iteration :Hülya Avşar Mehmet
+2016-12-15-01:22:34: Root iteration for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:34: Searching for phrase :Hülya Avşar Mehmet
+2016-12-15-01:22:35: Response for phrase :Hülya Avşar Mehmet
+
+2016-12-15-01:22:35: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:35: ItemlistElement for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:35: undefined
+2016-12-15-01:22:35: Failed callback for phras : Hülya Avşar Mehmet
+
+2016-12-15-01:22:35: Callback for root iteration phrase is succeed :Hülya Avşar Mehmet
+2016-12-15-01:22:35: Score for phrase isnull : Hülya Avşar Mehmet
+2016-12-15-01:22:35: Root iteration phrase is going to matching :Hülya Avşar Mehmet
+2016-12-15-01:22:35: Matching result for phrase : Hülya Avşar
+
+2016-12-15-01:22:35: { '@id': 'kg:/m/0gffmw',
+  name: 'Hülya Avşar',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Sinema oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Hülya Avşar, Kürt asıllı Türk sinema ve dizi oyuncusu, şarkıcı ve sunucu.',
+     url: 'https://tr.wikipedia.org/wiki/H%C3%BClya_Av%C5%9Far',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:35: Result for phrase will be printed : Hülya Avşar
+2016-12-15-01:22:35: https://www.googleapis.com/customsearch/v1?q=Hülya Avşar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:22:35: received_result_no=1
+2016-12-15-01:22:35: System goes new search 
+2016-12-15-01:22:35: Searching for phrase :Mehmet
+2016-12-15-01:22:35: Response for phrase :Hülya Avşar Mehmet
+
+2016-12-15-01:22:35: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:35: ItemlistElement for phrase : Hülya Avşar Mehmet
+2016-12-15-01:22:35: undefined
+2016-12-15-01:22:35: Failed callback for phras : Hülya Avşar Mehmet
+
+2016-12-15-01:22:35: Callback for root iteration phrase is succeed :Hülya Avşar Mehmet
+2016-12-15-01:22:35: Score for phrase isnull : Hülya Avşar Mehmet
+2016-12-15-01:22:35: Root iteration phrase is going to matching :Hülya Avşar Mehmet
+2016-12-15-01:22:35: Matching result for phrase : Hülya Avşar
+
+2016-12-15-01:22:35: { '@id': 'kg:/m/0gffmw',
+  name: 'Hülya Avşar',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Sinema oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Hülya Avşar, Kürt asıllı Türk sinema ve dizi oyuncusu, şarkıcı ve sunucu.',
+     url: 'https://tr.wikipedia.org/wiki/H%C3%BClya_Av%C5%9Far',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:35: Result for phrase will be printed : Hülya Avşar
+2016-12-15-01:22:35: https://www.googleapis.com/customsearch/v1?q=Hülya Avşar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:22:35: received_result_no=1
+2016-12-15-01:22:35: System goes new search 
+2016-12-15-01:22:35: Searching for phrase :Mehmet
+2016-12-15-01:22:35: Response for phrase :Mehmet
+
+2016-12-15-01:22:35: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-01:22:35: ItemlistElement for phrase : Mehmet
+2016-12-15-01:22:35: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-01:22:35: Callback for phrase : Mehmet
+2016-12-15-01:22:35: Callback for word is succeed :Mehmet
+2016-12-15-01:22:35: Word is going to iteration : Mehmet
+2016-12-15-01:22:35: Iteration for phrase : Mehmet Ali
+2016-12-15-01:22:35: Searching for phrase :Mehmet Ali
+2016-12-15-01:22:35: Response for phrase :Mehmet
+
+2016-12-15-01:22:35: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-01:22:35: ItemlistElement for phrase : Mehmet
+2016-12-15-01:22:35: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-01:22:35: Callback for phrase : Mehmet
+2016-12-15-01:22:35: Callback for word is succeed :Mehmet
+2016-12-15-01:22:35: Word is going to iteration : Mehmet
+2016-12-15-01:22:35: Iteration for phrase : Mehmet Ali
+2016-12-15-01:22:35: Searching for phrase :Mehmet Ali
+2016-12-15-01:22:36: Response for phrase :Mehmet Ali
+
+2016-12-15-01:22:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-01:22:36: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-01:22:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-01:22:36: Callback for phrase : Mehmet Ali
+2016-12-15-01:22:36: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-01:22:36: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-01:22:36: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-01:22:36: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-01:22:36: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-01:22:36: Response for phrase :Mehmet Ali
+
+2016-12-15-01:22:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-01:22:36: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-01:22:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-01:22:36: Callback for phrase : Mehmet Ali
+2016-12-15-01:22:36: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-01:22:36: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-01:22:36: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-01:22:36: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-01:22:36: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-01:22:36: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-01:22:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-01:22:36: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-01:22:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-01:22:36: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-01:22:36: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-01:22:36: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-01:22:36: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-01:22:36: Iteration for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Searching for phrase :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-01:22:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-01:22:36: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-01:22:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-01:22:36: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-01:22:36: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-01:22:36: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-01:22:36: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-01:22:36: Iteration for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Searching for phrase :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Response for phrase :Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:36: ItemlistElement for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: undefined
+2016-12-15-01:22:36: Failed callback for phras : Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:36: Callback for iteration phrase is succeed :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Score for phrase isnull : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: iteration phrase is going root iteration :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Root iteration for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Searching for phrase :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Response for phrase :Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:36: ItemlistElement for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: undefined
+2016-12-15-01:22:36: Failed callback for phras : Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:36: Callback for iteration phrase is succeed :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Score for phrase isnull : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: iteration phrase is going root iteration :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Root iteration for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:36: Searching for phrase :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Response for phrase :Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:37: ItemlistElement for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: undefined
+2016-12-15-01:22:37: Failed callback for phras : Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:37: Callback for root iteration phrase is succeed :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Score for phrase isnull : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Root iteration phrase is going to matching :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-01:22:37: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:37: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-01:22:37: received_result_no=2
+2016-12-15-01:22:37: System goes new search 
+2016-12-15-01:22:37: Searching for phrase :Mustafa
+2016-12-15-01:22:37: Response for phrase :Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:22:37: ItemlistElement for phrase : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: undefined
+2016-12-15-01:22:37: Failed callback for phras : Mehmet Ali Erbil Mustafa
+
+2016-12-15-01:22:37: Callback for root iteration phrase is succeed :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Score for phrase isnull : Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Root iteration phrase is going to matching :Mehmet Ali Erbil Mustafa
+2016-12-15-01:22:37: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-01:22:37: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:37: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-01:22:37: received_result_no=2
+2016-12-15-01:22:37: System goes new search 
+2016-12-15-01:22:37: Searching for phrase :Mustafa
+2016-12-15-01:22:37: Response for phrase :Mustafa
+
+2016-12-15-01:22:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 96.196693 } ] }
+2016-12-15-01:22:37: ItemlistElement for phrase : Mustafa
+2016-12-15-01:22:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 96.196693 }
+2016-12-15-01:22:37: Callback for phrase : Mustafa
+2016-12-15-01:22:37: Callback for word is succeed :Mustafa
+2016-12-15-01:22:37: Word is going to iteration : Mustafa
+2016-12-15-01:22:37: Iteration for phrase : Mustafa Kemal
+2016-12-15-01:22:37: Searching for phrase :Mustafa Kemal
+2016-12-15-01:22:37: Response for phrase :Mustafa
+
+2016-12-15-01:22:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 96.196693 } ] }
+2016-12-15-01:22:37: ItemlistElement for phrase : Mustafa
+2016-12-15-01:22:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 96.196693 }
+2016-12-15-01:22:37: Callback for phrase : Mustafa
+2016-12-15-01:22:37: Callback for word is succeed :Mustafa
+2016-12-15-01:22:37: Word is going to iteration : Mustafa
+2016-12-15-01:22:37: Iteration for phrase : Mustafa Kemal
+2016-12-15-01:22:37: Searching for phrase :Mustafa Kemal
+2016-12-15-01:22:37: Response for phrase :Mustafa Kemal
+
+2016-12-15-01:22:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1571.643921 } ] }
+2016-12-15-01:22:37: ItemlistElement for phrase : Mustafa Kemal
+2016-12-15-01:22:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1571.643921 }
+2016-12-15-01:22:37: Callback for phrase : Mustafa Kemal
+2016-12-15-01:22:37: Callback for iteration phrase is succeed :Mustafa Kemal
+2016-12-15-01:22:37: Score for phrase is1571.643921 : Mustafa Kemal
+2016-12-15-01:22:37: iteration phrase is going next iteration :Mustafa Kemal
+2016-12-15-01:22:37: Iteration for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:37: Searching for phrase :Mustafa Kemal Atatürk
+2016-12-15-01:22:37: Response for phrase :Mustafa Kemal
+
+2016-12-15-01:22:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1571.643921 } ] }
+2016-12-15-01:22:37: ItemlistElement for phrase : Mustafa Kemal
+2016-12-15-01:22:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1571.643921 }
+2016-12-15-01:22:37: Callback for phrase : Mustafa Kemal
+2016-12-15-01:22:37: Callback for iteration phrase is succeed :Mustafa Kemal
+2016-12-15-01:22:37: Score for phrase is1571.643921 : Mustafa Kemal
+2016-12-15-01:22:37: iteration phrase is going next iteration :Mustafa Kemal
+2016-12-15-01:22:37: Iteration for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:37: Searching for phrase :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Response for phrase :Mustafa Kemal Atatürk
+
+2016-12-15-01:22:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1538.695923 } ] }
+2016-12-15-01:22:38: ItemlistElement for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1538.695923 }
+2016-12-15-01:22:38: Callback for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Callback for iteration phrase is succeed :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Score for phrase is1538.695923 : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: iteration phrase is going root iteration :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Root iteration for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Searching for phrase :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Response for phrase :Mustafa Kemal Atatürk
+
+2016-12-15-01:22:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1538.695923 } ] }
+2016-12-15-01:22:38: ItemlistElement for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1538.695923 }
+2016-12-15-01:22:38: Callback for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Callback for iteration phrase is succeed :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Score for phrase is1538.695923 : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: iteration phrase is going root iteration :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Root iteration for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Searching for phrase :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Response for phrase :Mustafa Kemal Atatürk
+
+2016-12-15-01:22:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1538.695923 } ] }
+2016-12-15-01:22:38: ItemlistElement for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1538.695923 }
+2016-12-15-01:22:38: Callback for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Callback for root iteration phrase is succeed :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Score for phrase is1538.695923 : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Root iteration phrase is going to matching :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Matching result for phrase : Mustafa Kemal
+
+2016-12-15-01:22:38: { '@id': 'kg:/m/04t6f_',
+  name: 'Mustafa Kemal Atatürk',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Önceki Türkiye cumhurbaşkanı',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+     url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+  detailedDescription: 
+   { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+     url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:38: Result for phrase will be printed : Mustafa Kemal
+2016-12-15-01:22:38: received_result_no=3
+2016-12-15-01:22:38: System goes new search 
+2016-12-15-01:22:38: Searching for phrase :Atatürk
+2016-12-15-01:22:38: Response for phrase :Mustafa Kemal Atatürk
+
+2016-12-15-01:22:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1538.695923 } ] }
+2016-12-15-01:22:38: ItemlistElement for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 1538.695923 }
+2016-12-15-01:22:38: Callback for phrase : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Callback for root iteration phrase is succeed :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Score for phrase is1538.695923 : Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Root iteration phrase is going to matching :Mustafa Kemal Atatürk
+2016-12-15-01:22:38: Matching result for phrase : Mustafa Kemal
+
+2016-12-15-01:22:38: { '@id': 'kg:/m/04t6f_',
+  name: 'Mustafa Kemal Atatürk',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Önceki Türkiye cumhurbaşkanı',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+     url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+  detailedDescription: 
+   { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+     url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:38: Result for phrase will be printed : Mustafa Kemal
+2016-12-15-01:22:38: received_result_no=3
+2016-12-15-01:22:38: System goes new search 
+2016-12-15-01:22:38: Searching for phrase :Atatürk
+2016-12-15-01:22:39: 1: slide left gesture is called
+2016-12-15-01:22:39: 1: slide left gesture is called
+2016-12-15-01:22:39: 1: slide left gesture is called
+2016-12-15-01:22:39: Response for phrase :Atatürk
+
+2016-12-15-01:22:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 71.976509 } ] }
+2016-12-15-01:22:39: ItemlistElement for phrase : Atatürk
+2016-12-15-01:22:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 71.976509 }
+2016-12-15-01:22:39: Callback for phrase : Atatürk
+2016-12-15-01:22:39: Callback for word is succeed :Atatürk
+2016-12-15-01:22:39: last word is noun here is the result of :Atatürk
+2016-12-15-01:22:39: { '@id': 'kg:/m/04t6f_',
+  name: 'Mustafa Kemal Atatürk',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Önceki Türkiye cumhurbaşkanı',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+     url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+  detailedDescription: 
+   { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+     url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:39: received_result_no=4
+2016-12-15-01:22:39: finish
+2016-12-15-01:22:39: process is finished
+2016-12-15-01:22:39: -----------------Printed Results------------------------
+2016-12-15-01:22:39: Hülya Avşar
+2016-12-15-01:22:39: Mehmet Ali Erbil
+2016-12-15-01:22:39: Mustafa Kemal Atatürk
+2016-12-15-01:22:39: Mustafa Kemal Atatürk
+2016-12-15-01:22:39: Response for phrase :Atatürk
+
+2016-12-15-01:22:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 71.976509 } ] }
+2016-12-15-01:22:39: ItemlistElement for phrase : Atatürk
+2016-12-15-01:22:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04t6f_',
+     name: 'Mustafa Kemal Atatürk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Önceki Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+        url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+     detailedDescription: 
+      { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 71.976509 }
+2016-12-15-01:22:39: Callback for phrase : Atatürk
+2016-12-15-01:22:39: Callback for word is succeed :Atatürk
+2016-12-15-01:22:39: last word is noun here is the result of :Atatürk
+2016-12-15-01:22:39: { '@id': 'kg:/m/04t6f_',
+  name: 'Mustafa Kemal Atatürk',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Önceki Türkiye cumhurbaşkanı',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRN2jcF_Awjp3C5IDhbmEcfLOHr9J-K3ikjEsm9oQY4WrDYqP-g',
+     url: 'https://en.wikipedia.org/wiki/File:Atat%C3%BCrk.jpg' },
+  detailedDescription: 
+   { articleBody: 'Mustafa Kemal Atatürk, Türk Kurtuluş Savaşı\'nın askeri ve siyasi lideri, Türkiye Cumhuriyeti\'nin kurucusu ve 1923\'ten 1938\'e dek görev yapmış ilk Cumhurbaşkanı, Türk Ordusu Mareşali ve daha öncesinde bir Osmanlı paşası.\nAtatürk I. ',
+     url: 'https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:22:39: received_result_no=4
+2016-12-15-01:22:39: finish
+2016-12-15-01:22:39: process is finished
+2016-12-15-01:22:39: -----------------Printed Results------------------------
+2016-12-15-01:22:39: Hülya Avşar
+2016-12-15-01:22:39: Mehmet Ali Erbil
+2016-12-15-01:22:39: Mustafa Kemal Atatürk
+2016-12-15-01:22:39: Mustafa Kemal Atatürk
+2016-12-15-01:22:40: 1: slide left gesture is called
+2016-12-15-01:22:40: 1: slide left gesture is called
+2016-12-15-01:22:41: 1: slide left gesture is called
+2016-12-15-01:22:41: 1: slide left gesture is called
+2016-12-15-01:22:41: 1: slide left gesture is called
+2016-12-15-01:22:41: 1: slide right gesture is called
+2016-12-15-01:22:41: 1: slide right gesture is called
+2016-12-15-01:22:42: 1: slide left gesture is called
+2016-12-15-01:22:42: 1: slide left gesture is called
+2016-12-15-01:22:58: 1: slide right gesture is called
+2016-12-15-01:22:58: 1: slide right gesture is called
+2016-12-15-01:22:58: 1: slide right gesture is called
+2016-12-15-01:22:59: 1: slide right gesture is called
+2016-12-15-01:22:59: 1: slide right gesture is called
+2016-12-15-01:22:59: 1: slide right gesture is called
+2016-12-15-01:23:00: 1: slide right gesture is called
+2016-12-15-01:23:00: 1: slide right gesture is called
+2016-12-15-01:23:00: 1: slide left gesture is called
+2016-12-15-01:23:01: 1: slide left gesture is called
+2016-12-15-01:23:01: 1: slide left gesture is called
+2016-12-15-01:23:01: 1: slide right gesture is called
+2016-12-15-01:23:01: 1: slide right gesture is called
+2016-12-15-01:23:02: 1: slide right gesture is called
+2016-12-15-01:23:02: 1: slide right gesture is called
+2016-12-15-01:23:03: 1: slide right gesture is called
+2016-12-15-01:23:03: 1: slide right gesture is called
+2016-12-15-01:23:03: 1: slide right gesture is called
+2016-12-15-01:23:03: 1: slide right gesture is called
+2016-12-15-01:23:03: 1: slide left gesture is called
+2016-12-15-01:23:04: 1: slide left gesture is called
+2016-12-15-01:23:04: 1: slide left gesture is called
+2016-12-15-01:23:06: 1: slide left gesture is called
+2016-12-15-01:23:06: 1: slide left gesture is called
+2016-12-15-01:23:06: 1: slide left gesture is called
+2016-12-15-01:23:06: 1: slide left gesture is called
+2016-12-15-01:23:06: 1: slide left gesture is called
+2016-12-15-01:23:07: 1: slide left gesture is called
+2016-12-15-01:23:17: section_count is:1
+2016-12-15-01:23:17: AftermoveSectionDown section_count is: 1
+2016-12-15-01:23:17: section_count is:2
+2016-12-15-01:23:17: AftermoveSectionDown section_count is: 2
+2016-12-15-01:23:18: section_count is:1
+2016-12-15-01:23:18: AftermoveSectionUp section_count is: 1
+2016-12-15-01:23:18: section_count is:0
+2016-12-15-01:23:18: AftermoveSectionUp section_count is: 0
+2016-12-15-01:23:19: section_count is:1
+2016-12-15-01:23:19: AftermoveSectionDown section_count is: 1
+2016-12-15-01:23:19: section_count is:2
+2016-12-15-01:23:19: AftermoveSectionDown section_count is: 2
+2016-12-15-01:23:19: section_count is:1
+2016-12-15-01:23:19: AftermoveSectionUp section_count is: 1
+2016-12-15-01:23:20: 1: slide left gesture is called
+2016-12-15-01:23:20: 1: slide left gesture is called
+2016-12-15-01:23:20: 1: slide left gesture is called
+2016-12-15-01:23:20: 1: slide left gesture is called
+2016-12-15-01:23:20: 1: slide left gesture is called
+2016-12-15-01:23:20: 1: slide right gesture is called
+2016-12-15-01:23:21: 1: slide right gesture is called
+2016-12-15-01:23:21: 1: slide right gesture is called
+2016-12-15-01:23:21: 1: slide right gesture is called
+2016-12-15-01:23:22: 1: slide right gesture is called
+2016-12-15-01:23:22: 1: slide right gesture is called
+2016-12-15-01:23:22: 1: slide right gesture is called
+2016-12-15-01:23:22: 1: slide right gesture is called
+2016-12-15-01:23:23: 1: slide left gesture is called
+2016-12-15-01:23:23: 1: slide left gesture is called
+2016-12-15-01:23:25: 1: slide left gesture is called
+2016-12-15-01:23:25: 1: slide left gesture is called
+2016-12-15-01:23:25: 1: slide left gesture is called
+2016-12-15-01:23:26: 1: slide left gesture is called
+2016-12-15-01:23:26: 1: slide left gesture is called
+2016-12-15-01:23:26: 1: slide right gesture is called
+2016-12-15-01:23:26: 1: slide right gesture is called
+2016-12-15-01:23:27: 1: slide right gesture is called
+2016-12-15-01:23:27: 1: slide right gesture is called
+2016-12-15-01:23:27: 1: slide right gesture is called
+2016-12-15-01:23:27: 1: slide right gesture is called
+2016-12-15-01:23:28: 1: slide right gesture is called
+2016-12-15-01:23:28: 1: slide right gesture is called
+2016-12-15-01:23:28: 1: slide right gesture is called
+2016-12-15-01:23:29: section_count is:2
+2016-12-15-01:23:29: AftermoveSectionDown section_count is: 2
+2016-12-15-01:23:29: section_count is:1
+2016-12-15-01:23:29: AftermoveSectionUp section_count is: 1
+2016-12-15-01:23:30: section_count is:2
+2016-12-15-01:23:30: AftermoveSectionDown section_count is: 2
+2016-12-15-01:23:31: section_count is:3
+2016-12-15-01:23:31: AftermoveSectionDown section_count is: 3
+2016-12-15-01:23:32: 1: slide right gesture is called
+2016-12-15-01:23:33: 1: slide right gesture is called
+2016-12-15-01:23:33: 1: slide right gesture is called
+2016-12-15-01:23:33: 1: slide right gesture is called
+2016-12-15-01:23:34: 1: slide right gesture is called
+2016-12-15-01:23:34: 1: slide right gesture is called
+2016-12-15-01:23:34: 1: slide left gesture is called
+2016-12-15-01:24:06: 1: slide left gesture is called
+2016-12-15-01:24:06: 1: slide left gesture is called
+2016-12-15-01:24:07: 1: slide left gesture is called
+2016-12-15-01:24:07: 1: slide left gesture is called
+2016-12-15-01:24:07: 1: slide left gesture is called
+2016-12-15-01:24:09: 1: slide left gesture is called
+2016-12-15-01:24:09: 1: slide left gesture is called
+2016-12-15-01:24:09: 1: slide left gesture is called
+2016-12-15-01:24:10: 1: slide left gesture is called
+2016-12-15-01:24:10: 1: slide left gesture is called
+2016-12-15-01:24:11: 1: slide left gesture is called
+2016-12-15-01:24:20: 1: slide left gesture is called
+2016-12-15-01:24:20: 1: slide left gesture is called
+2016-12-15-01:24:20: 1: slide left gesture is called
+2016-12-15-01:24:21: 1: slide right gesture is called
+2016-12-15-01:24:22: 1: slide right gesture is called
+2016-12-15-01:24:22: section_count is:4
+2016-12-15-01:24:22: AftermoveSectionDown section_count is: 4
+2016-12-15-01:24:22: section_count is:5
+2016-12-15-01:24:22: AftermoveSectionDown section_count is: 5
+2016-12-15-01:24:22: section_count is:6
+2016-12-15-01:24:22: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:23: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:23: section_count is:5
+2016-12-15-01:24:23: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:23: section_count is:4
+2016-12-15-01:24:23: AftermoveSectionUp section_count is: 4
+2016-12-15-01:24:25: 1: slide right gesture is called
+2016-12-15-01:24:25: 1: slide right gesture is called
+2016-12-15-01:24:25: 1: slide right gesture is called
+2016-12-15-01:24:26: 1: slide right gesture is called
+2016-12-15-01:24:26: 1: slide right gesture is called
+2016-12-15-01:24:27: section_count is:5
+2016-12-15-01:24:27: AftermoveSectionDown section_count is: 5
+2016-12-15-01:24:28: section_count is:4
+2016-12-15-01:24:28: AftermoveSectionUp section_count is: 4
+2016-12-15-01:24:29: section_count is:5
+2016-12-15-01:24:29: AftermoveSectionDown section_count is: 5
+2016-12-15-01:24:29: section_count is:6
+2016-12-15-01:24:29: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:29: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:30: section_count is:5
+2016-12-15-01:24:30: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:31: section_count is:6
+2016-12-15-01:24:31: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:31: section_count is:5
+2016-12-15-01:24:31: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:31: section_count is:4
+2016-12-15-01:24:31: AftermoveSectionUp section_count is: 4
+2016-12-15-01:24:31: section_count is:3
+2016-12-15-01:24:31: AftermoveSectionUp section_count is: 3
+2016-12-15-01:24:31: section_count is:2
+2016-12-15-01:24:31: AftermoveSectionUp section_count is: 2
+2016-12-15-01:24:31: section_count is:1
+2016-12-15-01:24:31: AftermoveSectionUp section_count is: 1
+2016-12-15-01:24:32: section_count is:0
+2016-12-15-01:24:32: AftermoveSectionUp section_count is: 0
+2016-12-15-01:24:33: section_count is:1
+2016-12-15-01:24:33: AftermoveSectionDown section_count is: 1
+2016-12-15-01:24:33: section_count is:2
+2016-12-15-01:24:33: AftermoveSectionDown section_count is: 2
+2016-12-15-01:24:33: section_count is:1
+2016-12-15-01:24:33: AftermoveSectionUp section_count is: 1
+2016-12-15-01:24:34: section_count is:2
+2016-12-15-01:24:34: AftermoveSectionDown section_count is: 2
+2016-12-15-01:24:34: section_count is:3
+2016-12-15-01:24:34: AftermoveSectionDown section_count is: 3
+2016-12-15-01:24:34: section_count is:2
+2016-12-15-01:24:34: AftermoveSectionUp section_count is: 2
+2016-12-15-01:24:35: section_count is:3
+2016-12-15-01:24:35: AftermoveSectionDown section_count is: 3
+2016-12-15-01:24:35: section_count is:4
+2016-12-15-01:24:35: AftermoveSectionDown section_count is: 4
+2016-12-15-01:24:37: section_count is:5
+2016-12-15-01:24:37: AftermoveSectionDown section_count is: 5
+2016-12-15-01:24:37: section_count is:6
+2016-12-15-01:24:37: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:37: section_count is:5
+2016-12-15-01:24:37: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:38: section_count is:6
+2016-12-15-01:24:38: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:39: section_count is:5
+2016-12-15-01:24:39: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:40: section_count is:6
+2016-12-15-01:24:40: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:40: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:40: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:40: section_count is:5
+2016-12-15-01:24:40: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:40: section_count is:4
+2016-12-15-01:24:40: AftermoveSectionUp section_count is: 4
+2016-12-15-01:24:40: section_count is:3
+2016-12-15-01:24:40: AftermoveSectionUp section_count is: 3
+2016-12-15-01:24:41: section_count is:4
+2016-12-15-01:24:41: AftermoveSectionDown section_count is: 4
+2016-12-15-01:24:41: section_count is:3
+2016-12-15-01:24:41: AftermoveSectionUp section_count is: 3
+2016-12-15-01:24:43: section_count is:2
+2016-12-15-01:24:43: AftermoveSectionUp section_count is: 2
+2016-12-15-01:24:43: section_count is:3
+2016-12-15-01:24:43: AftermoveSectionDown section_count is: 3
+2016-12-15-01:24:44: section_count is:4
+2016-12-15-01:24:44: AftermoveSectionDown section_count is: 4
+2016-12-15-01:24:45: section_count is:5
+2016-12-15-01:24:45: AftermoveSectionDown section_count is: 5
+2016-12-15-01:24:46: section_count is:6
+2016-12-15-01:24:46: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:46: section_count is:5
+2016-12-15-01:24:46: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:47: section_count is:6
+2016-12-15-01:24:47: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:47: section_count is:5
+2016-12-15-01:24:47: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:47: section_count is:6
+2016-12-15-01:24:47: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:48: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:48: section_count is:5
+2016-12-15-01:24:48: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:49: section_count is:6
+2016-12-15-01:24:49: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:49: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:50: section_count is:5
+2016-12-15-01:24:50: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:51: section_count is:6
+2016-12-15-01:24:51: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:57: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:57: section_count is:5
+2016-12-15-01:24:57: AftermoveSectionUp section_count is: 5
+2016-12-15-01:24:58: 1: slide right gesture is called
+2016-12-15-01:24:59: 1: slide right gesture is called
+2016-12-15-01:24:59: 1: slide right gesture is called
+2016-12-15-01:24:59: section_count is:6
+2016-12-15-01:24:59: AftermoveSectionDown section_count is: 6
+2016-12-15-01:24:59: section_count is:5
+2016-12-15-01:24:59: AftermoveSectionUp section_count is: 5
+2016-12-15-01:25:00: section_count is:4
+2016-12-15-01:25:00: AftermoveSectionUp section_count is: 4
+2016-12-15-01:25:00: section_count is:5
+2016-12-15-01:25:00: AftermoveSectionDown section_count is: 5
+2016-12-15-01:25:00: section_count is:4
+2016-12-15-01:25:00: AftermoveSectionUp section_count is: 4
+2016-12-15-01:25:01: section_count is:5
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 5
+2016-12-15-01:25:01: section_count is:6
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:01: section_count is:5
+2016-12-15-01:25:01: AftermoveSectionUp section_count is: 5
+2016-12-15-01:25:01: section_count is:6
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:01: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:02: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:02: AftermoveSectionDown section_count is: 6
+2016-12-15-01:25:02: section_count is:5
+2016-12-15-01:25:02: AftermoveSectionUp section_count is: 5
+2016-12-15-01:25:03: section_count is:4
+2016-12-15-01:25:03: AftermoveSectionUp section_count is: 4
+2016-12-15-01:25:03: section_count is:3
+2016-12-15-01:25:03: AftermoveSectionUp section_count is: 3
+2016-12-15-01:25:03: section_count is:2
+2016-12-15-01:25:03: AftermoveSectionUp section_count is: 2
+2016-12-15-01:25:05: section_count is:3
+2016-12-15-01:25:05: AftermoveSectionDown section_count is: 3
+2016-12-15-01:25:05: section_count is:4
+2016-12-15-01:25:05: AftermoveSectionDown section_count is: 4
+2016-12-15-01:25:05: section_count is:3
+2016-12-15-01:25:05: AftermoveSectionUp section_count is: 3
+2016-12-15-01:25:05: section_count is:2
+2016-12-15-01:25:05: AftermoveSectionUp section_count is: 2
+2016-12-15-01:25:06: section_count is:3
+2016-12-15-01:25:06: AftermoveSectionDown section_count is: 3
+2016-12-15-01:25:06: section_count is:2
+2016-12-15-01:25:06: AftermoveSectionUp section_count is: 2
+2016-12-15-01:25:07: section_count is:1
+2016-12-15-01:25:07: AftermoveSectionUp section_count is: 1
+2016-12-15-01:25:08: section_count is:2
+2016-12-15-01:25:08: AftermoveSectionDown section_count is: 2
+2016-12-15-01:25:08: section_count is:1
+2016-12-15-01:25:08: AftermoveSectionUp section_count is: 1
+2016-12-15-01:25:09: 1: slide right gesture is called
+2016-12-15-01:25:10: 1: slide right gesture is called
+2016-12-15-01:25:10: 1: slide right gesture is called
+2016-12-15-01:25:10: 1: slide right gesture is called
+2016-12-15-01:25:10: 1: slide right gesture is called
+2016-12-15-01:25:10: 1: slide left gesture is called
+2016-12-15-01:25:10: 1: slide left gesture is called
+2016-12-15-01:25:10: 1: slide left gesture is called
+2016-12-15-01:25:11: 1: slide left gesture is called
+2016-12-15-01:25:11: 1: slide right gesture is called
+2016-12-15-01:25:11: 1: slide right gesture is called
+2016-12-15-01:25:12: section_count is:2
+2016-12-15-01:25:12: AftermoveSectionDown section_count is: 2
+2016-12-15-01:25:12: section_count is:1
+2016-12-15-01:25:12: AftermoveSectionUp section_count is: 1
+2016-12-15-01:25:12: section_count is:0
+2016-12-15-01:25:12: AftermoveSectionUp section_count is: 0
+2016-12-15-01:25:12: AftermoveSectionUp section_count is: 0
+2016-12-15-01:25:12: AftermoveSectionUp section_count is: 0
+2016-12-15-01:25:13: AftermoveSectionUp section_count is: 0
+2016-12-15-01:25:13: 1: slide right gesture is called
+2016-12-15-01:25:14: 1: slide right gesture is called
+2016-12-15-01:25:14: 1: slide right gesture is called
+2016-12-15-01:25:14: 1: slide right gesture is called
+2016-12-15-01:25:14: 1: slide right gesture is called
+2016-12-15-01:25:14: 1: slide left gesture is called
+2016-12-15-01:25:15: 1: slide right gesture is called
+2016-12-15-01:25:15: 1: slide right gesture is called
+2016-12-15-01:25:15: 1: slide right gesture is called
+2016-12-15-01:25:15: 1: slide left gesture is called
+2016-12-15-01:25:16: 1: slide left gesture is called
+2016-12-15-01:25:16: 1: slide left gesture is called
+2016-12-15-01:25:16: 1: slide right gesture is called
+2016-12-15-01:25:18: 1: slide right gesture is called
+2016-12-15-01:25:18: 1: slide right gesture is called
+2016-12-15-01:25:18: 1: slide left gesture is called
+2016-12-15-01:25:18: 1: slide left gesture is called
+2016-12-15-01:25:19: 1: slide left gesture is called
+2016-12-15-01:25:19: 1: slide left gesture is called
+2016-12-15-01:25:20: 1: slide left gesture is called
+2016-12-15-01:25:30: 2:click detected at point:[object Object]
+2016-12-15-01:25:31: Connected
+2016-12-15-01:25:31: 2:click detected at point:[object Object]
+2016-12-15-01:25:31: 2:click detected at point:[object Object]
+2016-12-15-01:25:37: Data received from stt: Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: SearchTerm from microphone:Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: State machine is initialized with input: 
+2016-12-15-01:25:37: Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: Input words : 
+2016-12-15-01:25:37: [ 'Türkiye', 'Azerbaycan', 'Amerika', 'Birleşik', 'Devletleri' ]
+2016-12-15-01:25:37: Input roots : 
+2016-12-15-01:25:37: [ 'Türkiye', 'Azerbaycan', 'Amerika', 'birleşik', 'Devlet' ]
+2016-12-15-01:25:37: Searching for phrase :Türkiye
+2016-12-15-01:25:37: Data received from stt: Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: SearchTerm from microphone:Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: State machine is initialized with input: 
+2016-12-15-01:25:37: Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: Input words : 
+2016-12-15-01:25:37: [ 'Türkiye', 'Azerbaycan', 'Amerika', 'Birleşik', 'Devletleri' ]
+2016-12-15-01:25:37: Input roots : 
+2016-12-15-01:25:37: [ 'Türkiye', 'Azerbaycan', 'Amerika', 'birleşik', 'Devlet' ]
+2016-12-15-01:25:37: Searching for phrase :Türkiye
+2016-12-15-01:25:37: Data received from stt: Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: SearchTerm from microphone:Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: State machine is initialized with input: 
+2016-12-15-01:25:37: Türkiye Azerbaycan Amerika Birleşik Devletleri Türkiye,Noun Azerbaycan,Noun Amerika,Noun birleşik,Other Devlet,Noun
+2016-12-15-01:25:37: Input words : 
+2016-12-15-01:25:37: [ 'Türkiye', 'Azerbaycan', 'Amerika', 'Birleşik', 'Devletleri' ]
+2016-12-15-01:25:37: Input roots : 
+2016-12-15-01:25:37: [ 'Türkiye', 'Azerbaycan', 'Amerika', 'birleşik', 'Devlet' ]
+2016-12-15-01:25:37: Searching for phrase :Türkiye
+2016-12-15-01:25:37: Connection closed
+2016-12-15-01:25:37: Connection closed
+2016-12-15-01:25:37: Connection closed
+2016-12-15-01:25:37: Response for phrase :Türkiye
+
+2016-12-15-01:25:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 193.12616 } ] }
+2016-12-15-01:25:37: ItemlistElement for phrase : Türkiye
+2016-12-15-01:25:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01znc_',
+     name: 'Türkiye',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSmmF9_gPAfkMnG6OIRzMgHy_AiQMTAXUmaxOl348We180wL2pb',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Turkey.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Türkiye ya da resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu\'ya, küçük bir bölümü ise Balkanlar\'ın uzantısı olan Trakya\'ya yayılmış bir ülke. ',
+        url: 'https://tr.wikipedia.org/wiki/T%C3%BCrkiye',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.turkiye.gov.tr' },
+  resultScore: 193.12616 }
+2016-12-15-01:25:37: Callback for phrase : Türkiye
+2016-12-15-01:25:37: Callback for word is succeed :Türkiye
+2016-12-15-01:25:37: Word is going to iteration : Türkiye
+2016-12-15-01:25:37: Iteration for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:37: Searching for phrase :Türkiye Azerbaycan
+2016-12-15-01:25:37: Response for phrase :Türkiye
+
+2016-12-15-01:25:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 193.12616 } ] }
+2016-12-15-01:25:37: ItemlistElement for phrase : Türkiye
+2016-12-15-01:25:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01znc_',
+     name: 'Türkiye',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSmmF9_gPAfkMnG6OIRzMgHy_AiQMTAXUmaxOl348We180wL2pb',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Turkey.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Türkiye ya da resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu\'ya, küçük bir bölümü ise Balkanlar\'ın uzantısı olan Trakya\'ya yayılmış bir ülke. ',
+        url: 'https://tr.wikipedia.org/wiki/T%C3%BCrkiye',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.turkiye.gov.tr' },
+  resultScore: 193.12616 }
+2016-12-15-01:25:37: Callback for phrase : Türkiye
+2016-12-15-01:25:37: Callback for word is succeed :Türkiye
+2016-12-15-01:25:37: Word is going to iteration : Türkiye
+2016-12-15-01:25:37: Iteration for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:37: Searching for phrase :Türkiye Azerbaycan
+2016-12-15-01:25:37: Response for phrase :Türkiye
+
+2016-12-15-01:25:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 193.12616 } ] }
+2016-12-15-01:25:37: ItemlistElement for phrase : Türkiye
+2016-12-15-01:25:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01znc_',
+     name: 'Türkiye',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSmmF9_gPAfkMnG6OIRzMgHy_AiQMTAXUmaxOl348We180wL2pb',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Turkey.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Türkiye ya da resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu\'ya, küçük bir bölümü ise Balkanlar\'ın uzantısı olan Trakya\'ya yayılmış bir ülke. ',
+        url: 'https://tr.wikipedia.org/wiki/T%C3%BCrkiye',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.turkiye.gov.tr' },
+  resultScore: 193.12616 }
+2016-12-15-01:25:37: Callback for phrase : Türkiye
+2016-12-15-01:25:37: Callback for word is succeed :Türkiye
+2016-12-15-01:25:37: Word is going to iteration : Türkiye
+2016-12-15-01:25:37: Iteration for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:37: Searching for phrase :Türkiye Azerbaycan
+2016-12-15-01:25:38: Response for phrase :Türkiye Azerbaycan
+
+2016-12-15-01:25:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 51.353348 } ] }
+2016-12-15-01:25:38: ItemlistElement for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02yhx6',
+     name: 'Lavaş',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTy0WTfPJuR7Mj-cOoVu5M8YOb54Vmg8djrkJ-VKvjUmKeGE3FW',
+        url: 'https://commons.wikimedia.org/wiki/File:Traditional_lavash_bread_making_(5211763362).jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Lavaş, Türk mutfağı kökenli su, un ve tuzla imal edilen bir çeşit ekmek. Yufkadan kalın, pideden incedir. Dürüm için kullanılır. Türkiye, Azerbaycan, Gürcistan, Ermenistan ve İran\'da yaygın olarak yenir. Saçta odun ateşinde pişirilir.',
+        url: 'https://tr.wikipedia.org/wiki/Lava%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 51.353348 }
+2016-12-15-01:25:38: Callback for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Callback for iteration phrase is succeed :Türkiye Azerbaycan
+2016-12-15-01:25:38: Score for phrase is51.353348 : Türkiye Azerbaycan
+2016-12-15-01:25:38: iteration phrase is going root iteration :Türkiye Azerbaycan
+2016-12-15-01:25:38: Root iteration for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Searching for phrase :Türkiye Azerbaycan
+2016-12-15-01:25:38: Response for phrase :Türkiye Azerbaycan
+
+2016-12-15-01:25:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 51.353348 } ] }
+2016-12-15-01:25:38: ItemlistElement for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02yhx6',
+     name: 'Lavaş',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTy0WTfPJuR7Mj-cOoVu5M8YOb54Vmg8djrkJ-VKvjUmKeGE3FW',
+        url: 'https://commons.wikimedia.org/wiki/File:Traditional_lavash_bread_making_(5211763362).jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Lavaş, Türk mutfağı kökenli su, un ve tuzla imal edilen bir çeşit ekmek. Yufkadan kalın, pideden incedir. Dürüm için kullanılır. Türkiye, Azerbaycan, Gürcistan, Ermenistan ve İran\'da yaygın olarak yenir. Saçta odun ateşinde pişirilir.',
+        url: 'https://tr.wikipedia.org/wiki/Lava%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 51.353348 }
+2016-12-15-01:25:38: Callback for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Callback for iteration phrase is succeed :Türkiye Azerbaycan
+2016-12-15-01:25:38: Score for phrase is51.353348 : Türkiye Azerbaycan
+2016-12-15-01:25:38: iteration phrase is going root iteration :Türkiye Azerbaycan
+2016-12-15-01:25:38: Root iteration for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Searching for phrase :Türkiye Azerbaycan
+2016-12-15-01:25:38: Response for phrase :Türkiye Azerbaycan
+
+2016-12-15-01:25:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 51.353348 } ] }
+2016-12-15-01:25:38: ItemlistElement for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02yhx6',
+     name: 'Lavaş',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTy0WTfPJuR7Mj-cOoVu5M8YOb54Vmg8djrkJ-VKvjUmKeGE3FW',
+        url: 'https://commons.wikimedia.org/wiki/File:Traditional_lavash_bread_making_(5211763362).jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Lavaş, Türk mutfağı kökenli su, un ve tuzla imal edilen bir çeşit ekmek. Yufkadan kalın, pideden incedir. Dürüm için kullanılır. Türkiye, Azerbaycan, Gürcistan, Ermenistan ve İran\'da yaygın olarak yenir. Saçta odun ateşinde pişirilir.',
+        url: 'https://tr.wikipedia.org/wiki/Lava%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 51.353348 }
+2016-12-15-01:25:38: Callback for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Callback for iteration phrase is succeed :Türkiye Azerbaycan
+2016-12-15-01:25:38: Score for phrase is51.353348 : Türkiye Azerbaycan
+2016-12-15-01:25:38: iteration phrase is going root iteration :Türkiye Azerbaycan
+2016-12-15-01:25:38: Root iteration for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Searching for phrase :Türkiye Azerbaycan
+2016-12-15-01:25:38: Response for phrase :Türkiye Azerbaycan
+
+2016-12-15-01:25:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 51.353348 } ] }
+2016-12-15-01:25:38: ItemlistElement for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02yhx6',
+     name: 'Lavaş',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTy0WTfPJuR7Mj-cOoVu5M8YOb54Vmg8djrkJ-VKvjUmKeGE3FW',
+        url: 'https://commons.wikimedia.org/wiki/File:Traditional_lavash_bread_making_(5211763362).jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Lavaş, Türk mutfağı kökenli su, un ve tuzla imal edilen bir çeşit ekmek. Yufkadan kalın, pideden incedir. Dürüm için kullanılır. Türkiye, Azerbaycan, Gürcistan, Ermenistan ve İran\'da yaygın olarak yenir. Saçta odun ateşinde pişirilir.',
+        url: 'https://tr.wikipedia.org/wiki/Lava%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 51.353348 }
+2016-12-15-01:25:38: Callback for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Callback for root iteration phrase is succeed :Türkiye Azerbaycan
+2016-12-15-01:25:38: Score for phrase is51.353348 : Türkiye Azerbaycan
+2016-12-15-01:25:38: Root iteration phrase is going to matching :Türkiye Azerbaycan
+2016-12-15-01:25:38: Matching result for phrase : Türkiye
+
+2016-12-15-01:25:38: { '@id': 'kg:/m/01znc_',
+  name: 'Türkiye',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSmmF9_gPAfkMnG6OIRzMgHy_AiQMTAXUmaxOl348We180wL2pb',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Turkey.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Türkiye ya da resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu\'ya, küçük bir bölümü ise Balkanlar\'ın uzantısı olan Trakya\'ya yayılmış bir ülke. ',
+     url: 'https://tr.wikipedia.org/wiki/T%C3%BCrkiye',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.turkiye.gov.tr' }
+2016-12-15-01:25:38: Result for phrase will be printed : Türkiye
+2016-12-15-01:25:38: https://www.googleapis.com/customsearch/v1?q=Türkiye&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:25:38: received_result_no=1
+2016-12-15-01:25:38: System goes new search 
+2016-12-15-01:25:38: Searching for phrase :Azerbaycan
+2016-12-15-01:25:38: Response for phrase :Türkiye Azerbaycan
+
+2016-12-15-01:25:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 51.353348 } ] }
+2016-12-15-01:25:38: ItemlistElement for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02yhx6',
+     name: 'Lavaş',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTy0WTfPJuR7Mj-cOoVu5M8YOb54Vmg8djrkJ-VKvjUmKeGE3FW',
+        url: 'https://commons.wikimedia.org/wiki/File:Traditional_lavash_bread_making_(5211763362).jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Lavaş, Türk mutfağı kökenli su, un ve tuzla imal edilen bir çeşit ekmek. Yufkadan kalın, pideden incedir. Dürüm için kullanılır. Türkiye, Azerbaycan, Gürcistan, Ermenistan ve İran\'da yaygın olarak yenir. Saçta odun ateşinde pişirilir.',
+        url: 'https://tr.wikipedia.org/wiki/Lava%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 51.353348 }
+2016-12-15-01:25:38: Callback for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Callback for root iteration phrase is succeed :Türkiye Azerbaycan
+2016-12-15-01:25:38: Score for phrase is51.353348 : Türkiye Azerbaycan
+2016-12-15-01:25:38: Root iteration phrase is going to matching :Türkiye Azerbaycan
+2016-12-15-01:25:38: Matching result for phrase : Türkiye
+
+2016-12-15-01:25:38: { '@id': 'kg:/m/01znc_',
+  name: 'Türkiye',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSmmF9_gPAfkMnG6OIRzMgHy_AiQMTAXUmaxOl348We180wL2pb',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Turkey.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Türkiye ya da resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu\'ya, küçük bir bölümü ise Balkanlar\'ın uzantısı olan Trakya\'ya yayılmış bir ülke. ',
+     url: 'https://tr.wikipedia.org/wiki/T%C3%BCrkiye',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.turkiye.gov.tr' }
+2016-12-15-01:25:38: Result for phrase will be printed : Türkiye
+2016-12-15-01:25:38: https://www.googleapis.com/customsearch/v1?q=Türkiye&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:25:38: received_result_no=1
+2016-12-15-01:25:38: System goes new search 
+2016-12-15-01:25:38: Searching for phrase :Azerbaycan
+2016-12-15-01:25:38: Response for phrase :Türkiye Azerbaycan
+
+2016-12-15-01:25:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 51.353348 } ] }
+2016-12-15-01:25:38: ItemlistElement for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02yhx6',
+     name: 'Lavaş',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTy0WTfPJuR7Mj-cOoVu5M8YOb54Vmg8djrkJ-VKvjUmKeGE3FW',
+        url: 'https://commons.wikimedia.org/wiki/File:Traditional_lavash_bread_making_(5211763362).jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Lavaş, Türk mutfağı kökenli su, un ve tuzla imal edilen bir çeşit ekmek. Yufkadan kalın, pideden incedir. Dürüm için kullanılır. Türkiye, Azerbaycan, Gürcistan, Ermenistan ve İran\'da yaygın olarak yenir. Saçta odun ateşinde pişirilir.',
+        url: 'https://tr.wikipedia.org/wiki/Lava%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 51.353348 }
+2016-12-15-01:25:38: Callback for phrase : Türkiye Azerbaycan
+2016-12-15-01:25:38: Callback for root iteration phrase is succeed :Türkiye Azerbaycan
+2016-12-15-01:25:38: Score for phrase is51.353348 : Türkiye Azerbaycan
+2016-12-15-01:25:38: Root iteration phrase is going to matching :Türkiye Azerbaycan
+2016-12-15-01:25:38: Matching result for phrase : Türkiye
+
+2016-12-15-01:25:38: { '@id': 'kg:/m/01znc_',
+  name: 'Türkiye',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSmmF9_gPAfkMnG6OIRzMgHy_AiQMTAXUmaxOl348We180wL2pb',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag-map_of_Turkey.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Türkiye ya da resmî adıyla Türkiye Cumhuriyeti, topraklarının büyük bölümü Anadolu\'ya, küçük bir bölümü ise Balkanlar\'ın uzantısı olan Trakya\'ya yayılmış bir ülke. ',
+     url: 'https://tr.wikipedia.org/wiki/T%C3%BCrkiye',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.turkiye.gov.tr' }
+2016-12-15-01:25:38: Result for phrase will be printed : Türkiye
+2016-12-15-01:25:38: https://www.googleapis.com/customsearch/v1?q=Türkiye&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-01:25:38: received_result_no=1
+2016-12-15-01:25:38: System goes new search 
+2016-12-15-01:25:38: Searching for phrase :Azerbaycan
+2016-12-15-01:25:39: Response for phrase :Azerbaycan
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 107.521935 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jhd',
+     name: 'Azerbaycan',
+     '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQuzWWfIkn7AU4i-2SDEftGsCDc83H-_e2XKVXHhP2J9Vyzp6iw',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg' },
+     detailedDescription: 
+      { articleBody: 'Azerbaycan veya resmî adıyla Azerbaycan Cumhuriyeti, Batı Asya ile Doğu Avrupa\'nın kesişim noktası olan Kafkasya\'da yer alan ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Azerbaycan',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 107.521935 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan
+2016-12-15-01:25:39: Callback for word is succeed :Azerbaycan
+2016-12-15-01:25:39: Word is going to iteration : Azerbaycan
+2016-12-15-01:25:39: Iteration for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Searching for phrase :Azerbaycan Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 107.521935 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jhd',
+     name: 'Azerbaycan',
+     '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQuzWWfIkn7AU4i-2SDEftGsCDc83H-_e2XKVXHhP2J9Vyzp6iw',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg' },
+     detailedDescription: 
+      { articleBody: 'Azerbaycan veya resmî adıyla Azerbaycan Cumhuriyeti, Batı Asya ile Doğu Avrupa\'nın kesişim noktası olan Kafkasya\'da yer alan ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Azerbaycan',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 107.521935 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan
+2016-12-15-01:25:39: Callback for word is succeed :Azerbaycan
+2016-12-15-01:25:39: Word is going to iteration : Azerbaycan
+2016-12-15-01:25:39: Iteration for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Searching for phrase :Azerbaycan Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan Amerika
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.379871 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05c3skh',
+     name: 'Aysel Teymurzade',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRkpt50voq4U7kSbcocJ2KYixGN8LXKW5N7yfdTVlfSSKajdpV5',
+        url: 'https://commons.wikimedia.org/wiki/File:AySel.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Aysel Teymurzade, Azerbaycanlı şarkıcı.\nAzerbaycan\'da yayınlanan Yeni Ulduz yarışmasıyla ilk kez dinleyicilerin karşısına çıkmıştır. Amerika\'da yaşadığı süre boyunca İngilizcesini yüksek seviyeye çıkarmıştır. Teksas Lisesi\'nde öğrenim görmüştür. 2009 Eurovision Şarkı Yarışması\'nda İTV tarafından Azerbaycan\'ı temsil etmesi için seçilmiştir. Yarışmada Arash ile birlikte "Always" adlı şarkıyı seslendirmiştir. Sanatçı, Azerbaycan\'ı Eurovision Şarkı Yarışması\'nda temsil eden ilk kadın şarkıcı olma özelliği gösterir. Azerbaycan Diller Üniversitesi Uluslararası İlişkiler Fakültesinden 2010 yılında mezun olmuştur. Teymurzade, piyanist Murad Adıgözelzade ile evlendikten sonra müziği bırakmıştır. Çiftin iki çocuğu bulunmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Aysel_Teymurzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 33.379871 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Callback for iteration phrase is succeed :Azerbaycan Amerika
+2016-12-15-01:25:39: Score for phrase is33.379871 : Azerbaycan Amerika
+2016-12-15-01:25:39: iteration phrase is going root iteration :Azerbaycan Amerika
+2016-12-15-01:25:39: Root iteration for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Searching for phrase :Azerbaycan Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 107.521935 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jhd',
+     name: 'Azerbaycan',
+     '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQuzWWfIkn7AU4i-2SDEftGsCDc83H-_e2XKVXHhP2J9Vyzp6iw',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg' },
+     detailedDescription: 
+      { articleBody: 'Azerbaycan veya resmî adıyla Azerbaycan Cumhuriyeti, Batı Asya ile Doğu Avrupa\'nın kesişim noktası olan Kafkasya\'da yer alan ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Azerbaycan',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 107.521935 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan
+2016-12-15-01:25:39: Callback for word is succeed :Azerbaycan
+2016-12-15-01:25:39: Word is going to iteration : Azerbaycan
+2016-12-15-01:25:39: Iteration for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Searching for phrase :Azerbaycan Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan Amerika
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.379871 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05c3skh',
+     name: 'Aysel Teymurzade',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRkpt50voq4U7kSbcocJ2KYixGN8LXKW5N7yfdTVlfSSKajdpV5',
+        url: 'https://commons.wikimedia.org/wiki/File:AySel.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Aysel Teymurzade, Azerbaycanlı şarkıcı.\nAzerbaycan\'da yayınlanan Yeni Ulduz yarışmasıyla ilk kez dinleyicilerin karşısına çıkmıştır. Amerika\'da yaşadığı süre boyunca İngilizcesini yüksek seviyeye çıkarmıştır. Teksas Lisesi\'nde öğrenim görmüştür. 2009 Eurovision Şarkı Yarışması\'nda İTV tarafından Azerbaycan\'ı temsil etmesi için seçilmiştir. Yarışmada Arash ile birlikte "Always" adlı şarkıyı seslendirmiştir. Sanatçı, Azerbaycan\'ı Eurovision Şarkı Yarışması\'nda temsil eden ilk kadın şarkıcı olma özelliği gösterir. Azerbaycan Diller Üniversitesi Uluslararası İlişkiler Fakültesinden 2010 yılında mezun olmuştur. Teymurzade, piyanist Murad Adıgözelzade ile evlendikten sonra müziği bırakmıştır. Çiftin iki çocuğu bulunmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Aysel_Teymurzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 33.379871 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Callback for iteration phrase is succeed :Azerbaycan Amerika
+2016-12-15-01:25:39: Score for phrase is33.379871 : Azerbaycan Amerika
+2016-12-15-01:25:39: iteration phrase is going root iteration :Azerbaycan Amerika
+2016-12-15-01:25:39: Root iteration for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Searching for phrase :Azerbaycan Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan Amerika
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.379871 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05c3skh',
+     name: 'Aysel Teymurzade',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRkpt50voq4U7kSbcocJ2KYixGN8LXKW5N7yfdTVlfSSKajdpV5',
+        url: 'https://commons.wikimedia.org/wiki/File:AySel.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Aysel Teymurzade, Azerbaycanlı şarkıcı.\nAzerbaycan\'da yayınlanan Yeni Ulduz yarışmasıyla ilk kez dinleyicilerin karşısına çıkmıştır. Amerika\'da yaşadığı süre boyunca İngilizcesini yüksek seviyeye çıkarmıştır. Teksas Lisesi\'nde öğrenim görmüştür. 2009 Eurovision Şarkı Yarışması\'nda İTV tarafından Azerbaycan\'ı temsil etmesi için seçilmiştir. Yarışmada Arash ile birlikte "Always" adlı şarkıyı seslendirmiştir. Sanatçı, Azerbaycan\'ı Eurovision Şarkı Yarışması\'nda temsil eden ilk kadın şarkıcı olma özelliği gösterir. Azerbaycan Diller Üniversitesi Uluslararası İlişkiler Fakültesinden 2010 yılında mezun olmuştur. Teymurzade, piyanist Murad Adıgözelzade ile evlendikten sonra müziği bırakmıştır. Çiftin iki çocuğu bulunmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Aysel_Teymurzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 33.379871 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Callback for root iteration phrase is succeed :Azerbaycan Amerika
+2016-12-15-01:25:39: Score for phrase is33.379871 : Azerbaycan Amerika
+2016-12-15-01:25:39: Root iteration phrase is going to matching :Azerbaycan Amerika
+2016-12-15-01:25:39: Matching result for phrase : Azerbaycan
+
+2016-12-15-01:25:39: { '@id': 'kg:/m/0jhd',
+  name: 'Azerbaycan',
+  '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQuzWWfIkn7AU4i-2SDEftGsCDc83H-_e2XKVXHhP2J9Vyzp6iw',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg' },
+  detailedDescription: 
+   { articleBody: 'Azerbaycan veya resmî adıyla Azerbaycan Cumhuriyeti, Batı Asya ile Doğu Avrupa\'nın kesişim noktası olan Kafkasya\'da yer alan ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Azerbaycan',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:25:39: Result for phrase will be printed : Azerbaycan
+2016-12-15-01:25:39: received_result_no=2
+2016-12-15-01:25:39: System goes new search 
+2016-12-15-01:25:39: Searching for phrase :Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan Amerika
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.379871 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05c3skh',
+     name: 'Aysel Teymurzade',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRkpt50voq4U7kSbcocJ2KYixGN8LXKW5N7yfdTVlfSSKajdpV5',
+        url: 'https://commons.wikimedia.org/wiki/File:AySel.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Aysel Teymurzade, Azerbaycanlı şarkıcı.\nAzerbaycan\'da yayınlanan Yeni Ulduz yarışmasıyla ilk kez dinleyicilerin karşısına çıkmıştır. Amerika\'da yaşadığı süre boyunca İngilizcesini yüksek seviyeye çıkarmıştır. Teksas Lisesi\'nde öğrenim görmüştür. 2009 Eurovision Şarkı Yarışması\'nda İTV tarafından Azerbaycan\'ı temsil etmesi için seçilmiştir. Yarışmada Arash ile birlikte "Always" adlı şarkıyı seslendirmiştir. Sanatçı, Azerbaycan\'ı Eurovision Şarkı Yarışması\'nda temsil eden ilk kadın şarkıcı olma özelliği gösterir. Azerbaycan Diller Üniversitesi Uluslararası İlişkiler Fakültesinden 2010 yılında mezun olmuştur. Teymurzade, piyanist Murad Adıgözelzade ile evlendikten sonra müziği bırakmıştır. Çiftin iki çocuğu bulunmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Aysel_Teymurzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 33.379871 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Callback for root iteration phrase is succeed :Azerbaycan Amerika
+2016-12-15-01:25:39: Score for phrase is33.379871 : Azerbaycan Amerika
+2016-12-15-01:25:39: Root iteration phrase is going to matching :Azerbaycan Amerika
+2016-12-15-01:25:39: Matching result for phrase : Azerbaycan
+
+2016-12-15-01:25:39: { '@id': 'kg:/m/0jhd',
+  name: 'Azerbaycan',
+  '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQuzWWfIkn7AU4i-2SDEftGsCDc83H-_e2XKVXHhP2J9Vyzp6iw',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg' },
+  detailedDescription: 
+   { articleBody: 'Azerbaycan veya resmî adıyla Azerbaycan Cumhuriyeti, Batı Asya ile Doğu Avrupa\'nın kesişim noktası olan Kafkasya\'da yer alan ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Azerbaycan',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:25:39: Result for phrase will be printed : Azerbaycan
+2016-12-15-01:25:39: received_result_no=2
+2016-12-15-01:25:39: System goes new search 
+2016-12-15-01:25:39: Searching for phrase :Amerika
+2016-12-15-01:25:39: Response for phrase :Azerbaycan Amerika
+
+2016-12-15-01:25:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.379871 } ] }
+2016-12-15-01:25:39: ItemlistElement for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05c3skh',
+     name: 'Aysel Teymurzade',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRkpt50voq4U7kSbcocJ2KYixGN8LXKW5N7yfdTVlfSSKajdpV5',
+        url: 'https://commons.wikimedia.org/wiki/File:AySel.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Aysel Teymurzade, Azerbaycanlı şarkıcı.\nAzerbaycan\'da yayınlanan Yeni Ulduz yarışmasıyla ilk kez dinleyicilerin karşısına çıkmıştır. Amerika\'da yaşadığı süre boyunca İngilizcesini yüksek seviyeye çıkarmıştır. Teksas Lisesi\'nde öğrenim görmüştür. 2009 Eurovision Şarkı Yarışması\'nda İTV tarafından Azerbaycan\'ı temsil etmesi için seçilmiştir. Yarışmada Arash ile birlikte "Always" adlı şarkıyı seslendirmiştir. Sanatçı, Azerbaycan\'ı Eurovision Şarkı Yarışması\'nda temsil eden ilk kadın şarkıcı olma özelliği gösterir. Azerbaycan Diller Üniversitesi Uluslararası İlişkiler Fakültesinden 2010 yılında mezun olmuştur. Teymurzade, piyanist Murad Adıgözelzade ile evlendikten sonra müziği bırakmıştır. Çiftin iki çocuğu bulunmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Aysel_Teymurzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 33.379871 }
+2016-12-15-01:25:39: Callback for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Callback for iteration phrase is succeed :Azerbaycan Amerika
+2016-12-15-01:25:39: Score for phrase is33.379871 : Azerbaycan Amerika
+2016-12-15-01:25:39: iteration phrase is going root iteration :Azerbaycan Amerika
+2016-12-15-01:25:39: Root iteration for phrase : Azerbaycan Amerika
+2016-12-15-01:25:39: Searching for phrase :Azerbaycan Amerika
+2016-12-15-01:25:40: Response for phrase :Amerika
+
+2016-12-15-01:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 176.267227 } ] }
+2016-12-15-01:25:40: ItemlistElement for phrase : Amerika
+2016-12-15-01:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07c5l',
+     name: 'Amerika',
+     '@type': [ 'Continent', 'Thing', 'Place' ],
+     description: 'Bölge',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSlEWZ-dd7TppuHcpOsmC623Y6SwGhUc9XilgStgIbmuAvh5Jiz',
+        url: 'https://commons.wikimedia.org/wiki/File:BlankMap-Americas.svg' },
+     detailedDescription: 
+      { articleBody: 'Amerika, Batı Yarımküre\'de, Yeni Dünya olarak adlandırılan bölgede, Kuzey Amerika, Orta Amerika, Güney Amerika ve bunlara bağlı adalardan meydana gelen kıtalar ve adalar topluluğu. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 176.267227 }
+2016-12-15-01:25:40: Callback for phrase : Amerika
+2016-12-15-01:25:40: Callback for word is succeed :Amerika
+2016-12-15-01:25:40: Word is going to iteration : Amerika
+2016-12-15-01:25:40: Iteration for phrase : Amerika Birleşik
+2016-12-15-01:25:40: Searching for phrase :Amerika Birleşik
+2016-12-15-01:25:40: Response for phrase :Amerika
+
+2016-12-15-01:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 176.267227 } ] }
+2016-12-15-01:25:40: ItemlistElement for phrase : Amerika
+2016-12-15-01:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07c5l',
+     name: 'Amerika',
+     '@type': [ 'Continent', 'Thing', 'Place' ],
+     description: 'Bölge',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSlEWZ-dd7TppuHcpOsmC623Y6SwGhUc9XilgStgIbmuAvh5Jiz',
+        url: 'https://commons.wikimedia.org/wiki/File:BlankMap-Americas.svg' },
+     detailedDescription: 
+      { articleBody: 'Amerika, Batı Yarımküre\'de, Yeni Dünya olarak adlandırılan bölgede, Kuzey Amerika, Orta Amerika, Güney Amerika ve bunlara bağlı adalardan meydana gelen kıtalar ve adalar topluluğu. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 176.267227 }
+2016-12-15-01:25:40: Callback for phrase : Amerika
+2016-12-15-01:25:40: Callback for word is succeed :Amerika
+2016-12-15-01:25:40: Word is going to iteration : Amerika
+2016-12-15-01:25:40: Iteration for phrase : Amerika Birleşik
+2016-12-15-01:25:40: Searching for phrase :Amerika Birleşik
+2016-12-15-01:25:40: Response for phrase :Azerbaycan Amerika
+
+2016-12-15-01:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.379871 } ] }
+2016-12-15-01:25:40: ItemlistElement for phrase : Azerbaycan Amerika
+2016-12-15-01:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05c3skh',
+     name: 'Aysel Teymurzade',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRkpt50voq4U7kSbcocJ2KYixGN8LXKW5N7yfdTVlfSSKajdpV5',
+        url: 'https://commons.wikimedia.org/wiki/File:AySel.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Aysel Teymurzade, Azerbaycanlı şarkıcı.\nAzerbaycan\'da yayınlanan Yeni Ulduz yarışmasıyla ilk kez dinleyicilerin karşısına çıkmıştır. Amerika\'da yaşadığı süre boyunca İngilizcesini yüksek seviyeye çıkarmıştır. Teksas Lisesi\'nde öğrenim görmüştür. 2009 Eurovision Şarkı Yarışması\'nda İTV tarafından Azerbaycan\'ı temsil etmesi için seçilmiştir. Yarışmada Arash ile birlikte "Always" adlı şarkıyı seslendirmiştir. Sanatçı, Azerbaycan\'ı Eurovision Şarkı Yarışması\'nda temsil eden ilk kadın şarkıcı olma özelliği gösterir. Azerbaycan Diller Üniversitesi Uluslararası İlişkiler Fakültesinden 2010 yılında mezun olmuştur. Teymurzade, piyanist Murad Adıgözelzade ile evlendikten sonra müziği bırakmıştır. Çiftin iki çocuğu bulunmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Aysel_Teymurzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 33.379871 }
+2016-12-15-01:25:40: Callback for phrase : Azerbaycan Amerika
+2016-12-15-01:25:40: Callback for root iteration phrase is succeed :Azerbaycan Amerika
+2016-12-15-01:25:40: Score for phrase is33.379871 : Azerbaycan Amerika
+2016-12-15-01:25:40: Root iteration phrase is going to matching :Azerbaycan Amerika
+2016-12-15-01:25:40: Matching result for phrase : Azerbaycan
+
+2016-12-15-01:25:40: { '@id': 'kg:/m/0jhd',
+  name: 'Azerbaycan',
+  '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQuzWWfIkn7AU4i-2SDEftGsCDc83H-_e2XKVXHhP2J9Vyzp6iw',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Azerbaijan_1918.svg' },
+  detailedDescription: 
+   { articleBody: 'Azerbaycan veya resmî adıyla Azerbaycan Cumhuriyeti, Batı Asya ile Doğu Avrupa\'nın kesişim noktası olan Kafkasya\'da yer alan ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Azerbaycan',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-01:25:40: Result for phrase will be printed : Azerbaycan
+2016-12-15-01:25:40: received_result_no=2
+2016-12-15-01:25:40: System goes new search 
+2016-12-15-01:25:40: Searching for phrase :Amerika
+2016-12-15-01:25:40: Response for phrase :Amerika Birleşik
+
+2016-12-15-01:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2428.490723 } ] }
+2016-12-15-01:25:40: ItemlistElement for phrase : Amerika Birleşik
+2016-12-15-01:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09c7w0',
+     name: 'Amerika Birleşik Devletleri',
+     '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+        url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.usa.gov/' },
+  resultScore: 2428.490723 }
+2016-12-15-01:25:40: Callback for phrase : Amerika Birleşik
+2016-12-15-01:25:40: Callback for iteration phrase is succeed :Amerika Birleşik
+2016-12-15-01:25:40: Score for phrase is2428.490723 : Amerika Birleşik
+2016-12-15-01:25:40: iteration phrase is going next iteration :Amerika Birleşik
+2016-12-15-01:25:40: Iteration for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:40: Searching for phrase :Amerika Birleşik Devletleri
+2016-12-15-01:25:40: Response for phrase :Amerika Birleşik
+
+2016-12-15-01:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2428.490723 } ] }
+2016-12-15-01:25:40: ItemlistElement for phrase : Amerika Birleşik
+2016-12-15-01:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09c7w0',
+     name: 'Amerika Birleşik Devletleri',
+     '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+        url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.usa.gov/' },
+  resultScore: 2428.490723 }
+2016-12-15-01:25:40: Callback for phrase : Amerika Birleşik
+2016-12-15-01:25:40: Callback for iteration phrase is succeed :Amerika Birleşik
+2016-12-15-01:25:40: Score for phrase is2428.490723 : Amerika Birleşik
+2016-12-15-01:25:40: iteration phrase is going next iteration :Amerika Birleşik
+2016-12-15-01:25:40: Iteration for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:40: Searching for phrase :Amerika Birleşik Devletleri
+2016-12-15-01:25:40: Response for phrase :Amerika
+
+2016-12-15-01:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 176.267227 } ] }
+2016-12-15-01:25:40: ItemlistElement for phrase : Amerika
+2016-12-15-01:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07c5l',
+     name: 'Amerika',
+     '@type': [ 'Continent', 'Thing', 'Place' ],
+     description: 'Bölge',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSlEWZ-dd7TppuHcpOsmC623Y6SwGhUc9XilgStgIbmuAvh5Jiz',
+        url: 'https://commons.wikimedia.org/wiki/File:BlankMap-Americas.svg' },
+     detailedDescription: 
+      { articleBody: 'Amerika, Batı Yarımküre\'de, Yeni Dünya olarak adlandırılan bölgede, Kuzey Amerika, Orta Amerika, Güney Amerika ve bunlara bağlı adalardan meydana gelen kıtalar ve adalar topluluğu. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 176.267227 }
+2016-12-15-01:25:40: Callback for phrase : Amerika
+2016-12-15-01:25:40: Callback for word is succeed :Amerika
+2016-12-15-01:25:40: Word is going to iteration : Amerika
+2016-12-15-01:25:40: Iteration for phrase : Amerika Birleşik
+2016-12-15-01:25:40: Searching for phrase :Amerika Birleşik
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2472.995605 } ] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09c7w0',
+     name: 'Amerika Birleşik Devletleri',
+     '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+        url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.usa.gov/' },
+  resultScore: 2472.995605 }
+2016-12-15-01:25:41: Callback for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Score for phrase is2472.995605 : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: iteration phrase is going next iteration :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Iteration for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2428.490723 } ] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik
+2016-12-15-01:25:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09c7w0',
+     name: 'Amerika Birleşik Devletleri',
+     '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+        url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.usa.gov/' },
+  resultScore: 2428.490723 }
+2016-12-15-01:25:41: Callback for phrase : Amerika Birleşik
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik
+2016-12-15-01:25:41: Score for phrase is2428.490723 : Amerika Birleşik
+2016-12-15-01:25:41: iteration phrase is going next iteration :Amerika Birleşik
+2016-12-15-01:25:41: Iteration for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2472.995605 } ] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09c7w0',
+     name: 'Amerika Birleşik Devletleri',
+     '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+        url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.usa.gov/' },
+  resultScore: 2472.995605 }
+2016-12-15-01:25:41: Callback for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Score for phrase is2472.995605 : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: iteration phrase is going next iteration :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Iteration for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: undefined
+2016-12-15-01:25:41: Failed callback for phras : Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Score for phrase isnull : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: iteration phrase is going root iteration :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Root iteration for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2472.995605 } ] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09c7w0',
+     name: 'Amerika Birleşik Devletleri',
+     '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+        url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.usa.gov/' },
+  resultScore: 2472.995605 }
+2016-12-15-01:25:41: Callback for phrase : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Score for phrase is2472.995605 : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: iteration phrase is going next iteration :Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Iteration for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: undefined
+2016-12-15-01:25:41: Failed callback for phras : Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Score for phrase isnull : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: iteration phrase is going root iteration :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Root iteration for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: undefined
+2016-12-15-01:25:41: Failed callback for phras : Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: Callback for root iteration phrase is succeed :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Score for phrase isnull : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Root iteration phrase is going to matching :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Matching result for phrase : Amerika Birleşik Devletleri
+
+2016-12-15-01:25:41: { '@id': 'kg:/m/09c7w0',
+  name: 'Amerika Birleşik Devletleri',
+  '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+     url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+  detailedDescription: 
+   { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.usa.gov/' }
+2016-12-15-01:25:41: Result for phrase will be printed : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: received_result_no=3
+2016-12-15-01:25:41: System will be shutdown
+2016-12-15-01:25:41: finish
+2016-12-15-01:25:41: process is finished
+2016-12-15-01:25:41: -----------------Printed Results------------------------
+2016-12-15-01:25:41: Türkiye
+2016-12-15-01:25:41: Azerbaycan
+2016-12-15-01:25:41: Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: undefined
+2016-12-15-01:25:41: Failed callback for phras : Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: Callback for root iteration phrase is succeed :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Score for phrase isnull : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Root iteration phrase is going to matching :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Matching result for phrase : Amerika Birleşik Devletleri
+
+2016-12-15-01:25:41: { '@id': 'kg:/m/09c7w0',
+  name: 'Amerika Birleşik Devletleri',
+  '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+     url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+  detailedDescription: 
+   { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.usa.gov/' }
+2016-12-15-01:25:41: Result for phrase will be printed : Amerika Birleşik Devletleri
+2016-12-15-01:25:41: received_result_no=3
+2016-12-15-01:25:41: System will be shutdown
+2016-12-15-01:25:41: finish
+2016-12-15-01:25:41: process is finished
+2016-12-15-01:25:41: -----------------Printed Results------------------------
+2016-12-15-01:25:41: Türkiye
+2016-12-15-01:25:41: Azerbaycan
+2016-12-15-01:25:41: Amerika Birleşik Devletleri
+2016-12-15-01:25:41: Response for phrase :Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:25:41: ItemlistElement for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: undefined
+2016-12-15-01:25:41: Failed callback for phras : Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:41: Callback for iteration phrase is succeed :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Score for phrase isnull : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: iteration phrase is going root iteration :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Root iteration for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:41: Searching for phrase :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:42: Response for phrase :Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-01:25:42: ItemlistElement for phrase : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:42: undefined
+2016-12-15-01:25:42: Failed callback for phras : Amerika Birleşik Devletleri undefined
+
+2016-12-15-01:25:42: Callback for root iteration phrase is succeed :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:42: Score for phrase isnull : Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:42: Root iteration phrase is going to matching :Amerika Birleşik Devletleri undefined
+2016-12-15-01:25:42: Matching result for phrase : Amerika Birleşik Devletleri
+
+2016-12-15-01:25:42: { '@id': 'kg:/m/09c7w0',
+  name: 'Amerika Birleşik Devletleri',
+  '@type': [ 'Country', 'Thing', 'Place', 'AdministrativeArea' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQKp8mjZhEK0hZroCA4srP9VA9eD8-0PcCsKSU4olhQlh6dMlxc',
+     url: 'https://commons.wikimedia.org/wiki/File:USA_Flag_Map.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+  detailedDescription: 
+   { articleBody: 'Amerika Birleşik Devletleri, elli eyalet ve bir federal bölgeden oluşan bir federal anayasal cumhuriyettir. Ülkenin çoğu, Kuzey Amerika\'nın ortasında, Büyük Okyanus ve Atlas Okyanusu\'nun arasında bulunmaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.usa.gov/' }
+2016-12-15-01:25:42: Result for phrase will be printed : Amerika Birleşik Devletleri
+2016-12-15-01:25:42: received_result_no=3
+2016-12-15-01:25:42: System will be shutdown
+2016-12-15-01:25:42: finish
+2016-12-15-01:25:42: process is finished
+2016-12-15-01:25:42: -----------------Printed Results------------------------
+2016-12-15-01:25:42: Türkiye
+2016-12-15-01:25:42: Azerbaycan
+2016-12-15-01:25:42: Amerika Birleşik Devletleri
+2016-12-15-01:25:49: section_count is:1
+2016-12-15-01:25:49: AftermoveSectionDown section_count is: 1
+2016-12-15-01:25:49: section_count is:2
+2016-12-15-01:25:49: AftermoveSectionDown section_count is: 2
+2016-12-15-01:25:52: section_count is:1
+2016-12-15-01:25:52: AftermoveSectionUp section_count is: 1
+2016-12-15-01:25:52: section_count is:0
+2016-12-15-01:25:52: AftermoveSectionUp section_count is: 0
+2016-12-15-01:25:54: section_count is:1
+2016-12-15-01:25:54: AftermoveSectionDown section_count is: 1
+2016-12-15-01:25:54: section_count is:0
+2016-12-15-01:25:54: AftermoveSectionUp section_count is: 0
+2016-12-15-01:25:54: section_count is:1
+2016-12-15-01:25:54: AftermoveSectionDown section_count is: 1
+2016-12-15-01:25:55: section_count is:2
+2016-12-15-01:25:55: AftermoveSectionDown section_count is: 2
+2016-12-15-01:25:55: section_count is:3
+2016-12-15-01:25:55: AftermoveSectionDown section_count is: 3
+2016-12-15-01:25:56: section_count is:2
+2016-12-15-01:25:56: AftermoveSectionUp section_count is: 2
+2016-12-15-01:25:56: section_count is:1
+2016-12-15-01:25:56: AftermoveSectionUp section_count is: 1
+2016-12-15-01:25:56: 1: slide right gesture is called
+2016-12-15-01:25:56: 1: slide right gesture is called
+2016-12-15-01:25:57: 1: slide right gesture is called
+2016-12-15-01:25:57: 1: slide right gesture is called
+2016-12-15-01:25:57: 1: slide left gesture is called
+2016-12-15-01:25:57: 1: slide left gesture is called
+2016-12-15-01:25:58: section_count is:2
+2016-12-15-01:25:58: AftermoveSectionDown section_count is: 2
+2016-12-15-01:25:58: section_count is:3
+2016-12-15-01:25:58: AftermoveSectionDown section_count is: 3
+2016-12-15-01:25:59: section_count is:2
+2016-12-15-01:25:59: AftermoveSectionUp section_count is: 2
+2016-12-15-01:26:00: section_count is:3
+2016-12-15-01:26:00: AftermoveSectionDown section_count is: 3
+2016-12-15-01:26:00: section_count is:4
+2016-12-15-01:26:00: AftermoveSectionDown section_count is: 4
+2016-12-15-01:26:00: section_count is:3
+2016-12-15-01:26:00: AftermoveSectionUp section_count is: 3
+2016-12-15-01:26:02: 1: slide right gesture is called
+2016-12-15-01:26:02: 1: slide right gesture is called
+2016-12-15-01:26:02: 1: slide right gesture is called
+2016-12-15-01:26:02: 1: slide right gesture is called
+2016-12-15-01:26:02: 1: slide right gesture is called
+2016-12-15-01:26:03: 1: slide right gesture is called
+2016-12-15-01:26:03: 1: slide right gesture is called
+2016-12-15-01:26:03: 1: slide right gesture is called
+2016-12-15-01:26:04: 1: slide right gesture is called
+2016-12-15-01:26:04: 1: slide right gesture is called
+2016-12-15-01:26:04: 1: slide right gesture is called
+2016-12-15-01:26:04: 1: slide right gesture is called
+2016-12-15-01:26:04: 1: slide right gesture is called
+2016-12-15-01:26:04: 1: slide right gesture is called
+2016-12-15-01:26:05: 1: slide left gesture is called
+2016-12-15-01:26:05: 1: slide left gesture is called
+2016-12-15-01:26:05: 1: slide left gesture is called
+2016-12-15-01:26:06: 1: slide left gesture is called
+2016-12-15-01:26:06: 1: slide left gesture is called
+2016-12-15-01:26:06: 1: slide left gesture is called
+2016-12-15-01:26:11: 1: slide right gesture is called
+2016-12-15-01:26:11: 1: slide right gesture is called
+2016-12-15-01:26:12: 1: slide left gesture is called
+2016-12-15-01:26:12: 1: slide left gesture is called
+2016-12-15-01:26:12: 1: slide left gesture is called
+2016-12-15-01:26:14: section_count is:4
+2016-12-15-01:26:14: AftermoveSectionDown section_count is: 4
+2016-12-15-01:26:14: section_count is:5
+2016-12-15-01:26:14: AftermoveSectionDown section_count is: 5
+2016-12-15-01:26:14: section_count is:6
+2016-12-15-01:26:14: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:15: 1: slide right gesture is called
+2016-12-15-01:26:16: 1: slide right gesture is called
+2016-12-15-01:26:16: 1: slide right gesture is called
+2016-12-15-01:26:16: 1: slide right gesture is called
+2016-12-15-01:26:16: 1: slide right gesture is called
+2016-12-15-01:26:17: 1: slide right gesture is called
+2016-12-15-01:26:17: 1: slide right gesture is called
+2016-12-15-01:26:17: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:18: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:18: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:18: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:18: section_count is:5
+2016-12-15-01:26:18: AftermoveSectionUp section_count is: 5
+2016-12-15-01:26:18: section_count is:4
+2016-12-15-01:26:18: AftermoveSectionUp section_count is: 4
+2016-12-15-01:26:20: section_count is:5
+2016-12-15-01:26:20: AftermoveSectionDown section_count is: 5
+2016-12-15-01:26:20: section_count is:4
+2016-12-15-01:26:20: AftermoveSectionUp section_count is: 4
+2016-12-15-01:26:21: section_count is:5
+2016-12-15-01:26:21: AftermoveSectionDown section_count is: 5
+2016-12-15-01:26:21: section_count is:6
+2016-12-15-01:26:21: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:21: section_count is:5
+2016-12-15-01:26:21: AftermoveSectionUp section_count is: 5
+2016-12-15-01:26:21: section_count is:4
+2016-12-15-01:26:21: AftermoveSectionUp section_count is: 4
+2016-12-15-01:26:22: section_count is:5
+2016-12-15-01:26:22: AftermoveSectionDown section_count is: 5
+2016-12-15-01:26:23: section_count is:4
+2016-12-15-01:26:23: AftermoveSectionUp section_count is: 4
+2016-12-15-01:26:23: section_count is:5
+2016-12-15-01:26:23: AftermoveSectionDown section_count is: 5
+2016-12-15-01:26:23: section_count is:6
+2016-12-15-01:26:23: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:24: section_count is:5
+2016-12-15-01:26:24: AftermoveSectionUp section_count is: 5
+2016-12-15-01:26:24: section_count is:4
+2016-12-15-01:26:24: AftermoveSectionUp section_count is: 4
+2016-12-15-01:26:24: section_count is:5
+2016-12-15-01:26:24: AftermoveSectionDown section_count is: 5
+2016-12-15-01:26:25: section_count is:6
+2016-12-15-01:26:25: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:25: section_count is:5
+2016-12-15-01:26:25: AftermoveSectionUp section_count is: 5
+2016-12-15-01:26:25: section_count is:6
+2016-12-15-01:26:25: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:25: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:26: section_count is:5
+2016-12-15-01:26:26: AftermoveSectionUp section_count is: 5
+2016-12-15-01:26:27: section_count is:6
+2016-12-15-01:26:27: AftermoveSectionDown section_count is: 6
+2016-12-15-01:26:27: section_count is:5
+2016-12-15-01:26:27: AftermoveSectionUp section_count is: 5
+2016-12-15-01:26:28: section_count is:4
+2016-12-15-01:26:28: AftermoveSectionUp section_count is: 4
+2016-12-15-01:26:29: section_count is:3
+2016-12-15-01:26:29: AftermoveSectionUp section_count is: 3
+2016-12-15-01:26:29: section_count is:2
+2016-12-15-01:26:29: AftermoveSectionUp section_count is: 2
+2016-12-15-01:26:31: 1: slide right gesture is called
+2016-12-15-01:26:31: 1: slide right gesture is called
+2016-12-15-01:26:31: 1: slide right gesture is called
+2016-12-15-01:26:32: 1: slide right gesture is called
+2016-12-15-01:26:32: 1: slide right gesture is called
+2016-12-15-01:26:32: 1: slide right gesture is called
+2016-12-15-01:26:32: 1: slide right gesture is called
+2016-12-15-01:26:32: 1: slide right gesture is called
+2016-12-15-01:26:33: 1: slide right gesture is called
+2016-12-15-01:26:33: 1: slide right gesture is called
+2016-12-15-01:26:33: 1: slide left gesture is called
+2016-12-15-01:26:33: 1: slide left gesture is called
+2016-12-15-01:26:34: 1: slide left gesture is called
+2016-12-15-01:26:34: 1: slide left gesture is called
+2016-12-15-01:26:34: 1: slide left gesture is called
+2016-12-15-01:26:35: 1: slide right gesture is called
+2016-12-15-01:26:35: 1: slide right gesture is called
+2016-12-15-01:26:35: 1: slide right gesture is called
+2016-12-15-01:26:35: 1: slide right gesture is called
+2016-12-15-01:26:35: section_count is:3
+2016-12-15-01:26:35: AftermoveSectionDown section_count is: 3
+2016-12-15-01:26:37: 1: slide right gesture is called
+2016-12-15-01:26:38: 1: slide right gesture is called
+2016-12-15-01:26:38: 1: slide right gesture is called
+2016-12-15-01:26:39: 1: slide right gesture is called
+2016-12-15-01:26:39: 1: slide right gesture is called
+2016-12-15-01:26:39: 1: slide right gesture is called
+2016-12-15-01:26:39: 1: slide left gesture is called
+2016-12-15-01:26:39: 1: slide left gesture is called

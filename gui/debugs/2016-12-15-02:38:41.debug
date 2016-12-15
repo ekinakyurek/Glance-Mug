@@ -1,0 +1,2208 @@
+2016-12-15-02:38:49: 2:click detected at point:[object Object]
+2016-12-15-02:38:50: 2:click detected at point:[object Object]
+2016-12-15-02:38:50: Connected
+2016-12-15-02:38:50: 2:click detected at point:[object Object]
+2016-12-15-02:38:58: Data received from stt: seni göreyim ya bu ne ya of of Amway sen,Other göre,Noun ya,Other bu,Other ne,Other ya,Other of,Other of,Other Amway,Noun
+2016-12-15-02:38:58: SearchTerm from microphone:seni göreyim ya bu ne ya of of Amway sen,Other göre,Noun ya,Other bu,Other ne,Other ya,Other of,Other of,Other Amway,Noun
+2016-12-15-02:38:58: State machine is initialized with input: 
+2016-12-15-02:38:58: seni göreyim ya bu ne ya of of Amway sen,Other göre,Noun ya,Other bu,Other ne,Other ya,Other of,Other of,Other Amway,Noun
+2016-12-15-02:38:58: Input words : 
+2016-12-15-02:38:58: [ 'seni', 'göreyim', 'ya', 'bu', 'ne', 'ya', 'of', 'of', 'Amway' ]
+2016-12-15-02:38:58: Input roots : 
+2016-12-15-02:38:58: [ 'sen', 'göre', 'ya', 'bu', 'ne', 'ya', 'of', 'of', 'Amway' ]
+2016-12-15-02:38:58: Searching for phrase :seni
+2016-12-15-02:38:58: Connection closed
+2016-12-15-02:38:58: Response for phrase :seni
+
+2016-12-15-02:38:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.722219 } ] }
+2016-12-15-02:38:58: ItemlistElement for phrase : seni
+2016-12-15-02:38:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qk3fk',
+     name: 'Not: Seni Seviyorum',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2007 yapımı film',
+     detailedDescription: 
+      { articleBody: 'P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.',
+        url: 'https://tr.wikipedia.org/wiki/Not:_Seni_Seviyorum',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.722219 }
+2016-12-15-02:38:58: Callback for phrase : seni
+2016-12-15-02:38:58: Callback for word is succeed :seni
+2016-12-15-02:38:58: Word is going to iteration : seni
+2016-12-15-02:38:58: Iteration for phrase : seni göreyim
+2016-12-15-02:38:58: Searching for phrase :seni göreyim
+2016-12-15-02:38:59: Response for phrase :seni göreyim
+
+2016-12-15-02:38:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:38:59: ItemlistElement for phrase : seni göreyim
+2016-12-15-02:38:59: undefined
+2016-12-15-02:38:59: Failed callback for phras : seni göreyim
+
+2016-12-15-02:38:59: Callback for iteration phrase is succeed :seni göreyim
+2016-12-15-02:38:59: Score for phrase isnull : seni göreyim
+2016-12-15-02:38:59: iteration phrase is going root iteration :seni göreyim
+2016-12-15-02:38:59: Root iteration for phrase : seni göre
+2016-12-15-02:38:59: Searching for phrase :seni göre
+2016-12-15-02:38:59: Response for phrase :seni göre
+
+2016-12-15-02:38:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:38:59: ItemlistElement for phrase : seni göre
+2016-12-15-02:38:59: undefined
+2016-12-15-02:38:59: Failed callback for phras : seni göre
+
+2016-12-15-02:38:59: Callback for root iteration phrase is succeed :seni göre
+2016-12-15-02:38:59: Score for phrase isnull : seni göre
+2016-12-15-02:38:59: Root iteration phrase is going to matching :seni göre
+2016-12-15-02:38:59: Matching result for phrase : seni
+
+2016-12-15-02:38:59: { '@id': 'kg:/m/02qk3fk',
+  name: 'Not: Seni Seviyorum',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2007 yapımı film',
+  detailedDescription: 
+   { articleBody: 'P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.',
+     url: 'https://tr.wikipedia.org/wiki/Not:_Seni_Seviyorum',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:38:59: Result for phrase will be printed : seni
+2016-12-15-02:38:59: first data push: Not: Seni Seviyorum,2007 yapımı film,P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.
+2016-12-15-02:38:59: https://www.googleapis.com/customsearch/v1?q=Not: Seni Seviyorum&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:38:59: first dataArray: Not: Seni Seviyorum,2007 yapımı film,P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.
+2016-12-15-02:38:59: received_result_no=1
+2016-12-15-02:38:59: System goes new search 
+2016-12-15-02:38:59: Searching for phrase :ya
+2016-12-15-02:39:00: Response for phrase :ya
+
+2016-12-15-02:39:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 31.834948 } ] }
+2016-12-15-02:39:00: ItemlistElement for phrase : ya
+2016-12-15-02:39:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hzlz',
+     name: 'Güney Afrika',
+     '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+     description: 'Afrika\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT7DKzniNJuzV2p9sy0dQi4FnZmof-pICBEa4hz_-UOIfvicqFR',
+        url: 'https://commons.wikimedia.org/wiki/File:South_Africa_provinces_%2B_flag_back.png',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Güney Afrika Cumhuriyeti ya da daha yaygın kullanımı ile Güney Afrika, Afrika kıtasının güneyinde yer alan bir ülkedir. Ülkenin sınır komşularını Botsvana, Zimbabve, Mozambik, Svaziland ve Namibya oluştururken ülkenin güneydoğusunda Hint Okyanusu, güney ve güneybatısında Atlas Okyanusu bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCney_Afrika_Cumhuriyeti',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.gov.za/' },
+  resultScore: 31.834948 }
+2016-12-15-02:39:00: Callback for phrase : ya
+2016-12-15-02:39:00: Callback for word is succeed :ya
+2016-12-15-02:39:00: Word is going to iteration : ya
+2016-12-15-02:39:00: Iteration for phrase : ya bu
+2016-12-15-02:39:00: Searching for phrase :ya bu
+2016-12-15-02:39:00: first image push:Not: Seni Seviyorum,2007 yapımı film,P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.,https://upload.wikimedia.org/wikipedia/tr/thumb/a/af/Not_Seni_Seviyorum.jpg/220px-Not_Seni_Seviyorum.jpg,http://data.whicdn.com/images/70787320/large.jpg,http://resim.fullhdfilmizlesene.org/mdsresim_izle/fullhd-not-seni-seviyorum-filmi-izle.jpg,http://img04.blogcu.com/v2/images/big/o/z/l/ozlmblg/ozlmblg_1310947689.jpg,http://img.sizcene.com/not_seni_seviyorum_94921.jpg
+2016-12-15-02:39:00: Response for phrase :ya bu
+
+2016-12-15-02:39:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.375587 } ] }
+2016-12-15-02:39:00: ItemlistElement for phrase : ya bu
+2016-12-15-02:39:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11r7pm464',
+     name: 'Masal Bu Ya',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Pınar Aylin\'in müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Masal Bu Ya, Pınar Aylin \'in 2009 yılında çıkardığı EP albümü.',
+        url: 'https://tr.wikipedia.org/wiki/Masal_Bu_Ya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.375587 }
+2016-12-15-02:39:00: Callback for phrase : ya bu
+2016-12-15-02:39:00: Callback for iteration phrase is succeed :ya bu
+2016-12-15-02:39:00: Score for phrase is20.375587 : ya bu
+2016-12-15-02:39:00: iteration phrase is going root iteration :ya bu
+2016-12-15-02:39:00: Root iteration for phrase : ya bu
+2016-12-15-02:39:00: Searching for phrase :ya bu
+2016-12-15-02:39:00: Response for phrase :ya bu
+
+2016-12-15-02:39:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.375587 } ] }
+2016-12-15-02:39:00: ItemlistElement for phrase : ya bu
+2016-12-15-02:39:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11r7pm464',
+     name: 'Masal Bu Ya',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Pınar Aylin\'in müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Masal Bu Ya, Pınar Aylin \'in 2009 yılında çıkardığı EP albümü.',
+        url: 'https://tr.wikipedia.org/wiki/Masal_Bu_Ya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.375587 }
+2016-12-15-02:39:00: Callback for phrase : ya bu
+2016-12-15-02:39:00: Callback for root iteration phrase is succeed :ya bu
+2016-12-15-02:39:00: Score for phrase is20.375587 : ya bu
+2016-12-15-02:39:00: Root iteration phrase is going to matching :ya bu
+2016-12-15-02:39:00: Matching result for phrase : ya
+
+2016-12-15-02:39:00: { '@id': 'kg:/m/0hzlz',
+  name: 'Güney Afrika',
+  '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+  description: 'Afrika\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcT7DKzniNJuzV2p9sy0dQi4FnZmof-pICBEa4hz_-UOIfvicqFR',
+     url: 'https://commons.wikimedia.org/wiki/File:South_Africa_provinces_%2B_flag_back.png',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Güney Afrika Cumhuriyeti ya da daha yaygın kullanımı ile Güney Afrika, Afrika kıtasının güneyinde yer alan bir ülkedir. Ülkenin sınır komşularını Botsvana, Zimbabve, Mozambik, Svaziland ve Namibya oluştururken ülkenin güneydoğusunda Hint Okyanusu, güney ve güneybatısında Atlas Okyanusu bulunmaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%BCney_Afrika_Cumhuriyeti',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.gov.za/' }
+2016-12-15-02:39:00: Result for phrase will not be printed because it is not noun : ya
+2016-12-15-02:39:00: System goes new search 
+2016-12-15-02:39:00: Searching for phrase :bu
+2016-12-15-02:39:01: Response for phrase :bu
+
+2016-12-15-02:39:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.557308 } ] }
+2016-12-15-02:39:01: ItemlistElement for phrase : bu
+2016-12-15-02:39:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/015qh',
+     name: 'Bulgaristan',
+     '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRmtBmIYstruOiZbwOeczcN6z7lOF1E42u81ePnIK3QlcjcBr4r',
+        url: 'https://commons.wikimedia.org/wiki/File:Standard_of_the_President_of_Bulgaria.svg' },
+     detailedDescription: 
+      { articleBody: 'Bulgaristan, Balkanlar\'da yer alan ülke. Batıda Sırbistan ve Makedonya, doğuda Karadeniz, kuzeyde Romanya, güneyde Yunanistan güneydoğuda Türkiye ile çevrilidir. 110 bin 994 kilometrekarelik yüzölçümüyle Avrupa\'nın en büyük 16. ülkesidir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Bulgaristan',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.government.bg/' },
+  resultScore: 43.557308 }
+2016-12-15-02:39:01: Callback for phrase : bu
+2016-12-15-02:39:01: Callback for word is succeed :bu
+2016-12-15-02:39:01: Word is going to iteration : bu
+2016-12-15-02:39:01: Iteration for phrase : bu ne
+2016-12-15-02:39:01: Searching for phrase :bu ne
+2016-12-15-02:39:01: Response for phrase :bu ne
+
+2016-12-15-02:39:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 181.748444 } ] }
+2016-12-15-02:39:01: ItemlistElement for phrase : bu ne
+2016-12-15-02:39:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11bttsrwq5',
+     name: 'Bu Ne Yaa',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Ece Seçkin\'in müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Bu Ne Yaa!, Türk şarkıcı Ece Seçkin\'in ilk extended play albümü, aynı zamanda satışa sunulan ilk çalışması. 16 Ekim 2012 tarihinde Doğulu Productions etiketiyle yayımlandı.',
+        url: 'https://tr.wikipedia.org/wiki/Bu_Ne_Yaa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 181.748444 }
+2016-12-15-02:39:01: Callback for phrase : bu ne
+2016-12-15-02:39:01: Callback for iteration phrase is succeed :bu ne
+2016-12-15-02:39:01: Score for phrase is181.748444 : bu ne
+2016-12-15-02:39:01: iteration phrase is going next iteration :bu ne
+2016-12-15-02:39:01: Iteration for phrase : bu ne ya
+2016-12-15-02:39:01: Searching for phrase :bu ne ya
+2016-12-15-02:39:01: Response for phrase :bu ne ya
+
+2016-12-15-02:39:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 26.682745 } ] }
+2016-12-15-02:39:01: ItemlistElement for phrase : bu ne ya
+2016-12-15-02:39:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05t5tgl',
+     name: 'Ya Rab Bu Ne Derttir',
+     '@type': [ 'Thing' ],
+     description: 'Sibel Pamuk\'un şarkısı' },
+  resultScore: 26.682745 }
+2016-12-15-02:39:01: Callback for phrase : bu ne ya
+2016-12-15-02:39:01: Callback for iteration phrase is succeed :bu ne ya
+2016-12-15-02:39:01: Score for phrase is26.682745 : bu ne ya
+2016-12-15-02:39:01: iteration phrase is going root iteration :bu ne ya
+2016-12-15-02:39:02: Root iteration for phrase : bu ne ya
+2016-12-15-02:39:02: Searching for phrase :bu ne ya
+2016-12-15-02:39:02: Response for phrase :bu ne ya
+
+2016-12-15-02:39:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 26.682745 } ] }
+2016-12-15-02:39:02: ItemlistElement for phrase : bu ne ya
+2016-12-15-02:39:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05t5tgl',
+     name: 'Ya Rab Bu Ne Derttir',
+     '@type': [ 'Thing' ],
+     description: 'Sibel Pamuk\'un şarkısı' },
+  resultScore: 26.682745 }
+2016-12-15-02:39:02: Callback for phrase : bu ne ya
+2016-12-15-02:39:02: Callback for root iteration phrase is succeed :bu ne ya
+2016-12-15-02:39:02: Score for phrase is26.682745 : bu ne ya
+2016-12-15-02:39:02: Root iteration phrase is going to matching :bu ne ya
+2016-12-15-02:39:02: Matching result for phrase : bu ne
+
+2016-12-15-02:39:02: { '@id': 'kg:/g/11bttsrwq5',
+  name: 'Bu Ne Yaa',
+  '@type': [ 'MusicAlbum', 'Thing' ],
+  description: 'Ece Seçkin\'in müzik albümü',
+  detailedDescription: 
+   { articleBody: 'Bu Ne Yaa!, Türk şarkıcı Ece Seçkin\'in ilk extended play albümü, aynı zamanda satışa sunulan ilk çalışması. 16 Ekim 2012 tarihinde Doğulu Productions etiketiyle yayımlandı.',
+     url: 'https://tr.wikipedia.org/wiki/Bu_Ne_Yaa',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:02: Result for phrase will be printed : bu ne
+2016-12-15-02:39:02: last dataArray: Not: Seni Seviyorum,2007 yapımı film,P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.,https://upload.wikimedia.org/wikipedia/tr/thumb/a/af/Not_Seni_Seviyorum.jpg/220px-Not_Seni_Seviyorum.jpg,http://data.whicdn.com/images/70787320/large.jpg,http://resim.fullhdfilmizlesene.org/mdsresim_izle/fullhd-not-seni-seviyorum-filmi-izle.jpg,http://img04.blogcu.com/v2/images/big/o/z/l/ozlmblg/ozlmblg_1310947689.jpg,http://img.sizcene.com/not_seni_seviyorum_94921.jpg
+2016-12-15-02:39:02: received_result_no=2
+2016-12-15-02:39:02: System goes new search 
+2016-12-15-02:39:02: Searching for phrase :of
+2016-12-15-02:39:02: Response for phrase :of
+
+2016-12-15-02:39:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 52.527378 } ] }
+2016-12-15-02:39:02: ItemlistElement for phrase : of
+2016-12-15-02:39:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01n7q',
+     name: 'Kaliforniya',
+     '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRk6jKWJGUmwM80TYopasuYsJlqbwD_QwH6YuVwhy5YC4TEK8Xc',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_California.svg' },
+     detailedDescription: 
+      { articleBody: 'Kaliforniya, ABD\'nin batı yakasında yer alan ve ülkenin en kalabalık eyaletidir. 2004 yılı nüfus sayımlarına göre, 35.893.818 kişilik nüfusa sahip olan Kaliforniya\'yı, 20.851.820 kişi ile Teksas, 18.976.457 kişi ile New York ve 15.982.378 kişi ile Florida izler.\n',
+        url: 'https://tr.wikipedia.org/wiki/Kaliforniya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ca.gov/' },
+  resultScore: 52.527378 }
+2016-12-15-02:39:02: Callback for phrase : of
+2016-12-15-02:39:02: Callback for word is succeed :of
+2016-12-15-02:39:02: Word is going to iteration : of
+2016-12-15-02:39:02: Iteration for phrase : of of
+2016-12-15-02:39:02: Searching for phrase :of of
+2016-12-15-02:39:02: 1: slide left gesture is called
+2016-12-15-02:39:02: 1: slide left gesture is called
+2016-12-15-02:39:02: Response for phrase :of of
+
+2016-12-15-02:39:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 309.72467 } ] }
+2016-12-15-02:39:02: ItemlistElement for phrase : of of
+2016-12-15-02:39:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cmnd4',
+     name: 'Of',
+     '@type': [ 'Place', 'Thing', 'City' ],
+     description: 'İlçe',
+     detailedDescription: 
+      { articleBody: 'Of, Trabzon ilinin doğusunda yer alan ve tarihi çok eskilere dayanan bir ilçedir. Arazisini, Of\'tan Karadeniz\'e dökülen Solaklı, Baltacı ve İyidere derelerinin aşağı havzaları oluşturur. ',
+        url: 'https://tr.wikipedia.org/wiki/Of',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 309.72467 }
+2016-12-15-02:39:02: Callback for phrase : of of
+2016-12-15-02:39:02: Callback for iteration phrase is succeed :of of
+2016-12-15-02:39:02: Score for phrase is309.72467 : of of
+2016-12-15-02:39:02: iteration phrase is going next iteration :of of
+2016-12-15-02:39:02: Iteration for phrase : of of Amway
+2016-12-15-02:39:02: Searching for phrase :of of Amway
+2016-12-15-02:39:03: 1: slide right gesture is called
+2016-12-15-02:39:03: Response for phrase :of of Amway
+
+2016-12-15-02:39:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 46.839867 } ] }
+2016-12-15-02:39:03: ItemlistElement for phrase : of of Amway
+2016-12-15-02:39:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tdx',
+     name: 'Amway',
+     '@type': [ 'Corporation', 'Thing', 'Place', 'Organization' ],
+     description: 'Şirket',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRV92e5d9SKBjIN7aixS5g8cND7Xrc4HDhlDFkDYC6KQYGlmhGb',
+        url: 'https://commons.wikimedia.org/wiki/File:Ada_Michigan_Amway_HQ_DSCN9720.JPG',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Amway, uluslararası alanda sağlık, güzellik, ev bakımı ve ev teknolojileri gibi müşterilerine ürün çeşitliliği sağlayan bir doğrudan satış şirketidir.\n1959 yılında Jay Van Andel ve Richard DeVos tarafından kurulmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/Amway',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.amway.com' },
+  resultScore: 46.839867 }
+2016-12-15-02:39:03: Callback for phrase : of of Amway
+2016-12-15-02:39:03: Callback for iteration phrase is succeed :of of Amway
+2016-12-15-02:39:03: Score for phrase is46.839867 : of of Amway
+2016-12-15-02:39:03: iteration phrase is going root iteration :of of Amway
+2016-12-15-02:39:03: Root iteration for phrase : of of Amway
+2016-12-15-02:39:03: Searching for phrase :of of Amway
+2016-12-15-02:39:03: 1: slide right gesture is called
+2016-12-15-02:39:03: Response for phrase :of of Amway
+
+2016-12-15-02:39:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 46.839867 } ] }
+2016-12-15-02:39:03: ItemlistElement for phrase : of of Amway
+2016-12-15-02:39:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tdx',
+     name: 'Amway',
+     '@type': [ 'Corporation', 'Thing', 'Place', 'Organization' ],
+     description: 'Şirket',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRV92e5d9SKBjIN7aixS5g8cND7Xrc4HDhlDFkDYC6KQYGlmhGb',
+        url: 'https://commons.wikimedia.org/wiki/File:Ada_Michigan_Amway_HQ_DSCN9720.JPG',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Amway, uluslararası alanda sağlık, güzellik, ev bakımı ve ev teknolojileri gibi müşterilerine ürün çeşitliliği sağlayan bir doğrudan satış şirketidir.\n1959 yılında Jay Van Andel ve Richard DeVos tarafından kurulmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/Amway',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.amway.com' },
+  resultScore: 46.839867 }
+2016-12-15-02:39:03: Callback for phrase : of of Amway
+2016-12-15-02:39:03: Callback for root iteration phrase is succeed :of of Amway
+2016-12-15-02:39:03: Score for phrase is46.839867 : of of Amway
+2016-12-15-02:39:03: Root iteration phrase is going to matching :of of Amway
+2016-12-15-02:39:03: Matching result for phrase : of of
+
+2016-12-15-02:39:03: { '@id': 'kg:/m/0cmnd4',
+  name: 'Of',
+  '@type': [ 'Place', 'Thing', 'City' ],
+  description: 'İlçe',
+  detailedDescription: 
+   { articleBody: 'Of, Trabzon ilinin doğusunda yer alan ve tarihi çok eskilere dayanan bir ilçedir. Arazisini, Of\'tan Karadeniz\'e dökülen Solaklı, Baltacı ve İyidere derelerinin aşağı havzaları oluşturur. ',
+     url: 'https://tr.wikipedia.org/wiki/Of',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:03: Result for phrase will be printed : of of
+2016-12-15-02:39:03: last dataArray: Not: Seni Seviyorum,2007 yapımı film,P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.,https://upload.wikimedia.org/wikipedia/tr/thumb/a/af/Not_Seni_Seviyorum.jpg/220px-Not_Seni_Seviyorum.jpg,http://data.whicdn.com/images/70787320/large.jpg,http://resim.fullhdfilmizlesene.org/mdsresim_izle/fullhd-not-seni-seviyorum-filmi-izle.jpg,http://img04.blogcu.com/v2/images/big/o/z/l/ozlmblg/ozlmblg_1310947689.jpg,http://img.sizcene.com/not_seni_seviyorum_94921.jpg
+2016-12-15-02:39:03: received_result_no=3
+2016-12-15-02:39:03: System goes new search 
+2016-12-15-02:39:03: Searching for phrase :Amway
+2016-12-15-02:39:04: Response for phrase :Amway
+
+2016-12-15-02:39:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 46.839867 } ] }
+2016-12-15-02:39:04: ItemlistElement for phrase : Amway
+2016-12-15-02:39:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tdx',
+     name: 'Amway',
+     '@type': [ 'Corporation', 'Thing', 'Place', 'Organization' ],
+     description: 'Şirket',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRV92e5d9SKBjIN7aixS5g8cND7Xrc4HDhlDFkDYC6KQYGlmhGb',
+        url: 'https://commons.wikimedia.org/wiki/File:Ada_Michigan_Amway_HQ_DSCN9720.JPG',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Amway, uluslararası alanda sağlık, güzellik, ev bakımı ve ev teknolojileri gibi müşterilerine ürün çeşitliliği sağlayan bir doğrudan satış şirketidir.\n1959 yılında Jay Van Andel ve Richard DeVos tarafından kurulmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/Amway',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.amway.com' },
+  resultScore: 46.839867 }
+2016-12-15-02:39:04: Callback for phrase : Amway
+2016-12-15-02:39:04: Callback for word is succeed :Amway
+2016-12-15-02:39:04: last word is noun here is the result of :Amway
+2016-12-15-02:39:04: { '@id': 'kg:/m/0tdx',
+  name: 'Amway',
+  '@type': [ 'Corporation', 'Thing', 'Place', 'Organization' ],
+  description: 'Şirket',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRV92e5d9SKBjIN7aixS5g8cND7Xrc4HDhlDFkDYC6KQYGlmhGb',
+     url: 'https://commons.wikimedia.org/wiki/File:Ada_Michigan_Amway_HQ_DSCN9720.JPG',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Amway, uluslararası alanda sağlık, güzellik, ev bakımı ve ev teknolojileri gibi müşterilerine ürün çeşitliliği sağlayan bir doğrudan satış şirketidir.\n1959 yılında Jay Van Andel ve Richard DeVos tarafından kurulmuştur. ',
+     url: 'https://tr.wikipedia.org/wiki/Amway',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.amway.com' }
+2016-12-15-02:39:04: last dataArray: Not: Seni Seviyorum,2007 yapımı film,P.S. I Love You. 2007 yapımı bir Amerikan filmidir. Başrollerini Hilary Swank ve Gerard Butler paylaşır.,https://upload.wikimedia.org/wikipedia/tr/thumb/a/af/Not_Seni_Seviyorum.jpg/220px-Not_Seni_Seviyorum.jpg,http://data.whicdn.com/images/70787320/large.jpg,http://resim.fullhdfilmizlesene.org/mdsresim_izle/fullhd-not-seni-seviyorum-filmi-izle.jpg,http://img04.blogcu.com/v2/images/big/o/z/l/ozlmblg/ozlmblg_1310947689.jpg,http://img.sizcene.com/not_seni_seviyorum_94921.jpg
+2016-12-15-02:39:04: received_result_no=4
+2016-12-15-02:39:04: finish
+2016-12-15-02:39:04: process is finished
+2016-12-15-02:39:04: -----------------Printed Results------------------------
+2016-12-15-02:39:04: Not: Seni Seviyorum
+2016-12-15-02:39:04: Bu Ne Yaa
+2016-12-15-02:39:04: Of
+2016-12-15-02:39:04: Amway
+2016-12-15-02:39:04: 1: slide right gesture is called
+2016-12-15-02:39:04: 1: slide right gesture is called
+2016-12-15-02:39:04: 1: slide left gesture is called
+2016-12-15-02:39:04: 1: slide left gesture is called
+2016-12-15-02:39:05: length of dataArray is: 0
+2016-12-15-02:39:05: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:05: length of dataArray is: 0
+2016-12-15-02:39:05: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:06: length of dataArray is: 0
+2016-12-15-02:39:06: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:06: length of dataArray is: 0
+2016-12-15-02:39:06: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:06: length of dataArray is: 0
+2016-12-15-02:39:06: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:06: length of dataArray is: 0
+2016-12-15-02:39:06: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:06: length of dataArray is: 0
+2016-12-15-02:39:06: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:06: length of dataArray is: 0
+2016-12-15-02:39:06: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:07: length of dataArray is: 0
+2016-12-15-02:39:07: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:07: length of dataArray is: 0
+2016-12-15-02:39:07: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:08: length of dataArray is: 0
+2016-12-15-02:39:08: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:08: length of dataArray is: 0
+2016-12-15-02:39:08: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:09: 1: slide right gesture is called
+2016-12-15-02:39:09: 1: slide left gesture is called
+2016-12-15-02:39:10: 1: slide left gesture is called
+2016-12-15-02:39:10: 1: slide left gesture is called
+2016-12-15-02:39:10: length of dataArray is: 0
+2016-12-15-02:39:10: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:11: length of dataArray is: 0
+2016-12-15-02:39:11: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:11: length of dataArray is: 0
+2016-12-15-02:39:11: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:11: length of dataArray is: 0
+2016-12-15-02:39:11: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:11: length of dataArray is: 0
+2016-12-15-02:39:11: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:12: length of dataArray is: 0
+2016-12-15-02:39:12: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:16: 2:click detected at point:[object Object]
+2016-12-15-02:39:17: 2:click detected at point:[object Object]
+2016-12-15-02:39:17: Connected
+2016-12-15-02:39:17: 2:click detected at point:[object Object]
+2016-12-15-02:39:26: Data received from stt: benim bir şey değiştirmedi I Love You notaları kadınların doktoru Orhan Gencebay Mehmet Ali Erbil ben,Noun bir,Other şey,Noun değiş,Other ı,Other Love,Noun You,Noun nota,Noun kadın,Noun doktor,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:26: SearchTerm from microphone:benim bir şey değiştirmedi I Love You notaları kadınların doktoru Orhan Gencebay Mehmet Ali Erbil ben,Noun bir,Other şey,Noun değiş,Other ı,Other Love,Noun You,Noun nota,Noun kadın,Noun doktor,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:26: State machine is initialized with input: 
+2016-12-15-02:39:26: benim bir şey değiştirmedi I Love You notaları kadınların doktoru Orhan Gencebay Mehmet Ali Erbil ben,Noun bir,Other şey,Noun değiş,Other ı,Other Love,Noun You,Noun nota,Noun kadın,Noun doktor,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:26: Input words : 
+2016-12-15-02:39:26: [ 'benim',
+  'bir',
+  'şey',
+  'değiştirmedi',
+  'I',
+  'Love',
+  'You',
+  'notaları',
+  'kadınların',
+  'doktoru',
+  'Orhan',
+  'Gencebay',
+  'Mehmet',
+  'Ali',
+  'Erbil' ]
+2016-12-15-02:39:26: Input roots : 
+2016-12-15-02:39:26: [ 'ben',
+  'bir',
+  'şey',
+  'değiş',
+  'ı',
+  'Love',
+  'You',
+  'nota',
+  'kadın',
+  'doktor',
+  'Orhan',
+  'Gencebay',
+  'Mehmet',
+  'Ali',
+  'Erbil' ]
+2016-12-15-02:39:26: Searching for phrase :benim
+2016-12-15-02:39:26: Data received from stt: benim bir şey değiştirmedi I Love You notaları kadınların doktoru Orhan Gencebay Mehmet Ali Erbil ben,Noun bir,Other şey,Noun değiş,Other ı,Other Love,Noun You,Noun nota,Noun kadın,Noun doktor,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:26: SearchTerm from microphone:benim bir şey değiştirmedi I Love You notaları kadınların doktoru Orhan Gencebay Mehmet Ali Erbil ben,Noun bir,Other şey,Noun değiş,Other ı,Other Love,Noun You,Noun nota,Noun kadın,Noun doktor,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:26: State machine is initialized with input: 
+2016-12-15-02:39:26: benim bir şey değiştirmedi I Love You notaları kadınların doktoru Orhan Gencebay Mehmet Ali Erbil ben,Noun bir,Other şey,Noun değiş,Other ı,Other Love,Noun You,Noun nota,Noun kadın,Noun doktor,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:26: Input words : 
+2016-12-15-02:39:26: [ 'benim',
+  'bir',
+  'şey',
+  'değiştirmedi',
+  'I',
+  'Love',
+  'You',
+  'notaları',
+  'kadınların',
+  'doktoru',
+  'Orhan',
+  'Gencebay',
+  'Mehmet',
+  'Ali',
+  'Erbil' ]
+2016-12-15-02:39:26: Input roots : 
+2016-12-15-02:39:26: [ 'ben',
+  'bir',
+  'şey',
+  'değiş',
+  'ı',
+  'Love',
+  'You',
+  'nota',
+  'kadın',
+  'doktor',
+  'Orhan',
+  'Gencebay',
+  'Mehmet',
+  'Ali',
+  'Erbil' ]
+2016-12-15-02:39:26: Searching for phrase :benim
+2016-12-15-02:39:26: Connection closed
+2016-12-15-02:39:26: Connection closed
+2016-12-15-02:39:27: Response for phrase :benim
+
+2016-12-15-02:39:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.980711 } ] }
+2016-12-15-02:39:27: ItemlistElement for phrase : benim
+2016-12-15-02:39:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0mcl0',
+     name: 'Benim Afrikam',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1985 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Benim Afrikam, 1985 ABD yapımı otobiyografik filmdir. Özgün adı Out of Africa olan film Mart 1987\'de Türkiye\'de sinemalarda gösterilmiştir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Benim_Afrikam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.universalstudiosentertainment.com/out-of-africa/' },
+  resultScore: 27.980711 }
+2016-12-15-02:39:27: Callback for phrase : benim
+2016-12-15-02:39:27: Callback for word is succeed :benim
+2016-12-15-02:39:27: Word is going to iteration : benim
+2016-12-15-02:39:27: Iteration for phrase : benim bir
+2016-12-15-02:39:27: Searching for phrase :benim bir
+2016-12-15-02:39:27: Response for phrase :benim
+
+2016-12-15-02:39:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.980711 } ] }
+2016-12-15-02:39:27: ItemlistElement for phrase : benim
+2016-12-15-02:39:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0mcl0',
+     name: 'Benim Afrikam',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1985 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Benim Afrikam, 1985 ABD yapımı otobiyografik filmdir. Özgün adı Out of Africa olan film Mart 1987\'de Türkiye\'de sinemalarda gösterilmiştir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Benim_Afrikam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.universalstudiosentertainment.com/out-of-africa/' },
+  resultScore: 27.980711 }
+2016-12-15-02:39:27: Callback for phrase : benim
+2016-12-15-02:39:27: Callback for word is succeed :benim
+2016-12-15-02:39:27: Word is going to iteration : benim
+2016-12-15-02:39:27: Iteration for phrase : benim bir
+2016-12-15-02:39:27: Searching for phrase :benim bir
+2016-12-15-02:39:27: Response for phrase :benim bir
+
+2016-12-15-02:39:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 148.05072 } ] }
+2016-12-15-02:39:27: ItemlistElement for phrase : benim bir
+2016-12-15-02:39:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05r5r6l',
+     name: 'Benim Bir Sevdiğim Var',
+     '@type': [ 'Thing' ],
+     description: 'İntizar\'ın şarkısı' },
+  resultScore: 148.05072 }
+2016-12-15-02:39:27: Callback for phrase : benim bir
+2016-12-15-02:39:27: Callback for iteration phrase is succeed :benim bir
+2016-12-15-02:39:27: Score for phrase is148.05072 : benim bir
+2016-12-15-02:39:27: iteration phrase is going next iteration :benim bir
+2016-12-15-02:39:27: Iteration for phrase : benim bir şey
+2016-12-15-02:39:27: Searching for phrase :benim bir şey
+2016-12-15-02:39:27: Response for phrase :benim bir
+
+2016-12-15-02:39:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 148.05072 } ] }
+2016-12-15-02:39:27: ItemlistElement for phrase : benim bir
+2016-12-15-02:39:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05r5r6l',
+     name: 'Benim Bir Sevdiğim Var',
+     '@type': [ 'Thing' ],
+     description: 'İntizar\'ın şarkısı' },
+  resultScore: 148.05072 }
+2016-12-15-02:39:27: Callback for phrase : benim bir
+2016-12-15-02:39:27: Callback for iteration phrase is succeed :benim bir
+2016-12-15-02:39:27: Score for phrase is148.05072 : benim bir
+2016-12-15-02:39:27: iteration phrase is going next iteration :benim bir
+2016-12-15-02:39:27: Iteration for phrase : benim bir şey
+2016-12-15-02:39:27: Searching for phrase :benim bir şey
+2016-12-15-02:39:27: Response for phrase :benim bir şey
+
+2016-12-15-02:39:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:27: ItemlistElement for phrase : benim bir şey
+2016-12-15-02:39:27: undefined
+2016-12-15-02:39:27: Failed callback for phras : benim bir şey
+
+2016-12-15-02:39:27: Callback for iteration phrase is succeed :benim bir şey
+2016-12-15-02:39:27: Score for phrase isnull : benim bir şey
+2016-12-15-02:39:27: iteration phrase is going root iteration :benim bir şey
+2016-12-15-02:39:27: Root iteration for phrase : benim bir şey
+2016-12-15-02:39:27: Searching for phrase :benim bir şey
+2016-12-15-02:39:27: Response for phrase :benim bir şey
+
+2016-12-15-02:39:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:27: ItemlistElement for phrase : benim bir şey
+2016-12-15-02:39:27: undefined
+2016-12-15-02:39:27: Failed callback for phras : benim bir şey
+
+2016-12-15-02:39:27: Callback for iteration phrase is succeed :benim bir şey
+2016-12-15-02:39:27: Score for phrase isnull : benim bir şey
+2016-12-15-02:39:27: iteration phrase is going root iteration :benim bir şey
+2016-12-15-02:39:27: Root iteration for phrase : benim bir şey
+2016-12-15-02:39:27: Searching for phrase :benim bir şey
+2016-12-15-02:39:28: Response for phrase :benim bir şey
+
+2016-12-15-02:39:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:28: ItemlistElement for phrase : benim bir şey
+2016-12-15-02:39:28: undefined
+2016-12-15-02:39:28: Failed callback for phras : benim bir şey
+
+2016-12-15-02:39:28: Callback for root iteration phrase is succeed :benim bir şey
+2016-12-15-02:39:28: Score for phrase isnull : benim bir şey
+2016-12-15-02:39:28: Root iteration phrase is going to matching :benim bir şey
+2016-12-15-02:39:28: Matching result for phrase : benim bir
+
+2016-12-15-02:39:28: { '@id': 'kg:/g/1s05r5r6l',
+  name: 'Benim Bir Sevdiğim Var',
+  '@type': [ 'Thing' ],
+  description: 'İntizar\'ın şarkısı' }
+2016-12-15-02:39:28: Result for phrase will be printed : benim bir
+2016-12-15-02:39:28: Response for phrase :benim bir şey
+
+2016-12-15-02:39:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:28: ItemlistElement for phrase : benim bir şey
+2016-12-15-02:39:28: undefined
+2016-12-15-02:39:28: Failed callback for phras : benim bir şey
+
+2016-12-15-02:39:28: Callback for root iteration phrase is succeed :benim bir şey
+2016-12-15-02:39:28: Score for phrase isnull : benim bir şey
+2016-12-15-02:39:28: Root iteration phrase is going to matching :benim bir şey
+2016-12-15-02:39:28: Matching result for phrase : benim bir
+
+2016-12-15-02:39:28: { '@id': 'kg:/g/1s05r5r6l',
+  name: 'Benim Bir Sevdiğim Var',
+  '@type': [ 'Thing' ],
+  description: 'İntizar\'ın şarkısı' }
+2016-12-15-02:39:28: Result for phrase will be printed : benim bir
+2016-12-15-02:39:37: 2:click detected at point:[object Object]
+2016-12-15-02:39:37: Connected
+2016-12-15-02:39:37: 2:click detected at point:[object Object]
+2016-12-15-02:39:38: 2:click detected at point:[object Object]
+2016-12-15-02:39:43: Data received from stt: Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: SearchTerm from microphone:Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: State machine is initialized with input: 
+2016-12-15-02:39:43: Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: Input words : 
+2016-12-15-02:39:43: [ 'Ak', 'Orhan', 'Gencebay', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:39:43: Input roots : 
+2016-12-15-02:39:43: [ 'ak', 'Orhan', 'Gencebay', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:39:43: Searching for phrase :Ak
+2016-12-15-02:39:43: Data received from stt: Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: SearchTerm from microphone:Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: State machine is initialized with input: 
+2016-12-15-02:39:43: Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: Input words : 
+2016-12-15-02:39:43: [ 'Ak', 'Orhan', 'Gencebay', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:39:43: Input roots : 
+2016-12-15-02:39:43: [ 'ak', 'Orhan', 'Gencebay', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:39:43: Searching for phrase :Ak
+2016-12-15-02:39:43: Data received from stt: Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: SearchTerm from microphone:Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: State machine is initialized with input: 
+2016-12-15-02:39:43: Ak Orhan Gencebay Mehmet Ali Erbil ak,Noun Orhan,Noun Gencebay,Noun Mehmet,Noun Ali,Noun Erbil,Noun
+2016-12-15-02:39:43: Input words : 
+2016-12-15-02:39:43: [ 'Ak', 'Orhan', 'Gencebay', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:39:43: Input roots : 
+2016-12-15-02:39:43: [ 'ak', 'Orhan', 'Gencebay', 'Mehmet', 'Ali', 'Erbil' ]
+2016-12-15-02:39:43: Searching for phrase :Ak
+2016-12-15-02:39:43: Connection closed
+2016-12-15-02:39:43: Connection closed
+2016-12-15-02:39:43: Connection closed
+2016-12-15-02:39:44: Response for phrase :Ak
+
+2016-12-15-02:39:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.826801 } ] }
+2016-12-15-02:39:44: ItemlistElement for phrase : Ak
+2016-12-15-02:39:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hjy',
+     name: 'Alaska',
+     '@type': [ 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR8Cay5PcoyXP62Q4zCF9XXW5_7XBqirvlkq6c3Pjc9ERgN3uoW',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Alaska.svg',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Alaska, ABD\'nin yüzölçümü en büyük, nüfus yoğunluğu en az olan eyâletidir. Rusya İmparatorluğu\'ndan 30 Mart 1867\'de 7,2 milyon dolar karşılığında satın alınarak ABD\'ye katılmıştır. Oldukça soğuk bir iklime sahiptir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Alaska',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.alaska.gov/' },
+  resultScore: 41.826801 }
+2016-12-15-02:39:44: Callback for phrase : Ak
+2016-12-15-02:39:44: Callback for word is succeed :Ak
+2016-12-15-02:39:44: Word is going to iteration : Ak
+2016-12-15-02:39:44: Iteration for phrase : Ak Orhan
+2016-12-15-02:39:44: Searching for phrase :Ak Orhan
+2016-12-15-02:39:44: Response for phrase :Ak
+
+2016-12-15-02:39:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.826801 } ] }
+2016-12-15-02:39:44: ItemlistElement for phrase : Ak
+2016-12-15-02:39:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hjy',
+     name: 'Alaska',
+     '@type': [ 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR8Cay5PcoyXP62Q4zCF9XXW5_7XBqirvlkq6c3Pjc9ERgN3uoW',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Alaska.svg',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Alaska, ABD\'nin yüzölçümü en büyük, nüfus yoğunluğu en az olan eyâletidir. Rusya İmparatorluğu\'ndan 30 Mart 1867\'de 7,2 milyon dolar karşılığında satın alınarak ABD\'ye katılmıştır. Oldukça soğuk bir iklime sahiptir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Alaska',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.alaska.gov/' },
+  resultScore: 41.826801 }
+2016-12-15-02:39:44: Callback for phrase : Ak
+2016-12-15-02:39:44: Callback for word is succeed :Ak
+2016-12-15-02:39:44: Word is going to iteration : Ak
+2016-12-15-02:39:44: Iteration for phrase : Ak Orhan
+2016-12-15-02:39:44: Searching for phrase :Ak Orhan
+2016-12-15-02:39:44: Response for phrase :Ak
+
+2016-12-15-02:39:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.826801 } ] }
+2016-12-15-02:39:44: ItemlistElement for phrase : Ak
+2016-12-15-02:39:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hjy',
+     name: 'Alaska',
+     '@type': [ 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR8Cay5PcoyXP62Q4zCF9XXW5_7XBqirvlkq6c3Pjc9ERgN3uoW',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Alaska.svg',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Alaska, ABD\'nin yüzölçümü en büyük, nüfus yoğunluğu en az olan eyâletidir. Rusya İmparatorluğu\'ndan 30 Mart 1867\'de 7,2 milyon dolar karşılığında satın alınarak ABD\'ye katılmıştır. Oldukça soğuk bir iklime sahiptir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Alaska',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.alaska.gov/' },
+  resultScore: 41.826801 }
+2016-12-15-02:39:44: Callback for phrase : Ak
+2016-12-15-02:39:44: Callback for word is succeed :Ak
+2016-12-15-02:39:44: Word is going to iteration : Ak
+2016-12-15-02:39:44: Iteration for phrase : Ak Orhan
+2016-12-15-02:39:44: Searching for phrase :Ak Orhan
+2016-12-15-02:39:44: Response for phrase :Ak Orhan
+
+2016-12-15-02:39:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 185.442459 } ] }
+2016-12-15-02:39:44: ItemlistElement for phrase : Ak Orhan
+2016-12-15-02:39:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0784t9',
+     name: 'Orhan Ak',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Futbolcu',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTkdGW5A3jTobUigJ5PcBzhKTiZ5j79HqQzuRNrG6of04o7Vnqy',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Ak',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Ak',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 185.442459 }
+2016-12-15-02:39:44: Callback for phrase : Ak Orhan
+2016-12-15-02:39:44: Callback for iteration phrase is succeed :Ak Orhan
+2016-12-15-02:39:44: Score for phrase is185.442459 : Ak Orhan
+2016-12-15-02:39:44: iteration phrase is going next iteration :Ak Orhan
+2016-12-15-02:39:44: Iteration for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:44: Searching for phrase :Ak Orhan Gencebay
+2016-12-15-02:39:44: Response for phrase :Ak Orhan
+
+2016-12-15-02:39:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 185.442459 } ] }
+2016-12-15-02:39:44: ItemlistElement for phrase : Ak Orhan
+2016-12-15-02:39:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0784t9',
+     name: 'Orhan Ak',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Futbolcu',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTkdGW5A3jTobUigJ5PcBzhKTiZ5j79HqQzuRNrG6of04o7Vnqy',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Ak',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Ak',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 185.442459 }
+2016-12-15-02:39:44: Callback for phrase : Ak Orhan
+2016-12-15-02:39:44: Callback for iteration phrase is succeed :Ak Orhan
+2016-12-15-02:39:44: Score for phrase is185.442459 : Ak Orhan
+2016-12-15-02:39:44: iteration phrase is going next iteration :Ak Orhan
+2016-12-15-02:39:44: Iteration for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:44: Searching for phrase :Ak Orhan Gencebay
+2016-12-15-02:39:44: Response for phrase :Ak Orhan
+
+2016-12-15-02:39:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 185.442459 } ] }
+2016-12-15-02:39:44: ItemlistElement for phrase : Ak Orhan
+2016-12-15-02:39:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0784t9',
+     name: 'Orhan Ak',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Futbolcu',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTkdGW5A3jTobUigJ5PcBzhKTiZ5j79HqQzuRNrG6of04o7Vnqy',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Ak',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Ak',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 185.442459 }
+2016-12-15-02:39:44: Callback for phrase : Ak Orhan
+2016-12-15-02:39:44: Callback for iteration phrase is succeed :Ak Orhan
+2016-12-15-02:39:44: Score for phrase is185.442459 : Ak Orhan
+2016-12-15-02:39:44: iteration phrase is going next iteration :Ak Orhan
+2016-12-15-02:39:44: Iteration for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:44: Searching for phrase :Ak Orhan Gencebay
+2016-12-15-02:39:45: Response for phrase :Ak Orhan Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: undefined
+2016-12-15-02:39:45: Failed callback for phras : Ak Orhan Gencebay
+
+2016-12-15-02:39:45: Callback for iteration phrase is succeed :Ak Orhan Gencebay
+2016-12-15-02:39:45: Score for phrase isnull : Ak Orhan Gencebay
+2016-12-15-02:39:45: iteration phrase is going root iteration :Ak Orhan Gencebay
+2016-12-15-02:39:45: Root iteration for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: Searching for phrase :Ak Orhan Gencebay
+2016-12-15-02:39:45: Response for phrase :Ak Orhan Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: undefined
+2016-12-15-02:39:45: Failed callback for phras : Ak Orhan Gencebay
+
+2016-12-15-02:39:45: Callback for iteration phrase is succeed :Ak Orhan Gencebay
+2016-12-15-02:39:45: Score for phrase isnull : Ak Orhan Gencebay
+2016-12-15-02:39:45: iteration phrase is going root iteration :Ak Orhan Gencebay
+2016-12-15-02:39:45: Root iteration for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: Searching for phrase :Ak Orhan Gencebay
+2016-12-15-02:39:45: Response for phrase :Ak Orhan Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: undefined
+2016-12-15-02:39:45: Failed callback for phras : Ak Orhan Gencebay
+
+2016-12-15-02:39:45: Callback for iteration phrase is succeed :Ak Orhan Gencebay
+2016-12-15-02:39:45: Score for phrase isnull : Ak Orhan Gencebay
+2016-12-15-02:39:45: iteration phrase is going root iteration :Ak Orhan Gencebay
+2016-12-15-02:39:45: Root iteration for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: Searching for phrase :Ak Orhan Gencebay
+2016-12-15-02:39:45: Response for phrase :Ak Orhan Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: undefined
+2016-12-15-02:39:45: Failed callback for phras : Ak Orhan Gencebay
+
+2016-12-15-02:39:45: Callback for root iteration phrase is succeed :Ak Orhan Gencebay
+2016-12-15-02:39:45: Score for phrase isnull : Ak Orhan Gencebay
+2016-12-15-02:39:45: Root iteration phrase is going to matching :Ak Orhan Gencebay
+2016-12-15-02:39:45: Matching result for phrase : Ak Orhan
+
+2016-12-15-02:39:45: { '@id': 'kg:/m/0784t9',
+  name: 'Orhan Ak',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Futbolcu',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTkdGW5A3jTobUigJ5PcBzhKTiZ5j79HqQzuRNrG6of04o7Vnqy',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Ak',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Ak',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:45: Result for phrase will be printed : Ak Orhan
+2016-12-15-02:39:45: first data push: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:45: https://www.googleapis.com/customsearch/v1?q=Orhan Ak&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:39:45: first dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:45: received_result_no=1
+2016-12-15-02:39:45: System goes new search 
+2016-12-15-02:39:45: Searching for phrase :Gencebay
+2016-12-15-02:39:45: Response for phrase :Ak Orhan Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: undefined
+2016-12-15-02:39:45: Failed callback for phras : Ak Orhan Gencebay
+
+2016-12-15-02:39:45: Callback for root iteration phrase is succeed :Ak Orhan Gencebay
+2016-12-15-02:39:45: Score for phrase isnull : Ak Orhan Gencebay
+2016-12-15-02:39:45: Root iteration phrase is going to matching :Ak Orhan Gencebay
+2016-12-15-02:39:45: Matching result for phrase : Ak Orhan
+
+2016-12-15-02:39:45: { '@id': 'kg:/m/0784t9',
+  name: 'Orhan Ak',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Futbolcu',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTkdGW5A3jTobUigJ5PcBzhKTiZ5j79HqQzuRNrG6of04o7Vnqy',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Ak',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Ak',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:45: Result for phrase will be printed : Ak Orhan
+2016-12-15-02:39:45: first data push: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:45: https://www.googleapis.com/customsearch/v1?q=Orhan Ak&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:39:45: first dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:45: received_result_no=1
+2016-12-15-02:39:45: System goes new search 
+2016-12-15-02:39:45: Searching for phrase :Gencebay
+2016-12-15-02:39:45: Response for phrase :Ak Orhan Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Ak Orhan Gencebay
+2016-12-15-02:39:45: undefined
+2016-12-15-02:39:45: Failed callback for phras : Ak Orhan Gencebay
+
+2016-12-15-02:39:45: Callback for root iteration phrase is succeed :Ak Orhan Gencebay
+2016-12-15-02:39:45: Score for phrase isnull : Ak Orhan Gencebay
+2016-12-15-02:39:45: Root iteration phrase is going to matching :Ak Orhan Gencebay
+2016-12-15-02:39:45: Matching result for phrase : Ak Orhan
+
+2016-12-15-02:39:45: { '@id': 'kg:/m/0784t9',
+  name: 'Orhan Ak',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Futbolcu',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTkdGW5A3jTobUigJ5PcBzhKTiZ5j79HqQzuRNrG6of04o7Vnqy',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Ak',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Ak',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:45: Result for phrase will be printed : Ak Orhan
+2016-12-15-02:39:45: first data push: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:45: https://www.googleapis.com/customsearch/v1?q=Orhan Ak&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-02:39:45: first dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:45: received_result_no=1
+2016-12-15-02:39:45: System goes new search 
+2016-12-15-02:39:45: Searching for phrase :Gencebay
+2016-12-15-02:39:45: first image push:Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG
+2016-12-15-02:39:45: Response for phrase :Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.717999 } ] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Gencebay
+2016-12-15-02:39:45: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 34.717999 }
+2016-12-15-02:39:45: Callback for phrase : Gencebay
+2016-12-15-02:39:45: Callback for word is succeed :Gencebay
+2016-12-15-02:39:45: Word is going to iteration : Gencebay
+2016-12-15-02:39:45: Iteration for phrase : Gencebay Mehmet
+2016-12-15-02:39:45: Searching for phrase :Gencebay Mehmet
+2016-12-15-02:39:45: Response for phrase :Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.717999 } ] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Gencebay
+2016-12-15-02:39:45: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 34.717999 }
+2016-12-15-02:39:45: Callback for phrase : Gencebay
+2016-12-15-02:39:45: Callback for word is succeed :Gencebay
+2016-12-15-02:39:45: Word is going to iteration : Gencebay
+2016-12-15-02:39:45: Iteration for phrase : Gencebay Mehmet
+2016-12-15-02:39:45: Searching for phrase :Gencebay Mehmet
+2016-12-15-02:39:45: Response for phrase :Gencebay
+
+2016-12-15-02:39:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.717999 } ] }
+2016-12-15-02:39:45: ItemlistElement for phrase : Gencebay
+2016-12-15-02:39:45: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 34.717999 }
+2016-12-15-02:39:45: Callback for phrase : Gencebay
+2016-12-15-02:39:45: Callback for word is succeed :Gencebay
+2016-12-15-02:39:45: Word is going to iteration : Gencebay
+2016-12-15-02:39:45: Iteration for phrase : Gencebay Mehmet
+2016-12-15-02:39:45: Searching for phrase :Gencebay Mehmet
+2016-12-15-02:39:45: first image push:Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG
+2016-12-15-02:39:46: Response for phrase :Gencebay Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.316641 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bvv8p',
+     name: 'İstanbul Modern',
+     '@type': [ 'Museum', 'Place', 'Thing', 'Organization', 'TouristAttraction' ],
+     description: 'Müze',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT9rgo6ItVPEMq-RRaV5tsKbyQZHm6Fat8za1tFEp7JPzMldwWt',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_Modern_1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye\'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004\'te ziyarete açılmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.istanbulmodern.org/' },
+  resultScore: 16.316641 }
+2016-12-15-02:39:46: Callback for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Callback for iteration phrase is succeed :Gencebay Mehmet
+2016-12-15-02:39:46: Score for phrase is16.316641 : Gencebay Mehmet
+2016-12-15-02:39:46: iteration phrase is going root iteration :Gencebay Mehmet
+2016-12-15-02:39:46: Root iteration for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Searching for phrase :Gencebay Mehmet
+2016-12-15-02:39:46: Response for phrase :Gencebay Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.316641 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bvv8p',
+     name: 'İstanbul Modern',
+     '@type': [ 'Museum', 'Place', 'Thing', 'Organization', 'TouristAttraction' ],
+     description: 'Müze',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT9rgo6ItVPEMq-RRaV5tsKbyQZHm6Fat8za1tFEp7JPzMldwWt',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_Modern_1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye\'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004\'te ziyarete açılmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.istanbulmodern.org/' },
+  resultScore: 16.316641 }
+2016-12-15-02:39:46: Callback for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Callback for iteration phrase is succeed :Gencebay Mehmet
+2016-12-15-02:39:46: Score for phrase is16.316641 : Gencebay Mehmet
+2016-12-15-02:39:46: iteration phrase is going root iteration :Gencebay Mehmet
+2016-12-15-02:39:46: Root iteration for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Searching for phrase :Gencebay Mehmet
+2016-12-15-02:39:46: Response for phrase :Gencebay Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.316641 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bvv8p',
+     name: 'İstanbul Modern',
+     '@type': [ 'Museum', 'Place', 'Thing', 'Organization', 'TouristAttraction' ],
+     description: 'Müze',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT9rgo6ItVPEMq-RRaV5tsKbyQZHm6Fat8za1tFEp7JPzMldwWt',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_Modern_1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye\'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004\'te ziyarete açılmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.istanbulmodern.org/' },
+  resultScore: 16.316641 }
+2016-12-15-02:39:46: Callback for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Callback for iteration phrase is succeed :Gencebay Mehmet
+2016-12-15-02:39:46: Score for phrase is16.316641 : Gencebay Mehmet
+2016-12-15-02:39:46: iteration phrase is going root iteration :Gencebay Mehmet
+2016-12-15-02:39:46: Root iteration for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Searching for phrase :Gencebay Mehmet
+2016-12-15-02:39:46: first image push:Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG
+2016-12-15-02:39:46: Response for phrase :Gencebay Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.316641 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bvv8p',
+     name: 'İstanbul Modern',
+     '@type': [ 'Museum', 'Place', 'Thing', 'Organization', 'TouristAttraction' ],
+     description: 'Müze',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT9rgo6ItVPEMq-RRaV5tsKbyQZHm6Fat8za1tFEp7JPzMldwWt',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_Modern_1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye\'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004\'te ziyarete açılmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.istanbulmodern.org/' },
+  resultScore: 16.316641 }
+2016-12-15-02:39:46: Callback for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Callback for root iteration phrase is succeed :Gencebay Mehmet
+2016-12-15-02:39:46: Score for phrase is16.316641 : Gencebay Mehmet
+2016-12-15-02:39:46: Root iteration phrase is going to matching :Gencebay Mehmet
+2016-12-15-02:39:46: Matching result for phrase : Gencebay
+
+2016-12-15-02:39:46: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-02:39:46: Result for phrase will be printed : Gencebay
+2016-12-15-02:39:46: last dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:46: received_result_no=2
+2016-12-15-02:39:46: System goes new search 
+2016-12-15-02:39:46: Searching for phrase :Mehmet
+2016-12-15-02:39:46: Response for phrase :Gencebay Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.316641 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bvv8p',
+     name: 'İstanbul Modern',
+     '@type': [ 'Museum', 'Place', 'Thing', 'Organization', 'TouristAttraction' ],
+     description: 'Müze',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT9rgo6ItVPEMq-RRaV5tsKbyQZHm6Fat8za1tFEp7JPzMldwWt',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_Modern_1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye\'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004\'te ziyarete açılmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.istanbulmodern.org/' },
+  resultScore: 16.316641 }
+2016-12-15-02:39:46: Callback for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Callback for root iteration phrase is succeed :Gencebay Mehmet
+2016-12-15-02:39:46: Score for phrase is16.316641 : Gencebay Mehmet
+2016-12-15-02:39:46: Root iteration phrase is going to matching :Gencebay Mehmet
+2016-12-15-02:39:46: Matching result for phrase : Gencebay
+
+2016-12-15-02:39:46: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-02:39:46: Result for phrase will be printed : Gencebay
+2016-12-15-02:39:46: last dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG
+2016-12-15-02:39:46: received_result_no=2
+2016-12-15-02:39:46: System goes new search 
+2016-12-15-02:39:46: Searching for phrase :Mehmet
+2016-12-15-02:39:46: Response for phrase :Gencebay Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.316641 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bvv8p',
+     name: 'İstanbul Modern',
+     '@type': [ 'Museum', 'Place', 'Thing', 'Organization', 'TouristAttraction' ],
+     description: 'Müze',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT9rgo6ItVPEMq-RRaV5tsKbyQZHm6Fat8za1tFEp7JPzMldwWt',
+        url: 'https://commons.wikimedia.org/wiki/File:Istanbul_Modern_1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İstanbul Modern Sanat Müzesi veya kısaca İstanbul Modern, Türkiye\'nin ilk modern sanat müzesidir. Eczacıbaşı ailesinin öncülüğünde, İstanbul Kültür Sanat Vakfı tarafından kurulan müze, 11 Aralık 2004\'te ziyarete açılmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0stanbul_Modern',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.istanbulmodern.org/' },
+  resultScore: 16.316641 }
+2016-12-15-02:39:46: Callback for phrase : Gencebay Mehmet
+2016-12-15-02:39:46: Callback for root iteration phrase is succeed :Gencebay Mehmet
+2016-12-15-02:39:46: Score for phrase is16.316641 : Gencebay Mehmet
+2016-12-15-02:39:46: Root iteration phrase is going to matching :Gencebay Mehmet
+2016-12-15-02:39:46: Matching result for phrase : Gencebay
+
+2016-12-15-02:39:46: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-02:39:46: Result for phrase will be printed : Gencebay
+2016-12-15-02:39:46: last dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:46: received_result_no=2
+2016-12-15-02:39:46: System goes new search 
+2016-12-15-02:39:46: Searching for phrase :Mehmet
+2016-12-15-02:39:46: Response for phrase :Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-02:39:46: Callback for phrase : Mehmet
+2016-12-15-02:39:46: Callback for word is succeed :Mehmet
+2016-12-15-02:39:46: Word is going to iteration : Mehmet
+2016-12-15-02:39:46: Iteration for phrase : Mehmet Ali
+2016-12-15-02:39:46: Searching for phrase :Mehmet Ali
+2016-12-15-02:39:46: Response for phrase :Mehmet
+
+2016-12-15-02:39:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-02:39:46: ItemlistElement for phrase : Mehmet
+2016-12-15-02:39:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-02:39:46: Callback for phrase : Mehmet
+2016-12-15-02:39:46: Callback for word is succeed :Mehmet
+2016-12-15-02:39:47: Word is going to iteration : Mehmet
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali
+2016-12-15-02:39:47: Response for phrase :Mehmet
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.422222 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01dn2g',
+     name: 'V. Mehmet',
+     '@type': [ 'Thing', 'Person' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcScHNNUwrw04M3lxQYsp61TVS9WnIftboQUmJTNCZ9xi2_RkL4J',
+        url: 'https://commons.wikimedia.org/wiki/File:MehmedV.jpg',
+        license: '//commons.wikimedia.org/wiki/File:MehmedV.jpg' },
+     detailedDescription: 
+      { articleBody: 'V. Mehmed Reşad veya Mehmed Reşad, Osmanlı İmparatorluğu\'nun 35. padişahı ve 114. İslam halifesi. Sultan Reşad olarak da bilinir.',
+        url: 'https://tr.wikipedia.org/wiki/V._Mehmed',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 45.422222 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet
+2016-12-15-02:39:47: Callback for word is succeed :Mehmet
+2016-12-15-02:39:47: Word is going to iteration : Mehmet
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali
+2016-12-15-02:39:47: Response for phrase :Mehmet Ali
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet Ali
+2016-12-15-02:39:47: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-02:39:47: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-02:39:47: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-02:39:47: Response for phrase :Mehmet Ali
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet Ali
+2016-12-15-02:39:47: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-02:39:47: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-02:39:47: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-02:39:47: Response for phrase :Mehmet Ali
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 458.382355 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet Ali
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01x24w',
+     name: 'Kavalalı Mehmet Ali Paşa',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ4FF0R0meXbK4akjoZnluiA3dv_ef4DUgmxg8fESyjYTh3e3OC',
+        url: 'https://commons.wikimedia.org/wiki/File:ModernEgypt,_Muhammad_Ali_by_Auguste_Couder,_BAP_17996.jpg' },
+     detailedDescription: 
+      { articleBody: 'Kavalalı Mehmet Ali Paşa, Mısır valisi, Kavalalılar Hanedanı\'nın kurucusu, Mısır ve Sudan\'ın ilk hidivi. Osmanlı Devleti\'ne karşı başarıyla sonuçlanan bir isyan çıkardı. ',
+        url: 'https://tr.wikipedia.org/wiki/Kavalal%C4%B1_Mehmet_Ali_Pa%C5%9Fa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 458.382355 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet Ali
+2016-12-15-02:39:47: Callback for iteration phrase is succeed :Mehmet Ali
+2016-12-15-02:39:47: Score for phrase is458.382355 : Mehmet Ali
+2016-12-15-02:39:47: iteration phrase is going next iteration :Mehmet Ali
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali Erbil
+2016-12-15-02:39:47: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-02:39:47: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-02:39:47: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:39:47: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-02:39:47: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-02:39:47: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:39:47: Response for phrase :Mehmet Ali Erbil
+
+2016-12-15-02:39:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 636.848755 } ] }
+2016-12-15-02:39:47: ItemlistElement for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03gswx5',
+     name: 'Mehmet Ali Erbil',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 636.848755 }
+2016-12-15-02:39:47: Callback for phrase : Mehmet Ali Erbil
+2016-12-15-02:39:47: Callback for iteration phrase is succeed :Mehmet Ali Erbil
+2016-12-15-02:39:47: Score for phrase is636.848755 : Mehmet Ali Erbil
+2016-12-15-02:39:47: iteration phrase is going next iteration :Mehmet Ali Erbil
+2016-12-15-02:39:47: Iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:47: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:48: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: undefined
+2016-12-15-02:39:48: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: Callback for iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: iteration phrase is going root iteration :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Root iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:48: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: undefined
+2016-12-15-02:39:48: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: Callback for iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: iteration phrase is going root iteration :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Root iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:48: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: undefined
+2016-12-15-02:39:48: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: Callback for iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: iteration phrase is going root iteration :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Root iteration for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Searching for phrase :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:48: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: undefined
+2016-12-15-02:39:48: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: Callback for root iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Root iteration phrase is going to matching :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-02:39:48: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:48: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-02:39:48: last dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG,https://fys.tff.org/TFFUploadFolder/KisiresimleriTemp/27671.jpg,http://s.weltsport.net/bilder/spieler/gross/10737.jpg,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Orhan_Ak.JPG/220px-Orhan_Ak.JPG,http://www.bolusporluyuz.com/fotolar/haber/boluspor_orhan_ak_calisma.jpg,http://upload.wikimedia.org/wikipedia/commons/9/95/Orhan_Ak.JPG
+2016-12-15-02:39:48: received_result_no=3
+2016-12-15-02:39:48: System will be shutdown
+2016-12-15-02:39:48: finish
+2016-12-15-02:39:48: process is finished
+2016-12-15-02:39:48: -----------------Printed Results------------------------
+2016-12-15-02:39:48: Orhan Ak
+2016-12-15-02:39:48: Orhan Gencebay
+2016-12-15-02:39:48: Mehmet Ali Erbil
+2016-12-15-02:39:48: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:48: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: undefined
+2016-12-15-02:39:48: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: Callback for root iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Root iteration phrase is going to matching :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-02:39:48: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:48: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-02:39:48: last dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:48: received_result_no=3
+2016-12-15-02:39:48: System will be shutdown
+2016-12-15-02:39:48: finish
+2016-12-15-02:39:48: process is finished
+2016-12-15-02:39:48: -----------------Printed Results------------------------
+2016-12-15-02:39:48: Orhan Ak
+2016-12-15-02:39:48: Orhan Gencebay
+2016-12-15-02:39:48: Mehmet Ali Erbil
+2016-12-15-02:39:48: Response for phrase :Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-02:39:48: ItemlistElement for phrase : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: undefined
+2016-12-15-02:39:48: Failed callback for phras : Mehmet Ali Erbil undefined
+
+2016-12-15-02:39:48: Callback for root iteration phrase is succeed :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Score for phrase isnull : Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Root iteration phrase is going to matching :Mehmet Ali Erbil undefined
+2016-12-15-02:39:48: Matching result for phrase : Mehmet Ali Erbil
+
+2016-12-15-02:39:48: { '@id': 'kg:/m/03gswx5',
+  name: 'Mehmet Ali Erbil',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Mehmet Ali Erbil, İstanbul; Türk oyuncu, sunucu, yapımcı, komedyen, şovmen ve seslendirme sanatçısı. Ankara Devlet Konservatuvarı mezunudur. 30\'dan fazla filmde, 10\'dan fazla dizide ve tiyatro oyununda oynamış, 5\'den fazla televizyon programının sunuculuğunu yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_Ali_Erbil',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-02:39:48: Result for phrase will be printed : Mehmet Ali Erbil
+2016-12-15-02:39:48: last dataArray: Orhan Ak,Futbolcu,Orhan Ak, Türk futbolcu. Futbolculuk kariyerini sonlandırmış olup, aktif olduğu dönemde sol bek pozisyonunda görev almaktaydı.
+2016-12-15-02:39:48: received_result_no=3
+2016-12-15-02:39:48: System will be shutdown
+2016-12-15-02:39:48: finish
+2016-12-15-02:39:48: process is finished
+2016-12-15-02:39:48: -----------------Printed Results------------------------
+2016-12-15-02:39:48: Orhan Ak
+2016-12-15-02:39:48: Orhan Gencebay
+2016-12-15-02:39:48: Mehmet Ali Erbil
+2016-12-15-02:39:49: 1: slide left gesture is called
+2016-12-15-02:39:49: 1: slide right gesture is called
+2016-12-15-02:39:50: 1: slide right gesture is called
+2016-12-15-02:39:50: 1: slide right gesture is called
+2016-12-15-02:39:50: 1: slide right gesture is called
+2016-12-15-02:39:50: 1: slide right gesture is called
+2016-12-15-02:39:51: length of dataArray is: 0
+2016-12-15-02:39:51: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:51: length of dataArray is: 0
+2016-12-15-02:39:51: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:52: length of dataArray is: 0
+2016-12-15-02:39:52: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:52: length of dataArray is: 0
+2016-12-15-02:39:52: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:52: length of dataArray is: 0
+2016-12-15-02:39:52: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:53: length of dataArray is: 0
+2016-12-15-02:39:53: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:53: length of dataArray is: 0
+2016-12-15-02:39:53: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:53: length of dataArray is: 0
+2016-12-15-02:39:53: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:53: length of dataArray is: 0
+2016-12-15-02:39:53: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:54: length of dataArray is: 0
+2016-12-15-02:39:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:54: length of dataArray is: 0
+2016-12-15-02:39:54: AftermoveSectionUp section_count is: 0
+2016-12-15-02:39:54: length of dataArray is: 0
+2016-12-15-02:39:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:54: length of dataArray is: 0
+2016-12-15-02:39:54: AftermoveSectionDown section_count is: 0
+2016-12-15-02:39:54: length of dataArray is: 0
+2016-12-15-02:39:54: AftermoveSectionUp section_count is: 0
