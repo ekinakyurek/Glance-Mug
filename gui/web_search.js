@@ -147,6 +147,7 @@ this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 							if (debug) my_console_log(result);
 							//save for causion
 						}
+						finish();
 					}
 				} else {
 					if (debug) my_console_log('Zero score even in the root. It is going next word search :' + roots[index])
@@ -167,8 +168,17 @@ this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 				if (debug) my_console_log('Callback for iteration phrase is succeed :' + new_phrase);
 				if (debug) my_console_log('Score for phrase is' + score2  + ' : ' + new_phrase)
 				if (score2 != null && score2 >= score) {
-					if (debug) my_console_log('iteration phrase is going next iteration :' + new_phrase);
-					iterasyon(result2, score2, index + 1, new_phrase)
+					if (index + 1 < words.length) {
+						if (debug) my_console_log('iteration phrase is going next iteration :' + new_phrase);
+						iterasyon(result2, score2, index + 1, new_phrase)
+					}else{
+						if(debug) my_console_log('Last iteration the result of :' + new_phrase)
+						if (debug) my_console_log(result2);
+						printed_results.push(result2);
+						isSomethingFound = true
+						if(my_event_emitter!=null) my_event_emitter.emit('result',result2);
+						finish();
+					}
 				} else if (score2 == null || score2 < score) {
 					if (debug) my_console_log('iteration phrase is going root iteration :' + new_phrase);
 					root_iterasyon(result, score, index, phrase)
@@ -187,8 +197,17 @@ this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 				if (debug) my_console_log('Callback for root iteration phrase is succeed :' + new_phrase);
 				if (debug) my_console_log('Score for phrase is' + score2 + ' : ' + new_phrase)
 				if (score2 != null && score2 >= score) {
-					if (debug) my_console_log('Root iteration phrase is going next iteration :' + new_phrase);
-					iterasyon(result2, score2, index + 1, new_phrase)
+					if (index + 1 < words.length) {
+						if (debug) my_console_log('Root iteration phrase is going next iteration :' + new_phrase);
+						iterasyon(result2, score2, index + 1, new_phrase)
+					}else{
+						if(debug) my_console_log('Last root iteration the result of :' + new_phrase)
+						if (debug) my_console_log(result2);
+						printed_results.push(result2);
+						isSomethingFound = true
+						if(my_event_emitter!=null) my_event_emitter.emit('result',result2);
+						finish();
+					}
 				} else if (score2 == null || score2 < score) {
 					if (debug) my_console_log('Root iteration phrase is going to matching :' + new_phrase);
 					matching(result, score, index, phrase)
