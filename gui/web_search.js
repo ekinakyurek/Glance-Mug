@@ -223,47 +223,58 @@ this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 		if (debug) my_console_log(result)
 
 		var words_unreached = words.slice(index, words.length)
-		if (result.name!=undefined) {
-			var result_unreached = result.name.toLowerCase().replace(phrase, '').split(" ").splice(1)
-		}else{
-			var result_unreached = result.description.toLowerCase().replace(phrase, '').split(" ").splice(1)
+		
+		var result_unreached = undefined;
+		
+		if (result.name != undefined) {
+			result_unreached = result.name.toLowerCase().replace(phrase, '').split(" ").splice(1)
+		}else if(result.description != undefined){
+			result_unreached = result.description.toLowerCase().replace(phrase, '').split(" ").splice(1)
 		}
 
 		var found = false;
 
 		var last_index = index;
 
-		for (var i = 0; i < result_unreached.length; i++) {
+		if (result_unreached != undefined) {
 
-			if (i < words_unreached.length) {
 
-				if (words_unreached[i].length > result_unreached[i].length) {
-					if (words_unreached[i].indexOf(result_unreached[i]) != -1) {
-						index = index + 1
-						found = true
+			for (var i = 0; i < result_unreached.length; i++) {
+
+				if (i < words_unreached.length) {
+
+					if (words_unreached[i].length > result_unreached[i].length) {
+						if (words_unreached[i].indexOf(result_unreached[i]) != -1) {
+							index = index + 1
+							found = true
+						} else {
+							break;
+
+						}
 					} else {
-						break;
-
+						if (result_unreached[i].indexOf(words_unreached[i]) != -1) {
+							found = true;
+							index = index + 1
+						} else {
+							break;
+						}
 					}
 				} else {
-					if (result_unreached[i].indexOf(words_unreached[i]) != -1) {
-						found = true;
-						index = index + 1
-					} else {
-						break;
-					}
+					break;
 				}
-			} else {
-				break;
+
 			}
-
 		}
-
+		
+		if(result.name == undefined){
+			result.name = phrase;
+		}
+		
 		if (phrase.split(" ").length == 1 && roots_type[last_index] == 'Noun') {
 			if (debug) my_console_log('Result for phrase will be printed : ' + phrase);
 			printed_results.push(result);
 			isSomethingFound = true
-			if(my_event_emitter!=undefined) my_event_emitter.emit('result',result)
+			if(my_event_emitter != undefined) my_event_emitter.emit('result',result)
 
 		} else if(phrase.split(" ").length  > 1){
 			if (debug) my_console_log('Result for phrase will be printed : ' + phrase);

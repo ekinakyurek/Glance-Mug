@@ -1,0 +1,199 @@
+2016-12-15-09:27:57: 2:click detected at point:[object Object]
+2016-12-15-09:27:57: 2:click detected at point:[object Object]
+2016-12-15-09:27:57: Connected
+2016-12-15-09:28:00: 1: slide right gesture is called
+2016-12-15-09:28:01: 1: slide right gesture is called
+2016-12-15-09:28:05: 1: slide right gesture is called
+2016-12-15-09:28:05: 1: slide left gesture is called
+2016-12-15-09:28:05: 1: slide left gesture is called
+2016-12-15-09:28:06: Data received from stt: tanı Orhan Gencebay Ebru Gündeş Nazım Hikmet
+2016-12-15-09:28:06: SearchTerm from microphone:tanı Orhan Gencebay Ebru Gündeş Nazım Hikmet
+2016-12-15-09:28:06: State machine is initialized with input: 
+2016-12-15-09:28:06: tanı Orhan Gencebay Ebru Gündeş Nazım Hikmet
+2016-12-15-09:28:06: Input words : 
+2016-12-15-09:28:06: [ 'tanı', 'Orhan', 'Gencebay' ]
+2016-12-15-09:28:06: Input roots : 
+2016-12-15-09:28:06: [ 'Ebru', 'Gündeş', 'Nazım', 'Hikmet' ]
+2016-12-15-09:28:06: Searching for phrase :tanı
+2016-12-15-09:28:06: Connection closed
+2016-12-15-09:28:06: 1: slide right gesture is called
+2016-12-15-09:28:06: 1: slide right gesture is called
+2016-12-15-09:28:06: Response for phrase :tanı
+
+2016-12-15-09:28:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.842787 } ] }
+2016-12-15-09:28:06: ItemlistElement for phrase : tanı
+2016-12-15-09:28:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02_b67',
+     '@type': [ 'City', 'Thing', 'Place' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRUhmYbwNqDFmozibvuwPkjb5rs93-vUbSHkFcoxqmANF1jz4pH',
+        url: 'https://en.m.wikipedia.org/wiki/File:Sbou_River_-_Corniche_Kenitra.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' } },
+  resultScore: 15.842787 }
+2016-12-15-09:28:06: Callback for phrase : tanı
+2016-12-15-09:28:06: Callback for word is succeed :tanı
+2016-12-15-09:28:06: Word is going to iteration : tanı
+2016-12-15-09:28:06: Iteration for phrase : tanı Orhan
+2016-12-15-09:28:06: Searching for phrase :tanı Orhan
+2016-12-15-09:28:07: 1: slide right gesture is called
+2016-12-15-09:28:07: Response for phrase :tanı Orhan
+
+2016-12-15-09:28:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:28:07: ItemlistElement for phrase : tanı Orhan
+2016-12-15-09:28:07: undefined
+2016-12-15-09:28:07: Failed callback for phras : tanı Orhan
+
+2016-12-15-09:28:07: Callback for iteration phrase is succeed :tanı Orhan
+2016-12-15-09:28:07: Score for phrase isnull : tanı Orhan
+2016-12-15-09:28:07: iteration phrase is going root iteration :tanı Orhan
+2016-12-15-09:28:07: Root iteration for phrase : tanı Gündeş
+2016-12-15-09:28:07: Searching for phrase :tanı Gündeş
+2016-12-15-09:28:07: 1: slide left gesture is called
+2016-12-15-09:28:07: 2: slide right gesture is called
+2016-12-15-09:28:07: 2: slide left gesture is called
+2016-12-15-09:28:07: Response for phrase :tanı Gündeş
+
+2016-12-15-09:28:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:28:07: ItemlistElement for phrase : tanı Gündeş
+2016-12-15-09:28:07: undefined
+2016-12-15-09:28:07: Failed callback for phras : tanı Gündeş
+
+2016-12-15-09:28:07: Callback for root iteration phrase is succeed :tanı Gündeş
+2016-12-15-09:28:07: Score for phrase isnull : tanı Gündeş
+2016-12-15-09:28:07: Root iteration phrase is going to matching :tanı Gündeş
+2016-12-15-09:28:07: Matching result for phrase : tanı
+
+2016-12-15-09:28:07: { '@id': 'kg:/m/02_b67',
+  '@type': [ 'City', 'Thing', 'Place' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRUhmYbwNqDFmozibvuwPkjb5rs93-vUbSHkFcoxqmANF1jz4pH',
+     url: 'https://en.m.wikipedia.org/wiki/File:Sbou_River_-_Corniche_Kenitra.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' } }
+2016-12-15-09:28:07: 1: slide right gesture is called
+2016-12-15-09:28:08: 1: slide right gesture is called
+2016-12-15-09:28:09: 1: slide left gesture is called
+2016-12-15-09:28:09: 2: slide left gesture is called
+2016-12-15-09:28:09: 1: slide right gesture is called
+2016-12-15-09:28:10: 1: slide right gesture is called
+2016-12-15-09:28:10: 1: slide left gesture is called
+2016-12-15-09:28:10: 2: slide right gesture is called
+2016-12-15-09:28:10: 1: slide left gesture is called
+2016-12-15-09:28:10: 1: slide right gesture is called
+2016-12-15-09:28:11: 2: slide right gesture is called
+2016-12-15-09:28:11: 2: slide left gesture is called
+2016-12-15-09:28:11: 1: slide right gesture is called
+2016-12-15-09:28:11: 1: slide left gesture is called
+2016-12-15-09:28:12: 2: slide right gesture is called
+2016-12-15-09:28:12: 1: slide right gesture is called
+2016-12-15-09:28:12: 1: slide right gesture is called
+2016-12-15-09:28:12: 1: slide left gesture is called
+2016-12-15-09:28:12: 2: slide right gesture is called
+2016-12-15-09:28:12: 1: slide left gesture is called
+2016-12-15-09:28:13: 1: slide right gesture is called
+2016-12-15-09:28:13: 1: slide left gesture is called
+2016-12-15-09:28:13: 2: slide right gesture is called
+2016-12-15-09:28:13: 1: slide left gesture is called
+2016-12-15-09:28:14: 1: slide right gesture is called
+2016-12-15-09:28:14: 1: slide right gesture is called
+2016-12-15-09:28:14: 1: slide left gesture is called
+2016-12-15-09:28:14: 2: slide left gesture is called
+2016-12-15-09:28:14: 1: slide left gesture is called
+2016-12-15-09:28:14: 2: slide right gesture is called
+2016-12-15-09:28:14: 1: slide left gesture is called
+2016-12-15-09:28:14: 1: slide left gesture is called
+2016-12-15-09:28:15: 1: slide right gesture is called
+2016-12-15-09:28:15: 1: slide left gesture is called
+2016-12-15-09:28:15: 1: slide left gesture is called
+2016-12-15-09:28:15: 2: slide right gesture is called
+2016-12-15-09:28:16: 1: slide right gesture is called
+2016-12-15-09:28:16: 1: slide left gesture is called
+2016-12-15-09:28:16: 1: slide right gesture is called
+2016-12-15-09:28:16: 1: slide right gesture is called
+2016-12-15-09:28:17: 1: slide left gesture is called
+2016-12-15-09:28:17: 2: slide right gesture is called
+2016-12-15-09:28:17: 1: slide right gesture is called
+2016-12-15-09:28:17: 2: slide left gesture is called
+2016-12-15-09:28:18: 1: slide right gesture is called
+2016-12-15-09:28:21: 2: slide right gesture is called
+2016-12-15-09:28:23: 1: slide right gesture is called
+2016-12-15-09:28:28: 2: slide right gesture is called
+2016-12-15-09:28:28: 2: slide right gesture is called
+2016-12-15-09:28:29: 2: slide left gesture is called
+2016-12-15-09:28:29: 2: slide left gesture is called
+2016-12-15-09:28:30: 2: slide left gesture is called
+2016-12-15-09:28:30: 2: slide left gesture is called
+2016-12-15-09:28:30: 2: slide left gesture is called
+2016-12-15-09:28:31: 2: slide left gesture is called
+2016-12-15-09:28:31: 2: slide left gesture is called
+2016-12-15-09:28:31: 2: slide left gesture is called
+2016-12-15-09:28:31: 2: slide left gesture is called
+2016-12-15-09:28:32: 2: slide left gesture is called
+2016-12-15-09:28:32: 2: slide left gesture is called
+2016-12-15-09:28:33: 1: slide left gesture is called
+2016-12-15-09:28:33: 1: slide right gesture is called
+2016-12-15-09:28:34: 1: slide right gesture is called
+2016-12-15-09:28:36: 2: slide left gesture is called
+2016-12-15-09:28:36: 1: slide left gesture is called
+2016-12-15-09:28:36: 2: slide left gesture is called
+2016-12-15-09:28:36: 1: slide right gesture is called
+2016-12-15-09:28:36: 1: slide right gesture is called
+2016-12-15-09:28:39: 1: slide right gesture is called
+2016-12-15-09:28:39: 1: slide right gesture is called
+2016-12-15-09:28:43: 2: slide right gesture is called
+2016-12-15-09:28:44: 2: slide right gesture is called
+2016-12-15-09:28:44: 2: slide right gesture is called
+2016-12-15-09:28:44: 2: slide right gesture is called
+2016-12-15-09:28:45: 2: slide right gesture is called
+2016-12-15-09:28:46: 2: slide left gesture is called
+2016-12-15-09:28:46: 2: slide left gesture is called
+2016-12-15-09:28:46: 2: slide left gesture is called
+2016-12-15-09:28:46: 2: slide left gesture is called
+2016-12-15-09:29:38: 2: slide right gesture is called
+2016-12-15-09:29:58: 2: slide right gesture is called
+2016-12-15-09:35:43: 1: slide left gesture is called
+2016-12-15-09:37:21: 2: slide right gesture is called
+2016-12-15-09:37:22: 2: slide left gesture is called
+2016-12-15-09:37:23: 2: slide left gesture is called
+2016-12-15-09:37:23: 2: slide right gesture is called
+2016-12-15-09:37:24: 2: slide right gesture is called
+2016-12-15-09:37:28: 2: slide left gesture is called
+2016-12-15-09:37:29: 1: slide right gesture is called
+2016-12-15-09:37:29: 1: slide right gesture is called
+2016-12-15-09:37:30: 1: slide right gesture is called
+2016-12-15-09:37:30: 2: slide left gesture is called
+2016-12-15-09:37:31: 1: slide right gesture is called
+2016-12-15-09:37:31: 2: slide left gesture is called
+2016-12-15-09:37:31: 1: slide right gesture is called
+2016-12-15-09:37:31: 2: slide left gesture is called
+2016-12-15-09:37:31: 1: slide right gesture is called
+2016-12-15-09:37:32: 1: slide right gesture is called
+2016-12-15-09:37:32: 2: slide left gesture is called
+2016-12-15-09:37:32: 1: slide right gesture is called
+2016-12-15-09:37:32: 2: slide left gesture is called
+2016-12-15-09:37:37: 2: slide left gesture is called

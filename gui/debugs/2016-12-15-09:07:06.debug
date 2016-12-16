@@ -1,0 +1,111 @@
+2016-12-15-09:07:16: 2:click detected at point:[object Object]
+2016-12-15-09:07:16: 2:click detected at point:[object Object]
+2016-12-15-09:07:16: Connected
+2016-12-15-09:07:27: Data received from stt: sonradan araba Merhabalar kayıt mı ilk başka 200 Orhan Gencebay aşk oyunları neden şuan Face sonradan,Other araba,Noun merhaba,Noun kayıt,Noun hı,Other ilk,Other başka,Other 200,Other Orhan,Noun Gencebay,Noun aşk,Noun oyun,Noun neden,Noun şua,Noun Face,Noun
+2016-12-15-09:07:27: SearchTerm from microphone:sonradan araba Merhabalar kayıt mı ilk başka 200 Orhan Gencebay aşk oyunları neden şuan Face sonradan,Other araba,Noun merhaba,Noun kayıt,Noun hı,Other ilk,Other başka,Other 200,Other Orhan,Noun Gencebay,Noun aşk,Noun oyun,Noun neden,Noun şua,Noun Face,Noun
+2016-12-15-09:07:27: State machine is initialized with input: 
+2016-12-15-09:07:27: sonradan araba Merhabalar kayıt mı ilk başka 200 Orhan Gencebay aşk oyunları neden şuan Face sonradan,Other araba,Noun merhaba,Noun kayıt,Noun hı,Other ilk,Other başka,Other 200,Other Orhan,Noun Gencebay,Noun aşk,Noun oyun,Noun neden,Noun şua,Noun Face,Noun
+2016-12-15-09:07:27: Input words : 
+2016-12-15-09:07:27: [ 'sonradan',
+  'araba',
+  'Merhabalar',
+  'kayıt',
+  'mı',
+  'ilk',
+  'başka',
+  '200',
+  'Orhan',
+  'Gencebay',
+  'aşk',
+  'oyunları',
+  'neden',
+  'şuan',
+  'Face' ]
+2016-12-15-09:07:27: Input roots : 
+2016-12-15-09:07:27: [ 'sonradan',
+  'araba',
+  'merhaba',
+  'kayıt',
+  'hı',
+  'ilk',
+  'başka',
+  '200',
+  'Orhan',
+  'Gencebay',
+  'aşk',
+  'oyun',
+  'neden',
+  'şua',
+  'Face' ]
+2016-12-15-09:07:27: Searching for phrase :sonradan
+2016-12-15-09:07:28: Connection closed
+2016-12-15-09:07:28: Response for phrase :sonradan
+
+2016-12-15-09:07:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.753834 } ] }
+2016-12-15-09:07:28: ItemlistElement for phrase : sonradan
+2016-12-15-09:07:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02pw0gs',
+     name: 'Sonradan Görenler',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1952 yapımı film' },
+  resultScore: 16.753834 }
+2016-12-15-09:07:28: Callback for phrase : sonradan
+2016-12-15-09:07:28: Callback for word is succeed :sonradan
+2016-12-15-09:07:28: Word is going to iteration : sonradan
+2016-12-15-09:07:28: Iteration for phrase : sonradan araba
+2016-12-15-09:07:28: Searching for phrase :sonradan araba
+2016-12-15-09:07:29: Response for phrase :sonradan araba
+
+2016-12-15-09:07:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:07:29: ItemlistElement for phrase : sonradan araba
+2016-12-15-09:07:29: undefined
+2016-12-15-09:07:29: Failed callback for phras : sonradan araba
+
+2016-12-15-09:07:29: Callback for iteration phrase is succeed :sonradan araba
+2016-12-15-09:07:29: Score for phrase isnull : sonradan araba
+2016-12-15-09:07:29: iteration phrase is going root iteration :sonradan araba
+2016-12-15-09:07:29: Root iteration for phrase : sonradan araba
+2016-12-15-09:07:29: Searching for phrase :sonradan araba
+2016-12-15-09:07:29: Response for phrase :sonradan araba
+
+2016-12-15-09:07:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:07:29: ItemlistElement for phrase : sonradan araba
+2016-12-15-09:07:29: undefined
+2016-12-15-09:07:29: Failed callback for phras : sonradan araba
+
+2016-12-15-09:07:29: Callback for root iteration phrase is succeed :sonradan araba
+2016-12-15-09:07:29: Score for phrase isnull : sonradan araba
+2016-12-15-09:07:29: Root iteration phrase is going to matching :sonradan araba
+2016-12-15-09:07:29: Matching result for phrase : sonradan
+
+2016-12-15-09:07:29: { '@id': 'kg:/m/02pw0gs',
+  name: 'Sonradan Görenler',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1952 yapımı film' }
+2016-12-15-09:07:29: Result for phrase will be printed : sonradan

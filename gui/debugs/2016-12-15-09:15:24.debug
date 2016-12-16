@@ -1,0 +1,2085 @@
+2016-12-15-09:15:32: 2:click detected at point:[object Object]
+2016-12-15-09:15:32: 2:click detected at point:[object Object]
+2016-12-15-09:15:32: Connected
+2016-12-15-09:15:40: Data received from stt: Orhan Gencebay Ebru Gündeş Orhan,Noun Gencebay,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-09:15:40: SearchTerm from microphone:Orhan Gencebay Ebru Gündeş Orhan,Noun Gencebay,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-09:15:40: State machine is initialized with input: 
+2016-12-15-09:15:40: Orhan Gencebay Ebru Gündeş Orhan,Noun Gencebay,Noun Ebru,Noun Gündeş,Noun
+2016-12-15-09:15:40: Input words : 
+2016-12-15-09:15:40: [ 'Orhan', 'Gencebay', 'Ebru', 'Gündeş' ]
+2016-12-15-09:15:40: Input roots : 
+2016-12-15-09:15:40: [ 'Orhan', 'Gencebay', 'Ebru', 'Gündeş' ]
+2016-12-15-09:15:40: Searching for phrase :Orhan
+2016-12-15-09:15:40: Connection closed
+2016-12-15-09:15:41: Response for phrase :Orhan
+
+2016-12-15-09:15:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-09:15:41: ItemlistElement for phrase : Orhan
+2016-12-15-09:15:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-09:15:41: Callback for phrase : Orhan
+2016-12-15-09:15:41: Callback for word is succeed :Orhan
+2016-12-15-09:15:41: Word is going to iteration : Orhan
+2016-12-15-09:15:41: Iteration for phrase : Orhan Gencebay
+2016-12-15-09:15:41: Searching for phrase :Orhan Gencebay
+2016-12-15-09:15:41: Response for phrase :Orhan Gencebay
+
+2016-12-15-09:15:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.885071 } ] }
+2016-12-15-09:15:41: ItemlistElement for phrase : Orhan Gencebay
+2016-12-15-09:15:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.885071 }
+2016-12-15-09:15:41: Callback for phrase : Orhan Gencebay
+2016-12-15-09:15:41: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-15-09:15:41: Score for phrase is596.885071 : Orhan Gencebay
+2016-12-15-09:15:41: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-15-09:15:41: Iteration for phrase : Orhan Gencebay Ebru
+2016-12-15-09:15:41: Searching for phrase :Orhan Gencebay Ebru
+2016-12-15-09:15:42: Response for phrase :Orhan Gencebay Ebru
+
+2016-12-15-09:15:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 3.810391 } ] }
+2016-12-15-09:15:42: ItemlistElement for phrase : Orhan Gencebay Ebru
+2016-12-15-09:15:42: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0vyb6p4',
+     name: 'Popstar Alaturka',
+     '@type': [ 'TVSeries', 'Thing' ],
+     description: 'TV Programı',
+     detailedDescription: 
+      { articleBody: 'Popstar Alaturka, Alaturka-Arabesk-Fantazi-Pop müziğe yeni sesler kazandırmak için Star TV\'de yayınlanan yarışma programı.\nYapımcılığını ve sunuculuğunu Osmantan Erkır\'ın üstlendiği ve Jüri üyesi olarak; Gülben Ergen, Bülent Ersoy, Armağan Çağlayan ve Metin Akpınar bulunmaktadır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Popstar_Alaturka',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 3.810391 }
+2016-12-15-09:15:42: Callback for phrase : Orhan Gencebay Ebru
+2016-12-15-09:15:42: Callback for iteration phrase is succeed :Orhan Gencebay Ebru
+2016-12-15-09:15:42: Score for phrase is3.810391 : Orhan Gencebay Ebru
+2016-12-15-09:15:42: iteration phrase is going root iteration :Orhan Gencebay Ebru
+2016-12-15-09:15:42: Root iteration for phrase : Orhan Gencebay Ebru
+2016-12-15-09:15:42: Searching for phrase :Orhan Gencebay Ebru
+2016-12-15-09:15:42: Response for phrase :Orhan Gencebay Ebru
+
+2016-12-15-09:15:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 3.810391 } ] }
+2016-12-15-09:15:42: ItemlistElement for phrase : Orhan Gencebay Ebru
+2016-12-15-09:15:42: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0vyb6p4',
+     name: 'Popstar Alaturka',
+     '@type': [ 'TVSeries', 'Thing' ],
+     description: 'TV Programı',
+     detailedDescription: 
+      { articleBody: 'Popstar Alaturka, Alaturka-Arabesk-Fantazi-Pop müziğe yeni sesler kazandırmak için Star TV\'de yayınlanan yarışma programı.\nYapımcılığını ve sunuculuğunu Osmantan Erkır\'ın üstlendiği ve Jüri üyesi olarak; Gülben Ergen, Bülent Ersoy, Armağan Çağlayan ve Metin Akpınar bulunmaktadır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Popstar_Alaturka',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 3.810391 }
+2016-12-15-09:15:42: Callback for phrase : Orhan Gencebay Ebru
+2016-12-15-09:15:42: Callback for root iteration phrase is succeed :Orhan Gencebay Ebru
+2016-12-15-09:15:42: Score for phrase is3.810391 : Orhan Gencebay Ebru
+2016-12-15-09:15:42: Root iteration phrase is going to matching :Orhan Gencebay Ebru
+2016-12-15-09:15:42: Matching result for phrase : Orhan Gencebay
+
+2016-12-15-09:15:42: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-09:15:42: Result for phrase will be printed : Orhan Gencebay
+2016-12-15-09:15:42: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-09:15:42: received_result_no=1
+2016-12-15-09:15:42: System goes new search 
+2016-12-15-09:15:42: Searching for phrase :Ebru
+2016-12-15-09:15:43: Response for phrase :Ebru
+
+2016-12-15-09:15:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.729332 } ] }
+2016-12-15-09:15:43: ItemlistElement for phrase : Ebru
+2016-12-15-09:15:43: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ebrugundes.com.tr/' },
+  resultScore: 34.729332 }
+2016-12-15-09:15:43: Callback for phrase : Ebru
+2016-12-15-09:15:43: Callback for word is succeed :Ebru
+2016-12-15-09:15:43: Word is going to iteration : Ebru
+2016-12-15-09:15:43: Iteration for phrase : Ebru Gündeş
+2016-12-15-09:15:43: Searching for phrase :Ebru Gündeş
+2016-12-15-09:15:43: Response for phrase :Ebru Gündeş
+
+2016-12-15-09:15:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 599.348755 } ] }
+2016-12-15-09:15:43: ItemlistElement for phrase : Ebru Gündeş
+2016-12-15-09:15:43: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ebrugundes.com.tr/' },
+  resultScore: 599.348755 }
+2016-12-15-09:15:43: Callback for phrase : Ebru Gündeş
+2016-12-15-09:15:43: Callback for iteration phrase is succeed :Ebru Gündeş
+2016-12-15-09:15:43: Score for phrase is599.348755 : Ebru Gündeş
+2016-12-15-09:15:43: Last iteration the result of :Ebru Gündeş
+2016-12-15-09:15:43: { '@id': 'kg:/m/0dp9lq',
+  name: 'Ebru Gündeş',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+     url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+     url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ebrugundes.com.tr/' }
+2016-12-15-09:15:43: received_result_no=2
+2016-12-15-09:15:43: finish
+2016-12-15-09:15:43: process is finished
+2016-12-15-09:15:43: -----------------Printed Results------------------------
+2016-12-15-09:15:43: Orhan Gencebay
+2016-12-15-09:15:43: Ebru Gündeş
+2016-12-15-09:15:47: section_count is:1
+2016-12-15-09:15:47: AftermoveSectionDown section_count is: 1
+2016-12-15-09:15:48: 2: slide left gesture is called
+2016-12-15-09:15:48: 2: slide left gesture is called
+2016-12-15-09:15:49: 2: slide left gesture is called
+2016-12-15-09:15:50: 2: slide left gesture is called
+2016-12-15-09:15:51: 2: slide right gesture is called
+2016-12-15-09:15:52: 1: slide right gesture is called
+2016-12-15-09:15:53: AftermoveSectionDown section_count is: 2
+2016-12-15-09:15:53: AftermoveSectionDown section_count is: 2
+2016-12-15-09:15:54: AftermoveSectionDown section_count is: 2
+2016-12-15-09:15:54: section_count is:1
+2016-12-15-09:15:54: AftermoveSectionUp section_count is: 1
+2016-12-15-09:15:55: AftermoveSectionDown section_count is: 2
+2016-12-15-09:15:55: AftermoveSectionDown section_count is: 2
+2016-12-15-09:15:56: AftermoveSectionDown section_count is: 2
+2016-12-15-09:15:56: section_count is:1
+2016-12-15-09:15:56: AftermoveSectionUp section_count is: 1
+2016-12-15-09:15:56: section_count is:0
+2016-12-15-09:15:56: AftermoveSectionUp section_count is: 0
+2016-12-15-09:15:56: section_count is:1
+2016-12-15-09:15:56: AftermoveSectionDown section_count is: 1
+2016-12-15-09:15:56: section_count is:0
+2016-12-15-09:15:56: AftermoveSectionUp section_count is: 0
+2016-12-15-09:15:57: AftermoveSectionUp section_count is: 0
+2016-12-15-09:15:57: 2: slide left gesture is called
+2016-12-15-09:15:58: 2: slide left gesture is called
+2016-12-15-09:15:59: 1: slide left gesture is called
+2016-12-15-09:15:59: 1: slide left gesture is called
+2016-12-15-09:16:00: 1: slide left gesture is called
+2016-12-15-09:16:00: 1: slide left gesture is called
+2016-12-15-09:16:00: 1: slide left gesture is called
+2016-12-15-09:16:01: 1: slide left gesture is called
+2016-12-15-09:16:01: 1: slide left gesture is called
+2016-12-15-09:16:01: 2: slide left gesture is called
+2016-12-15-09:16:02: 2: slide left gesture is called
+2016-12-15-09:16:02: 2: slide left gesture is called
+2016-12-15-09:16:03: 2: slide right gesture is called
+2016-12-15-09:16:04: 2: slide right gesture is called
+2016-12-15-09:16:04: 2: slide right gesture is called
+2016-12-15-09:16:05: 2: slide right gesture is called
+2016-12-15-09:16:05: 2: slide right gesture is called
+2016-12-15-09:16:06: 2: slide right gesture is called
+2016-12-15-09:16:07: 1: slide right gesture is called
+2016-12-15-09:16:08: 1: slide right gesture is called
+2016-12-15-09:16:09: 1: slide right gesture is called
+2016-12-15-09:16:09: 1: slide right gesture is called
+2016-12-15-09:16:09: 1: slide left gesture is called
+2016-12-15-09:16:09: 1: slide left gesture is called
+2016-12-15-09:16:10: 1: slide left gesture is called
+2016-12-15-09:16:11: 1: slide left gesture is called
+2016-12-15-09:16:11: 1: slide left gesture is called
+2016-12-15-09:16:14: 2: slide right gesture is called
+2016-12-15-09:16:15: section_count is:1
+2016-12-15-09:16:15: AftermoveSectionDown section_count is: 1
+2016-12-15-09:16:15: AftermoveSectionDown section_count is: 2
+2016-12-15-09:16:15: section_count is:1
+2016-12-15-09:16:15: AftermoveSectionUp section_count is: 1
+2016-12-15-09:16:16: AftermoveSectionDown section_count is: 2
+2016-12-15-09:16:16: section_count is:1
+2016-12-15-09:16:16: AftermoveSectionUp section_count is: 1
+2016-12-15-09:16:16: AftermoveSectionDown section_count is: 2
+2016-12-15-09:16:16: AftermoveSectionDown section_count is: 2
+2016-12-15-09:16:17: section_count is:1
+2016-12-15-09:16:17: AftermoveSectionUp section_count is: 1
+2016-12-15-09:16:17: section_count is:0
+2016-12-15-09:16:17: AftermoveSectionUp section_count is: 0
+2016-12-15-09:16:18: section_count is:1
+2016-12-15-09:16:18: AftermoveSectionDown section_count is: 1
+2016-12-15-09:16:18: section_count is:0
+2016-12-15-09:16:18: AftermoveSectionUp section_count is: 0
+2016-12-15-09:16:20: section_count is:1
+2016-12-15-09:16:20: AftermoveSectionDown section_count is: 1
+2016-12-15-09:16:21: section_count is:0
+2016-12-15-09:16:21: AftermoveSectionUp section_count is: 0
+2016-12-15-09:16:24: section_count is:1
+2016-12-15-09:16:24: AftermoveSectionDown section_count is: 1
+2016-12-15-09:16:24: AftermoveSectionDown section_count is: 2
+2016-12-15-09:16:24: section_count is:1
+2016-12-15-09:16:24: AftermoveSectionUp section_count is: 1
+2016-12-15-09:16:25: 2: slide left gesture is called
+2016-12-15-09:16:25: 2: slide left gesture is called
+2016-12-15-09:16:26: 2: slide right gesture is called
+2016-12-15-09:16:44: 2:click detected at point:[object Object]
+2016-12-15-09:17:54: 2:click detected at point:[object Object]
+2016-12-15-09:17:54: Connected
+2016-12-15-09:17:54: 2:click detected at point:[object Object]
+2016-12-15-09:18:06: Data received from stt: Orhan Gencebay Meyhaneci Orhan o zaman Tamam o zaman arıyorum tekrar ama anlamıyorsun aşk sözleri Ebru Gündeş Orhan,Noun Gencebay,Noun meyhane,Noun Orhan,Noun o,Other zaman,Noun Tamam,Noun o,Other zaman,Noun ara,Other tekrar,Noun ama,Other anla,Other aşk,Noun sözle,Other Ebru,Noun Gündeş,Noun
+2016-12-15-09:18:06: SearchTerm from microphone:Orhan Gencebay Meyhaneci Orhan o zaman Tamam o zaman arıyorum tekrar ama anlamıyorsun aşk sözleri Ebru Gündeş Orhan,Noun Gencebay,Noun meyhane,Noun Orhan,Noun o,Other zaman,Noun Tamam,Noun o,Other zaman,Noun ara,Other tekrar,Noun ama,Other anla,Other aşk,Noun sözle,Other Ebru,Noun Gündeş,Noun
+2016-12-15-09:18:06: State machine is initialized with input: 
+2016-12-15-09:18:06: Orhan Gencebay Meyhaneci Orhan o zaman Tamam o zaman arıyorum tekrar ama anlamıyorsun aşk sözleri Ebru Gündeş Orhan,Noun Gencebay,Noun meyhane,Noun Orhan,Noun o,Other zaman,Noun Tamam,Noun o,Other zaman,Noun ara,Other tekrar,Noun ama,Other anla,Other aşk,Noun sözle,Other Ebru,Noun Gündeş,Noun
+2016-12-15-09:18:06: Input words : 
+2016-12-15-09:18:06: [ 'Orhan',
+  'Gencebay',
+  'Meyhaneci',
+  'Orhan',
+  'o',
+  'zaman',
+  'Tamam',
+  'o',
+  'zaman',
+  'arıyorum',
+  'tekrar',
+  'ama',
+  'anlamıyorsun',
+  'aşk',
+  'sözleri',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-09:18:06: Input roots : 
+2016-12-15-09:18:06: [ 'Orhan',
+  'Gencebay',
+  'meyhane',
+  'Orhan',
+  'o',
+  'zaman',
+  'Tamam',
+  'o',
+  'zaman',
+  'ara',
+  'tekrar',
+  'ama',
+  'anla',
+  'aşk',
+  'sözle',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-09:18:06: Searching for phrase :Orhan
+2016-12-15-09:18:06: Data received from stt: Orhan Gencebay Meyhaneci Orhan o zaman Tamam o zaman arıyorum tekrar ama anlamıyorsun aşk sözleri Ebru Gündeş Orhan,Noun Gencebay,Noun meyhane,Noun Orhan,Noun o,Other zaman,Noun Tamam,Noun o,Other zaman,Noun ara,Other tekrar,Noun ama,Other anla,Other aşk,Noun sözle,Other Ebru,Noun Gündeş,Noun
+2016-12-15-09:18:06: SearchTerm from microphone:Orhan Gencebay Meyhaneci Orhan o zaman Tamam o zaman arıyorum tekrar ama anlamıyorsun aşk sözleri Ebru Gündeş Orhan,Noun Gencebay,Noun meyhane,Noun Orhan,Noun o,Other zaman,Noun Tamam,Noun o,Other zaman,Noun ara,Other tekrar,Noun ama,Other anla,Other aşk,Noun sözle,Other Ebru,Noun Gündeş,Noun
+2016-12-15-09:18:06: State machine is initialized with input: 
+2016-12-15-09:18:06: Orhan Gencebay Meyhaneci Orhan o zaman Tamam o zaman arıyorum tekrar ama anlamıyorsun aşk sözleri Ebru Gündeş Orhan,Noun Gencebay,Noun meyhane,Noun Orhan,Noun o,Other zaman,Noun Tamam,Noun o,Other zaman,Noun ara,Other tekrar,Noun ama,Other anla,Other aşk,Noun sözle,Other Ebru,Noun Gündeş,Noun
+2016-12-15-09:18:06: Input words : 
+2016-12-15-09:18:06: [ 'Orhan',
+  'Gencebay',
+  'Meyhaneci',
+  'Orhan',
+  'o',
+  'zaman',
+  'Tamam',
+  'o',
+  'zaman',
+  'arıyorum',
+  'tekrar',
+  'ama',
+  'anlamıyorsun',
+  'aşk',
+  'sözleri',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-09:18:06: Input roots : 
+2016-12-15-09:18:06: [ 'Orhan',
+  'Gencebay',
+  'meyhane',
+  'Orhan',
+  'o',
+  'zaman',
+  'Tamam',
+  'o',
+  'zaman',
+  'ara',
+  'tekrar',
+  'ama',
+  'anla',
+  'aşk',
+  'sözle',
+  'Ebru',
+  'Gündeş' ]
+2016-12-15-09:18:06: Searching for phrase :Orhan
+2016-12-15-09:18:06: Connection closed
+2016-12-15-09:18:06: Connection closed
+2016-12-15-09:18:07: Response for phrase :Orhan
+
+2016-12-15-09:18:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-09:18:07: ItemlistElement for phrase : Orhan
+2016-12-15-09:18:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-09:18:07: Callback for phrase : Orhan
+2016-12-15-09:18:07: Callback for word is succeed :Orhan
+2016-12-15-09:18:07: Word is going to iteration : Orhan
+2016-12-15-09:18:07: Iteration for phrase : Orhan Gencebay
+2016-12-15-09:18:07: Searching for phrase :Orhan Gencebay
+2016-12-15-09:18:07: Response for phrase :Orhan
+
+2016-12-15-09:18:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-09:18:07: ItemlistElement for phrase : Orhan
+2016-12-15-09:18:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-09:18:07: Callback for phrase : Orhan
+2016-12-15-09:18:07: Callback for word is succeed :Orhan
+2016-12-15-09:18:07: Word is going to iteration : Orhan
+2016-12-15-09:18:07: Iteration for phrase : Orhan Gencebay
+2016-12-15-09:18:07: Searching for phrase :Orhan Gencebay
+2016-12-15-09:18:07: Response for phrase :Orhan Gencebay
+
+2016-12-15-09:18:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.885071 } ] }
+2016-12-15-09:18:07: ItemlistElement for phrase : Orhan Gencebay
+2016-12-15-09:18:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.885071 }
+2016-12-15-09:18:07: Callback for phrase : Orhan Gencebay
+2016-12-15-09:18:07: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-15-09:18:07: Score for phrase is596.885071 : Orhan Gencebay
+2016-12-15-09:18:07: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-15-09:18:07: Iteration for phrase : Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Searching for phrase :Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Response for phrase :Orhan Gencebay
+
+2016-12-15-09:18:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.885071 } ] }
+2016-12-15-09:18:07: ItemlistElement for phrase : Orhan Gencebay
+2016-12-15-09:18:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.885071 }
+2016-12-15-09:18:07: Callback for phrase : Orhan Gencebay
+2016-12-15-09:18:07: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-15-09:18:07: Score for phrase is596.885071 : Orhan Gencebay
+2016-12-15-09:18:07: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-15-09:18:07: Iteration for phrase : Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Searching for phrase :Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Response for phrase :Orhan Gencebay Meyhaneci
+
+2016-12-15-09:18:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:07: ItemlistElement for phrase : Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: undefined
+2016-12-15-09:18:07: Failed callback for phras : Orhan Gencebay Meyhaneci
+
+2016-12-15-09:18:07: Callback for iteration phrase is succeed :Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Score for phrase isnull : Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: iteration phrase is going root iteration :Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Root iteration for phrase : Orhan Gencebay meyhane
+2016-12-15-09:18:07: Searching for phrase :Orhan Gencebay meyhane
+2016-12-15-09:18:07: Response for phrase :Orhan Gencebay Meyhaneci
+
+2016-12-15-09:18:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:07: ItemlistElement for phrase : Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: undefined
+2016-12-15-09:18:07: Failed callback for phras : Orhan Gencebay Meyhaneci
+
+2016-12-15-09:18:07: Callback for iteration phrase is succeed :Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Score for phrase isnull : Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: iteration phrase is going root iteration :Orhan Gencebay Meyhaneci
+2016-12-15-09:18:07: Root iteration for phrase : Orhan Gencebay meyhane
+2016-12-15-09:18:07: Searching for phrase :Orhan Gencebay meyhane
+2016-12-15-09:18:08: Response for phrase :Orhan Gencebay meyhane
+
+2016-12-15-09:18:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:08: ItemlistElement for phrase : Orhan Gencebay meyhane
+2016-12-15-09:18:08: undefined
+2016-12-15-09:18:08: Failed callback for phras : Orhan Gencebay meyhane
+
+2016-12-15-09:18:08: Callback for root iteration phrase is succeed :Orhan Gencebay meyhane
+2016-12-15-09:18:08: Score for phrase isnull : Orhan Gencebay meyhane
+2016-12-15-09:18:08: Root iteration phrase is going to matching :Orhan Gencebay meyhane
+2016-12-15-09:18:08: Matching result for phrase : Orhan Gencebay
+
+2016-12-15-09:18:08: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-09:18:08: Result for phrase will be printed : Orhan Gencebay
+2016-12-15-09:18:08: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-09:18:08: received_result_no=1
+2016-12-15-09:18:08: System goes new search 
+2016-12-15-09:18:08: Searching for phrase :Meyhaneci
+2016-12-15-09:18:08: Response for phrase :Orhan Gencebay meyhane
+
+2016-12-15-09:18:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:08: ItemlistElement for phrase : Orhan Gencebay meyhane
+2016-12-15-09:18:08: undefined
+2016-12-15-09:18:08: Failed callback for phras : Orhan Gencebay meyhane
+
+2016-12-15-09:18:08: Callback for root iteration phrase is succeed :Orhan Gencebay meyhane
+2016-12-15-09:18:08: Score for phrase isnull : Orhan Gencebay meyhane
+2016-12-15-09:18:08: Root iteration phrase is going to matching :Orhan Gencebay meyhane
+2016-12-15-09:18:08: Matching result for phrase : Orhan Gencebay
+
+2016-12-15-09:18:08: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-15-09:18:08: Result for phrase will be printed : Orhan Gencebay
+2016-12-15-09:18:08: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-15-09:18:08: received_result_no=1
+2016-12-15-09:18:08: System goes new search 
+2016-12-15-09:18:08: Searching for phrase :Meyhaneci
+2016-12-15-09:18:08: Response for phrase :Meyhaneci
+
+2016-12-15-09:18:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.121805 } ] }
+2016-12-15-09:18:08: ItemlistElement for phrase : Meyhaneci
+2016-12-15-09:18:08: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11btx006dl',
+     name: 'Doldur Meyhaneci',
+     '@type': [ 'Thing' ],
+     description: 'Adnan Şenses\'in şarkısı' },
+  resultScore: 15.121805 }
+2016-12-15-09:18:08: Callback for phrase : Meyhaneci
+2016-12-15-09:18:08: Callback for word is succeed :Meyhaneci
+2016-12-15-09:18:08: Word is going to iteration : Meyhaneci
+2016-12-15-09:18:08: Iteration for phrase : Meyhaneci Orhan
+2016-12-15-09:18:08: Searching for phrase :Meyhaneci Orhan
+2016-12-15-09:18:08: Response for phrase :Meyhaneci
+
+2016-12-15-09:18:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.121805 } ] }
+2016-12-15-09:18:08: ItemlistElement for phrase : Meyhaneci
+2016-12-15-09:18:08: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11btx006dl',
+     name: 'Doldur Meyhaneci',
+     '@type': [ 'Thing' ],
+     description: 'Adnan Şenses\'in şarkısı' },
+  resultScore: 15.121805 }
+2016-12-15-09:18:08: Callback for phrase : Meyhaneci
+2016-12-15-09:18:08: Callback for word is succeed :Meyhaneci
+2016-12-15-09:18:08: Word is going to iteration : Meyhaneci
+2016-12-15-09:18:08: Iteration for phrase : Meyhaneci Orhan
+2016-12-15-09:18:08: Searching for phrase :Meyhaneci Orhan
+2016-12-15-09:18:09: Response for phrase :Meyhaneci Orhan
+
+2016-12-15-09:18:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:09: ItemlistElement for phrase : Meyhaneci Orhan
+2016-12-15-09:18:09: undefined
+2016-12-15-09:18:09: Failed callback for phras : Meyhaneci Orhan
+
+2016-12-15-09:18:09: Callback for iteration phrase is succeed :Meyhaneci Orhan
+2016-12-15-09:18:09: Score for phrase isnull : Meyhaneci Orhan
+2016-12-15-09:18:09: iteration phrase is going root iteration :Meyhaneci Orhan
+2016-12-15-09:18:09: Root iteration for phrase : Meyhaneci Orhan
+2016-12-15-09:18:09: Searching for phrase :Meyhaneci Orhan
+2016-12-15-09:18:09: Response for phrase :Meyhaneci Orhan
+
+2016-12-15-09:18:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:09: ItemlistElement for phrase : Meyhaneci Orhan
+2016-12-15-09:18:09: undefined
+2016-12-15-09:18:09: Failed callback for phras : Meyhaneci Orhan
+
+2016-12-15-09:18:09: Callback for root iteration phrase is succeed :Meyhaneci Orhan
+2016-12-15-09:18:09: Score for phrase isnull : Meyhaneci Orhan
+2016-12-15-09:18:09: Root iteration phrase is going to matching :Meyhaneci Orhan
+2016-12-15-09:18:09: Matching result for phrase : Meyhaneci
+
+2016-12-15-09:18:09: { '@id': 'kg:/g/11btx006dl',
+  name: 'Doldur Meyhaneci',
+  '@type': [ 'Thing' ],
+  description: 'Adnan Şenses\'in şarkısı' }
+2016-12-15-09:18:09: Result for phrase will be printed : Meyhaneci
+2016-12-15-09:18:09: received_result_no=2
+2016-12-15-09:18:09: System goes new search 
+2016-12-15-09:18:09: Searching for phrase :Orhan
+2016-12-15-09:18:10: Response for phrase :Meyhaneci Orhan
+
+2016-12-15-09:18:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:10: ItemlistElement for phrase : Meyhaneci Orhan
+2016-12-15-09:18:10: undefined
+2016-12-15-09:18:10: Failed callback for phras : Meyhaneci Orhan
+
+2016-12-15-09:18:10: Callback for iteration phrase is succeed :Meyhaneci Orhan
+2016-12-15-09:18:10: Score for phrase isnull : Meyhaneci Orhan
+2016-12-15-09:18:10: iteration phrase is going root iteration :Meyhaneci Orhan
+2016-12-15-09:18:10: Root iteration for phrase : Meyhaneci Orhan
+2016-12-15-09:18:10: Searching for phrase :Meyhaneci Orhan
+2016-12-15-09:18:10: Response for phrase :Orhan
+
+2016-12-15-09:18:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-09:18:10: ItemlistElement for phrase : Orhan
+2016-12-15-09:18:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-09:18:10: Callback for phrase : Orhan
+2016-12-15-09:18:10: Callback for word is succeed :Orhan
+2016-12-15-09:18:10: Word is going to iteration : Orhan
+2016-12-15-09:18:10: Iteration for phrase : Orhan o
+2016-12-15-09:18:10: Searching for phrase :Orhan o
+2016-12-15-09:18:10: Response for phrase :Meyhaneci Orhan
+
+2016-12-15-09:18:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:10: ItemlistElement for phrase : Meyhaneci Orhan
+2016-12-15-09:18:10: undefined
+2016-12-15-09:18:10: Failed callback for phras : Meyhaneci Orhan
+
+2016-12-15-09:18:10: Callback for root iteration phrase is succeed :Meyhaneci Orhan
+2016-12-15-09:18:10: Score for phrase isnull : Meyhaneci Orhan
+2016-12-15-09:18:10: Root iteration phrase is going to matching :Meyhaneci Orhan
+2016-12-15-09:18:10: Matching result for phrase : Meyhaneci
+
+2016-12-15-09:18:10: { '@id': 'kg:/g/11btx006dl',
+  name: 'Doldur Meyhaneci',
+  '@type': [ 'Thing' ],
+  description: 'Adnan Şenses\'in şarkısı' }
+2016-12-15-09:18:10: Result for phrase will be printed : Meyhaneci
+2016-12-15-09:18:10: received_result_no=2
+2016-12-15-09:18:10: System goes new search 
+2016-12-15-09:18:10: Searching for phrase :Orhan
+2016-12-15-09:18:10: Response for phrase :Orhan o
+
+2016-12-15-09:18:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 59.015953 } ] }
+2016-12-15-09:18:10: ItemlistElement for phrase : Orhan o
+2016-12-15-09:18:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0244fy',
+     name: 'Orhan Pamuk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Yazar',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR0WLal3RBRzqAtuqs-DFVAE9Yk932spq7z_Kyh-Ndb993SyMRd',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_Shankbone_2009_NYC.jpg',
+        license: 'http://creativecommons.org/licenses/by/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ferit Orhan Pamuk, Türk yazar. Birçok başka edebiyat ödülünün yanı sıra 2006 yılında Nobel Edebiyat Ödülünü kazanarak bu ödülü alan en genç kişilerden biri olmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Pamuk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhanpamuk.net/' },
+  resultScore: 59.015953 }
+2016-12-15-09:18:10: Callback for phrase : Orhan o
+2016-12-15-09:18:10: Callback for iteration phrase is succeed :Orhan o
+2016-12-15-09:18:10: Score for phrase is59.015953 : Orhan o
+2016-12-15-09:18:10: iteration phrase is going next iteration :Orhan o
+2016-12-15-09:18:10: Iteration for phrase : Orhan o zaman
+2016-12-15-09:18:10: Searching for phrase :Orhan o zaman
+2016-12-15-09:18:11: Response for phrase :Orhan
+
+2016-12-15-09:18:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.547665 } ] }
+2016-12-15-09:18:11: ItemlistElement for phrase : Orhan
+2016-12-15-09:18:11: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.547665 }
+2016-12-15-09:18:11: Callback for phrase : Orhan
+2016-12-15-09:18:11: Callback for word is succeed :Orhan
+2016-12-15-09:18:11: Word is going to iteration : Orhan
+2016-12-15-09:18:11: Iteration for phrase : Orhan o
+2016-12-15-09:18:11: Searching for phrase :Orhan o
+2016-12-15-09:18:11: Response for phrase :Orhan o zaman
+
+2016-12-15-09:18:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2.96055 } ] }
+2016-12-15-09:18:11: ItemlistElement for phrase : Orhan o zaman
+2016-12-15-09:18:11: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1225wdlk',
+     name: 'Mor',
+     '@type': [ 'Thing', 'Book' ],
+     description: 'İnci Aral tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Mor, İnci Aral\'ın 2003 yılında Epsilon Yayınevi’nden çıkardığı romanıdır. Romanda küçük bir Ege kasabasında yaşayan dört çocuklu bir çiftçi ailesinin yıllara yayılmış trajik hikâyesini 24 saatlik zaman diliminde anlatılmaktadır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Mor_(roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 2.96055 }
+2016-12-15-09:18:11: Callback for phrase : Orhan o zaman
+2016-12-15-09:18:11: Callback for iteration phrase is succeed :Orhan o zaman
+2016-12-15-09:18:11: Score for phrase is2.96055 : Orhan o zaman
+2016-12-15-09:18:11: iteration phrase is going root iteration :Orhan o zaman
+2016-12-15-09:18:11: Root iteration for phrase : Orhan o zaman
+2016-12-15-09:18:11: Searching for phrase :Orhan o zaman
+2016-12-15-09:18:11: Response for phrase :Orhan o
+
+2016-12-15-09:18:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 59.015953 } ] }
+2016-12-15-09:18:11: ItemlistElement for phrase : Orhan o
+2016-12-15-09:18:11: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0244fy',
+     name: 'Orhan Pamuk',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Yazar',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR0WLal3RBRzqAtuqs-DFVAE9Yk932spq7z_Kyh-Ndb993SyMRd',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_Shankbone_2009_NYC.jpg',
+        license: 'http://creativecommons.org/licenses/by/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ferit Orhan Pamuk, Türk yazar. Birçok başka edebiyat ödülünün yanı sıra 2006 yılında Nobel Edebiyat Ödülünü kazanarak bu ödülü alan en genç kişilerden biri olmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Pamuk',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhanpamuk.net/' },
+  resultScore: 59.015953 }
+2016-12-15-09:18:11: Callback for phrase : Orhan o
+2016-12-15-09:18:11: Callback for iteration phrase is succeed :Orhan o
+2016-12-15-09:18:11: Score for phrase is59.015953 : Orhan o
+2016-12-15-09:18:11: iteration phrase is going next iteration :Orhan o
+2016-12-15-09:18:11: Iteration for phrase : Orhan o zaman
+2016-12-15-09:18:11: Searching for phrase :Orhan o zaman
+2016-12-15-09:18:11: Response for phrase :Orhan o zaman
+
+2016-12-15-09:18:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2.96055 } ] }
+2016-12-15-09:18:11: ItemlistElement for phrase : Orhan o zaman
+2016-12-15-09:18:11: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1225wdlk',
+     name: 'Mor',
+     '@type': [ 'Thing', 'Book' ],
+     description: 'İnci Aral tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Mor, İnci Aral\'ın 2003 yılında Epsilon Yayınevi’nden çıkardığı romanıdır. Romanda küçük bir Ege kasabasında yaşayan dört çocuklu bir çiftçi ailesinin yıllara yayılmış trajik hikâyesini 24 saatlik zaman diliminde anlatılmaktadır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Mor_(roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 2.96055 }
+2016-12-15-09:18:11: Callback for phrase : Orhan o zaman
+2016-12-15-09:18:11: Callback for root iteration phrase is succeed :Orhan o zaman
+2016-12-15-09:18:11: Score for phrase is2.96055 : Orhan o zaman
+2016-12-15-09:18:11: Root iteration phrase is going to matching :Orhan o zaman
+2016-12-15-09:18:11: Matching result for phrase : Orhan o
+
+2016-12-15-09:18:11: { '@id': 'kg:/m/0244fy',
+  name: 'Orhan Pamuk',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Yazar',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR0WLal3RBRzqAtuqs-DFVAE9Yk932spq7z_Kyh-Ndb993SyMRd',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_Shankbone_2009_NYC.jpg',
+     license: 'http://creativecommons.org/licenses/by/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ferit Orhan Pamuk, Türk yazar. Birçok başka edebiyat ödülünün yanı sıra 2006 yılında Nobel Edebiyat Ödülünü kazanarak bu ödülü alan en genç kişilerden biri olmuştur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Pamuk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhanpamuk.net/' }
+2016-12-15-09:18:11: Result for phrase will be printed : Orhan o
+2016-12-15-09:18:11: received_result_no=3
+2016-12-15-09:18:11: System goes new search 
+2016-12-15-09:18:11: Searching for phrase :zaman
+2016-12-15-09:18:11: Response for phrase :Orhan o zaman
+
+2016-12-15-09:18:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2.96055 } ] }
+2016-12-15-09:18:11: ItemlistElement for phrase : Orhan o zaman
+2016-12-15-09:18:11: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1225wdlk',
+     name: 'Mor',
+     '@type': [ 'Thing', 'Book' ],
+     description: 'İnci Aral tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Mor, İnci Aral\'ın 2003 yılında Epsilon Yayınevi’nden çıkardığı romanıdır. Romanda küçük bir Ege kasabasında yaşayan dört çocuklu bir çiftçi ailesinin yıllara yayılmış trajik hikâyesini 24 saatlik zaman diliminde anlatılmaktadır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Mor_(roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 2.96055 }
+2016-12-15-09:18:11: Callback for phrase : Orhan o zaman
+2016-12-15-09:18:11: Callback for iteration phrase is succeed :Orhan o zaman
+2016-12-15-09:18:11: Score for phrase is2.96055 : Orhan o zaman
+2016-12-15-09:18:11: iteration phrase is going root iteration :Orhan o zaman
+2016-12-15-09:18:11: Root iteration for phrase : Orhan o zaman
+2016-12-15-09:18:11: Searching for phrase :Orhan o zaman
+2016-12-15-09:18:11: Response for phrase :zaman
+
+2016-12-15-09:18:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.530243 } ] }
+2016-12-15-09:18:12: ItemlistElement for phrase : zaman
+2016-12-15-09:18:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02lcqs',
+     name: 'Pasifik Zaman Dilimi',
+     '@type': [ 'Thing', 'Place' ],
+     description: 'Saat Dilimi',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSSpgNF-R1ZLoj95EfKnJq_QZHeBSQUuEh91xwM9u_iXZcUeFI5',
+        url: 'https://en.wikipedia.org/wiki/Pacific_Time_Zone' },
+     detailedDescription: 
+      { articleBody: 'Pasifik Zaman Dilimi, Amerika Birleşik Devletleri ve Kanada\'nın batı kıyılarında kullanılan zaman dilimi. GMT\'den 8 saat geridedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pasifik_Zaman_Dilimi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 43.530243 }
+2016-12-15-09:18:12: Callback for phrase : zaman
+2016-12-15-09:18:12: Callback for word is succeed :zaman
+2016-12-15-09:18:12: Word is going to iteration : zaman
+2016-12-15-09:18:12: Iteration for phrase : zaman Tamam
+2016-12-15-09:18:12: Searching for phrase :zaman Tamam
+2016-12-15-09:18:12: Response for phrase :Orhan o zaman
+
+2016-12-15-09:18:12: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2.96055 } ] }
+2016-12-15-09:18:12: ItemlistElement for phrase : Orhan o zaman
+2016-12-15-09:18:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1225wdlk',
+     name: 'Mor',
+     '@type': [ 'Thing', 'Book' ],
+     description: 'İnci Aral tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Mor, İnci Aral\'ın 2003 yılında Epsilon Yayınevi’nden çıkardığı romanıdır. Romanda küçük bir Ege kasabasında yaşayan dört çocuklu bir çiftçi ailesinin yıllara yayılmış trajik hikâyesini 24 saatlik zaman diliminde anlatılmaktadır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Mor_(roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 2.96055 }
+2016-12-15-09:18:12: Callback for phrase : Orhan o zaman
+2016-12-15-09:18:12: Callback for root iteration phrase is succeed :Orhan o zaman
+2016-12-15-09:18:12: Score for phrase is2.96055 : Orhan o zaman
+2016-12-15-09:18:12: Root iteration phrase is going to matching :Orhan o zaman
+2016-12-15-09:18:12: Matching result for phrase : Orhan o
+
+2016-12-15-09:18:12: { '@id': 'kg:/m/0244fy',
+  name: 'Orhan Pamuk',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Yazar',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR0WLal3RBRzqAtuqs-DFVAE9Yk932spq7z_Kyh-Ndb993SyMRd',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_Pamuk_Shankbone_2009_NYC.jpg',
+     license: 'http://creativecommons.org/licenses/by/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ferit Orhan Pamuk, Türk yazar. Birçok başka edebiyat ödülünün yanı sıra 2006 yılında Nobel Edebiyat Ödülünü kazanarak bu ödülü alan en genç kişilerden biri olmuştur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Pamuk',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhanpamuk.net/' }
+2016-12-15-09:18:12: Result for phrase will be printed : Orhan o
+2016-12-15-09:18:12: received_result_no=3
+2016-12-15-09:18:12: System goes new search 
+2016-12-15-09:18:12: Searching for phrase :zaman
+2016-12-15-09:18:12: Response for phrase :zaman Tamam
+
+2016-12-15-09:18:12: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.154621 } ] }
+2016-12-15-09:18:12: ItemlistElement for phrase : zaman Tamam
+2016-12-15-09:18:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tl7ctj',
+     name: 'Aras Bulut İynemli',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Aras Bulut İynemli Türk oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Aras_Bulut_%C4%B0ynemli',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 16.154621 }
+2016-12-15-09:18:12: Callback for phrase : zaman Tamam
+2016-12-15-09:18:12: Callback for iteration phrase is succeed :zaman Tamam
+2016-12-15-09:18:12: Score for phrase is16.154621 : zaman Tamam
+2016-12-15-09:18:12: iteration phrase is going root iteration :zaman Tamam
+2016-12-15-09:18:12: Root iteration for phrase : zaman Tamam
+2016-12-15-09:18:12: Searching for phrase :zaman Tamam
+2016-12-15-09:18:12: Response for phrase :zaman
+
+2016-12-15-09:18:12: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.530243 } ] }
+2016-12-15-09:18:12: ItemlistElement for phrase : zaman
+2016-12-15-09:18:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02lcqs',
+     name: 'Pasifik Zaman Dilimi',
+     '@type': [ 'Thing', 'Place' ],
+     description: 'Saat Dilimi',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSSpgNF-R1ZLoj95EfKnJq_QZHeBSQUuEh91xwM9u_iXZcUeFI5',
+        url: 'https://en.wikipedia.org/wiki/Pacific_Time_Zone' },
+     detailedDescription: 
+      { articleBody: 'Pasifik Zaman Dilimi, Amerika Birleşik Devletleri ve Kanada\'nın batı kıyılarında kullanılan zaman dilimi. GMT\'den 8 saat geridedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Pasifik_Zaman_Dilimi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 43.530243 }
+2016-12-15-09:18:12: Callback for phrase : zaman
+2016-12-15-09:18:12: Callback for word is succeed :zaman
+2016-12-15-09:18:12: Word is going to iteration : zaman
+2016-12-15-09:18:12: Iteration for phrase : zaman Tamam
+2016-12-15-09:18:12: Searching for phrase :zaman Tamam
+2016-12-15-09:18:13: Response for phrase :zaman Tamam
+
+2016-12-15-09:18:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.154621 } ] }
+2016-12-15-09:18:13: ItemlistElement for phrase : zaman Tamam
+2016-12-15-09:18:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tl7ctj',
+     name: 'Aras Bulut İynemli',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Aras Bulut İynemli Türk oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Aras_Bulut_%C4%B0ynemli',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 16.154621 }
+2016-12-15-09:18:13: Callback for phrase : zaman Tamam
+2016-12-15-09:18:13: Callback for root iteration phrase is succeed :zaman Tamam
+2016-12-15-09:18:13: Score for phrase is16.154621 : zaman Tamam
+2016-12-15-09:18:13: Root iteration phrase is going to matching :zaman Tamam
+2016-12-15-09:18:13: Matching result for phrase : zaman
+
+2016-12-15-09:18:13: { '@id': 'kg:/m/02lcqs',
+  name: 'Pasifik Zaman Dilimi',
+  '@type': [ 'Thing', 'Place' ],
+  description: 'Saat Dilimi',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSSpgNF-R1ZLoj95EfKnJq_QZHeBSQUuEh91xwM9u_iXZcUeFI5',
+     url: 'https://en.wikipedia.org/wiki/Pacific_Time_Zone' },
+  detailedDescription: 
+   { articleBody: 'Pasifik Zaman Dilimi, Amerika Birleşik Devletleri ve Kanada\'nın batı kıyılarında kullanılan zaman dilimi. GMT\'den 8 saat geridedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Pasifik_Zaman_Dilimi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-09:18:13: Result for phrase will be printed : zaman
+2016-12-15-09:18:13: received_result_no=4
+2016-12-15-09:18:13: System goes new search 
+2016-12-15-09:18:13: Searching for phrase :o
+2016-12-15-09:18:13: Response for phrase :zaman Tamam
+
+2016-12-15-09:18:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.154621 } ] }
+2016-12-15-09:18:13: ItemlistElement for phrase : zaman Tamam
+2016-12-15-09:18:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tl7ctj',
+     name: 'Aras Bulut İynemli',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Aras Bulut İynemli Türk oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Aras_Bulut_%C4%B0ynemli',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 16.154621 }
+2016-12-15-09:18:13: Callback for phrase : zaman Tamam
+2016-12-15-09:18:13: Callback for iteration phrase is succeed :zaman Tamam
+2016-12-15-09:18:13: Score for phrase is16.154621 : zaman Tamam
+2016-12-15-09:18:13: iteration phrase is going root iteration :zaman Tamam
+2016-12-15-09:18:13: Root iteration for phrase : zaman Tamam
+2016-12-15-09:18:13: Searching for phrase :zaman Tamam
+2016-12-15-09:18:13: Response for phrase :o
+
+2016-12-15-09:18:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 44.309925 } ] }
+2016-12-15-09:18:13: ItemlistElement for phrase : o
+2016-12-15-09:18:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0838f',
+     name: 'Su',
+     '@type': [ 'Thing' ],
+     description: 'Kimyasal Bileşen',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTTR4yxDYRYNAmVmJ6wAgj5kFvJEwvdHELBaVPABFhzBnpdeMLR',
+        url: 'https://en.wikipedia.org/wiki/Water',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Su; dünyada bol miktarda bulunan ve yaşam için vazgeçilmez olan, kokusuz ve tatsız bir bileşik. Sıklıkla renksiz olarak tanımlanmasına rağmen k��zıl dalga boylarında ışığı hafifçe emmesi nedeniyle doğal bir mavi renge sahiptir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Su',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 44.309925 }
+2016-12-15-09:18:13: Callback for phrase : o
+2016-12-15-09:18:13: Callback for word is succeed :o
+2016-12-15-09:18:13: Word is going to iteration : o
+2016-12-15-09:18:13: Iteration for phrase : o zaman
+2016-12-15-09:18:13: Searching for phrase :o zaman
+2016-12-15-09:18:13: Response for phrase :zaman Tamam
+
+2016-12-15-09:18:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.154621 } ] }
+2016-12-15-09:18:13: ItemlistElement for phrase : zaman Tamam
+2016-12-15-09:18:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0tl7ctj',
+     name: 'Aras Bulut İynemli',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Aras Bulut İynemli Türk oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Aras_Bulut_%C4%B0ynemli',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 16.154621 }
+2016-12-15-09:18:13: Callback for phrase : zaman Tamam
+2016-12-15-09:18:13: Callback for root iteration phrase is succeed :zaman Tamam
+2016-12-15-09:18:13: Score for phrase is16.154621 : zaman Tamam
+2016-12-15-09:18:13: Root iteration phrase is going to matching :zaman Tamam
+2016-12-15-09:18:13: Matching result for phrase : zaman
+
+2016-12-15-09:18:13: { '@id': 'kg:/m/02lcqs',
+  name: 'Pasifik Zaman Dilimi',
+  '@type': [ 'Thing', 'Place' ],
+  description: 'Saat Dilimi',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSSpgNF-R1ZLoj95EfKnJq_QZHeBSQUuEh91xwM9u_iXZcUeFI5',
+     url: 'https://en.wikipedia.org/wiki/Pacific_Time_Zone' },
+  detailedDescription: 
+   { articleBody: 'Pasifik Zaman Dilimi, Amerika Birleşik Devletleri ve Kanada\'nın batı kıyılarında kullanılan zaman dilimi. GMT\'den 8 saat geridedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Pasifik_Zaman_Dilimi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-15-09:18:13: Result for phrase will be printed : zaman
+2016-12-15-09:18:13: received_result_no=4
+2016-12-15-09:18:13: System goes new search 
+2016-12-15-09:18:13: Searching for phrase :o
+2016-12-15-09:18:13: Response for phrase :o
+
+2016-12-15-09:18:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 44.309925 } ] }
+2016-12-15-09:18:13: ItemlistElement for phrase : o
+2016-12-15-09:18:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0838f',
+     name: 'Su',
+     '@type': [ 'Thing' ],
+     description: 'Kimyasal Bileşen',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcTTR4yxDYRYNAmVmJ6wAgj5kFvJEwvdHELBaVPABFhzBnpdeMLR',
+        url: 'https://en.wikipedia.org/wiki/Water',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Su; dünyada bol miktarda bulunan ve yaşam için vazgeçilmez olan, kokusuz ve tatsız bir bileşik. Sıklıkla renksiz olarak tanımlanmasına rağmen k��zıl dalga boylarında ışığı hafifçe emmesi nedeniyle doğal bir mavi renge sahiptir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Su',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 44.309925 }
+2016-12-15-09:18:13: Callback for phrase : o
+2016-12-15-09:18:13: Callback for word is succeed :o
+2016-12-15-09:18:13: Word is going to iteration : o
+2016-12-15-09:18:13: Iteration for phrase : o zaman
+2016-12-15-09:18:13: Searching for phrase :o zaman
+2016-12-15-09:18:13: Response for phrase :o zaman
+
+2016-12-15-09:18:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 204.667801 } ] }
+2016-12-15-09:18:13: ItemlistElement for phrase : o zaman
+2016-12-15-09:18:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1q6j3h8fx',
+     name: 'Hadi O Zaman',
+     '@type': [ 'Thing' ],
+     description: 'Nazan Öncel\'in şarkısı' },
+  resultScore: 204.667801 }
+2016-12-15-09:18:13: Callback for phrase : o zaman
+2016-12-15-09:18:13: Callback for iteration phrase is succeed :o zaman
+2016-12-15-09:18:13: Score for phrase is204.667801 : o zaman
+2016-12-15-09:18:13: iteration phrase is going next iteration :o zaman
+2016-12-15-09:18:13: Iteration for phrase : o zaman arıyorum
+2016-12-15-09:18:13: Searching for phrase :o zaman arıyorum
+2016-12-15-09:18:14: Response for phrase :o zaman arıyorum
+
+2016-12-15-09:18:14: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:14: ItemlistElement for phrase : o zaman arıyorum
+2016-12-15-09:18:14: undefined
+2016-12-15-09:18:14: Failed callback for phras : o zaman arıyorum
+
+2016-12-15-09:18:14: Callback for iteration phrase is succeed :o zaman arıyorum
+2016-12-15-09:18:14: Score for phrase isnull : o zaman arıyorum
+2016-12-15-09:18:14: iteration phrase is going root iteration :o zaman arıyorum
+2016-12-15-09:18:14: Root iteration for phrase : o zaman ara
+2016-12-15-09:18:14: Searching for phrase :o zaman ara
+2016-12-15-09:18:14: Response for phrase :o zaman
+
+2016-12-15-09:18:14: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 204.667801 } ] }
+2016-12-15-09:18:14: ItemlistElement for phrase : o zaman
+2016-12-15-09:18:14: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1q6j3h8fx',
+     name: 'Hadi O Zaman',
+     '@type': [ 'Thing' ],
+     description: 'Nazan Öncel\'in şarkısı' },
+  resultScore: 204.667801 }
+2016-12-15-09:18:14: Callback for phrase : o zaman
+2016-12-15-09:18:14: Callback for iteration phrase is succeed :o zaman
+2016-12-15-09:18:14: Score for phrase is204.667801 : o zaman
+2016-12-15-09:18:14: iteration phrase is going next iteration :o zaman
+2016-12-15-09:18:14: Iteration for phrase : o zaman arıyorum
+2016-12-15-09:18:14: Searching for phrase :o zaman arıyorum
+2016-12-15-09:18:14: Response for phrase :o zaman ara
+
+2016-12-15-09:18:14: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 6.742762 } ] }
+2016-12-15-09:18:14: ItemlistElement for phrase : o zaman ara
+2016-12-15-09:18:14: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/043qr5x',
+     name: 'Anlat İstanbul',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2005 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Anlat İstanbul, İstanbul\'da yaşayan insanların hikâyelerini alıyor, hikâyeleri masallara, insanları kahramanlara dönüştürerek anlatıyor. Bir klarnetçi, bir fahişe, delirmiş bir kadın ve dahası, farklı 5 öyküyle sunuluyor. ',
+        url: 'https://tr.wikipedia.org/wiki/Anlat_%C4%B0stanbul',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.anlatistanbul.com/' },
+  resultScore: 6.742762 }
+2016-12-15-09:18:14: Callback for phrase : o zaman ara
+2016-12-15-09:18:14: Callback for root iteration phrase is succeed :o zaman ara
+2016-12-15-09:18:14: Score for phrase is6.742762 : o zaman ara
+2016-12-15-09:18:14: Root iteration phrase is going to matching :o zaman ara
+2016-12-15-09:18:14: Matching result for phrase : o zaman
+
+2016-12-15-09:18:14: { '@id': 'kg:/g/1q6j3h8fx',
+  name: 'Hadi O Zaman',
+  '@type': [ 'Thing' ],
+  description: 'Nazan Öncel\'in şarkısı' }
+2016-12-15-09:18:14: Result for phrase will be printed : o zaman
+2016-12-15-09:18:14: received_result_no=5
+2016-12-15-09:18:14: System goes new search 
+2016-12-15-09:18:14: Searching for phrase :tekrar
+2016-12-15-09:18:14: Response for phrase :o zaman arıyorum
+
+2016-12-15-09:18:14: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:14: ItemlistElement for phrase : o zaman arıyorum
+2016-12-15-09:18:14: undefined
+2016-12-15-09:18:14: Failed callback for phras : o zaman arıyorum
+
+2016-12-15-09:18:14: Callback for iteration phrase is succeed :o zaman arıyorum
+2016-12-15-09:18:14: Score for phrase isnull : o zaman arıyorum
+2016-12-15-09:18:14: iteration phrase is going root iteration :o zaman arıyorum
+2016-12-15-09:18:14: Root iteration for phrase : o zaman ara
+2016-12-15-09:18:14: Searching for phrase :o zaman ara
+2016-12-15-09:18:15: Response for phrase :o zaman ara
+
+2016-12-15-09:18:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 6.742762 } ] }
+2016-12-15-09:18:15: ItemlistElement for phrase : o zaman ara
+2016-12-15-09:18:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/043qr5x',
+     name: 'Anlat İstanbul',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2005 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Anlat İstanbul, İstanbul\'da yaşayan insanların hikâyelerini alıyor, hikâyeleri masallara, insanları kahramanlara dönüştürerek anlatıyor. Bir klarnetçi, bir fahişe, delirmiş bir kadın ve dahası, farklı 5 öyküyle sunuluyor. ',
+        url: 'https://tr.wikipedia.org/wiki/Anlat_%C4%B0stanbul',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.anlatistanbul.com/' },
+  resultScore: 6.742762 }
+2016-12-15-09:18:15: Callback for phrase : o zaman ara
+2016-12-15-09:18:15: Callback for root iteration phrase is succeed :o zaman ara
+2016-12-15-09:18:15: Score for phrase is6.742762 : o zaman ara
+2016-12-15-09:18:15: Root iteration phrase is going to matching :o zaman ara
+2016-12-15-09:18:15: Matching result for phrase : o zaman
+
+2016-12-15-09:18:15: { '@id': 'kg:/g/1q6j3h8fx',
+  name: 'Hadi O Zaman',
+  '@type': [ 'Thing' ],
+  description: 'Nazan Öncel\'in şarkısı' }
+2016-12-15-09:18:15: Result for phrase will be printed : o zaman
+2016-12-15-09:18:15: received_result_no=5
+2016-12-15-09:18:15: System goes new search 
+2016-12-15-09:18:15: Searching for phrase :tekrar
+2016-12-15-09:18:15: Response for phrase :tekrar
+
+2016-12-15-09:18:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 25.917864 } ] }
+2016-12-15-09:18:15: ItemlistElement for phrase : tekrar
+2016-12-15-09:18:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03hjzzn',
+     name: 'Tekrar',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2006 yapımı film',
+     url: 'http://www.reprise-themovie.com/' },
+  resultScore: 25.917864 }
+2016-12-15-09:18:15: Callback for phrase : tekrar
+2016-12-15-09:18:15: Callback for word is succeed :tekrar
+2016-12-15-09:18:15: Word is going to iteration : tekrar
+2016-12-15-09:18:15: Iteration for phrase : tekrar ama
+2016-12-15-09:18:15: Searching for phrase :tekrar ama
+2016-12-15-09:18:15: Response for phrase :tekrar
+
+2016-12-15-09:18:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 25.917864 } ] }
+2016-12-15-09:18:15: ItemlistElement for phrase : tekrar
+2016-12-15-09:18:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03hjzzn',
+     name: 'Tekrar',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2006 yapımı film',
+     url: 'http://www.reprise-themovie.com/' },
+  resultScore: 25.917864 }
+2016-12-15-09:18:15: Callback for phrase : tekrar
+2016-12-15-09:18:15: Callback for word is succeed :tekrar
+2016-12-15-09:18:15: Word is going to iteration : tekrar
+2016-12-15-09:18:15: Iteration for phrase : tekrar ama
+2016-12-15-09:18:15: Searching for phrase :tekrar ama
+2016-12-15-09:18:15: Response for phrase :tekrar ama
+
+2016-12-15-09:18:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.93276 } ] }
+2016-12-15-09:18:15: ItemlistElement for phrase : tekrar ama
+2016-12-15-09:18:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07g3px',
+     name: 'Tekrar Çal, Sam',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1972 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Tekrar Çal, Sam, Woody Allen tarafından 1969\'da yazılıp sahnelenmiş, daha sonra 1972\'de senaryolaştırılıp filme alınmış tiyatro oyunudur.',
+        url: 'https://tr.wikipedia.org/wiki/Tekrar_%C3%87al,_Sam_(oyun)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.93276 }
+2016-12-15-09:18:15: Callback for phrase : tekrar ama
+2016-12-15-09:18:15: Callback for iteration phrase is succeed :tekrar ama
+2016-12-15-09:18:15: Score for phrase is20.93276 : tekrar ama
+2016-12-15-09:18:15: iteration phrase is going root iteration :tekrar ama
+2016-12-15-09:18:15: Root iteration for phrase : tekrar ama
+2016-12-15-09:18:15: Searching for phrase :tekrar ama
+2016-12-15-09:18:15: Response for phrase :tekrar ama
+
+2016-12-15-09:18:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.93276 } ] }
+2016-12-15-09:18:15: ItemlistElement for phrase : tekrar ama
+2016-12-15-09:18:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07g3px',
+     name: 'Tekrar Çal, Sam',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1972 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Tekrar Çal, Sam, Woody Allen tarafından 1969\'da yazılıp sahnelenmiş, daha sonra 1972\'de senaryolaştırılıp filme alınmış tiyatro oyunudur.',
+        url: 'https://tr.wikipedia.org/wiki/Tekrar_%C3%87al,_Sam_(oyun)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.93276 }
+2016-12-15-09:18:15: Callback for phrase : tekrar ama
+2016-12-15-09:18:15: Callback for iteration phrase is succeed :tekrar ama
+2016-12-15-09:18:15: Score for phrase is20.93276 : tekrar ama
+2016-12-15-09:18:15: iteration phrase is going root iteration :tekrar ama
+2016-12-15-09:18:15: Root iteration for phrase : tekrar ama
+2016-12-15-09:18:15: Searching for phrase :tekrar ama
+2016-12-15-09:18:15: Response for phrase :tekrar ama
+
+2016-12-15-09:18:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.93276 } ] }
+2016-12-15-09:18:15: ItemlistElement for phrase : tekrar ama
+2016-12-15-09:18:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07g3px',
+     name: 'Tekrar Çal, Sam',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1972 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Tekrar Çal, Sam, Woody Allen tarafından 1969\'da yazılıp sahnelenmiş, daha sonra 1972\'de senaryolaştırılıp filme alınmış tiyatro oyunudur.',
+        url: 'https://tr.wikipedia.org/wiki/Tekrar_%C3%87al,_Sam_(oyun)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.93276 }
+2016-12-15-09:18:15: Callback for phrase : tekrar ama
+2016-12-15-09:18:15: Callback for root iteration phrase is succeed :tekrar ama
+2016-12-15-09:18:15: Score for phrase is20.93276 : tekrar ama
+2016-12-15-09:18:15: Root iteration phrase is going to matching :tekrar ama
+2016-12-15-09:18:15: Matching result for phrase : tekrar
+
+2016-12-15-09:18:15: { '@id': 'kg:/m/03hjzzn',
+  name: 'Tekrar',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2006 yapımı film',
+  url: 'http://www.reprise-themovie.com/' }
+2016-12-15-09:18:15: Result for phrase will not be printed because it is not noun : tekrar
+2016-12-15-09:18:15: System goes new search 
+2016-12-15-09:18:15: Searching for phrase :ama
+2016-12-15-09:18:16: Response for phrase :tekrar ama
+
+2016-12-15-09:18:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.93276 } ] }
+2016-12-15-09:18:16: ItemlistElement for phrase : tekrar ama
+2016-12-15-09:18:16: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07g3px',
+     name: 'Tekrar Çal, Sam',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1972 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Tekrar Çal, Sam, Woody Allen tarafından 1969\'da yazılıp sahnelenmiş, daha sonra 1972\'de senaryolaştırılıp filme alınmış tiyatro oyunudur.',
+        url: 'https://tr.wikipedia.org/wiki/Tekrar_%C3%87al,_Sam_(oyun)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.93276 }
+2016-12-15-09:18:16: Callback for phrase : tekrar ama
+2016-12-15-09:18:16: Callback for root iteration phrase is succeed :tekrar ama
+2016-12-15-09:18:16: Score for phrase is20.93276 : tekrar ama
+2016-12-15-09:18:16: Root iteration phrase is going to matching :tekrar ama
+2016-12-15-09:18:16: Matching result for phrase : tekrar
+
+2016-12-15-09:18:16: { '@id': 'kg:/m/03hjzzn',
+  name: 'Tekrar',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2006 yapımı film',
+  url: 'http://www.reprise-themovie.com/' }
+2016-12-15-09:18:16: Result for phrase will not be printed because it is not noun : tekrar
+2016-12-15-09:18:16: System goes new search 
+2016-12-15-09:18:16: Searching for phrase :ama
+2016-12-15-09:18:16: Response for phrase :ama
+
+2016-12-15-09:18:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.069382 } ] }
+2016-12-15-09:18:16: ItemlistElement for phrase : ama
+2016-12-15-09:18:16: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02nndl',
+     '@type': [ 'Thing', 'City', 'Place' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSNBU5lvMxiBI22oOjIbmCwHVa2yJGoQ0Zmq3z_Xt8b_mcrTcm7',
+        url: 'https://en.wikipedia.org/wiki/Ama,_Shimane',
+        license: 'http://www.gnu.org/copyleft/fdl.html' } },
+  resultScore: 27.069382 }
+2016-12-15-09:18:16: Callback for phrase : ama
+2016-12-15-09:18:16: Callback for word is succeed :ama
+2016-12-15-09:18:16: Word is going to iteration : ama
+2016-12-15-09:18:16: Iteration for phrase : ama anlamıyorsun
+2016-12-15-09:18:16: Searching for phrase :ama anlamıyorsun
+2016-12-15-09:18:16: Response for phrase :ama anlamıyorsun
+
+2016-12-15-09:18:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:16: ItemlistElement for phrase : ama anlamıyorsun
+2016-12-15-09:18:16: undefined
+2016-12-15-09:18:16: Failed callback for phras : ama anlamıyorsun
+
+2016-12-15-09:18:16: Callback for iteration phrase is succeed :ama anlamıyorsun
+2016-12-15-09:18:16: Score for phrase isnull : ama anlamıyorsun
+2016-12-15-09:18:16: iteration phrase is going root iteration :ama anlamıyorsun
+2016-12-15-09:18:16: Root iteration for phrase : ama anla
+2016-12-15-09:18:16: Searching for phrase :ama anla
+2016-12-15-09:18:16: Response for phrase :ama
+
+2016-12-15-09:18:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.069382 } ] }
+2016-12-15-09:18:16: ItemlistElement for phrase : ama
+2016-12-15-09:18:16: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02nndl',
+     '@type': [ 'Thing', 'City', 'Place' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSNBU5lvMxiBI22oOjIbmCwHVa2yJGoQ0Zmq3z_Xt8b_mcrTcm7',
+        url: 'https://en.wikipedia.org/wiki/Ama,_Shimane',
+        license: 'http://www.gnu.org/copyleft/fdl.html' } },
+  resultScore: 27.069382 }
+2016-12-15-09:18:16: Callback for phrase : ama
+2016-12-15-09:18:16: Callback for word is succeed :ama
+2016-12-15-09:18:16: Word is going to iteration : ama
+2016-12-15-09:18:16: Iteration for phrase : ama anlamıyorsun
+2016-12-15-09:18:16: Searching for phrase :ama anlamıyorsun
+2016-12-15-09:18:16: section_count is:0
+2016-12-15-09:18:16: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:17: Response for phrase :ama anla
+
+2016-12-15-09:18:17: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 10.26822 } ] }
+2016-12-15-09:18:17: ItemlistElement for phrase : ama anla
+2016-12-15-09:18:17: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05f8jkz',
+     name: 'Nasıl Delirdim?',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Hande Yener\'in müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Nasıl Delirdim?, Türk şarkıcı Hande Yener\'in beşinci stüdyo albümü. 15 Mayıs 2007\'de Erol Köse Production etiketiyle piyasaya sürülmüştür. ',
+        url: 'https://tr.wikipedia.org/wiki/Nas%C4%B1l_Delirdim%3F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 10.26822 }
+2016-12-15-09:18:17: Callback for phrase : ama anla
+2016-12-15-09:18:17: Callback for root iteration phrase is succeed :ama anla
+2016-12-15-09:18:17: Score for phrase is10.26822 : ama anla
+2016-12-15-09:18:17: Root iteration phrase is going to matching :ama anla
+2016-12-15-09:18:17: Matching result for phrase : ama
+
+2016-12-15-09:18:17: { '@id': 'kg:/m/02nndl',
+  '@type': [ 'Thing', 'City', 'Place' ],
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSNBU5lvMxiBI22oOjIbmCwHVa2yJGoQ0Zmq3z_Xt8b_mcrTcm7',
+     url: 'https://en.wikipedia.org/wiki/Ama,_Shimane',
+     license: 'http://www.gnu.org/copyleft/fdl.html' } }
+2016-12-15-09:18:17: Response for phrase :ama anlamıyorsun
+
+2016-12-15-09:18:17: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-15-09:18:17: ItemlistElement for phrase : ama anlamıyorsun
+2016-12-15-09:18:17: undefined
+2016-12-15-09:18:17: Failed callback for phras : ama anlamıyorsun
+
+2016-12-15-09:18:17: Callback for iteration phrase is succeed :ama anlamıyorsun
+2016-12-15-09:18:17: Score for phrase isnull : ama anlamıyorsun
+2016-12-15-09:18:17: iteration phrase is going root iteration :ama anlamıyorsun
+2016-12-15-09:18:17: Root iteration for phrase : ama anla
+2016-12-15-09:18:17: Searching for phrase :ama anla
+2016-12-15-09:18:17: section_count is:1
+2016-12-15-09:18:17: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:17: Response for phrase :ama anla
+
+2016-12-15-09:18:17: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 10.26822 } ] }
+2016-12-15-09:18:17: ItemlistElement for phrase : ama anla
+2016-12-15-09:18:17: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05f8jkz',
+     name: 'Nasıl Delirdim?',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Hande Yener\'in müzik albümü',
+     detailedDescription: 
+      { articleBody: 'Nasıl Delirdim?, Türk şarkıcı Hande Yener\'in beşinci stüdyo albümü. 15 Mayıs 2007\'de Erol Köse Production etiketiyle piyasaya sürülmüştür. ',
+        url: 'https://tr.wikipedia.org/wiki/Nas%C4%B1l_Delirdim%3F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 10.26822 }
+2016-12-15-09:18:17: Callback for phrase : ama anla
+2016-12-15-09:18:17: Callback for root iteration phrase is succeed :ama anla
+2016-12-15-09:18:17: Score for phrase is10.26822 : ama anla
+2016-12-15-09:18:17: Root iteration phrase is going to matching :ama anla
+2016-12-15-09:18:17: Matching result for phrase : ama
+
+2016-12-15-09:18:17: { '@id': 'kg:/m/02nndl',
+  '@type': [ 'Thing', 'City', 'Place' ],
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSNBU5lvMxiBI22oOjIbmCwHVa2yJGoQ0Zmq3z_Xt8b_mcrTcm7',
+     url: 'https://en.wikipedia.org/wiki/Ama,_Shimane',
+     license: 'http://www.gnu.org/copyleft/fdl.html' } }
+2016-12-15-09:18:17: section_count is:2
+2016-12-15-09:18:17: AftermoveSectionDown section_count is: 2
+2016-12-15-09:18:17: section_count is:1
+2016-12-15-09:18:17: AftermoveSectionUp section_count is: 1
+2016-12-15-09:18:18: section_count is:2
+2016-12-15-09:18:18: AftermoveSectionDown section_count is: 2
+2016-12-15-09:18:18: section_count is:1
+2016-12-15-09:18:18: AftermoveSectionUp section_count is: 1
+2016-12-15-09:18:19: section_count is:2
+2016-12-15-09:18:19: AftermoveSectionDown section_count is: 2
+2016-12-15-09:18:19: section_count is:1
+2016-12-15-09:18:19: AftermoveSectionUp section_count is: 1
+2016-12-15-09:18:20: section_count is:0
+2016-12-15-09:18:20: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:21: section_count is:1
+2016-12-15-09:18:21: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:21: section_count is:0
+2016-12-15-09:18:21: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:22: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:23: section_count is:1
+2016-12-15-09:18:23: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:23: section_count is:0
+2016-12-15-09:18:23: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:24: 2: slide right gesture is called
+2016-12-15-09:18:25: 2: slide right gesture is called
+2016-12-15-09:18:25: 2: slide right gesture is called
+2016-12-15-09:18:27: 1: slide left gesture is called
+2016-12-15-09:18:28: 1: slide right gesture is called
+2016-12-15-09:18:29: 1: slide right gesture is called
+2016-12-15-09:18:30: 1: slide right gesture is called
+2016-12-15-09:18:30: 1: slide left gesture is called
+2016-12-15-09:18:30: 1: slide left gesture is called
+2016-12-15-09:18:32: 1: slide right gesture is called
+2016-12-15-09:18:32: 1: slide right gesture is called
+2016-12-15-09:18:33: 1: slide right gesture is called
+2016-12-15-09:18:33: 1: slide right gesture is called
+2016-12-15-09:18:33: 1: slide right gesture is called
+2016-12-15-09:18:34: 1: slide right gesture is called
+2016-12-15-09:18:35: 2: slide right gesture is called
+2016-12-15-09:18:36: 2: slide left gesture is called
+2016-12-15-09:18:36: 2: slide left gesture is called
+2016-12-15-09:18:37: 2: slide left gesture is called
+2016-12-15-09:18:37: 2: slide left gesture is called
+2016-12-15-09:18:37: 2: slide left gesture is called
+2016-12-15-09:18:38: 1: slide right gesture is called
+2016-12-15-09:18:38: 1: slide right gesture is called
+2016-12-15-09:18:39: 1: slide right gesture is called
+2016-12-15-09:18:39: 1: slide right gesture is called
+2016-12-15-09:18:40: 1: slide right gesture is called
+2016-12-15-09:18:48: 1: slide left gesture is called
+2016-12-15-09:18:49: 1: slide right gesture is called
+2016-12-15-09:18:50: 1: slide right gesture is called
+2016-12-15-09:18:50: 1: slide left gesture is called
+2016-12-15-09:18:51: 1: slide left gesture is called
+2016-12-15-09:18:52: section_count is:1
+2016-12-15-09:18:52: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:52: section_count is:0
+2016-12-15-09:18:52: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:53: section_count is:1
+2016-12-15-09:18:53: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:53: section_count is:0
+2016-12-15-09:18:53: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:54: section_count is:1
+2016-12-15-09:18:54: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:54: section_count is:0
+2016-12-15-09:18:54: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:54: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:54: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:55: section_count is:1
+2016-12-15-09:18:55: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:55: section_count is:2
+2016-12-15-09:18:55: AftermoveSectionDown section_count is: 2
+2016-12-15-09:18:55: section_count is:1
+2016-12-15-09:18:55: AftermoveSectionUp section_count is: 1
+2016-12-15-09:18:55: section_count is:0
+2016-12-15-09:18:55: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:56: section_count is:1
+2016-12-15-09:18:56: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:56: section_count is:0
+2016-12-15-09:18:56: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:57: section_count is:1
+2016-12-15-09:18:57: AftermoveSectionDown section_count is: 1
+2016-12-15-09:18:57: section_count is:0
+2016-12-15-09:18:57: AftermoveSectionUp section_count is: 0
+2016-12-15-09:18:57: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:00: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:00: section_count is:1
+2016-12-15-09:19:00: AftermoveSectionDown section_count is: 1
+2016-12-15-09:19:00: section_count is:0
+2016-12-15-09:19:00: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:00: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:01: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:01: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:01: section_count is:1
+2016-12-15-09:19:01: AftermoveSectionDown section_count is: 1
+2016-12-15-09:19:02: section_count is:0
+2016-12-15-09:19:02: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:02: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:03: section_count is:1
+2016-12-15-09:19:03: AftermoveSectionDown section_count is: 1
+2016-12-15-09:19:03: section_count is:0
+2016-12-15-09:19:03: AftermoveSectionUp section_count is: 0
+2016-12-15-09:19:05: section_count is:1
+2016-12-15-09:19:05: AftermoveSectionDown section_count is: 1
+2016-12-15-09:19:05: section_count is:0
+2016-12-15-09:19:05: AftermoveSectionUp section_count is: 0
