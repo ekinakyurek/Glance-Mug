@@ -251,6 +251,13 @@
                     onprocess = false
                 });
 
+                client.on('timeout', function () {
+                    document.getElementById("info0").innerHTML = "Bağlantı Hatası";
+                    my_console_log('Connection closed');
+                    onprocess = false
+                });
+
+
 
                 client.on('data', function (data) {
                     my_console_log('Data received from stt: ' + data);

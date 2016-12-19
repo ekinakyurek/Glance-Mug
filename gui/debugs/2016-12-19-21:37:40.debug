@@ -1,0 +1,429 @@
+2016-12-19-21:37:45: 2:click detected at point:[object Object]
+2016-12-19-21:37:45: Connected
+2016-12-19-21:37:54: Data received from stt: Green Tea Tree Another Day Green,Noun Tea,Noun Tree,Noun Another,Noun Day,Noun
+2016-12-19-21:37:54: SearchTerm from microphone:Green Tea Tree Another Day Green,Noun Tea,Noun Tree,Noun Another,Noun Day,Noun
+2016-12-19-21:37:54: State machine is initialized with input: 
+2016-12-19-21:37:54: Green Tea Tree Another Day Green,Noun Tea,Noun Tree,Noun Another,Noun Day,Noun
+2016-12-19-21:37:54: Input words : 
+2016-12-19-21:37:54: [ 'Green', 'Tea', 'Tree', 'Another', 'Day' ]
+2016-12-19-21:37:54: Input roots : 
+2016-12-19-21:37:54: [ 'Green', 'Tea', 'Tree', 'Another', 'Day' ]
+2016-12-19-21:37:54: Searching for phrase :Green
+2016-12-19-21:37:54: Connection closed
+2016-12-19-21:37:55: Response for phrase :Green
+
+2016-12-19-21:37:55: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.65189 } ] }
+2016-12-19-21:37:55: ItemlistElement for phrase : Green
+2016-12-19-21:37:55: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dvqq',
+     name: 'Green Day',
+     '@type': [ 'Thing', 'MusicGroup' ],
+     description: 'Müzik Grubu',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSUT2VpnJW7QimQiufOyB94hrKmV0AgusSgF5mo2MVuWWRT7k8R',
+        url: 'https://commons.wikimedia.org/wiki/File:Green_Day_King_for_a_Day.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Green Day, 1987 yılında kurulan bir punk rock grubudur. Albümleri ABD\'de 23 milyon, dünya çapında 70 milyon satmıştır ve bu sebeple tüm zamanların en başarılı punk rock grubu ünvanını almışlardır. ',
+        url: 'https://tr.wikipedia.org/wiki/Green_Day',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.greenday.com/' },
+  resultScore: 41.65189 }
+2016-12-19-21:37:55: Callback for phrase : Green
+2016-12-19-21:37:55: Callback for word is succeed :Green
+2016-12-19-21:37:55: Word is going to iteration : Green
+2016-12-19-21:37:55: Iteration for phrase : Green Tea
+2016-12-19-21:37:55: Searching for phrase :Green Tea
+2016-12-19-21:37:56: Response for phrase :Green Tea
+
+2016-12-19-21:37:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 155.066132 } ] }
+2016-12-19-21:37:56: ItemlistElement for phrase : Green Tea
+2016-12-19-21:37:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1q5jfby3t',
+     '@type': [ 'Thing' ],
+     description: 'Şarkı' },
+  resultScore: 155.066132 }
+2016-12-19-21:37:56: Callback for phrase : Green Tea
+2016-12-19-21:37:56: Callback for iteration phrase is succeed :Green Tea
+2016-12-19-21:37:56: Score for phrase is155.066132 : Green Tea
+2016-12-19-21:37:56: iteration phrase is going next iteration :Green Tea
+2016-12-19-21:37:56: Iteration for phrase : Green Tea Tree
+2016-12-19-21:37:56: Searching for phrase :Green Tea Tree
+2016-12-19-21:37:56: Response for phrase :Green Tea Tree
+
+2016-12-19-21:37:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:37:56: ItemlistElement for phrase : Green Tea Tree
+2016-12-19-21:37:56: undefined
+2016-12-19-21:37:56: Failed callback for phras : Green Tea Tree
+
+2016-12-19-21:37:56: Callback for iteration phrase is succeed :Green Tea Tree
+2016-12-19-21:37:56: Score for phrase isnull : Green Tea Tree
+2016-12-19-21:37:56: iteration phrase is going root iteration :Green Tea Tree
+2016-12-19-21:37:56: Root iteration for phrase : Green Tea Tree
+2016-12-19-21:37:56: Searching for phrase :Green Tea Tree
+2016-12-19-21:37:57: Response for phrase :Green Tea Tree
+
+2016-12-19-21:37:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:37:57: ItemlistElement for phrase : Green Tea Tree
+2016-12-19-21:37:57: undefined
+2016-12-19-21:37:57: Failed callback for phras : Green Tea Tree
+
+2016-12-19-21:37:57: Callback for root iteration phrase is succeed :Green Tea Tree
+2016-12-19-21:37:57: Score for phrase isnull : Green Tea Tree
+2016-12-19-21:37:57: Root iteration phrase is going to matching :Green Tea Tree
+2016-12-19-21:37:57: Matching result for phrase : Green Tea
+
+2016-12-19-21:37:57: { '@id': 'kg:/g/1q5jfby3t',
+  '@type': [ 'Thing' ],
+  description: 'Şarkı' }
+2016-12-19-21:37:57: Result for phrase will be printed : Green Tea
+2016-12-19-21:37:57: https://www.googleapis.com/customsearch/v1?q=Green Tea&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:37:57: received_result_no=1
+2016-12-19-21:37:57: System goes new search 
+2016-12-19-21:37:57: Searching for phrase :Tree
+2016-12-19-21:37:57: Response for phrase :Tree
+
+2016-12-19-21:37:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.201645 } ] }
+2016-12-19-21:37:57: ItemlistElement for phrase : Tree
+2016-12-19-21:37:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jbk',
+     name: 'Hayvan',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQOZVYdfINI-VFpc-ykg12sboq202YSAp6EXtO96etyJiLE7W5J',
+        url: 'https://simple.wikipedia.org/wiki/Animal',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Hayvan, canlılar dünyasının ökaryotlar üst âlemindeki hayvanlar âleminde sınıflanan canlıların ortak adıdır. "Hayvan" sözcüğü, günlük kullanımda esasen insan dışı nefes alan ve hareket eden şeyleri ifade etmek için kullanılırsa da biyolojik bağlamda insanı da içerir. ',
+        url: 'https://tr.wikipedia.org/wiki/Hayvanlar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 34.201645 }
+2016-12-19-21:37:57: Callback for phrase : Tree
+2016-12-19-21:37:57: Callback for word is succeed :Tree
+2016-12-19-21:37:57: Word is going to iteration : Tree
+2016-12-19-21:37:57: Iteration for phrase : Tree Another
+2016-12-19-21:37:57: Searching for phrase :Tree Another
+2016-12-19-21:37:58: Response for phrase :Tree Another
+
+2016-12-19-21:37:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 80.499352 } ] }
+2016-12-19-21:37:58: ItemlistElement for phrase : Tree Another
+2016-12-19-21:37:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01pzly4',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Müzik Albümü' },
+  resultScore: 80.499352 }
+2016-12-19-21:37:58: Callback for phrase : Tree Another
+2016-12-19-21:37:58: Callback for iteration phrase is succeed :Tree Another
+2016-12-19-21:37:58: Score for phrase is80.499352 : Tree Another
+2016-12-19-21:37:58: iteration phrase is going next iteration :Tree Another
+2016-12-19-21:37:58: Iteration for phrase : Tree Another Day
+2016-12-19-21:37:58: Searching for phrase :Tree Another Day
+2016-12-19-21:37:58: Response for phrase :Tree Another Day
+
+2016-12-19-21:37:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:37:58: ItemlistElement for phrase : Tree Another Day
+2016-12-19-21:37:58: undefined
+2016-12-19-21:37:58: Failed callback for phras : Tree Another Day
+
+2016-12-19-21:37:58: Callback for iteration phrase is succeed :Tree Another Day
+2016-12-19-21:37:58: Score for phrase isnull : Tree Another Day
+2016-12-19-21:37:58: iteration phrase is going root iteration :Tree Another Day
+2016-12-19-21:37:58: Root iteration for phrase : Tree Another Day
+2016-12-19-21:37:58: Searching for phrase :Tree Another Day
+2016-12-19-21:37:58: Response for phrase :Tree Another Day
+
+2016-12-19-21:37:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:37:58: ItemlistElement for phrase : Tree Another Day
+2016-12-19-21:37:58: undefined
+2016-12-19-21:37:58: Failed callback for phras : Tree Another Day
+
+2016-12-19-21:37:58: Callback for root iteration phrase is succeed :Tree Another Day
+2016-12-19-21:37:58: Score for phrase isnull : Tree Another Day
+2016-12-19-21:37:58: Root iteration phrase is going to matching :Tree Another Day
+2016-12-19-21:37:58: Matching result for phrase : Tree Another
+
+2016-12-19-21:37:58: { '@id': 'kg:/m/01pzly4',
+  '@type': [ 'MusicAlbum', 'Thing' ],
+  description: 'Müzik Albümü' }
+2016-12-19-21:37:58: Result for phrase will be printed : Tree Another
+2016-12-19-21:37:58: received_result_no=2
+2016-12-19-21:37:58: System goes new search 
+2016-12-19-21:37:58: Searching for phrase :Day
+2016-12-19-21:37:58: AftermoveSectionDown section_count is: 2
+2016-12-19-21:37:59: AftermoveSectionDown section_count is: 2
+2016-12-19-21:37:59: Response for phrase :Day
+
+2016-12-19-21:37:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 41.095066 } ] }
+2016-12-19-21:37:59: ItemlistElement for phrase : Day
+2016-12-19-21:37:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dvqq',
+     name: 'Green Day',
+     '@type': [ 'Thing', 'MusicGroup' ],
+     description: 'Müzik Grubu',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSUT2VpnJW7QimQiufOyB94hrKmV0AgusSgF5mo2MVuWWRT7k8R',
+        url: 'https://commons.wikimedia.org/wiki/File:Green_Day_King_for_a_Day.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Green Day, 1987 yılında kurulan bir punk rock grubudur. Albümleri ABD\'de 23 milyon, dünya çapında 70 milyon satmıştır ve bu sebeple tüm zamanların en başarılı punk rock grubu ünvanını almışlardır. ',
+        url: 'https://tr.wikipedia.org/wiki/Green_Day',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.greenday.com/' },
+  resultScore: 41.095066 }
+2016-12-19-21:37:59: Callback for phrase : Day
+2016-12-19-21:37:59: Callback for word is succeed :Day
+2016-12-19-21:37:59: last word is noun here is the result of :Day
+2016-12-19-21:37:59: { '@id': 'kg:/m/0dvqq',
+  name: 'Green Day',
+  '@type': [ 'Thing', 'MusicGroup' ],
+  description: 'Müzik Grubu',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcSUT2VpnJW7QimQiufOyB94hrKmV0AgusSgF5mo2MVuWWRT7k8R',
+     url: 'https://commons.wikimedia.org/wiki/File:Green_Day_King_for_a_Day.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+  detailedDescription: 
+   { articleBody: 'Green Day, 1987 yılında kurulan bir punk rock grubudur. Albümleri ABD\'de 23 milyon, dünya çapında 70 milyon satmıştır ve bu sebeple tüm zamanların en başarılı punk rock grubu ünvanını almışlardır. ',
+     url: 'https://tr.wikipedia.org/wiki/Green_Day',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.greenday.com/' }
+2016-12-19-21:37:59: received_result_no=3
+2016-12-19-21:37:59: finish
+2016-12-19-21:37:59: process is finished
+2016-12-19-21:37:59: -----------------Printed Results------------------------
+2016-12-19-21:37:59: Green Tea
+2016-12-19-21:37:59: Tree Another
+2016-12-19-21:37:59: Green Day
+2016-12-19-21:38:00: 2: slide left gesture is called
+2016-12-19-21:38:01: 1: slide right gesture is called
+2016-12-19-21:38:02: 1: slide right gesture is called
+2016-12-19-21:38:02: 2: slide left gesture is called
+2016-12-19-21:38:02: 1: slide right gesture is called
+2016-12-19-21:38:02: 1: slide right gesture is called
+2016-12-19-21:38:02: 1: slide right gesture is called
+2016-12-19-21:38:03: 1: slide right gesture is called
+2016-12-19-21:38:03: 1: slide right gesture is called
+2016-12-19-21:38:04: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:04: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:04: 2: slide left gesture is called
+2016-12-19-21:38:04: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:04: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:05: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:05: 2: slide left gesture is called
+2016-12-19-21:38:05: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:06: section_count is:2
+2016-12-19-21:38:06: AftermoveSectionUp section_count is: 2
+2016-12-19-21:38:06: section_count is:1
+2016-12-19-21:38:06: AftermoveSectionUp section_count is: 1
+2016-12-19-21:38:08: 1: slide right gesture is called
+2016-12-19-21:38:09: 2: slide left gesture is called
+2016-12-19-21:38:09: 1: slide right gesture is called
+2016-12-19-21:38:09: 1: slide right gesture is called
+2016-12-19-21:38:10: 1: slide right gesture is called
+2016-12-19-21:38:11: 1: slide right gesture is called
+2016-12-19-21:38:11: 1: slide right gesture is called
+2016-12-19-21:38:11: 1: slide right gesture is called
+2016-12-19-21:38:12: section_count is:2
+2016-12-19-21:38:12: AftermoveSectionDown section_count is: 2
+2016-12-19-21:38:12: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:14: 1: slide right gesture is called
+2016-12-19-21:38:14: 1: slide right gesture is called
+2016-12-19-21:38:15: 1: slide right gesture is called
+2016-12-19-21:38:15: 1: slide right gesture is called
+2016-12-19-21:38:15: 1: slide right gesture is called
+2016-12-19-21:38:16: 1: slide right gesture is called
+2016-12-19-21:38:16: 1: slide right gesture is called
+2016-12-19-21:38:17: 1: slide right gesture is called
+2016-12-19-21:38:17: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:17: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:17: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:17: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:18: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:18: section_count is:2
+2016-12-19-21:38:18: AftermoveSectionUp section_count is: 2
+2016-12-19-21:38:18: section_count is:1
+2016-12-19-21:38:18: AftermoveSectionUp section_count is: 1
+2016-12-19-21:38:19: section_count is:0
+2016-12-19-21:38:19: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:20: 2: slide right gesture is called
+2016-12-19-21:38:20: 2: slide right gesture is called
+2016-12-19-21:38:21: 2: slide left gesture is called
+2016-12-19-21:38:22: 2: slide left gesture is called
+2016-12-19-21:38:22: 2: slide left gesture is called
+2016-12-19-21:38:22: 2: slide left gesture is called
+2016-12-19-21:38:23: section_count is:1
+2016-12-19-21:38:23: AftermoveSectionDown section_count is: 1
+2016-12-19-21:38:23: section_count is:2
+2016-12-19-21:38:23: AftermoveSectionDown section_count is: 2
+2016-12-19-21:38:24: 2: slide right gesture is called
+2016-12-19-21:38:24: 2: slide right gesture is called
+2016-12-19-21:38:25: 2: slide right gesture is called
+2016-12-19-21:38:26: 2: slide right gesture is called
+2016-12-19-21:38:27: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:28: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:28: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:29: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:29: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:30: section_count is:2
+2016-12-19-21:38:30: AftermoveSectionUp section_count is: 2
+2016-12-19-21:38:30: section_count is:1
+2016-12-19-21:38:30: AftermoveSectionUp section_count is: 1
+2016-12-19-21:38:30: section_count is:0
+2016-12-19-21:38:30: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:32: section_count is:1
+2016-12-19-21:38:32: AftermoveSectionDown section_count is: 1
+2016-12-19-21:38:32: 2: slide right gesture is called
+2016-12-19-21:38:32: 2: slide right gesture is called
+2016-12-19-21:38:33: 2: slide left gesture is called
+2016-12-19-21:38:33: 2: slide left gesture is called
+2016-12-19-21:38:34: 2: slide left gesture is called
+2016-12-19-21:38:34: 1: slide left gesture is called
+2016-12-19-21:38:35: 2: slide left gesture is called
+2016-12-19-21:38:35: section_count is:0
+2016-12-19-21:38:35: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:37: 1: slide left gesture is called
+2016-12-19-21:38:38: 2: slide left gesture is called
+2016-12-19-21:38:39: 2: slide left gesture is called
+2016-12-19-21:38:39: 2: slide left gesture is called
+2016-12-19-21:38:39: 2: slide right gesture is called
+2016-12-19-21:38:39: 2: slide right gesture is called
+2016-12-19-21:38:39: 2: slide right gesture is called
+2016-12-19-21:38:40: 2: slide right gesture is called
+2016-12-19-21:38:40: 2: slide right gesture is called
+2016-12-19-21:38:41: 2: slide right gesture is called
+2016-12-19-21:38:42: section_count is:1
+2016-12-19-21:38:42: AftermoveSectionDown section_count is: 1
+2016-12-19-21:38:42: section_count is:2
+2016-12-19-21:38:42: AftermoveSectionDown section_count is: 2
+2016-12-19-21:38:42: 2: slide right gesture is called
+2016-12-19-21:38:43: 2: slide right gesture is called
+2016-12-19-21:38:43: 1: slide left gesture is called
+2016-12-19-21:38:43: 2: slide right gesture is called
+2016-12-19-21:38:44: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:44: 1: slide right gesture is called
+2016-12-19-21:38:44: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:44: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:45: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:46: 1: slide right gesture is called
+2016-12-19-21:38:46: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:46: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:47: 2: slide left gesture is called
+2016-12-19-21:38:47: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:47: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:48: section_count is:2
+2016-12-19-21:38:48: AftermoveSectionUp section_count is: 2
+2016-12-19-21:38:48: section_count is:1
+2016-12-19-21:38:48: AftermoveSectionUp section_count is: 1
+2016-12-19-21:38:48: 2: slide left gesture is called
+2016-12-19-21:38:48: section_count is:0
+2016-12-19-21:38:48: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:49: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:49: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:50: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:50: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:51: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:51: AftermoveSectionUp section_count is: 0
+2016-12-19-21:38:52: 2: slide left gesture is called
+2016-12-19-21:38:52: 2: slide left gesture is called
+2016-12-19-21:38:52: 1: slide left gesture is called
+2016-12-19-21:38:52: 2: slide right gesture is called
+2016-12-19-21:38:53: section_count is:1
+2016-12-19-21:38:53: AftermoveSectionDown section_count is: 1
+2016-12-19-21:38:54: 2: slide right gesture is called
+2016-12-19-21:38:55: 2: slide right gesture is called
+2016-12-19-21:38:56: 2: slide left gesture is called
+2016-12-19-21:38:57: section_count is:2
+2016-12-19-21:38:57: AftermoveSectionDown section_count is: 2
+2016-12-19-21:38:57: AftermoveSectionDown section_count is: 3
+2016-12-19-21:38:58: 2: slide right gesture is called
+2016-12-19-21:38:59: 2: slide left gesture is called
+2016-12-19-21:38:59: 2: slide left gesture is called
+2016-12-19-21:38:59: section_count is:2
+2016-12-19-21:38:59: AftermoveSectionUp section_count is: 2

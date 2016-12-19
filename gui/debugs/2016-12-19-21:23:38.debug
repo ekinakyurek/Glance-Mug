@@ -1,0 +1,3674 @@
+2016-12-19-21:23:52: 2:click detected at point:[object Object]
+2016-12-19-21:24:07: 2:click detected at point:[object Object]
+2016-12-19-21:24:07: Connected
+2016-12-19-21:24:08: 2:click detected at point:[object Object]
+2016-12-19-21:24:09: 2:click detected at point:[object Object]
+2016-12-19-21:24:20: Data received from stt: Nazan Öncel tamam Erdoğan çeşitleri Orhan Gencebay Nazım Hikmet zikirle Nazan Öncel Nazan,Noun Öncel,Noun tamam,Other Erdoğan,Noun çeşit,Noun Orhan,Noun Gencebay,Noun Nazım,Noun Hikmet,Noun zikir,Noun Nazan,Noun Öncel,Noun
+2016-12-19-21:24:20: SearchTerm from microphone:Nazan Öncel tamam Erdoğan çeşitleri Orhan Gencebay Nazım Hikmet zikirle Nazan Öncel Nazan,Noun Öncel,Noun tamam,Other Erdoğan,Noun çeşit,Noun Orhan,Noun Gencebay,Noun Nazım,Noun Hikmet,Noun zikir,Noun Nazan,Noun Öncel,Noun
+2016-12-19-21:24:20: State machine is initialized with input: 
+2016-12-19-21:24:20: Nazan Öncel tamam Erdoğan çeşitleri Orhan Gencebay Nazım Hikmet zikirle Nazan Öncel Nazan,Noun Öncel,Noun tamam,Other Erdoğan,Noun çeşit,Noun Orhan,Noun Gencebay,Noun Nazım,Noun Hikmet,Noun zikir,Noun Nazan,Noun Öncel,Noun
+2016-12-19-21:24:20: Input words : 
+2016-12-19-21:24:20: [ 'Nazan',
+  'Öncel',
+  'tamam',
+  'Erdoğan',
+  'çeşitleri',
+  'Orhan',
+  'Gencebay',
+  'Nazım',
+  'Hikmet',
+  'zikirle',
+  'Nazan',
+  'Öncel' ]
+2016-12-19-21:24:20: Input roots : 
+2016-12-19-21:24:20: [ 'Nazan',
+  'Öncel',
+  'tamam',
+  'Erdoğan',
+  'çeşit',
+  'Orhan',
+  'Gencebay',
+  'Nazım',
+  'Hikmet',
+  'zikir',
+  'Nazan',
+  'Öncel' ]
+2016-12-19-21:24:20: Searching for phrase :Nazan
+2016-12-19-21:24:20: Connection closed
+2016-12-19-21:24:21: Response for phrase :Nazan
+
+2016-12-19-21:24:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.768209 } ] }
+2016-12-19-21:24:21: ItemlistElement for phrase : Nazan
+2016-12-19-21:24:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 28.768209 }
+2016-12-19-21:24:21: Callback for phrase : Nazan
+2016-12-19-21:24:21: Callback for word is succeed :Nazan
+2016-12-19-21:24:21: Word is going to iteration : Nazan
+2016-12-19-21:24:21: Iteration for phrase : Nazan Öncel
+2016-12-19-21:24:21: Searching for phrase :Nazan Öncel
+2016-12-19-21:24:21: Response for phrase :Nazan Öncel
+
+2016-12-19-21:24:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 494.941376 } ] }
+2016-12-19-21:24:21: ItemlistElement for phrase : Nazan Öncel
+2016-12-19-21:24:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 494.941376 }
+2016-12-19-21:24:21: Callback for phrase : Nazan Öncel
+2016-12-19-21:24:21: Callback for iteration phrase is succeed :Nazan Öncel
+2016-12-19-21:24:21: Score for phrase is494.941376 : Nazan Öncel
+2016-12-19-21:24:21: iteration phrase is going next iteration :Nazan Öncel
+2016-12-19-21:24:21: Iteration for phrase : Nazan Öncel tamam
+2016-12-19-21:24:21: Searching for phrase :Nazan Öncel tamam
+2016-12-19-21:24:21: Response for phrase :Nazan Öncel tamam
+
+2016-12-19-21:24:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:21: ItemlistElement for phrase : Nazan Öncel tamam
+2016-12-19-21:24:21: undefined
+2016-12-19-21:24:21: Failed callback for phras : Nazan Öncel tamam
+
+2016-12-19-21:24:21: Callback for iteration phrase is succeed :Nazan Öncel tamam
+2016-12-19-21:24:21: Score for phrase isnull : Nazan Öncel tamam
+2016-12-19-21:24:21: iteration phrase is going root iteration :Nazan Öncel tamam
+2016-12-19-21:24:21: Root iteration for phrase : Nazan Öncel tamam
+2016-12-19-21:24:21: Searching for phrase :Nazan Öncel tamam
+2016-12-19-21:24:22: Response for phrase :Nazan Öncel tamam
+
+2016-12-19-21:24:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:22: ItemlistElement for phrase : Nazan Öncel tamam
+2016-12-19-21:24:22: undefined
+2016-12-19-21:24:22: Failed callback for phras : Nazan Öncel tamam
+
+2016-12-19-21:24:22: Callback for root iteration phrase is succeed :Nazan Öncel tamam
+2016-12-19-21:24:22: Score for phrase isnull : Nazan Öncel tamam
+2016-12-19-21:24:22: Root iteration phrase is going to matching :Nazan Öncel tamam
+2016-12-19-21:24:22: Matching result for phrase : Nazan Öncel
+
+2016-12-19-21:24:22: { '@id': 'kg:/m/0br25r',
+  name: 'Nazan Öncel',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazanoncel.net/' }
+2016-12-19-21:24:22: Result for phrase will be printed : Nazan Öncel
+2016-12-19-21:24:22: https://www.googleapis.com/customsearch/v1?q=Nazan Öncel&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:24:22: received_result_no=1
+2016-12-19-21:24:22: System goes new search 
+2016-12-19-21:24:22: Searching for phrase :tamam
+2016-12-19-21:24:22: Response for phrase :tamam
+
+2016-12-19-21:24:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.292858 } ] }
+2016-12-19-21:24:22: ItemlistElement for phrase : tamam
+2016-12-19-21:24:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0s8xz0q',
+     name: 'Tamam Selam',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Siyasetçi',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS_AFxyo5nrzqC2tGfUV6JOHs5sciqP7ezNw6VnncdLkBHmLmvY',
+        url: 'https://en.wikipedia.org/wiki/Tammam_Salam' },
+     detailedDescription: 
+      { articleBody: 'Tamam Saeb Selam, Lübnanlı siyasetçi. 2008-2009 yılları arasında Kültür Bakanı olarak görev yaptı. 6 Nisan 2013 tarihinden beri Lübnan Başbakanı, 25 Mayıs 2014 tarihinden beri vekâleten Lübnan Cumhurbaşkanı olarak görev yapmaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Tamam_Selam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.292858 }
+2016-12-19-21:24:22: Callback for phrase : tamam
+2016-12-19-21:24:22: Callback for word is succeed :tamam
+2016-12-19-21:24:22: Word is going to iteration : tamam
+2016-12-19-21:24:22: Iteration for phrase : tamam Erdoğan
+2016-12-19-21:24:22: Searching for phrase :tamam Erdoğan
+2016-12-19-21:24:23: Response for phrase :tamam Erdoğan
+
+2016-12-19-21:24:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:23: ItemlistElement for phrase : tamam Erdoğan
+2016-12-19-21:24:23: undefined
+2016-12-19-21:24:23: Failed callback for phras : tamam Erdoğan
+
+2016-12-19-21:24:23: Callback for iteration phrase is succeed :tamam Erdoğan
+2016-12-19-21:24:23: Score for phrase isnull : tamam Erdoğan
+2016-12-19-21:24:23: iteration phrase is going root iteration :tamam Erdoğan
+2016-12-19-21:24:23: Root iteration for phrase : tamam Erdoğan
+2016-12-19-21:24:23: Searching for phrase :tamam Erdoğan
+2016-12-19-21:24:23: Response for phrase :tamam Erdoğan
+
+2016-12-19-21:24:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:23: ItemlistElement for phrase : tamam Erdoğan
+2016-12-19-21:24:23: undefined
+2016-12-19-21:24:23: Failed callback for phras : tamam Erdoğan
+
+2016-12-19-21:24:23: Callback for root iteration phrase is succeed :tamam Erdoğan
+2016-12-19-21:24:23: Score for phrase isnull : tamam Erdoğan
+2016-12-19-21:24:23: Root iteration phrase is going to matching :tamam Erdoğan
+2016-12-19-21:24:23: Matching result for phrase : tamam
+
+2016-12-19-21:24:23: { '@id': 'kg:/m/0s8xz0q',
+  name: 'Tamam Selam',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Siyasetçi',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcS_AFxyo5nrzqC2tGfUV6JOHs5sciqP7ezNw6VnncdLkBHmLmvY',
+     url: 'https://en.wikipedia.org/wiki/Tammam_Salam' },
+  detailedDescription: 
+   { articleBody: 'Tamam Saeb Selam, Lübnanlı siyasetçi. 2008-2009 yılları arasında Kültür Bakanı olarak görev yaptı. 6 Nisan 2013 tarihinden beri Lübnan Başbakanı, 25 Mayıs 2014 tarihinden beri vekâleten Lübnan Cumhurbaşkanı olarak görev yapmaktadır.',
+     url: 'https://tr.wikipedia.org/wiki/Tamam_Selam',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:24:23: Result for phrase will be printed : tamam
+2016-12-19-21:24:23: received_result_no=2
+2016-12-19-21:24:23: System goes new search 
+2016-12-19-21:24:23: Searching for phrase :Erdoğan
+2016-12-19-21:24:24: Response for phrase :Erdoğan
+
+2016-12-19-21:24:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 47.800949 } ] }
+2016-12-19-21:24:24: ItemlistElement for phrase : Erdoğan
+2016-12-19-21:24:24: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/021275',
+     name: 'Recep Tayyip Erdoğan',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Türkiye cumhurbaşkanı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ_z8Bq4qFy4O07Gpgi6GO_ZSOkT9Gh82WdzoRF5aBZcuSJwxW-',
+        url: 'https://so.wikipedia.org/wiki/Rajab_Dayib_Erdogaan',
+        license: 'http://creativecommons.org/licenses/by/4.0' },
+     detailedDescription: 
+      { articleBody: 'Recep Tayyip Erdoğan, Türk siyasetçi, Türkiye\'nin 12. ve günümüzdeki cumhurbaşkanı. 2003-2014 yılları arasında 11 yıl Türkiye başbakanlığı yapan Erdoğan, Cumhurbaşkanını halkın seçmesini onaylayan anayasa değişikliği referandumu sonrasında 2014 yılında gerçekleştirilen seçimle doğrudan halk oyuyla seçilen ilk cumhurbaşkanı olmuştur. 1994 ve 1998 yılları arasında Refah Partisi\'nden İstanbul büyükşehir belediyesi başkanlığı görevini yürütmüştür. ',
+        url: 'https://tr.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.tccb.gov.tr/receptayyiperdogan/' },
+  resultScore: 47.800949 }
+2016-12-19-21:24:24: Callback for phrase : Erdoğan
+2016-12-19-21:24:24: Callback for word is succeed :Erdoğan
+2016-12-19-21:24:24: Word is going to iteration : Erdoğan
+2016-12-19-21:24:24: Iteration for phrase : Erdoğan çeşitleri
+2016-12-19-21:24:24: Searching for phrase :Erdoğan çeşitleri
+2016-12-19-21:24:25: Response for phrase :Erdoğan çeşitleri
+
+2016-12-19-21:24:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:25: ItemlistElement for phrase : Erdoğan çeşitleri
+2016-12-19-21:24:25: undefined
+2016-12-19-21:24:25: Failed callback for phras : Erdoğan çeşitleri
+
+2016-12-19-21:24:25: Callback for iteration phrase is succeed :Erdoğan çeşitleri
+2016-12-19-21:24:25: Score for phrase isnull : Erdoğan çeşitleri
+2016-12-19-21:24:25: iteration phrase is going root iteration :Erdoğan çeşitleri
+2016-12-19-21:24:25: Root iteration for phrase : Erdoğan çeşit
+2016-12-19-21:24:25: Searching for phrase :Erdoğan çeşit
+2016-12-19-21:24:25: Response for phrase :Erdoğan çeşit
+
+2016-12-19-21:24:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:25: ItemlistElement for phrase : Erdoğan çeşit
+2016-12-19-21:24:25: undefined
+2016-12-19-21:24:25: Failed callback for phras : Erdoğan çeşit
+
+2016-12-19-21:24:25: Callback for root iteration phrase is succeed :Erdoğan çeşit
+2016-12-19-21:24:25: Score for phrase isnull : Erdoğan çeşit
+2016-12-19-21:24:25: Root iteration phrase is going to matching :Erdoğan çeşit
+2016-12-19-21:24:25: Matching result for phrase : Erdoğan
+
+2016-12-19-21:24:25: { '@id': 'kg:/m/021275',
+  name: 'Recep Tayyip Erdoğan',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Türkiye cumhurbaşkanı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQ_z8Bq4qFy4O07Gpgi6GO_ZSOkT9Gh82WdzoRF5aBZcuSJwxW-',
+     url: 'https://so.wikipedia.org/wiki/Rajab_Dayib_Erdogaan',
+     license: 'http://creativecommons.org/licenses/by/4.0' },
+  detailedDescription: 
+   { articleBody: 'Recep Tayyip Erdoğan, Türk siyasetçi, Türkiye\'nin 12. ve günümüzdeki cumhurbaşkanı. 2003-2014 yılları arasında 11 yıl Türkiye başbakanlığı yapan Erdoğan, Cumhurbaşkanını halkın seçmesini onaylayan anayasa değişikliği referandumu sonrasında 2014 yılında gerçekleştirilen seçimle doğrudan halk oyuyla seçilen ilk cumhurbaşkanı olmuştur. 1994 ve 1998 yılları arasında Refah Partisi\'nden İstanbul büyükşehir belediyesi başkanlığı görevini yürütmüştür. ',
+     url: 'https://tr.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.tccb.gov.tr/receptayyiperdogan/' }
+2016-12-19-21:24:25: Result for phrase will be printed : Erdoğan
+2016-12-19-21:24:25: received_result_no=3
+2016-12-19-21:24:25: System goes new search 
+2016-12-19-21:24:25: Searching for phrase :çeşitleri
+2016-12-19-21:24:25: Response for phrase :çeşitleri
+
+2016-12-19-21:24:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.866877 } ] }
+2016-12-19-21:24:25: ItemlistElement for phrase : çeşitleri
+2016-12-19-21:24:25: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02xwb',
+     name: 'Meyve',
+     '@type': [ 'Thing' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRgVD402RO0dPsTz0AFi_wXEUttB5Az41qvQi0-dFFWK2CooVLL',
+        url: 'https://en.wikipedia.org/wiki/Fruit',
+        license: 'http://creativecommons.org/licenses/by/3.0' },
+     detailedDescription: 
+      { articleBody: 'Meyve ya da yemiş, çiçeğin dişi organının, döllenme sonucunda farklılaşıp, yumurtalığın gelişmesiyle meydana gelen ve tohumları taşıyan organa denir. ',
+        url: 'https://tr.wikipedia.org/wiki/Meyve',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 23.866877 }
+2016-12-19-21:24:25: Callback for phrase : çeşitleri
+2016-12-19-21:24:26: Callback for word is succeed :çeşitleri
+2016-12-19-21:24:26: Word is going to iteration : çeşitleri
+2016-12-19-21:24:26: Iteration for phrase : çeşitleri Orhan
+2016-12-19-21:24:26: Searching for phrase :çeşitleri Orhan
+2016-12-19-21:24:26: Response for phrase :çeşitleri Orhan
+
+2016-12-19-21:24:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:26: ItemlistElement for phrase : çeşitleri Orhan
+2016-12-19-21:24:26: undefined
+2016-12-19-21:24:26: Failed callback for phras : çeşitleri Orhan
+
+2016-12-19-21:24:26: Callback for iteration phrase is succeed :çeşitleri Orhan
+2016-12-19-21:24:26: Score for phrase isnull : çeşitleri Orhan
+2016-12-19-21:24:26: iteration phrase is going root iteration :çeşitleri Orhan
+2016-12-19-21:24:26: Root iteration for phrase : çeşitleri Orhan
+2016-12-19-21:24:26: Searching for phrase :çeşitleri Orhan
+2016-12-19-21:24:26: Response for phrase :çeşitleri Orhan
+
+2016-12-19-21:24:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:26: ItemlistElement for phrase : çeşitleri Orhan
+2016-12-19-21:24:26: undefined
+2016-12-19-21:24:26: Failed callback for phras : çeşitleri Orhan
+
+2016-12-19-21:24:26: Callback for root iteration phrase is succeed :çeşitleri Orhan
+2016-12-19-21:24:26: Score for phrase isnull : çeşitleri Orhan
+2016-12-19-21:24:26: Root iteration phrase is going to matching :çeşitleri Orhan
+2016-12-19-21:24:26: Matching result for phrase : çeşitleri
+
+2016-12-19-21:24:26: { '@id': 'kg:/m/02xwb',
+  name: 'Meyve',
+  '@type': [ 'Thing' ],
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRgVD402RO0dPsTz0AFi_wXEUttB5Az41qvQi0-dFFWK2CooVLL',
+     url: 'https://en.wikipedia.org/wiki/Fruit',
+     license: 'http://creativecommons.org/licenses/by/3.0' },
+  detailedDescription: 
+   { articleBody: 'Meyve ya da yemiş, çiçeğin dişi organının, döllenme sonucunda farklılaşıp, yumurtalığın gelişmesiyle meydana gelen ve tohumları taşıyan organa denir. ',
+     url: 'https://tr.wikipedia.org/wiki/Meyve',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:24:26: Result for phrase will be printed : çeşitleri
+2016-12-19-21:24:26: received_result_no=4
+2016-12-19-21:24:26: System goes new search 
+2016-12-19-21:24:26: Searching for phrase :Orhan
+2016-12-19-21:24:27: Response for phrase :Orhan
+
+2016-12-19-21:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.491112 } ] }
+2016-12-19-21:24:27: ItemlistElement for phrase : Orhan
+2016-12-19-21:24:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.491112 }
+2016-12-19-21:24:27: Callback for phrase : Orhan
+2016-12-19-21:24:27: Callback for word is succeed :Orhan
+2016-12-19-21:24:27: Word is going to iteration : Orhan
+2016-12-19-21:24:27: Iteration for phrase : Orhan Gencebay
+2016-12-19-21:24:27: Searching for phrase :Orhan Gencebay
+2016-12-19-21:24:27: Response for phrase :Orhan Gencebay
+
+2016-12-19-21:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-19-21:24:27: ItemlistElement for phrase : Orhan Gencebay
+2016-12-19-21:24:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-19-21:24:27: Callback for phrase : Orhan Gencebay
+2016-12-19-21:24:27: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-19-21:24:27: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-19-21:24:27: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-19-21:24:27: Iteration for phrase : Orhan Gencebay Nazım
+2016-12-19-21:24:27: Searching for phrase :Orhan Gencebay Nazım
+2016-12-19-21:24:27: Response for phrase :Orhan Gencebay Nazım
+
+2016-12-19-21:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:27: ItemlistElement for phrase : Orhan Gencebay Nazım
+2016-12-19-21:24:27: undefined
+2016-12-19-21:24:27: Failed callback for phras : Orhan Gencebay Nazım
+
+2016-12-19-21:24:27: Callback for iteration phrase is succeed :Orhan Gencebay Nazım
+2016-12-19-21:24:27: Score for phrase isnull : Orhan Gencebay Nazım
+2016-12-19-21:24:27: iteration phrase is going root iteration :Orhan Gencebay Nazım
+2016-12-19-21:24:27: Root iteration for phrase : Orhan Gencebay Nazım
+2016-12-19-21:24:27: Searching for phrase :Orhan Gencebay Nazım
+2016-12-19-21:24:27: Response for phrase :Orhan Gencebay Nazım
+
+2016-12-19-21:24:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:27: ItemlistElement for phrase : Orhan Gencebay Nazım
+2016-12-19-21:24:27: undefined
+2016-12-19-21:24:27: Failed callback for phras : Orhan Gencebay Nazım
+
+2016-12-19-21:24:27: Callback for root iteration phrase is succeed :Orhan Gencebay Nazım
+2016-12-19-21:24:27: Score for phrase isnull : Orhan Gencebay Nazım
+2016-12-19-21:24:27: Root iteration phrase is going to matching :Orhan Gencebay Nazım
+2016-12-19-21:24:27: Matching result for phrase : Orhan Gencebay
+
+2016-12-19-21:24:27: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-19-21:24:27: Result for phrase will be printed : Orhan Gencebay
+2016-12-19-21:24:27: received_result_no=5
+2016-12-19-21:24:27: System goes new search 
+2016-12-19-21:24:27: Searching for phrase :Nazım
+2016-12-19-21:24:28: section_count is:1
+2016-12-19-21:24:28: AftermoveSectionDown section_count is: 1
+2016-12-19-21:24:28: Response for phrase :Nazım
+
+2016-12-19-21:24:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.857635 } ] }
+2016-12-19-21:24:28: ItemlistElement for phrase : Nazım
+2016-12-19-21:24:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.857635 }
+2016-12-19-21:24:28: Callback for phrase : Nazım
+2016-12-19-21:24:28: Callback for word is succeed :Nazım
+2016-12-19-21:24:28: Word is going to iteration : Nazım
+2016-12-19-21:24:28: Iteration for phrase : Nazım Hikmet
+2016-12-19-21:24:28: Searching for phrase :Nazım Hikmet
+2016-12-19-21:24:28: section_count is:2
+2016-12-19-21:24:28: AftermoveSectionDown section_count is: 2
+2016-12-19-21:24:28: Response for phrase :Nazım Hikmet
+
+2016-12-19-21:24:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.338409 } ] }
+2016-12-19-21:24:28: ItemlistElement for phrase : Nazım Hikmet
+2016-12-19-21:24:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.338409 }
+2016-12-19-21:24:28: Callback for phrase : Nazım Hikmet
+2016-12-19-21:24:28: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-19-21:24:28: Score for phrase is410.338409 : Nazım Hikmet
+2016-12-19-21:24:28: iteration phrase is going next iteration :Nazım Hikmet
+2016-12-19-21:24:28: Iteration for phrase : Nazım Hikmet zikirle
+2016-12-19-21:24:28: Searching for phrase :Nazım Hikmet zikirle
+2016-12-19-21:24:28: Response for phrase :Nazım Hikmet zikirle
+
+2016-12-19-21:24:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:28: ItemlistElement for phrase : Nazım Hikmet zikirle
+2016-12-19-21:24:29: undefined
+2016-12-19-21:24:29: Failed callback for phras : Nazım Hikmet zikirle
+
+2016-12-19-21:24:29: Callback for iteration phrase is succeed :Nazım Hikmet zikirle
+2016-12-19-21:24:29: Score for phrase isnull : Nazım Hikmet zikirle
+2016-12-19-21:24:29: iteration phrase is going root iteration :Nazım Hikmet zikirle
+2016-12-19-21:24:29: Root iteration for phrase : Nazım Hikmet zikir
+2016-12-19-21:24:29: Searching for phrase :Nazım Hikmet zikir
+2016-12-19-21:24:29: Response for phrase :Nazım Hikmet zikir
+
+2016-12-19-21:24:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:29: ItemlistElement for phrase : Nazım Hikmet zikir
+2016-12-19-21:24:29: undefined
+2016-12-19-21:24:29: Failed callback for phras : Nazım Hikmet zikir
+
+2016-12-19-21:24:29: Callback for root iteration phrase is succeed :Nazım Hikmet zikir
+2016-12-19-21:24:29: Score for phrase isnull : Nazım Hikmet zikir
+2016-12-19-21:24:29: Root iteration phrase is going to matching :Nazım Hikmet zikir
+2016-12-19-21:24:29: Matching result for phrase : Nazım Hikmet
+
+2016-12-19-21:24:29: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-19-21:24:29: Result for phrase will be printed : Nazım Hikmet
+2016-12-19-21:24:29: received_result_no=6
+2016-12-19-21:24:29: System goes new search 
+2016-12-19-21:24:29: Searching for phrase :zikirle
+2016-12-19-21:24:29: Response for phrase :zikirle
+
+2016-12-19-21:24:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:29: ItemlistElement for phrase : zikirle
+2016-12-19-21:24:29: undefined
+2016-12-19-21:24:29: Failed callback for phras : zikirle
+
+2016-12-19-21:24:29: Callback for word is succeed :zikirle
+2016-12-19-21:24:29: Word is going to root_serach : zikirle
+2016-12-19-21:24:29: Searching for phrase :zikir
+2016-12-19-21:24:30: Response for phrase :zikir
+
+2016-12-19-21:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 14.242871 } ] }
+2016-12-19-21:24:30: ItemlistElement for phrase : zikir
+2016-12-19-21:24:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11clw881nt',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı' },
+  resultScore: 14.242871 }
+2016-12-19-21:24:30: Callback for phrase : zikir
+2016-12-19-21:24:30: Callback for root is succeed :zikir
+2016-12-19-21:24:30: Root is going to iteration : zikir
+2016-12-19-21:24:30: Iteration for phrase : zikir Nazan
+2016-12-19-21:24:30: Searching for phrase :zikir Nazan
+2016-12-19-21:24:30: Response for phrase :zikir Nazan
+
+2016-12-19-21:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:30: ItemlistElement for phrase : zikir Nazan
+2016-12-19-21:24:30: undefined
+2016-12-19-21:24:30: Failed callback for phras : zikir Nazan
+
+2016-12-19-21:24:30: Callback for iteration phrase is succeed :zikir Nazan
+2016-12-19-21:24:30: Score for phrase isnull : zikir Nazan
+2016-12-19-21:24:30: iteration phrase is going root iteration :zikir Nazan
+2016-12-19-21:24:30: Root iteration for phrase : zikir Nazan
+2016-12-19-21:24:30: Searching for phrase :zikir Nazan
+2016-12-19-21:24:30: Response for phrase :zikir Nazan
+
+2016-12-19-21:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:24:30: ItemlistElement for phrase : zikir Nazan
+2016-12-19-21:24:30: undefined
+2016-12-19-21:24:30: Failed callback for phras : zikir Nazan
+
+2016-12-19-21:24:30: Callback for root iteration phrase is succeed :zikir Nazan
+2016-12-19-21:24:30: Score for phrase isnull : zikir Nazan
+2016-12-19-21:24:30: Root iteration phrase is going to matching :zikir Nazan
+2016-12-19-21:24:30: Matching result for phrase : zikir
+
+2016-12-19-21:24:30: { '@id': 'kg:/g/11clw881nt',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı' }
+2016-12-19-21:24:30: Result for phrase will be printed : zikir
+2016-12-19-21:24:30: received_result_no=7
+2016-12-19-21:24:30: System goes new search 
+2016-12-19-21:24:30: Searching for phrase :Nazan
+2016-12-19-21:24:30: Response for phrase :Nazan
+
+2016-12-19-21:24:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.768209 } ] }
+2016-12-19-21:24:30: ItemlistElement for phrase : Nazan
+2016-12-19-21:24:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 28.768209 }
+2016-12-19-21:24:30: Callback for phrase : Nazan
+2016-12-19-21:24:30: Callback for word is succeed :Nazan
+2016-12-19-21:24:30: Word is going to iteration : Nazan
+2016-12-19-21:24:30: Iteration for phrase : Nazan Öncel
+2016-12-19-21:24:30: Searching for phrase :Nazan Öncel
+2016-12-19-21:24:31: Response for phrase :Nazan Öncel
+
+2016-12-19-21:24:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 494.941376 } ] }
+2016-12-19-21:24:31: ItemlistElement for phrase : Nazan Öncel
+2016-12-19-21:24:31: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 494.941376 }
+2016-12-19-21:24:31: Callback for phrase : Nazan Öncel
+2016-12-19-21:24:31: Callback for iteration phrase is succeed :Nazan Öncel
+2016-12-19-21:24:31: Score for phrase is494.941376 : Nazan Öncel
+2016-12-19-21:24:31: Last iteration the result of :Nazan Öncel
+2016-12-19-21:24:31: { '@id': 'kg:/m/0br25r',
+  name: 'Nazan Öncel',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazanoncel.net/' }
+2016-12-19-21:24:31: received_result_no=8
+2016-12-19-21:24:31: finish
+2016-12-19-21:24:31: process is finished
+2016-12-19-21:24:31: -----------------Printed Results------------------------
+2016-12-19-21:24:31: Nazan Öncel
+2016-12-19-21:24:31: Tamam Selam
+2016-12-19-21:24:31: Recep Tayyip Erdoğan
+2016-12-19-21:24:31: Meyve
+2016-12-19-21:24:31: Orhan Gencebay
+2016-12-19-21:24:31: Nâzım Hikmet
+2016-12-19-21:24:31: zikir
+2016-12-19-21:24:31: Nazan Öncel
+2016-12-19-21:24:33: section_count is:3
+2016-12-19-21:24:33: AftermoveSectionDown section_count is: 3
+2016-12-19-21:24:33: section_count is:4
+2016-12-19-21:24:33: AftermoveSectionDown section_count is: 4
+2016-12-19-21:24:34: section_count is:5
+2016-12-19-21:24:34: AftermoveSectionDown section_count is: 5
+2016-12-19-21:24:35: section_count is:4
+2016-12-19-21:24:35: AftermoveSectionUp section_count is: 4
+2016-12-19-21:24:36: 2: slide left gesture is called
+2016-12-19-21:24:37: 2: slide left gesture is called
+2016-12-19-21:24:37: 2: slide right gesture is called
+2016-12-19-21:24:37: 2: slide right gesture is called
+2016-12-19-21:24:39: 2: slide right gesture is called
+2016-12-19-21:24:40: 2: slide right gesture is called
+2016-12-19-21:24:40: 2: slide right gesture is called
+2016-12-19-21:24:41: 1: slide right gesture is called
+2016-12-19-21:24:41: 1: slide right gesture is called
+2016-12-19-21:24:41: 1: slide right gesture is called
+2016-12-19-21:24:41: 1: slide right gesture is called
+2016-12-19-21:24:42: 1: slide left gesture is called
+2016-12-19-21:24:43: 1: slide left gesture is called
+2016-12-19-21:24:43: 1: slide left gesture is called
+2016-12-19-21:24:44: 2: slide left gesture is called
+2016-12-19-21:24:44: 2: slide right gesture is called
+2016-12-19-21:24:44: 2: slide right gesture is called
+2016-12-19-21:24:45: section_count is:5
+2016-12-19-21:24:45: AftermoveSectionDown section_count is: 5
+2016-12-19-21:24:46: 2: slide left gesture is called
+2016-12-19-21:24:47: 2: slide right gesture is called
+2016-12-19-21:24:47: 2: slide right gesture is called
+2016-12-19-21:24:48: section_count is:6
+2016-12-19-21:24:48: AftermoveSectionDown section_count is: 6
+2016-12-19-21:24:50: 1: slide right gesture is called
+2016-12-19-21:24:51: 1: slide right gesture is called
+2016-12-19-21:24:54: section_count is:7
+2016-12-19-21:24:54: AftermoveSectionDown section_count is: 7
+2016-12-19-21:24:54: AftermoveSectionDown section_count is: 8
+2016-12-19-21:24:58: 1: slide right gesture is called
+2016-12-19-21:24:58: 1: slide right gesture is called
+2016-12-19-21:24:58: 1: slide right gesture is called
+2016-12-19-21:24:58: 2: slide left gesture is called
+2016-12-19-21:24:59: 2: slide right gesture is called
+2016-12-19-21:24:59: 2: slide right gesture is called
+2016-12-19-21:25:00: 2: slide right gesture is called
+2016-12-19-21:25:01: AftermoveSectionDown section_count is: 8
+2016-12-19-21:25:01: AftermoveSectionDown section_count is: 8
+2016-12-19-21:25:02: 1: slide right gesture is called
+2016-12-19-21:25:03: section_count is:7
+2016-12-19-21:25:03: AftermoveSectionUp section_count is: 7
+2016-12-19-21:25:04: section_count is:6
+2016-12-19-21:25:04: AftermoveSectionUp section_count is: 6
+2016-12-19-21:25:05: 2: slide left gesture is called
+2016-12-19-21:25:05: 2: slide left gesture is called
+2016-12-19-21:25:06: 2: slide left gesture is called
+2016-12-19-21:25:08: section_count is:5
+2016-12-19-21:25:08: AftermoveSectionUp section_count is: 5
+2016-12-19-21:25:08: section_count is:4
+2016-12-19-21:25:08: AftermoveSectionUp section_count is: 4
+2016-12-19-21:25:08: 1: slide right gesture is called
+2016-12-19-21:25:08: 2: slide left gesture is called
+2016-12-19-21:25:09: 1: slide right gesture is called
+2016-12-19-21:25:09: 1: slide right gesture is called
+2016-12-19-21:25:13: 2: slide right gesture is called
+2016-12-19-21:25:14: 2: slide right gesture is called
+2016-12-19-21:25:15: 2: slide right gesture is called
+2016-12-19-21:25:16: 2: slide right gesture is called
+2016-12-19-21:25:16: 2: slide left gesture is called
+2016-12-19-21:25:18: 2: slide left gesture is called
+2016-12-19-21:25:19: 2: slide left gesture is called
+2016-12-19-21:25:19: 2: slide left gesture is called
+2016-12-19-21:25:19: 2: slide left gesture is called
+2016-12-19-21:25:23: 2: slide right gesture is called
+2016-12-19-21:25:24: section_count is:3
+2016-12-19-21:25:24: AftermoveSectionUp section_count is: 3
+2016-12-19-21:25:26: 2: slide left gesture is called
+2016-12-19-21:25:26: 2: slide left gesture is called
+2016-12-19-21:25:29: 2: slide left gesture is called
+2016-12-19-21:25:30: 2: slide right gesture is called
+2016-12-19-21:25:31: section_count is:2
+2016-12-19-21:25:31: AftermoveSectionUp section_count is: 2
+2016-12-19-21:25:31: 2: slide left gesture is called
+2016-12-19-21:25:31: section_count is:1
+2016-12-19-21:25:31: AftermoveSectionUp section_count is: 1
+2016-12-19-21:25:32: 2: slide right gesture is called
+2016-12-19-21:25:32: 2: slide right gesture is called
+2016-12-19-21:25:34: 2: slide left gesture is called
+2016-12-19-21:25:37: 2: slide left gesture is called
+2016-12-19-21:25:37: 2: slide left gesture is called
+2016-12-19-21:25:37: 2: slide left gesture is called
+2016-12-19-21:25:38: 2: slide right gesture is called
+2016-12-19-21:25:41: 2: slide right gesture is called
+2016-12-19-21:25:42: 2: slide right gesture is called
+2016-12-19-21:25:42: 2: slide right gesture is called
+2016-12-19-21:25:45: 2: slide right gesture is called
+2016-12-19-21:25:45: 2: slide right gesture is called
+2016-12-19-21:25:47: 2: slide right gesture is called
+2016-12-19-21:25:48: 2: slide right gesture is called
+2016-12-19-21:25:49: 1: slide right gesture is called
+2016-12-19-21:25:50: 1: slide right gesture is called
+2016-12-19-21:25:53: 2: slide right gesture is called
+2016-12-19-21:25:54: 2: slide right gesture is called
+2016-12-19-21:25:55: 1: slide right gesture is called
+2016-12-19-21:25:55: 1: slide right gesture is called
+2016-12-19-21:25:55: 1: slide left gesture is called
+2016-12-19-21:25:56: 2: slide right gesture is called
+2016-12-19-21:25:57: 2: slide right gesture is called
+2016-12-19-21:25:57: 2: slide right gesture is called
+2016-12-19-21:25:58: 2: slide left gesture is called
+2016-12-19-21:25:58: 2: slide left gesture is called
+2016-12-19-21:25:58: 2: slide left gesture is called
+2016-12-19-21:25:59: 2: slide left gesture is called
+2016-12-19-21:25:59: 2: slide left gesture is called
+2016-12-19-21:26:00: 1: slide right gesture is called
+2016-12-19-21:26:01: section_count is:0
+2016-12-19-21:26:01: AftermoveSectionUp section_count is: 0
+2016-12-19-21:26:02: 2: slide right gesture is called
+2016-12-19-21:26:03: 1: slide left gesture is called
+2016-12-19-21:26:03: 2: slide right gesture is called
+2016-12-19-21:26:03: 2: slide right gesture is called
+2016-12-19-21:26:04: 2: slide right gesture is called
+2016-12-19-21:26:05: 1: slide left gesture is called
+2016-12-19-21:26:05: 2: slide right gesture is called
+2016-12-19-21:26:06: 2: slide left gesture is called
+2016-12-19-21:26:06: 1: slide right gesture is called
+2016-12-19-21:26:07: 1: slide right gesture is called
+2016-12-19-21:26:08: 1: slide right gesture is called
+2016-12-19-21:26:08: 1: slide right gesture is called
+2016-12-19-21:26:09: 2: slide right gesture is called
+2016-12-19-21:26:10: 2: slide right gesture is called
+2016-12-19-21:26:11: 2: slide right gesture is called
+2016-12-19-21:26:12: 2: slide left gesture is called
+2016-12-19-21:26:13: 2: slide left gesture is called
+2016-12-19-21:26:13: 2: slide left gesture is called
+2016-12-19-21:26:14: 2: slide left gesture is called
+2016-12-19-21:26:15: 2: slide right gesture is called
+2016-12-19-21:26:15: section_count is:1
+2016-12-19-21:26:15: AftermoveSectionDown section_count is: 1
+2016-12-19-21:26:17: 2: slide right gesture is called
+2016-12-19-21:26:17: 2: slide right gesture is called
+2016-12-19-21:26:20: 2: slide right gesture is called
+2016-12-19-21:26:21: 2: slide right gesture is called
+2016-12-19-21:26:21: 2: slide right gesture is called
+2016-12-19-21:26:21: section_count is:2
+2016-12-19-21:26:21: AftermoveSectionDown section_count is: 2
+2016-12-19-21:26:22: 1: slide right gesture is called
+2016-12-19-21:26:23: 2: slide right gesture is called
+2016-12-19-21:26:23: 2: slide right gesture is called
+2016-12-19-21:26:24: 2: slide left gesture is called
+2016-12-19-21:26:24: 2: slide left gesture is called
+2016-12-19-21:26:24: 2: slide right gesture is called
+2016-12-19-21:26:25: 1: slide right gesture is called
+2016-12-19-21:26:26: 2: slide right gesture is called
+2016-12-19-21:26:26: 2: slide left gesture is called
+2016-12-19-21:26:26: 2: slide left gesture is called
+2016-12-19-21:26:27: 2: slide left gesture is called
+2016-12-19-21:26:28: 2: slide left gesture is called
+2016-12-19-21:26:28: 2: slide left gesture is called
+2016-12-19-21:26:29: 2: slide left gesture is called
+2016-12-19-21:26:29: 2: slide left gesture is called
+2016-12-19-21:26:29: 2: slide left gesture is called
+2016-12-19-21:26:29: 2: slide left gesture is called
+2016-12-19-21:26:30: 2: slide left gesture is called
+2016-12-19-21:26:34: section_count is:3
+2016-12-19-21:26:34: AftermoveSectionDown section_count is: 3
+2016-12-19-21:26:36: 2: slide left gesture is called
+2016-12-19-21:26:37: 2: slide right gesture is called
+2016-12-19-21:26:38: 2: slide right gesture is called
+2016-12-19-21:26:38: 2: slide right gesture is called
+2016-12-19-21:26:39: 2: slide right gesture is called
+2016-12-19-21:26:39: 2: slide right gesture is called
+2016-12-19-21:26:39: 2: slide right gesture is called
+2016-12-19-21:26:39: 2: slide right gesture is called
+2016-12-19-21:26:40: 2: slide right gesture is called
+2016-12-19-21:26:46: 2: slide right gesture is called
+2016-12-19-21:26:47: 2: slide right gesture is called
+2016-12-19-21:26:49: 1: slide left gesture is called
+2016-12-19-21:26:50: 1: slide left gesture is called
+2016-12-19-21:26:50: 1: slide left gesture is called
+2016-12-19-21:26:51: 1: slide left gesture is called
+2016-12-19-21:27:02: section_count is:4
+2016-12-19-21:27:02: AftermoveSectionDown section_count is: 4
+2016-12-19-21:27:04: 2: slide right gesture is called
+2016-12-19-21:27:05: 2: slide right gesture is called
+2016-12-19-21:27:06: 2: slide right gesture is called
+2016-12-19-21:27:06: 2: slide right gesture is called
+2016-12-19-21:27:08: 2: slide left gesture is called
+2016-12-19-21:27:09: 1: slide right gesture is called
+2016-12-19-21:27:15: 2:click detected at point:[object Object]
+2016-12-19-21:27:15: Connected
+2016-12-19-21:27:16: 2:click detected at point:[object Object]
+2016-12-19-21:27:19: 2: slide right gesture is called
+2016-12-19-21:27:19: 2: slide right gesture is called
+2016-12-19-21:27:20: 1: slide right gesture is called
+2016-12-19-21:27:20: 1: slide right gesture is called
+2016-12-19-21:27:20: 1: slide right gesture is called
+2016-12-19-21:27:25: Data received from stt: oynayan oyna,Noun
+2016-12-19-21:27:25: SearchTerm from microphone:oynayan oyna,Noun
+2016-12-19-21:27:25: State machine is initialized with input: 
+2016-12-19-21:27:25: oynayan oyna,Noun
+2016-12-19-21:27:25: Input words : 
+2016-12-19-21:27:25: [ 'oynayan' ]
+2016-12-19-21:27:25: Input roots : 
+2016-12-19-21:27:25: [ 'oyna' ]
+2016-12-19-21:27:25: Searching for phrase :oynayan
+2016-12-19-21:27:25: Data received from stt: oynayan oyna,Noun
+2016-12-19-21:27:25: SearchTerm from microphone:oynayan oyna,Noun
+2016-12-19-21:27:25: State machine is initialized with input: 
+2016-12-19-21:27:25: oynayan oyna,Noun
+2016-12-19-21:27:25: Input words : 
+2016-12-19-21:27:25: [ 'oynayan' ]
+2016-12-19-21:27:25: Input roots : 
+2016-12-19-21:27:25: [ 'oyna' ]
+2016-12-19-21:27:25: Searching for phrase :oynayan
+2016-12-19-21:27:25: Connection closed
+2016-12-19-21:27:25: Connection closed
+2016-12-19-21:27:25: Response for phrase :oynayan
+
+2016-12-19-21:27:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.952433 } ] }
+2016-12-19-21:27:25: ItemlistElement for phrase : oynayan
+2016-12-19-21:27:25: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0524jcs',
+     name: 'Ateşle Oynayan Kız',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Stieg Larsson tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Ateşle Oynayan Kız son dönem İsveçli yazar Stieg Larsson\'un polisiye romanı. Milenyum Üçlemesinin 2006\'da basılan ikinci kitabıdır.',
+        url: 'https://tr.wikipedia.org/wiki/Ate%C5%9Fle_Oynayan_K%C4%B1z',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.952433 }
+2016-12-19-21:27:25: Callback for phrase : oynayan
+2016-12-19-21:27:25: Callback for word is succeed :oynayan
+2016-12-19-21:27:25: last word is noun here is the result of :oynayan
+2016-12-19-21:27:25: { '@id': 'kg:/m/0524jcs',
+  name: 'Ateşle Oynayan Kız',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Stieg Larsson tarafından yazılan roman',
+  detailedDescription: 
+   { articleBody: 'Ateşle Oynayan Kız son dönem İsveçli yazar Stieg Larsson\'un polisiye romanı. Milenyum Üçlemesinin 2006\'da basılan ikinci kitabıdır.',
+     url: 'https://tr.wikipedia.org/wiki/Ate%C5%9Fle_Oynayan_K%C4%B1z',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:27:25: https://www.googleapis.com/customsearch/v1?q=Ateşle Oynayan Kız&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:27:25: received_result_no=1
+2016-12-19-21:27:25: finish
+2016-12-19-21:27:25: process is finished
+2016-12-19-21:27:25: -----------------Printed Results------------------------
+2016-12-19-21:27:25: Ateşle Oynayan Kız
+2016-12-19-21:27:25: Response for phrase :oynayan
+
+2016-12-19-21:27:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.952433 } ] }
+2016-12-19-21:27:25: ItemlistElement for phrase : oynayan
+2016-12-19-21:27:25: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0524jcs',
+     name: 'Ateşle Oynayan Kız',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Stieg Larsson tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Ateşle Oynayan Kız son dönem İsveçli yazar Stieg Larsson\'un polisiye romanı. Milenyum Üçlemesinin 2006\'da basılan ikinci kitabıdır.',
+        url: 'https://tr.wikipedia.org/wiki/Ate%C5%9Fle_Oynayan_K%C4%B1z',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 20.952433 }
+2016-12-19-21:27:25: Callback for phrase : oynayan
+2016-12-19-21:27:25: Callback for word is succeed :oynayan
+2016-12-19-21:27:25: last word is noun here is the result of :oynayan
+2016-12-19-21:27:25: { '@id': 'kg:/m/0524jcs',
+  name: 'Ateşle Oynayan Kız',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Stieg Larsson tarafından yazılan roman',
+  detailedDescription: 
+   { articleBody: 'Ateşle Oynayan Kız son dönem İsveçli yazar Stieg Larsson\'un polisiye romanı. Milenyum Üçlemesinin 2006\'da basılan ikinci kitabıdır.',
+     url: 'https://tr.wikipedia.org/wiki/Ate%C5%9Fle_Oynayan_K%C4%B1z',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:27:25: https://www.googleapis.com/customsearch/v1?q=Ateşle Oynayan Kız&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:27:25: received_result_no=1
+2016-12-19-21:27:25: finish
+2016-12-19-21:27:25: process is finished
+2016-12-19-21:27:25: -----------------Printed Results------------------------
+2016-12-19-21:27:25: Ateşle Oynayan Kız
+2016-12-19-21:27:27: 2: slide left gesture is called
+2016-12-19-21:27:28: 2: slide left gesture is called
+2016-12-19-21:27:29: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:29: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:30: section_count is:0
+2016-12-19-21:27:30: AftermoveSectionUp section_count is: 0
+2016-12-19-21:27:30: AftermoveSectionUp section_count is: 0
+2016-12-19-21:27:30: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:31: 2: slide left gesture is called
+2016-12-19-21:27:31: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:33: section_count is:0
+2016-12-19-21:27:33: AftermoveSectionUp section_count is: 0
+2016-12-19-21:27:33: 2: slide right gesture is called
+2016-12-19-21:27:33: 2: slide right gesture is called
+2016-12-19-21:27:34: 2: slide right gesture is called
+2016-12-19-21:27:35: 1: slide right gesture is called
+2016-12-19-21:27:36: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:36: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:36: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:36: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:36: section_count is:0
+2016-12-19-21:27:37: AftermoveSectionUp section_count is: 0
+2016-12-19-21:27:37: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:37: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:37: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:37: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:39: section_count is:0
+2016-12-19-21:27:39: AftermoveSectionUp section_count is: 0
+2016-12-19-21:27:40: AftermoveSectionUp section_count is: 0
+2016-12-19-21:27:42: 2:click detected at point:[object Object]
+2016-12-19-21:27:42: 2:click detected at point:[object Object]
+2016-12-19-21:27:42: Connected
+2016-12-19-21:27:56: Data received from stt: başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: SearchTerm from microphone:başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: State machine is initialized with input: 
+2016-12-19-21:27:56: başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: Input words : 
+2016-12-19-21:27:56: [ 'başka', 'zaman' ]
+2016-12-19-21:27:56: Input roots : 
+2016-12-19-21:27:56: [ 'başka', 'zaman' ]
+2016-12-19-21:27:56: Searching for phrase :başka
+2016-12-19-21:27:56: Data received from stt: başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: SearchTerm from microphone:başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: State machine is initialized with input: 
+2016-12-19-21:27:56: başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: Input words : 
+2016-12-19-21:27:56: [ 'başka', 'zaman' ]
+2016-12-19-21:27:56: Input roots : 
+2016-12-19-21:27:56: [ 'başka', 'zaman' ]
+2016-12-19-21:27:56: Searching for phrase :başka
+2016-12-19-21:27:56: Data received from stt: başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: SearchTerm from microphone:başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: State machine is initialized with input: 
+2016-12-19-21:27:56: başka zaman başka,Other zaman,Noun
+2016-12-19-21:27:56: Input words : 
+2016-12-19-21:27:56: [ 'başka', 'zaman' ]
+2016-12-19-21:27:56: Input roots : 
+2016-12-19-21:27:56: [ 'başka', 'zaman' ]
+2016-12-19-21:27:56: Searching for phrase :başka
+2016-12-19-21:27:56: Connection closed
+2016-12-19-21:27:56: Connection closed
+2016-12-19-21:27:56: Connection closed
+2016-12-19-21:27:56: Response for phrase :başka
+
+2016-12-19-21:27:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.672028 } ] }
+2016-12-19-21:27:56: ItemlistElement for phrase : başka
+2016-12-19-21:27:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04v3q',
+     name: 'Malta',
+     '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQx0QphMwGEJy_Co1cPTRXm_IYKI_QjuVO1JrpoHuEjc-ePDgBo',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Malta.svg' },
+     detailedDescription: 
+      { articleBody: 'Malta ya da resmî adıyla Malta Cumhuriyeti, Güney Avrupa\'da, Orta Akdeniz\'de yer alan, Sicilya\'n��n güneyindeki adalar devleti. Malta takımadaları 3 büyük, 2 küçük adadan oluşur. Büyükleri: Malta, Gozo ve Comino. ',
+        url: 'https://tr.wikipedia.org/wiki/Malta',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.gov.mt/' },
+  resultScore: 27.672028 }
+2016-12-19-21:27:56: Callback for phrase : başka
+2016-12-19-21:27:56: Callback for word is succeed :başka
+2016-12-19-21:27:56: Word is going to iteration : başka
+2016-12-19-21:27:56: Iteration for phrase : başka zaman
+2016-12-19-21:27:56: Searching for phrase :başka zaman
+2016-12-19-21:27:56: Response for phrase :başka
+
+2016-12-19-21:27:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.672028 } ] }
+2016-12-19-21:27:56: ItemlistElement for phrase : başka
+2016-12-19-21:27:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04v3q',
+     name: 'Malta',
+     '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQx0QphMwGEJy_Co1cPTRXm_IYKI_QjuVO1JrpoHuEjc-ePDgBo',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Malta.svg' },
+     detailedDescription: 
+      { articleBody: 'Malta ya da resmî adıyla Malta Cumhuriyeti, Güney Avrupa\'da, Orta Akdeniz\'de yer alan, Sicilya\'n��n güneyindeki adalar devleti. Malta takımadaları 3 büyük, 2 küçük adadan oluşur. Büyükleri: Malta, Gozo ve Comino. ',
+        url: 'https://tr.wikipedia.org/wiki/Malta',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.gov.mt/' },
+  resultScore: 27.672028 }
+2016-12-19-21:27:56: Callback for phrase : başka
+2016-12-19-21:27:56: Callback for word is succeed :başka
+2016-12-19-21:27:56: Word is going to iteration : başka
+2016-12-19-21:27:56: Iteration for phrase : başka zaman
+2016-12-19-21:27:56: Searching for phrase :başka zaman
+2016-12-19-21:27:56: Response for phrase :başka
+
+2016-12-19-21:27:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.672028 } ] }
+2016-12-19-21:27:56: ItemlistElement for phrase : başka
+2016-12-19-21:27:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04v3q',
+     name: 'Malta',
+     '@type': [ 'Country', 'Thing', 'AdministrativeArea', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQx0QphMwGEJy_Co1cPTRXm_IYKI_QjuVO1JrpoHuEjc-ePDgBo',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_the_President_of_Malta.svg' },
+     detailedDescription: 
+      { articleBody: 'Malta ya da resmî adıyla Malta Cumhuriyeti, Güney Avrupa\'da, Orta Akdeniz\'de yer alan, Sicilya\'n��n güneyindeki adalar devleti. Malta takımadaları 3 büyük, 2 küçük adadan oluşur. Büyükleri: Malta, Gozo ve Comino. ',
+        url: 'https://tr.wikipedia.org/wiki/Malta',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.gov.mt/' },
+  resultScore: 27.672028 }
+2016-12-19-21:27:56: Callback for phrase : başka
+2016-12-19-21:27:56: Callback for word is succeed :başka
+2016-12-19-21:27:56: Word is going to iteration : başka
+2016-12-19-21:27:56: Iteration for phrase : başka zaman
+2016-12-19-21:27:56: Searching for phrase :başka zaman
+2016-12-19-21:27:56: Response for phrase :başka zaman
+
+2016-12-19-21:27:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.414856 } ] }
+2016-12-19-21:27:57: ItemlistElement for phrase : başka zaman
+2016-12-19-21:27:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/122df1fp',
+     name: 'Başka Zaman Kütüphaneleri',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Zoran Živković tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Başka Zaman Kütüphaneleri, Zoran Živković\'in fantezi türünde romanıdır. Postmodern fantezi türünün dünya üzerindeki en önemli yapıtlarından biri sayılır. ',
+        url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_Zaman_K%C3%BCt%C3%BCphaneleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 182.414856 }
+2016-12-19-21:27:57: Callback for phrase : başka zaman
+2016-12-19-21:27:57: Callback for iteration phrase is succeed :başka zaman
+2016-12-19-21:27:57: Score for phrase is182.414856 : başka zaman
+2016-12-19-21:27:57: Last iteration the result of :başka zaman
+2016-12-19-21:27:57: { '@id': 'kg:/g/122df1fp',
+  name: 'Başka Zaman Kütüphaneleri',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Zoran Živković tarafından yazılan roman',
+  detailedDescription: 
+   { articleBody: 'Başka Zaman Kütüphaneleri, Zoran Živković\'in fantezi türünde romanıdır. Postmodern fantezi türünün dünya üzerindeki en önemli yapıtlarından biri sayılır. ',
+     url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_Zaman_K%C3%BCt%C3%BCphaneleri',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:27:57: https://www.googleapis.com/customsearch/v1?q=Başka Zaman Kütüphaneleri&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:27:57: received_result_no=1
+2016-12-19-21:27:57: finish
+2016-12-19-21:27:57: process is finished
+2016-12-19-21:27:57: -----------------Printed Results------------------------
+2016-12-19-21:27:57: Başka Zaman Kütüphaneleri
+2016-12-19-21:27:57: Response for phrase :başka zaman
+
+2016-12-19-21:27:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.414856 } ] }
+2016-12-19-21:27:57: ItemlistElement for phrase : başka zaman
+2016-12-19-21:27:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/122df1fp',
+     name: 'Başka Zaman Kütüphaneleri',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Zoran Živković tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Başka Zaman Kütüphaneleri, Zoran Živković\'in fantezi türünde romanıdır. Postmodern fantezi türünün dünya üzerindeki en önemli yapıtlarından biri sayılır. ',
+        url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_Zaman_K%C3%BCt%C3%BCphaneleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 182.414856 }
+2016-12-19-21:27:57: Callback for phrase : başka zaman
+2016-12-19-21:27:57: Callback for iteration phrase is succeed :başka zaman
+2016-12-19-21:27:57: Score for phrase is182.414856 : başka zaman
+2016-12-19-21:27:57: Last iteration the result of :başka zaman
+2016-12-19-21:27:57: { '@id': 'kg:/g/122df1fp',
+  name: 'Başka Zaman Kütüphaneleri',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Zoran Živković tarafından yazılan roman',
+  detailedDescription: 
+   { articleBody: 'Başka Zaman Kütüphaneleri, Zoran Živković\'in fantezi türünde romanıdır. Postmodern fantezi türünün dünya üzerindeki en önemli yapıtlarından biri sayılır. ',
+     url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_Zaman_K%C3%BCt%C3%BCphaneleri',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:27:57: https://www.googleapis.com/customsearch/v1?q=Başka Zaman Kütüphaneleri&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:27:57: received_result_no=1
+2016-12-19-21:27:57: finish
+2016-12-19-21:27:57: process is finished
+2016-12-19-21:27:57: -----------------Printed Results------------------------
+2016-12-19-21:27:57: Başka Zaman Kütüphaneleri
+2016-12-19-21:27:57: Response for phrase :başka zaman
+
+2016-12-19-21:27:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.414856 } ] }
+2016-12-19-21:27:57: ItemlistElement for phrase : başka zaman
+2016-12-19-21:27:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/122df1fp',
+     name: 'Başka Zaman Kütüphaneleri',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Zoran Živković tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Başka Zaman Kütüphaneleri, Zoran Živković\'in fantezi türünde romanıdır. Postmodern fantezi türünün dünya üzerindeki en önemli yapıtlarından biri sayılır. ',
+        url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_Zaman_K%C3%BCt%C3%BCphaneleri',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 182.414856 }
+2016-12-19-21:27:57: Callback for phrase : başka zaman
+2016-12-19-21:27:57: Callback for iteration phrase is succeed :başka zaman
+2016-12-19-21:27:57: Score for phrase is182.414856 : başka zaman
+2016-12-19-21:27:57: Last iteration the result of :başka zaman
+2016-12-19-21:27:57: { '@id': 'kg:/g/122df1fp',
+  name: 'Başka Zaman Kütüphaneleri',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Zoran Živković tarafından yazılan roman',
+  detailedDescription: 
+   { articleBody: 'Başka Zaman Kütüphaneleri, Zoran Živković\'in fantezi türünde romanıdır. Postmodern fantezi türünün dünya üzerindeki en önemli yapıtlarından biri sayılır. ',
+     url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_Zaman_K%C3%BCt%C3%BCphaneleri',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:27:57: https://www.googleapis.com/customsearch/v1?q=Başka Zaman Kütüphaneleri&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:27:57: received_result_no=1
+2016-12-19-21:27:57: finish
+2016-12-19-21:27:57: process is finished
+2016-12-19-21:27:57: -----------------Printed Results------------------------
+2016-12-19-21:27:57: Başka Zaman Kütüphaneleri
+2016-12-19-21:27:57: 1: slide right gesture is called
+2016-12-19-21:27:58: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:58: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:59: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:59: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:59: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:59: AftermoveSectionDown section_count is: 1
+2016-12-19-21:27:59: section_count is:0
+2016-12-19-21:27:59: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:00: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:00: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:00: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:00: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:01: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:01: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:01: section_count is:0
+2016-12-19-21:28:01: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:02: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:02: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:02: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:02: section_count is:0
+2016-12-19-21:28:02: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:02: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:02: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:03: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:03: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:03: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:03: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:04: section_count is:0
+2016-12-19-21:28:04: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:04: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:05: 1: slide right gesture is called
+2016-12-19-21:28:05: 1: slide right gesture is called
+2016-12-19-21:28:05: 1: slide right gesture is called
+2016-12-19-21:28:05: 1: slide right gesture is called
+2016-12-19-21:28:06: 2: slide right gesture is called
+2016-12-19-21:28:06: 2: slide right gesture is called
+2016-12-19-21:28:06: 2: slide left gesture is called
+2016-12-19-21:28:07: 2: slide right gesture is called
+2016-12-19-21:28:08: 2: slide right gesture is called
+2016-12-19-21:28:08: 2: slide right gesture is called
+2016-12-19-21:28:09: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:09: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:09: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:09: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:10: section_count is:0
+2016-12-19-21:28:10: AftermoveSectionUp section_count is: 0
+2016-12-19-21:28:11: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:11: AftermoveSectionDown section_count is: 1
+2016-12-19-21:28:24: 2:click detected at point:[object Object]
+2016-12-19-21:29:10: 2: slide left gesture is called
+2016-12-19-21:29:10: Connected
+2016-12-19-21:29:11: 2: slide left gesture is called
+2016-12-19-21:29:11: 2: slide left gesture is called
+2016-12-19-21:29:12: 1: slide left gesture is called
+2016-12-19-21:29:12: 2: slide left gesture is called
+2016-12-19-21:29:12: 2: slide left gesture is called
+2016-12-19-21:29:12: 2: slide left gesture is called
+2016-12-19-21:29:13: 1: slide left gesture is called
+2016-12-19-21:29:13: 2: slide left gesture is called
+2016-12-19-21:29:13: 2: slide left gesture is called
+2016-12-19-21:29:13: 1: slide left gesture is called
+2016-12-19-21:29:13: 2: slide left gesture is called
+2016-12-19-21:29:14: 2: slide left gesture is called
+2016-12-19-21:29:14: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:14: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:15: section_count is:0
+2016-12-19-21:29:15: AftermoveSectionUp section_count is: 0
+2016-12-19-21:29:16: 1: slide right gesture is called
+2016-12-19-21:29:16: 1: slide right gesture is called
+2016-12-19-21:29:17: 1: slide right gesture is called
+2016-12-19-21:29:17: 1: slide right gesture is called
+2016-12-19-21:29:17: 1: slide right gesture is called
+2016-12-19-21:29:18: Data received from stt: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: SearchTerm from microphone:Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: State machine is initialized with input: 
+2016-12-19-21:29:18: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: Input words : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'oradan', 'alacaksın', 'aynı', 'mesaj', 'koyma' ]
+2016-12-19-21:29:18: Input roots : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'ora', 'alacak', 'aynı', 'mesaj', 'koy' ]
+2016-12-19-21:29:18: Searching for phrase :Ebru
+2016-12-19-21:29:18: Data received from stt: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: SearchTerm from microphone:Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: State machine is initialized with input: 
+2016-12-19-21:29:18: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: Input words : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'oradan', 'alacaksın', 'aynı', 'mesaj', 'koyma' ]
+2016-12-19-21:29:18: Input roots : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'ora', 'alacak', 'aynı', 'mesaj', 'koy' ]
+2016-12-19-21:29:18: Searching for phrase :Ebru
+2016-12-19-21:29:18: Data received from stt: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: SearchTerm from microphone:Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: State machine is initialized with input: 
+2016-12-19-21:29:18: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: Input words : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'oradan', 'alacaksın', 'aynı', 'mesaj', 'koyma' ]
+2016-12-19-21:29:18: Input roots : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'ora', 'alacak', 'aynı', 'mesaj', 'koy' ]
+2016-12-19-21:29:18: Searching for phrase :Ebru
+2016-12-19-21:29:18: Data received from stt: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: SearchTerm from microphone:Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: State machine is initialized with input: 
+2016-12-19-21:29:18: Ebru Gündeş oradan alacaksın aynı mesaj koyma Ebru,Noun Gündeş,Noun ora,Other alacak,Noun aynı,Other mesaj,Noun koy,Noun
+2016-12-19-21:29:18: Input words : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'oradan', 'alacaksın', 'aynı', 'mesaj', 'koyma' ]
+2016-12-19-21:29:18: Input roots : 
+2016-12-19-21:29:18: [ 'Ebru', 'Gündeş', 'ora', 'alacak', 'aynı', 'mesaj', 'koy' ]
+2016-12-19-21:29:18: Searching for phrase :Ebru
+2016-12-19-21:29:18: Connection closed
+2016-12-19-21:29:18: Connection closed
+2016-12-19-21:29:18: Connection closed
+2016-12-19-21:29:18: Connection closed
+2016-12-19-21:29:18: AftermoveSectionUp section_count is: 0
+2016-12-19-21:29:18: AftermoveSectionUp section_count is: 0
+2016-12-19-21:29:18: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:18: Response for phrase :Ebru
+
+2016-12-19-21:29:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.66349 } ] }
+2016-12-19-21:29:18: ItemlistElement for phrase : Ebru
+2016-12-19-21:29:18: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 34.66349 }
+2016-12-19-21:29:18: Callback for phrase : Ebru
+2016-12-19-21:29:18: Callback for word is succeed :Ebru
+2016-12-19-21:29:18: Word is going to iteration : Ebru
+2016-12-19-21:29:18: Iteration for phrase : Ebru Gündeş
+2016-12-19-21:29:18: Searching for phrase :Ebru Gündeş
+2016-12-19-21:29:18: Response for phrase :Ebru
+
+2016-12-19-21:29:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.66349 } ] }
+2016-12-19-21:29:18: ItemlistElement for phrase : Ebru
+2016-12-19-21:29:18: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 34.66349 }
+2016-12-19-21:29:18: Callback for phrase : Ebru
+2016-12-19-21:29:18: Callback for word is succeed :Ebru
+2016-12-19-21:29:18: Word is going to iteration : Ebru
+2016-12-19-21:29:18: Iteration for phrase : Ebru Gündeş
+2016-12-19-21:29:18: Searching for phrase :Ebru Gündeş
+2016-12-19-21:29:18: Response for phrase :Ebru
+
+2016-12-19-21:29:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.66349 } ] }
+2016-12-19-21:29:18: ItemlistElement for phrase : Ebru
+2016-12-19-21:29:18: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 34.66349 }
+2016-12-19-21:29:18: Callback for phrase : Ebru
+2016-12-19-21:29:18: Callback for word is succeed :Ebru
+2016-12-19-21:29:18: Word is going to iteration : Ebru
+2016-12-19-21:29:18: Iteration for phrase : Ebru Gündeş
+2016-12-19-21:29:18: Searching for phrase :Ebru Gündeş
+2016-12-19-21:29:18: Response for phrase :Ebru
+
+2016-12-19-21:29:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.66349 } ] }
+2016-12-19-21:29:18: ItemlistElement for phrase : Ebru
+2016-12-19-21:29:18: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 34.66349 }
+2016-12-19-21:29:18: Callback for phrase : Ebru
+2016-12-19-21:29:18: Callback for word is succeed :Ebru
+2016-12-19-21:29:18: Word is going to iteration : Ebru
+2016-12-19-21:29:18: Iteration for phrase : Ebru Gündeş
+2016-12-19-21:29:18: Searching for phrase :Ebru Gündeş
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 598.212463 } ] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş
+2016-12-19-21:29:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 598.212463 }
+2016-12-19-21:29:19: Callback for phrase : Ebru Gündeş
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş
+2016-12-19-21:29:19: Score for phrase is598.212463 : Ebru Gündeş
+2016-12-19-21:29:19: iteration phrase is going next iteration :Ebru Gündeş
+2016-12-19-21:29:19: Iteration for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş oradan
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 598.212463 } ] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş
+2016-12-19-21:29:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 598.212463 }
+2016-12-19-21:29:19: Callback for phrase : Ebru Gündeş
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş
+2016-12-19-21:29:19: Score for phrase is598.212463 : Ebru Gündeş
+2016-12-19-21:29:19: iteration phrase is going next iteration :Ebru Gündeş
+2016-12-19-21:29:19: Iteration for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş oradan
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 598.212463 } ] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş
+2016-12-19-21:29:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 598.212463 }
+2016-12-19-21:29:19: Callback for phrase : Ebru Gündeş
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş
+2016-12-19-21:29:19: Score for phrase is598.212463 : Ebru Gündeş
+2016-12-19-21:29:19: iteration phrase is going next iteration :Ebru Gündeş
+2016-12-19-21:29:19: Iteration for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş oradan
+2016-12-19-21:29:19: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 598.212463 } ] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş
+2016-12-19-21:29:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0dp9lq',
+     name: 'Ebru Gündeş',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+        url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+        url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://ebrugundes.com.tr/' },
+  resultScore: 598.212463 }
+2016-12-19-21:29:19: Callback for phrase : Ebru Gündeş
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş
+2016-12-19-21:29:19: Score for phrase is598.212463 : Ebru Gündeş
+2016-12-19-21:29:19: iteration phrase is going next iteration :Ebru Gündeş
+2016-12-19-21:29:19: Iteration for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş oradan
+2016-12-19-21:29:19: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş oradan
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş oradan
+
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş oradan
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş oradan
+2016-12-19-21:29:19: iteration phrase is going root iteration :Ebru Gündeş oradan
+2016-12-19-21:29:19: Root iteration for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş ora
+2016-12-19-21:29:19: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş oradan
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş oradan
+
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş oradan
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş oradan
+2016-12-19-21:29:19: iteration phrase is going root iteration :Ebru Gündeş oradan
+2016-12-19-21:29:19: Root iteration for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş ora
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş oradan
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş oradan
+
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş oradan
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş oradan
+2016-12-19-21:29:19: iteration phrase is going root iteration :Ebru Gündeş oradan
+2016-12-19-21:29:19: Root iteration for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş ora
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş oradan
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş oradan
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş oradan
+
+2016-12-19-21:29:19: Callback for iteration phrase is succeed :Ebru Gündeş oradan
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş oradan
+2016-12-19-21:29:19: iteration phrase is going root iteration :Ebru Gündeş oradan
+2016-12-19-21:29:19: Root iteration for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: Searching for phrase :Ebru Gündeş ora
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş ora
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş ora
+
+2016-12-19-21:29:19: Callback for root iteration phrase is succeed :Ebru Gündeş ora
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş ora
+2016-12-19-21:29:19: Root iteration phrase is going to matching :Ebru Gündeş ora
+2016-12-19-21:29:19: Matching result for phrase : Ebru Gündeş
+
+2016-12-19-21:29:19: { '@id': 'kg:/m/0dp9lq',
+  name: 'Ebru Gündeş',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+     url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+     url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://ebrugundes.com.tr/' }
+2016-12-19-21:29:19: Result for phrase will be printed : Ebru Gündeş
+2016-12-19-21:29:19: https://www.googleapis.com/customsearch/v1?q=Ebru Gündeş&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:29:19: received_result_no=1
+2016-12-19-21:29:19: System goes new search 
+2016-12-19-21:29:19: Searching for phrase :oradan
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş ora
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş ora
+
+2016-12-19-21:29:19: Callback for root iteration phrase is succeed :Ebru Gündeş ora
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş ora
+2016-12-19-21:29:19: Root iteration phrase is going to matching :Ebru Gündeş ora
+2016-12-19-21:29:19: Matching result for phrase : Ebru Gündeş
+
+2016-12-19-21:29:19: { '@id': 'kg:/m/0dp9lq',
+  name: 'Ebru Gündeş',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+     url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+     url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://ebrugundes.com.tr/' }
+2016-12-19-21:29:19: Result for phrase will be printed : Ebru Gündeş
+2016-12-19-21:29:19: https://www.googleapis.com/customsearch/v1?q=Ebru Gündeş&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:29:19: received_result_no=1
+2016-12-19-21:29:19: System goes new search 
+2016-12-19-21:29:19: Searching for phrase :oradan
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş ora
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş ora
+
+2016-12-19-21:29:19: Callback for root iteration phrase is succeed :Ebru Gündeş ora
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş ora
+2016-12-19-21:29:19: Root iteration phrase is going to matching :Ebru Gündeş ora
+2016-12-19-21:29:19: Matching result for phrase : Ebru Gündeş
+
+2016-12-19-21:29:19: { '@id': 'kg:/m/0dp9lq',
+  name: 'Ebru Gündeş',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+     url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+     url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://ebrugundes.com.tr/' }
+2016-12-19-21:29:19: Result for phrase will be printed : Ebru Gündeş
+2016-12-19-21:29:19: https://www.googleapis.com/customsearch/v1?q=Ebru Gündeş&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:29:19: received_result_no=1
+2016-12-19-21:29:19: System goes new search 
+2016-12-19-21:29:19: Searching for phrase :oradan
+2016-12-19-21:29:19: Response for phrase :Ebru Gündeş ora
+
+2016-12-19-21:29:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:19: ItemlistElement for phrase : Ebru Gündeş ora
+2016-12-19-21:29:19: undefined
+2016-12-19-21:29:19: Failed callback for phras : Ebru Gündeş ora
+
+2016-12-19-21:29:19: Callback for root iteration phrase is succeed :Ebru Gündeş ora
+2016-12-19-21:29:19: Score for phrase isnull : Ebru Gündeş ora
+2016-12-19-21:29:19: Root iteration phrase is going to matching :Ebru Gündeş ora
+2016-12-19-21:29:19: Matching result for phrase : Ebru Gündeş
+
+2016-12-19-21:29:19: { '@id': 'kg:/m/0dp9lq',
+  name: 'Ebru Gündeş',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT-STa6Ug9O8XE0-R0snUL4e9o9iHgWY4aZTy3lkIrc2-5MxD5G',
+     url: 'https://en.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Ebru Gündeş, Türk şarkıcı, sunucu ve oyuncu.',
+     url: 'https://tr.wikipedia.org/wiki/Ebru_G%C3%BCnde%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://ebrugundes.com.tr/' }
+2016-12-19-21:29:19: Result for phrase will be printed : Ebru Gündeş
+2016-12-19-21:29:19: https://www.googleapis.com/customsearch/v1?q=Ebru Gündeş&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:29:19: received_result_no=1
+2016-12-19-21:29:19: System goes new search 
+2016-12-19-21:29:19: Searching for phrase :oradan
+2016-12-19-21:29:20: Response for phrase :oradan
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.714902 } ] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan
+2016-12-19-21:29:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0v4666',
+     name: 'Çılgın (Hadi Oradan)',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 5.714902 }
+2016-12-19-21:29:20: Callback for phrase : oradan
+2016-12-19-21:29:20: Callback for word is succeed :oradan
+2016-12-19-21:29:20: Word is going to iteration : oradan
+2016-12-19-21:29:20: Iteration for phrase : oradan alacaksın
+2016-12-19-21:29:20: Searching for phrase :oradan alacaksın
+2016-12-19-21:29:20: Response for phrase :oradan
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.714902 } ] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan
+2016-12-19-21:29:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0v4666',
+     name: 'Çılgın (Hadi Oradan)',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 5.714902 }
+2016-12-19-21:29:20: Callback for phrase : oradan
+2016-12-19-21:29:20: Callback for word is succeed :oradan
+2016-12-19-21:29:20: Word is going to iteration : oradan
+2016-12-19-21:29:20: Iteration for phrase : oradan alacaksın
+2016-12-19-21:29:20: Searching for phrase :oradan alacaksın
+2016-12-19-21:29:20: Response for phrase :oradan
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.714902 } ] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan
+2016-12-19-21:29:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0v4666',
+     name: 'Çılgın (Hadi Oradan)',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 5.714902 }
+2016-12-19-21:29:20: Callback for phrase : oradan
+2016-12-19-21:29:20: Callback for word is succeed :oradan
+2016-12-19-21:29:20: Word is going to iteration : oradan
+2016-12-19-21:29:20: Iteration for phrase : oradan alacaksın
+2016-12-19-21:29:20: Searching for phrase :oradan alacaksın
+2016-12-19-21:29:20: Response for phrase :oradan
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.714902 } ] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan
+2016-12-19-21:29:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0v4666',
+     name: 'Çılgın (Hadi Oradan)',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 5.714902 }
+2016-12-19-21:29:20: Callback for phrase : oradan
+2016-12-19-21:29:20: Callback for word is succeed :oradan
+2016-12-19-21:29:20: Word is going to iteration : oradan
+2016-12-19-21:29:20: Iteration for phrase : oradan alacaksın
+2016-12-19-21:29:20: Searching for phrase :oradan alacaksın
+2016-12-19-21:29:20: Response for phrase :oradan alacaksın
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan alacaksın
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : oradan alacaksın
+
+2016-12-19-21:29:20: Callback for iteration phrase is succeed :oradan alacaksın
+2016-12-19-21:29:20: Score for phrase isnull : oradan alacaksın
+2016-12-19-21:29:20: iteration phrase is going root iteration :oradan alacaksın
+2016-12-19-21:29:20: Root iteration for phrase : oradan alacak
+2016-12-19-21:29:20: Searching for phrase :oradan alacak
+2016-12-19-21:29:20: Response for phrase :oradan alacak
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan alacak
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : oradan alacak
+
+2016-12-19-21:29:20: Callback for root iteration phrase is succeed :oradan alacak
+2016-12-19-21:29:20: Score for phrase isnull : oradan alacak
+2016-12-19-21:29:20: Root iteration phrase is going to matching :oradan alacak
+2016-12-19-21:29:20: Matching result for phrase : oradan
+
+2016-12-19-21:29:20: { '@id': 'kg:/m/0v4666',
+  name: 'Çılgın (Hadi Oradan)',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:20: Result for phrase will be printed : oradan
+2016-12-19-21:29:20: received_result_no=2
+2016-12-19-21:29:20: System goes new search 
+2016-12-19-21:29:20: Searching for phrase :alacaksın
+2016-12-19-21:29:20: Response for phrase :oradan alacaksın
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan alacaksın
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : oradan alacaksın
+
+2016-12-19-21:29:20: Callback for iteration phrase is succeed :oradan alacaksın
+2016-12-19-21:29:20: Score for phrase isnull : oradan alacaksın
+2016-12-19-21:29:20: iteration phrase is going root iteration :oradan alacaksın
+2016-12-19-21:29:20: Root iteration for phrase : oradan alacak
+2016-12-19-21:29:20: Searching for phrase :oradan alacak
+2016-12-19-21:29:20: Response for phrase :oradan alacaksın
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan alacaksın
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : oradan alacaksın
+
+2016-12-19-21:29:20: Callback for iteration phrase is succeed :oradan alacaksın
+2016-12-19-21:29:20: Score for phrase isnull : oradan alacaksın
+2016-12-19-21:29:20: iteration phrase is going root iteration :oradan alacaksın
+2016-12-19-21:29:20: Root iteration for phrase : oradan alacak
+2016-12-19-21:29:20: Searching for phrase :oradan alacak
+2016-12-19-21:29:20: Response for phrase :oradan alacaksın
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan alacaksın
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : oradan alacaksın
+
+2016-12-19-21:29:20: Callback for iteration phrase is succeed :oradan alacaksın
+2016-12-19-21:29:20: Score for phrase isnull : oradan alacaksın
+2016-12-19-21:29:20: iteration phrase is going root iteration :oradan alacaksın
+2016-12-19-21:29:20: Root iteration for phrase : oradan alacak
+2016-12-19-21:29:20: Searching for phrase :oradan alacak
+2016-12-19-21:29:20: Response for phrase :alacaksın
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : alacaksın
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : alacaksın
+
+2016-12-19-21:29:20: Callback for word is succeed :alacaksın
+2016-12-19-21:29:20: Word is going to root_serach : alacaksın
+2016-12-19-21:29:20: Searching for phrase :alacak
+2016-12-19-21:29:20: Response for phrase :oradan alacak
+
+2016-12-19-21:29:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:20: ItemlistElement for phrase : oradan alacak
+2016-12-19-21:29:20: undefined
+2016-12-19-21:29:20: Failed callback for phras : oradan alacak
+
+2016-12-19-21:29:20: Callback for root iteration phrase is succeed :oradan alacak
+2016-12-19-21:29:20: Score for phrase isnull : oradan alacak
+2016-12-19-21:29:20: Root iteration phrase is going to matching :oradan alacak
+2016-12-19-21:29:20: Matching result for phrase : oradan
+
+2016-12-19-21:29:20: { '@id': 'kg:/m/0v4666',
+  name: 'Çılgın (Hadi Oradan)',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:20: Result for phrase will be printed : oradan
+2016-12-19-21:29:20: received_result_no=2
+2016-12-19-21:29:20: System goes new search 
+2016-12-19-21:29:20: Searching for phrase :alacaksın
+2016-12-19-21:29:21: Response for phrase :oradan alacak
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : oradan alacak
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : oradan alacak
+
+2016-12-19-21:29:21: Callback for root iteration phrase is succeed :oradan alacak
+2016-12-19-21:29:21: Score for phrase isnull : oradan alacak
+2016-12-19-21:29:21: Root iteration phrase is going to matching :oradan alacak
+2016-12-19-21:29:21: Matching result for phrase : oradan
+
+2016-12-19-21:29:21: { '@id': 'kg:/m/0v4666',
+  name: 'Çılgın (Hadi Oradan)',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:21: Result for phrase will be printed : oradan
+2016-12-19-21:29:21: received_result_no=2
+2016-12-19-21:29:21: System goes new search 
+2016-12-19-21:29:21: Searching for phrase :alacaksın
+2016-12-19-21:29:21: Response for phrase :oradan alacak
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : oradan alacak
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : oradan alacak
+
+2016-12-19-21:29:21: Callback for root iteration phrase is succeed :oradan alacak
+2016-12-19-21:29:21: Score for phrase isnull : oradan alacak
+2016-12-19-21:29:21: Root iteration phrase is going to matching :oradan alacak
+2016-12-19-21:29:21: Matching result for phrase : oradan
+
+2016-12-19-21:29:21: { '@id': 'kg:/m/0v4666',
+  name: 'Çılgın (Hadi Oradan)',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:21: Result for phrase will be printed : oradan
+2016-12-19-21:29:21: received_result_no=2
+2016-12-19-21:29:21: System goes new search 
+2016-12-19-21:29:21: Searching for phrase :alacaksın
+2016-12-19-21:29:21: 1: slide right gesture is called
+2016-12-19-21:29:21: Response for phrase :alacaksın
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacaksın
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : alacaksın
+
+2016-12-19-21:29:21: Callback for word is succeed :alacaksın
+2016-12-19-21:29:21: Word is going to root_serach : alacaksın
+2016-12-19-21:29:21: Searching for phrase :alacak
+2016-12-19-21:29:21: Response for phrase :alacaksın
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacaksın
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : alacaksın
+
+2016-12-19-21:29:21: Callback for word is succeed :alacaksın
+2016-12-19-21:29:21: Word is going to root_serach : alacaksın
+2016-12-19-21:29:21: Searching for phrase :alacak
+2016-12-19-21:29:21: Response for phrase :alacak
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.097629 } ] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacak
+2016-12-19-21:29:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0wkjp60',
+     name: 'Alacak',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 9.097629 }
+2016-12-19-21:29:21: Callback for phrase : alacak
+2016-12-19-21:29:21: Callback for root is succeed :alacak
+2016-12-19-21:29:21: Root is going to iteration : alacak
+2016-12-19-21:29:21: Iteration for phrase : alacak aynı
+2016-12-19-21:29:21: Searching for phrase :alacak aynı
+2016-12-19-21:29:21: Response for phrase :alacaksın
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacaksın
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : alacaksın
+
+2016-12-19-21:29:21: Callback for word is succeed :alacaksın
+2016-12-19-21:29:21: Word is going to root_serach : alacaksın
+2016-12-19-21:29:21: Searching for phrase :alacak
+2016-12-19-21:29:21: 1: slide right gesture is called
+2016-12-19-21:29:21: Response for phrase :alacak
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.097629 } ] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacak
+2016-12-19-21:29:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0wkjp60',
+     name: 'Alacak',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 9.097629 }
+2016-12-19-21:29:21: Callback for phrase : alacak
+2016-12-19-21:29:21: Callback for root is succeed :alacak
+2016-12-19-21:29:21: Root is going to iteration : alacak
+2016-12-19-21:29:21: Iteration for phrase : alacak aynı
+2016-12-19-21:29:21: Searching for phrase :alacak aynı
+2016-12-19-21:29:21: Response for phrase :alacak
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.097629 } ] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacak
+2016-12-19-21:29:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0wkjp60',
+     name: 'Alacak',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 9.097629 }
+2016-12-19-21:29:21: Callback for phrase : alacak
+2016-12-19-21:29:21: Callback for root is succeed :alacak
+2016-12-19-21:29:21: Root is going to iteration : alacak
+2016-12-19-21:29:21: Iteration for phrase : alacak aynı
+2016-12-19-21:29:21: Searching for phrase :alacak aynı
+2016-12-19-21:29:21: Response for phrase :alacak aynı
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:21: Callback for iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:21: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:21: iteration phrase is going root iteration :alacak aynı
+2016-12-19-21:29:21: Root iteration for phrase : alacak aynı
+2016-12-19-21:29:21: Searching for phrase :alacak aynı
+2016-12-19-21:29:21: Response for phrase :alacak
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 9.097629 } ] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacak
+2016-12-19-21:29:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0wkjp60',
+     name: 'Alacak',
+     '@type': [ 'MusicRecording', 'Thing' ] },
+  resultScore: 9.097629 }
+2016-12-19-21:29:21: Callback for phrase : alacak
+2016-12-19-21:29:21: Callback for root is succeed :alacak
+2016-12-19-21:29:21: Root is going to iteration : alacak
+2016-12-19-21:29:21: Iteration for phrase : alacak aynı
+2016-12-19-21:29:21: Searching for phrase :alacak aynı
+2016-12-19-21:29:21: Response for phrase :alacak aynı
+
+2016-12-19-21:29:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:21: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:21: undefined
+2016-12-19-21:29:21: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:21: Callback for iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:21: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:21: iteration phrase is going root iteration :alacak aynı
+2016-12-19-21:29:21: Root iteration for phrase : alacak aynı
+2016-12-19-21:29:21: Searching for phrase :alacak aynı
+2016-12-19-21:29:22: 1: slide right gesture is called
+2016-12-19-21:29:22: Response for phrase :alacak aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:22: Callback for iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:22: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:22: iteration phrase is going root iteration :alacak aynı
+2016-12-19-21:29:22: Root iteration for phrase : alacak aynı
+2016-12-19-21:29:22: Searching for phrase :alacak aynı
+2016-12-19-21:29:22: Response for phrase :alacak aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:22: Callback for root iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:22: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:22: Root iteration phrase is going to matching :alacak aynı
+2016-12-19-21:29:22: Matching result for phrase : alacak
+
+2016-12-19-21:29:22: { '@id': 'kg:/m/0wkjp60',
+  name: 'Alacak',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:22: Result for phrase will not be printed because it is not noun : alacak
+2016-12-19-21:29:22: System goes new search 
+2016-12-19-21:29:22: Searching for phrase :aynı
+2016-12-19-21:29:22: Response for phrase :alacak aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:22: Callback for iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:22: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:22: iteration phrase is going root iteration :alacak aynı
+2016-12-19-21:29:22: Root iteration for phrase : alacak aynı
+2016-12-19-21:29:22: Searching for phrase :alacak aynı
+2016-12-19-21:29:22: Response for phrase :alacak aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:22: Callback for root iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:22: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:22: Root iteration phrase is going to matching :alacak aynı
+2016-12-19-21:29:22: Matching result for phrase : alacak
+
+2016-12-19-21:29:22: { '@id': 'kg:/m/0wkjp60',
+  name: 'Alacak',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:22: Result for phrase will not be printed because it is not noun : alacak
+2016-12-19-21:29:22: System goes new search 
+2016-12-19-21:29:22: Searching for phrase :aynı
+2016-12-19-21:29:22: Response for phrase :alacak aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:22: Callback for root iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:22: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:22: Root iteration phrase is going to matching :alacak aynı
+2016-12-19-21:29:22: Matching result for phrase : alacak
+
+2016-12-19-21:29:22: { '@id': 'kg:/m/0wkjp60',
+  name: 'Alacak',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:22: Result for phrase will not be printed because it is not noun : alacak
+2016-12-19-21:29:22: System goes new search 
+2016-12-19-21:29:22: Searching for phrase :aynı
+2016-12-19-21:29:22: Response for phrase :alacak aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : alacak aynı
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : alacak aynı
+
+2016-12-19-21:29:22: Callback for root iteration phrase is succeed :alacak aynı
+2016-12-19-21:29:22: Score for phrase isnull : alacak aynı
+2016-12-19-21:29:22: Root iteration phrase is going to matching :alacak aynı
+2016-12-19-21:29:22: Matching result for phrase : alacak
+
+2016-12-19-21:29:22: { '@id': 'kg:/m/0wkjp60',
+  name: 'Alacak',
+  '@type': [ 'MusicRecording', 'Thing' ] }
+2016-12-19-21:29:22: Result for phrase will not be printed because it is not noun : alacak
+2016-12-19-21:29:22: System goes new search 
+2016-12-19-21:29:22: Searching for phrase :aynı
+2016-12-19-21:29:22: Response for phrase :aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.488712 } ] }
+2016-12-19-21:29:22: ItemlistElement for phrase : aynı
+2016-12-19-21:29:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06vmd9',
+     name: 'The Walking Dead',
+     '@type': [ 'Thing' ],
+     description: 'Çizgi Roman Serisi',
+     detailedDescription: 
+      { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+        url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.488712 }
+2016-12-19-21:29:22: Callback for phrase : aynı
+2016-12-19-21:29:22: Callback for word is succeed :aynı
+2016-12-19-21:29:22: Word is going to iteration : aynı
+2016-12-19-21:29:22: Iteration for phrase : aynı mesaj
+2016-12-19-21:29:22: Searching for phrase :aynı mesaj
+2016-12-19-21:29:22: Response for phrase :aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.488712 } ] }
+2016-12-19-21:29:22: ItemlistElement for phrase : aynı
+2016-12-19-21:29:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06vmd9',
+     name: 'The Walking Dead',
+     '@type': [ 'Thing' ],
+     description: 'Çizgi Roman Serisi',
+     detailedDescription: 
+      { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+        url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.488712 }
+2016-12-19-21:29:22: Callback for phrase : aynı
+2016-12-19-21:29:22: Callback for word is succeed :aynı
+2016-12-19-21:29:22: Word is going to iteration : aynı
+2016-12-19-21:29:22: Iteration for phrase : aynı mesaj
+2016-12-19-21:29:22: Searching for phrase :aynı mesaj
+2016-12-19-21:29:22: section_count is:2
+2016-12-19-21:29:22: AftermoveSectionDown section_count is: 2
+2016-12-19-21:29:22: Response for phrase :aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.488712 } ] }
+2016-12-19-21:29:22: ItemlistElement for phrase : aynı
+2016-12-19-21:29:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06vmd9',
+     name: 'The Walking Dead',
+     '@type': [ 'Thing' ],
+     description: 'Çizgi Roman Serisi',
+     detailedDescription: 
+      { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+        url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.488712 }
+2016-12-19-21:29:22: Callback for phrase : aynı
+2016-12-19-21:29:22: Callback for word is succeed :aynı
+2016-12-19-21:29:22: Word is going to iteration : aynı
+2016-12-19-21:29:22: Iteration for phrase : aynı mesaj
+2016-12-19-21:29:22: Searching for phrase :aynı mesaj
+2016-12-19-21:29:22: Response for phrase :aynı
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.488712 } ] }
+2016-12-19-21:29:22: ItemlistElement for phrase : aynı
+2016-12-19-21:29:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06vmd9',
+     name: 'The Walking Dead',
+     '@type': [ 'Thing' ],
+     description: 'Çizgi Roman Serisi',
+     detailedDescription: 
+      { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+        url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.488712 }
+2016-12-19-21:29:22: Callback for phrase : aynı
+2016-12-19-21:29:22: Callback for word is succeed :aynı
+2016-12-19-21:29:22: Word is going to iteration : aynı
+2016-12-19-21:29:22: Iteration for phrase : aynı mesaj
+2016-12-19-21:29:22: Searching for phrase :aynı mesaj
+2016-12-19-21:29:22: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:22: Callback for iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:22: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:22: iteration phrase is going root iteration :aynı mesaj
+2016-12-19-21:29:22: Root iteration for phrase : aynı mesaj
+2016-12-19-21:29:22: Searching for phrase :aynı mesaj
+2016-12-19-21:29:22: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:22: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:22: undefined
+2016-12-19-21:29:22: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:22: Callback for iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:22: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:22: iteration phrase is going root iteration :aynı mesaj
+2016-12-19-21:29:22: Root iteration for phrase : aynı mesaj
+2016-12-19-21:29:22: Searching for phrase :aynı mesaj
+2016-12-19-21:29:22: section_count is:3
+2016-12-19-21:29:22: AftermoveSectionDown section_count is: 3
+2016-12-19-21:29:23: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:23: Callback for root iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:23: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:23: Root iteration phrase is going to matching :aynı mesaj
+2016-12-19-21:29:23: Matching result for phrase : aynı
+
+2016-12-19-21:29:23: { '@id': 'kg:/m/06vmd9',
+  name: 'The Walking Dead',
+  '@type': [ 'Thing' ],
+  description: 'Çizgi Roman Serisi',
+  detailedDescription: 
+   { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+     url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:29:23: Result for phrase will be printed : aynı
+2016-12-19-21:29:23: received_result_no=3
+2016-12-19-21:29:23: System goes new search 
+2016-12-19-21:29:23: Searching for phrase :mesaj
+2016-12-19-21:29:23: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:23: Callback for iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:23: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:23: iteration phrase is going root iteration :aynı mesaj
+2016-12-19-21:29:23: Root iteration for phrase : aynı mesaj
+2016-12-19-21:29:23: Searching for phrase :aynı mesaj
+2016-12-19-21:29:23: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:23: Callback for iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:23: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:23: iteration phrase is going root iteration :aynı mesaj
+2016-12-19-21:29:23: Root iteration for phrase : aynı mesaj
+2016-12-19-21:29:23: Searching for phrase :aynı mesaj
+2016-12-19-21:29:23: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:23: Callback for root iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:23: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:23: Root iteration phrase is going to matching :aynı mesaj
+2016-12-19-21:29:23: Matching result for phrase : aynı
+
+2016-12-19-21:29:23: { '@id': 'kg:/m/06vmd9',
+  name: 'The Walking Dead',
+  '@type': [ 'Thing' ],
+  description: 'Çizgi Roman Serisi',
+  detailedDescription: 
+   { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+     url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:29:23: Result for phrase will be printed : aynı
+2016-12-19-21:29:23: received_result_no=3
+2016-12-19-21:29:23: System goes new search 
+2016-12-19-21:29:23: Searching for phrase :mesaj
+2016-12-19-21:29:23: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:23: Callback for root iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:23: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:23: Root iteration phrase is going to matching :aynı mesaj
+2016-12-19-21:29:23: Matching result for phrase : aynı
+
+2016-12-19-21:29:23: { '@id': 'kg:/m/06vmd9',
+  name: 'The Walking Dead',
+  '@type': [ 'Thing' ],
+  description: 'Çizgi Roman Serisi',
+  detailedDescription: 
+   { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+     url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:29:23: Result for phrase will be printed : aynı
+2016-12-19-21:29:23: received_result_no=3
+2016-12-19-21:29:23: System goes new search 
+2016-12-19-21:29:23: Searching for phrase :mesaj
+2016-12-19-21:29:23: Response for phrase :aynı mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : aynı mesaj
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : aynı mesaj
+
+2016-12-19-21:29:23: Callback for root iteration phrase is succeed :aynı mesaj
+2016-12-19-21:29:23: Score for phrase isnull : aynı mesaj
+2016-12-19-21:29:23: Root iteration phrase is going to matching :aynı mesaj
+2016-12-19-21:29:23: Matching result for phrase : aynı
+
+2016-12-19-21:29:23: { '@id': 'kg:/m/06vmd9',
+  name: 'The Walking Dead',
+  '@type': [ 'Thing' ],
+  description: 'Çizgi Roman Serisi',
+  detailedDescription: 
+   { articleBody: 'The Walking Dead, yazar Robert Kirkman ve çizer Tony Moore tarafından yaratılan, yayımı devam eden, siyah-beyaz Amerikan çizgi roman serisidir. ',
+     url: 'https://tr.wikipedia.org/wiki/The_Walking_Dead_(%C3%A7izgi_roman)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:29:23: Result for phrase will be printed : aynı
+2016-12-19-21:29:23: received_result_no=3
+2016-12-19-21:29:23: System goes new search 
+2016-12-19-21:29:23: Searching for phrase :mesaj
+2016-12-19-21:29:23: Response for phrase :mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.241028 } ] }
+2016-12-19-21:29:23: ItemlistElement for phrase : mesaj
+2016-12-19-21:29:23: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/026lgs',
+     name: 'Mesaj',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1997 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+        url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://contact-themovie.warnerbros.com/main.html' },
+  resultScore: 43.241028 }
+2016-12-19-21:29:23: Callback for phrase : mesaj
+2016-12-19-21:29:23: Callback for word is succeed :mesaj
+2016-12-19-21:29:23: Word is going to iteration : mesaj
+2016-12-19-21:29:23: Iteration for phrase : mesaj koyma
+2016-12-19-21:29:23: Searching for phrase :mesaj koyma
+2016-12-19-21:29:23: Response for phrase :mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.241028 } ] }
+2016-12-19-21:29:23: ItemlistElement for phrase : mesaj
+2016-12-19-21:29:23: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/026lgs',
+     name: 'Mesaj',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1997 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+        url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://contact-themovie.warnerbros.com/main.html' },
+  resultScore: 43.241028 }
+2016-12-19-21:29:23: Callback for phrase : mesaj
+2016-12-19-21:29:23: Callback for word is succeed :mesaj
+2016-12-19-21:29:23: Word is going to iteration : mesaj
+2016-12-19-21:29:23: Iteration for phrase : mesaj koyma
+2016-12-19-21:29:23: Searching for phrase :mesaj koyma
+2016-12-19-21:29:23: 1: slide right gesture is called
+2016-12-19-21:29:23: Response for phrase :mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.241028 } ] }
+2016-12-19-21:29:23: ItemlistElement for phrase : mesaj
+2016-12-19-21:29:23: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/026lgs',
+     name: 'Mesaj',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1997 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+        url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://contact-themovie.warnerbros.com/main.html' },
+  resultScore: 43.241028 }
+2016-12-19-21:29:23: Callback for phrase : mesaj
+2016-12-19-21:29:23: Callback for word is succeed :mesaj
+2016-12-19-21:29:23: Word is going to iteration : mesaj
+2016-12-19-21:29:23: Iteration for phrase : mesaj koyma
+2016-12-19-21:29:23: Searching for phrase :mesaj koyma
+2016-12-19-21:29:23: Response for phrase :mesaj
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.241028 } ] }
+2016-12-19-21:29:23: ItemlistElement for phrase : mesaj
+2016-12-19-21:29:23: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/026lgs',
+     name: 'Mesaj',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1997 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+        url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://contact-themovie.warnerbros.com/main.html' },
+  resultScore: 43.241028 }
+2016-12-19-21:29:23: Callback for phrase : mesaj
+2016-12-19-21:29:23: Callback for word is succeed :mesaj
+2016-12-19-21:29:23: Word is going to iteration : mesaj
+2016-12-19-21:29:23: Iteration for phrase : mesaj koyma
+2016-12-19-21:29:23: Searching for phrase :mesaj koyma
+2016-12-19-21:29:23: Response for phrase :mesaj koyma
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : mesaj koyma
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : mesaj koyma
+
+2016-12-19-21:29:23: Callback for iteration phrase is succeed :mesaj koyma
+2016-12-19-21:29:23: Score for phrase isnull : mesaj koyma
+2016-12-19-21:29:23: iteration phrase is going root iteration :mesaj koyma
+2016-12-19-21:29:23: Root iteration for phrase : mesaj koy
+2016-12-19-21:29:23: Searching for phrase :mesaj koy
+2016-12-19-21:29:23: Response for phrase :mesaj koyma
+
+2016-12-19-21:29:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:23: ItemlistElement for phrase : mesaj koyma
+2016-12-19-21:29:23: undefined
+2016-12-19-21:29:23: Failed callback for phras : mesaj koyma
+
+2016-12-19-21:29:23: Callback for iteration phrase is succeed :mesaj koyma
+2016-12-19-21:29:23: Score for phrase isnull : mesaj koyma
+2016-12-19-21:29:23: iteration phrase is going root iteration :mesaj koyma
+2016-12-19-21:29:23: Root iteration for phrase : mesaj koy
+2016-12-19-21:29:23: Searching for phrase :mesaj koy
+2016-12-19-21:29:24: Response for phrase :mesaj koyma
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:24: ItemlistElement for phrase : mesaj koyma
+2016-12-19-21:29:24: undefined
+2016-12-19-21:29:24: Failed callback for phras : mesaj koyma
+
+2016-12-19-21:29:24: Callback for iteration phrase is succeed :mesaj koyma
+2016-12-19-21:29:24: Score for phrase isnull : mesaj koyma
+2016-12-19-21:29:24: iteration phrase is going root iteration :mesaj koyma
+2016-12-19-21:29:24: Root iteration for phrase : mesaj koy
+2016-12-19-21:29:24: Searching for phrase :mesaj koy
+2016-12-19-21:29:24: Response for phrase :mesaj koyma
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:24: ItemlistElement for phrase : mesaj koyma
+2016-12-19-21:29:24: undefined
+2016-12-19-21:29:24: Failed callback for phras : mesaj koyma
+
+2016-12-19-21:29:24: Callback for iteration phrase is succeed :mesaj koyma
+2016-12-19-21:29:24: Score for phrase isnull : mesaj koyma
+2016-12-19-21:29:24: iteration phrase is going root iteration :mesaj koyma
+2016-12-19-21:29:24: Root iteration for phrase : mesaj koy
+2016-12-19-21:29:24: Searching for phrase :mesaj koy
+2016-12-19-21:29:24: Response for phrase :mesaj koy
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:24: ItemlistElement for phrase : mesaj koy
+2016-12-19-21:29:24: undefined
+2016-12-19-21:29:24: Failed callback for phras : mesaj koy
+
+2016-12-19-21:29:24: Callback for root iteration phrase is succeed :mesaj koy
+2016-12-19-21:29:24: Score for phrase isnull : mesaj koy
+2016-12-19-21:29:24: Root iteration phrase is going to matching :mesaj koy
+2016-12-19-21:29:24: Matching result for phrase : mesaj
+
+2016-12-19-21:29:24: { '@id': 'kg:/m/026lgs',
+  name: 'Mesaj',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1997 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+     url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://contact-themovie.warnerbros.com/main.html' }
+2016-12-19-21:29:24: Result for phrase will be printed : mesaj
+2016-12-19-21:29:24: received_result_no=4
+2016-12-19-21:29:24: System goes new search 
+2016-12-19-21:29:24: Searching for phrase :koyma
+2016-12-19-21:29:24: Response for phrase :mesaj koy
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:24: ItemlistElement for phrase : mesaj koy
+2016-12-19-21:29:24: undefined
+2016-12-19-21:29:24: Failed callback for phras : mesaj koy
+
+2016-12-19-21:29:24: Callback for root iteration phrase is succeed :mesaj koy
+2016-12-19-21:29:24: Score for phrase isnull : mesaj koy
+2016-12-19-21:29:24: Root iteration phrase is going to matching :mesaj koy
+2016-12-19-21:29:24: Matching result for phrase : mesaj
+
+2016-12-19-21:29:24: { '@id': 'kg:/m/026lgs',
+  name: 'Mesaj',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1997 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+     url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://contact-themovie.warnerbros.com/main.html' }
+2016-12-19-21:29:24: Result for phrase will be printed : mesaj
+2016-12-19-21:29:24: received_result_no=4
+2016-12-19-21:29:24: System goes new search 
+2016-12-19-21:29:24: Searching for phrase :koyma
+2016-12-19-21:29:24: Response for phrase :mesaj koy
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:24: ItemlistElement for phrase : mesaj koy
+2016-12-19-21:29:24: undefined
+2016-12-19-21:29:24: Failed callback for phras : mesaj koy
+
+2016-12-19-21:29:24: Callback for root iteration phrase is succeed :mesaj koy
+2016-12-19-21:29:24: Score for phrase isnull : mesaj koy
+2016-12-19-21:29:24: Root iteration phrase is going to matching :mesaj koy
+2016-12-19-21:29:24: Matching result for phrase : mesaj
+
+2016-12-19-21:29:24: { '@id': 'kg:/m/026lgs',
+  name: 'Mesaj',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1997 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+     url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://contact-themovie.warnerbros.com/main.html' }
+2016-12-19-21:29:24: Result for phrase will be printed : mesaj
+2016-12-19-21:29:24: received_result_no=4
+2016-12-19-21:29:24: System goes new search 
+2016-12-19-21:29:24: Searching for phrase :koyma
+2016-12-19-21:29:24: Response for phrase :mesaj koy
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-21:29:24: ItemlistElement for phrase : mesaj koy
+2016-12-19-21:29:24: undefined
+2016-12-19-21:29:24: Failed callback for phras : mesaj koy
+
+2016-12-19-21:29:24: Callback for root iteration phrase is succeed :mesaj koy
+2016-12-19-21:29:24: Score for phrase isnull : mesaj koy
+2016-12-19-21:29:24: Root iteration phrase is going to matching :mesaj koy
+2016-12-19-21:29:24: Matching result for phrase : mesaj
+
+2016-12-19-21:29:24: { '@id': 'kg:/m/026lgs',
+  name: 'Mesaj',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1997 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+     url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://contact-themovie.warnerbros.com/main.html' }
+2016-12-19-21:29:24: Result for phrase will be printed : mesaj
+2016-12-19-21:29:24: received_result_no=4
+2016-12-19-21:29:24: System goes new search 
+2016-12-19-21:29:24: Searching for phrase :koyma
+2016-12-19-21:29:24: Response for phrase :koyma
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.929271 } ] }
+2016-12-19-21:29:24: ItemlistElement for phrase : koyma
+2016-12-19-21:29:24: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qpcch',
+     name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2007 yapımı film' },
+  resultScore: 13.929271 }
+2016-12-19-21:29:24: Callback for phrase : koyma
+2016-12-19-21:29:24: Callback for word is succeed :koyma
+2016-12-19-21:29:24: last word is noun here is the result of :koyma
+2016-12-19-21:29:24: { '@id': 'kg:/m/02qpcch',
+  name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2007 yapımı film' }
+2016-12-19-21:29:24: received_result_no=5
+2016-12-19-21:29:24: finish
+2016-12-19-21:29:24: process is finished
+2016-12-19-21:29:24: -----------------Printed Results------------------------
+2016-12-19-21:29:24: Ebru Gündeş
+2016-12-19-21:29:24: Çılgın (Hadi Oradan)
+2016-12-19-21:29:24: The Walking Dead
+2016-12-19-21:29:24: Mesaj
+2016-12-19-21:29:24: Kazanmak İçin Elinden Geleni Ardına Koyma
+2016-12-19-21:29:24: Response for phrase :koyma
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.929271 } ] }
+2016-12-19-21:29:24: ItemlistElement for phrase : koyma
+2016-12-19-21:29:24: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qpcch',
+     name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2007 yapımı film' },
+  resultScore: 13.929271 }
+2016-12-19-21:29:24: Callback for phrase : koyma
+2016-12-19-21:29:24: Callback for word is succeed :koyma
+2016-12-19-21:29:24: last word is noun here is the result of :koyma
+2016-12-19-21:29:24: { '@id': 'kg:/m/02qpcch',
+  name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2007 yapımı film' }
+2016-12-19-21:29:24: received_result_no=5
+2016-12-19-21:29:24: finish
+2016-12-19-21:29:24: process is finished
+2016-12-19-21:29:24: -----------------Printed Results------------------------
+2016-12-19-21:29:24: Ebru Gündeş
+2016-12-19-21:29:24: Çılgın (Hadi Oradan)
+2016-12-19-21:29:24: The Walking Dead
+2016-12-19-21:29:24: Mesaj
+2016-12-19-21:29:24: Kazanmak İçin Elinden Geleni Ardına Koyma
+2016-12-19-21:29:24: 1: slide right gesture is called
+2016-12-19-21:29:24: Response for phrase :koyma
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.929271 } ] }
+2016-12-19-21:29:24: ItemlistElement for phrase : koyma
+2016-12-19-21:29:24: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qpcch',
+     name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2007 yapımı film' },
+  resultScore: 13.929271 }
+2016-12-19-21:29:24: Callback for phrase : koyma
+2016-12-19-21:29:24: Callback for word is succeed :koyma
+2016-12-19-21:29:24: last word is noun here is the result of :koyma
+2016-12-19-21:29:24: { '@id': 'kg:/m/02qpcch',
+  name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2007 yapımı film' }
+2016-12-19-21:29:24: received_result_no=5
+2016-12-19-21:29:24: finish
+2016-12-19-21:29:24: process is finished
+2016-12-19-21:29:24: -----------------Printed Results------------------------
+2016-12-19-21:29:24: Ebru Gündeş
+2016-12-19-21:29:24: Çılgın (Hadi Oradan)
+2016-12-19-21:29:24: The Walking Dead
+2016-12-19-21:29:24: Mesaj
+2016-12-19-21:29:24: Kazanmak İçin Elinden Geleni Ardına Koyma
+2016-12-19-21:29:24: 1: slide right gesture is called
+2016-12-19-21:29:24: Response for phrase :koyma
+
+2016-12-19-21:29:24: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.929271 } ] }
+2016-12-19-21:29:24: ItemlistElement for phrase : koyma
+2016-12-19-21:29:24: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qpcch',
+     name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2007 yapımı film' },
+  resultScore: 13.929271 }
+2016-12-19-21:29:24: Callback for phrase : koyma
+2016-12-19-21:29:24: Callback for word is succeed :koyma
+2016-12-19-21:29:24: last word is noun here is the result of :koyma
+2016-12-19-21:29:24: { '@id': 'kg:/m/02qpcch',
+  name: 'Kazanmak İçin Elinden Geleni Ardına Koyma',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2007 yapımı film' }
+2016-12-19-21:29:24: received_result_no=5
+2016-12-19-21:29:24: finish
+2016-12-19-21:29:24: process is finished
+2016-12-19-21:29:24: -----------------Printed Results------------------------
+2016-12-19-21:29:24: Ebru Gündeş
+2016-12-19-21:29:24: Çılgın (Hadi Oradan)
+2016-12-19-21:29:24: The Walking Dead
+2016-12-19-21:29:24: Mesaj
+2016-12-19-21:29:24: Kazanmak İçin Elinden Geleni Ardına Koyma
+2016-12-19-21:29:25: 1: slide left gesture is called
+2016-12-19-21:29:26: section_count is:2
+2016-12-19-21:29:26: AftermoveSectionUp section_count is: 2
+2016-12-19-21:29:26: section_count is:1
+2016-12-19-21:29:26: AftermoveSectionUp section_count is: 1
+2016-12-19-21:29:29: 1: slide left gesture is called
+2016-12-19-21:29:29: 2: slide right gesture is called
+2016-12-19-21:29:29: 1: slide left gesture is called
+2016-12-19-21:29:30: 2: slide left gesture is called
+2016-12-19-21:29:31: section_count is:2
+2016-12-19-21:29:31: AftermoveSectionDown section_count is: 2
+2016-12-19-21:29:31: section_count is:3
+2016-12-19-21:29:31: AftermoveSectionDown section_count is: 3
+2016-12-19-21:29:33: section_count is:2
+2016-12-19-21:29:33: AftermoveSectionUp section_count is: 2
+2016-12-19-21:29:33: section_count is:1
+2016-12-19-21:29:33: AftermoveSectionUp section_count is: 1
+2016-12-19-21:29:34: section_count is:0
+2016-12-19-21:29:34: AftermoveSectionUp section_count is: 0
+2016-12-19-21:29:34: AftermoveSectionUp section_count is: 0
+2016-12-19-21:29:35: 1: slide right gesture is called
+2016-12-19-21:29:35: 1: slide right gesture is called
+2016-12-19-21:29:35: 1: slide right gesture is called
+2016-12-19-21:29:36: 1: slide left gesture is called
+2016-12-19-21:29:36: 1: slide left gesture is called
+2016-12-19-21:29:36: 2: slide left gesture is called
+2016-12-19-21:29:36: section_count is:1
+2016-12-19-21:29:36: AftermoveSectionDown section_count is: 1
+2016-12-19-21:29:37: section_count is:2
+2016-12-19-21:29:37: AftermoveSectionDown section_count is: 2
+2016-12-19-21:29:38: 1: slide right gesture is called
+2016-12-19-21:29:38: 1: slide right gesture is called
+2016-12-19-21:29:39: 1: slide left gesture is called
+2016-12-19-21:29:40: section_count is:3
+2016-12-19-21:29:40: AftermoveSectionDown section_count is: 3
+2016-12-19-21:29:41: section_count is:4
+2016-12-19-21:29:41: AftermoveSectionDown section_count is: 4
+2016-12-19-21:29:41: section_count is:5
+2016-12-19-21:29:41: AftermoveSectionDown section_count is: 5
+2016-12-19-21:29:42: section_count is:6
+2016-12-19-21:29:42: AftermoveSectionDown section_count is: 6
+2016-12-19-21:29:42: section_count is:7
+2016-12-19-21:29:42: AftermoveSectionDown section_count is: 7
+2016-12-19-21:29:42: section_count is:8
+2016-12-19-21:29:42: AftermoveSectionDown section_count is: 8
+2016-12-19-21:29:43: 1: slide left gesture is called
+2016-12-19-21:29:44: 1: slide left gesture is called
+2016-12-19-21:29:44: 1: slide left gesture is called
+2016-12-19-21:29:44: 1: slide left gesture is called
+2016-12-19-21:29:44: 1: slide left gesture is called
+2016-12-19-21:29:44: 1: slide left gesture is called
+2016-12-19-21:29:45: 2: slide left gesture is called
+2016-12-19-21:29:45: section_count is:9
+2016-12-19-21:29:45: AftermoveSectionDown section_count is: 9
+2016-12-19-21:29:45: section_count is:10
+2016-12-19-21:29:45: AftermoveSectionDown section_count is: 10
+2016-12-19-21:29:47: 1: slide right gesture is called
+2016-12-19-21:29:47: 1: slide right gesture is called
+2016-12-19-21:29:48: 1: slide right gesture is called
+2016-12-19-21:29:48: 1: slide right gesture is called
+2016-12-19-21:29:48: 2: slide right gesture is called
+2016-12-19-21:29:48: 1: slide right gesture is called
+2016-12-19-21:29:49: 1: slide right gesture is called
+2016-12-19-21:29:49: 2: slide left gesture is called
+2016-12-19-21:29:49: section_count is:11
+2016-12-19-21:29:49: AftermoveSectionDown section_count is: 11
+2016-12-19-21:29:49: section_count is:12
+2016-12-19-21:29:49: AftermoveSectionDown section_count is: 12
+2016-12-19-21:29:50: section_count is:11
+2016-12-19-21:29:50: AftermoveSectionUp section_count is: 11
+2016-12-19-21:29:51: section_count is:12
+2016-12-19-21:29:51: AftermoveSectionDown section_count is: 12
+2016-12-19-21:29:51: section_count is:13
+2016-12-19-21:29:51: AftermoveSectionDown section_count is: 13
+2016-12-19-21:29:53: 1: slide right gesture is called
+2016-12-19-21:29:54: 1: slide right gesture is called
+2016-12-19-21:29:54: 1: slide right gesture is called
+2016-12-19-21:29:55: 1: slide right gesture is called
+2016-12-19-21:29:56: section_count is:12
+2016-12-19-21:29:56: AftermoveSectionUp section_count is: 12
+2016-12-19-21:29:56: section_count is:13
+2016-12-19-21:29:56: AftermoveSectionDown section_count is: 13
+2016-12-19-21:30:01: section_count is:14
+2016-12-19-21:30:01: AftermoveSectionDown section_count is: 14
+2016-12-19-21:30:01: section_count is:15
+2016-12-19-21:30:01: AftermoveSectionDown section_count is: 15
+2016-12-19-21:30:02: section_count is:16
+2016-12-19-21:30:02: AftermoveSectionDown section_count is: 16
+2016-12-19-21:30:02: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:03: section_count is:16
+2016-12-19-21:30:03: AftermoveSectionUp section_count is: 16
+2016-12-19-21:30:04: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:05: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:06: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:07: section_count is:16
+2016-12-19-21:30:07: AftermoveSectionUp section_count is: 16
+2016-12-19-21:30:07: section_count is:15
+2016-12-19-21:30:07: AftermoveSectionUp section_count is: 15
+2016-12-19-21:30:08: section_count is:16
+2016-12-19-21:30:08: AftermoveSectionDown section_count is: 16
+2016-12-19-21:30:08: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:09: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:10: 1: slide right gesture is called
+2016-12-19-21:30:10: 1: slide right gesture is called
+2016-12-19-21:30:11: 1: slide right gesture is called
+2016-12-19-21:30:11: 1: slide right gesture is called
+2016-12-19-21:30:12: 1: slide left gesture is called
+2016-12-19-21:30:12: 2: slide right gesture is called
+2016-12-19-21:30:12: 1: slide left gesture is called
+2016-12-19-21:30:13: 1: slide left gesture is called
+2016-12-19-21:30:14: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:14: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:14: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:14: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:15: section_count is:16
+2016-12-19-21:30:15: AftermoveSectionUp section_count is: 16
+2016-12-19-21:30:15: section_count is:15
+2016-12-19-21:30:15: AftermoveSectionUp section_count is: 15
+2016-12-19-21:30:16: section_count is:16
+2016-12-19-21:30:16: AftermoveSectionDown section_count is: 16
+2016-12-19-21:30:16: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:17: section_count is:16
+2016-12-19-21:30:17: AftermoveSectionUp section_count is: 16
+2016-12-19-21:30:17: section_count is:15
+2016-12-19-21:30:17: AftermoveSectionUp section_count is: 15
+2016-12-19-21:30:17: section_count is:14
+2016-12-19-21:30:17: AftermoveSectionUp section_count is: 14
+2016-12-19-21:30:17: 2: slide left gesture is called
+2016-12-19-21:30:18: section_count is:15
+2016-12-19-21:30:18: AftermoveSectionDown section_count is: 15
+2016-12-19-21:30:20: 2: slide left gesture is called
+2016-12-19-21:30:20: section_count is:16
+2016-12-19-21:30:20: AftermoveSectionDown section_count is: 16
+2016-12-19-21:30:21: 2: slide left gesture is called
+2016-12-19-21:30:23: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:24: 1: slide right gesture is called
+2016-12-19-21:30:24: 1: slide right gesture is called
+2016-12-19-21:30:25: 1: slide right gesture is called
+2016-12-19-21:30:26: section_count is:16
+2016-12-19-21:30:26: AftermoveSectionUp section_count is: 16
+2016-12-19-21:30:26: AftermoveSectionDown section_count is: 17
+2016-12-19-21:30:26: 2: slide right gesture is called
+2016-12-19-21:30:28: AftermoveSectionDown section_count is: 17

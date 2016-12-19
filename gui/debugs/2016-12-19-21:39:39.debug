@@ -1,0 +1,411 @@
+2016-12-19-21:39:45: 2:click detected at point:[object Object]
+2016-12-19-21:39:45: 2:click detected at point:[object Object]
+2016-12-19-21:39:45: Connected
+2016-12-19-21:39:54: Data received from stt: Demir Twitter on Another Day Demir,Noun Twitter,Noun on,Other Another,Noun Day,Noun
+2016-12-19-21:39:54: SearchTerm from microphone:Demir Twitter on Another Day Demir,Noun Twitter,Noun on,Other Another,Noun Day,Noun
+2016-12-19-21:39:54: State machine is initialized with input: 
+2016-12-19-21:39:54: Demir Twitter on Another Day Demir,Noun Twitter,Noun on,Other Another,Noun Day,Noun
+2016-12-19-21:39:54: Input words : 
+2016-12-19-21:39:54: [ 'Demir', 'Twitter', 'on', 'Another', 'Day' ]
+2016-12-19-21:39:54: Input roots : 
+2016-12-19-21:39:54: [ 'Demir', 'Twitter', 'on', 'Another', 'Day' ]
+2016-12-19-21:39:54: Searching for phrase :Demir
+2016-12-19-21:39:54: Connection closed
+2016-12-19-21:39:55: Response for phrase :Demir
+
+2016-12-19-21:39:55: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 84.295532 } ] }
+2016-12-19-21:39:55: ItemlistElement for phrase : Demir
+2016-12-19-21:39:55: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/025rw19',
+     name: 'Demir',
+     '@type': [ 'Thing' ],
+     description: 'Kimyasal Element',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcR_-uizvAcMAl5IuoeVhK62rhSyKvoMDXrgVyekup_7pjVL9c-o',
+        url: 'https://commons.wikimedia.org/wiki/File:Iron-135048.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Demir, atom numarası 26 olan kimyasal element. Simgesi Fe dir.\nDemir, dünya yüzeyinde en yaygın dördüncü mineral ve yerkabuğunda en çok bulunan metaldir. ',
+        url: 'https://tr.wikipedia.org/wiki/Demir',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 84.295532 }
+2016-12-19-21:39:55: Callback for phrase : Demir
+2016-12-19-21:39:55: Callback for word is succeed :Demir
+2016-12-19-21:39:55: Word is going to iteration : Demir
+2016-12-19-21:39:55: Iteration for phrase : Demir Twitter
+2016-12-19-21:39:55: Searching for phrase :Demir Twitter
+2016-12-19-21:39:56: Response for phrase :Demir Twitter
+
+2016-12-19-21:39:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2.783615 } ] }
+2016-12-19-21:39:56: ItemlistElement for phrase : Demir Twitter
+2016-12-19-21:39:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11bxfrgqc1',
+     name: 'Seddülbahir 32 Saat',
+     '@type': [ 'Thing', 'TVSeries' ],
+     detailedDescription: 
+      { articleBody: 'Seddülbahir 32 Saat, yönetmenliğini Yasin Uslu\'nun, senaryosunu Funda Çetin\'in yaptığı mini Türk dizisi. Yapımcılığını Okur Film\'in üstlendiği dizinin oyuncu kadrosunda Okan Yalabık, İbrahim Çelikkol, Dolunay Soysert, Murat Ünalmış ve İlker Aksum gibi oyuncular yer alıyor. ',
+        url: 'https://tr.wikipedia.org/wiki/Sedd%C3%BClbahir_32_Saat',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 2.783615 }
+2016-12-19-21:39:56: Callback for phrase : Demir Twitter
+2016-12-19-21:39:56: Callback for iteration phrase is succeed :Demir Twitter
+2016-12-19-21:39:56: Score for phrase is2.783615 : Demir Twitter
+2016-12-19-21:39:56: iteration phrase is going root iteration :Demir Twitter
+2016-12-19-21:39:56: Root iteration for phrase : Demir Twitter
+2016-12-19-21:39:56: Searching for phrase :Demir Twitter
+2016-12-19-21:39:56: Response for phrase :Demir Twitter
+
+2016-12-19-21:39:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 2.783615 } ] }
+2016-12-19-21:39:56: ItemlistElement for phrase : Demir Twitter
+2016-12-19-21:39:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11bxfrgqc1',
+     name: 'Seddülbahir 32 Saat',
+     '@type': [ 'Thing', 'TVSeries' ],
+     detailedDescription: 
+      { articleBody: 'Seddülbahir 32 Saat, yönetmenliğini Yasin Uslu\'nun, senaryosunu Funda Çetin\'in yaptığı mini Türk dizisi. Yapımcılığını Okur Film\'in üstlendiği dizinin oyuncu kadrosunda Okan Yalabık, İbrahim Çelikkol, Dolunay Soysert, Murat Ünalmış ve İlker Aksum gibi oyuncular yer alıyor. ',
+        url: 'https://tr.wikipedia.org/wiki/Sedd%C3%BClbahir_32_Saat',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 2.783615 }
+2016-12-19-21:39:56: Callback for phrase : Demir Twitter
+2016-12-19-21:39:56: Callback for root iteration phrase is succeed :Demir Twitter
+2016-12-19-21:39:56: Score for phrase is2.783615 : Demir Twitter
+2016-12-19-21:39:56: Root iteration phrase is going to matching :Demir Twitter
+2016-12-19-21:39:56: Matching result for phrase : Demir
+
+2016-12-19-21:39:56: { '@id': 'kg:/m/025rw19',
+  name: 'Demir',
+  '@type': [ 'Thing' ],
+  description: 'Kimyasal Element',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcR_-uizvAcMAl5IuoeVhK62rhSyKvoMDXrgVyekup_7pjVL9c-o',
+     url: 'https://commons.wikimedia.org/wiki/File:Iron-135048.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Demir, atom numarası 26 olan kimyasal element. Simgesi Fe dir.\nDemir, dünya yüzeyinde en yaygın dördüncü mineral ve yerkabuğunda en çok bulunan metaldir. ',
+     url: 'https://tr.wikipedia.org/wiki/Demir',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:39:56: Result for phrase will be printed : Demir
+2016-12-19-21:39:56: https://www.googleapis.com/customsearch/v1?q=Demir&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-21:39:56: received_result_no=1
+2016-12-19-21:39:56: System goes new search 
+2016-12-19-21:39:56: Searching for phrase :Twitter
+2016-12-19-21:39:57: Response for phrase :Twitter
+
+2016-12-19-21:39:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 20.51351 } ] }
+2016-12-19-21:39:57: ItemlistElement for phrase : Twitter
+2016-12-19-21:39:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0hn1vcg',
+     name: 'Twitter Inc.',
+     '@type': [ 'Corporation', 'Organization', 'Thing' ],
+     description: 'Şirket',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQZE0pjt9RkPMT83mn0Na1TYiCF5-fM2iQp8Heidb2G42joXKJJ',
+        url: 'https://commons.wikimedia.org/wiki/File:Twitter_logo_initial.png' } },
+  resultScore: 20.51351 }
+2016-12-19-21:39:57: Callback for phrase : Twitter
+2016-12-19-21:39:57: Callback for word is succeed :Twitter
+2016-12-19-21:39:57: Word is going to iteration : Twitter
+2016-12-19-21:39:57: Iteration for phrase : Twitter on
+2016-12-19-21:39:57: Searching for phrase :Twitter on
+2016-12-19-21:39:58: AftermoveSectionDown section_count is: 1
+2016-12-19-21:39:58: Response for phrase :Twitter on
+
+2016-12-19-21:39:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.670898 } ] }
+2016-12-19-21:39:58: ItemlistElement for phrase : Twitter on
+2016-12-19-21:39:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11b7_vcv19',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Müzik Albümü' },
+  resultScore: 15.670898 }
+2016-12-19-21:39:58: Callback for phrase : Twitter on
+2016-12-19-21:39:58: Callback for iteration phrase is succeed :Twitter on
+2016-12-19-21:39:58: Score for phrase is15.670898 : Twitter on
+2016-12-19-21:39:58: iteration phrase is going root iteration :Twitter on
+2016-12-19-21:39:58: Root iteration for phrase : Twitter on
+2016-12-19-21:39:58: Searching for phrase :Twitter on
+2016-12-19-21:39:58: AftermoveSectionDown section_count is: 1
+2016-12-19-21:39:59: AftermoveSectionDown section_count is: 1
+2016-12-19-21:39:59: Response for phrase :Twitter on
+
+2016-12-19-21:39:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.670898 } ] }
+2016-12-19-21:39:59: ItemlistElement for phrase : Twitter on
+2016-12-19-21:39:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11b7_vcv19',
+     '@type': [ 'MusicAlbum', 'Thing' ],
+     description: 'Müzik Albümü' },
+  resultScore: 15.670898 }
+2016-12-19-21:39:59: Callback for phrase : Twitter on
+2016-12-19-21:39:59: Callback for root iteration phrase is succeed :Twitter on
+2016-12-19-21:39:59: Score for phrase is15.670898 : Twitter on
+2016-12-19-21:39:59: Root iteration phrase is going to matching :Twitter on
+2016-12-19-21:39:59: Matching result for phrase : Twitter
+
+2016-12-19-21:39:59: { '@id': 'kg:/m/0hn1vcg',
+  name: 'Twitter Inc.',
+  '@type': [ 'Corporation', 'Organization', 'Thing' ],
+  description: 'Şirket',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQZE0pjt9RkPMT83mn0Na1TYiCF5-fM2iQp8Heidb2G42joXKJJ',
+     url: 'https://commons.wikimedia.org/wiki/File:Twitter_logo_initial.png' } }
+2016-12-19-21:39:59: Result for phrase will not be printed because it is not noun : Twitter
+2016-12-19-21:39:59: System goes new search 
+2016-12-19-21:39:59: Searching for phrase :on
+2016-12-19-21:39:59: AftermoveSectionDown section_count is: 1
+2016-12-19-21:40:00: 2: slide right gesture is called
+2016-12-19-21:40:01: Response for phrase :on
+
+2016-12-19-21:40:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 42.192707 } ] }
+2016-12-19-21:40:01: ItemlistElement for phrase : on
+2016-12-19-21:40:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05kr_',
+     name: 'Ontario',
+     '@type': [ 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Kanada Bölgesi',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT3N2fu4svo_gpLq2tRrOiopvnuab_O-B4tKMimA0CZpUbQhyrq',
+        url: 'https://commons.wikimedia.org/wiki/File:Highway400_Ontario_Canada.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Ontario, Kanada\'nın en kalabalık ve ikinci en büyük eyaletidir. Kanada\'nın doğu-orta kısmında Doğu Kanada bölgesinde yer alır. Başkenti, aynı zamanda ülkenin en kalabalık kenti olan Toronto\'dur. ',
+        url: 'https://tr.wikipedia.org/wiki/Ontario',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ontario.ca' },
+  resultScore: 42.192707 }
+2016-12-19-21:40:01: Callback for phrase : on
+2016-12-19-21:40:01: Callback for word is succeed :on
+2016-12-19-21:40:01: Word is going to iteration : on
+2016-12-19-21:40:01: Iteration for phrase : on Another
+2016-12-19-21:40:01: Searching for phrase :on Another
+2016-12-19-21:40:01: Response for phrase :on Another
+
+2016-12-19-21:40:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 128.928299 } ] }
+2016-12-19-21:40:01: ItemlistElement for phrase : on Another
+2016-12-19-21:40:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05nxjyj',
+     '@type': [ 'Thing' ],
+     description: 'Şarkı' },
+  resultScore: 128.928299 }
+2016-12-19-21:40:01: Callback for phrase : on Another
+2016-12-19-21:40:01: Callback for iteration phrase is succeed :on Another
+2016-12-19-21:40:01: Score for phrase is128.928299 : on Another
+2016-12-19-21:40:01: iteration phrase is going next iteration :on Another
+2016-12-19-21:40:01: Iteration for phrase : on Another Day
+2016-12-19-21:40:01: Searching for phrase :on Another Day
+2016-12-19-21:40:01: 2: slide right gesture is called
+2016-12-19-21:40:02: Response for phrase :on Another Day
+
+2016-12-19-21:40:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 209.219009 } ] }
+2016-12-19-21:40:02: ItemlistElement for phrase : on Another Day
+2016-12-19-21:40:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/014kq6',
+     name: 'Başka Gün Öl',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2002 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Başka Gün Öl, James Bond serisinin 2002 yapımı bir filmidir. Yönetmenliğini Lee Tamahori\'nin yaptığı Başka Gün Öl, sinema tarihinin en uzun seriye sahip olan James Bond filmlerinin yirmincisidir. ',
+        url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_G%C3%BCn_%C3%96l',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 209.219009 }
+2016-12-19-21:40:02: Callback for phrase : on Another Day
+2016-12-19-21:40:02: Callback for iteration phrase is succeed :on Another Day
+2016-12-19-21:40:02: Score for phrase is209.219009 : on Another Day
+2016-12-19-21:40:02: Last iteration the result of :on Another Day
+2016-12-19-21:40:02: { '@id': 'kg:/m/014kq6',
+  name: 'Başka Gün Öl',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2002 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Başka Gün Öl, James Bond serisinin 2002 yapımı bir filmidir. Yönetmenliğini Lee Tamahori\'nin yaptığı Başka Gün Öl, sinema tarihinin en uzun seriye sahip olan James Bond filmlerinin yirmincisidir. ',
+     url: 'https://tr.wikipedia.org/wiki/Ba%C5%9Fka_G%C3%BCn_%C3%96l',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-19-21:40:02: received_result_no=2
+2016-12-19-21:40:02: finish
+2016-12-19-21:40:02: process is finished
+2016-12-19-21:40:02: -----------------Printed Results------------------------
+2016-12-19-21:40:02: Demir
+2016-12-19-21:40:02: Başka Gün Öl
+2016-12-19-21:40:02: 2: slide right gesture is called
+2016-12-19-21:40:03: 2: slide right gesture is called
+2016-12-19-21:40:03: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:04: section_count is:1
+2016-12-19-21:40:04: AftermoveSectionUp section_count is: 1
+2016-12-19-21:40:04: section_count is:0
+2016-12-19-21:40:04: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:05: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:06: section_count is:1
+2016-12-19-21:40:06: AftermoveSectionDown section_count is: 1
+2016-12-19-21:40:07: 2: slide left gesture is called
+2016-12-19-21:40:07: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:08: 2: slide left gesture is called
+2016-12-19-21:40:08: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:08: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:09: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:09: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:10: section_count is:1
+2016-12-19-21:40:10: AftermoveSectionUp section_count is: 1
+2016-12-19-21:40:10: section_count is:0
+2016-12-19-21:40:10: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:11: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:13: 2: slide right gesture is called
+2016-12-19-21:40:13: 2: slide right gesture is called
+2016-12-19-21:40:14: 2: slide right gesture is called
+2016-12-19-21:40:15: 1: slide right gesture is called
+2016-12-19-21:40:16: 1: slide right gesture is called
+2016-12-19-21:40:16: 1: slide right gesture is called
+2016-12-19-21:40:17: 2: slide left gesture is called
+2016-12-19-21:40:17: 1: slide right gesture is called
+2016-12-19-21:40:18: 1: slide right gesture is called
+2016-12-19-21:40:20: 1: slide right gesture is called
+2016-12-19-21:40:21: 1: slide right gesture is called
+2016-12-19-21:40:21: 1: slide right gesture is called
+2016-12-19-21:40:22: 1: slide left gesture is called
+2016-12-19-21:40:23: 1: slide left gesture is called
+2016-12-19-21:40:27: 1: slide left gesture is called
+2016-12-19-21:40:28: 2: slide right gesture is called
+2016-12-19-21:40:30: 1: slide right gesture is called
+2016-12-19-21:40:30: 2: slide left gesture is called
+2016-12-19-21:40:31: 1: slide left gesture is called
+2016-12-19-21:40:32: 2: slide right gesture is called
+2016-12-19-21:40:33: 2: slide right gesture is called
+2016-12-19-21:40:34: 2: slide right gesture is called
+2016-12-19-21:40:35: section_count is:1
+2016-12-19-21:40:35: AftermoveSectionDown section_count is: 1
+2016-12-19-21:40:35: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:36: 1: slide right gesture is called
+2016-12-19-21:40:37: 1: slide left gesture is called
+2016-12-19-21:40:38: 1: slide left gesture is called
+2016-12-19-21:40:39: 1: slide right gesture is called
+2016-12-19-21:40:42: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:42: 1: slide left gesture is called
+2016-12-19-21:40:42: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:43: section_count is:1
+2016-12-19-21:40:43: AftermoveSectionUp section_count is: 1
+2016-12-19-21:40:43: section_count is:0
+2016-12-19-21:40:43: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:44: 1: slide right gesture is called
+2016-12-19-21:40:44: 1: slide right gesture is called
+2016-12-19-21:40:45: 1: slide right gesture is called
+2016-12-19-21:40:46: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:46: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:47: section_count is:1
+2016-12-19-21:40:47: AftermoveSectionDown section_count is: 1
+2016-12-19-21:40:48: 1: slide right gesture is called
+2016-12-19-21:40:48: 1: slide right gesture is called
+2016-12-19-21:40:50: 1: slide right gesture is called
+2016-12-19-21:40:50: 1: slide right gesture is called
+2016-12-19-21:40:51: 1: slide left gesture is called
+2016-12-19-21:40:52: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:52: AftermoveSectionDown section_count is: 2
+2016-12-19-21:40:53: section_count is:1
+2016-12-19-21:40:53: AftermoveSectionUp section_count is: 1
+2016-12-19-21:40:54: section_count is:0
+2016-12-19-21:40:54: AftermoveSectionUp section_count is: 0
+2016-12-19-21:40:54: AftermoveSectionUp section_count is: 0
