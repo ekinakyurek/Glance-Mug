@@ -4,7 +4,7 @@ const electron = require('electron')
 var gesture = require("./node_modules/gesture")
 var EventEmitter = require("events").EventEmitter;
 var ee = new EventEmitter();
-var gesture_recognizer = new gesture(0,0, 6144, '3300')
+var gesture_recognizer = new gesture(0,0, 4096, '3300')
 
 
 // Module to control application life.
