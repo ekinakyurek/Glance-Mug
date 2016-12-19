@@ -1,0 +1,436 @@
+2016-12-19-14:02:31: 2: slide right gesture is called
+2016-12-19-14:02:32: 2:click detected at point:[object Object]
+2016-12-19-14:02:32: 2:click detected at point:[object Object]
+2016-12-19-14:02:32: Connected
+2016-12-19-14:02:36: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:37: 1: slide right gesture is called
+2016-12-19-14:02:37: 1: slide right gesture is called
+2016-12-19-14:02:37: 1: slide right gesture is called
+2016-12-19-14:02:37: 2: slide left gesture is called
+2016-12-19-14:02:37: 1: slide right gesture is called
+2016-12-19-14:02:38: 1: slide left gesture is called
+2016-12-19-14:02:38: 1: slide right gesture is called
+2016-12-19-14:02:38: 1: slide left gesture is called
+2016-12-19-14:02:38: 1: slide left gesture is called
+2016-12-19-14:02:38: 2: slide right gesture is called
+2016-12-19-14:02:38: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:39: 1: slide right gesture is called
+2016-12-19-14:02:40: 1: slide left gesture is called
+2016-12-19-14:02:41: Data received from stt: Orhan Gencebay Açlık Oyunları Nazım Hikmet Orhan,Noun Gencebay,Noun açlık,Noun oyun,Noun Nazım,Noun Hikmet,Noun
+2016-12-19-14:02:41: SearchTerm from microphone:Orhan Gencebay Açlık Oyunları Nazım Hikmet Orhan,Noun Gencebay,Noun açlık,Noun oyun,Noun Nazım,Noun Hikmet,Noun
+2016-12-19-14:02:41: State machine is initialized with input: 
+2016-12-19-14:02:41: Orhan Gencebay Açlık Oyunları Nazım Hikmet Orhan,Noun Gencebay,Noun açlık,Noun oyun,Noun Nazım,Noun Hikmet,Noun
+2016-12-19-14:02:41: Input words : 
+2016-12-19-14:02:41: [ 'Orhan', 'Gencebay', 'Açlık', 'Oyunları', 'Nazım', 'Hikmet' ]
+2016-12-19-14:02:41: Input roots : 
+2016-12-19-14:02:41: [ 'Orhan', 'Gencebay', 'açlık', 'oyun', 'Nazım', 'Hikmet' ]
+2016-12-19-14:02:41: Searching for phrase :Orhan
+2016-12-19-14:02:41: Connection closed
+2016-12-19-14:02:41: 1: slide left gesture is called
+2016-12-19-14:02:42: Response for phrase :Orhan
+
+2016-12-19-14:02:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.491112 } ] }
+2016-12-19-14:02:42: ItemlistElement for phrase : Orhan
+2016-12-19-14:02:42: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.491112 }
+2016-12-19-14:02:42: Callback for phrase : Orhan
+2016-12-19-14:02:42: Callback for word is succeed :Orhan
+2016-12-19-14:02:42: Word is going to iteration : Orhan
+2016-12-19-14:02:42: Iteration for phrase : Orhan Gencebay
+2016-12-19-14:02:42: Searching for phrase :Orhan Gencebay
+2016-12-19-14:02:42: AftermoveSectionDown section_count is: 0
+2016-12-19-14:02:42: 1: slide left gesture is called
+2016-12-19-14:02:42: Response for phrase :Orhan Gencebay
+
+2016-12-19-14:02:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-19-14:02:42: ItemlistElement for phrase : Orhan Gencebay
+2016-12-19-14:02:42: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-19-14:02:42: Callback for phrase : Orhan Gencebay
+2016-12-19-14:02:42: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-19-14:02:42: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-19-14:02:42: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-19-14:02:42: Iteration for phrase : Orhan Gencebay Açlık
+2016-12-19-14:02:42: Searching for phrase :Orhan Gencebay Açlık
+2016-12-19-14:02:42: 1: slide right gesture is called
+2016-12-19-14:02:43: Response for phrase :Orhan Gencebay Açlık
+
+2016-12-19-14:02:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-14:02:43: ItemlistElement for phrase : Orhan Gencebay Açlık
+2016-12-19-14:02:43: undefined
+2016-12-19-14:02:43: Failed callback for phras : Orhan Gencebay Açlık
+
+2016-12-19-14:02:43: Callback for iteration phrase is succeed :Orhan Gencebay Açlık
+2016-12-19-14:02:43: Score for phrase isnull : Orhan Gencebay Açlık
+2016-12-19-14:02:43: iteration phrase is going root iteration :Orhan Gencebay Açlık
+2016-12-19-14:02:43: Root iteration for phrase : Orhan Gencebay açlık
+2016-12-19-14:02:43: Searching for phrase :Orhan Gencebay açlık
+2016-12-19-14:02:43: Response for phrase :Orhan Gencebay açlık
+
+2016-12-19-14:02:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-14:02:43: ItemlistElement for phrase : Orhan Gencebay açlık
+2016-12-19-14:02:43: undefined
+2016-12-19-14:02:43: Failed callback for phras : Orhan Gencebay açlık
+
+2016-12-19-14:02:43: Callback for root iteration phrase is succeed :Orhan Gencebay açlık
+2016-12-19-14:02:43: Score for phrase isnull : Orhan Gencebay açlık
+2016-12-19-14:02:43: Root iteration phrase is going to matching :Orhan Gencebay açlık
+2016-12-19-14:02:43: Matching result for phrase : Orhan Gencebay
+
+2016-12-19-14:02:43: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-19-14:02:43: Result for phrase will be printed : Orhan Gencebay
+2016-12-19-14:02:43: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-19-14:02:43: received_result_no=1
+2016-12-19-14:02:43: System goes new search 
+2016-12-19-14:02:43: Searching for phrase :Açlık
+2016-12-19-14:02:43: 1: slide left gesture is called
+2016-12-19-14:02:43: 1: slide right gesture is called
+2016-12-19-14:02:44: Response for phrase :Açlık
+
+2016-12-19-14:02:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.013332 } ] }
+2016-12-19-14:02:44: ItemlistElement for phrase : Açlık
+2016-12-19-14:02:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gkz15s',
+     name: 'Açlık Oyunları',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '2012 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+        url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.thehungergamesmovie.com/index.html' },
+  resultScore: 34.013332 }
+2016-12-19-14:02:44: Callback for phrase : Açlık
+2016-12-19-14:02:44: Callback for word is succeed :Açlık
+2016-12-19-14:02:44: Word is going to iteration : Açlık
+2016-12-19-14:02:44: Iteration for phrase : Açlık Oyunları
+2016-12-19-14:02:44: Searching for phrase :Açlık Oyunları
+2016-12-19-14:02:44: Response for phrase :Açlık Oyunları
+
+2016-12-19-14:02:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 594.990295 } ] }
+2016-12-19-14:02:44: ItemlistElement for phrase : Açlık Oyunları
+2016-12-19-14:02:44: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gkz15s',
+     name: 'Açlık Oyunları',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '2012 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+        url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.thehungergamesmovie.com/index.html' },
+  resultScore: 594.990295 }
+2016-12-19-14:02:44: Callback for phrase : Açlık Oyunları
+2016-12-19-14:02:44: Callback for iteration phrase is succeed :Açlık Oyunları
+2016-12-19-14:02:44: Score for phrase is594.990295 : Açlık Oyunları
+2016-12-19-14:02:44: iteration phrase is going next iteration :Açlık Oyunları
+2016-12-19-14:02:44: Iteration for phrase : Açlık Oyunları Nazım
+2016-12-19-14:02:44: Searching for phrase :Açlık Oyunları Nazım
+2016-12-19-14:02:44: Response for phrase :Açlık Oyunları Nazım
+
+2016-12-19-14:02:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-14:02:44: ItemlistElement for phrase : Açlık Oyunları Nazım
+2016-12-19-14:02:44: undefined
+2016-12-19-14:02:44: Failed callback for phras : Açlık Oyunları Nazım
+
+2016-12-19-14:02:44: Callback for iteration phrase is succeed :Açlık Oyunları Nazım
+2016-12-19-14:02:44: Score for phrase isnull : Açlık Oyunları Nazım
+2016-12-19-14:02:44: iteration phrase is going root iteration :Açlık Oyunları Nazım
+2016-12-19-14:02:44: Root iteration for phrase : Açlık Oyunları Nazım
+2016-12-19-14:02:44: Searching for phrase :Açlık Oyunları Nazım
+2016-12-19-14:02:45: AftermoveSectionDown section_count is: 1
+2016-12-19-14:02:45: 1: slide left gesture is called
+2016-12-19-14:02:45: Response for phrase :Açlık Oyunları Nazım
+
+2016-12-19-14:02:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-19-14:02:45: ItemlistElement for phrase : Açlık Oyunları Nazım
+2016-12-19-14:02:45: undefined
+2016-12-19-14:02:45: Failed callback for phras : Açlık Oyunları Nazım
+
+2016-12-19-14:02:45: Callback for root iteration phrase is succeed :Açlık Oyunları Nazım
+2016-12-19-14:02:45: Score for phrase isnull : Açlık Oyunları Nazım
+2016-12-19-14:02:45: Root iteration phrase is going to matching :Açlık Oyunları Nazım
+2016-12-19-14:02:45: Matching result for phrase : Açlık Oyunları
+
+2016-12-19-14:02:45: { '@id': 'kg:/m/0gkz15s',
+  name: 'Açlık Oyunları',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '2012 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+     url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.thehungergamesmovie.com/index.html' }
+2016-12-19-14:02:45: Result for phrase will be printed : Açlık Oyunları
+2016-12-19-14:02:45: received_result_no=2
+2016-12-19-14:02:45: System goes new search 
+2016-12-19-14:02:45: Searching for phrase :Nazım
+2016-12-19-14:02:45: 1: slide right gesture is called
+2016-12-19-14:02:45: Response for phrase :Nazım
+
+2016-12-19-14:02:45: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.857635 } ] }
+2016-12-19-14:02:45: ItemlistElement for phrase : Nazım
+2016-12-19-14:02:45: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.857635 }
+2016-12-19-14:02:45: Callback for phrase : Nazım
+2016-12-19-14:02:45: Callback for word is succeed :Nazım
+2016-12-19-14:02:45: Word is going to iteration : Nazım
+2016-12-19-14:02:45: Iteration for phrase : Nazım Hikmet
+2016-12-19-14:02:45: Searching for phrase :Nazım Hikmet
+2016-12-19-14:02:45: 1: slide left gesture is called
+2016-12-19-14:02:46: 1: slide right gesture is called
+2016-12-19-14:02:46: Response for phrase :Nazım Hikmet
+
+2016-12-19-14:02:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.338409 } ] }
+2016-12-19-14:02:46: ItemlistElement for phrase : Nazım Hikmet
+2016-12-19-14:02:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.338409 }
+2016-12-19-14:02:46: Callback for phrase : Nazım Hikmet
+2016-12-19-14:02:46: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-19-14:02:46: Score for phrase is410.338409 : Nazım Hikmet
+2016-12-19-14:02:46: Last iteration the result of :Nazım Hikmet
+2016-12-19-14:02:46: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-19-14:02:46: received_result_no=3
+2016-12-19-14:02:46: finish
+2016-12-19-14:02:46: process is finished
+2016-12-19-14:02:46: -----------------Printed Results------------------------
+2016-12-19-14:02:46: Orhan Gencebay
+2016-12-19-14:02:46: Açlık Oyunları
+2016-12-19-14:02:46: Nâzım Hikmet
+2016-12-19-14:02:46: 2: slide left gesture is called
+2016-12-19-14:02:47: 2: slide right gesture is called
+2016-12-19-14:02:49: section_count is:0
+2016-12-19-14:02:49: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:50: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:50: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:51: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:51: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:51: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:51: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:52: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:53: section_count is:1
+2016-12-19-14:02:53: AftermoveSectionDown section_count is: 1
+2016-12-19-14:02:54: section_count is:2
+2016-12-19-14:02:54: AftermoveSectionDown section_count is: 2
+2016-12-19-14:02:55: AftermoveSectionDown section_count is: 3
+2016-12-19-14:02:55: AftermoveSectionDown section_count is: 3
+2016-12-19-14:02:55: AftermoveSectionDown section_count is: 3
+2016-12-19-14:02:55: AftermoveSectionDown section_count is: 3
+2016-12-19-14:02:56: section_count is:2
+2016-12-19-14:02:56: AftermoveSectionUp section_count is: 2
+2016-12-19-14:02:57: section_count is:1
+2016-12-19-14:02:57: AftermoveSectionUp section_count is: 1
+2016-12-19-14:02:57: section_count is:0
+2016-12-19-14:02:57: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:57: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:58: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:58: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:58: 2: slide left gesture is called
+2016-12-19-14:02:58: AftermoveSectionUp section_count is: 0
+2016-12-19-14:02:59: 2: slide right gesture is called
+2016-12-19-14:03:00: 2: slide right gesture is called
+2016-12-19-14:03:00: 2: slide right gesture is called
+2016-12-19-14:03:01: 1: slide left gesture is called
+2016-12-19-14:03:01: 1: slide left gesture is called
+2016-12-19-14:03:01: 1: slide left gesture is called
+2016-12-19-14:03:02: 1: slide right gesture is called
+2016-12-19-14:03:02: 1: slide right gesture is called
+2016-12-19-14:03:02: 2: slide right gesture is called
+2016-12-19-14:03:03: 1: slide right gesture is called
+2016-12-19-14:03:03: 2: slide left gesture is called
+2016-12-19-14:03:03: section_count is:1
+2016-12-19-14:03:03: AftermoveSectionDown section_count is: 1
+2016-12-19-14:03:03: 2: slide left gesture is called
+2016-12-19-14:03:03: 1: slide right gesture is called
+2016-12-19-14:03:04: 1: slide right gesture is called
+2016-12-19-14:03:05: 1: slide right gesture is called
+2016-12-19-14:03:05: 2: slide left gesture is called
+2016-12-19-14:03:06: 1: slide right gesture is called
+2016-12-19-14:03:07: section_count is:0
+2016-12-19-14:03:07: AftermoveSectionUp section_count is: 0
+2016-12-19-14:03:07: AftermoveSectionUp section_count is: 0
+2016-12-19-14:03:08: section_count is:1
+2016-12-19-14:03:08: AftermoveSectionDown section_count is: 1
+2016-12-19-14:03:08: 2: slide right gesture is called
+2016-12-19-14:03:09: 2: slide left gesture is called
+2016-12-19-14:03:10: 2: slide left gesture is called
+2016-12-19-14:03:11: 2: slide right gesture is called
+2016-12-19-14:03:12: 2: slide right gesture is called
+2016-12-19-14:03:13: 2: slide left gesture is called
+2016-12-19-14:03:13: section_count is:0
+2016-12-19-14:03:13: AftermoveSectionUp section_count is: 0
+2016-12-19-14:03:13: 2: slide right gesture is called
+2016-12-19-14:03:13: AftermoveSectionUp section_count is: 0
+2016-12-19-14:03:13: 2: slide right gesture is called
+2016-12-19-14:03:13: 2: slide right gesture is called

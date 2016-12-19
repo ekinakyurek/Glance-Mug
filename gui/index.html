@@ -220,11 +220,11 @@
 
         ee.on("swipe-down,0", function (data) {
 
-          handle_section_changes(false);
+          handle_section_changes(true);
         });
 
         ee.on("swipe-up,0", function (data) {
-            handle_section_changes(true)
+            handle_section_changes(false)
         });
 
 
