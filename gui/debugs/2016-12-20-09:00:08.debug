@@ -1,0 +1,991 @@
+2016-12-20-09:00:19: 2:click detected at point:[object Object]
+2016-12-20-09:00:19: Connected
+2016-12-20-09:00:26: Data received from stt: Orhan Gencebay Nazım Hikmet Nazan Öncel Orhan,Noun Gencebay,Noun Nazım,Noun Hikmet,Noun Nazan,Noun Öncel,Noun
+2016-12-20-09:00:26: SearchTerm from microphone:Orhan Gencebay Nazım Hikmet Nazan Öncel Orhan,Noun Gencebay,Noun Nazım,Noun Hikmet,Noun Nazan,Noun Öncel,Noun
+2016-12-20-09:00:26: State machine is initialized with input: 
+2016-12-20-09:00:26: Orhan Gencebay Nazım Hikmet Nazan Öncel Orhan,Noun Gencebay,Noun Nazım,Noun Hikmet,Noun Nazan,Noun Öncel,Noun
+2016-12-20-09:00:26: Input words : 
+2016-12-20-09:00:26: [ 'Orhan', 'Gencebay', 'Nazım', 'Hikmet', 'Nazan', 'Öncel' ]
+2016-12-20-09:00:26: Input roots : 
+2016-12-20-09:00:26: [ 'Orhan', 'Gencebay', 'Nazım', 'Hikmet', 'Nazan', 'Öncel' ]
+2016-12-20-09:00:26: Searching for phrase :Orhan
+2016-12-20-09:00:26: Connection closed
+2016-12-20-09:00:26: connection closed in close
+2016-12-20-09:00:26: Response for phrase :Orhan
+
+2016-12-20-09:00:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.48806 } ] }
+2016-12-20-09:00:26: ItemlistElement for phrase : Orhan
+2016-12-20-09:00:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.48806 }
+2016-12-20-09:00:26: Callback for phrase : Orhan
+2016-12-20-09:00:26: Callback for word is succeed :Orhan
+2016-12-20-09:00:26: Word is going to iteration : Orhan
+2016-12-20-09:00:26: Iteration for phrase : Orhan Gencebay
+2016-12-20-09:00:26: Searching for phrase :Orhan Gencebay
+2016-12-20-09:00:27: Response for phrase :Orhan Gencebay
+
+2016-12-20-09:00:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-20-09:00:27: ItemlistElement for phrase : Orhan Gencebay
+2016-12-20-09:00:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-20-09:00:27: Callback for phrase : Orhan Gencebay
+2016-12-20-09:00:27: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-20-09:00:27: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-20-09:00:27: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-20-09:00:27: Iteration for phrase : Orhan Gencebay Nazım
+2016-12-20-09:00:27: Searching for phrase :Orhan Gencebay Nazım
+2016-12-20-09:00:27: Response for phrase :Orhan Gencebay Nazım
+
+2016-12-20-09:00:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:00:27: ItemlistElement for phrase : Orhan Gencebay Nazım
+2016-12-20-09:00:27: undefined
+2016-12-20-09:00:27: Failed callback for phras : Orhan Gencebay Nazım
+
+2016-12-20-09:00:27: Callback for iteration phrase is succeed :Orhan Gencebay Nazım
+2016-12-20-09:00:27: Score for phrase isnull : Orhan Gencebay Nazım
+2016-12-20-09:00:27: iteration phrase is going root iteration :Orhan Gencebay Nazım
+2016-12-20-09:00:27: Root iteration for phrase : Orhan Gencebay Nazım
+2016-12-20-09:00:27: Searching for phrase :Orhan Gencebay Nazım
+2016-12-20-09:00:27: Response for phrase :Orhan Gencebay Nazım
+
+2016-12-20-09:00:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:00:27: ItemlistElement for phrase : Orhan Gencebay Nazım
+2016-12-20-09:00:27: undefined
+2016-12-20-09:00:27: Failed callback for phras : Orhan Gencebay Nazım
+
+2016-12-20-09:00:27: Callback for root iteration phrase is succeed :Orhan Gencebay Nazım
+2016-12-20-09:00:27: Score for phrase isnull : Orhan Gencebay Nazım
+2016-12-20-09:00:27: Root iteration phrase is going to matching :Orhan Gencebay Nazım
+2016-12-20-09:00:27: Matching result for phrase : Orhan Gencebay
+
+2016-12-20-09:00:27: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-20-09:00:27: Result for phrase will be printed : Orhan Gencebay
+2016-12-20-09:00:27: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-09:00:27: received_result_no=1
+2016-12-20-09:00:27: System goes new search 
+2016-12-20-09:00:27: Searching for phrase :Nazım
+2016-12-20-09:00:28: Response for phrase :Nazım
+
+2016-12-20-09:00:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 33.857635 } ] }
+2016-12-20-09:00:28: ItemlistElement for phrase : Nazım
+2016-12-20-09:00:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 33.857635 }
+2016-12-20-09:00:28: Callback for phrase : Nazım
+2016-12-20-09:00:28: Callback for word is succeed :Nazım
+2016-12-20-09:00:28: Word is going to iteration : Nazım
+2016-12-20-09:00:28: Iteration for phrase : Nazım Hikmet
+2016-12-20-09:00:28: Searching for phrase :Nazım Hikmet
+2016-12-20-09:00:28: Response for phrase :Nazım Hikmet
+
+2016-12-20-09:00:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 410.338409 } ] }
+2016-12-20-09:00:28: ItemlistElement for phrase : Nazım Hikmet
+2016-12-20-09:00:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02dkcr',
+     name: 'Nâzım Hikmet',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şair',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+        url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+     detailedDescription: 
+      { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+        url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazimhikmetran.biz/' },
+  resultScore: 410.338409 }
+2016-12-20-09:00:28: Callback for phrase : Nazım Hikmet
+2016-12-20-09:00:28: Callback for iteration phrase is succeed :Nazım Hikmet
+2016-12-20-09:00:28: Score for phrase is410.338409 : Nazım Hikmet
+2016-12-20-09:00:28: iteration phrase is going next iteration :Nazım Hikmet
+2016-12-20-09:00:28: Iteration for phrase : Nazım Hikmet Nazan
+2016-12-20-09:00:28: Searching for phrase :Nazım Hikmet Nazan
+2016-12-20-09:00:29: Response for phrase :Nazım Hikmet Nazan
+
+2016-12-20-09:00:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:00:29: ItemlistElement for phrase : Nazım Hikmet Nazan
+2016-12-20-09:00:29: undefined
+2016-12-20-09:00:29: Failed callback for phras : Nazım Hikmet Nazan
+
+2016-12-20-09:00:29: Callback for iteration phrase is succeed :Nazım Hikmet Nazan
+2016-12-20-09:00:29: Score for phrase isnull : Nazım Hikmet Nazan
+2016-12-20-09:00:29: iteration phrase is going root iteration :Nazım Hikmet Nazan
+2016-12-20-09:00:29: Root iteration for phrase : Nazım Hikmet Nazan
+2016-12-20-09:00:29: Searching for phrase :Nazım Hikmet Nazan
+2016-12-20-09:00:29: Response for phrase :Nazım Hikmet Nazan
+
+2016-12-20-09:00:29: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:00:29: ItemlistElement for phrase : Nazım Hikmet Nazan
+2016-12-20-09:00:29: undefined
+2016-12-20-09:00:29: Failed callback for phras : Nazım Hikmet Nazan
+
+2016-12-20-09:00:29: Callback for root iteration phrase is succeed :Nazım Hikmet Nazan
+2016-12-20-09:00:29: Score for phrase isnull : Nazım Hikmet Nazan
+2016-12-20-09:00:29: Root iteration phrase is going to matching :Nazım Hikmet Nazan
+2016-12-20-09:00:29: Matching result for phrase : Nazım Hikmet
+
+2016-12-20-09:00:29: { '@id': 'kg:/m/02dkcr',
+  name: 'Nâzım Hikmet',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şair',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR3LowoNjU7O74TYfElksk_QyeG_iJI1TjbNIxOO3w8QsMYqFHW',
+     url: 'https://tr.m.wikipedia.org/wiki/Dosya:Nazim_Hikmet_Bahriye.jpg' },
+  detailedDescription: 
+   { articleBody: 'Nâzım Hikmet Ran ya da kısaca Nâzım Hikmet, Türk şair, oyun yazarı, romancı ve anı yazarı. "Romantik komünist" ve "romantik devrimci" olarak tanımlanır. ',
+     url: 'https://tr.wikipedia.org/wiki/N%C3%A2z%C4%B1m_Hikmet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazimhikmetran.biz/' }
+2016-12-20-09:00:29: Result for phrase will be printed : Nazım Hikmet
+2016-12-20-09:00:29: received_result_no=2
+2016-12-20-09:00:29: System goes new search 
+2016-12-20-09:00:29: Searching for phrase :Nazan
+2016-12-20-09:00:30: Response for phrase :Nazan
+
+2016-12-20-09:00:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.768209 } ] }
+2016-12-20-09:00:30: ItemlistElement for phrase : Nazan
+2016-12-20-09:00:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 28.768209 }
+2016-12-20-09:00:30: Callback for phrase : Nazan
+2016-12-20-09:00:30: Callback for word is succeed :Nazan
+2016-12-20-09:00:30: Word is going to iteration : Nazan
+2016-12-20-09:00:30: Iteration for phrase : Nazan Öncel
+2016-12-20-09:00:30: Searching for phrase :Nazan Öncel
+2016-12-20-09:00:30: Response for phrase :Nazan Öncel
+
+2016-12-20-09:00:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 494.941376 } ] }
+2016-12-20-09:00:30: ItemlistElement for phrase : Nazan Öncel
+2016-12-20-09:00:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 494.941376 }
+2016-12-20-09:00:30: Callback for phrase : Nazan Öncel
+2016-12-20-09:00:30: Callback for iteration phrase is succeed :Nazan Öncel
+2016-12-20-09:00:30: Score for phrase is494.941376 : Nazan Öncel
+2016-12-20-09:00:30: Last iteration the result of :Nazan Öncel
+2016-12-20-09:00:30: { '@id': 'kg:/m/0br25r',
+  name: 'Nazan Öncel',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazanoncel.net/' }
+2016-12-20-09:00:30: received_result_no=3
+2016-12-20-09:00:30: finish
+2016-12-20-09:00:30: process is finished
+2016-12-20-09:00:30: -----------------Printed Results------------------------
+2016-12-20-09:00:30: Orhan Gencebay
+2016-12-20-09:00:30: Nâzım Hikmet
+2016-12-20-09:00:30: Nazan Öncel
+2016-12-20-09:00:30: section_count is:1
+2016-12-20-09:00:30: AftermoveSectionDown section_count is: 1
+2016-12-20-09:00:30: AftermoveSectionDown section_count is: 2
+2016-12-20-09:00:31: 1: slide right gesture is called
+2016-12-20-09:00:32: AftermoveSectionDown section_count is: 3
+2016-12-20-09:00:33: 2: slide left gesture is called
+2016-12-20-09:00:34: 2: slide right gesture is called
+2016-12-20-09:00:34: 2: slide right gesture is called
+2016-12-20-09:00:34: 2: slide right gesture is called
+2016-12-20-09:00:35: section_count is:2
+2016-12-20-09:00:35: AftermoveSectionUp section_count is: 2
+2016-12-20-09:00:35: 2: slide right gesture is called
+2016-12-20-09:00:36: AftermoveSectionDown section_count is: 3
+2016-12-20-09:00:36: 2: slide right gesture is called
+2016-12-20-09:00:36: 2: slide right gesture is called
+2016-12-20-09:00:37: 2: slide right gesture is called
+2016-12-20-09:00:37: 2: slide right gesture is called
+2016-12-20-09:00:37: section_count is:2
+2016-12-20-09:00:37: AftermoveSectionUp section_count is: 2
+2016-12-20-09:00:38: section_count is:1
+2016-12-20-09:00:38: AftermoveSectionUp section_count is: 1
+2016-12-20-09:00:39: 2: slide left gesture is called
+2016-12-20-09:00:40: 2: slide left gesture is called
+2016-12-20-09:00:41: 2: slide left gesture is called
+2016-12-20-09:00:43: 2: slide left gesture is called
+2016-12-20-09:00:44: 2: slide left gesture is called
+2016-12-20-09:00:45: section_count is:0
+2016-12-20-09:00:45: AftermoveSectionUp section_count is: 0
+2016-12-20-09:00:46: 2: slide left gesture is called
+2016-12-20-09:00:46: 2: slide right gesture is called
+2016-12-20-09:00:47: 2: slide right gesture is called
+2016-12-20-09:00:51: AftermoveSectionUp section_count is: 0
+2016-12-20-09:00:56: 2:click detected at point:[object Object]
+2016-12-20-09:00:56: Connected
+2016-12-20-09:00:56: AftermoveSectionUp section_count is: 0
+2016-12-20-09:00:56: 2:click detected at point:[object Object]
+2016-12-20-09:01:02: Data received from stt: Orhan Gencebay'ın ağzını Nazan Öncel Orhan,Noun Gencebay,Noun ağız,Noun Nazan,Noun Öncel,Noun
+2016-12-20-09:01:02: SearchTerm from microphone:Orhan Gencebay'ın ağzını Nazan Öncel Orhan,Noun Gencebay,Noun ağız,Noun Nazan,Noun Öncel,Noun
+2016-12-20-09:01:02: State machine is initialized with input: 
+2016-12-20-09:01:02: Orhan Gencebay'ın ağzını Nazan Öncel Orhan,Noun Gencebay,Noun ağız,Noun Nazan,Noun Öncel,Noun
+2016-12-20-09:01:02: Input words : 
+2016-12-20-09:01:02: [ 'Orhan', 'Gencebay\'ın', 'ağzını', 'Nazan', 'Öncel' ]
+2016-12-20-09:01:02: Input roots : 
+2016-12-20-09:01:02: [ 'Orhan', 'Gencebay', 'ağız', 'Nazan', 'Öncel' ]
+2016-12-20-09:01:02: Searching for phrase :Orhan
+2016-12-20-09:01:02: Connection closed
+2016-12-20-09:01:02: connection closed in close
+2016-12-20-09:01:02: Response for phrase :Orhan
+
+2016-12-20-09:01:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.48806 } ] }
+2016-12-20-09:01:02: ItemlistElement for phrase : Orhan
+2016-12-20-09:01:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.48806 }
+2016-12-20-09:01:02: Callback for phrase : Orhan
+2016-12-20-09:01:02: Callback for word is succeed :Orhan
+2016-12-20-09:01:02: Word is going to iteration : Orhan
+2016-12-20-09:01:02: Iteration for phrase : Orhan Gencebay'ın
+2016-12-20-09:01:02: Searching for phrase :Orhan Gencebay'ın
+2016-12-20-09:01:03: Response for phrase :Orhan Gencebay'ın
+
+2016-12-20-09:01:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:01:03: ItemlistElement for phrase : Orhan Gencebay'ın
+2016-12-20-09:01:03: undefined
+2016-12-20-09:01:03: Failed callback for phras : Orhan Gencebay'ın
+
+2016-12-20-09:01:03: Callback for iteration phrase is succeed :Orhan Gencebay'ın
+2016-12-20-09:01:03: Score for phrase isnull : Orhan Gencebay'ın
+2016-12-20-09:01:03: iteration phrase is going root iteration :Orhan Gencebay'ın
+2016-12-20-09:01:03: Root iteration for phrase : Orhan Gencebay
+2016-12-20-09:01:03: Searching for phrase :Orhan Gencebay
+2016-12-20-09:01:03: Response for phrase :Orhan Gencebay
+
+2016-12-20-09:01:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-20-09:01:03: ItemlistElement for phrase : Orhan Gencebay
+2016-12-20-09:01:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-20-09:01:03: Callback for phrase : Orhan Gencebay
+2016-12-20-09:01:03: Callback for root iteration phrase is succeed :Orhan Gencebay
+2016-12-20-09:01:03: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-20-09:01:03: Root iteration phrase is going next iteration :Orhan Gencebay
+2016-12-20-09:01:03: Iteration for phrase : Orhan Gencebay ağzını
+2016-12-20-09:01:03: Searching for phrase :Orhan Gencebay ağzını
+2016-12-20-09:01:03: Response for phrase :Orhan Gencebay ağzını
+
+2016-12-20-09:01:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:01:03: ItemlistElement for phrase : Orhan Gencebay ağzını
+2016-12-20-09:01:03: undefined
+2016-12-20-09:01:03: Failed callback for phras : Orhan Gencebay ağzını
+
+2016-12-20-09:01:03: Callback for iteration phrase is succeed :Orhan Gencebay ağzını
+2016-12-20-09:01:03: Score for phrase isnull : Orhan Gencebay ağzını
+2016-12-20-09:01:03: iteration phrase is going root iteration :Orhan Gencebay ağzını
+2016-12-20-09:01:03: Root iteration for phrase : Orhan Gencebay ağız
+2016-12-20-09:01:03: Searching for phrase :Orhan Gencebay ağız
+2016-12-20-09:01:04: Response for phrase :Orhan Gencebay ağız
+
+2016-12-20-09:01:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:01:04: ItemlistElement for phrase : Orhan Gencebay ağız
+2016-12-20-09:01:04: undefined
+2016-12-20-09:01:04: Failed callback for phras : Orhan Gencebay ağız
+
+2016-12-20-09:01:04: Callback for root iteration phrase is succeed :Orhan Gencebay ağız
+2016-12-20-09:01:04: Score for phrase isnull : Orhan Gencebay ağız
+2016-12-20-09:01:04: Root iteration phrase is going to matching :Orhan Gencebay ağız
+2016-12-20-09:01:04: Matching result for phrase : Orhan Gencebay
+
+2016-12-20-09:01:04: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-20-09:01:04: Result for phrase will be printed : Orhan Gencebay
+2016-12-20-09:01:04: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-09:01:04: received_result_no=1
+2016-12-20-09:01:04: System goes new search 
+2016-12-20-09:01:04: Searching for phrase :ağzını
+2016-12-20-09:01:04: Response for phrase :ağzını
+
+2016-12-20-09:01:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 0.852956 } ] }
+2016-12-20-09:01:04: ItemlistElement for phrase : ağzını
+2016-12-20-09:01:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01sztft',
+     name: 'Sinan Özen',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     detailedDescription: 
+      { articleBody: 'Sinan Özen, Türk popüler sanatçısı, bestecisi ve oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Sinan_%C3%96zen',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.sinanozen.com.tr/' },
+  resultScore: 0.852956 }
+2016-12-20-09:01:04: Callback for phrase : ağzını
+2016-12-20-09:01:04: Callback for word is succeed :ağzını
+2016-12-20-09:01:04: Word is going to iteration : ağzını
+2016-12-20-09:01:04: Iteration for phrase : ağzını Nazan
+2016-12-20-09:01:04: Searching for phrase :ağzını Nazan
+2016-12-20-09:01:05: Response for phrase :ağzını Nazan
+
+2016-12-20-09:01:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:01:05: ItemlistElement for phrase : ağzını Nazan
+2016-12-20-09:01:05: undefined
+2016-12-20-09:01:05: Failed callback for phras : ağzını Nazan
+
+2016-12-20-09:01:05: Callback for iteration phrase is succeed :ağzını Nazan
+2016-12-20-09:01:05: Score for phrase isnull : ağzını Nazan
+2016-12-20-09:01:05: iteration phrase is going root iteration :ağzını Nazan
+2016-12-20-09:01:05: Root iteration for phrase : ağzını Nazan
+2016-12-20-09:01:05: Searching for phrase :ağzını Nazan
+2016-12-20-09:01:05: Response for phrase :ağzını Nazan
+
+2016-12-20-09:01:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-09:01:05: ItemlistElement for phrase : ağzını Nazan
+2016-12-20-09:01:05: undefined
+2016-12-20-09:01:05: Failed callback for phras : ağzını Nazan
+
+2016-12-20-09:01:05: Callback for root iteration phrase is succeed :ağzını Nazan
+2016-12-20-09:01:05: Score for phrase isnull : ağzını Nazan
+2016-12-20-09:01:05: Root iteration phrase is going to matching :ağzını Nazan
+2016-12-20-09:01:05: Matching result for phrase : ağzını
+
+2016-12-20-09:01:05: { '@id': 'kg:/m/01sztft',
+  name: 'Sinan Özen',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  detailedDescription: 
+   { articleBody: 'Sinan Özen, Türk popüler sanatçısı, bestecisi ve oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Sinan_%C3%96zen',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.sinanozen.com.tr/' }
+2016-12-20-09:01:05: Result for phrase will be printed : ağzını
+2016-12-20-09:01:05: received_result_no=2
+2016-12-20-09:01:05: System goes new search 
+2016-12-20-09:01:05: Searching for phrase :Nazan
+2016-12-20-09:01:05: Response for phrase :Nazan
+
+2016-12-20-09:01:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.768209 } ] }
+2016-12-20-09:01:05: ItemlistElement for phrase : Nazan
+2016-12-20-09:01:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 28.768209 }
+2016-12-20-09:01:05: Callback for phrase : Nazan
+2016-12-20-09:01:05: Callback for word is succeed :Nazan
+2016-12-20-09:01:05: Word is going to iteration : Nazan
+2016-12-20-09:01:05: Iteration for phrase : Nazan Öncel
+2016-12-20-09:01:05: Searching for phrase :Nazan Öncel
+2016-12-20-09:01:06: Response for phrase :Nazan Öncel
+
+2016-12-20-09:01:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 494.941376 } ] }
+2016-12-20-09:01:06: ItemlistElement for phrase : Nazan Öncel
+2016-12-20-09:01:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0br25r',
+     name: 'Nazan Öncel',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+        url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.nazanoncel.net/' },
+  resultScore: 494.941376 }
+2016-12-20-09:01:06: Callback for phrase : Nazan Öncel
+2016-12-20-09:01:06: Callback for iteration phrase is succeed :Nazan Öncel
+2016-12-20-09:01:06: Score for phrase is494.941376 : Nazan Öncel
+2016-12-20-09:01:06: Last iteration the result of :Nazan Öncel
+2016-12-20-09:01:06: { '@id': 'kg:/m/0br25r',
+  name: 'Nazan Öncel',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Nazan Öncel, Türk şarkıcı, söz yazarı ve besteci. "Sokak Kızı" lakabıyla da anılan sanatçı, ilk kırk beşliği "Sana Kul Köle Olmuştum"\'u 1978 yılında yayınlamıştır. 1981 yılında LP formatında yayınladığı ilk albümü tutmayınca, TRT için demolar yapmayı bırakmış, sadece sahne çalışmalarıyla mesleğine devam etmiştir. 10 yıl sonra, 11 Ekim 1991\'de yayınladığı Bir Hadise Var albümünün satış başarısıyla da sağlam, kalıcı ve büyük bir başlangıç yapmıştır.',
+     url: 'https://tr.wikipedia.org/wiki/Nazan_%C3%96ncel',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.nazanoncel.net/' }
+2016-12-20-09:01:06: received_result_no=3
+2016-12-20-09:01:06: finish
+2016-12-20-09:01:06: process is finished
+2016-12-20-09:01:06: -----------------Printed Results------------------------
+2016-12-20-09:01:06: Orhan Gencebay
+2016-12-20-09:01:06: Sinan Özen
+2016-12-20-09:01:06: Nazan Öncel
+2016-12-20-09:01:10: 2: slide left gesture is called
+2016-12-20-09:01:10: section_count is:1
+2016-12-20-09:01:10: AftermoveSectionDown section_count is: 1
+2016-12-20-09:01:12: section_count is:2
+2016-12-20-09:01:12: AftermoveSectionDown section_count is: 2
+2016-12-20-09:01:13: 2: slide left gesture is called
+2016-12-20-09:01:15: 2: slide right gesture is called
+2016-12-20-09:01:15: 2: slide right gesture is called
+2016-12-20-09:01:16: 2: slide right gesture is called
+2016-12-20-09:01:56: 2: slide right gesture is called
+2016-12-20-09:01:57: 2:click detected at point:[object Object]
+2016-12-20-09:01:57: Connected
+2016-12-20-09:01:57: 2:click detected at point:[object Object]
+2016-12-20-09:02:03: Data received from stt: Müzeyyen Senar Zeki Müren Müzeyyen,Noun Senar,Noun Zeki,Noun Güre,Noun
+2016-12-20-09:02:03: SearchTerm from microphone:Müzeyyen Senar Zeki Müren Müzeyyen,Noun Senar,Noun Zeki,Noun Güre,Noun
+2016-12-20-09:02:03: State machine is initialized with input: 
+2016-12-20-09:02:03: Müzeyyen Senar Zeki Müren Müzeyyen,Noun Senar,Noun Zeki,Noun Güre,Noun
+2016-12-20-09:02:03: Input words : 
+2016-12-20-09:02:03: [ 'Müzeyyen', 'Senar', 'Zeki', 'Müren' ]
+2016-12-20-09:02:03: Input roots : 
+2016-12-20-09:02:03: [ 'Müzeyyen', 'Senar', 'Zeki', 'Güre' ]
+2016-12-20-09:02:03: Searching for phrase :Müzeyyen
+2016-12-20-09:02:03: Connection closed
+2016-12-20-09:02:03: connection closed in close
+2016-12-20-09:02:03: Response for phrase :Müzeyyen
+
+2016-12-20-09:02:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 31.026423 } ] }
+2016-12-20-09:02:03: ItemlistElement for phrase : Müzeyyen
+2016-12-20-09:02:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g9xs0x',
+     name: 'Müzeyyen Senar',
+     '@type': [ 'Person', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Müzeyyen Senar 16 Temmuz 1918, Gököz, Keles, Bursa - 8 Şubat 2015, İzmir, Türk Sanat Müziği sanatçısı. "Cumhuriyetin Divası" olarak da anılır.',
+        url: 'https://tr.wikipedia.org/wiki/M%C3%BCzeyyen_Senar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.muzeyyensenar.com/' },
+  resultScore: 31.026423 }
+2016-12-20-09:02:03: Callback for phrase : Müzeyyen
+2016-12-20-09:02:03: Callback for word is succeed :Müzeyyen
+2016-12-20-09:02:03: Word is going to iteration : Müzeyyen
+2016-12-20-09:02:03: Iteration for phrase : Müzeyyen Senar
+2016-12-20-09:02:03: Searching for phrase :Müzeyyen Senar
+2016-12-20-09:02:04: Response for phrase :Müzeyyen Senar
+
+2016-12-20-09:02:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 533.732422 } ] }
+2016-12-20-09:02:04: ItemlistElement for phrase : Müzeyyen Senar
+2016-12-20-09:02:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0g9xs0x',
+     name: 'Müzeyyen Senar',
+     '@type': [ 'Person', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Müzeyyen Senar 16 Temmuz 1918, Gököz, Keles, Bursa - 8 Şubat 2015, İzmir, Türk Sanat Müziği sanatçısı. "Cumhuriyetin Divası" olarak da anılır.',
+        url: 'https://tr.wikipedia.org/wiki/M%C3%BCzeyyen_Senar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.muzeyyensenar.com/' },
+  resultScore: 533.732422 }
+2016-12-20-09:02:04: Callback for phrase : Müzeyyen Senar
+2016-12-20-09:02:04: Callback for iteration phrase is succeed :Müzeyyen Senar
+2016-12-20-09:02:04: Score for phrase is533.732422 : Müzeyyen Senar
+2016-12-20-09:02:04: iteration phrase is going next iteration :Müzeyyen Senar
+2016-12-20-09:02:04: Iteration for phrase : Müzeyyen Senar Zeki
+2016-12-20-09:02:04: Searching for phrase :Müzeyyen Senar Zeki
+2016-12-20-09:02:04: Response for phrase :Müzeyyen Senar Zeki
+
+2016-12-20-09:02:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 29.612602 } ] }
+2016-12-20-09:02:04: ItemlistElement for phrase : Müzeyyen Senar Zeki
+2016-12-20-09:02:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01vbxrw',
+     name: 'Mustafa Kandıralı',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Klarnetçi',
+     detailedDescription: 
+      { articleBody: 'Mustafa Kandıralı, İzmit\'in Kandıra kazasında 1930 yılında doğdu. Klarnet çalar. 1960\'lı senelerde ABD\'de konser turu yapmis. Dünyaca ünlü klarnetçi. Hala hayatını sürdürmekte olmakla beraber diyabet hastalığının da etkisindedir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kand%C4%B1ral%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 29.612602 }
+2016-12-20-09:02:04: Callback for phrase : Müzeyyen Senar Zeki
+2016-12-20-09:02:04: Callback for iteration phrase is succeed :Müzeyyen Senar Zeki
+2016-12-20-09:02:04: Score for phrase is29.612602 : Müzeyyen Senar Zeki
+2016-12-20-09:02:04: iteration phrase is going root iteration :Müzeyyen Senar Zeki
+2016-12-20-09:02:04: Root iteration for phrase : Müzeyyen Senar Zeki
+2016-12-20-09:02:04: Searching for phrase :Müzeyyen Senar Zeki
+2016-12-20-09:02:05: Response for phrase :Müzeyyen Senar Zeki
+
+2016-12-20-09:02:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 29.612602 } ] }
+2016-12-20-09:02:05: ItemlistElement for phrase : Müzeyyen Senar Zeki
+2016-12-20-09:02:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01vbxrw',
+     name: 'Mustafa Kandıralı',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Klarnetçi',
+     detailedDescription: 
+      { articleBody: 'Mustafa Kandıralı, İzmit\'in Kandıra kazasında 1930 yılında doğdu. Klarnet çalar. 1960\'lı senelerde ABD\'de konser turu yapmis. Dünyaca ünlü klarnetçi. Hala hayatını sürdürmekte olmakla beraber diyabet hastalığının da etkisindedir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Mustafa_Kand%C4%B1ral%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 29.612602 }
+2016-12-20-09:02:05: Callback for phrase : Müzeyyen Senar Zeki
+2016-12-20-09:02:05: Callback for root iteration phrase is succeed :Müzeyyen Senar Zeki
+2016-12-20-09:02:05: Score for phrase is29.612602 : Müzeyyen Senar Zeki
+2016-12-20-09:02:05: Root iteration phrase is going to matching :Müzeyyen Senar Zeki
+2016-12-20-09:02:05: Matching result for phrase : Müzeyyen Senar
+
+2016-12-20-09:02:05: { '@id': 'kg:/m/0g9xs0x',
+  name: 'Müzeyyen Senar',
+  '@type': [ 'Person', 'Thing' ],
+  detailedDescription: 
+   { articleBody: 'Müzeyyen Senar 16 Temmuz 1918, Gököz, Keles, Bursa - 8 Şubat 2015, İzmir, Türk Sanat Müziği sanatçısı. "Cumhuriyetin Divası" olarak da anılır.',
+     url: 'https://tr.wikipedia.org/wiki/M%C3%BCzeyyen_Senar',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.muzeyyensenar.com/' }
+2016-12-20-09:02:05: Result for phrase will be printed : Müzeyyen Senar
+2016-12-20-09:02:05: https://www.googleapis.com/customsearch/v1?q=Müzeyyen Senar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-09:02:05: received_result_no=1
+2016-12-20-09:02:05: System goes new search 
+2016-12-20-09:02:05: Searching for phrase :Zeki
+2016-12-20-09:02:05: Response for phrase :Zeki
+
+2016-12-20-09:02:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.287457 } ] }
+2016-12-20-09:02:05: ItemlistElement for phrase : Zeki
+2016-12-20-09:02:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.287457 }
+2016-12-20-09:02:05: Callback for phrase : Zeki
+2016-12-20-09:02:05: Callback for word is succeed :Zeki
+2016-12-20-09:02:05: Word is going to iteration : Zeki
+2016-12-20-09:02:05: Iteration for phrase : Zeki Müren
+2016-12-20-09:02:05: Searching for phrase :Zeki Müren
+2016-12-20-09:02:05: Response for phrase :Zeki Müren
+
+2016-12-20-09:02:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.163513 } ] }
+2016-12-20-09:02:05: ItemlistElement for phrase : Zeki Müren
+2016-12-20-09:02:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.163513 }
+2016-12-20-09:02:05: Callback for phrase : Zeki Müren
+2016-12-20-09:02:05: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-20-09:02:05: Score for phrase is613.163513 : Zeki Müren
+2016-12-20-09:02:05: Last iteration the result of :Zeki Müren
+2016-12-20-09:02:05: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-20-09:02:05: received_result_no=2
+2016-12-20-09:02:05: finish
+2016-12-20-09:02:05: process is finished
+2016-12-20-09:02:05: -----------------Printed Results------------------------
+2016-12-20-09:02:05: Müzeyyen Senar
+2016-12-20-09:02:05: Zeki Müren
+2016-12-20-09:02:08: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:08: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:08: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:08: 1: slide right gesture is called
+2016-12-20-09:02:09: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:09: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:10: 2: slide left gesture is called
+2016-12-20-09:02:11: 2: slide right gesture is called
+2016-12-20-09:02:11: 2: slide right gesture is called
+2016-12-20-09:02:12: 2: slide right gesture is called
+2016-12-20-09:02:12: 2: slide right gesture is called
+2016-12-20-09:02:13: 2: slide left gesture is called
+2016-12-20-09:02:13: 2: slide left gesture is called
+2016-12-20-09:02:14: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:14: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:15: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:15: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:16: 1: slide right gesture is called
+2016-12-20-09:02:16: section_count is:1
+2016-12-20-09:02:16: AftermoveSectionUp section_count is: 1
+2016-12-20-09:02:17: section_count is:0
+2016-12-20-09:02:17: AftermoveSectionUp section_count is: 0
+2016-12-20-09:02:18: section_count is:1
+2016-12-20-09:02:18: AftermoveSectionDown section_count is: 1
+2016-12-20-09:02:19: 2: slide left gesture is called
+2016-12-20-09:02:19: 2: slide left gesture is called
+2016-12-20-09:02:20: 2: slide right gesture is called
+2016-12-20-09:02:21: 2: slide right gesture is called
+2016-12-20-09:02:21: 2: slide right gesture is called
+2016-12-20-09:02:22: 2: slide left gesture is called
+2016-12-20-09:02:22: 2: slide left gesture is called
+2016-12-20-09:02:23: AftermoveSectionDown section_count is: 2
+2016-12-20-09:02:24: section_count is:1
+2016-12-20-09:02:24: AftermoveSectionUp section_count is: 1
+2016-12-20-09:02:25: section_count is:0
+2016-12-20-09:02:25: AftermoveSectionUp section_count is: 0
+2016-12-20-09:02:25: AftermoveSectionUp section_count is: 0
+2016-12-20-09:02:26: 2: slide right gesture is called
+2016-12-20-09:02:27: 2: slide left gesture is called
+2016-12-20-09:02:28: 2: slide left gesture is called
+2016-12-20-09:02:29: 2: slide left gesture is called
+2016-12-20-09:02:31: 2: slide left gesture is called
+2016-12-20-09:02:33: section_count is:1
+2016-12-20-09:02:33: AftermoveSectionDown section_count is: 1
+2016-12-20-09:02:35: 2: slide right gesture is called
+2016-12-20-09:02:36: 2: slide left gesture is called
+2016-12-20-09:02:36: 2: slide left gesture is called
+2016-12-20-09:02:37: 2: slide right gesture is called
+2016-12-20-09:02:38: 2: slide right gesture is called
+2016-12-20-09:02:38: 2: slide right gesture is called

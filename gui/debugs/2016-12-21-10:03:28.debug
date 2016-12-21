@@ -1,0 +1,586 @@
+2016-12-21-10:03:58: 2:click detected at point:[object Object]
+2016-12-21-10:03:58: Connected
+2016-12-21-10:03:59: 2:click detected at point:[object Object]
+2016-12-21-10:04:04: Data received from stt: görsel mesaj şimdi diyelim Orange Zeki Müren görsel,Other mesaj,Noun şimdi,Other diye,Noun Orange,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:04:04: SearchTerm from microphone:görsel mesaj şimdi diyelim Orange Zeki Müren görsel,Other mesaj,Noun şimdi,Other diye,Noun Orange,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:04:04: State machine is initialized with input: 
+2016-12-21-10:04:04: görsel mesaj şimdi diyelim Orange Zeki Müren görsel,Other mesaj,Noun şimdi,Other diye,Noun Orange,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:04:04: Input words : 
+2016-12-21-10:04:04: [ 'görsel', 'mesaj', 'şimdi', 'diyelim', 'Orange', 'Zeki', 'Müren' ]
+2016-12-21-10:04:04: Input roots : 
+2016-12-21-10:04:04: [ 'görsel', 'mesaj', 'şimdi', 'diye', 'Orange', 'Zeki', 'Güre' ]
+2016-12-21-10:04:04: Searching for phrase :görsel
+2016-12-21-10:04:05: Connection closed
+2016-12-21-10:04:05: connection closed in close
+2016-12-21-10:04:05: Response for phrase :görsel
+
+2016-12-21-10:04:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.920809 } ] }
+2016-12-21-10:04:05: ItemlistElement for phrase : görsel
+2016-12-21-10:04:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gr42',
+     name: 'En İyi Görsel Efekt Oscar\'ı',
+     '@type': [ 'Thing' ],
+     detailedDescription: 
+      { articleBody: '1939\'da ilk kez verilmeye başlandığında bu kategori En İyi Özel Efekt olarak anılmaktaydı. 1963\'te bu kategori En İyi Görsel Efekt ve En İyi Ses Efekti olarak ikiye ayrıldı. 1972\'de Akademi \'Görsel Efekt\' dalında Oscar vermeyi bırakıp yerine Akademi Özel Ödülü vermeye başladı. ',
+        url: 'https://tr.wikipedia.org/wiki/En_%C4%B0yi_G%C3%B6rsel_Efekt_Akademi_%C3%96d%C3%BCl%C3%BC',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.oscars.org' },
+  resultScore: 23.920809 }
+2016-12-21-10:04:05: Callback for phrase : görsel
+2016-12-21-10:04:05: Callback for word is succeed :görsel
+2016-12-21-10:04:05: Word is going to iteration : görsel
+2016-12-21-10:04:05: Iteration for phrase : görsel mesaj
+2016-12-21-10:04:05: Searching for phrase :görsel mesaj
+2016-12-21-10:04:06: Response for phrase :görsel mesaj
+
+2016-12-21-10:04:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:06: ItemlistElement for phrase : görsel mesaj
+2016-12-21-10:04:06: undefined
+2016-12-21-10:04:06: Failed callback for phras : görsel mesaj
+
+2016-12-21-10:04:06: Callback for iteration phrase is succeed :görsel mesaj
+2016-12-21-10:04:06: Score for phrase isnull : görsel mesaj
+2016-12-21-10:04:06: iteration phrase is going root iteration :görsel mesaj
+2016-12-21-10:04:06: Root iteration for phrase : görsel mesaj
+2016-12-21-10:04:06: Searching for phrase :görsel mesaj
+2016-12-21-10:04:06: Response for phrase :görsel mesaj
+
+2016-12-21-10:04:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:06: ItemlistElement for phrase : görsel mesaj
+2016-12-21-10:04:06: undefined
+2016-12-21-10:04:06: Failed callback for phras : görsel mesaj
+
+2016-12-21-10:04:06: Callback for root iteration phrase is succeed :görsel mesaj
+2016-12-21-10:04:06: Score for phrase isnull : görsel mesaj
+2016-12-21-10:04:06: Root iteration phrase is going to matching :görsel mesaj
+2016-12-21-10:04:06: Matching result for phrase : görsel
+
+2016-12-21-10:04:06: { '@id': 'kg:/m/0gr42',
+  name: 'En İyi Görsel Efekt Oscar\'ı',
+  '@type': [ 'Thing' ],
+  detailedDescription: 
+   { articleBody: '1939\'da ilk kez verilmeye başlandığında bu kategori En İyi Özel Efekt olarak anılmaktaydı. 1963\'te bu kategori En İyi Görsel Efekt ve En İyi Ses Efekti olarak ikiye ayrıldı. 1972\'de Akademi \'Görsel Efekt\' dalında Oscar vermeyi bırakıp yerine Akademi Özel Ödülü vermeye başladı. ',
+     url: 'https://tr.wikipedia.org/wiki/En_%C4%B0yi_G%C3%B6rsel_Efekt_Akademi_%C3%96d%C3%BCl%C3%BC',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.oscars.org' }
+2016-12-21-10:04:06: Result for phrase will be printed : görsel
+2016-12-21-10:04:06: https://www.googleapis.com/customsearch/v1?q=En İyi Görsel Efekt Oscar'ı&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-21-10:04:06: received_result_no=1
+2016-12-21-10:04:06: System goes new search 
+2016-12-21-10:04:06: Searching for phrase :mesaj
+2016-12-21-10:04:06: Response for phrase :mesaj
+
+2016-12-21-10:04:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.241028 } ] }
+2016-12-21-10:04:06: ItemlistElement for phrase : mesaj
+2016-12-21-10:04:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/026lgs',
+     name: 'Mesaj',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '1997 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+        url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://contact-themovie.warnerbros.com/main.html' },
+  resultScore: 43.241028 }
+2016-12-21-10:04:06: Callback for phrase : mesaj
+2016-12-21-10:04:06: Callback for word is succeed :mesaj
+2016-12-21-10:04:06: Word is going to iteration : mesaj
+2016-12-21-10:04:06: Iteration for phrase : mesaj şimdi
+2016-12-21-10:04:06: Searching for phrase :mesaj şimdi
+2016-12-21-10:04:07: Response for phrase :mesaj şimdi
+
+2016-12-21-10:04:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:07: ItemlistElement for phrase : mesaj şimdi
+2016-12-21-10:04:07: undefined
+2016-12-21-10:04:07: Failed callback for phras : mesaj şimdi
+
+2016-12-21-10:04:07: Callback for iteration phrase is succeed :mesaj şimdi
+2016-12-21-10:04:07: Score for phrase isnull : mesaj şimdi
+2016-12-21-10:04:07: iteration phrase is going root iteration :mesaj şimdi
+2016-12-21-10:04:07: Root iteration for phrase : mesaj şimdi
+2016-12-21-10:04:07: Searching for phrase :mesaj şimdi
+2016-12-21-10:04:07: Response for phrase :mesaj şimdi
+
+2016-12-21-10:04:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:07: ItemlistElement for phrase : mesaj şimdi
+2016-12-21-10:04:07: undefined
+2016-12-21-10:04:07: Failed callback for phras : mesaj şimdi
+
+2016-12-21-10:04:07: Callback for root iteration phrase is succeed :mesaj şimdi
+2016-12-21-10:04:07: Score for phrase isnull : mesaj şimdi
+2016-12-21-10:04:07: Root iteration phrase is going to matching :mesaj şimdi
+2016-12-21-10:04:07: Matching result for phrase : mesaj
+
+2016-12-21-10:04:07: { '@id': 'kg:/m/026lgs',
+  name: 'Mesaj',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '1997 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Mesaj Carl Sagan\'ın aynı adlı romanından beyaz perdeye uyarlanan 1997 yapımı bir bilim kurgu filmidir. Yönetmenliğini Robert Zemeckis yapmış ve başrollerini Dr. ',
+     url: 'https://tr.wikipedia.org/wiki/Mesaj_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://contact-themovie.warnerbros.com/main.html' }
+2016-12-21-10:04:07: Result for phrase will not be printed because it is not noun : mesaj
+2016-12-21-10:04:07: System goes new search 
+2016-12-21-10:04:07: Searching for phrase :şimdi
+2016-12-21-10:04:07: Response for phrase :şimdi
+
+2016-12-21-10:04:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.992954 } ] }
+2016-12-21-10:04:07: ItemlistElement for phrase : şimdi
+2016-12-21-10:04:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0h14pxl',
+     name: 'Aşk, Şimdi',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2012 yapımı film' },
+  resultScore: 24.992954 }
+2016-12-21-10:04:07: Callback for phrase : şimdi
+2016-12-21-10:04:07: Callback for word is succeed :şimdi
+2016-12-21-10:04:07: Word is going to iteration : şimdi
+2016-12-21-10:04:07: Iteration for phrase : şimdi diyelim
+2016-12-21-10:04:07: Searching for phrase :şimdi diyelim
+2016-12-21-10:04:08: Response for phrase :şimdi diyelim
+
+2016-12-21-10:04:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:08: ItemlistElement for phrase : şimdi diyelim
+2016-12-21-10:04:08: undefined
+2016-12-21-10:04:08: Failed callback for phras : şimdi diyelim
+
+2016-12-21-10:04:08: Callback for iteration phrase is succeed :şimdi diyelim
+2016-12-21-10:04:08: Score for phrase isnull : şimdi diyelim
+2016-12-21-10:04:08: iteration phrase is going root iteration :şimdi diyelim
+2016-12-21-10:04:08: Root iteration for phrase : şimdi diye
+2016-12-21-10:04:08: Searching for phrase :şimdi diye
+2016-12-21-10:04:08: Response for phrase :şimdi diye
+
+2016-12-21-10:04:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 21.70306 } ] }
+2016-12-21-10:04:08: ItemlistElement for phrase : şimdi diye
+2016-12-21-10:04:08: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0kv6pf',
+     name: 'Şimdi ya da Asla',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2007 yapımı film',
+     detailedDescription: 
+      { articleBody: 'The Bucket List, 2007 yılı ABD yapımı filmdir. Rob Reiner tarafından yönetilen filmin başrolünde Jack Nicholson ve Morgan Freeman vardır. İlk gösterimi 15 Aralık 2007’de Hollywood’da yapılmıştır. Türkiye’de ise 1 Şubat 2008’de gösterime girmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/%C5%9Eimdi_ya_da_Asla',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 21.70306 }
+2016-12-21-10:04:08: Callback for phrase : şimdi diye
+2016-12-21-10:04:08: Callback for root iteration phrase is succeed :şimdi diye
+2016-12-21-10:04:08: Score for phrase is21.70306 : şimdi diye
+2016-12-21-10:04:08: Root iteration phrase is going to matching :şimdi diye
+2016-12-21-10:04:08: Matching result for phrase : şimdi
+
+2016-12-21-10:04:08: { '@id': 'kg:/m/0h14pxl',
+  name: 'Aşk, Şimdi',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2012 yapımı film' }
+2016-12-21-10:04:08: Result for phrase will be printed : şimdi
+2016-12-21-10:04:08: received_result_no=2
+2016-12-21-10:04:08: System goes new search 
+2016-12-21-10:04:08: Searching for phrase :Orange
+2016-12-21-10:04:09: Response for phrase :Orange
+
+2016-12-21-10:04:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 61.352169 } ] }
+2016-12-21-10:04:09: ItemlistElement for phrase : Orange
+2016-12-21-10:04:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cb4j',
+     name: 'Orange İli, Kaliforniya',
+     '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'Kaliforniya\'da bir county',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTzLcqio5K9OZzEQEGf3BWIQjG-58nPSH_0MSyZ43IG-9llxBbf',
+        url: 'https://commons.wikimedia.org/wiki/File:Dana_Point_a_city_in_southern_Orange_County_CA_Photo_D_Ramey_Logan.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Orange County, Kaliforniya\'da bir ilçedir. 11 Mart 1889\'da kurulmuştur. Orange County adlı diziye ve filme adını vermiştir. 2008 verilerine göre 3.010.759 nufüsü ile Kaliforniya eyaletinin en kalabalık 2. bölümüdür. ',
+        url: 'https://tr.wikipedia.org/wiki/Orange_%C4%B0li,_Kaliforniya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ocgov.com' },
+  resultScore: 61.352169 }
+2016-12-21-10:04:09: Callback for phrase : Orange
+2016-12-21-10:04:09: Callback for word is succeed :Orange
+2016-12-21-10:04:09: Word is going to iteration : Orange
+2016-12-21-10:04:09: Iteration for phrase : Orange Zeki
+2016-12-21-10:04:09: Searching for phrase :Orange Zeki
+2016-12-21-10:04:09: Response for phrase :Orange Zeki
+
+2016-12-21-10:04:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:09: ItemlistElement for phrase : Orange Zeki
+2016-12-21-10:04:09: undefined
+2016-12-21-10:04:09: Failed callback for phras : Orange Zeki
+
+2016-12-21-10:04:09: Callback for iteration phrase is succeed :Orange Zeki
+2016-12-21-10:04:09: Score for phrase isnull : Orange Zeki
+2016-12-21-10:04:09: iteration phrase is going root iteration :Orange Zeki
+2016-12-21-10:04:09: Root iteration for phrase : Orange Zeki
+2016-12-21-10:04:09: Searching for phrase :Orange Zeki
+2016-12-21-10:04:09: Response for phrase :Orange Zeki
+
+2016-12-21-10:04:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:04:09: ItemlistElement for phrase : Orange Zeki
+2016-12-21-10:04:09: undefined
+2016-12-21-10:04:09: Failed callback for phras : Orange Zeki
+
+2016-12-21-10:04:09: Callback for root iteration phrase is succeed :Orange Zeki
+2016-12-21-10:04:09: Score for phrase isnull : Orange Zeki
+2016-12-21-10:04:09: Root iteration phrase is going to matching :Orange Zeki
+2016-12-21-10:04:09: Matching result for phrase : Orange
+
+2016-12-21-10:04:09: { '@id': 'kg:/m/0cb4j',
+  name: 'Orange İli, Kaliforniya',
+  '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+  description: 'Kaliforniya\'da bir county',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcTzLcqio5K9OZzEQEGf3BWIQjG-58nPSH_0MSyZ43IG-9llxBbf',
+     url: 'https://commons.wikimedia.org/wiki/File:Dana_Point_a_city_in_southern_Orange_County_CA_Photo_D_Ramey_Logan.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Orange County, Kaliforniya\'da bir ilçedir. 11 Mart 1889\'da kurulmuştur. Orange County adlı diziye ve filme adını vermiştir. 2008 verilerine göre 3.010.759 nufüsü ile Kaliforniya eyaletinin en kalabalık 2. bölümüdür. ',
+     url: 'https://tr.wikipedia.org/wiki/Orange_%C4%B0li,_Kaliforniya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ocgov.com' }
+2016-12-21-10:04:09: Result for phrase will be printed : Orange
+2016-12-21-10:04:09: received_result_no=3
+2016-12-21-10:04:09: System goes new search 
+2016-12-21-10:04:09: Searching for phrase :Zeki
+2016-12-21-10:04:10: Response for phrase :Zeki
+
+2016-12-21-10:04:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.287457 } ] }
+2016-12-21-10:04:10: ItemlistElement for phrase : Zeki
+2016-12-21-10:04:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.287457 }
+2016-12-21-10:04:10: Callback for phrase : Zeki
+2016-12-21-10:04:10: Callback for word is succeed :Zeki
+2016-12-21-10:04:10: Word is going to iteration : Zeki
+2016-12-21-10:04:10: Iteration for phrase : Zeki Müren
+2016-12-21-10:04:10: Searching for phrase :Zeki Müren
+2016-12-21-10:04:10: Response for phrase :Zeki Müren
+
+2016-12-21-10:04:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.163513 } ] }
+2016-12-21-10:04:10: ItemlistElement for phrase : Zeki Müren
+2016-12-21-10:04:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.163513 }
+2016-12-21-10:04:10: Callback for phrase : Zeki Müren
+2016-12-21-10:04:10: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-21-10:04:10: Score for phrase is613.163513 : Zeki Müren
+2016-12-21-10:04:10: Last iteration the result of :Zeki Müren
+2016-12-21-10:04:10: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-21-10:04:10: received_result_no=4
+2016-12-21-10:04:10: finish
+2016-12-21-10:04:10: process is finished
+2016-12-21-10:04:10: -----------------Printed Results------------------------
+2016-12-21-10:04:10: En İyi Görsel Efekt Oscar'ı
+2016-12-21-10:04:10: Aşk, Şimdi
+2016-12-21-10:04:10: Orange İli, Kaliforniya
+2016-12-21-10:04:10: Zeki Müren
+2016-12-21-10:04:13: AftermoveSectionUp section_count is: 0
+2016-12-21-10:04:16: 2: slide right gesture is called
+2016-12-21-10:04:18: 2: slide right gesture is called
+2016-12-21-10:04:19: 2: slide right gesture is called
+2016-12-21-10:04:19: 2: slide right gesture is called
+2016-12-21-10:04:21: 1: slide left gesture is called
+2016-12-21-10:04:21: 1: slide right gesture is called
+2016-12-21-10:04:24: 1: slide right gesture is called
+2016-12-21-10:04:46: 2:click detected at point:[object Object]
+2016-12-21-10:04:46: Connected
+2016-12-21-10:04:51: Data received from stt: Orhan Gencebay Orhan,Noun Gencebay,Noun
+2016-12-21-10:04:51: SearchTerm from microphone:Orhan Gencebay Orhan,Noun Gencebay,Noun
+2016-12-21-10:04:51: State machine is initialized with input: 
+2016-12-21-10:04:51: Orhan Gencebay Orhan,Noun Gencebay,Noun
+2016-12-21-10:04:51: Input words : 
+2016-12-21-10:04:51: [ 'Orhan', 'Gencebay' ]
+2016-12-21-10:04:51: Input roots : 
+2016-12-21-10:04:51: [ 'Orhan', 'Gencebay' ]
+2016-12-21-10:04:51: Searching for phrase :Orhan
+2016-12-21-10:04:51: Connection closed
+2016-12-21-10:04:51: connection closed in close
+2016-12-21-10:04:52: Response for phrase :Orhan
+
+2016-12-21-10:04:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.48806 } ] }
+2016-12-21-10:04:52: ItemlistElement for phrase : Orhan
+2016-12-21-10:04:52: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.48806 }
+2016-12-21-10:04:52: Callback for phrase : Orhan
+2016-12-21-10:04:52: Callback for word is succeed :Orhan
+2016-12-21-10:04:52: Word is going to iteration : Orhan
+2016-12-21-10:04:52: Iteration for phrase : Orhan Gencebay
+2016-12-21-10:04:52: Searching for phrase :Orhan Gencebay
+2016-12-21-10:04:52: Response for phrase :Orhan Gencebay
+
+2016-12-21-10:04:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-21-10:04:52: ItemlistElement for phrase : Orhan Gencebay
+2016-12-21-10:04:52: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-21-10:04:52: Callback for phrase : Orhan Gencebay
+2016-12-21-10:04:52: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-21-10:04:52: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-21-10:04:52: Last iteration the result of :Orhan Gencebay
+2016-12-21-10:04:52: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-21-10:04:52: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-21-10:04:52: received_result_no=1
+2016-12-21-10:04:52: finish
+2016-12-21-10:04:52: process is finished
+2016-12-21-10:04:52: -----------------Printed Results------------------------
+2016-12-21-10:04:52: Orhan Gencebay
+2016-12-21-10:04:58: 2: slide right gesture is called
+2016-12-21-10:04:59: 2: slide right gesture is called
+2016-12-21-10:04:59: 2: slide right gesture is called
+2016-12-21-10:05:00: 1: slide right gesture is called
+2016-12-21-10:05:01: 1: slide right gesture is called
+2016-12-21-10:05:02: 1: slide right gesture is called
+2016-12-21-10:05:02: 1: slide left gesture is called
+2016-12-21-10:05:04: 1: slide left gesture is called
+2016-12-21-10:05:05: 1: slide left gesture is called
+2016-12-21-10:05:10: AftermoveSectionUp section_count is: 0
+2016-12-21-10:05:17: 2:click detected at point:[object Object]
+2016-12-21-10:05:17: Connected
+2016-12-21-10:05:18: 2: slide left gesture is called
+2016-12-21-10:05:18: 2: slide left gesture is called
+2016-12-21-10:05:19: 2:click detected at point:[object Object]
+2016-12-21-10:05:19: 2: slide left gesture is called
+2016-12-21-10:05:21: Data received from stt:  
+2016-12-21-10:05:21: SearchTerm from microphone: 
+2016-12-21-10:05:21: State machine is initialized with input: 
+2016-12-21-10:05:21:  
+2016-12-21-10:05:21: Input words : 
+2016-12-21-10:05:21: [ '' ]
+2016-12-21-10:05:21: Input roots : 
+2016-12-21-10:05:21: [ '' ]
+2016-12-21-10:05:21: Searching for phrase :
+2016-12-21-10:05:21: Connection closed
+2016-12-21-10:05:21: connection closed in close
+2016-12-21-10:05:22: Response for phrase :
+
+2016-12-21-10:05:22: { error: 
+   { code: 400,
+     message: 'Request contains an invalid argument.',
+     status: 'INVALID_ARGUMENT' } }
+2016-12-21-10:05:22: Failed result for phrase : 
+2016-12-21-10:05:22: Callback for word is failed :
+2016-12-21-10:05:28: 2: slide right gesture is called
+2016-12-21-10:05:29: 2: slide left gesture is called
+2016-12-21-10:05:30: 2: slide right gesture is called
+2016-12-21-10:05:30: 2: slide right gesture is called
+2016-12-21-10:05:41: 1: slide right gesture is called
+2016-12-21-10:05:48: 2: slide right gesture is called
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

@@ -1,0 +1,225 @@
+2016-12-20-10:07:12: 2: slide left gesture is called
+2016-12-20-10:07:18: 1: slide right gesture is called
+2016-12-20-10:07:20: 2:click detected at point:[object Object]
+2016-12-20-10:07:20: Connected
+2016-12-20-10:07:21: 2:click detected at point:[object Object]
+2016-12-20-10:07:32: Data received from stt: kulak ağrısı kulak,Noun ağrı,Noun
+2016-12-20-10:07:32: SearchTerm from microphone:kulak ağrısı kulak,Noun ağrı,Noun
+2016-12-20-10:07:32: State machine is initialized with input: 
+2016-12-20-10:07:32: kulak ağrısı kulak,Noun ağrı,Noun
+2016-12-20-10:07:32: Input words : 
+2016-12-20-10:07:32: [ 'kulak', 'ağrısı' ]
+2016-12-20-10:07:32: Input roots : 
+2016-12-20-10:07:32: [ 'kulak', 'ağrı' ]
+2016-12-20-10:07:32: Searching for phrase :kulak
+2016-12-20-10:07:33: Connection closed
+2016-12-20-10:07:33: connection closed in close
+2016-12-20-10:07:33: Response for phrase :kulak
+
+2016-12-20-10:07:33: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 23.056913 } ] }
+2016-12-20-10:07:33: ItemlistElement for phrase : kulak
+2016-12-20-10:07:33: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qm8cd',
+     name: 'Kulak Otu',
+     '@type': [ 'Thing' ],
+     description: 'Bitki',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSdCiathvU__OQ9eUfW5AXSdPcPNzSEIH7mvDu4deoMBwAWydKg',
+        url: 'https://commons.wikimedia.org/wiki/File:Sempervivum_tectorum_01_by_Line1.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' } },
+  resultScore: 23.056913 }
+2016-12-20-10:07:33: Callback for phrase : kulak
+2016-12-20-10:07:33: Callback for word is succeed :kulak
+2016-12-20-10:07:33: Word is going to iteration : kulak
+2016-12-20-10:07:33: Iteration for phrase : kulak ağrısı
+2016-12-20-10:07:33: Searching for phrase :kulak ağrısı
+2016-12-20-10:07:34: Response for phrase :kulak ağrısı
+
+2016-12-20-10:07:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-10:07:34: ItemlistElement for phrase : kulak ağrısı
+2016-12-20-10:07:34: undefined
+2016-12-20-10:07:34: Failed callback for phras : kulak ağrısı
+
+2016-12-20-10:07:34: Callback for iteration phrase is succeed :kulak ağrısı
+2016-12-20-10:07:34: Score for phrase isnull : kulak ağrısı
+2016-12-20-10:07:34: iteration phrase is going root iteration :kulak ağrısı
+2016-12-20-10:07:34: Root iteration for phrase : kulak ağrı
+2016-12-20-10:07:34: Searching for phrase :kulak ağrı
+2016-12-20-10:07:34: Response for phrase :kulak ağrı
+
+2016-12-20-10:07:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-20-10:07:34: ItemlistElement for phrase : kulak ağrı
+2016-12-20-10:07:34: undefined
+2016-12-20-10:07:34: Failed callback for phras : kulak ağrı
+
+2016-12-20-10:07:34: Callback for root iteration phrase is succeed :kulak ağrı
+2016-12-20-10:07:34: Score for phrase isnull : kulak ağrı
+2016-12-20-10:07:34: Root iteration phrase is going to matching :kulak ağrı
+2016-12-20-10:07:34: Matching result for phrase : kulak
+
+2016-12-20-10:07:34: { '@id': 'kg:/m/02qm8cd',
+  name: 'Kulak Otu',
+  '@type': [ 'Thing' ],
+  description: 'Bitki',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSdCiathvU__OQ9eUfW5AXSdPcPNzSEIH7mvDu4deoMBwAWydKg',
+     url: 'https://commons.wikimedia.org/wiki/File:Sempervivum_tectorum_01_by_Line1.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' } }
+2016-12-20-10:07:34: Result for phrase will be printed : kulak
+2016-12-20-10:07:34: https://www.googleapis.com/customsearch/v1?q=Kulak Otu&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-10:07:34: received_result_no=1
+2016-12-20-10:07:34: System goes new search 
+2016-12-20-10:07:34: Searching for phrase :ağrısı
+2016-12-20-10:07:35: Response for phrase :ağrısı
+
+2016-12-20-10:07:35: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.209495 } ] }
+2016-12-20-10:07:35: ItemlistElement for phrase : ağrısı
+2016-12-20-10:07:35: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07m8mp',
+     name: 'Ağrı',
+     '@type': [ 'Thing', 'Place', 'City' ],
+     description: 'Şehir',
+     detailedDescription: 
+      { articleBody: 'Ağrı, Türkiye\'nin Doğu Anadolu Bölgesi\'nde bulunan şehir ve Ağrı ilinin merkez ilçesi. Ayrıca tarihte birden fazla isim değişikliği yaşamıştır. Karakilise, Ararat, Karaköse ve son olarak Ağrı Dağı\'ndan esinlenilerek Ağrı ismi verilmiştir.\nÇok soğuk bir iklimi olup, ormanlık alan yok denecek kadar azdır. Doğubayazıt ilçesi turizmcilerin gözdesi olup, İshakpaşa Sarayı\'nın bulunduğu yerdir. Patnos ise Ağrı\'nın stratejik olarak çevre illere köprü vaziyeti gören merkez ilçesidir. Diyadin, Hamur, Eleşkirt, Tutak ve Taşlıçay diğer ilçeleridir. Halkın büyük çoğunluğu tarım ve hayvancılıkla uğraşmaktadır.\n15 Nisan İşgalden Kurtuluş Günü olarak kutlanır.',
+        url: 'https://tr.wikipedia.org/wiki/A%C4%9Fr%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.agri.gov.tr/' },
+  resultScore: 15.209495 }
+2016-12-20-10:07:35: Callback for phrase : ağrısı
+2016-12-20-10:07:35: Callback for word is succeed :ağrısı
+2016-12-20-10:07:35: last word is noun here is the result of :ağrısı
+2016-12-20-10:07:35: { '@id': 'kg:/m/07m8mp',
+  name: 'Ağrı',
+  '@type': [ 'Thing', 'Place', 'City' ],
+  description: 'Şehir',
+  detailedDescription: 
+   { articleBody: 'Ağrı, Türkiye\'nin Doğu Anadolu Bölgesi\'nde bulunan şehir ve Ağrı ilinin merkez ilçesi. Ayrıca tarihte birden fazla isim değişikliği yaşamıştır. Karakilise, Ararat, Karaköse ve son olarak Ağrı Dağı\'ndan esinlenilerek Ağrı ismi verilmiştir.\nÇok soğuk bir iklimi olup, ormanlık alan yok denecek kadar azdır. Doğubayazıt ilçesi turizmcilerin gözdesi olup, İshakpaşa Sarayı\'nın bulunduğu yerdir. Patnos ise Ağrı\'nın stratejik olarak çevre illere köprü vaziyeti gören merkez ilçesidir. Diyadin, Hamur, Eleşkirt, Tutak ve Taşlıçay diğer ilçeleridir. Halkın büyük çoğunluğu tarım ve hayvancılıkla uğraşmaktadır.\n15 Nisan İşgalden Kurtuluş Günü olarak kutlanır.',
+     url: 'https://tr.wikipedia.org/wiki/A%C4%9Fr%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.agri.gov.tr/' }
+2016-12-20-10:07:35: received_result_no=2
+2016-12-20-10:07:35: finish
+2016-12-20-10:07:35: process is finished
+2016-12-20-10:07:35: -----------------Printed Results------------------------
+2016-12-20-10:07:35: Kulak Otu
+2016-12-20-10:07:35: Ağrı
+2016-12-20-10:07:36: 1: slide left gesture is called
+2016-12-20-10:07:37: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:38: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:38: section_count is:1
+2016-12-20-10:07:38: AftermoveSectionDown section_count is: 1
+2016-12-20-10:07:38: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:39: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:39: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:40: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:40: 2: slide right gesture is called
+2016-12-20-10:07:41: 2: slide right gesture is called
+2016-12-20-10:07:41: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:41: 2: slide right gesture is called
+2016-12-20-10:07:42: 2: slide right gesture is called
+2016-12-20-10:07:43: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:43: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:44: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:44: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:44: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:45: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:45: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:45: section_count is:1
+2016-12-20-10:07:45: AftermoveSectionUp section_count is: 1
+2016-12-20-10:07:46: section_count is:0
+2016-12-20-10:07:46: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:47: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:47: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:47: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:47: 2: slide left gesture is called
+2016-12-20-10:07:48: 2: slide left gesture is called
+2016-12-20-10:07:49: section_count is:1
+2016-12-20-10:07:49: AftermoveSectionDown section_count is: 1
+2016-12-20-10:07:50: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:51: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:51: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:51: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:51: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:52: 1: slide left gesture is called
+2016-12-20-10:07:52: section_count is:1
+2016-12-20-10:07:52: AftermoveSectionUp section_count is: 1
+2016-12-20-10:07:53: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:53: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:53: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:53: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:54: section_count is:1
+2016-12-20-10:07:54: AftermoveSectionUp section_count is: 1
+2016-12-20-10:07:54: section_count is:0
+2016-12-20-10:07:54: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:55: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:55: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:55: AftermoveSectionUp section_count is: 0
+2016-12-20-10:07:56: section_count is:1
+2016-12-20-10:07:56: AftermoveSectionDown section_count is: 1
+2016-12-20-10:07:56: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:57: 2: slide left gesture is called
+2016-12-20-10:07:57: 2: slide left gesture is called
+2016-12-20-10:07:57: AftermoveSectionDown section_count is: 2
+2016-12-20-10:07:58: 2: slide right gesture is called
+2016-12-20-10:07:58: 2: slide right gesture is called
+2016-12-20-10:07:59: 2: slide right gesture is called
+2016-12-20-10:08:00: AftermoveSectionDown section_count is: 2
+2016-12-20-10:08:00: 2: slide right gesture is called
+2016-12-20-10:08:01: AftermoveSectionDown section_count is: 2
+2016-12-20-10:08:01: 2: slide right gesture is called
+2016-12-20-10:08:01: 2: slide right gesture is called
+2016-12-20-10:08:02: 1: slide left gesture is called
+2016-12-20-10:08:02: section_count is:1
+2016-12-20-10:08:02: AftermoveSectionUp section_count is: 1
+2016-12-20-10:08:02: section_count is:0
+2016-12-20-10:08:02: AftermoveSectionUp section_count is: 0
+2016-12-20-10:08:03: 2: slide left gesture is called
+2016-12-20-10:08:04: 2: slide right gesture is called
+2016-12-20-10:08:05: section_count is:1
+2016-12-20-10:08:05: AftermoveSectionDown section_count is: 1
+2016-12-20-10:08:06: 2: slide right gesture is called
+2016-12-20-10:08:06: 2: slide right gesture is called
+2016-12-20-10:08:07: 2: slide right gesture is called
+2016-12-20-10:08:07: 2: slide right gesture is called
+2016-12-20-10:08:08: 2: slide right gesture is called
+2016-12-20-10:08:09: 2: slide right gesture is called
+2016-12-20-10:08:09: 2: slide right gesture is called
+2016-12-20-10:08:12: 2: slide right gesture is called

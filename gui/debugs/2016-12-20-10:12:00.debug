@@ -1,0 +1,226 @@
+2016-12-20-10:12:04: AftermoveSectionDown section_count is: 0
+2016-12-20-10:12:04: AftermoveSectionUp section_count is: 0
+2016-12-20-10:12:05: 2:click detected at point:[object Object]
+2016-12-20-10:12:05: Connected
+2016-12-20-10:12:06: 2:click detected at point:[object Object]
+2016-12-20-10:12:11: Data received from stt: Orhan Gencebay Orhan,Noun Gencebay,Noun
+2016-12-20-10:12:11: SearchTerm from microphone:Orhan Gencebay Orhan,Noun Gencebay,Noun
+2016-12-20-10:12:11: State machine is initialized with input: 
+2016-12-20-10:12:11: Orhan Gencebay Orhan,Noun Gencebay,Noun
+2016-12-20-10:12:11: Input words : 
+2016-12-20-10:12:11: [ 'Orhan', 'Gencebay' ]
+2016-12-20-10:12:11: Input roots : 
+2016-12-20-10:12:11: [ 'Orhan', 'Gencebay' ]
+2016-12-20-10:12:11: Searching for phrase :Orhan
+2016-12-20-10:12:12: Connection closed
+2016-12-20-10:12:12: connection closed in close
+2016-12-20-10:12:12: Response for phrase :Orhan
+
+2016-12-20-10:12:12: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.48806 } ] }
+2016-12-20-10:12:12: ItemlistElement for phrase : Orhan
+2016-12-20-10:12:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.48806 }
+2016-12-20-10:12:12: Callback for phrase : Orhan
+2016-12-20-10:12:12: Callback for word is succeed :Orhan
+2016-12-20-10:12:12: Word is going to iteration : Orhan
+2016-12-20-10:12:12: Iteration for phrase : Orhan Gencebay
+2016-12-20-10:12:12: Searching for phrase :Orhan Gencebay
+2016-12-20-10:12:13: Response for phrase :Orhan Gencebay
+
+2016-12-20-10:12:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-20-10:12:13: ItemlistElement for phrase : Orhan Gencebay
+2016-12-20-10:12:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-20-10:12:13: Callback for phrase : Orhan Gencebay
+2016-12-20-10:12:13: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-20-10:12:13: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-20-10:12:13: Last iteration the result of :Orhan Gencebay
+2016-12-20-10:12:13: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-20-10:12:13: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-10:12:13: received_result_no=1
+2016-12-20-10:12:13: finish
+2016-12-20-10:12:13: process is finished
+2016-12-20-10:12:13: -----------------Printed Results------------------------
+2016-12-20-10:12:13: Orhan Gencebay
+2016-12-20-10:12:21: 2: slide left gesture is called
+2016-12-20-10:12:21: 2: slide right gesture is called
+2016-12-20-10:12:21: 2: slide right gesture is called
+2016-12-20-10:12:22: AftermoveSectionUp section_count is: 0
+2016-12-20-10:12:22: 2: slide right gesture is called
+2016-12-20-10:12:23: 2: slide right gesture is called
+2016-12-20-10:12:24: 2: slide right gesture is called
+2016-12-20-10:12:24: 2: slide right gesture is called
+2016-12-20-10:12:25: 2: slide right gesture is called
+2016-12-20-10:12:25: 2: slide right gesture is called
+2016-12-20-10:12:26: AftermoveSectionDown section_count is: 1
+2016-12-20-10:12:26: 2: slide right gesture is called
+2016-12-20-10:12:27: 2: slide right gesture is called
+2016-12-20-10:12:27: 2: slide right gesture is called
+2016-12-20-10:12:28: section_count is:0
+2016-12-20-10:12:28: AftermoveSectionUp section_count is: 0
+2016-12-20-10:12:28: AftermoveSectionUp section_count is: 0
+2016-12-20-10:12:31: 2:click detected at point:[object Object]
+2016-12-20-10:12:31: Connected
+2016-12-20-10:12:37: Data received from stt: Zeki Müren Zeki,Noun Güre,Noun
+2016-12-20-10:12:37: SearchTerm from microphone:Zeki Müren Zeki,Noun Güre,Noun
+2016-12-20-10:12:37: State machine is initialized with input: 
+2016-12-20-10:12:37: Zeki Müren Zeki,Noun Güre,Noun
+2016-12-20-10:12:37: Input words : 
+2016-12-20-10:12:37: [ 'Zeki', 'Müren' ]
+2016-12-20-10:12:37: Input roots : 
+2016-12-20-10:12:37: [ 'Zeki', 'Güre' ]
+2016-12-20-10:12:37: Searching for phrase :Zeki
+2016-12-20-10:12:37: Connection closed
+2016-12-20-10:12:37: connection closed in close
+2016-12-20-10:12:38: Response for phrase :Zeki
+
+2016-12-20-10:12:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.287457 } ] }
+2016-12-20-10:12:38: ItemlistElement for phrase : Zeki
+2016-12-20-10:12:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.287457 }
+2016-12-20-10:12:38: Callback for phrase : Zeki
+2016-12-20-10:12:38: Callback for word is succeed :Zeki
+2016-12-20-10:12:38: Word is going to iteration : Zeki
+2016-12-20-10:12:38: Iteration for phrase : Zeki Müren
+2016-12-20-10:12:38: Searching for phrase :Zeki Müren
+2016-12-20-10:12:38: Response for phrase :Zeki Müren
+
+2016-12-20-10:12:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.163513 } ] }
+2016-12-20-10:12:38: ItemlistElement for phrase : Zeki Müren
+2016-12-20-10:12:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.163513 }
+2016-12-20-10:12:38: Callback for phrase : Zeki Müren
+2016-12-20-10:12:38: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-20-10:12:38: Score for phrase is613.163513 : Zeki Müren
+2016-12-20-10:12:38: Last iteration the result of :Zeki Müren
+2016-12-20-10:12:38: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-20-10:12:38: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-10:12:38: received_result_no=1
+2016-12-20-10:12:38: finish
+2016-12-20-10:12:38: process is finished
+2016-12-20-10:12:38: -----------------Printed Results------------------------
+2016-12-20-10:12:38: Zeki Müren
+2016-12-20-10:12:42: 2: slide right gesture is called
+2016-12-20-10:12:43: 2: slide left gesture is called
+2016-12-20-10:12:44: 2: slide left gesture is called
+2016-12-20-10:12:45: 2: slide left gesture is called
+2016-12-20-10:12:46: 2: slide left gesture is called
+2016-12-20-10:12:46: 2: slide right gesture is called
+2016-12-20-10:12:47: AftermoveSectionDown section_count is: 1
+2016-12-20-10:12:47: AftermoveSectionDown section_count is: 1
+2016-12-20-10:12:47: 2: slide right gesture is called
+2016-12-20-10:12:49: AftermoveSectionDown section_count is: 1
+2016-12-20-10:12:50: AftermoveSectionDown section_count is: 1
+2016-12-20-10:12:54: 1: slide left gesture is called
+2016-12-20-10:12:55: 1: slide left gesture is called
+2016-12-20-10:12:56: AftermoveSectionDown section_count is: 1

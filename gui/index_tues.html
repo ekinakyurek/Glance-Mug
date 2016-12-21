@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style type="text/css">
-
         ::-webkit-scrollbar {
             display: none;
         }
@@ -21,7 +20,6 @@
         div#WikiData0 {
             color: white;
             vertical-align: center;
-            padding-top: 30px;
         }
 
         div#header0 {
@@ -43,20 +41,19 @@
         p{
             display: block;
             color: white;
-            —webkit-margin-before: 1em;
-            —webkit-margin-before: 1em;
-            —webkit-margin-before: 0px;
-            —webkit-margin-before: 0px;
+            --webkit-margin-before: 1em;
+            --webkit-margin-before: 1em;
+            --webkit-margin-before: 0px;
+            --webkit-margin-before: 0px;
         }
 
         p#WikiData0 {
-            color: #FFF;
+            color: white;
+            width: 200px;
+            height: 250px;
+            margin: auto;
+            margin-top: auto;
             text-align: justify;
-            font-family: "Verdana";
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 12;
-            -webkit-box-orient: vertical;
         }
 
         p#desc0 {
@@ -67,7 +64,7 @@
             display: -webkit-box;
             -webkit-line-clamp: 1;
             -webkit-box-orient: vertical;
-
+           
         }
 
         p#info0 {
@@ -75,7 +72,6 @@
             text-align: center;
             font-weight: bold;
             font-family: "Verdana";
-
         }
 
         img {
@@ -268,18 +264,12 @@
                 document.getElementById("info0").innerHTML = "ARIYORUM";
 
                 client = new net.Socket();
-
+    
 
                 client.connect(10000, '127.0.0.1', function () {
                     my_console_log('Connected');
 
                     var started = client.write('Start');
-                    setTimeout(function(){
-                        onprocess = false;
-                        if(document.getElementById("info0").innerHTML == "ARIYORUM"){
-                            document.getElementById("info0").innerHTML = "Bağlantı Hatası";
-                        }s
-                    },9000)
 
                     if(!started){
                         my_console_log('connected but couldnt written')
@@ -310,7 +300,6 @@
 
 
                 client.on('data', function (data) {
-
                     my_console_log('Data received from stt: ' + data);
                     searchTerm = data.toString();
                     my_console_log('SearchTerm from microphone:' + searchTerm);
@@ -324,7 +313,7 @@
                    var section_count =0; //extra
 		           var kg_ee = new event_emitter();
                   
-		          if(searchTerm != ''){
+		   if(searchTerm != ''){
                        search.starter(searchTerm,debug, kg_ee, my_console_log)
                    
                   }else{
@@ -428,7 +417,7 @@
 
             <div class="slide">
                 <div class="intro" id="WikiData0">
-                    <p id="WikiData0"> </p>
+                    <p> </p>
                 </div>
             </div>
             <div class="slide">

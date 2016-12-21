@@ -1,0 +1,454 @@
+2016-12-20-11:16:55: 2:click detected at point:[object Object]
+2016-12-20-11:16:55: Connected
+2016-12-20-11:16:55: 2:click detected at point:[object Object]
+2016-12-20-11:17:04: Data received from stt:  
+2016-12-20-11:17:04: SearchTerm from microphone: 
+2016-12-20-11:17:04: State machine is initialized with input: 
+2016-12-20-11:17:04:  
+2016-12-20-11:17:04: Input words : 
+2016-12-20-11:17:04: [ '' ]
+2016-12-20-11:17:04: Input roots : 
+2016-12-20-11:17:04: [ '' ]
+2016-12-20-11:17:04: Searching for phrase :
+2016-12-20-11:17:04: Connection closed
+2016-12-20-11:17:04: connection closed in close
+2016-12-20-11:17:05: Response for phrase :
+
+2016-12-20-11:17:05: { error: 
+   { code: 400,
+     message: 'Request contains an invalid argument.',
+     status: 'INVALID_ARGUMENT' } }
+2016-12-20-11:17:05: Failed result for phrase : 
+2016-12-20-11:17:05: Callback for word is failed :
+2016-12-20-11:17:07: 2:click detected at point:[object Object]
+2016-12-20-11:17:07: Connected
+2016-12-20-11:17:08: 2:click detected at point:[object Object]
+2016-12-20-11:17:12: Data received from stt: Orhan Gencebay Zeki Müren Orhan,Noun Gencebay,Noun Zeki,Noun Güre,Noun
+2016-12-20-11:17:12: SearchTerm from microphone:Orhan Gencebay Zeki Müren Orhan,Noun Gencebay,Noun Zeki,Noun Güre,Noun
+2016-12-20-11:17:12: State machine is initialized with input: 
+2016-12-20-11:17:12: Orhan Gencebay Zeki Müren Orhan,Noun Gencebay,Noun Zeki,Noun Güre,Noun
+2016-12-20-11:17:12: Input words : 
+2016-12-20-11:17:12: [ 'Orhan', 'Gencebay', 'Zeki', 'Müren' ]
+2016-12-20-11:17:12: Input roots : 
+2016-12-20-11:17:12: [ 'Orhan', 'Gencebay', 'Zeki', 'Güre' ]
+2016-12-20-11:17:12: Searching for phrase :Orhan
+2016-12-20-11:17:12: Connection closed
+2016-12-20-11:17:12: connection closed in close
+2016-12-20-11:17:12: Response for phrase :Orhan
+
+2016-12-20-11:17:12: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.48806 } ] }
+2016-12-20-11:17:12: ItemlistElement for phrase : Orhan
+2016-12-20-11:17:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.48806 }
+2016-12-20-11:17:12: Callback for phrase : Orhan
+2016-12-20-11:17:12: Callback for word is succeed :Orhan
+2016-12-20-11:17:12: Word is going to iteration : Orhan
+2016-12-20-11:17:12: Iteration for phrase : Orhan Gencebay
+2016-12-20-11:17:12: Searching for phrase :Orhan Gencebay
+2016-12-20-11:17:13: Response for phrase :Orhan Gencebay
+
+2016-12-20-11:17:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 596.105042 } ] }
+2016-12-20-11:17:13: ItemlistElement for phrase : Orhan Gencebay
+2016-12-20-11:17:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 596.105042 }
+2016-12-20-11:17:13: Callback for phrase : Orhan Gencebay
+2016-12-20-11:17:13: Callback for iteration phrase is succeed :Orhan Gencebay
+2016-12-20-11:17:13: Score for phrase is596.105042 : Orhan Gencebay
+2016-12-20-11:17:13: iteration phrase is going next iteration :Orhan Gencebay
+2016-12-20-11:17:13: Iteration for phrase : Orhan Gencebay Zeki
+2016-12-20-11:17:13: Searching for phrase :Orhan Gencebay Zeki
+2016-12-20-11:17:13: Response for phrase :Orhan Gencebay Zeki
+
+2016-12-20-11:17:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.885629 } ] }
+2016-12-20-11:17:13: ItemlistElement for phrase : Orhan Gencebay Zeki
+2016-12-20-11:17:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0vyb17s',
+     name: 'Kaptan',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1984 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Kaptan, Zeki Alasya\'nın yönettiği 1984 yapımı Türk filmidir. Senaryosunu Suphi Tekniker\'in yazdığı filmin başrollerinde Orhan Gencebay ve Hülya Avşar oynamaktadır. Filmin yapımcılığını ise Enver Özer üstlenmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/Kaptan_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 13.885629 }
+2016-12-20-11:17:13: Callback for phrase : Orhan Gencebay Zeki
+2016-12-20-11:17:13: Callback for iteration phrase is succeed :Orhan Gencebay Zeki
+2016-12-20-11:17:13: Score for phrase is13.885629 : Orhan Gencebay Zeki
+2016-12-20-11:17:13: iteration phrase is going root iteration :Orhan Gencebay Zeki
+2016-12-20-11:17:13: Root iteration for phrase : Orhan Gencebay Zeki
+2016-12-20-11:17:13: Searching for phrase :Orhan Gencebay Zeki
+2016-12-20-11:17:13: Response for phrase :Orhan Gencebay Zeki
+
+2016-12-20-11:17:13: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.885629 } ] }
+2016-12-20-11:17:13: ItemlistElement for phrase : Orhan Gencebay Zeki
+2016-12-20-11:17:13: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0vyb17s',
+     name: 'Kaptan',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1984 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Kaptan, Zeki Alasya\'nın yönettiği 1984 yapımı Türk filmidir. Senaryosunu Suphi Tekniker\'in yazdığı filmin başrollerinde Orhan Gencebay ve Hülya Avşar oynamaktadır. Filmin yapımcılığını ise Enver Özer üstlenmiştir.',
+        url: 'https://tr.wikipedia.org/wiki/Kaptan_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 13.885629 }
+2016-12-20-11:17:13: Callback for phrase : Orhan Gencebay Zeki
+2016-12-20-11:17:13: Callback for root iteration phrase is succeed :Orhan Gencebay Zeki
+2016-12-20-11:17:13: Score for phrase is13.885629 : Orhan Gencebay Zeki
+2016-12-20-11:17:13: Root iteration phrase is going to matching :Orhan Gencebay Zeki
+2016-12-20-11:17:13: Matching result for phrase : Orhan Gencebay
+
+2016-12-20-11:17:13: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-20-11:17:13: Result for phrase will be printed : Orhan Gencebay
+2016-12-20-11:17:13: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-11:17:13: received_result_no=1
+2016-12-20-11:17:13: System goes new search 
+2016-12-20-11:17:13: Searching for phrase :Zeki
+2016-12-20-11:17:14: Response for phrase :Zeki
+
+2016-12-20-11:17:14: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.287457 } ] }
+2016-12-20-11:17:14: ItemlistElement for phrase : Zeki
+2016-12-20-11:17:14: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.287457 }
+2016-12-20-11:17:14: Callback for phrase : Zeki
+2016-12-20-11:17:14: Callback for word is succeed :Zeki
+2016-12-20-11:17:14: Word is going to iteration : Zeki
+2016-12-20-11:17:14: Iteration for phrase : Zeki Müren
+2016-12-20-11:17:14: Searching for phrase :Zeki Müren
+2016-12-20-11:17:14: Response for phrase :Zeki Müren
+
+2016-12-20-11:17:14: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.163513 } ] }
+2016-12-20-11:17:14: ItemlistElement for phrase : Zeki Müren
+2016-12-20-11:17:14: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.163513 }
+2016-12-20-11:17:14: Callback for phrase : Zeki Müren
+2016-12-20-11:17:14: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-20-11:17:14: Score for phrase is613.163513 : Zeki Müren
+2016-12-20-11:17:14: Last iteration the result of :Zeki Müren
+2016-12-20-11:17:14: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-20-11:17:14: received_result_no=2
+2016-12-20-11:17:14: finish
+2016-12-20-11:17:14: process is finished
+2016-12-20-11:17:14: -----------------Printed Results------------------------
+2016-12-20-11:17:14: Orhan Gencebay
+2016-12-20-11:17:14: Zeki Müren
+2016-12-20-11:17:17: 2: slide right gesture is called
+2016-12-20-11:17:19: 2: slide right gesture is called
+2016-12-20-11:17:20: 2: slide right gesture is called
+2016-12-20-11:17:21: AftermoveSectionUp section_count is: 0
+2016-12-20-11:17:21: section_count is:1
+2016-12-20-11:17:21: AftermoveSectionDown section_count is: 1
+2016-12-20-11:17:23: 2: slide right gesture is called
+2016-12-20-11:17:23: 2: slide right gesture is called
+2016-12-20-11:17:24: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:27: 1: slide left gesture is called
+2016-12-20-11:17:27: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:28: 1: slide left gesture is called
+2016-12-20-11:17:29: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:29: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:30: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:30: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:30: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:30: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:31: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:31: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:31: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:31: section_count is:1
+2016-12-20-11:17:31: AftermoveSectionUp section_count is: 1
+2016-12-20-11:17:32: section_count is:0
+2016-12-20-11:17:32: AftermoveSectionUp section_count is: 0
+2016-12-20-11:17:32: AftermoveSectionUp section_count is: 0
+2016-12-20-11:17:32: AftermoveSectionUp section_count is: 0
+2016-12-20-11:17:32: section_count is:1
+2016-12-20-11:17:32: AftermoveSectionDown section_count is: 1
+2016-12-20-11:17:33: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:33: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:33: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:33: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:34: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:34: 2: slide left gesture is called
+2016-12-20-11:17:35: 2: slide right gesture is called
+2016-12-20-11:17:37: 1: slide right gesture is called
+2016-12-20-11:17:37: 2: slide left gesture is called
+2016-12-20-11:17:38: 2: slide left gesture is called
+2016-12-20-11:17:39: 2: slide left gesture is called
+2016-12-20-11:17:40: 2: slide right gesture is called
+2016-12-20-11:17:40: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:41: section_count is:1
+2016-12-20-11:17:41: AftermoveSectionUp section_count is: 1
+2016-12-20-11:17:42: 2: slide right gesture is called
+2016-12-20-11:17:42: 2: slide right gesture is called
+2016-12-20-11:17:44: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:44: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:45: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:45: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:45: section_count is:1
+2016-12-20-11:17:45: AftermoveSectionUp section_count is: 1
+2016-12-20-11:17:46: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:46: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:46: section_count is:1
+2016-12-20-11:17:46: AftermoveSectionUp section_count is: 1
+2016-12-20-11:17:46: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:47: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:47: section_count is:1
+2016-12-20-11:17:47: AftermoveSectionUp section_count is: 1
+2016-12-20-11:17:47: section_count is:0
+2016-12-20-11:17:47: AftermoveSectionUp section_count is: 0
+2016-12-20-11:17:48: section_count is:1
+2016-12-20-11:17:48: AftermoveSectionDown section_count is: 1
+2016-12-20-11:17:49: section_count is:0
+2016-12-20-11:17:49: AftermoveSectionUp section_count is: 0
+2016-12-20-11:17:49: 2: slide right gesture is called
+2016-12-20-11:17:49: section_count is:1
+2016-12-20-11:17:49: AftermoveSectionDown section_count is: 1
+2016-12-20-11:17:49: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:50: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:51: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:51: section_count is:1
+2016-12-20-11:17:51: AftermoveSectionUp section_count is: 1
+2016-12-20-11:17:51: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:52: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:53: 2: slide left gesture is called
+2016-12-20-11:17:54: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:54: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:54: AftermoveSectionDown section_count is: 2
+2016-12-20-11:17:54: 2: slide right gesture is called
+2016-12-20-11:17:55: 1: slide right gesture is called
+2016-12-20-11:17:56: 1: slide left gesture is called
+2016-12-20-11:17:57: 1: slide left gesture is called
+2016-12-20-11:17:58: 2: slide right gesture is called
+2016-12-20-11:17:59: AftermoveSectionDown section_count is: 2
+2016-12-20-11:18:01: 1: slide left gesture is called
+2016-12-20-11:18:02: 1: slide left gesture is called
+2016-12-20-11:18:03: AftermoveSectionDown section_count is: 2
+2016-12-20-11:18:05: AftermoveSectionDown section_count is: 2
+2016-12-20-11:18:05: 2:click detected at point:[object Object]
+2016-12-20-11:18:05: Connected
+2016-12-20-11:18:06: 2:click detected at point:[object Object]
+2016-12-20-11:18:07: AftermoveSectionDown section_count is: 2
+2016-12-20-11:18:09: Data received from stt: Viyana Viyana,Noun
+2016-12-20-11:18:09: SearchTerm from microphone:Viyana Viyana,Noun
+2016-12-20-11:18:09: State machine is initialized with input: 
+2016-12-20-11:18:09: Viyana Viyana,Noun
+2016-12-20-11:18:09: Input words : 
+2016-12-20-11:18:09: [ 'Viyana' ]
+2016-12-20-11:18:09: Input roots : 
+2016-12-20-11:18:09: [ 'Viyana' ]
+2016-12-20-11:18:09: Searching for phrase :Viyana
+2016-12-20-11:18:09: Connection closed
+2016-12-20-11:18:09: connection closed in close
+2016-12-20-11:18:10: Response for phrase :Viyana
+
+2016-12-20-11:18:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 102.19883 } ] }
+2016-12-20-11:18:10: ItemlistElement for phrase : Viyana
+2016-12-20-11:18:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fhp9',
+     name: 'Viyana',
+     '@type': 
+      [ 'City',
+        'LandmarksOrHistoricalBuildings',
+        'AdministrativeArea',
+        'Place',
+        'Thing' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQ3ahba2OBwxSl-xd9aplTFhOCuZZfFtPW9kpF34dEYiW__9pcY',
+        url: 'https://en.wikipedia.org/wiki/Vienna',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Viyana, Avusturya\'nın başkenti ve en büyük şehri, aynı zamanda ülkenin dokuz eyaletinden yüzölçümü bakımından en küçüğü. Yaklaşık 1.705.000 kişilik nüfusuyla ülkenin en kalabalık kentidir, çevre ilçeleriyle birlikte Viyana\'da yaklaşık iki milyon insan yaşar, ki bu da Avusturya nüfusunun yaklaşık dörtte biridir. ',
+        url: 'https://tr.wikipedia.org/wiki/Viyana',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.wien.gv.at/' },
+  resultScore: 102.19883 }
+2016-12-20-11:18:10: Callback for phrase : Viyana
+2016-12-20-11:18:10: Callback for word is succeed :Viyana
+2016-12-20-11:18:10: last word is noun here is the result of :Viyana
+2016-12-20-11:18:10: { '@id': 'kg:/m/0fhp9',
+  name: 'Viyana',
+  '@type': 
+   [ 'City',
+     'LandmarksOrHistoricalBuildings',
+     'AdministrativeArea',
+     'Place',
+     'Thing' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQ3ahba2OBwxSl-xd9aplTFhOCuZZfFtPW9kpF34dEYiW__9pcY',
+     url: 'https://en.wikipedia.org/wiki/Vienna',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Viyana, Avusturya\'nın başkenti ve en büyük şehri, aynı zamanda ülkenin dokuz eyaletinden yüzölçümü bakımından en küçüğü. Yaklaşık 1.705.000 kişilik nüfusuyla ülkenin en kalabalık kentidir, çevre ilçeleriyle birlikte Viyana\'da yaklaşık iki milyon insan yaşar, ki bu da Avusturya nüfusunun yaklaşık dörtte biridir. ',
+     url: 'https://tr.wikipedia.org/wiki/Viyana',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.wien.gv.at/' }
+2016-12-20-11:18:10: https://www.googleapis.com/customsearch/v1?q=Viyana&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-20-11:18:10: received_result_no=1
+2016-12-20-11:18:10: finish
+2016-12-20-11:18:10: process is finished
+2016-12-20-11:18:10: -----------------Printed Results------------------------
+2016-12-20-11:18:10: Viyana
+2016-12-20-11:18:13: AftermoveSectionUp section_count is: 1
+2016-12-20-11:18:14: AftermoveSectionDown section_count is: 1
+2016-12-20-11:18:14: AftermoveSectionDown section_count is: 1
+2016-12-20-11:18:15: 2: slide right gesture is called
+2016-12-20-11:18:16: AftermoveSectionDown section_count is: 1
+2016-12-20-11:18:16: 2: slide right gesture is called
+2016-12-20-11:18:17: 2: slide right gesture is called
+2016-12-20-11:18:17: 2: slide right gesture is called
+2016-12-20-11:18:18: 1: slide right gesture is called
+2016-12-20-11:18:19: 1: slide right gesture is called
+2016-12-20-11:18:19: 1: slide left gesture is called
+2016-12-20-11:18:22: 1: slide left gesture is called
+2016-12-20-11:18:23: 1: slide left gesture is called
+2016-12-20-11:18:23: 1: slide left gesture is called
+2016-12-20-11:18:23: 1: slide left gesture is called
+2016-12-20-11:18:24: 1: slide left gesture is called
+2016-12-20-11:18:26: 1: slide left gesture is called
+2016-12-20-11:18:37: 1: slide left gesture is called
+                                                                                                                                                                                                                                                                                                                                                                                                

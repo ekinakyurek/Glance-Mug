@@ -1,0 +1,588 @@
+2016-12-21-10:49:51: 2: slide right gesture is called
+2016-12-21-10:50:03: 2: slide left gesture is called
+2016-12-21-10:50:12: 2:click detected at point:[object Object]
+2016-12-21-10:50:12: Connected
+2016-12-21-10:50:18: Data received from stt: şimdi Orhan Zeki Müren şimdi,Other Orhan,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:50:18: SearchTerm from microphone:şimdi Orhan Zeki Müren şimdi,Other Orhan,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:50:18: State machine is initialized with input: 
+2016-12-21-10:50:18: şimdi Orhan Zeki Müren şimdi,Other Orhan,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:50:18: Input words : 
+2016-12-21-10:50:18: [ 'şimdi', 'Orhan', 'Zeki', 'Müren' ]
+2016-12-21-10:50:18: Input roots : 
+2016-12-21-10:50:18: [ 'şimdi', 'Orhan', 'Zeki', 'Güre' ]
+2016-12-21-10:50:18: Searching for phrase :şimdi
+2016-12-21-10:50:19: Connection closed
+2016-12-21-10:50:19: connection closed in close
+2016-12-21-10:50:19: Response for phrase :şimdi
+
+2016-12-21-10:50:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.992954 } ] }
+2016-12-21-10:50:19: ItemlistElement for phrase : şimdi
+2016-12-21-10:50:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0h14pxl',
+     name: 'Aşk, Şimdi',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2012 yapımı film' },
+  resultScore: 24.992954 }
+2016-12-21-10:50:19: Callback for phrase : şimdi
+2016-12-21-10:50:19: Callback for word is succeed :şimdi
+2016-12-21-10:50:19: Word is going to iteration : şimdi
+2016-12-21-10:50:19: Iteration for phrase : şimdi Orhan
+2016-12-21-10:50:19: Searching for phrase :şimdi Orhan
+2016-12-21-10:50:20: Response for phrase :şimdi Orhan
+
+2016-12-21-10:50:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:50:20: ItemlistElement for phrase : şimdi Orhan
+2016-12-21-10:50:20: undefined
+2016-12-21-10:50:20: Failed callback for phras : şimdi Orhan
+
+2016-12-21-10:50:20: Callback for iteration phrase is succeed :şimdi Orhan
+2016-12-21-10:50:20: Score for phrase isnull : şimdi Orhan
+2016-12-21-10:50:20: iteration phrase is going root iteration :şimdi Orhan
+2016-12-21-10:50:20: Root iteration for phrase : şimdi Orhan
+2016-12-21-10:50:20: Searching for phrase :şimdi Orhan
+2016-12-21-10:50:20: Response for phrase :şimdi Orhan
+
+2016-12-21-10:50:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:50:20: ItemlistElement for phrase : şimdi Orhan
+2016-12-21-10:50:20: undefined
+2016-12-21-10:50:20: Failed callback for phras : şimdi Orhan
+
+2016-12-21-10:50:20: Callback for root iteration phrase is succeed :şimdi Orhan
+2016-12-21-10:50:20: Score for phrase isnull : şimdi Orhan
+2016-12-21-10:50:20: Root iteration phrase is going to matching :şimdi Orhan
+2016-12-21-10:50:20: Matching result for phrase : şimdi
+
+2016-12-21-10:50:20: { '@id': 'kg:/m/0h14pxl',
+  name: 'Aşk, Şimdi',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2012 yapımı film' }
+2016-12-21-10:50:20: Result for phrase will be printed : şimdi
+2016-12-21-10:50:20: https://www.googleapis.com/customsearch/v1?q=Aşk, Şimdi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-21-10:50:20: received_result_no=1
+2016-12-21-10:50:20: System goes new search 
+2016-12-21-10:50:20: Searching for phrase :Zeki
+2016-12-21-10:50:21: Response for phrase :Zeki
+
+2016-12-21-10:50:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.287457 } ] }
+2016-12-21-10:50:21: ItemlistElement for phrase : Zeki
+2016-12-21-10:50:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.287457 }
+2016-12-21-10:50:21: Callback for phrase : Zeki
+2016-12-21-10:50:21: Callback for word is succeed :Zeki
+2016-12-21-10:50:21: Word is going to iteration : Zeki
+2016-12-21-10:50:21: Iteration for phrase : Zeki Müren
+2016-12-21-10:50:21: Searching for phrase :Zeki Müren
+2016-12-21-10:50:21: Response for phrase :Zeki Müren
+
+2016-12-21-10:50:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.163513 } ] }
+2016-12-21-10:50:21: ItemlistElement for phrase : Zeki Müren
+2016-12-21-10:50:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.163513 }
+2016-12-21-10:50:21: Callback for phrase : Zeki Müren
+2016-12-21-10:50:21: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-21-10:50:21: Score for phrase is613.163513 : Zeki Müren
+2016-12-21-10:50:21: Last iteration the result of :Zeki Müren
+2016-12-21-10:50:21: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-21-10:50:21: received_result_no=2
+2016-12-21-10:50:21: finish
+2016-12-21-10:50:21: process is finished
+2016-12-21-10:50:21: -----------------Printed Results------------------------
+2016-12-21-10:50:21: Aşk, Şimdi
+2016-12-21-10:50:21: Zeki Müren
+2016-12-21-10:50:26: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:27: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:28: 2: slide left gesture is called
+2016-12-21-10:50:29: 2: slide left gesture is called
+2016-12-21-10:50:30: 2: slide right gesture is called
+2016-12-21-10:50:32: 2: slide right gesture is called
+2016-12-21-10:50:32: 2: slide right gesture is called
+2016-12-21-10:50:33: 2:click detected at point:[object Object]
+2016-12-21-10:50:33: Connected
+2016-12-21-10:50:34: 2: slide right gesture is called
+2016-12-21-10:50:35: 1: slide right gesture is called
+2016-12-21-10:50:38: section_count is:1
+2016-12-21-10:50:38: AftermoveSectionDown section_count is: 1
+2016-12-21-10:50:38: section_count is:0
+2016-12-21-10:50:38: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:38: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:40: Data received from stt: fotoğraf fotoğraf,Noun
+2016-12-21-10:50:40: SearchTerm from microphone:fotoğraf fotoğraf,Noun
+2016-12-21-10:50:40: State machine is initialized with input: 
+2016-12-21-10:50:40: fotoğraf fotoğraf,Noun
+2016-12-21-10:50:40: Input words : 
+2016-12-21-10:50:40: [ 'fotoğraf' ]
+2016-12-21-10:50:40: Input roots : 
+2016-12-21-10:50:40: [ 'fotoğraf' ]
+2016-12-21-10:50:40: Searching for phrase :fotoğraf
+2016-12-21-10:50:40: Connection closed
+2016-12-21-10:50:40: connection closed in close
+2016-12-21-10:50:40: section_count is:1
+2016-12-21-10:50:40: AftermoveSectionDown section_count is: 1
+2016-12-21-10:50:40: Response for phrase :fotoğraf
+
+2016-12-21-10:50:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 53.593735 } ] }
+2016-12-21-10:50:40: ItemlistElement for phrase : fotoğraf
+2016-12-21-10:50:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0k_rv',
+     name: 'Fotoğraf makinesi',
+     '@type': [ 'Place', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRkkf2MB6ZrJ_YVV0Fj3IbUxrqnLMaG6xGsNo_IV-uVCZjlvypD',
+        url: 'https://commons.wikimedia.org/wiki/File:Studijskifotoaparat.JPG',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Fotoğraf makinesi ışık ile resim çizmeye yarayan alettir.',
+        url: 'https://tr.wikipedia.org/wiki/Foto%C4%9Fraf_makinesi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 53.593735 }
+2016-12-21-10:50:40: Callback for phrase : fotoğraf
+2016-12-21-10:50:40: Callback for word is succeed :fotoğraf
+2016-12-21-10:50:40: last word is noun here is the result of :fotoğraf
+2016-12-21-10:50:40: { '@id': 'kg:/m/0k_rv',
+  name: 'Fotoğraf makinesi',
+  '@type': [ 'Place', 'Thing' ],
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRkkf2MB6ZrJ_YVV0Fj3IbUxrqnLMaG6xGsNo_IV-uVCZjlvypD',
+     url: 'https://commons.wikimedia.org/wiki/File:Studijskifotoaparat.JPG',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Fotoğraf makinesi ışık ile resim çizmeye yarayan alettir.',
+     url: 'https://tr.wikipedia.org/wiki/Foto%C4%9Fraf_makinesi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-21-10:50:40: https://www.googleapis.com/customsearch/v1?q=Fotoğraf makinesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-21-10:50:40: received_result_no=1
+2016-12-21-10:50:40: finish
+2016-12-21-10:50:40: process is finished
+2016-12-21-10:50:40: -----------------Printed Results------------------------
+2016-12-21-10:50:40: Fotoğraf makinesi
+2016-12-21-10:50:43: 2: slide right gesture is called
+2016-12-21-10:50:44: AftermoveSectionDown section_count is: 1
+2016-12-21-10:50:46: AftermoveSectionDown section_count is: 1
+2016-12-21-10:50:46: section_count is:0
+2016-12-21-10:50:46: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:48: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:49: 1: slide left gesture is called
+2016-12-21-10:50:49: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:50: AftermoveSectionUp section_count is: 0
+2016-12-21-10:50:51: AftermoveSectionDown section_count is: 1
+2016-12-21-10:50:52: 1: slide right gesture is called
+2016-12-21-10:50:56: 2:click detected at point:[object Object]
+2016-12-21-10:50:56: Connected
+2016-12-21-10:51:02: Data received from stt: video Gencebay Zeki Müren video,Noun Gencebay,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:51:02: SearchTerm from microphone:video Gencebay Zeki Müren video,Noun Gencebay,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:51:02: State machine is initialized with input: 
+2016-12-21-10:51:02: video Gencebay Zeki Müren video,Noun Gencebay,Noun Zeki,Noun Güre,Noun
+2016-12-21-10:51:02: Input words : 
+2016-12-21-10:51:02: [ 'video', 'Gencebay', 'Zeki', 'Müren' ]
+2016-12-21-10:51:02: Input roots : 
+2016-12-21-10:51:02: [ 'video', 'Gencebay', 'Zeki', 'Güre' ]
+2016-12-21-10:51:02: Searching for phrase :video
+2016-12-21-10:51:02: Connection closed
+2016-12-21-10:51:02: connection closed in close
+2016-12-21-10:51:02: Response for phrase :video
+
+2016-12-21-10:51:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 45.477909 } ] }
+2016-12-21-10:51:02: ItemlistElement for phrase : video
+2016-12-21-10:51:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07c72',
+     name: 'Simpsonlar',
+     '@type': [ 'TVSeries', 'Thing', 'BroadcastChannel' ],
+     description: 'Televizyon dizisi',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRcWYj8AKVtTY8e6ZPbmXmocjGYMmG0W8oFX19dSTHGPFn7acCL',
+        url: 'https://commons.wikimedia.org/wiki/File:Logo_The_Simpsons.svg' },
+     detailedDescription: 
+      { articleBody: 'The Simpsons, Matt Groening tarafından Fox Broadcasting Company için yaratılan animasyon televizyon durum komedisidir. Dizi, Homer, Marge, Bart, Lisa ve Maggie\'den oluşan orta sınıf bir Amerikan ailesinin satirik bir parodisidir. ',
+        url: 'https://tr.wikipedia.org/wiki/Simpsonlar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.thesimpsons.com/' },
+  resultScore: 45.477909 }
+2016-12-21-10:51:02: Callback for phrase : video
+2016-12-21-10:51:02: Callback for word is succeed :video
+2016-12-21-10:51:02: Word is going to iteration : video
+2016-12-21-10:51:02: Iteration for phrase : video Gencebay
+2016-12-21-10:51:02: Searching for phrase :video Gencebay
+2016-12-21-10:51:02: Response for phrase :video Gencebay
+
+2016-12-21-10:51:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:51:02: ItemlistElement for phrase : video Gencebay
+2016-12-21-10:51:02: undefined
+2016-12-21-10:51:02: Failed callback for phras : video Gencebay
+
+2016-12-21-10:51:02: Callback for iteration phrase is succeed :video Gencebay
+2016-12-21-10:51:02: Score for phrase isnull : video Gencebay
+2016-12-21-10:51:02: iteration phrase is going root iteration :video Gencebay
+2016-12-21-10:51:02: Root iteration for phrase : video Gencebay
+2016-12-21-10:51:02: Searching for phrase :video Gencebay
+2016-12-21-10:51:03: Response for phrase :video Gencebay
+
+2016-12-21-10:51:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-21-10:51:03: ItemlistElement for phrase : video Gencebay
+2016-12-21-10:51:03: undefined
+2016-12-21-10:51:03: Failed callback for phras : video Gencebay
+
+2016-12-21-10:51:03: Callback for root iteration phrase is succeed :video Gencebay
+2016-12-21-10:51:03: Score for phrase isnull : video Gencebay
+2016-12-21-10:51:03: Root iteration phrase is going to matching :video Gencebay
+2016-12-21-10:51:03: Matching result for phrase : video
+
+2016-12-21-10:51:03: { '@id': 'kg:/m/07c72',
+  name: 'Simpsonlar',
+  '@type': [ 'TVSeries', 'Thing', 'BroadcastChannel' ],
+  description: 'Televizyon dizisi',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRcWYj8AKVtTY8e6ZPbmXmocjGYMmG0W8oFX19dSTHGPFn7acCL',
+     url: 'https://commons.wikimedia.org/wiki/File:Logo_The_Simpsons.svg' },
+  detailedDescription: 
+   { articleBody: 'The Simpsons, Matt Groening tarafından Fox Broadcasting Company için yaratılan animasyon televizyon durum komedisidir. Dizi, Homer, Marge, Bart, Lisa ve Maggie\'den oluşan orta sınıf bir Amerikan ailesinin satirik bir parodisidir. ',
+     url: 'https://tr.wikipedia.org/wiki/Simpsonlar',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.thesimpsons.com/' }
+2016-12-21-10:51:03: Result for phrase will be printed : video
+2016-12-21-10:51:03: https://www.googleapis.com/customsearch/v1?q=Simpsonlar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-21-10:51:03: received_result_no=1
+2016-12-21-10:51:03: System goes new search 
+2016-12-21-10:51:03: Searching for phrase :Gencebay
+2016-12-21-10:51:03: Response for phrase :Gencebay
+
+2016-12-21-10:51:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 34.672626 } ] }
+2016-12-21-10:51:03: ItemlistElement for phrase : Gencebay
+2016-12-21-10:51:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 34.672626 }
+2016-12-21-10:51:03: Callback for phrase : Gencebay
+2016-12-21-10:51:03: Callback for word is succeed :Gencebay
+2016-12-21-10:51:03: Word is going to iteration : Gencebay
+2016-12-21-10:51:03: Iteration for phrase : Gencebay Zeki
+2016-12-21-10:51:03: Searching for phrase :Gencebay Zeki
+2016-12-21-10:51:04: Response for phrase :Gencebay Zeki
+
+2016-12-21-10:51:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 8.138634 } ] }
+2016-12-21-10:51:04: ItemlistElement for phrase : Gencebay Zeki
+2016-12-21-10:51:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02z7g0m',
+     name: 'Ömer Lütfi Akad',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Film Yönetmeni',
+     detailedDescription: 
+      { articleBody: 'Ömer Lütfi Akad, Türk film yönetmeni ve senarist. Türk sinemasının "Koca Çınar"ı olarak bilinen Akad, 1950\'li yıllara değin tiyatrocuların egemenliğinde kalmış olan Türk sinemasının, tiyatrodan bağımsız hale gelmesini sağlayan en önemli isimlerden biri olmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/%C3%96mer_L%C3%BCtfi_Akad',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 8.138634 }
+2016-12-21-10:51:04: Callback for phrase : Gencebay Zeki
+2016-12-21-10:51:04: Callback for iteration phrase is succeed :Gencebay Zeki
+2016-12-21-10:51:04: Score for phrase is8.138634 : Gencebay Zeki
+2016-12-21-10:51:04: iteration phrase is going root iteration :Gencebay Zeki
+2016-12-21-10:51:04: Root iteration for phrase : Gencebay Zeki
+2016-12-21-10:51:04: Searching for phrase :Gencebay Zeki
+2016-12-21-10:51:04: Response for phrase :Gencebay Zeki
+
+2016-12-21-10:51:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 8.138634 } ] }
+2016-12-21-10:51:04: ItemlistElement for phrase : Gencebay Zeki
+2016-12-21-10:51:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02z7g0m',
+     name: 'Ömer Lütfi Akad',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Film Yönetmeni',
+     detailedDescription: 
+      { articleBody: 'Ömer Lütfi Akad, Türk film yönetmeni ve senarist. Türk sinemasının "Koca Çınar"ı olarak bilinen Akad, 1950\'li yıllara değin tiyatrocuların egemenliğinde kalmış olan Türk sinemasının, tiyatrodan bağımsız hale gelmesini sağlayan en önemli isimlerden biri olmuştur. ',
+        url: 'https://tr.wikipedia.org/wiki/%C3%96mer_L%C3%BCtfi_Akad',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 8.138634 }
+2016-12-21-10:51:04: Callback for phrase : Gencebay Zeki
+2016-12-21-10:51:04: Callback for root iteration phrase is succeed :Gencebay Zeki
+2016-12-21-10:51:04: Score for phrase is8.138634 : Gencebay Zeki
+2016-12-21-10:51:04: Root iteration phrase is going to matching :Gencebay Zeki
+2016-12-21-10:51:04: Matching result for phrase : Gencebay
+
+2016-12-21-10:51:04: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2016-12-21-10:51:04: Result for phrase will be printed : Gencebay
+2016-12-21-10:51:04: received_result_no=2
+2016-12-21-10:51:04: System goes new search 
+2016-12-21-10:51:04: Searching for phrase :Zeki
+2016-12-21-10:51:04: Response for phrase :Zeki
+
+2016-12-21-10:51:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.287457 } ] }
+2016-12-21-10:51:04: ItemlistElement for phrase : Zeki
+2016-12-21-10:51:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 35.287457 }
+2016-12-21-10:51:04: Callback for phrase : Zeki
+2016-12-21-10:51:04: Callback for word is succeed :Zeki
+2016-12-21-10:51:04: Word is going to iteration : Zeki
+2016-12-21-10:51:04: Iteration for phrase : Zeki Müren
+2016-12-21-10:51:04: Searching for phrase :Zeki Müren
+2016-12-21-10:51:05: Response for phrase :Zeki Müren
+
+2016-12-21-10:51:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.163513 } ] }
+2016-12-21-10:51:05: ItemlistElement for phrase : Zeki Müren
+2016-12-21-10:51:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.163513 }
+2016-12-21-10:51:05: Callback for phrase : Zeki Müren
+2016-12-21-10:51:05: Callback for iteration phrase is succeed :Zeki Müren
+2016-12-21-10:51:05: Score for phrase is613.163513 : Zeki Müren
+2016-12-21-10:51:05: Last iteration the result of :Zeki Müren
+2016-12-21-10:51:05: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2016-12-21-10:51:05: received_result_no=3
+2016-12-21-10:51:05: finish
+2016-12-21-10:51:05: process is finished
+2016-12-21-10:51:05: -----------------Printed Results------------------------
+2016-12-21-10:51:05: Simpsonlar
+2016-12-21-10:51:05: Orhan Gencebay
+2016-12-21-10:51:05: Zeki Müren
+2016-12-21-10:51:08: section_count is:2
+2016-12-21-10:51:08: AftermoveSectionDown section_count is: 2
+2016-12-21-10:51:08: AftermoveSectionDown section_count is: 3
+2016-12-21-10:51:10: 2: slide left gesture is called
+2016-12-21-10:51:11: 2:click detected at point:[object Object]
+2016-12-21-10:51:11: Connected
+2016-12-21-10:51:11: 2: slide left gesture is called
+2016-12-21-10:51:12: 2:click detected at point:[object Object]
+2016-12-21-10:51:12: 2: slide right gesture is called
+2016-12-21-10:51:13: 2: slide left gesture is called
+2016-12-21-10:51:13: 2: slide left gesture is called
+2016-12-21-10:51:15: 2:click detected at point:[object Object]
+2016-12-21-10:51:15: 2: slide left gesture is called
+2016-12-21-10:51:16: Data received from stt:  
+2016-12-21-10:51:16: SearchTerm from microphone: 
+2016-12-21-10:51:16: State machine is initialized with input: 
+2016-12-21-10:51:16:  
+2016-12-21-10:51:16: Input words : 
+2016-12-21-10:51:16: [ '' ]
+2016-12-21-10:51:16: Input roots : 
+2016-12-21-10:51:16: [ '' ]
+2016-12-21-10:51:16: Searching for phrase :
+2016-12-21-10:51:16: Connection closed
+2016-12-21-10:51:16: connection closed in close
+2016-12-21-10:51:16: Response for phrase :
+
+2016-12-21-10:51:16: { error: 
+   { code: 400,
+     message: 'Request contains an invalid argument.',
+     status: 'INVALID_ARGUMENT' } }
+2016-12-21-10:51:16: Failed result for phrase : 
+2016-12-21-10:51:16: Callback for word is failed :
+2016-12-21-10:51:28: 2: slide right gesture is called
