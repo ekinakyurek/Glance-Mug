@@ -1,0 +1,353 @@
+2016-12-22-11:38:04: 2:click detected at point:[object Object]
+2016-12-22-11:38:04: Connected
+2016-12-22-11:38:04: 2:click detected at point:[object Object]
+2016-12-22-11:38:15: Data received from stt: geliyorum Nazlı Hamarat Evet merhaba gel,Other Nazlı,Noun Hamarat,Noun evet,Other merhaba,Noun
+2016-12-22-11:38:15: SearchTerm from microphone:geliyorum Nazlı Hamarat Evet merhaba gel,Other Nazlı,Noun Hamarat,Noun evet,Other merhaba,Noun
+2016-12-22-11:38:15: State machine is initialized with input: 
+2016-12-22-11:38:15: geliyorum Nazlı Hamarat Evet merhaba gel,Other Nazlı,Noun Hamarat,Noun evet,Other merhaba,Noun
+2016-12-22-11:38:15: Input words : 
+2016-12-22-11:38:15: [ 'geliyorum', 'Nazlı', 'Hamarat', 'Evet', 'merhaba' ]
+2016-12-22-11:38:15: Input roots : 
+2016-12-22-11:38:15: [ 'gel', 'Nazlı', 'Hamarat', 'evet', 'merhaba' ]
+2016-12-22-11:38:15: Searching for phrase :geliyorum
+2016-12-22-11:38:15: Connection closed
+2016-12-22-11:38:15: connection closed in close
+2016-12-22-11:38:15: Response for phrase :geliyorum
+
+2016-12-22-11:38:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 16.883295 } ] }
+2016-12-22-11:38:16: ItemlistElement for phrase : geliyorum
+2016-12-22-11:38:16: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0t_bcsp',
+     name: 'Aşk Geliyorum Demez',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2009 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Aşk Geliyorum Demez, İstanbul Mahmutpaşa\'da bir han esnafının hikâyesini anlatan, yönetmenliğini Murat Şeker\'in yaptığı 6 Kasım 2009 vizyona giriş tarihli sinema filmidir. ',
+        url: 'https://tr.wikipedia.org/wiki/A%C5%9Fk_Geliyorum_Demez',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 16.883295 }
+2016-12-22-11:38:16: Callback for phrase : geliyorum
+2016-12-22-11:38:16: Callback for word is succeed :geliyorum
+2016-12-22-11:38:16: Word is going to iteration : geliyorum
+2016-12-22-11:38:16: Iteration for phrase : geliyorum Nazlı
+2016-12-22-11:38:16: Searching for phrase :geliyorum Nazlı
+2016-12-22-11:38:16: Response for phrase :geliyorum Nazlı
+
+2016-12-22-11:38:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-22-11:38:16: ItemlistElement for phrase : geliyorum Nazlı
+2016-12-22-11:38:16: undefined
+2016-12-22-11:38:16: Failed callback for phras : geliyorum Nazlı
+
+2016-12-22-11:38:16: Callback for iteration phrase is succeed :geliyorum Nazlı
+2016-12-22-11:38:16: Score for phrase isnull : geliyorum Nazlı
+2016-12-22-11:38:16: iteration phrase is going root iteration :geliyorum Nazlı
+2016-12-22-11:38:16: Root iteration for phrase : geliyorum Nazlı
+2016-12-22-11:38:16: Searching for phrase :geliyorum Nazlı
+2016-12-22-11:38:16: Response for phrase :geliyorum Nazlı
+
+2016-12-22-11:38:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-22-11:38:16: ItemlistElement for phrase : geliyorum Nazlı
+2016-12-22-11:38:16: undefined
+2016-12-22-11:38:16: Failed callback for phras : geliyorum Nazlı
+
+2016-12-22-11:38:16: Callback for root iteration phrase is succeed :geliyorum Nazlı
+2016-12-22-11:38:16: Score for phrase isnull : geliyorum Nazlı
+2016-12-22-11:38:16: Root iteration phrase is going to matching :geliyorum Nazlı
+2016-12-22-11:38:16: Matching result for phrase : geliyorum
+
+2016-12-22-11:38:16: { '@id': 'kg:/m/0t_bcsp',
+  name: 'Aşk Geliyorum Demez',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2009 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Aşk Geliyorum Demez, İstanbul Mahmutpaşa\'da bir han esnafının hikâyesini anlatan, yönetmenliğini Murat Şeker\'in yaptığı 6 Kasım 2009 vizyona giriş tarihli sinema filmidir. ',
+     url: 'https://tr.wikipedia.org/wiki/A%C5%9Fk_Geliyorum_Demez',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-22-11:38:16: Result for phrase will be printed : geliyorum
+2016-12-22-11:38:16: https://www.googleapis.com/customsearch/v1?q=Aşk Geliyorum Demez&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2016-12-22-11:38:16: received_result_no=1
+2016-12-22-11:38:16: System goes new search 
+2016-12-22-11:38:16: Searching for phrase :Hamarat
+2016-12-22-11:38:17: Response for phrase :Hamarat
+
+2016-12-22-11:38:17: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 14.516315 } ] }
+2016-12-22-11:38:17: ItemlistElement for phrase : Hamarat
+2016-12-22-11:38:17: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04gp7yv',
+     '@type': [ 'City', 'Place', 'Thing' ] },
+  resultScore: 14.516315 }
+2016-12-22-11:38:17: Callback for phrase : Hamarat
+2016-12-22-11:38:17: Callback for word is succeed :Hamarat
+2016-12-22-11:38:17: Word is going to iteration : Hamarat
+2016-12-22-11:38:17: Iteration for phrase : Hamarat Evet
+2016-12-22-11:38:17: Searching for phrase :Hamarat Evet
+2016-12-22-11:38:17: Response for phrase :Hamarat Evet
+
+2016-12-22-11:38:17: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-22-11:38:17: ItemlistElement for phrase : Hamarat Evet
+2016-12-22-11:38:17: undefined
+2016-12-22-11:38:17: Failed callback for phras : Hamarat Evet
+
+2016-12-22-11:38:17: Callback for iteration phrase is succeed :Hamarat Evet
+2016-12-22-11:38:17: Score for phrase isnull : Hamarat Evet
+2016-12-22-11:38:17: iteration phrase is going root iteration :Hamarat Evet
+2016-12-22-11:38:17: Root iteration for phrase : Hamarat evet
+2016-12-22-11:38:17: Searching for phrase :Hamarat evet
+2016-12-22-11:38:17: Response for phrase :Hamarat evet
+
+2016-12-22-11:38:17: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-22-11:38:17: ItemlistElement for phrase : Hamarat evet
+2016-12-22-11:38:17: undefined
+2016-12-22-11:38:17: Failed callback for phras : Hamarat evet
+
+2016-12-22-11:38:17: Callback for root iteration phrase is succeed :Hamarat evet
+2016-12-22-11:38:17: Score for phrase isnull : Hamarat evet
+2016-12-22-11:38:17: Root iteration phrase is going to matching :Hamarat evet
+2016-12-22-11:38:17: Matching result for phrase : Hamarat
+
+2016-12-22-11:38:17: { '@id': 'kg:/m/04gp7yv',
+  '@type': [ 'City', 'Place', 'Thing' ] }
+2016-12-22-11:38:17: Result for phrase will not be printed because it is not noun : Hamarat
+2016-12-22-11:38:17: System goes new search 
+2016-12-22-11:38:17: Searching for phrase :Evet
+2016-12-22-11:38:18: Response for phrase :Evet
+
+2016-12-22-11:38:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 31.476736 } ] }
+2016-12-22-11:38:18: ItemlistElement for phrase : Evet
+2016-12-22-11:38:18: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02vyyl8',
+     name: 'Bay Evet',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2008 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Bay Evet Peyton Reed\'in yönettiği ve başrolünde Jim Carrey\'nin oynadığı 2008 yapımı komedi filmidir.\nKONU\nCarl hiç sosyal olmayan arkadaşlarını sürekli eken karısından yeni ayrılmış ve bütün hayatı evde tek başına film izlemekten ibaret olan bir erkektir. ',
+        url: 'https://tr.wikipedia.org/wiki/Bay_Evet',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://wwws.warnerbros.co.uk/yesman/' },
+  resultScore: 31.476736 }
+2016-12-22-11:38:18: Callback for phrase : Evet
+2016-12-22-11:38:18: Callback for word is succeed :Evet
+2016-12-22-11:38:18: Word is going to iteration : Evet
+2016-12-22-11:38:18: Iteration for phrase : Evet merhaba
+2016-12-22-11:38:18: Searching for phrase :Evet merhaba
+2016-12-22-11:38:18: Response for phrase :Evet merhaba
+
+2016-12-22-11:38:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-22-11:38:18: ItemlistElement for phrase : Evet merhaba
+2016-12-22-11:38:18: undefined
+2016-12-22-11:38:18: Failed callback for phras : Evet merhaba
+
+2016-12-22-11:38:18: Callback for iteration phrase is succeed :Evet merhaba
+2016-12-22-11:38:18: Score for phrase isnull : Evet merhaba
+2016-12-22-11:38:18: iteration phrase is going root iteration :Evet merhaba
+2016-12-22-11:38:18: Root iteration for phrase : Evet merhaba
+2016-12-22-11:38:18: Searching for phrase :Evet merhaba
+2016-12-22-11:38:18: AftermoveSectionDown section_count is: 1
+2016-12-22-11:38:19: AftermoveSectionDown section_count is: 1
+2016-12-22-11:38:19: AftermoveSectionDown section_count is: 1
+2016-12-22-11:38:19: Response for phrase :Evet merhaba
+
+2016-12-22-11:38:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2016-12-22-11:38:19: ItemlistElement for phrase : Evet merhaba
+2016-12-22-11:38:19: undefined
+2016-12-22-11:38:19: Failed callback for phras : Evet merhaba
+
+2016-12-22-11:38:19: Callback for root iteration phrase is succeed :Evet merhaba
+2016-12-22-11:38:19: Score for phrase isnull : Evet merhaba
+2016-12-22-11:38:19: Root iteration phrase is going to matching :Evet merhaba
+2016-12-22-11:38:19: Matching result for phrase : Evet
+
+2016-12-22-11:38:19: { '@id': 'kg:/m/02vyyl8',
+  name: 'Bay Evet',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2008 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Bay Evet Peyton Reed\'in yönettiği ve başrolünde Jim Carrey\'nin oynadığı 2008 yapımı komedi filmidir.\nKONU\nCarl hiç sosyal olmayan arkadaşlarını sürekli eken karısından yeni ayrılmış ve bütün hayatı evde tek başına film izlemekten ibaret olan bir erkektir. ',
+     url: 'https://tr.wikipedia.org/wiki/Bay_Evet',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://wwws.warnerbros.co.uk/yesman/' }
+2016-12-22-11:38:19: Result for phrase will be printed : Evet
+2016-12-22-11:38:19: received_result_no=2
+2016-12-22-11:38:19: System goes new search 
+2016-12-22-11:38:19: Searching for phrase :merhaba
+2016-12-22-11:38:19: Response for phrase :merhaba
+
+2016-12-22-11:38:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.166763 } ] }
+2016-12-22-11:38:19: ItemlistElement for phrase : merhaba
+2016-12-22-11:38:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/015whm',
+     name: 'Merhaba Dünya',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '1979 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+        url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 28.166763 }
+2016-12-22-11:38:19: Callback for phrase : merhaba
+2016-12-22-11:38:19: Callback for word is succeed :merhaba
+2016-12-22-11:38:19: last word is noun here is the result of :merhaba
+2016-12-22-11:38:19: { '@id': 'kg:/m/015whm',
+  name: 'Merhaba Dünya',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '1979 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+     url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2016-12-22-11:38:19: received_result_no=3
+2016-12-22-11:38:19: finish
+2016-12-22-11:38:19: process is finished
+2016-12-22-11:38:19: -----------------Printed Results------------------------
+2016-12-22-11:38:19: Aşk Geliyorum Demez
+2016-12-22-11:38:19: Bay Evet
+2016-12-22-11:38:19: Merhaba Dünya
+2016-12-22-11:38:19: section_count is:0
+2016-12-22-11:38:19: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:21: 1: slide right gesture is called
+2016-12-22-11:38:21: 1: slide right gesture is called
+2016-12-22-11:38:22: 1: slide right gesture is called
+2016-12-22-11:38:23: section_count is:1
+2016-12-22-11:38:23: AftermoveSectionDown section_count is: 1
+2016-12-22-11:38:24: 1: slide right gesture is called
+2016-12-22-11:38:25: 1: slide right gesture is called
+2016-12-22-11:38:29: section_count is:2
+2016-12-22-11:38:29: AftermoveSectionDown section_count is: 2
+2016-12-22-11:38:33: 1: slide right gesture is called
+2016-12-22-11:38:34: section_count is:1
+2016-12-22-11:38:34: AftermoveSectionUp section_count is: 1
+2016-12-22-11:38:35: section_count is:0
+2016-12-22-11:38:35: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:36: 1: slide right gesture is called
+2016-12-22-11:38:36: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:36: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:37: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:37: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:37: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:38: section_count is:1
+2016-12-22-11:38:38: AftermoveSectionDown section_count is: 1
+2016-12-22-11:38:38: section_count is:2
+2016-12-22-11:38:38: AftermoveSectionDown section_count is: 2
+2016-12-22-11:38:39: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:39: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:40: 1: slide left gesture is called
+2016-12-22-11:38:41: section_count is:2
+2016-12-22-11:38:41: AftermoveSectionUp section_count is: 2
+2016-12-22-11:38:42: section_count is:1
+2016-12-22-11:38:42: AftermoveSectionUp section_count is: 1
+2016-12-22-11:38:43: section_count is:0
+2016-12-22-11:38:43: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:43: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:43: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:44: section_count is:1
+2016-12-22-11:38:44: AftermoveSectionDown section_count is: 1
+2016-12-22-11:38:44: section_count is:2
+2016-12-22-11:38:44: AftermoveSectionDown section_count is: 2
+2016-12-22-11:38:45: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:45: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:46: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:46: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:46: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:47: AftermoveSectionDown section_count is: 3
+2016-12-22-11:38:47: section_count is:2
+2016-12-22-11:38:47: AftermoveSectionUp section_count is: 2
+2016-12-22-11:38:47: section_count is:1
+2016-12-22-11:38:47: AftermoveSectionUp section_count is: 1
+2016-12-22-11:38:48: section_count is:2
+2016-12-22-11:38:48: AftermoveSectionDown section_count is: 2
+2016-12-22-11:38:48: section_count is:1
+2016-12-22-11:38:48: AftermoveSectionUp section_count is: 1
+2016-12-22-11:38:50: 1: slide right gesture is called
+2016-12-22-11:38:50: section_count is:0
+2016-12-22-11:38:50: AftermoveSectionUp section_count is: 0
+2016-12-22-11:38:51: AftermoveSectionUp section_count is: 0
