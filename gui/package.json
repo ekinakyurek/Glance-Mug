@@ -22,5 +22,8 @@
     "electron-rebuild": "^1.4.0",
     "ipc": "^0.0.1",
     "node-ads1x15": "^1.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.2"
   }
 }
