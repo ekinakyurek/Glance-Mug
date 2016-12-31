@@ -6,9 +6,8 @@ var api_host = 'kgsearch.googleapis.com';
 
 this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 	
+	console.time('websearch');
 	var words = [];
-//	var roots = [];
-//	var roots_type = [];
 	var printed_results = [];
 	var isSomethingFound = false;
 
@@ -51,12 +50,12 @@ this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 						if(debug) my_console_log('Callback for phrase : '+ phrase);
 						callback(succeed, itemListElement['result'], itemListElement['resultScore'])
 					} else {
-						if (debug) my_console_log('Failed callback for phras : '+ phrase + '\n');
-						callback(true, null, null)
+						if (debug) my_console_log('Failed callback for phrase : '+ phrase + '\n');
+						callback(true, undefined, undefined)
 					}
 				}else{
 					if (debug) my_console_log('Failed result for phrase : '+ phrase);
-					callback(false,null, null)
+					callback(false, undefined, undefined)
 				}
 
 
@@ -80,23 +79,63 @@ this.starter = function (test_input, debug, my_event_emitter, my_console_log) {
 
 		search_word(words[index], function (isSucceed, result, score) {
 
-			if (isSucceed) {
-			        			if(debug) my_console_log('result of :' + words[index])
-							if (debug) my_console_log(result);
-							printed_results.push(result);
-							isSomethingFound = true
-							if(my_event_emitter!=null) my_event_emitter.emit('result',result)
-}else{
-						        if(debug) my_console_log('nothing found for :' + words[index])	
+			if (isSucceed && result != undefined) {
+
+				if(debug) my_console_log('result of :' + words[index])
+				if (debug) my_console_log(result);
+				if(result.name == undefined){
+					result.name = words[index];
+				}
+				printed_results.push(result);
+				isSomethingFound = true
+				if(my_event_emitter!=null) my_event_emitter.emit('result',result)
+			}else if(result == undefined){
+				if(debug) my_console_log('nothing found for :' + words[index])	
+			}else{
+				if(debug) my_console_log('connection error with google :' + words[index])
 			}
-  if (index + 1 < words.length) {
-                                                        iterative_search(index+1)
-  }else{
-	finish()	
-  }
-			}
+			
+			if (index + 1 < words.length) {
+				iterative_search(index+1)
+  			}else{
+				finish()	
+  			}			
 		})
 	}
+
+
+	var finish = function () {
+		if (debug) my_console_log('finish')
+
+		if (!isSomethingFound) {
+			if (debug)	my_console_log('Nothing found');
+			if (my_event_emitter !=undefined){
+				my_event_emitter.emit("error_occurs", "NothingFound")
+			}
+		}else{
+			if (my_event_emitter != undefined){
+				my_event_emitter.emit("finished", "SearchIsFinished")
+			}
+		}
+
+		if (debug) my_console_log('-----------------Printed Results------------------------');
+
+		else console.log('-----------------Printed Results------------------------');
+
+		for(var i = 0 ; i < printed_results.length; i++){
+			if (printed_results[i].name != undefined) {
+				var name = printed_results[i].name
+			}else{
+				var name = printed_results[i].description
+			}
+			if (debug) my_console_log(name);
+			else console.log(name);
+		}
+
+		console.timeEnd("websearch");
+		//evaluate if nothing is printed
+	}
+
 
 
 

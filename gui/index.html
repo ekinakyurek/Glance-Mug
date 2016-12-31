@@ -117,7 +117,7 @@
         var net = require('net');
         var client = new net.Socket();
         var event_emitter = require('events').EventEmitter;
-        var search = require("./web_search.js")
+        var search = require("./web_search_new.js")
         var app = require('express')();
         var http = require('http').Server(app);
         var io = require('socket.io')(http);
