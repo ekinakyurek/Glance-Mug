@@ -1,0 +1,22 @@
+2017-01-01-13:07:42: SearchTerm from OZ:orhan baba mardin roma
+2017-01-01-13:07:42: State machine is initialized with input: 
+2017-01-01-13:07:42: orhan baba mardin roma
+2017-01-01-13:07:42: Searching for phrase :orhan baba mardin roma
+2017-01-01-13:07:42: Response for phrase :orhan baba mardin roma
+
+2017-01-01-13:07:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-01-13:07:42: ItemlistElement for phrase : orhan baba mardin roma
+2017-01-01-13:07:42: undefined
+2017-01-01-13:07:42: Failed callback for phrase : orhan baba mardin roma
+
+2017-01-01-13:07:42: nothing found for :orhan baba mardin roma
+2017-01-01-13:07:42: finish
+2017-01-01-13:07:42: Nothing found
+2017-01-01-13:07:42: -----------------Printed Results------------------------

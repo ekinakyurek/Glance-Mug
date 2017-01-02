@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style type="text/css">
+
         ::-webkit-scrollbar {
             display: none;
         }
@@ -20,7 +21,7 @@
         div#WikiData0 {
             color: white;
             vertical-align: center;
-            padding-top: 30px;
+            padding-top: 10px;
         }
 
         div#header0 {
@@ -31,17 +32,15 @@
             margin: 0px auto;
             text-align: center;
         }
-
         div#header1 {
             height: 20px;
-            background: black;
+            background:black;
             vertical-align: middle;
             width: 100%;
             margin: 0px auto;
             text-align: center;
         }
-
-        p {
+        p{
             display: block;
             color: white;
             —webkit-margin-before: 1em;
@@ -50,32 +49,35 @@
             —webkit-margin-before: 0px;
         }
 
-            p#WikiData0 {
-                color: #FFF;
-                text-align: justify;
-                font-family: "Verdana";
-                overflow: hidden;
-                display: -webkit-box;
-                -webkit-line-clamp: 12;
-                -webkit-box-orient: vertical;
-            }
+        p#WikiData0 {
+            color: #FFF;
+            text-align: justify;
+            font-family: "Verdana";
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 10;
+            -webkit-box-orient: vertical;
+        }
 
-            p#desc0 {
-                color: #FFF;
-                text-align: center;
-                font-family: "Verdana";
-                overflow: hidden;
-                display: -webkit-box;
-                -webkit-line-clamp: 1;
-                -webkit-box-orient: vertical;
-            }
+        p#desc0 {
+            color: #FFF;
+            text-align: center;
+            font-family: "Verdana";
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
 
-            p#info0 {
-                color: #FFF;
-                text-align: center;
-                font-weight: bold;
-                font-family: "Verdana";
-            }
+        }
+
+        p#info0 {
+            color: #FFF;
+            text-align: center;
+            font-weight: bold;
+            font-family: "Verdana";
+
+        }
 
         img {
             padding-top: 0;
@@ -86,12 +88,12 @@
             max-width: 100%;
             max-height: 100%;
         }
-
         .intro {
             margin: 0 auto;
             height: 240px;
             width: 200px;
         }
+        
     </style>
 </head>
 <body>
@@ -277,8 +279,9 @@
 
 
         io.on('connection', function (socket) {
+            io.emit('chat message', 'Connection status:' + socket.connected)
             socket.on('chat message', function (msg) {
-                console.log('message: ' + msg);
+                my_console_log('message: ' + msg);
                 searchTerm = msg;
                 io.emit('chat message', msg);
 
@@ -300,9 +303,8 @@
                         search.starter(searchTerm, debug, kg_ee, my_console_log)
 
                     } else {
-                        document.getElementById("info0").innerHTML = "Nothing Here";
-                        document.getElementById("desc0").innerHTML = "I couldn't heard you";
-                        document.getElementById("WikiData0").innerHTML = "I am sorry :(";
+                        document.getElementById("info0").innerHTML = "ÜZGÜNÜM";
+                        document.getElementById("desc0").innerHTML = "Hiçbir şey bulamadım";
                         document.getElementById("img0").src = "travolta.gif";
                         document.getElementById("img1").src = "travolta.gif";
                         document.getElementById("img2").src = "travolta.gif";

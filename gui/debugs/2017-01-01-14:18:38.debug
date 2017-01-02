@@ -1,0 +1,371 @@
+2017-01-01-14:48:56: SearchTerm from OZ:
+2017-01-01-14:49:01: SearchTerm from OZ:orhan baba
+2017-01-01-14:49:01: State machine is initialized with input: 
+2017-01-01-14:49:01: orhan baba
+2017-01-01-14:49:01: Searching for phrase :orhan baba
+2017-01-01-14:49:02: Response for phrase :orhan baba
+
+2017-01-01-14:49:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-01-14:49:02: ItemlistElement for phrase : orhan baba
+2017-01-01-14:49:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-01-14:49:02: Callback for phrase : orhan baba
+2017-01-01-14:49:02: result of :orhan baba
+2017-01-01-14:49:02: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-01-14:49:02: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-14:49:02: received_result_no=1
+2017-01-01-14:49:02: finish
+2017-01-01-14:49:02: process is finished
+2017-01-01-14:49:02: -----------------Printed Results------------------------
+2017-01-01-14:49:02: Orhan Gencebay
+2017-01-01-14:52:51: SearchTerm from OZ:
+2017-01-01-14:52:57: SearchTerm from OZ:
+2017-01-01-14:53:12: SearchTerm from OZ:
+2017-01-01-14:53:12: SearchTerm from OZ:
+2017-01-01-14:53:18: SearchTerm from OZ:
+2017-01-01-14:53:18: SearchTerm from OZ:
+2017-01-01-14:54:05: SearchTerm from OZ:
+2017-01-01-14:54:08: SearchTerm from OZ:merhaba
+2017-01-01-14:54:08: State machine is initialized with input: 
+2017-01-01-14:54:08: merhaba
+2017-01-01-14:54:08: Searching for phrase :merhaba
+2017-01-01-14:54:09: Response for phrase :merhaba
+
+2017-01-01-14:54:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.188206 } ] }
+2017-01-01-14:54:09: ItemlistElement for phrase : merhaba
+2017-01-01-14:54:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/015whm',
+     name: 'Merhaba Dünya',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1979 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+        url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 28.188206 }
+2017-01-01-14:54:09: Callback for phrase : merhaba
+2017-01-01-14:54:09: result of :merhaba
+2017-01-01-14:54:09: { '@id': 'kg:/m/015whm',
+  name: 'Merhaba Dünya',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1979 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+     url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-14:54:09: https://www.googleapis.com/customsearch/v1?q=Merhaba Dünya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-14:54:09: received_result_no=1
+2017-01-01-14:54:09: finish
+2017-01-01-14:54:09: process is finished
+2017-01-01-14:54:09: -----------------Printed Results------------------------
+2017-01-01-14:54:09: Merhaba Dünya
+2017-01-01-14:57:10: SearchTerm from OZ:
+2017-01-01-14:57:15: SearchTerm from OZ:ozan güven
+2017-01-01-14:57:15: State machine is initialized with input: 
+2017-01-01-14:57:15: ozan güven
+2017-01-01-14:57:15: Searching for phrase :ozan güven
+2017-01-01-14:57:15: Response for phrase :ozan güven
+
+2017-01-01-14:57:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 431.181824 } ] }
+2017-01-01-14:57:15: ItemlistElement for phrase : ozan güven
+2017-01-01-14:57:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Dizi oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 431.181824 }
+2017-01-01-14:57:15: Callback for phrase : ozan güven
+2017-01-01-14:57:15: result of :ozan güven
+2017-01-01-14:57:15: { '@id': 'kg:/m/0fq0b9t',
+  name: 'Ozan Güven',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Dizi oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-14:57:15: https://www.googleapis.com/customsearch/v1?q=Ozan Güven&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-14:57:15: received_result_no=1
+2017-01-01-14:57:15: finish
+2017-01-01-14:57:15: process is finished
+2017-01-01-14:57:15: -----------------Printed Results------------------------
+2017-01-01-14:57:15: Ozan Güven
+2017-01-01-15:03:18: SearchTerm from OZ:
+2017-01-01-15:03:24: SearchTerm from OZ:
+2017-01-01-15:03:31: SearchTerm from OZ:
+2017-01-01-15:09:31: SearchTerm from OZ:
+2017-01-01-15:09:37: SearchTerm from OZ:merhaba
+2017-01-01-15:09:37: State machine is initialized with input: 
+2017-01-01-15:09:37: merhaba
+2017-01-01-15:09:37: Searching for phrase :merhaba
+2017-01-01-15:09:37: Response for phrase :merhaba
+
+2017-01-01-15:09:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.188206 } ] }
+2017-01-01-15:09:37: ItemlistElement for phrase : merhaba
+2017-01-01-15:09:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/015whm',
+     name: 'Merhaba Dünya',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '1979 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+        url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 28.188206 }
+2017-01-01-15:09:37: Callback for phrase : merhaba
+2017-01-01-15:09:37: result of :merhaba
+2017-01-01-15:09:37: { '@id': 'kg:/m/015whm',
+  name: 'Merhaba Dünya',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '1979 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Merhaba Dünya 1979 ABD yapımı politik komedi filmidir. Özgün adı Being There dir. "Being there" İngilizce\'de "Doğru zamanda doğru yerde bulunmak" anlamına gelen bir deyimdir. ',
+     url: 'https://tr.wikipedia.org/wiki/Merhaba_D%C3%BCnya_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-15:09:37: https://www.googleapis.com/customsearch/v1?q=Merhaba Dünya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:09:37: received_result_no=1
+2017-01-01-15:09:37: finish
+2017-01-01-15:09:37: process is finished
+2017-01-01-15:09:37: -----------------Printed Results------------------------
+2017-01-01-15:09:37: Merhaba Dünya
+2017-01-01-15:13:22: SearchTerm from OZ:
+2017-01-01-15:13:30: SearchTerm from OZ:orhan baba
+2017-01-01-15:13:30: State machine is initialized with input: 
+2017-01-01-15:13:30: orhan baba
+2017-01-01-15:13:30: Searching for phrase :orhan baba
+2017-01-01-15:13:30: Response for phrase :orhan baba
+
+2017-01-01-15:13:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-01-15:13:30: ItemlistElement for phrase : orhan baba
+2017-01-01-15:13:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-01-15:13:30: Callback for phrase : orhan baba
+2017-01-01-15:13:30: result of :orhan baba
+2017-01-01-15:13:30: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-01-15:13:30: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:13:30: received_result_no=1
+2017-01-01-15:13:30: finish
+2017-01-01-15:13:30: process is finished
+2017-01-01-15:13:30: -----------------Printed Results------------------------
+2017-01-01-15:13:30: Orhan Gencebay
+2017-01-01-15:14:43: SearchTerm from OZ:
+2017-01-01-15:14:48: SearchTerm from OZ:
+2017-01-01-15:14:56: SearchTerm from OZ:
+2017-01-01-15:15:02: SearchTerm from OZ:orhan baba
+2017-01-01-15:15:02: State machine is initialized with input: 
+2017-01-01-15:15:02: orhan baba
+2017-01-01-15:15:02: Searching for phrase :orhan baba
+2017-01-01-15:15:02: Response for phrase :orhan baba
+
+2017-01-01-15:15:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-01-15:15:02: ItemlistElement for phrase : orhan baba
+2017-01-01-15:15:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-01-15:15:02: Callback for phrase : orhan baba
+2017-01-01-15:15:02: result of :orhan baba
+2017-01-01-15:15:02: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-01-15:15:03: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:15:03: received_result_no=1
+2017-01-01-15:15:03: finish
+2017-01-01-15:15:03: process is finished
+2017-01-01-15:15:03: -----------------Printed Results------------------------
+2017-01-01-15:15:03: Orhan Gencebay
+2017-01-01-15:15:54: 2: slide left gesture is called
+2017-01-01-15:15:54: 2: slide left gesture is called
+2017-01-01-15:16:59: SearchTerm from OZ:ozan güven
+2017-01-01-15:16:59: State machine is initialized with input: 
+2017-01-01-15:16:59: ozan güven
+2017-01-01-15:16:59: Searching for phrase :ozan güven
+2017-01-01-15:16:59: Response for phrase :ozan güven
+
+2017-01-01-15:16:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 431.181824 } ] }
+2017-01-01-15:16:59: ItemlistElement for phrase : ozan güven
+2017-01-01-15:16:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Dizi oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 431.181824 }
+2017-01-01-15:16:59: Callback for phrase : ozan güven
+2017-01-01-15:16:59: result of :ozan güven
+2017-01-01-15:16:59: { '@id': 'kg:/m/0fq0b9t',
+  name: 'Ozan Güven',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Dizi oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-15:16:59: https://www.googleapis.com/customsearch/v1?q=Ozan Güven&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:16:59: received_result_no=1
+2017-01-01-15:16:59: finish
+2017-01-01-15:16:59: process is finished
+2017-01-01-15:16:59: -----------------Printed Results------------------------
+2017-01-01-15:16:59: Ozan Güven

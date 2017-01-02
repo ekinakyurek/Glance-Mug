@@ -1,0 +1,270 @@
+2017-01-01-15:17:45: SearchTerm from OZ:
+2017-01-01-15:17:53: SearchTerm from OZ:ozan güven
+2017-01-01-15:17:53: State machine is initialized with input: 
+2017-01-01-15:17:53: ozan güven
+2017-01-01-15:17:53: Searching for phrase :ozan güven
+2017-01-01-15:17:54: Response for phrase :ozan güven
+
+2017-01-01-15:17:54: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 431.181824 } ] }
+2017-01-01-15:17:54: ItemlistElement for phrase : ozan güven
+2017-01-01-15:17:54: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Dizi oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 431.181824 }
+2017-01-01-15:17:54: Callback for phrase : ozan güven
+2017-01-01-15:17:54: result of :ozan güven
+2017-01-01-15:17:54: { '@id': 'kg:/m/0fq0b9t',
+  name: 'Ozan Güven',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Dizi oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-15:17:54: https://www.googleapis.com/customsearch/v1?q=Ozan Güven&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:17:54: received_result_no=1
+2017-01-01-15:17:54: finish
+2017-01-01-15:17:54: process is finished
+2017-01-01-15:17:54: -----------------Printed Results------------------------
+2017-01-01-15:17:54: Ozan Güven
+2017-01-01-15:18:04: SearchTerm from OZ:johnny cash
+2017-01-01-15:18:04: State machine is initialized with input: 
+2017-01-01-15:18:04: johnny cash
+2017-01-01-15:18:04: Searching for phrase :johnny cash
+2017-01-01-15:18:05: Response for phrase :johnny cash
+
+2017-01-01-15:18:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 796.71167 } ] }
+2017-01-01-15:18:05: ItemlistElement for phrase : johnny cash
+2017-01-01-15:18:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03h_fk5',
+     name: 'Johnny Cash',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Gitarist',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQsSYJzXkibUKMe0RkyPIAMWCTbqaVt8Ajuutn1ANbL11BM3UXo',
+        url: 'https://commons.wikimedia.org/wiki/File:Johnny_Cash_Promotional_Photo.jpg' },
+     detailedDescription: 
+      { articleBody: 'Johnny Cash, ABD\'li rock ve country müziğini önemli ölçüde etkilemiş bir gitarist, söz ve müzik yazarı ve June Carter Cash\'in eşiydi.\n',
+        url: 'https://tr.wikipedia.org/wiki/Johnny_Cash',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.losthighwayrecords.com/johnnycash' },
+  resultScore: 796.71167 }
+2017-01-01-15:18:05: Callback for phrase : johnny cash
+2017-01-01-15:18:05: result of :johnny cash
+2017-01-01-15:18:05: { '@id': 'kg:/m/03h_fk5',
+  name: 'Johnny Cash',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Gitarist',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQsSYJzXkibUKMe0RkyPIAMWCTbqaVt8Ajuutn1ANbL11BM3UXo',
+     url: 'https://commons.wikimedia.org/wiki/File:Johnny_Cash_Promotional_Photo.jpg' },
+  detailedDescription: 
+   { articleBody: 'Johnny Cash, ABD\'li rock ve country müziğini önemli ölçüde etkilemiş bir gitarist, söz ve müzik yazarı ve June Carter Cash\'in eşiydi.\n',
+     url: 'https://tr.wikipedia.org/wiki/Johnny_Cash',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.losthighwayrecords.com/johnnycash' }
+2017-01-01-15:18:05: https://www.googleapis.com/customsearch/v1?q=Johnny Cash&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:18:05: received_result_no=1
+2017-01-01-15:18:05: finish
+2017-01-01-15:18:05: process is finished
+2017-01-01-15:18:05: -----------------Printed Results------------------------
+2017-01-01-15:18:05: Johnny Cash
+2017-01-01-15:18:11: 1: slide right gesture is called
+2017-01-01-15:18:11: 1: slide right gesture is called
+2017-01-01-15:18:14: AftermoveSectionDown section_count is: 1
+2017-01-01-15:18:14: AftermoveSectionDown section_count is: 1
+2017-01-01-15:18:15: section_count is:0
+2017-01-01-15:18:15: AftermoveSectionUp section_count is: 0
+2017-01-01-15:18:15: AftermoveSectionUp section_count is: 0
+2017-01-01-15:18:15: AftermoveSectionUp section_count is: 0
+2017-01-01-15:18:16: AftermoveSectionUp section_count is: 0
+2017-01-01-15:18:16: AftermoveSectionDown section_count is: 1
+2017-01-01-15:18:16: AftermoveSectionDown section_count is: 1
+2017-01-01-15:18:16: AftermoveSectionDown section_count is: 1
+2017-01-01-15:26:03: SearchTerm from OZ:
+2017-01-01-15:26:08: SearchTerm from OZ:ozan güven
+2017-01-01-15:26:08: State machine is initialized with input: 
+2017-01-01-15:26:08: ozan güven
+2017-01-01-15:26:08: Searching for phrase :ozan güven
+2017-01-01-15:26:08: Response for phrase :ozan güven
+
+2017-01-01-15:26:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 431.181824 } ] }
+2017-01-01-15:26:08: ItemlistElement for phrase : ozan güven
+2017-01-01-15:26:08: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Dizi oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 431.181824 }
+2017-01-01-15:26:08: Callback for phrase : ozan güven
+2017-01-01-15:26:08: result of :ozan güven
+2017-01-01-15:26:08: { '@id': 'kg:/m/0fq0b9t',
+  name: 'Ozan Güven',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Dizi oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-15:26:08: https://www.googleapis.com/customsearch/v1?q=Ozan Güven&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:26:08: received_result_no=1
+2017-01-01-15:26:08: finish
+2017-01-01-15:26:08: process is finished
+2017-01-01-15:26:08: -----------------Printed Results------------------------
+2017-01-01-15:26:08: Ozan Güven
+2017-01-01-15:26:15: SearchTerm from OZ:johnny cash
+2017-01-01-15:26:15: State machine is initialized with input: 
+2017-01-01-15:26:15: johnny cash
+2017-01-01-15:26:15: Searching for phrase :johnny cash
+2017-01-01-15:26:15: Response for phrase :johnny cash
+
+2017-01-01-15:26:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 796.71167 } ] }
+2017-01-01-15:26:15: ItemlistElement for phrase : johnny cash
+2017-01-01-15:26:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03h_fk5',
+     name: 'Johnny Cash',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Gitarist',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQsSYJzXkibUKMe0RkyPIAMWCTbqaVt8Ajuutn1ANbL11BM3UXo',
+        url: 'https://commons.wikimedia.org/wiki/File:Johnny_Cash_Promotional_Photo.jpg' },
+     detailedDescription: 
+      { articleBody: 'Johnny Cash, ABD\'li rock ve country müziğini önemli ölçüde etkilemiş bir gitarist, söz ve müzik yazarı ve June Carter Cash\'in eşiydi.\n',
+        url: 'https://tr.wikipedia.org/wiki/Johnny_Cash',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.losthighwayrecords.com/johnnycash' },
+  resultScore: 796.71167 }
+2017-01-01-15:26:15: Callback for phrase : johnny cash
+2017-01-01-15:26:15: result of :johnny cash
+2017-01-01-15:26:15: { '@id': 'kg:/m/03h_fk5',
+  name: 'Johnny Cash',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Gitarist',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcQsSYJzXkibUKMe0RkyPIAMWCTbqaVt8Ajuutn1ANbL11BM3UXo',
+     url: 'https://commons.wikimedia.org/wiki/File:Johnny_Cash_Promotional_Photo.jpg' },
+  detailedDescription: 
+   { articleBody: 'Johnny Cash, ABD\'li rock ve country müziğini önemli ölçüde etkilemiş bir gitarist, söz ve müzik yazarı ve June Carter Cash\'in eşiydi.\n',
+     url: 'https://tr.wikipedia.org/wiki/Johnny_Cash',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.losthighwayrecords.com/johnnycash' }
+2017-01-01-15:26:15: https://www.googleapis.com/customsearch/v1?q=Johnny Cash&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:26:15: received_result_no=1
+2017-01-01-15:26:15: finish
+2017-01-01-15:26:15: process is finished
+2017-01-01-15:26:15: -----------------Printed Results------------------------
+2017-01-01-15:26:15: Johnny Cash
+2017-01-01-15:26:20: 1: slide left gesture is called
+2017-01-01-15:26:20: 1: slide left gesture is called
+2017-01-01-15:26:21: 1: slide left gesture is called
+2017-01-01-15:27:11: SearchTerm from OZ:
+2017-01-01-15:27:15: SearchTerm from OZ:orhan
+2017-01-01-15:27:15: State machine is initialized with input: 
+2017-01-01-15:27:15: orhan
+2017-01-01-15:27:15: Searching for phrase :orhan
+2017-01-01-15:27:16: Response for phrase :orhan
+
+2017-01-01-15:27:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.676971 } ] }
+2017-01-01-15:27:16: ItemlistElement for phrase : orhan
+2017-01-01-15:27:16: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05mqw',
+     name: 'Orhan Bey',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Hükümdar',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+        url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+     detailedDescription: 
+      { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 35.676971 }
+2017-01-01-15:27:16: Callback for phrase : orhan
+2017-01-01-15:27:16: result of :orhan
+2017-01-01-15:27:16: { '@id': 'kg:/m/05mqw',
+  name: 'Orhan Bey',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Hükümdar',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQCIDeOwdGAFgJBk0S6PiQzGTvsRLU_-h834teXgXK0D_jvw0Ng',
+     url: 'https://commons.wikimedia.org/wiki/File:Orhan_I.jpg' },
+  detailedDescription: 
+   { articleBody: 'Orhan Bey veya Orhan Gazi, Osmanlı İmparatorluğu\'nun ikinci padişahı. 1326 ile 1359 yılları arasında beylik yapmıştır. Babası Osman Gazi\'den 16.000 km² olarak aldığ�� devleti, oğlu I. Murad\'a 95.000 km² olarak bırakmıştır.\nOsmanlı Beyliği\'nin kurucusu Osman Gazi ve Malhun Hatun\'un oğludur. ',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Bey',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-01-15:27:16: https://www.googleapis.com/customsearch/v1?q=Orhan Bey&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-01-15:27:16: received_result_no=1
+2017-01-01-15:27:16: finish
+2017-01-01-15:27:16: process is finished
+2017-01-01-15:27:16: -----------------Printed Results------------------------
+2017-01-01-15:27:16: Orhan Bey
