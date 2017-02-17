@@ -1,0 +1,243 @@
+2017-01-05-09:16:36: message: yoga
+2017-01-05-09:16:36: SearchTerm from OZ:yoga
+2017-01-05-09:16:36: State machine is initialized with input: 
+2017-01-05-09:16:36: yoga
+2017-01-05-09:16:36: Searching for phrase :yoga
+2017-01-05-09:16:37: Response for phrase :yoga
+
+2017-01-05-09:16:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.553261 } ] }
+2017-01-05-09:16:37: ItemlistElement for phrase : yoga
+2017-01-05-09:16:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/011lzwh3',
+     name: 'Yoga Hosers',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2016 yapımı film' },
+  resultScore: 24.553261 }
+2017-01-05-09:16:37: Callback for phrase : yoga
+2017-01-05-09:16:37: result of :yoga
+2017-01-05-09:16:37: { '@id': 'kg:/m/011lzwh3',
+  name: 'Yoga Hosers',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2016 yapımı film' }
+2017-01-05-09:16:37: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:16:37: received_result_no=1
+2017-01-05-09:16:37: finish
+2017-01-05-09:16:37: process is finished
+2017-01-05-09:16:37: -----------------Printed Results------------------------
+2017-01-05-09:16:37: Yoga Hosers
+2017-01-05-09:16:42: 2: slide right gesture is called
+2017-01-05-09:16:43: 2: slide right gesture is called
+2017-01-05-09:16:44: 2: slide right gesture is called
+2017-01-05-09:16:46: AftermoveSectionDown section_count is: 1
+2017-01-05-09:16:46: AftermoveSectionDown section_count is: 1
+2017-01-05-09:16:46: section_count is:0
+2017-01-05-09:16:46: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:16:46: AftermoveSectionUp section_count is: 0
+2017-01-05-09:16:47: message: pilates
+2017-01-05-09:16:47: SearchTerm from OZ:pilates
+2017-01-05-09:16:47: State machine is initialized with input: 
+2017-01-05-09:16:47: pilates
+2017-01-05-09:16:47: Searching for phrase :pilates
+2017-01-05-09:16:47: Response for phrase :pilates
+
+2017-01-05-09:16:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 22.49445 } ] }
+2017-01-05-09:16:47: ItemlistElement for phrase : pilates
+2017-01-05-09:16:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0574v2',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Pilates Eğitmeni',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQnjbumkIi_coGhwwff_-FW-I4jw0qQlbWO3hzEpHHX6P6wtZTD',
+        url: 'https://commons.wikimedia.org/wiki/File:Joseph_Pilates.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' } },
+  resultScore: 22.49445 }
+2017-01-05-09:16:47: Callback for phrase : pilates
+2017-01-05-09:16:47: result of :pilates
+2017-01-05-09:16:47: { '@id': 'kg:/m/0574v2',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Pilates Eğitmeni',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQnjbumkIi_coGhwwff_-FW-I4jw0qQlbWO3hzEpHHX6P6wtZTD',
+     url: 'https://commons.wikimedia.org/wiki/File:Joseph_Pilates.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' } }
+2017-01-05-09:16:47: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:16:47: received_result_no=1
+2017-01-05-09:16:47: finish
+2017-01-05-09:16:47: process is finished
+2017-01-05-09:16:47: -----------------Printed Results------------------------
+2017-01-05-09:16:47: pilates
+2017-01-05-09:16:50: AftermoveSectionUp section_count is: 0
+2017-01-05-09:16:50: AftermoveSectionDown section_count is: 1
+2017-01-05-09:16:51: 1: slide right gesture is called
+2017-01-05-09:16:51: 1: slide left gesture is called
+2017-01-05-09:16:52: 1: slide right gesture is called
+2017-01-05-09:16:53: 1: slide right gesture is called
+2017-01-05-09:16:56: 1: slide right gesture is called
+2017-01-05-09:16:59: 1: slide right gesture is called
+2017-01-05-09:16:59: 1: slide right gesture is called
+2017-01-05-09:17:01: 1: slide left gesture is called
+2017-01-05-09:17:01: 1: slide left gesture is called
+2017-01-05-09:17:01: 1: slide left gesture is called
+2017-01-05-09:17:02: 1: slide right gesture is called
+2017-01-05-09:17:04: 1: slide left gesture is called
+2017-01-05-09:17:06: 1: slide left gesture is called
+2017-01-05-09:17:06: 1: slide left gesture is called
+2017-01-05-09:17:06: 1: slide right gesture is called
+2017-01-05-09:17:07: 1: slide right gesture is called
+2017-01-05-09:17:07: 1: slide left gesture is called
+2017-01-05-09:17:08: 1: slide left gesture is called
+2017-01-05-09:17:08: 1: slide left gesture is called
+2017-01-05-09:17:49: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:49: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:50: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:50: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:50: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:51: section_count is:0
+2017-01-05-09:17:51: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:17:51: AftermoveSectionUp section_count is: 0
+2017-01-05-09:17:52: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:52: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:54: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:54: section_count is:0
+2017-01-05-09:17:54: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:17:54: AftermoveSectionUp section_count is: 0
+2017-01-05-09:17:56: 1: slide right gesture is called
+2017-01-05-09:17:57: 1: slide right gesture is called
+2017-01-05-09:17:57: 1: slide right gesture is called
+2017-01-05-09:17:58: AftermoveSectionDown section_count is: 1
+2017-01-05-09:17:58: 1: slide right gesture is called
+2017-01-05-09:17:58: section_count is:0
+2017-01-05-09:17:58: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:17:58: AftermoveSectionUp section_count is: 0
+2017-01-05-09:17:59: 1: slide left gesture is called
+2017-01-05-09:17:59: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:01: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:01: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:02: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:03: section_count is:0
+2017-01-05-09:18:03: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:18:03: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:03: 2: slide left gesture is called
+2017-01-05-09:18:05: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:05: 1: slide left gesture is called
+2017-01-05-09:18:06: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:06: message: 
+2017-01-05-09:18:06: SearchTerm from OZ:
+2017-01-05-09:18:07: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:08: section_count is:0
+2017-01-05-09:18:08: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:18:08: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:08: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:33: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:34: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:34: section_count is:0
+2017-01-05-09:18:34: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:18:34: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:34: 2: slide right gesture is called
+2017-01-05-09:18:35: 2: slide right gesture is called
+2017-01-05-09:18:37: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:38: section_count is:0
+2017-01-05-09:18:38: https://www.googleapis.com/customsearch/v1?q=pilates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:18:38: AftermoveSectionUp section_count is: 0
+2017-01-05-09:18:39: AftermoveSectionDown section_count is: 1
+2017-01-05-09:18:39: 1: slide right gesture is called
+2017-01-05-09:18:56: message: yoga
+2017-01-05-09:18:56: SearchTerm from OZ:yoga
+2017-01-05-09:18:56: State machine is initialized with input: 
+2017-01-05-09:18:56: yoga
+2017-01-05-09:18:56: Searching for phrase :yoga
+2017-01-05-09:18:56: Response for phrase :yoga
+
+2017-01-05-09:18:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 24.553261 } ] }
+2017-01-05-09:18:56: ItemlistElement for phrase : yoga
+2017-01-05-09:18:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/011lzwh3',
+     name: 'Yoga Hosers',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2016 yapımı film' },
+  resultScore: 24.553261 }
+2017-01-05-09:18:56: Callback for phrase : yoga
+2017-01-05-09:18:56: result of :yoga
+2017-01-05-09:18:56: { '@id': 'kg:/m/011lzwh3',
+  name: 'Yoga Hosers',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2016 yapımı film' }
+2017-01-05-09:18:56: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:18:56: received_result_no=1
+2017-01-05-09:18:56: finish
+2017-01-05-09:18:56: process is finished
+2017-01-05-09:18:56: -----------------Printed Results------------------------
+2017-01-05-09:18:56: Yoga Hosers
+2017-01-05-09:23:11: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:11: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:12: 2: slide left gesture is called
+2017-01-05-09:23:14: 1: slide right gesture is called
+2017-01-05-09:23:15: 1: slide right gesture is called
+2017-01-05-09:23:15: 1: slide left gesture is called
+2017-01-05-09:23:15: 1: slide right gesture is called
+2017-01-05-09:23:16: 1: slide left gesture is called
+2017-01-05-09:23:17: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:19: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:20: 1: slide left gesture is called
+2017-01-05-09:23:22: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:22: section_count is:0
+2017-01-05-09:23:22: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:23:22: AftermoveSectionUp section_count is: 0
+2017-01-05-09:23:42: AftermoveSectionUp section_count is: 0
+2017-01-05-09:23:47: 1: slide right gesture is called
+2017-01-05-09:23:47: 2: slide left gesture is called
+2017-01-05-09:23:47: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:48: section_count is:0
+2017-01-05-09:23:48: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:23:48: AftermoveSectionUp section_count is: 0
+2017-01-05-09:23:48: 1: slide right gesture is called
+2017-01-05-09:23:50: 2: slide right gesture is called
+2017-01-05-09:23:51: AftermoveSectionUp section_count is: 0
+2017-01-05-09:23:52: AftermoveSectionUp section_count is: 0
+2017-01-05-09:23:53: AftermoveSectionDown section_count is: 1
+2017-01-05-09:23:53: section_count is:0
+2017-01-05-09:23:53: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:23:53: AftermoveSectionUp section_count is: 0
+2017-01-05-09:23:54: AftermoveSectionDown section_count is: 1
+2017-01-05-09:24:38: 2: slide left gesture is called
+2017-01-05-09:24:40: section_count is:0
+2017-01-05-09:24:40: https://www.googleapis.com/customsearch/v1?q=Yoga Hosers&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:24:40: AftermoveSectionUp section_count is: 0
+2017-01-05-09:24:41: 2: slide right gesture is called
+2017-01-05-09:24:44: AftermoveSectionDown section_count is: 1

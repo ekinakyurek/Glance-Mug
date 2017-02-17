@@ -1,0 +1,495 @@
+2017-01-05-08:22:19: AftermoveSectionDown section_count is: 0
+2017-01-05-08:22:53: message: 
+2017-01-05-08:22:53: SearchTerm from OZ:
+2017-01-05-08:23:05: 2: slide left gesture is called
+2017-01-05-08:23:05: 2: slide left gesture is called
+2017-01-05-08:23:05: 1: slide right gesture is called
+2017-01-05-08:23:06: AftermoveSectionUp section_count is: 0
+2017-01-05-08:23:07: AftermoveSectionDown section_count is: 0
+2017-01-05-08:23:09: 2: slide left gesture is called
+2017-01-05-08:23:10: 2: slide right gesture is called
+2017-01-05-08:23:12: AftermoveSectionUp section_count is: 0
+2017-01-05-08:23:47: AftermoveSectionDown section_count is: 0
+2017-01-05-08:23:53: message: mava
+2017-01-05-08:23:53: SearchTerm from OZ:mava
+2017-01-05-08:23:53: State machine is initialized with input: 
+2017-01-05-08:23:53: mava
+2017-01-05-08:23:53: Searching for phrase :mava
+2017-01-05-08:23:53: Response for phrase :mava
+
+2017-01-05-08:23:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.029297 } ] }
+2017-01-05-08:23:53: ItemlistElement for phrase : mava
+2017-01-05-08:23:53: { '@type': 'EntitySearchResult',
+  result: { '@id': 'kg:/m/0k0kgq5', '@type': [ 'Place', 'Thing' ] },
+  resultScore: 19.029297 }
+2017-01-05-08:23:53: Callback for phrase : mava
+2017-01-05-08:23:53: result of :mava
+2017-01-05-08:23:53: { '@id': 'kg:/m/0k0kgq5', '@type': [ 'Place', 'Thing' ] }
+2017-01-05-08:23:53: https://www.googleapis.com/customsearch/v1?q=mava&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:23:54: received_result_no=1
+2017-01-05-08:23:54: finish
+2017-01-05-08:23:54: process is finished
+2017-01-05-08:23:54: -----------------Printed Results------------------------
+2017-01-05-08:23:54: mava
+2017-01-05-08:24:53: message: avustralya
+2017-01-05-08:24:53: SearchTerm from OZ:avustralya
+2017-01-05-08:24:53: State machine is initialized with input: 
+2017-01-05-08:24:53: avustralya
+2017-01-05-08:24:53: Searching for phrase :avustralya
+2017-01-05-08:24:53: Response for phrase :avustralya
+
+2017-01-05-08:24:53: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 128.360764 } ] }
+2017-01-05-08:24:53: ItemlistElement for phrase : avustralya
+2017-01-05-08:24:53: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0chghy',
+     name: 'Avustralya',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS89wuWiBTuK7JLUojyK6oxOAEYZaCVn0eeXPsXogswVEjmOPyJ',
+        url: 'https://en.wikipedia.org/wiki/File:Australia_stub.svg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Avustralya, ya da resmî adıyla Avustralya Milletler Topluluğu, g��ney yarım kürede yer alan bir ada ülkesidir. Hint Okyanusu ve Büyük Okyanus arasında uzanır. Okyanusya kıtasında bulunur ve kıtanın çok büyük bir bölümünü kaplar. ',
+        url: 'https://tr.wikipedia.org/wiki/Avustralya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://australia.gov.au/' },
+  resultScore: 128.360764 }
+2017-01-05-08:24:53: Callback for phrase : avustralya
+2017-01-05-08:24:53: result of :avustralya
+2017-01-05-08:24:53: { '@id': 'kg:/m/0chghy',
+  name: 'Avustralya',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Ülke',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS89wuWiBTuK7JLUojyK6oxOAEYZaCVn0eeXPsXogswVEjmOPyJ',
+     url: 'https://en.wikipedia.org/wiki/File:Australia_stub.svg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Avustralya, ya da resmî adıyla Avustralya Milletler Topluluğu, g��ney yarım kürede yer alan bir ada ülkesidir. Hint Okyanusu ve Büyük Okyanus arasında uzanır. Okyanusya kıtasında bulunur ve kıtanın çok büyük bir bölümünü kaplar. ',
+     url: 'https://tr.wikipedia.org/wiki/Avustralya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://australia.gov.au/' }
+2017-01-05-08:24:53: https://www.googleapis.com/customsearch/v1?q=Avustralya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:24:53: received_result_no=1
+2017-01-05-08:24:53: finish
+2017-01-05-08:24:53: process is finished
+2017-01-05-08:24:53: -----------------Printed Results------------------------
+2017-01-05-08:24:53: Avustralya
+2017-01-05-08:25:19: AftermoveSectionDown section_count is: 1
+2017-01-05-08:25:48: 2: slide right gesture is called
+2017-01-05-08:27:08: 2: slide right gesture is called
+2017-01-05-08:27:08: 2: slide right gesture is called
+2017-01-05-08:28:05: 1: slide right gesture is called
+2017-01-05-08:28:52: AftermoveSectionDown section_count is: 1
+2017-01-05-08:29:46: message: avustralya national university
+2017-01-05-08:29:46: SearchTerm from OZ:avustralya national university
+2017-01-05-08:29:46: State machine is initialized with input: 
+2017-01-05-08:29:46: avustralya national university
+2017-01-05-08:29:46: Searching for phrase :avustralya national university
+2017-01-05-08:29:47: Response for phrase :avustralya national university
+
+2017-01-05-08:29:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 175.978561 } ] }
+2017-01-05-08:29:47: ItemlistElement for phrase : avustralya national university
+2017-01-05-08:29:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01pxcf',
+     name: 'Avustralya Ulusal Üniversitesi',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'Thing',
+        'Place',
+        'EducationalOrganization',
+        'Organization' ],
+     description: 'Canberra, Avustralya\'da bir üniversite',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR56dKyWY6Ap9AA8GaY4XQTw6Y8v0RJmuYOvViKcJ3C9RFy7K7m',
+        url: 'https://en.wikipedia.org/wiki/University_House,_Australian_National_University',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Avustralya Ulusal Üniversitesi, kısaca ANU, Avustralya\'nın başkenti Canberra\'da bulunan bir devlet üniversitesidir. Ülke genelinde eyalet yasalarıyla kurulan diğer üniversitelere nazaran, Avustralya Parlamentosunda 1946 yılında kabul edilen federal yasayla kurulan tek üniversitedir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Avustralya_Ulusal_%C3%9Cniversitesi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.anu.edu.au/' },
+  resultScore: 175.978561 }
+2017-01-05-08:29:47: Callback for phrase : avustralya national university
+2017-01-05-08:29:47: result of :avustralya national university
+2017-01-05-08:29:47: { '@id': 'kg:/m/01pxcf',
+  name: 'Avustralya Ulusal Üniversitesi',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'Thing',
+     'Place',
+     'EducationalOrganization',
+     'Organization' ],
+  description: 'Canberra, Avustralya\'da bir üniversite',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR56dKyWY6Ap9AA8GaY4XQTw6Y8v0RJmuYOvViKcJ3C9RFy7K7m',
+     url: 'https://en.wikipedia.org/wiki/University_House,_Australian_National_University',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Avustralya Ulusal Üniversitesi, kısaca ANU, Avustralya\'nın başkenti Canberra\'da bulunan bir devlet üniversitesidir. Ülke genelinde eyalet yasalarıyla kurulan diğer üniversitelere nazaran, Avustralya Parlamentosunda 1946 yılında kabul edilen federal yasayla kurulan tek üniversitedir.\n',
+     url: 'https://tr.wikipedia.org/wiki/Avustralya_Ulusal_%C3%9Cniversitesi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.anu.edu.au/' }
+2017-01-05-08:29:47: https://www.googleapis.com/customsearch/v1?q=Avustralya Ulusal Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:29:47: received_result_no=1
+2017-01-05-08:29:47: finish
+2017-01-05-08:29:47: process is finished
+2017-01-05-08:29:47: -----------------Printed Results------------------------
+2017-01-05-08:29:47: Avustralya Ulusal Üniversitesi
+2017-01-05-08:29:59: 2: slide right gesture is called
+2017-01-05-08:30:00: message: australia national university
+2017-01-05-08:30:00: SearchTerm from OZ:australia national university
+2017-01-05-08:30:00: State machine is initialized with input: 
+2017-01-05-08:30:00: australia national university
+2017-01-05-08:30:00: Searching for phrase :australia national university
+2017-01-05-08:30:00: Response for phrase :australia national university
+
+2017-01-05-08:30:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.411682 } ] }
+2017-01-05-08:30:00: ItemlistElement for phrase : australia national university
+2017-01-05-08:30:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01pxcf',
+     name: 'Avustralya Ulusal Üniversitesi',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'Thing',
+        'Place',
+        'EducationalOrganization',
+        'Organization' ],
+     description: 'Canberra, Avustralya\'da bir üniversite',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR56dKyWY6Ap9AA8GaY4XQTw6Y8v0RJmuYOvViKcJ3C9RFy7K7m',
+        url: 'https://en.wikipedia.org/wiki/University_House,_Australian_National_University',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Avustralya Ulusal Üniversitesi, kısaca ANU, Avustralya\'nın başkenti Canberra\'da bulunan bir devlet üniversitesidir. Ülke genelinde eyalet yasalarıyla kurulan diğer üniversitelere nazaran, Avustralya Parlamentosunda 1946 yılında kabul edilen federal yasayla kurulan tek üniversitedir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Avustralya_Ulusal_%C3%9Cniversitesi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.anu.edu.au/' },
+  resultScore: 35.411682 }
+2017-01-05-08:30:00: Callback for phrase : australia national university
+2017-01-05-08:30:00: result of :australia national university
+2017-01-05-08:30:00: { '@id': 'kg:/m/01pxcf',
+  name: 'Avustralya Ulusal Üniversitesi',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'Thing',
+     'Place',
+     'EducationalOrganization',
+     'Organization' ],
+  description: 'Canberra, Avustralya\'da bir üniversite',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR56dKyWY6Ap9AA8GaY4XQTw6Y8v0RJmuYOvViKcJ3C9RFy7K7m',
+     url: 'https://en.wikipedia.org/wiki/University_House,_Australian_National_University',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Avustralya Ulusal Üniversitesi, kısaca ANU, Avustralya\'nın başkenti Canberra\'da bulunan bir devlet üniversitesidir. Ülke genelinde eyalet yasalarıyla kurulan diğer üniversitelere nazaran, Avustralya Parlamentosunda 1946 yılında kabul edilen federal yasayla kurulan tek üniversitedir.\n',
+     url: 'https://tr.wikipedia.org/wiki/Avustralya_Ulusal_%C3%9Cniversitesi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.anu.edu.au/' }
+2017-01-05-08:30:00: https://www.googleapis.com/customsearch/v1?q=Avustralya Ulusal Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:30:00: received_result_no=1
+2017-01-05-08:30:00: finish
+2017-01-05-08:30:00: process is finished
+2017-01-05-08:30:00: -----------------Printed Results------------------------
+2017-01-05-08:30:00: Avustralya Ulusal Üniversitesi
+2017-01-05-08:30:10: AftermoveSectionDown section_count is: 1
+2017-01-05-08:30:11: 2: slide left gesture is called
+2017-01-05-08:30:17: 2: slide left gesture is called
+2017-01-05-08:30:18: message: australian national university
+2017-01-05-08:30:18: SearchTerm from OZ:australian national university
+2017-01-05-08:30:18: State machine is initialized with input: 
+2017-01-05-08:30:18: australian national university
+2017-01-05-08:30:18: Searching for phrase :australian national university
+2017-01-05-08:30:18: AftermoveSectionDown section_count is: 1
+2017-01-05-08:30:18: Response for phrase :australian national university
+
+2017-01-05-08:30:18: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 357.640503 } ] }
+2017-01-05-08:30:18: ItemlistElement for phrase : australian national university
+2017-01-05-08:30:18: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01pxcf',
+     name: 'Avustralya Ulusal Üniversitesi',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'Thing',
+        'Place',
+        'EducationalOrganization',
+        'Organization' ],
+     description: 'Canberra, Avustralya\'da bir üniversite',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR56dKyWY6Ap9AA8GaY4XQTw6Y8v0RJmuYOvViKcJ3C9RFy7K7m',
+        url: 'https://en.wikipedia.org/wiki/University_House,_Australian_National_University',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Avustralya Ulusal Üniversitesi, kısaca ANU, Avustralya\'nın başkenti Canberra\'da bulunan bir devlet üniversitesidir. Ülke genelinde eyalet yasalarıyla kurulan diğer üniversitelere nazaran, Avustralya Parlamentosunda 1946 yılında kabul edilen federal yasayla kurulan tek üniversitedir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Avustralya_Ulusal_%C3%9Cniversitesi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.anu.edu.au/' },
+  resultScore: 357.640503 }
+2017-01-05-08:30:18: Callback for phrase : australian national university
+2017-01-05-08:30:18: result of :australian national university
+2017-01-05-08:30:18: { '@id': 'kg:/m/01pxcf',
+  name: 'Avustralya Ulusal Üniversitesi',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'Thing',
+     'Place',
+     'EducationalOrganization',
+     'Organization' ],
+  description: 'Canberra, Avustralya\'da bir üniversite',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcR56dKyWY6Ap9AA8GaY4XQTw6Y8v0RJmuYOvViKcJ3C9RFy7K7m',
+     url: 'https://en.wikipedia.org/wiki/University_House,_Australian_National_University',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Avustralya Ulusal Üniversitesi, kısaca ANU, Avustralya\'nın başkenti Canberra\'da bulunan bir devlet üniversitesidir. Ülke genelinde eyalet yasalarıyla kurulan diğer üniversitelere nazaran, Avustralya Parlamentosunda 1946 yılında kabul edilen federal yasayla kurulan tek üniversitedir.\n',
+     url: 'https://tr.wikipedia.org/wiki/Avustralya_Ulusal_%C3%9Cniversitesi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.anu.edu.au/' }
+2017-01-05-08:30:18: https://www.googleapis.com/customsearch/v1?q=Avustralya Ulusal Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:30:18: received_result_no=1
+2017-01-05-08:30:18: finish
+2017-01-05-08:30:18: process is finished
+2017-01-05-08:30:18: -----------------Printed Results------------------------
+2017-01-05-08:30:18: Avustralya Ulusal Üniversitesi
+2017-01-05-08:30:22: 2: slide right gesture is called
+2017-01-05-08:30:47: 1: slide right gesture is called
+2017-01-05-08:30:50: AftermoveSectionDown section_count is: 1
+2017-01-05-08:30:51: 2: slide right gesture is called
+2017-01-05-08:30:55: section_count is:0
+2017-01-05-08:30:55: https://www.googleapis.com/customsearch/v1?q=Avustralya Ulusal Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:30:55: AftermoveSectionUp section_count is: 0
+2017-01-05-08:31:50: 1: slide right gesture is called
+2017-01-05-08:33:45: AftermoveSectionUp section_count is: 0
+2017-01-05-08:33:45: AftermoveSectionUp section_count is: 0
+2017-01-05-08:33:55: AftermoveSectionUp section_count is: 0
+2017-01-05-08:33:55: AftermoveSectionUp section_count is: 0
+2017-01-05-08:33:55: AftermoveSectionUp section_count is: 0
+2017-01-05-08:33:55: AftermoveSectionDown section_count is: 1
+2017-01-05-08:34:01: 2: slide left gesture is called
+2017-01-05-08:35:48: section_count is:0
+2017-01-05-08:35:48: https://www.googleapis.com/customsearch/v1?q=Avustralya Ulusal Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:35:48: AftermoveSectionUp section_count is: 0
+2017-01-05-08:35:48: AftermoveSectionUp section_count is: 0
+2017-01-05-08:36:00: 2: slide right gesture is called
+2017-01-05-08:36:47: 2: slide right gesture is called
+2017-01-05-08:37:10: message: malezya
+2017-01-05-08:37:10: SearchTerm from OZ:malezya
+2017-01-05-08:37:10: State machine is initialized with input: 
+2017-01-05-08:37:10: malezya
+2017-01-05-08:37:10: Searching for phrase :malezya
+2017-01-05-08:37:11: Response for phrase :malezya
+
+2017-01-05-08:37:11: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 79.582588 } ] }
+2017-01-05-08:37:11: ItemlistElement for phrase : malezya
+2017-01-05-08:37:11: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09pmkv',
+     name: 'Malezya',
+     '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT7f24KKxhZ56wcSQn1COl_cdKHi2cD_b55ERZ-oy742nIXbtLh',
+        url: 'https://commons.wikimedia.org/wiki/File:JalurGemilangBg.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: 'Malezya ya da resmî adıyla Malezya Devleti, Güneydoğu Asya’da yer alan, doğu ve batı olarak iki kara parçasına ayrılmış, 13 eyaletten oluşan, “seçmece krallıkla” yönetilen federe bir ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Malezya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.malaysia.gov.my/' },
+  resultScore: 79.582588 }
+2017-01-05-08:37:11: Callback for phrase : malezya
+2017-01-05-08:37:11: result of :malezya
+2017-01-05-08:37:11: { '@id': 'kg:/m/09pmkv',
+  name: 'Malezya',
+  '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcT7f24KKxhZ56wcSQn1COl_cdKHi2cD_b55ERZ-oy742nIXbtLh',
+     url: 'https://commons.wikimedia.org/wiki/File:JalurGemilangBg.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+  detailedDescription: 
+   { articleBody: 'Malezya ya da resmî adıyla Malezya Devleti, Güneydoğu Asya’da yer alan, doğu ve batı olarak iki kara parçasına ayrılmış, 13 eyaletten oluşan, “seçmece krallıkla” yönetilen federe bir ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Malezya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.malaysia.gov.my/' }
+2017-01-05-08:37:11: https://www.googleapis.com/customsearch/v1?q=Malezya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:37:11: received_result_no=1
+2017-01-05-08:37:11: finish
+2017-01-05-08:37:11: process is finished
+2017-01-05-08:37:11: -----------------Printed Results------------------------
+2017-01-05-08:37:11: Malezya
+2017-01-05-08:37:16: message: singapur
+2017-01-05-08:37:16: SearchTerm from OZ:singapur
+2017-01-05-08:37:16: State machine is initialized with input: 
+2017-01-05-08:37:16: singapur
+2017-01-05-08:37:16: Searching for phrase :singapur
+2017-01-05-08:37:16: Response for phrase :singapur
+
+2017-01-05-08:37:16: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 73.024155 } ] }
+2017-01-05-08:37:16: ItemlistElement for phrase : singapur
+2017-01-05-08:37:16: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06t2t',
+     name: 'Singapur',
+     '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcS1rXzyxiW4MFcnKWreSV4xus_YYmWqlpjDYJuAI_9JvZ9umAsL',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_map_of_Singapore.svg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Singapur ya da resmî adıyla Singapur Cumhuriyeti, Malay Yarımadası\'nın güney ucunda, ekvatorun 137 kilometre kuzeyinde yer alan bir ada ülkesidir. ',
+        url: 'https://tr.wikipedia.org/wiki/Singapur',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://app.singapore.sg/' },
+  resultScore: 73.024155 }
+2017-01-05-08:37:16: Callback for phrase : singapur
+2017-01-05-08:37:16: result of :singapur
+2017-01-05-08:37:16: { '@id': 'kg:/m/06t2t',
+  name: 'Singapur',
+  '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcS1rXzyxiW4MFcnKWreSV4xus_YYmWqlpjDYJuAI_9JvZ9umAsL',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_map_of_Singapore.svg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Singapur ya da resmî adıyla Singapur Cumhuriyeti, Malay Yarımadası\'nın güney ucunda, ekvatorun 137 kilometre kuzeyinde yer alan bir ada ülkesidir. ',
+     url: 'https://tr.wikipedia.org/wiki/Singapur',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://app.singapore.sg/' }
+2017-01-05-08:37:16: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:37:16: received_result_no=1
+2017-01-05-08:37:16: finish
+2017-01-05-08:37:16: process is finished
+2017-01-05-08:37:16: -----------------Printed Results------------------------
+2017-01-05-08:37:16: Singapur
+2017-01-05-08:37:44: AftermoveSectionDown section_count is: 1
+2017-01-05-08:38:35: 1: slide right gesture is called
+2017-01-05-08:38:37: 2: slide right gesture is called
+2017-01-05-08:38:37: 2: slide right gesture is called
+2017-01-05-08:38:38: section_count is:0
+2017-01-05-08:38:38: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:38:38: AftermoveSectionUp section_count is: 0
+2017-01-05-08:38:41: 1: slide left gesture is called
+2017-01-05-08:38:45: AftermoveSectionUp section_count is: 0
+2017-01-05-08:38:45: AftermoveSectionUp section_count is: 0
+2017-01-05-08:38:46: AftermoveSectionDown section_count is: 1
+2017-01-05-08:39:50: 1: slide left gesture is called
+2017-01-05-08:39:51: 1: slide right gesture is called
+2017-01-05-08:39:51: 1: slide right gesture is called
+2017-01-05-08:39:55: 1: slide left gesture is called
+2017-01-05-08:40:41: 1: slide right gesture is called
+2017-01-05-08:41:59: AftermoveSectionDown section_count is: 1
+2017-01-05-08:44:26: AftermoveSectionDown section_count is: 1
+2017-01-05-08:49:30: 2: slide left gesture is called
+2017-01-05-08:49:38: 1: slide left gesture is called
+2017-01-05-08:49:39: AftermoveSectionDown section_count is: 1
+2017-01-05-08:49:46: section_count is:0
+2017-01-05-08:49:46: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:49:46: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:47: AftermoveSectionDown section_count is: 1
+2017-01-05-08:49:47: section_count is:0
+2017-01-05-08:49:47: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:49:47: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:47: AftermoveSectionDown section_count is: 1
+2017-01-05-08:49:47: section_count is:0
+2017-01-05-08:49:47: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:49:47: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:49: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:49: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:50: AftermoveSectionDown section_count is: 1
+2017-01-05-08:49:51: section_count is:0
+2017-01-05-08:49:51: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:49:51: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:51: AftermoveSectionUp section_count is: 0
+2017-01-05-08:49:52: AftermoveSectionDown section_count is: 1
+2017-01-05-08:49:56: 2: slide left gesture is called
+2017-01-05-08:50:00: section_count is:0
+2017-01-05-08:50:00: https://www.googleapis.com/customsearch/v1?q=Singapur&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-08:50:00: AftermoveSectionUp section_count is: 0
+2017-01-05-08:50:02: AftermoveSectionUp section_count is: 0
+2017-01-05-08:50:03: AftermoveSectionUp section_count is: 0
+                                                              

@@ -1,0 +1,629 @@
+2017-01-05-09:17:35: AftermoveSectionDown section_count is: 0
+2017-01-05-09:17:36: 2: slide left gesture is called
+2017-01-05-09:17:41: AftermoveSectionUp section_count is: 0
+2017-01-05-09:17:41: AftermoveSectionUp section_count is: 0
+2017-01-05-09:17:42: AftermoveSectionUp section_count is: 0
+2017-01-05-09:17:46: AftermoveSectionDown section_count is: 0
+2017-01-05-10:40:48: message: 
+2017-01-05-10:40:48: SearchTerm from OZ:
+2017-01-05-10:40:55: message: orhan baba
+2017-01-05-10:40:55: SearchTerm from OZ:orhan baba
+2017-01-05-10:40:55: State machine is initialized with input: 
+2017-01-05-10:40:55: orhan baba
+2017-01-05-10:40:55: Searching for phrase :orhan baba
+2017-01-05-10:40:56: Response for phrase :orhan baba
+
+2017-01-05-10:40:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-05-10:40:56: ItemlistElement for phrase : orhan baba
+2017-01-05-10:40:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-05-10:40:56: Callback for phrase : orhan baba
+2017-01-05-10:40:56: result of :orhan baba
+2017-01-05-10:40:56: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-05-10:40:56: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:40:56: received_result_no=1
+2017-01-05-10:40:56: finish
+2017-01-05-10:40:56: process is finished
+2017-01-05-10:40:56: -----------------Printed Results------------------------
+2017-01-05-10:40:56: Orhan Gencebay
+2017-01-05-10:40:59: 2: slide right gesture is called
+2017-01-05-10:41:00: 2: slide right gesture is called
+2017-01-05-10:41:01: 2: slide right gesture is called
+2017-01-05-10:41:02: 2: slide right gesture is called
+2017-01-05-10:41:03: 1: slide left gesture is called
+2017-01-05-10:41:19: message: zeki müren,mardin
+2017-01-05-10:41:19: SearchTerm from OZ:zeki müren,mardin
+2017-01-05-10:41:19: State machine is initialized with input: 
+2017-01-05-10:41:19: zeki müren,mardin
+2017-01-05-10:41:19: Searching for phrase :zeki müren
+2017-01-05-10:41:19: Response for phrase :zeki müren
+
+2017-01-05-10:41:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.585693 } ] }
+2017-01-05-10:41:19: ItemlistElement for phrase : zeki müren
+2017-01-05-10:41:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.585693 }
+2017-01-05-10:41:19: Callback for phrase : zeki müren
+2017-01-05-10:41:19: result of :zeki müren
+2017-01-05-10:41:19: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2017-01-05-10:41:19: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:41:19: received_result_no=1
+2017-01-05-10:41:19: Searching for phrase :mardin
+2017-01-05-10:41:19: Response for phrase :mardin
+
+2017-01-05-10:41:19: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 68.508392 } ] }
+2017-01-05-10:41:19: ItemlistElement for phrase : mardin
+2017-01-05-10:41:19: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05278s',
+     name: 'Mardin',
+     '@type': [ 'Thing', 'AdministrativeArea', 'Place' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSPwUl2JpsDNaj4omWAkfjdPbY5nEgUH4dKyzUSjJ7Aw_ZLBlw8',
+        url: 'https://commons.wikimedia.org/wiki/File:Mardin_stone_houses_02148.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Mardin, Türkiye\'nin büyükşehir statüsüne giren bir ili ve en kalabalık yirmi altıncı şehri. 2013 itibarıyla 779.738 nüfusa sahiptir. Güneydoğu Anadolu Bölgesi\'nin Dicle Bölümü\'nde yer alır. Suriye ile sınır komşusudur.\nŞehirde uluslararası kuruluşlarca kültür mirası kabul edilmiş, koruma altına alınmış tarihi yapılar mevcuttur. ',
+        url: 'https://tr.wikipedia.org/wiki/Mardin',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 68.508392 }
+2017-01-05-10:41:20: Callback for phrase : mardin
+2017-01-05-10:41:20: result of :mardin
+2017-01-05-10:41:20: { '@id': 'kg:/m/05278s',
+  name: 'Mardin',
+  '@type': [ 'Thing', 'AdministrativeArea', 'Place' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSPwUl2JpsDNaj4omWAkfjdPbY5nEgUH4dKyzUSjJ7Aw_ZLBlw8',
+     url: 'https://commons.wikimedia.org/wiki/File:Mardin_stone_houses_02148.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Mardin, Türkiye\'nin büyükşehir statüsüne giren bir ili ve en kalabalık yirmi altıncı şehri. 2013 itibarıyla 779.738 nüfusa sahiptir. Güneydoğu Anadolu Bölgesi\'nin Dicle Bölümü\'nde yer alır. Suriye ile sınır komşusudur.\nŞehirde uluslararası kuruluşlarca kültür mirası kabul edilmiş, koruma altına alınmış tarihi yapılar mevcuttur. ',
+     url: 'https://tr.wikipedia.org/wiki/Mardin',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-10:41:20: received_result_no=2
+2017-01-05-10:41:20: finish
+2017-01-05-10:41:20: process is finished
+2017-01-05-10:41:20: -----------------Printed Results------------------------
+2017-01-05-10:41:20: Zeki Müren
+2017-01-05-10:41:20: Mardin
+2017-01-05-10:41:21: 2: slide right gesture is called
+2017-01-05-10:41:22: 2: slide right gesture is called
+2017-01-05-10:41:23: section_count is:1
+2017-01-05-10:41:23: https://www.googleapis.com/customsearch/v1?q=Mardin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:41:23: AftermoveSectionDown section_count is: 1
+2017-01-05-10:41:23: 2: slide right gesture is called
+2017-01-05-10:41:27: 2: slide left gesture is called
+2017-01-05-10:41:28: 2: slide left gesture is called
+2017-01-05-10:41:29: AftermoveSectionDown section_count is: 2
+2017-01-05-10:41:31: section_count is:1
+2017-01-05-10:41:31: https://www.googleapis.com/customsearch/v1?q=Mardin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:41:31: AftermoveSectionUp section_count is: 1
+2017-01-05-10:41:32: section_count is:0
+2017-01-05-10:41:32: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:41:32: AftermoveSectionUp section_count is: 0
+2017-01-05-10:41:33: AftermoveSectionUp section_count is: 0
+2017-01-05-10:41:33: AftermoveSectionUp section_count is: 0
+2017-01-05-10:41:34: 2: slide right gesture is called
+2017-01-05-10:41:34: 2: slide right gesture is called
+2017-01-05-10:41:35: 2: slide left gesture is called
+2017-01-05-10:41:38: 2: slide left gesture is called
+2017-01-05-10:41:40: 2: slide left gesture is called
+2017-01-05-10:41:43: 1: slide left gesture is called
+2017-01-05-10:41:47: section_count is:1
+2017-01-05-10:41:47: https://www.googleapis.com/customsearch/v1?q=Mardin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:41:47: AftermoveSectionDown section_count is: 1
+2017-01-05-10:41:51: 2: slide left gesture is called
+2017-01-05-10:41:51: 2: slide left gesture is called
+2017-01-05-10:41:53: 1: slide right gesture is called
+2017-01-05-10:41:57: 1: slide right gesture is called
+2017-01-05-10:41:58: 1: slide right gesture is called
+2017-01-05-10:41:59: 1: slide right gesture is called
+2017-01-05-10:42:00: 1: slide right gesture is called
+2017-01-05-10:42:04: message: zeki alasya
+2017-01-05-10:42:04: SearchTerm from OZ:zeki alasya
+2017-01-05-10:42:04: State machine is initialized with input: 
+2017-01-05-10:42:04: zeki alasya
+2017-01-05-10:42:04: Searching for phrase :zeki alasya
+2017-01-05-10:42:05: Response for phrase :zeki alasya
+
+2017-01-05-10:42:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 491.35498 } ] }
+2017-01-05-10:42:05: ItemlistElement for phrase : zeki alasya
+2017-01-05-10:42:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04cwmv1',
+     name: 'Zeki Alasya',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Sinema sanatçısı',
+     detailedDescription: 
+      { articleBody: 'Zeki Alasya, aslen Kıbrıslı, İstanbul doğumlu Türk tiyatro ve sinema sanatçısı. Kıbrıslı Mehmet Kamil Paşa\'nın yeğenidir.',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_Alasya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 491.35498 }
+2017-01-05-10:42:05: Callback for phrase : zeki alasya
+2017-01-05-10:42:05: result of :zeki alasya
+2017-01-05-10:42:05: { '@id': 'kg:/m/04cwmv1',
+  name: 'Zeki Alasya',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Sinema sanatçısı',
+  detailedDescription: 
+   { articleBody: 'Zeki Alasya, aslen Kıbrıslı, İstanbul doğumlu Türk tiyatro ve sinema sanatçısı. Kıbrıslı Mehmet Kamil Paşa\'nın yeğenidir.',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_Alasya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-10:42:05: https://www.googleapis.com/customsearch/v1?q=Zeki Alasya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:42:05: received_result_no=1
+2017-01-05-10:42:05: finish
+2017-01-05-10:42:05: process is finished
+2017-01-05-10:42:05: -----------------Printed Results------------------------
+2017-01-05-10:42:05: Zeki Alasya
+2017-01-05-10:42:08: 2: slide right gesture is called
+2017-01-05-10:42:09: 2: slide right gesture is called
+2017-01-05-10:42:09: 2: slide left gesture is called
+2017-01-05-10:42:09: 2: slide left gesture is called
+2017-01-05-10:42:11: 2: slide left gesture is called
+2017-01-05-10:42:12: 2: slide left gesture is called
+2017-01-05-10:42:13: 2: slide left gesture is called
+2017-01-05-10:42:16: 2: slide left gesture is called
+2017-01-05-10:42:36: message: metin akpınar, eşener şen
+2017-01-05-10:42:36: SearchTerm from OZ:metin akpınar, eşener şen
+2017-01-05-10:42:36: State machine is initialized with input: 
+2017-01-05-10:42:36: metin akpınar, eşener şen
+2017-01-05-10:42:36: Searching for phrase :metin akpınar
+2017-01-05-10:42:36: Response for phrase :metin akpınar
+
+2017-01-05-10:42:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 483.155365 } ] }
+2017-01-05-10:42:36: ItemlistElement for phrase : metin akpınar
+2017-01-05-10:42:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03cfr51',
+     name: 'Metin Akpınar',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Metin Akpınar, Türk oyuncu.\nPertevniyal Lisesi\'nde eğitim gördü. Daha sonra İstanbul Üniversitesi Hukuk Fakültesi ve Edebiyat Fakültesi\'nden mezun oldu.\n',
+        url: 'https://tr.wikipedia.org/wiki/Metin_Akp%C4%B1nar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 483.155365 }
+2017-01-05-10:42:36: Callback for phrase : metin akpınar
+2017-01-05-10:42:36: result of :metin akpınar
+2017-01-05-10:42:36: { '@id': 'kg:/m/03cfr51',
+  name: 'Metin Akpınar',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Metin Akpınar, Türk oyuncu.\nPertevniyal Lisesi\'nde eğitim gördü. Daha sonra İstanbul Üniversitesi Hukuk Fakültesi ve Edebiyat Fakültesi\'nden mezun oldu.\n',
+     url: 'https://tr.wikipedia.org/wiki/Metin_Akp%C4%B1nar',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-10:42:36: https://www.googleapis.com/customsearch/v1?q=Metin Akpınar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:42:37: received_result_no=1
+2017-01-05-10:42:37: Searching for phrase : eşener şen
+2017-01-05-10:42:37: Response for phrase : eşener şen
+
+2017-01-05-10:42:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-05-10:42:37: ItemlistElement for phrase :  eşener şen
+2017-01-05-10:42:37: undefined
+2017-01-05-10:42:37: Failed callback for phrase :  eşener şen
+
+2017-01-05-10:42:37: nothing found for : eşener şen
+2017-01-05-10:42:37: finish
+2017-01-05-10:42:37: process is finished
+2017-01-05-10:42:37: -----------------Printed Results------------------------
+2017-01-05-10:42:37: Metin Akpınar
+2017-01-05-10:42:38: AftermoveSectionDown section_count is: 1
+2017-01-05-10:42:39: AftermoveSectionDown section_count is: 1
+2017-01-05-10:42:39: section_count is:0
+2017-01-05-10:42:39: https://www.googleapis.com/customsearch/v1?q=Metin Akpınar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:42:39: AftermoveSectionUp section_count is: 0
+2017-01-05-10:42:39: AftermoveSectionUp section_count is: 0
+2017-01-05-10:42:40: AftermoveSectionDown section_count is: 1
+2017-01-05-10:42:46: message: metin akpınar, şener şen
+2017-01-05-10:42:46: SearchTerm from OZ:metin akpınar, şener şen
+2017-01-05-10:42:46: State machine is initialized with input: 
+2017-01-05-10:42:46: metin akpınar, şener şen
+2017-01-05-10:42:46: Searching for phrase :metin akpınar
+2017-01-05-10:42:46: Response for phrase :metin akpınar
+
+2017-01-05-10:42:46: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 483.155365 } ] }
+2017-01-05-10:42:46: ItemlistElement for phrase : metin akpınar
+2017-01-05-10:42:46: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03cfr51',
+     name: 'Metin Akpınar',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Oyuncu',
+     detailedDescription: 
+      { articleBody: 'Metin Akpınar, Türk oyuncu.\nPertevniyal Lisesi\'nde eğitim gördü. Daha sonra İstanbul Üniversitesi Hukuk Fakültesi ve Edebiyat Fakültesi\'nden mezun oldu.\n',
+        url: 'https://tr.wikipedia.org/wiki/Metin_Akp%C4%B1nar',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 483.155365 }
+2017-01-05-10:42:46: Callback for phrase : metin akpınar
+2017-01-05-10:42:46: result of :metin akpınar
+2017-01-05-10:42:46: { '@id': 'kg:/m/03cfr51',
+  name: 'Metin Akpınar',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Oyuncu',
+  detailedDescription: 
+   { articleBody: 'Metin Akpınar, Türk oyuncu.\nPertevniyal Lisesi\'nde eğitim gördü. Daha sonra İstanbul Üniversitesi Hukuk Fakültesi ve Edebiyat Fakültesi\'nden mezun oldu.\n',
+     url: 'https://tr.wikipedia.org/wiki/Metin_Akp%C4%B1nar',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-10:42:46: https://www.googleapis.com/customsearch/v1?q=Metin Akpınar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:42:46: received_result_no=1
+2017-01-05-10:42:46: Searching for phrase : şener şen
+2017-01-05-10:42:47: Response for phrase : şener şen
+
+2017-01-05-10:42:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 549.351318 } ] }
+2017-01-05-10:42:47: ItemlistElement for phrase :  şener şen
+2017-01-05-10:42:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02z247j',
+     name: 'Şener Şen',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Sinema oyuncusu',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRqt5xHMxCI46dKbHTRLsHRI3rU6zeZ14cE0nfFAklBDt_XsAiR',
+        url: 'https://commons.wikimedia.org/wiki/File:%C5%9Eener_%C5%9Een.jpg',
+        license: 'http://creativecommons.org/licenses/by/3.0' },
+     detailedDescription: 
+      { articleBody: 'Şener Şen, Türk sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/%C5%9Eener_%C5%9Een',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 549.351318 }
+2017-01-05-10:42:47: Callback for phrase :  şener şen
+2017-01-05-10:42:47: result of : şener şen
+2017-01-05-10:42:47: { '@id': 'kg:/m/02z247j',
+  name: 'Şener Şen',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Sinema oyuncusu',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRqt5xHMxCI46dKbHTRLsHRI3rU6zeZ14cE0nfFAklBDt_XsAiR',
+     url: 'https://commons.wikimedia.org/wiki/File:%C5%9Eener_%C5%9Een.jpg',
+     license: 'http://creativecommons.org/licenses/by/3.0' },
+  detailedDescription: 
+   { articleBody: 'Şener Şen, Türk sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/%C5%9Eener_%C5%9Een',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-10:42:47: received_result_no=2
+2017-01-05-10:42:47: finish
+2017-01-05-10:42:47: process is finished
+2017-01-05-10:42:47: -----------------Printed Results------------------------
+2017-01-05-10:42:47: Metin Akpınar
+2017-01-05-10:42:47: Şener Şen
+2017-01-05-10:42:49: AftermoveSectionDown section_count is: 2
+2017-01-05-10:42:49: AftermoveSectionDown section_count is: 2
+2017-01-05-10:42:49: section_count is:1
+2017-01-05-10:42:49: https://www.googleapis.com/customsearch/v1?q=Şener Şen&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:42:49: AftermoveSectionUp section_count is: 1
+2017-01-05-10:42:51: 2: slide right gesture is called
+2017-01-05-10:42:51: 2: slide right gesture is called
+2017-01-05-10:42:52: 2: slide right gesture is called
+2017-01-05-10:42:53: 2: slide right gesture is called
+2017-01-05-10:42:53: 2: slide right gesture is called
+2017-01-05-10:42:54: 2: slide right gesture is called
+2017-01-05-10:42:54: 2: slide right gesture is called
+2017-01-05-10:42:56: 2: slide right gesture is called
+2017-01-05-10:42:57: 2: slide right gesture is called
+2017-01-05-10:42:57: 2: slide right gesture is called
+2017-01-05-10:42:58: 2: slide right gesture is called
+2017-01-05-10:42:59: 2: slide left gesture is called
+2017-01-05-10:43:04: message: avrupa birliği
+2017-01-05-10:43:04: SearchTerm from OZ:avrupa birliği
+2017-01-05-10:43:04: State machine is initialized with input: 
+2017-01-05-10:43:04: avrupa birliği
+2017-01-05-10:43:04: Searching for phrase :avrupa birliği
+2017-01-05-10:43:04: Response for phrase :avrupa birliği
+
+2017-01-05-10:43:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1158.321899 } ] }
+2017-01-05-10:43:04: ItemlistElement for phrase : avrupa birliği
+2017-01-05-10:43:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0_6t_z8',
+     name: 'Avrupa Birliği',
+     '@type': [ 'Place', 'AdministrativeArea', 'Thing', 'Organization' ],
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRhC8smyYIf-cwv7jinUG8GgPPxueU7ALX3hhAOlirSpQ861b10',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_Map_of_European_Union.png',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Avrupa Birliği ya da kısaca AB, yirmi sekiz üye ülkeden oluşan ve toprakları büyük ölçüde Avrupa kıtasında bulunan siyasi ve ekonomik bir örgütlenmedir. 1992 yılında, Avrupa Birliği Antlaşması olarak da bilinen Maastricht Antlaşması\'nın yürürlüğe girmesi sonucu, var olan Avrupa Ekonomik Topluluğu\'na yeni görev ve sorumluluk alanları yüklenmesiyle kurulmuştur. 500 milyondan fazla nüfusuyla Avrupa Birliği, dünya ülkelerinin GSYİH’ye göre sıralanışında nominal gayrisafi yurtiçi hasılasının %30\'luk bölümünü oluşturur.\n',
+        url: 'https://tr.wikipedia.org/wiki/Avrupa_Birli%C4%9Fi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://europa.eu/' },
+  resultScore: 1158.321899 }
+2017-01-05-10:43:04: Callback for phrase : avrupa birliği
+2017-01-05-10:43:04: result of :avrupa birliği
+2017-01-05-10:43:04: { '@id': 'kg:/m/0_6t_z8',
+  name: 'Avrupa Birliği',
+  '@type': [ 'Place', 'AdministrativeArea', 'Thing', 'Organization' ],
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRhC8smyYIf-cwv7jinUG8GgPPxueU7ALX3hhAOlirSpQ861b10',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_Map_of_European_Union.png',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Avrupa Birliği ya da kısaca AB, yirmi sekiz üye ülkeden oluşan ve toprakları büyük ölçüde Avrupa kıtasında bulunan siyasi ve ekonomik bir örgütlenmedir. 1992 yılında, Avrupa Birliği Antlaşması olarak da bilinen Maastricht Antlaşması\'nın yürürlüğe girmesi sonucu, var olan Avrupa Ekonomik Topluluğu\'na yeni görev ve sorumluluk alanları yüklenmesiyle kurulmuştur. 500 milyondan fazla nüfusuyla Avrupa Birliği, dünya ülkelerinin GSYİH’ye göre sıralanışında nominal gayrisafi yurtiçi hasılasının %30\'luk bölümünü oluşturur.\n',
+     url: 'https://tr.wikipedia.org/wiki/Avrupa_Birli%C4%9Fi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://europa.eu/' }
+2017-01-05-10:43:04: https://www.googleapis.com/customsearch/v1?q=Avrupa Birliği&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:43:04: received_result_no=1
+2017-01-05-10:43:04: finish
+2017-01-05-10:43:04: process is finished
+2017-01-05-10:43:04: -----------------Printed Results------------------------
+2017-01-05-10:43:04: Avrupa Birliği
+2017-01-05-10:43:06: 2: slide left gesture is called
+2017-01-05-10:43:08: 2: slide left gesture is called
+2017-01-05-10:43:09: 2: slide left gesture is called
+2017-01-05-10:43:10: 2: slide left gesture is called
+2017-01-05-10:43:10: 2: slide left gesture is called
+2017-01-05-10:43:21: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:22: section_count is:0
+2017-01-05-10:43:22: https://www.googleapis.com/customsearch/v1?q=Avrupa Birliği&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:43:22: AftermoveSectionUp section_count is: 0
+2017-01-05-10:43:23: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:24: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:24: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:24: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:25: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:25: section_count is:0
+2017-01-05-10:43:25: https://www.googleapis.com/customsearch/v1?q=Avrupa Birliği&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:43:25: AftermoveSectionUp section_count is: 0
+2017-01-05-10:43:26: AftermoveSectionUp section_count is: 0
+2017-01-05-10:43:26: AftermoveSectionDown section_count is: 1
+2017-01-05-10:43:33: message: hakkari
+2017-01-05-10:43:33: SearchTerm from OZ:hakkari
+2017-01-05-10:43:33: State machine is initialized with input: 
+2017-01-05-10:43:33: hakkari
+2017-01-05-10:43:33: Searching for phrase :hakkari
+2017-01-05-10:43:33: Response for phrase :hakkari
+
+2017-01-05-10:43:33: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 29.646166 } ] }
+2017-01-05-10:43:33: ItemlistElement for phrase : hakkari
+2017-01-05-10:43:33: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04xkvx',
+     name: 'Hakkâri',
+     '@type': [ 'Place', 'Thing', 'AdministrativeArea' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTtfVGV9G76CU-xsm268X1SdTjV_ZVzC5MkDaCP2bARwMdL-cxS',
+        url: 'https://zh.wikipedia.org/wiki/File:Hakkari_Turkey_Provinces_locator.jpg',
+        license: 'http://creativecommons.org/licenses/sa/1.0/' },
+     detailedDescription: 
+      { articleBody: 'Hakkâri, Türkiye\'nin doğusunda yer alan il ve en kalabalık altmış ikinci şehri. 2014 sonu itibarıyla 276.287 kişilik nüfusa sahiptir. Nüfusun 148.538\'i erkek, 127.749\'u kadındır. Tamamı Doğu Anadolu Bölgesi\'nin doğusunda yer alır. Yüzölçümü bakımından Türkiye\'nin kırk yedinci büyük ilidir. Güneyinde Irak, batısında Şırnak, kuzeyinde Van, doğusunda ise İran vardır.',
+        url: 'https://tr.wikipedia.org/wiki/Hakk%C3%A2ri_(il)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 29.646166 }
+2017-01-05-10:43:33: Callback for phrase : hakkari
+2017-01-05-10:43:33: result of :hakkari
+2017-01-05-10:43:33: { '@id': 'kg:/m/04xkvx',
+  name: 'Hakkâri',
+  '@type': [ 'Place', 'Thing', 'AdministrativeArea' ],
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTtfVGV9G76CU-xsm268X1SdTjV_ZVzC5MkDaCP2bARwMdL-cxS',
+     url: 'https://zh.wikipedia.org/wiki/File:Hakkari_Turkey_Provinces_locator.jpg',
+     license: 'http://creativecommons.org/licenses/sa/1.0/' },
+  detailedDescription: 
+   { articleBody: 'Hakkâri, Türkiye\'nin doğusunda yer alan il ve en kalabalık altmış ikinci şehri. 2014 sonu itibarıyla 276.287 kişilik nüfusa sahiptir. Nüfusun 148.538\'i erkek, 127.749\'u kadındır. Tamamı Doğu Anadolu Bölgesi\'nin doğusunda yer alır. Yüzölçümü bakımından Türkiye\'nin kırk yedinci büyük ilidir. Güneyinde Irak, batısında Şırnak, kuzeyinde Van, doğusunda ise İran vardır.',
+     url: 'https://tr.wikipedia.org/wiki/Hakk%C3%A2ri_(il)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-10:43:33: https://www.googleapis.com/customsearch/v1?q=Hakkâri&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:43:33: received_result_no=1
+2017-01-05-10:43:33: finish
+2017-01-05-10:43:33: process is finished
+2017-01-05-10:43:33: -----------------Printed Results------------------------
+2017-01-05-10:43:33: Hakkâri
+2017-01-05-10:43:36: message: einstein
+2017-01-05-10:43:36: SearchTerm from OZ:einstein
+2017-01-05-10:43:36: State machine is initialized with input: 
+2017-01-05-10:43:36: einstein
+2017-01-05-10:43:36: Searching for phrase :einstein
+2017-01-05-10:43:37: Response for phrase :einstein
+
+2017-01-05-10:43:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 58.856812 } ] }
+2017-01-05-10:43:37: ItemlistElement for phrase : einstein
+2017-01-05-10:43:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0jcx',
+     name: 'Albert Einstein',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Teorik Fizikçi',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQWwBhZ_ZXUdfW5M_JpXdjALYKQvRCHxpBPPPJ_jEB4iQVNqVZZ',
+        url: 'https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head.jpg' },
+     detailedDescription: 
+      { articleBody: 'Albert Einstein; Yahudi asıllı Alman teorik fizikçi ve bilim insanı. 1921 yılında Einstein, Nobel Fizik Ödülü’ne layık görülmüştür.',
+        url: 'https://tr.wikipedia.org/wiki/Albert_Einstein',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://einstein.biz/' },
+  resultScore: 58.856812 }
+2017-01-05-10:43:37: Callback for phrase : einstein
+2017-01-05-10:43:37: result of :einstein
+2017-01-05-10:43:37: { '@id': 'kg:/m/0jcx',
+  name: 'Albert Einstein',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Teorik Fizikçi',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQWwBhZ_ZXUdfW5M_JpXdjALYKQvRCHxpBPPPJ_jEB4iQVNqVZZ',
+     url: 'https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head.jpg' },
+  detailedDescription: 
+   { articleBody: 'Albert Einstein; Yahudi asıllı Alman teorik fizikçi ve bilim insanı. 1921 yılında Einstein, Nobel Fizik Ödülü’ne layık görülmüştür.',
+     url: 'https://tr.wikipedia.org/wiki/Albert_Einstein',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://einstein.biz/' }
+2017-01-05-10:43:37: https://www.googleapis.com/customsearch/v1?q=Albert Einstein&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-10:43:37: received_result_no=1
+2017-01-05-10:43:37: finish
+2017-01-05-10:43:37: process is finished
+2017-01-05-10:43:37: -----------------Printed Results------------------------
+2017-01-05-10:43:37: Albert Einstein
+2017-01-05-10:43:39: 2: slide left gesture is called
+2017-01-05-10:43:40: 2: slide right gesture is called
+2017-01-05-10:43:41: 2: slide right gesture is called
+2017-01-05-10:43:41: 2: slide right gesture is called
+2017-01-05-10:43:42: 2: slide right gesture is called
+2017-01-05-10:43:42: 2: slide right gesture is called
+2017-01-05-10:43:44: 1: slide right gesture is called
+2017-01-05-10:43:44: 1: slide right gesture is called
+2017-01-05-10:43:45: 1: slide left gesture is called
+2017-01-05-10:43:46: 1: slide left gesture is called
+2017-01-05-10:43:46: 1: slide left gesture is called
+2017-01-05-10:43:47: 1: slide left gesture is called
+2017-01-05-10:43:48: 1: slide left gesture is called
+2017-01-05-10:43:48: 1: slide left gesture is called

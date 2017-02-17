@@ -1,0 +1,84 @@
+2017-01-16-09:30:43: message: 
+2017-01-16-09:30:43: SearchTerm from OZ:
+2017-01-16-09:30:43: message: 
+2017-01-16-09:30:43: SearchTerm from OZ:
+2017-01-16-09:30:43: message: 
+2017-01-16-09:30:43: SearchTerm from OZ:
+2017-01-16-09:30:43: message: 
+2017-01-16-09:30:43: SearchTerm from OZ:
+2017-01-16-09:30:43: message: 
+2017-01-16-09:30:43: SearchTerm from OZ:
+2017-01-16-09:30:43: message: 
+2017-01-16-09:30:43: SearchTerm from OZ:
+2017-01-16-09:30:47: message: roma şehri
+2017-01-16-09:30:47: SearchTerm from OZ:roma şehri
+2017-01-16-09:30:47: State machine is initialized with input: 
+2017-01-16-09:30:47: roma şehri
+2017-01-16-09:30:47: Searching for phrase :roma şehri
+2017-01-16-09:30:47: message: 
+2017-01-16-09:30:47: message: 
+2017-01-16-09:30:48: Response for phrase :roma şehri
+
+2017-01-16-09:30:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 651.822388 } ] }
+2017-01-16-09:30:48: ItemlistElement for phrase : roma şehri
+2017-01-16-09:30:48: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06c62',
+     name: 'Roma',
+     '@type': 
+      [ 'AdministrativeArea',
+        'LandmarksOrHistoricalBuildings',
+        'Thing',
+        'City',
+        'Place' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRIo_YPlhSgBRmZBYFZQcRoyEJRKgKx0xc7XRMjEti1Xrnx7vKE',
+        url: 'https://en.wikipedia.org/wiki/Portal:Rome',
+        license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+     detailedDescription: 
+      { articleBody: 'Roma veya Roma komünü, İtalya\'nın, Lazio bölgesinin ve aynı zamanda Roma ilinin başkentidir. Roma hem şehir hem de özel komün statüsü taşır. Tiber ve Aniane nehirleri arasında ve Akdeniz\'e yakındır. ',
+        url: 'https://tr.wikipedia.org/wiki/Roma',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.comune.roma.it/' },
+  resultScore: 651.822388 }
+2017-01-16-09:30:48: Callback for phrase : roma şehri
+2017-01-16-09:30:48: result of :roma şehri
+2017-01-16-09:30:48: { '@id': 'kg:/m/06c62',
+  name: 'Roma',
+  '@type': 
+   [ 'AdministrativeArea',
+     'LandmarksOrHistoricalBuildings',
+     'Thing',
+     'City',
+     'Place' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRIo_YPlhSgBRmZBYFZQcRoyEJRKgKx0xc7XRMjEti1Xrnx7vKE',
+     url: 'https://en.wikipedia.org/wiki/Portal:Rome',
+     license: 'http://creativecommons.org/licenses/by-sa/2.5' },
+  detailedDescription: 
+   { articleBody: 'Roma veya Roma komünü, İtalya\'nın, Lazio bölgesinin ve aynı zamanda Roma ilinin başkentidir. Roma hem şehir hem de özel komün statüsü taşır. Tiber ve Aniane nehirleri arasında ve Akdeniz\'e yakındır. ',
+     url: 'https://tr.wikipedia.org/wiki/Roma',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.comune.roma.it/' }
+2017-01-16-09:30:48: https://www.googleapis.com/customsearch/v1?q=Roma&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-16-09:30:48: received_result_no=1
+2017-01-16-09:30:48: finish
+2017-01-16-09:30:48: process is finished
+2017-01-16-09:30:48: -----------------Printed Results------------------------
+2017-01-16-09:30:48: Roma
+2017-01-16-09:30:55: message: 
+2017-01-16-09:30:55: SearchTerm from OZ:
+2017-01-16-09:30:58: AftermoveSectionUp section_count is: 0

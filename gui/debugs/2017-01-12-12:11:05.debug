@@ -1,0 +1,405 @@
+2017-01-12-12:11:07: AftermoveSectionDown section_count is: 0
+2017-01-12-12:11:25: message: patates
+2017-01-12-12:11:25: SearchTerm from OZ:patates
+2017-01-12-12:11:25: State machine is initialized with input: 
+2017-01-12-12:11:25: patates
+2017-01-12-12:11:25: Searching for phrase :patates
+2017-01-12-12:11:25: Response for phrase :patates
+
+2017-01-12-12:11:25: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 55.329506 } ] }
+2017-01-12-12:11:26: ItemlistElement for phrase : patates
+2017-01-12-12:11:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/05vtc',
+     name: 'Patates',
+     '@type': [ 'Thing' ],
+     description: 'Sebze',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQxj0Kw8Nv8MOx3vGb2JgSic5GRa3SS1vgTTzBV2ypRtLxqo3v7',
+        url: 'https://en.wikipedia.org/wiki/Potato' },
+     detailedDescription: 
+      { articleBody: 'Patates, patlıcangiller familyasından yumruları yenen otsu bitki türüdür. Boyu 70–80 cm’ye varan, beyazımsı-pembemsi çiçekler açan, yumruları hariç zehirli otsu bir bitkidir. ',
+        url: 'https://tr.wikipedia.org/wiki/Patates',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 55.329506 }
+2017-01-12-12:11:26: Callback for phrase : patates
+2017-01-12-12:11:26: result of :patates
+2017-01-12-12:11:26: { '@id': 'kg:/m/05vtc',
+  name: 'Patates',
+  '@type': [ 'Thing' ],
+  description: 'Sebze',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcQxj0Kw8Nv8MOx3vGb2JgSic5GRa3SS1vgTTzBV2ypRtLxqo3v7',
+     url: 'https://en.wikipedia.org/wiki/Potato' },
+  detailedDescription: 
+   { articleBody: 'Patates, patlıcangiller familyasından yumruları yenen otsu bitki türüdür. Boyu 70–80 cm’ye varan, beyazımsı-pembemsi çiçekler açan, yumruları hariç zehirli otsu bir bitkidir. ',
+     url: 'https://tr.wikipedia.org/wiki/Patates',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-12-12:11:26: https://www.googleapis.com/customsearch/v1?q=Patates&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:11:26: received_result_no=1
+2017-01-12-12:11:26: finish
+2017-01-12-12:11:26: process is finished
+2017-01-12-12:11:26: -----------------Printed Results------------------------
+2017-01-12-12:11:26: Patates
+2017-01-12-12:11:33: 2: slide left gesture is called
+2017-01-12-12:11:33: 2: slide left gesture is called
+2017-01-12-12:11:36: 2: slide left gesture is called
+2017-01-12-12:11:37: 2: slide left gesture is called
+2017-01-12-12:11:37: 2: slide left gesture is called
+2017-01-12-12:11:37: 2: slide left gesture is called
+2017-01-12-12:11:39: AftermoveSectionDown section_count is: 1
+2017-01-12-12:11:42: AftermoveSectionDown section_count is: 1
+2017-01-12-12:11:42: AftermoveSectionDown section_count is: 1
+2017-01-12-12:11:42: AftermoveSectionDown section_count is: 1
+2017-01-12-12:11:46: AftermoveSectionDown section_count is: 1
+2017-01-12-12:11:46: AftermoveSectionDown section_count is: 1
+2017-01-12-12:12:20: 2: slide left gesture is called
+2017-01-12-12:12:20: message: james bond
+2017-01-12-12:12:20: SearchTerm from OZ:james bond
+2017-01-12-12:12:20: State machine is initialized with input: 
+2017-01-12-12:12:20: james bond
+2017-01-12-12:12:20: Searching for phrase :james bond
+2017-01-12-12:12:20: Response for phrase :james bond
+
+2017-01-12-12:12:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 645.971069 } ] }
+2017-01-12-12:12:20: ItemlistElement for phrase : james bond
+2017-01-12-12:12:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0clpml',
+     name: 'James Bond',
+     '@type': [ 'Thing' ],
+     description: 'Kurgusal Karakter',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRs12fxtvTS8NgcRkZAeQpUkckU0aJPyH-ej4gRJKl7USY2E_xr',
+        url: 'https://commons.wikimedia.org/wiki/File:James_Bond_1974.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'James Bond 007, Ian Fleming tarafından 1952\'de yaratılan hayalî bir İngiliz ajan karakteridir. Fleming, 1964 yılında ölünceye dek bu karakter etrafında birçok roman ve küçük hikâyeler yazmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/James_Bond',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.007.com/' },
+  resultScore: 645.971069 }
+2017-01-12-12:12:20: Callback for phrase : james bond
+2017-01-12-12:12:20: result of :james bond
+2017-01-12-12:12:20: { '@id': 'kg:/m/0clpml',
+  name: 'James Bond',
+  '@type': [ 'Thing' ],
+  description: 'Kurgusal Karakter',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRs12fxtvTS8NgcRkZAeQpUkckU0aJPyH-ej4gRJKl7USY2E_xr',
+     url: 'https://commons.wikimedia.org/wiki/File:James_Bond_1974.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'James Bond 007, Ian Fleming tarafından 1952\'de yaratılan hayalî bir İngiliz ajan karakteridir. Fleming, 1964 yılında ölünceye dek bu karakter etrafında birçok roman ve küçük hikâyeler yazmıştır.\n',
+     url: 'https://tr.wikipedia.org/wiki/James_Bond',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.007.com/' }
+2017-01-12-12:12:20: https://www.googleapis.com/customsearch/v1?q=James Bond&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:12:20: received_result_no=1
+2017-01-12-12:12:20: finish
+2017-01-12-12:12:20: process is finished
+2017-01-12-12:12:20: -----------------Printed Results------------------------
+2017-01-12-12:12:20: James Bond
+2017-01-12-12:12:29: 2: slide left gesture is called
+2017-01-12-12:12:29: 2: slide left gesture is called
+2017-01-12-12:12:29: 2: slide left gesture is called
+2017-01-12-12:13:20: AftermoveSectionDown section_count is: 1
+2017-01-12-12:13:21: 2: slide left gesture is called
+2017-01-12-12:13:21: section_count is:0
+2017-01-12-12:13:21: https://www.googleapis.com/customsearch/v1?q=James Bond&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:13:21: AftermoveSectionUp section_count is: 0
+2017-01-12-12:13:50: 2: slide right gesture is called
+2017-01-12-12:14:26: 2: slide left gesture is called
+2017-01-12-12:14:29: 2: slide left gesture is called
+2017-01-12-12:14:32: AftermoveSectionUp section_count is: 0
+2017-01-12-12:14:47: 2: slide right gesture is called
+2017-01-12-12:14:48: 2: slide left gesture is called
+2017-01-12-12:14:50: 2: slide left gesture is called
+2017-01-12-12:14:51: 2: slide left gesture is called
+2017-01-12-12:14:52: 2: slide left gesture is called
+2017-01-12-12:14:53: AftermoveSectionDown section_count is: 1
+2017-01-12-12:14:53: AftermoveSectionDown section_count is: 1
+2017-01-12-12:14:54: AftermoveSectionDown section_count is: 1
+2017-01-12-12:14:54: AftermoveSectionDown section_count is: 1
+2017-01-12-12:16:24: AftermoveSectionDown section_count is: 1
+2017-01-12-12:17:05: AftermoveSectionDown section_count is: 1
+2017-01-12-12:18:22: AftermoveSectionDown section_count is: 1
+2017-01-12-12:18:35: section_count is:0
+2017-01-12-12:18:35: https://www.googleapis.com/customsearch/v1?q=James Bond&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:18:35: AftermoveSectionUp section_count is: 0
+2017-01-12-12:18:48: 1: slide right gesture is called
+2017-01-12-12:18:49: message: cümle
+2017-01-12-12:18:49: SearchTerm from OZ:cümle
+2017-01-12-12:18:49: State machine is initialized with input: 
+2017-01-12-12:18:49: cümle
+2017-01-12-12:18:49: Searching for phrase :cümle
+2017-01-12-12:18:49: Response for phrase :cümle
+
+2017-01-12-12:18:49: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 12.433512 } ] }
+2017-01-12-12:18:49: ItemlistElement for phrase : cümle
+2017-01-12-12:18:49: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1q5j7fftw',
+     name: 'Cümle Mühendisi',
+     '@type': [ 'Thing' ],
+     description: 'Sagopa Kajmer\'in şarkısı' },
+  resultScore: 12.433512 }
+2017-01-12-12:18:49: Callback for phrase : cümle
+2017-01-12-12:18:49: result of :cümle
+2017-01-12-12:18:49: { '@id': 'kg:/g/1q5j7fftw',
+  name: 'Cümle Mühendisi',
+  '@type': [ 'Thing' ],
+  description: 'Sagopa Kajmer\'in şarkısı' }
+2017-01-12-12:18:49: https://www.googleapis.com/customsearch/v1?q=Cümle Mühendisi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:18:49: received_result_no=1
+2017-01-12-12:18:49: finish
+2017-01-12-12:18:49: process is finished
+2017-01-12-12:18:49: -----------------Printed Results------------------------
+2017-01-12-12:18:49: Cümle Mühendisi
+2017-01-12-12:18:49: 1: slide left gesture is called
+2017-01-12-12:19:00: AftermoveSectionDown section_count is: 1
+2017-01-12-12:19:02: section_count is:0
+2017-01-12-12:19:02: https://www.googleapis.com/customsearch/v1?q=Cümle Mühendisi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:19:02: AftermoveSectionUp section_count is: 0
+2017-01-12-12:19:02: 2: slide left gesture is called
+2017-01-12-12:19:04: AftermoveSectionDown section_count is: 1
+2017-01-12-12:19:05: AftermoveSectionDown section_count is: 1
+2017-01-12-12:19:12: 1: slide right gesture is called
+2017-01-12-12:19:13: AftermoveSectionDown section_count is: 1
+2017-01-12-12:19:15: section_count is:0
+2017-01-12-12:19:15: https://www.googleapis.com/customsearch/v1?q=Cümle Mühendisi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:19:15: AftermoveSectionUp section_count is: 0
+2017-01-12-12:21:34: 1: slide right gesture is called
+2017-01-12-12:23:23: 2: slide right gesture is called
+2017-01-12-12:23:31: 2: slide left gesture is called
+2017-01-12-12:23:37: 2: slide left gesture is called
+2017-01-12-12:23:59: AftermoveSectionDown section_count is: 1
+2017-01-12-12:23:59: 2: slide left gesture is called
+2017-01-12-12:25:35: 2: slide right gesture is called
+2017-01-12-12:26:03: section_count is:0
+2017-01-12-12:26:03: https://www.googleapis.com/customsearch/v1?q=Cümle Mühendisi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:26:03: AftermoveSectionUp section_count is: 0
+2017-01-12-12:28:26: message: santa
+2017-01-12-12:28:26: SearchTerm from OZ:santa
+2017-01-12-12:28:26: State machine is initialized with input: 
+2017-01-12-12:28:26: santa
+2017-01-12-12:28:26: Searching for phrase :santa
+2017-01-12-12:28:26: Response for phrase :santa
+
+2017-01-12-12:28:26: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 52.751694 } ] }
+2017-01-12-12:28:26: ItemlistElement for phrase : santa
+2017-01-12-12:28:26: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01n7q',
+     name: 'Kaliforniya',
+     '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'ABD Eyaleti',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRk6jKWJGUmwM80TYopasuYsJlqbwD_QwH6YuVwhy5YC4TEK8Xc',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_California.svg' },
+     detailedDescription: 
+      { articleBody: 'Kaliforniya, ABD\'nin batı yakasında yer alan ve ülkenin en kalabalık eyaletidir. 2004 yılı nüfus sayımlarına göre, 35.893.818 kişilik nüfusa sahip olan Kaliforniya\'yı, 20.851.820 kişi ile Teksas, 18.976.457 kişi ile New York ve 15.982.378 kişi ile Florida izler.\n',
+        url: 'https://tr.wikipedia.org/wiki/Kaliforniya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ca.gov/' },
+  resultScore: 52.751694 }
+2017-01-12-12:28:26: Callback for phrase : santa
+2017-01-12-12:28:26: result of :santa
+2017-01-12-12:28:26: { '@id': 'kg:/m/01n7q',
+  name: 'Kaliforniya',
+  '@type': [ 'AdministrativeArea', 'Place', 'Thing' ],
+  description: 'ABD Eyaleti',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRk6jKWJGUmwM80TYopasuYsJlqbwD_QwH6YuVwhy5YC4TEK8Xc',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_California.svg' },
+  detailedDescription: 
+   { articleBody: 'Kaliforniya, ABD\'nin batı yakasında yer alan ve ülkenin en kalabalık eyaletidir. 2004 yılı nüfus sayımlarına göre, 35.893.818 kişilik nüfusa sahip olan Kaliforniya\'yı, 20.851.820 kişi ile Teksas, 18.976.457 kişi ile New York ve 15.982.378 kişi ile Florida izler.\n',
+     url: 'https://tr.wikipedia.org/wiki/Kaliforniya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ca.gov/' }
+2017-01-12-12:28:26: https://www.googleapis.com/customsearch/v1?q=Kaliforniya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:28:26: received_result_no=1
+2017-01-12-12:28:26: finish
+2017-01-12-12:28:26: process is finished
+2017-01-12-12:28:26: -----------------Printed Results------------------------
+2017-01-12-12:28:26: Kaliforniya
+2017-01-12-12:28:27: AftermoveSectionDown section_count is: 1
+2017-01-12-12:28:28: 2: slide left gesture is called
+2017-01-12-12:28:32: message: santa bar
+2017-01-12-12:28:32: SearchTerm from OZ:santa bar
+2017-01-12-12:28:32: State machine is initialized with input: 
+2017-01-12-12:28:32: santa bar
+2017-01-12-12:28:32: Searching for phrase :santa bar
+2017-01-12-12:28:33: Response for phrase :santa bar
+
+2017-01-12-12:28:33: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 13.100473 } ] }
+2017-01-12-12:28:33: ItemlistElement for phrase : santa bar
+2017-01-12-12:28:33: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05lg4t1',
+     '@type': [ 'Thing' ],
+     description: 'André Rieu\'nun şarkısı' },
+  resultScore: 13.100473 }
+2017-01-12-12:28:33: Callback for phrase : santa bar
+2017-01-12-12:28:33: result of :santa bar
+2017-01-12-12:28:33: { '@id': 'kg:/g/1s05lg4t1',
+  '@type': [ 'Thing' ],
+  description: 'André Rieu\'nun şarkısı' }
+2017-01-12-12:28:33: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:28:33: received_result_no=1
+2017-01-12-12:28:33: finish
+2017-01-12-12:28:33: process is finished
+2017-01-12-12:28:33: -----------------Printed Results------------------------
+2017-01-12-12:28:33: santa bar
+2017-01-12-12:30:30: AftermoveSectionDown section_count is: 1
+2017-01-12-12:32:49: 1: slide left gesture is called
+2017-01-12-12:32:49: AftermoveSectionDown section_count is: 1
+2017-01-12-12:33:29: 2: slide left gesture is called
+2017-01-12-12:33:42: 2: slide right gesture is called
+2017-01-12-12:33:44: section_count is:0
+2017-01-12-12:33:44: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:33:44: AftermoveSectionUp section_count is: 0
+2017-01-12-12:34:07: 2: slide left gesture is called
+2017-01-12-12:34:14: 2: slide left gesture is called
+2017-01-12-12:35:12: AftermoveSectionUp section_count is: 0
+2017-01-12-12:35:12: 1: slide left gesture is called
+2017-01-12-12:35:42: 2: slide left gesture is called
+2017-01-12-12:35:46: 1: slide right gesture is called
+2017-01-12-12:36:32: 2: slide right gesture is called
+2017-01-12-12:36:41: AftermoveSectionUp section_count is: 0
+2017-01-12-12:36:44: 2: slide left gesture is called
+2017-01-12-12:36:45: 2: slide right gesture is called
+2017-01-12-12:36:47: 2: slide right gesture is called
+2017-01-12-12:38:27: 2: slide left gesture is called
+2017-01-12-12:38:33: AftermoveSectionUp section_count is: 0
+2017-01-12-12:39:58: AftermoveSectionDown section_count is: 1
+2017-01-12-12:40:06: section_count is:0
+2017-01-12-12:40:06: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:40:06: AftermoveSectionUp section_count is: 0
+2017-01-12-12:40:11: AftermoveSectionUp section_count is: 0
+2017-01-12-12:40:28: 1: slide right gesture is called
+2017-01-12-12:40:28: AftermoveSectionDown section_count is: 1
+2017-01-12-12:40:40: section_count is:0
+2017-01-12-12:40:40: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:40:40: AftermoveSectionUp section_count is: 0
+2017-01-12-12:40:41: 1: slide left gesture is called
+2017-01-12-12:40:50: AftermoveSectionUp section_count is: 0
+2017-01-12-12:41:54: 2: slide left gesture is called
+2017-01-12-12:41:54: 2: slide left gesture is called
+2017-01-12-12:41:55: 2: slide left gesture is called
+2017-01-12-12:42:01: AftermoveSectionDown section_count is: 1
+2017-01-12-12:42:09: AftermoveSectionDown section_count is: 1
+2017-01-12-12:43:12: section_count is:0
+2017-01-12-12:43:12: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:43:12: AftermoveSectionUp section_count is: 0
+2017-01-12-12:46:01: AftermoveSectionUp section_count is: 0
+2017-01-12-12:46:02: 1: slide left gesture is called
+2017-01-12-12:46:25: AftermoveSectionDown section_count is: 1
+2017-01-12-12:46:25: 2: slide right gesture is called
+2017-01-12-12:46:28: 2: slide right gesture is called
+2017-01-12-12:46:29: AftermoveSectionDown section_count is: 1
+2017-01-12-12:46:29: 2: slide left gesture is called
+2017-01-12-12:46:47: 2: slide right gesture is called
+2017-01-12-12:46:49: section_count is:0
+2017-01-12-12:46:49: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:46:49: AftermoveSectionUp section_count is: 0
+2017-01-12-12:46:49: AftermoveSectionDown section_count is: 1
+2017-01-12-12:46:49: AftermoveSectionDown section_count is: 1
+2017-01-12-12:46:50: section_count is:0
+2017-01-12-12:46:50: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:46:50: AftermoveSectionUp section_count is: 0
+2017-01-12-12:46:51: AftermoveSectionDown section_count is: 1
+2017-01-12-12:46:52: 2: slide left gesture is called
+2017-01-12-12:46:59: AftermoveSectionDown section_count is: 1
+2017-01-12-12:47:01: 2: slide right gesture is called
+2017-01-12-12:47:34: section_count is:0
+2017-01-12-12:47:34: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:47:34: AftermoveSectionUp section_count is: 0
+2017-01-12-12:47:35: 2: slide right gesture is called
+2017-01-12-12:47:46: 1: slide right gesture is called
+2017-01-12-12:47:47: 2: slide right gesture is called
+2017-01-12-12:48:06: 1: slide right gesture is called
+2017-01-12-12:48:09: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:10: 2: slide left gesture is called
+2017-01-12-12:48:10: 2: slide left gesture is called
+2017-01-12-12:48:11: 1: slide left gesture is called
+2017-01-12-12:48:11: 2: slide right gesture is called
+2017-01-12-12:48:11: 2: slide left gesture is called
+2017-01-12-12:48:16: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:16: section_count is:0
+2017-01-12-12:48:16: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:48:16: AftermoveSectionUp section_count is: 0
+2017-01-12-12:48:17: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:17: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:18: section_count is:0
+2017-01-12-12:48:18: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:48:18: AftermoveSectionUp section_count is: 0
+2017-01-12-12:48:19: AftermoveSectionUp section_count is: 0
+2017-01-12-12:48:22: 1: slide left gesture is called
+2017-01-12-12:48:22: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:42: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:43: AftermoveSectionDown section_count is: 1
+2017-01-12-12:48:49: section_count is:0
+2017-01-12-12:48:49: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:48:49: AftermoveSectionUp section_count is: 0
+2017-01-12-12:48:51: AftermoveSectionUp section_count is: 0
+2017-01-12-12:49:06: 1: slide right gesture is called
+2017-01-12-12:49:06: AftermoveSectionDown section_count is: 1
+2017-01-12-12:49:06: section_count is:0
+2017-01-12-12:49:06: https://www.googleapis.com/customsearch/v1?q=santa bar&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-12:49:06: AftermoveSectionUp section_count is: 0

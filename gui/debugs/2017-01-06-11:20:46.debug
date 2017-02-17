@@ -1,0 +1,313 @@
+2017-01-06-11:22:03: 2: slide right gesture is called
+2017-01-06-11:22:22: AftermoveSectionDown section_count is: 0
+2017-01-06-11:22:39: AftermoveSectionUp section_count is: 0
+2017-01-06-11:22:39: 1: slide right gesture is called
+2017-01-06-11:22:57: 1: slide right gesture is called
+2017-01-06-11:22:59: 1: slide left gesture is called
+2017-01-06-11:22:59: 1: slide right gesture is called
+2017-01-06-11:23:43: message: sanfransizko
+2017-01-06-11:23:43: SearchTerm from OZ:sanfransizko
+2017-01-06-11:23:43: State machine is initialized with input: 
+2017-01-06-11:23:43: sanfransizko
+2017-01-06-11:23:43: Searching for phrase :sanfransizko
+2017-01-06-11:23:44: Response for phrase :sanfransizko
+
+2017-01-06-11:23:44: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-06-11:23:44: ItemlistElement for phrase : sanfransizko
+2017-01-06-11:23:44: undefined
+2017-01-06-11:23:44: Failed callback for phrase : sanfransizko
+
+2017-01-06-11:23:44: nothing found for :sanfransizko
+2017-01-06-11:23:44: finish
+2017-01-06-11:23:44: Nothing found
+2017-01-06-11:23:44: -----------------Printed Results------------------------
+2017-01-06-11:24:03: message: 
+2017-01-06-11:24:03: SearchTerm from OZ:
+2017-01-06-11:24:53: message: nereye
+2017-01-06-11:24:53: SearchTerm from OZ:nereye
+2017-01-06-11:24:53: State machine is initialized with input: 
+2017-01-06-11:24:53: nereye
+2017-01-06-11:24:53: Searching for phrase :nereye
+2017-01-06-11:24:54: Response for phrase :nereye
+
+2017-01-06-11:24:54: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 17.802107 } ] }
+2017-01-06-11:24:54: ItemlistElement for phrase : nereye
+2017-01-06-11:24:54: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v4wq',
+     name: 'Quo Vadis? Nereye Gidiyorsun?',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Henryk Sienkiewicz tarafından yazılan roman',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRQdX0e9IL4b5RTcUUJm3fPQTmNgau_bflCWNj6NaXVJSAinLpo',
+        url: 'https://commons.wikimedia.org/wiki/File:Quo_Vadis_1897_Edition.jpg' } },
+  resultScore: 17.802107 }
+2017-01-06-11:24:54: Callback for phrase : nereye
+2017-01-06-11:24:54: result of :nereye
+2017-01-06-11:24:54: { '@id': 'kg:/m/01v4wq',
+  name: 'Quo Vadis? Nereye Gidiyorsun?',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Henryk Sienkiewicz tarafından yazılan roman',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRQdX0e9IL4b5RTcUUJm3fPQTmNgau_bflCWNj6NaXVJSAinLpo',
+     url: 'https://commons.wikimedia.org/wiki/File:Quo_Vadis_1897_Edition.jpg' } }
+2017-01-06-11:24:54: https://www.googleapis.com/customsearch/v1?q=Quo Vadis? Nereye Gidiyorsun?&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:24:54: received_result_no=1
+2017-01-06-11:24:54: finish
+2017-01-06-11:24:54: process is finished
+2017-01-06-11:24:54: -----------------Printed Results------------------------
+2017-01-06-11:24:54: Quo Vadis? Nereye Gidiyorsun?
+2017-01-06-11:30:15: 2: slide right gesture is called
+2017-01-06-11:31:02: message: amerika
+2017-01-06-11:31:02: SearchTerm from OZ:amerika
+2017-01-06-11:31:02: State machine is initialized with input: 
+2017-01-06-11:31:02: amerika
+2017-01-06-11:31:02: Searching for phrase :amerika
+2017-01-06-11:31:02: Response for phrase :amerika
+
+2017-01-06-11:31:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 176.422928 } ] }
+2017-01-06-11:31:02: ItemlistElement for phrase : amerika
+2017-01-06-11:31:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07c5l',
+     name: 'Amerika',
+     '@type': [ 'Continent', 'Thing', 'Place' ],
+     description: 'Bölge',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSlEWZ-dd7TppuHcpOsmC623Y6SwGhUc9XilgStgIbmuAvh5Jiz',
+        url: 'https://commons.wikimedia.org/wiki/File:BlankMap-Americas.svg' },
+     detailedDescription: 
+      { articleBody: 'Amerika, Batı Yarımküre\'de, Yeni Dünya olarak adlandırılan bölgede, Kuzey Amerika, Orta Amerika, Güney Amerika ve bunlara bağlı adalardan meydana gelen kıtalar ve adalar topluluğu. ',
+        url: 'https://tr.wikipedia.org/wiki/Amerika',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 176.422928 }
+2017-01-06-11:31:02: Callback for phrase : amerika
+2017-01-06-11:31:02: result of :amerika
+2017-01-06-11:31:02: { '@id': 'kg:/m/07c5l',
+  name: 'Amerika',
+  '@type': [ 'Continent', 'Thing', 'Place' ],
+  description: 'Bölge',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcSlEWZ-dd7TppuHcpOsmC623Y6SwGhUc9XilgStgIbmuAvh5Jiz',
+     url: 'https://commons.wikimedia.org/wiki/File:BlankMap-Americas.svg' },
+  detailedDescription: 
+   { articleBody: 'Amerika, Batı Yarımküre\'de, Yeni Dünya olarak adlandırılan bölgede, Kuzey Amerika, Orta Amerika, Güney Amerika ve bunlara bağlı adalardan meydana gelen kıtalar ve adalar topluluğu. ',
+     url: 'https://tr.wikipedia.org/wiki/Amerika',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-06-11:31:02: https://www.googleapis.com/customsearch/v1?q=Amerika&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:31:02: received_result_no=1
+2017-01-06-11:31:02: finish
+2017-01-06-11:31:02: process is finished
+2017-01-06-11:31:02: -----------------Printed Results------------------------
+2017-01-06-11:31:02: Amerika
+2017-01-06-11:33:47: message: scooter
+2017-01-06-11:33:47: SearchTerm from OZ:scooter
+2017-01-06-11:33:47: State machine is initialized with input: 
+2017-01-06-11:33:47: scooter
+2017-01-06-11:33:47: Searching for phrase :scooter
+2017-01-06-11:33:48: Response for phrase :scooter
+
+2017-01-06-11:33:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 47.102737 } ] }
+2017-01-06-11:33:48: ItemlistElement for phrase : scooter
+2017-01-06-11:33:48: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02qn7h',
+     '@type': [ 'MusicGroup', 'Thing' ],
+     description: 'Müzik Grubu',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcS8VjEzuFllL486XRDo3L0GCq0Z1cHnVqqqlcpai0mlu2MJ-Chk',
+        url: 'https://commons.wikimedia.org/wiki/File:Scooter-auf-dem-Viva-Comet-2010-in-Berlin.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     url: 'http://scootertechno.com/' },
+  resultScore: 47.102737 }
+2017-01-06-11:33:48: Callback for phrase : scooter
+2017-01-06-11:33:48: result of :scooter
+2017-01-06-11:33:48: { '@id': 'kg:/m/02qn7h',
+  '@type': [ 'MusicGroup', 'Thing' ],
+  description: 'Müzik Grubu',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcS8VjEzuFllL486XRDo3L0GCq0Z1cHnVqqqlcpai0mlu2MJ-Chk',
+     url: 'https://commons.wikimedia.org/wiki/File:Scooter-auf-dem-Viva-Comet-2010-in-Berlin.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  url: 'http://scootertechno.com/' }
+2017-01-06-11:33:48: https://www.googleapis.com/customsearch/v1?q=scooter&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:33:48: received_result_no=1
+2017-01-06-11:33:48: finish
+2017-01-06-11:33:48: process is finished
+2017-01-06-11:33:48: -----------------Printed Results------------------------
+2017-01-06-11:33:48: scooter
+2017-01-06-11:38:49: message: çek cumhuriyeti
+2017-01-06-11:38:49: SearchTerm from OZ:çek cumhuriyeti
+2017-01-06-11:38:49: State machine is initialized with input: 
+2017-01-06-11:38:49: çek cumhuriyeti
+2017-01-06-11:38:49: Searching for phrase :çek cumhuriyeti
+2017-01-06-11:38:49: Response for phrase :çek cumhuriyeti
+
+2017-01-06-11:38:49: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 1283.373779 } ] }
+2017-01-06-11:38:49: ItemlistElement for phrase : çek cumhuriyeti
+2017-01-06-11:38:49: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01mjq',
+     name: 'Çek Cumhuriyeti',
+     '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTStSaLKHQpELhOdV1U8TNSHxVYFRzVbb68fy0dhwhcQv__YBM1',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg' },
+     detailedDescription: 
+      { articleBody: 'Çekya ya da resmî adıyla Çek Cumhuriyeti, Orta Avrupa\'da bir ülkedir. Kuzeyinde Polonya, batı ve kuzeybatısında Almanya, güneyinde Avusturya ve doğusunda Slovakya ile komşudur.\n',
+        url: 'https://tr.wikipedia.org/wiki/%C3%87ek_Cumhuriyeti',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.czech.cz/en/' },
+  resultScore: 1283.373779 }
+2017-01-06-11:38:49: Callback for phrase : çek cumhuriyeti
+2017-01-06-11:38:49: result of :çek cumhuriyeti
+2017-01-06-11:38:49: { '@id': 'kg:/m/01mjq',
+  name: 'Çek Cumhuriyeti',
+  '@type': [ 'Country', 'Place', 'AdministrativeArea', 'Thing' ],
+  description: 'Avrupa\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTStSaLKHQpELhOdV1U8TNSHxVYFRzVbb68fy0dhwhcQv__YBM1',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg' },
+  detailedDescription: 
+   { articleBody: 'Çekya ya da resmî adıyla Çek Cumhuriyeti, Orta Avrupa\'da bir ülkedir. Kuzeyinde Polonya, batı ve kuzeybatısında Almanya, güneyinde Avusturya ve doğusunda Slovakya ile komşudur.\n',
+     url: 'https://tr.wikipedia.org/wiki/%C3%87ek_Cumhuriyeti',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.czech.cz/en/' }
+2017-01-06-11:38:49: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:38:49: received_result_no=1
+2017-01-06-11:38:49: finish
+2017-01-06-11:38:49: process is finished
+2017-01-06-11:38:49: -----------------Printed Results------------------------
+2017-01-06-11:38:49: Çek Cumhuriyeti
+2017-01-06-11:40:11: 2: slide right gesture is called
+2017-01-06-11:40:15: 2: slide left gesture is called
+2017-01-06-11:40:20: 2: slide right gesture is called
+2017-01-06-11:40:20: 2: slide left gesture is called
+2017-01-06-11:40:22: AftermoveSectionUp section_count is: 0
+2017-01-06-11:40:29: AftermoveSectionDown section_count is: 1
+2017-01-06-11:40:30: AftermoveSectionDown section_count is: 1
+2017-01-06-11:40:30: section_count is:0
+2017-01-06-11:40:30: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:40:30: AftermoveSectionUp section_count is: 0
+2017-01-06-11:40:31: AftermoveSectionDown section_count is: 1
+2017-01-06-11:41:31: section_count is:0
+2017-01-06-11:41:31: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:41:31: AftermoveSectionUp section_count is: 0
+2017-01-06-11:41:33: 2: slide left gesture is called
+2017-01-06-11:42:01: AftermoveSectionUp section_count is: 0
+2017-01-06-11:42:04: AftermoveSectionUp section_count is: 0
+2017-01-06-11:42:05: AftermoveSectionUp section_count is: 0
+2017-01-06-11:42:05: AftermoveSectionDown section_count is: 1
+2017-01-06-11:43:20: 2: slide right gesture is called
+2017-01-06-11:43:22: AftermoveSectionDown section_count is: 1
+2017-01-06-11:43:22: AftermoveSectionDown section_count is: 1
+2017-01-06-11:44:36: 1: slide left gesture is called
+2017-01-06-11:44:37: 1: slide right gesture is called
+2017-01-06-11:46:24: AftermoveSectionDown section_count is: 1
+2017-01-06-11:48:54: 1: slide right gesture is called
+2017-01-06-11:48:55: 2: slide right gesture is called
+2017-01-06-11:48:57: 2: slide right gesture is called
+2017-01-06-11:48:57: 2: slide right gesture is called
+2017-01-06-11:48:57: section_count is:0
+2017-01-06-11:48:57: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:48:57: AftermoveSectionUp section_count is: 0
+2017-01-06-11:48:58: 2: slide right gesture is called
+2017-01-06-11:48:59: 2: slide right gesture is called
+2017-01-06-11:49:00: AftermoveSectionUp section_count is: 0
+2017-01-06-11:51:20: AftermoveSectionDown section_count is: 1
+2017-01-06-11:51:22: section_count is:0
+2017-01-06-11:51:22: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:51:22: AftermoveSectionUp section_count is: 0
+2017-01-06-11:55:17: AftermoveSectionUp section_count is: 0
+2017-01-06-11:55:19: 2: slide left gesture is called
+2017-01-06-11:55:23: 1: slide right gesture is called
+2017-01-06-11:55:24: AftermoveSectionUp section_count is: 0
+2017-01-06-11:55:24: 1: slide right gesture is called
+2017-01-06-11:55:25: AftermoveSectionDown section_count is: 1
+2017-01-06-11:55:25: AftermoveSectionDown section_count is: 1
+2017-01-06-11:56:28: AftermoveSectionDown section_count is: 1
+2017-01-06-11:56:28: section_count is:0
+2017-01-06-11:56:28: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:56:28: AftermoveSectionUp section_count is: 0
+2017-01-06-11:56:36: 2: slide left gesture is called
+2017-01-06-11:56:47: 2: slide right gesture is called
+2017-01-06-11:56:47: AftermoveSectionUp section_count is: 0
+2017-01-06-11:56:49: 2: slide right gesture is called
+2017-01-06-11:56:51: 2: slide left gesture is called
+2017-01-06-11:56:53: AftermoveSectionUp section_count is: 0
+2017-01-06-11:56:55: AftermoveSectionDown section_count is: 1
+2017-01-06-11:56:55: section_count is:0
+2017-01-06-11:56:55: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:56:55: AftermoveSectionUp section_count is: 0
+2017-01-06-11:57:00: AftermoveSectionDown section_count is: 1
+2017-01-06-11:57:03: 1: slide right gesture is called
+2017-01-06-11:57:04: section_count is:0
+2017-01-06-11:57:04: https://www.googleapis.com/customsearch/v1?q=Çek Cumhuriyeti&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-06-11:57:04: AftermoveSectionUp section_count is: 0
+2017-01-06-11:57:07: AftermoveSectionDown section_count is: 1
+2017-01-06-11:57:28: 2: slide left gesture is called
+2017-01-06-11:57:30: 2: slide left gesture is called
+2017-01-06-11:57:36: 2: slide left gesture is called
+2017-01-06-11:57:44: 1: slide right gesture is called
+2017-01-06-11:57:50: 1: slide right gesture is called
+2017-01-06-12:08:41: 1: slide left gesture is called
+2017-01-06-12:10:06: 1: slide left gesture is called
+2017-01-06-12:10:19: 1: slide left gesture is called
+2017-01-06-12:10:35: 2: slide right gesture is called
+2017-01-06-12:10:36: 2: slide right gesture is called
+2017-01-06-12:10:36: AftermoveSectionDown section_count is: 1
+2017-01-06-12:10:38: 2: slide right gesture is called
+2017-01-06-12:10:39: 2: slide right gesture is called
+                                                                                                                                                                                                                                                                                                                                                                                                                                           

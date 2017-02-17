@@ -1,0 +1,530 @@
+2017-01-13-08:17:30: AftermoveSectionDown section_count is: 0
+2017-01-13-08:17:30: 2: slide right gesture is called
+2017-01-13-08:17:31: 1: slide left gesture is called
+2017-01-13-08:18:01: 2: slide left gesture is called
+2017-01-13-08:18:08: message: asistan
+2017-01-13-08:18:08: SearchTerm from OZ:asistan
+2017-01-13-08:18:08: State machine is initialized with input: 
+2017-01-13-08:18:08: asistan
+2017-01-13-08:18:08: Searching for phrase :asistan
+2017-01-13-08:18:08: Response for phrase :asistan
+
+2017-01-13-08:18:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.299149 } ] }
+2017-01-13-08:18:09: ItemlistElement for phrase : asistan
+2017-01-13-08:18:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11bvx8w245',
+     name: 'Asistan (film)',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2015 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Asistan (film) Fransa-Belçika-Lüksemburg ortaklığı 2015 yapımı drama-gerilim tarzında filmdir. Filmin yönetmenleri Christophe Ali ve Nicolas Bonilauri olup başrollerde Nathalie Baye ve Malik Zidi rol almaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Asistan_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 19.299149 }
+2017-01-13-08:18:09: Callback for phrase : asistan
+2017-01-13-08:18:09: result of :asistan
+2017-01-13-08:18:09: { '@id': 'kg:/g/11bvx8w245',
+  name: 'Asistan (film)',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2015 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Asistan (film) Fransa-Belçika-Lüksemburg ortaklığı 2015 yapımı drama-gerilim tarzında filmdir. Filmin yönetmenleri Christophe Ali ve Nicolas Bonilauri olup başrollerde Nathalie Baye ve Malik Zidi rol almaktadır.',
+     url: 'https://tr.wikipedia.org/wiki/Asistan_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-13-08:18:09: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:18:09: received_result_no=1
+2017-01-13-08:18:09: finish
+2017-01-13-08:18:09: process is finished
+2017-01-13-08:18:09: -----------------Printed Results------------------------
+2017-01-13-08:18:09: Asistan (film)
+2017-01-13-08:18:11: AftermoveSectionDown section_count is: 1
+2017-01-13-08:18:26: message: asistan
+2017-01-13-08:18:26: SearchTerm from OZ:asistan
+2017-01-13-08:18:26: State machine is initialized with input: 
+2017-01-13-08:18:26: asistan
+2017-01-13-08:18:26: Searching for phrase :asistan
+2017-01-13-08:18:27: Response for phrase :asistan
+
+2017-01-13-08:18:27: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.299149 } ] }
+2017-01-13-08:18:27: ItemlistElement for phrase : asistan
+2017-01-13-08:18:27: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11bvx8w245',
+     name: 'Asistan (film)',
+     '@type': [ 'Movie', 'Thing' ],
+     description: '2015 yapımı film',
+     detailedDescription: 
+      { articleBody: 'Asistan (film) Fransa-Belçika-Lüksemburg ortaklığı 2015 yapımı drama-gerilim tarzında filmdir. Filmin yönetmenleri Christophe Ali ve Nicolas Bonilauri olup başrollerde Nathalie Baye ve Malik Zidi rol almaktadır.',
+        url: 'https://tr.wikipedia.org/wiki/Asistan_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 19.299149 }
+2017-01-13-08:18:27: Callback for phrase : asistan
+2017-01-13-08:18:27: result of :asistan
+2017-01-13-08:18:27: { '@id': 'kg:/g/11bvx8w245',
+  name: 'Asistan (film)',
+  '@type': [ 'Movie', 'Thing' ],
+  description: '2015 yapımı film',
+  detailedDescription: 
+   { articleBody: 'Asistan (film) Fransa-Belçika-Lüksemburg ortaklığı 2015 yapımı drama-gerilim tarzında filmdir. Filmin yönetmenleri Christophe Ali ve Nicolas Bonilauri olup başrollerde Nathalie Baye ve Malik Zidi rol almaktadır.',
+     url: 'https://tr.wikipedia.org/wiki/Asistan_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-13-08:18:27: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:18:27: received_result_no=1
+2017-01-13-08:18:27: finish
+2017-01-13-08:18:27: process is finished
+2017-01-13-08:18:27: -----------------Printed Results------------------------
+2017-01-13-08:18:27: Asistan (film)
+2017-01-13-08:18:48: 2: slide right gesture is called
+2017-01-13-08:18:48: 2: slide right gesture is called
+2017-01-13-08:18:52: 2: slide right gesture is called
+2017-01-13-08:18:52: 2: slide right gesture is called
+2017-01-13-08:18:54: 2: slide right gesture is called
+2017-01-13-08:18:54: 2: slide right gesture is called
+2017-01-13-08:18:54: 2: slide right gesture is called
+2017-01-13-08:18:55: 2: slide right gesture is called
+2017-01-13-08:18:58: 1: slide right gesture is called
+2017-01-13-08:19:04: 2: slide right gesture is called
+2017-01-13-08:19:04: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:05: section_count is:0
+2017-01-13-08:19:05: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:19:05: AftermoveSectionUp section_count is: 0
+2017-01-13-08:19:05: AftermoveSectionUp section_count is: 0
+2017-01-13-08:19:07: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:07: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:07: section_count is:0
+2017-01-13-08:19:07: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:19:07: AftermoveSectionUp section_count is: 0
+2017-01-13-08:19:07: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:08: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:08: section_count is:0
+2017-01-13-08:19:08: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:19:08: AftermoveSectionUp section_count is: 0
+2017-01-13-08:19:08: 2: slide left gesture is called
+2017-01-13-08:19:11: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:12: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:23: 2: slide left gesture is called
+2017-01-13-08:19:23: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:25: 2: slide right gesture is called
+2017-01-13-08:19:25: 2: slide right gesture is called
+2017-01-13-08:19:27: 2: slide right gesture is called
+2017-01-13-08:19:28: 2: slide right gesture is called
+2017-01-13-08:19:28: 2: slide right gesture is called
+2017-01-13-08:19:30: 2: slide right gesture is called
+2017-01-13-08:19:30: 1: slide right gesture is called
+2017-01-13-08:19:30: section_count is:0
+2017-01-13-08:19:30: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:19:30: AftermoveSectionUp section_count is: 0
+2017-01-13-08:19:31: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:33: 2: slide right gesture is called
+2017-01-13-08:19:34: 2: slide left gesture is called
+2017-01-13-08:19:34: 2: slide left gesture is called
+2017-01-13-08:19:36: 2: slide right gesture is called
+2017-01-13-08:19:36: 2: slide right gesture is called
+2017-01-13-08:19:38: 2: slide right gesture is called
+2017-01-13-08:19:39: 2: slide left gesture is called
+2017-01-13-08:19:42: 2: slide right gesture is called
+2017-01-13-08:19:44: 2: slide right gesture is called
+2017-01-13-08:19:44: section_count is:0
+2017-01-13-08:19:44: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:19:44: AftermoveSectionUp section_count is: 0
+2017-01-13-08:19:47: AftermoveSectionDown section_count is: 1
+2017-01-13-08:19:48: 2: slide right gesture is called
+2017-01-13-08:21:24: 2: slide left gesture is called
+2017-01-13-08:21:26: 2: slide right gesture is called
+2017-01-13-08:21:26: 2: slide right gesture is called
+2017-01-13-08:21:26: 2: slide right gesture is called
+2017-01-13-08:21:27: 2: slide left gesture is called
+2017-01-13-08:21:28: 2: slide left gesture is called
+2017-01-13-08:21:29: 2: slide left gesture is called
+2017-01-13-08:21:29: 2: slide left gesture is called
+2017-01-13-08:21:31: 2: slide left gesture is called
+2017-01-13-08:21:31: AftermoveSectionDown section_count is: 1
+2017-01-13-08:21:32: 2: slide right gesture is called
+2017-01-13-08:21:32: 2: slide right gesture is called
+2017-01-13-08:21:33: AftermoveSectionDown section_count is: 1
+2017-01-13-08:21:33: AftermoveSectionDown section_count is: 1
+2017-01-13-08:21:34: AftermoveSectionDown section_count is: 1
+2017-01-13-08:21:34: AftermoveSectionDown section_count is: 1
+2017-01-13-08:21:41: section_count is:0
+2017-01-13-08:21:41: https://www.googleapis.com/customsearch/v1?q=Asistan (film)&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:21:41: AftermoveSectionUp section_count is: 0
+2017-01-13-08:23:55: 2: slide right gesture is called
+2017-01-13-08:30:52: message: bardak
+2017-01-13-08:30:52: SearchTerm from OZ:bardak
+2017-01-13-08:30:52: State machine is initialized with input: 
+2017-01-13-08:30:52: bardak
+2017-01-13-08:30:52: Searching for phrase :bardak
+2017-01-13-08:30:52: Response for phrase :bardak
+
+2017-01-13-08:30:52: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 21.810244 } ] }
+2017-01-13-08:30:52: ItemlistElement for phrase : bardak
+2017-01-13-08:30:52: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07mtky',
+     name: 'Bardak Menekşesi',
+     '@type': [ 'Thing' ],
+     description: 'Bitki',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRvHLwvtcz3HG_dBVveV-vwKqhdoeZKaM_efhXndRkd1-HhyCyV',
+        url: 'https://commons.wikimedia.org/wiki/File:Gloxinia.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' } },
+  resultScore: 21.810244 }
+2017-01-13-08:30:52: Callback for phrase : bardak
+2017-01-13-08:30:52: result of :bardak
+2017-01-13-08:30:52: { '@id': 'kg:/m/07mtky',
+  name: 'Bardak Menekşesi',
+  '@type': [ 'Thing' ],
+  description: 'Bitki',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRvHLwvtcz3HG_dBVveV-vwKqhdoeZKaM_efhXndRkd1-HhyCyV',
+     url: 'https://commons.wikimedia.org/wiki/File:Gloxinia.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' } }
+2017-01-13-08:30:52: https://www.googleapis.com/customsearch/v1?q=Bardak Menekşesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:30:52: received_result_no=1
+2017-01-13-08:30:52: finish
+2017-01-13-08:30:52: process is finished
+2017-01-13-08:30:52: -----------------Printed Results------------------------
+2017-01-13-08:30:52: Bardak Menekşesi
+2017-01-13-08:31:00: 2: slide right gesture is called
+2017-01-13-08:31:05: 2: slide right gesture is called
+2017-01-13-08:31:10: AftermoveSectionUp section_count is: 0
+2017-01-13-08:31:21: 2: slide right gesture is called
+2017-01-13-08:31:21: 2: slide right gesture is called
+2017-01-13-08:31:23: message: amsterdam üniversitesi
+2017-01-13-08:31:23: SearchTerm from OZ:amsterdam üniversitesi
+2017-01-13-08:31:23: State machine is initialized with input: 
+2017-01-13-08:31:23: amsterdam üniversitesi
+2017-01-13-08:31:23: Searching for phrase :amsterdam üniversitesi
+2017-01-13-08:31:23: Response for phrase :amsterdam üniversitesi
+
+2017-01-13-08:31:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 528.951843 } ] }
+2017-01-13-08:31:23: ItemlistElement for phrase : amsterdam üniversitesi
+2017-01-13-08:31:23: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02nq10',
+     name: 'Amsterdam Üniversitesi',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'Place',
+        'Thing',
+        'Organization',
+        'EducationalOrganization' ],
+     description: 'Amsterdam, Hollanda\'da bir üniversite',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQpq987tCc-ptSqXAHtGvdVviLfAgezj_BzyS35tY0Ub5-XY9xT',
+        url: 'https://en.wikipedia.org/wiki/University_of_Amsterdam' },
+     detailedDescription: 
+      { articleBody: 'Amsterdam Üniversitesi Hollanda\'nın başkenti Amsterdam\'da bulunan bir araştırma üniversitesidir.\n28.000\'den fazla öğrencisi, 4.000 çalışanı ve yaklaşık yarım milyar avroluk bütçesiyle Avrupa\'nın önemli üniversitelerinden biridir. ',
+        url: 'https://tr.wikipedia.org/wiki/Amsterdam_%C3%9Cniversitesi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.uva.nl/' },
+  resultScore: 528.951843 }
+2017-01-13-08:31:23: Callback for phrase : amsterdam üniversitesi
+2017-01-13-08:31:23: result of :amsterdam üniversitesi
+2017-01-13-08:31:23: { '@id': 'kg:/m/02nq10',
+  name: 'Amsterdam Üniversitesi',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'Place',
+     'Thing',
+     'Organization',
+     'EducationalOrganization' ],
+  description: 'Amsterdam, Hollanda\'da bir üniversite',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcQpq987tCc-ptSqXAHtGvdVviLfAgezj_BzyS35tY0Ub5-XY9xT',
+     url: 'https://en.wikipedia.org/wiki/University_of_Amsterdam' },
+  detailedDescription: 
+   { articleBody: 'Amsterdam Üniversitesi Hollanda\'nın başkenti Amsterdam\'da bulunan bir araştırma üniversitesidir.\n28.000\'den fazla öğrencisi, 4.000 çalışanı ve yaklaşık yarım milyar avroluk bütçesiyle Avrupa\'nın önemli üniversitelerinden biridir. ',
+     url: 'https://tr.wikipedia.org/wiki/Amsterdam_%C3%9Cniversitesi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.uva.nl/' }
+2017-01-13-08:31:23: https://www.googleapis.com/customsearch/v1?q=Amsterdam Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:31:23: received_result_no=1
+2017-01-13-08:31:23: finish
+2017-01-13-08:31:23: process is finished
+2017-01-13-08:31:23: -----------------Printed Results------------------------
+2017-01-13-08:31:23: Amsterdam Üniversitesi
+2017-01-13-08:31:31: message: vrije amsterdam
+2017-01-13-08:31:31: SearchTerm from OZ:vrije amsterdam
+2017-01-13-08:31:31: State machine is initialized with input: 
+2017-01-13-08:31:31: vrije amsterdam
+2017-01-13-08:31:31: Searching for phrase :vrije amsterdam
+2017-01-13-08:31:32: Response for phrase :vrije amsterdam
+
+2017-01-13-08:31:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 71.607101 } ] }
+2017-01-13-08:31:32: ItemlistElement for phrase : vrije amsterdam
+2017-01-13-08:31:32: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0k3p',
+     name: 'Amsterdam',
+     '@type': [ 'City', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Kent',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTTOEa_q7FmzE97zNEhJ6HTFZ2uSe7bPqlFXMxvvMAFeNH3jC-3',
+        url: 'https://en.wikipedia.org/wiki/Amsterdam',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Amsterdam, Hollanda\'nın başkentidir. Ancak ülke hükümetin ve meclisin bulunduğu Lahey\'den yönetilir.\n12. yüzyılda Amstel ırmağının kıyısında bir balıkçı köyü olarak kurulan Amsterdam, bugün Hollanda\'nın kişi sayısı bakımından en büyük, kültürel ve parasal yönden de en önemli kentidir. ',
+        url: 'https://tr.wikipedia.org/wiki/Amsterdam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.amsterdam.nl/' },
+  resultScore: 71.607101 }
+2017-01-13-08:31:32: Callback for phrase : vrije amsterdam
+2017-01-13-08:31:32: result of :vrije amsterdam
+2017-01-13-08:31:32: { '@id': 'kg:/m/0k3p',
+  name: 'Amsterdam',
+  '@type': [ 'City', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Kent',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTTOEa_q7FmzE97zNEhJ6HTFZ2uSe7bPqlFXMxvvMAFeNH3jC-3',
+     url: 'https://en.wikipedia.org/wiki/Amsterdam',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Amsterdam, Hollanda\'nın başkentidir. Ancak ülke hükümetin ve meclisin bulunduğu Lahey\'den yönetilir.\n12. yüzyılda Amstel ırmağının kıyısında bir balıkçı köyü olarak kurulan Amsterdam, bugün Hollanda\'nın kişi sayısı bakımından en büyük, kültürel ve parasal yönden de en önemli kentidir. ',
+     url: 'https://tr.wikipedia.org/wiki/Amsterdam',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.amsterdam.nl/' }
+2017-01-13-08:31:32: https://www.googleapis.com/customsearch/v1?q=Amsterdam&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:31:32: received_result_no=1
+2017-01-13-08:31:32: finish
+2017-01-13-08:31:32: process is finished
+2017-01-13-08:31:32: -----------------Printed Results------------------------
+2017-01-13-08:31:32: Amsterdam
+2017-01-13-08:31:54: 2: slide left gesture is called
+2017-01-13-08:32:25: 2: slide right gesture is called
+2017-01-13-08:32:26: AftermoveSectionDown section_count is: 1
+2017-01-13-08:32:27: 2: slide right gesture is called
+2017-01-13-08:32:27: 2: slide right gesture is called
+2017-01-13-08:32:27: 1: slide left gesture is called
+2017-01-13-08:32:43: message: amsterdam university
+2017-01-13-08:32:43: SearchTerm from OZ:amsterdam university
+2017-01-13-08:32:43: State machine is initialized with input: 
+2017-01-13-08:32:43: amsterdam university
+2017-01-13-08:32:43: Searching for phrase :amsterdam university
+2017-01-13-08:32:43: Response for phrase :amsterdam university
+
+2017-01-13-08:32:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 261.355713 } ] }
+2017-01-13-08:32:43: ItemlistElement for phrase : amsterdam university
+2017-01-13-08:32:43: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/04ldnbz',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'EducationalOrganization',
+        'Thing',
+        'Organization',
+        'Place' ],
+     description: 'Amsterdam, Hollanda\'da bir üniversite',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSwqXm7dHsdDQ2sv-WbSwlPl0ZJvO5risrkAzhwxNhtrj9XXuhn',
+        url: 'https://commons.wikimedia.org/wiki/File:Amsterdam_university_college.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     url: 'http://www.auc.nl/' },
+  resultScore: 261.355713 }
+2017-01-13-08:32:43: Callback for phrase : amsterdam university
+2017-01-13-08:32:43: result of :amsterdam university
+2017-01-13-08:32:43: { '@id': 'kg:/m/04ldnbz',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'EducationalOrganization',
+     'Thing',
+     'Organization',
+     'Place' ],
+  description: 'Amsterdam, Hollanda\'da bir üniversite',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSwqXm7dHsdDQ2sv-WbSwlPl0ZJvO5risrkAzhwxNhtrj9XXuhn',
+     url: 'https://commons.wikimedia.org/wiki/File:Amsterdam_university_college.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  url: 'http://www.auc.nl/' }
+2017-01-13-08:32:43: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:32:43: received_result_no=1
+2017-01-13-08:32:43: finish
+2017-01-13-08:32:43: process is finished
+2017-01-13-08:32:43: -----------------Printed Results------------------------
+2017-01-13-08:32:43: amsterdam university
+2017-01-13-08:37:23: 2: slide right gesture is called
+2017-01-13-08:37:26: AftermoveSectionDown section_count is: 1
+2017-01-13-08:37:26: AftermoveSectionDown section_count is: 1
+2017-01-13-08:37:28: AftermoveSectionDown section_count is: 1
+2017-01-13-08:37:28: AftermoveSectionDown section_count is: 1
+2017-01-13-08:37:30: 2: slide right gesture is called
+2017-01-13-08:37:31: message: talahasse
+2017-01-13-08:37:31: SearchTerm from OZ:talahasse
+2017-01-13-08:37:31: State machine is initialized with input: 
+2017-01-13-08:37:31: talahasse
+2017-01-13-08:37:31: Searching for phrase :talahasse
+2017-01-13-08:37:31: Response for phrase :talahasse
+
+2017-01-13-08:37:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-13-08:37:31: ItemlistElement for phrase : talahasse
+2017-01-13-08:37:31: undefined
+2017-01-13-08:37:31: Failed callback for phrase : talahasse
+
+2017-01-13-08:37:31: nothing found for :talahasse
+2017-01-13-08:37:31: finish
+2017-01-13-08:37:31: Nothing found
+2017-01-13-08:37:31: -----------------Printed Results------------------------
+2017-01-13-08:37:42: 1: slide right gesture is called
+2017-01-13-08:39:34: section_count is:0
+2017-01-13-08:39:34: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:39:34: AftermoveSectionUp section_count is: 0
+2017-01-13-08:39:40: 1: slide right gesture is called
+2017-01-13-08:40:21: AftermoveSectionUp section_count is: 0
+2017-01-13-08:40:21: AftermoveSectionDown section_count is: 1
+2017-01-13-08:40:22: AftermoveSectionDown section_count is: 1
+2017-01-13-08:40:23: AftermoveSectionDown section_count is: 1
+2017-01-13-08:40:24: section_count is:0
+2017-01-13-08:40:24: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:40:24: AftermoveSectionUp section_count is: 0
+2017-01-13-08:40:27: AftermoveSectionUp section_count is: 0
+2017-01-13-08:40:29: 2: slide right gesture is called
+2017-01-13-08:41:01: 1: slide left gesture is called
+2017-01-13-08:41:26: AftermoveSectionDown section_count is: 1
+2017-01-13-08:41:27: section_count is:0
+2017-01-13-08:41:27: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:41:27: AftermoveSectionUp section_count is: 0
+2017-01-13-08:44:14: AftermoveSectionDown section_count is: 1
+2017-01-13-08:44:14: AftermoveSectionDown section_count is: 1
+2017-01-13-08:44:14: section_count is:0
+2017-01-13-08:44:14: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:44:14: AftermoveSectionUp section_count is: 0
+2017-01-13-08:44:18: AftermoveSectionDown section_count is: 1
+2017-01-13-08:44:21: 2: slide right gesture is called
+2017-01-13-08:44:23: 2: slide right gesture is called
+2017-01-13-08:44:41: section_count is:0
+2017-01-13-08:44:41: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:44:41: AftermoveSectionUp section_count is: 0
+2017-01-13-08:45:15: 2: slide left gesture is called
+2017-01-13-08:45:19: AftermoveSectionDown section_count is: 1
+2017-01-13-08:45:51: 2: slide left gesture is called
+2017-01-13-08:45:56: AftermoveSectionDown section_count is: 1
+2017-01-13-08:46:38: 1: slide left gesture is called
+2017-01-13-08:46:40: 1: slide left gesture is called
+2017-01-13-08:46:41: 2: slide right gesture is called
+2017-01-13-08:46:48: section_count is:0
+2017-01-13-08:46:48: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:46:49: AftermoveSectionUp section_count is: 0
+2017-01-13-08:46:50: 1: slide right gesture is called
+2017-01-13-08:46:51: 1: slide right gesture is called
+2017-01-13-08:46:52: 1: slide left gesture is called
+2017-01-13-08:47:04: 2: slide right gesture is called
+2017-01-13-08:47:21: 2: slide left gesture is called
+2017-01-13-08:47:24: 1: slide right gesture is called
+2017-01-13-08:48:50: 2: slide right gesture is called
+2017-01-13-08:49:22: AftermoveSectionUp section_count is: 0
+2017-01-13-08:49:37: 2: slide right gesture is called
+2017-01-13-08:49:43: 1: slide right gesture is called
+2017-01-13-08:49:45: AftermoveSectionDown section_count is: 1
+2017-01-13-08:49:46: section_count is:0
+2017-01-13-08:49:46: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:49:46: AftermoveSectionUp section_count is: 0
+2017-01-13-08:49:48: AftermoveSectionDown section_count is: 1
+2017-01-13-08:49:48: AftermoveSectionDown section_count is: 1
+2017-01-13-08:49:48: section_count is:0
+2017-01-13-08:49:48: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:49:48: AftermoveSectionUp section_count is: 0
+2017-01-13-08:49:49: AftermoveSectionUp section_count is: 0
+2017-01-13-08:49:49: AftermoveSectionDown section_count is: 1
+2017-01-13-08:49:50: 1: slide left gesture is called
+2017-01-13-08:50:18: 2: slide right gesture is called
+2017-01-13-08:50:19: 2: slide right gesture is called
+2017-01-13-08:50:23: 2: slide left gesture is called
+2017-01-13-08:50:25: 1: slide left gesture is called
+2017-01-13-08:50:26: 2: slide right gesture is called
+2017-01-13-08:50:27: AftermoveSectionDown section_count is: 1
+2017-01-13-08:50:27: AftermoveSectionDown section_count is: 1
+2017-01-13-08:50:27: AftermoveSectionDown section_count is: 1
+2017-01-13-08:50:28: 2: slide right gesture is called
+2017-01-13-08:50:28: section_count is:0
+2017-01-13-08:50:28: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:50:28: AftermoveSectionUp section_count is: 0
+2017-01-13-08:50:31: AftermoveSectionDown section_count is: 1
+2017-01-13-08:50:36: 1: slide right gesture is called
+2017-01-13-08:50:37: 1: slide left gesture is called
+2017-01-13-08:50:38: 1: slide right gesture is called
+2017-01-13-08:50:46: 2: slide right gesture is called
+2017-01-13-08:50:46: 1: slide left gesture is called
+2017-01-13-08:50:48: 2: slide left gesture is called
+2017-01-13-08:50:51: section_count is:0
+2017-01-13-08:50:51: https://www.googleapis.com/customsearch/v1?q=amsterdam university&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-13-08:50:51: AftermoveSectionUp section_count is: 0
+2017-01-13-08:50:51: 2: slide left gesture is called
+2017-01-13-08:50:52: AftermoveSectionUp section_count is: 0
+2017-01-13-08:50:53: 2: slide right gesture is called
+2017-01-13-08:50:55: 2: slide right gesture is called
+2017-01-13-08:50:56: 1: slide left gesture is called
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

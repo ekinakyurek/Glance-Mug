@@ -1,0 +1,521 @@
+2017-01-05-14:08:15: message: 
+2017-01-05-14:08:15: SearchTerm from OZ:
+2017-01-05-14:08:18: AftermoveSectionUp section_count is: 0
+2017-01-05-14:08:38: message: girne üniversitesi
+2017-01-05-14:08:38: SearchTerm from OZ:girne üniversitesi
+2017-01-05-14:08:38: State machine is initialized with input: 
+2017-01-05-14:08:38: girne üniversitesi
+2017-01-05-14:08:38: Searching for phrase :girne üniversitesi
+2017-01-05-14:08:38: Response for phrase :girne üniversitesi
+
+2017-01-05-14:08:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 324.061615 } ] }
+2017-01-05-14:08:38: ItemlistElement for phrase : girne üniversitesi
+2017-01-05-14:08:38: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0vplv89',
+     name: 'Girne Üniversitesi',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'Thing',
+        'Organization',
+        'Place',
+        'EducationalOrganization' ],
+     description: 'Vakıf üniversitesi',
+     detailedDescription: 
+      { articleBody: 'Girne Üniversitesi, 2013 yılında KKTC Milli Eğitim Bakanlığı’nın 17/1986 sayılı Milli Eğitim Yasası’na bağlı olarak Bakanlar Kurulu onayı ile Girne’de kurulmuştur. Yakın Doğu Üniversitesi\'nin kardeş kuruluşudur. ',
+        url: 'https://tr.wikipedia.org/wiki/Girne_%C3%9Cniversitesi',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.kyrenia.edu.tr/' },
+  resultScore: 324.061615 }
+2017-01-05-14:08:38: Callback for phrase : girne üniversitesi
+2017-01-05-14:08:38: result of :girne üniversitesi
+2017-01-05-14:08:38: { '@id': 'kg:/m/0vplv89',
+  name: 'Girne Üniversitesi',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'Thing',
+     'Organization',
+     'Place',
+     'EducationalOrganization' ],
+  description: 'Vakıf üniversitesi',
+  detailedDescription: 
+   { articleBody: 'Girne Üniversitesi, 2013 yılında KKTC Milli Eğitim Bakanlığı’nın 17/1986 sayılı Milli Eğitim Yasası’na bağlı olarak Bakanlar Kurulu onayı ile Girne’de kurulmuştur. Yakın Doğu Üniversitesi\'nin kardeş kuruluşudur. ',
+     url: 'https://tr.wikipedia.org/wiki/Girne_%C3%9Cniversitesi',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.kyrenia.edu.tr/' }
+2017-01-05-14:08:38: https://www.googleapis.com/customsearch/v1?q=Girne Üniversitesi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:08:38: received_result_no=1
+2017-01-05-14:08:38: finish
+2017-01-05-14:08:38: process is finished
+2017-01-05-14:08:38: -----------------Printed Results------------------------
+2017-01-05-14:08:38: Girne Üniversitesi
+2017-01-05-14:08:44: 2: slide left gesture is called
+2017-01-05-14:08:45: 2: slide left gesture is called
+2017-01-05-14:08:45: 2: slide left gesture is called
+2017-01-05-14:08:45: 2: slide left gesture is called
+2017-01-05-14:08:46: 2: slide left gesture is called
+2017-01-05-14:08:47: 2: slide left gesture is called
+2017-01-05-14:08:49: 2: slide right gesture is called
+2017-01-05-14:08:51: 2: slide right gesture is called
+2017-01-05-14:08:52: 1: slide right gesture is called
+2017-01-05-14:08:53: 1: slide left gesture is called
+2017-01-05-14:08:54: 2: slide right gesture is called
+2017-01-05-14:08:57: 2: slide right gesture is called
+2017-01-05-14:08:58: 2: slide right gesture is called
+2017-01-05-14:08:59: 2: slide right gesture is called
+2017-01-05-14:09:09: message: kopenhag
+2017-01-05-14:09:09: SearchTerm from OZ:kopenhag
+2017-01-05-14:09:09: State machine is initialized with input: 
+2017-01-05-14:09:09: kopenhag
+2017-01-05-14:09:09: Searching for phrase :kopenhag
+2017-01-05-14:09:09: Response for phrase :kopenhag
+
+2017-01-05-14:09:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 65.594536 } ] }
+2017-01-05-14:09:09: ItemlistElement for phrase : kopenhag
+2017-01-05-14:09:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01lfy',
+     name: 'Kopenhag',
+     '@type': [ 'City', 'Place', 'Thing' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQIuPUT98iITgKDlklw4TvfTgiXCJiKKbkpBIZ8KxC71zwv0IGn',
+        url: 'https://commons.wikimedia.org/wiki/File:Amagertorv,_Copenhagen.jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' },
+     detailedDescription: 
+      { articleBody: 'Kopenhag, Danimarka\'nın başkentidir. 1 Ocak 2012 sayımına göre nüfusu 1.213.822 kişidir. København Danca\'da "ticaret limanı" veya "tüccar limanı" anlamındadır. Koben tüccar ve "havn" Danca\'da "liman" demektir.\nKopenhag\'da İsveç ve Norveç diline yakın olan Danca ana dildir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Kopenhag',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.kk.dk/english' },
+  resultScore: 65.594536 }
+2017-01-05-14:09:09: Callback for phrase : kopenhag
+2017-01-05-14:09:09: result of :kopenhag
+2017-01-05-14:09:09: { '@id': 'kg:/m/01lfy',
+  name: 'Kopenhag',
+  '@type': [ 'City', 'Place', 'Thing' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQIuPUT98iITgKDlklw4TvfTgiXCJiKKbkpBIZ8KxC71zwv0IGn',
+     url: 'https://commons.wikimedia.org/wiki/File:Amagertorv,_Copenhagen.jpg',
+     license: 'http://creativecommons.org/licenses/by/2.0' },
+  detailedDescription: 
+   { articleBody: 'Kopenhag, Danimarka\'nın başkentidir. 1 Ocak 2012 sayımına göre nüfusu 1.213.822 kişidir. København Danca\'da "ticaret limanı" veya "tüccar limanı" anlamındadır. Koben tüccar ve "havn" Danca\'da "liman" demektir.\nKopenhag\'da İsveç ve Norveç diline yakın olan Danca ana dildir.\n',
+     url: 'https://tr.wikipedia.org/wiki/Kopenhag',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.kk.dk/english' }
+2017-01-05-14:09:09: https://www.googleapis.com/customsearch/v1?q=Kopenhag&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:09:09: received_result_no=1
+2017-01-05-14:09:09: finish
+2017-01-05-14:09:09: process is finished
+2017-01-05-14:09:09: -----------------Printed Results------------------------
+2017-01-05-14:09:09: Kopenhag
+2017-01-05-14:09:29: message: anlam
+2017-01-05-14:09:29: SearchTerm from OZ:anlam
+2017-01-05-14:09:29: State machine is initialized with input: 
+2017-01-05-14:09:29: anlam
+2017-01-05-14:09:29: Searching for phrase :anlam
+2017-01-05-14:09:30: Response for phrase :anlam
+
+2017-01-05-14:09:30: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 10.397612 } ] }
+2017-01-05-14:09:30: ItemlistElement for phrase : anlam
+2017-01-05-14:09:30: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05vjxdn',
+     name: 'Anlam',
+     '@type': [ 'Thing' ],
+     description: 'Harcıalem\'in şarkısı' },
+  resultScore: 10.397612 }
+2017-01-05-14:09:30: Callback for phrase : anlam
+2017-01-05-14:09:30: result of :anlam
+2017-01-05-14:09:30: { '@id': 'kg:/g/1s05vjxdn',
+  name: 'Anlam',
+  '@type': [ 'Thing' ],
+  description: 'Harcıalem\'in şarkısı' }
+2017-01-05-14:09:30: https://www.googleapis.com/customsearch/v1?q=Anlam&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:09:30: received_result_no=1
+2017-01-05-14:09:30: finish
+2017-01-05-14:09:30: process is finished
+2017-01-05-14:09:30: -----------------Printed Results------------------------
+2017-01-05-14:09:30: Anlam
+2017-01-05-14:09:40: message: orhan gencebay,zeki müren
+2017-01-05-14:09:40: SearchTerm from OZ:orhan gencebay,zeki müren
+2017-01-05-14:09:40: State machine is initialized with input: 
+2017-01-05-14:09:40: orhan gencebay,zeki müren
+2017-01-05-14:09:40: Searching for phrase :orhan gencebay
+2017-01-05-14:09:40: Response for phrase :orhan gencebay
+
+2017-01-05-14:09:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 595.992249 } ] }
+2017-01-05-14:09:40: ItemlistElement for phrase : orhan gencebay
+2017-01-05-14:09:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 595.992249 }
+2017-01-05-14:09:40: Callback for phrase : orhan gencebay
+2017-01-05-14:09:40: result of :orhan gencebay
+2017-01-05-14:09:40: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-05-14:09:40: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:09:40: received_result_no=1
+2017-01-05-14:09:40: Searching for phrase :zeki müren
+2017-01-05-14:09:41: Response for phrase :zeki müren
+
+2017-01-05-14:09:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.585693 } ] }
+2017-01-05-14:09:41: ItemlistElement for phrase : zeki müren
+2017-01-05-14:09:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.585693 }
+2017-01-05-14:09:41: Callback for phrase : zeki müren
+2017-01-05-14:09:41: result of :zeki müren
+2017-01-05-14:09:41: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2017-01-05-14:09:41: received_result_no=2
+2017-01-05-14:09:41: finish
+2017-01-05-14:09:41: process is finished
+2017-01-05-14:09:41: -----------------Printed Results------------------------
+2017-01-05-14:09:41: Orhan Gencebay
+2017-01-05-14:09:41: Zeki Müren
+2017-01-05-14:09:49: 1: slide right gesture is called
+2017-01-05-14:09:51: 1: slide right gesture is called
+2017-01-05-14:09:52: section_count is:1
+2017-01-05-14:09:52: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:09:52: AftermoveSectionDown section_count is: 1
+2017-01-05-14:09:54: AftermoveSectionDown section_count is: 2
+2017-01-05-14:09:54: AftermoveSectionDown section_count is: 2
+2017-01-05-14:09:57: AftermoveSectionDown section_count is: 2
+2017-01-05-14:09:57: AftermoveSectionDown section_count is: 2
+2017-01-05-14:09:58: AftermoveSectionDown section_count is: 2
+2017-01-05-14:10:00: AftermoveSectionDown section_count is: 2
+2017-01-05-14:10:36: AftermoveSectionDown section_count is: 2
+2017-01-05-14:11:06: 2: slide left gesture is called
+2017-01-05-14:11:06: 2: slide left gesture is called
+2017-01-05-14:11:07: 2: slide right gesture is called
+2017-01-05-14:11:07: 2: slide right gesture is called
+2017-01-05-14:11:08: 2: slide right gesture is called
+2017-01-05-14:11:08: 2: slide right gesture is called
+2017-01-05-14:11:09: 2: slide right gesture is called
+2017-01-05-14:11:10: section_count is:1
+2017-01-05-14:11:10: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:11:10: AftermoveSectionUp section_count is: 1
+2017-01-05-14:11:10: AftermoveSectionDown section_count is: 2
+2017-01-05-14:11:11: 2: slide right gesture is called
+2017-01-05-14:11:11: 2: slide right gesture is called
+2017-01-05-14:11:12: 2: slide right gesture is called
+2017-01-05-14:11:12: 2: slide right gesture is called
+2017-01-05-14:11:14: 2: slide right gesture is called
+2017-01-05-14:11:14: 2: slide right gesture is called
+2017-01-05-14:11:16: 2: slide right gesture is called
+2017-01-05-14:11:17: 2: slide right gesture is called
+2017-01-05-14:11:17: 2: slide right gesture is called
+2017-01-05-14:11:17: 1: slide right gesture is called
+2017-01-05-14:11:17: 2: slide left gesture is called
+2017-01-05-14:11:20: 2: slide right gesture is called
+2017-01-05-14:11:22: 2: slide left gesture is called
+2017-01-05-14:11:22: 2: slide left gesture is called
+2017-01-05-14:11:27: section_count is:1
+2017-01-05-14:11:27: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:11:27: AftermoveSectionUp section_count is: 1
+2017-01-05-14:11:29: 2: slide left gesture is called
+2017-01-05-14:11:43: message: erasmus
+2017-01-05-14:11:43: SearchTerm from OZ:erasmus
+2017-01-05-14:11:43: State machine is initialized with input: 
+2017-01-05-14:11:43: erasmus
+2017-01-05-14:11:43: Searching for phrase :erasmus
+2017-01-05-14:11:43: Response for phrase :erasmus
+
+2017-01-05-14:11:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.111523 } ] }
+2017-01-05-14:11:43: ItemlistElement for phrase : erasmus
+2017-01-05-14:11:43: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02rpq',
+     name: 'Desiderius Erasmus',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Filozof',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQT_7SYzBATZb_un5iX-yr46bzQKko-2MGjyecOE3MZi_TXB3QM',
+        url: 'https://commons.wikimedia.org/wiki/File:Holbein-erasmus.jpg' },
+     detailedDescription: 
+      { articleBody: 'Desiderius Erasmus, Kuzey Avrupa Rönesansı\'nın önemli ustası ve klasik edebiyat araştırmacısı, hümanist bilgin ve ilahiyatçı.',
+        url: 'https://tr.wikipedia.org/wiki/Desiderius_Erasmus',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.111523 }
+2017-01-05-14:11:43: Callback for phrase : erasmus
+2017-01-05-14:11:43: result of :erasmus
+2017-01-05-14:11:43: { '@id': 'kg:/m/02rpq',
+  name: 'Desiderius Erasmus',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Filozof',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQT_7SYzBATZb_un5iX-yr46bzQKko-2MGjyecOE3MZi_TXB3QM',
+     url: 'https://commons.wikimedia.org/wiki/File:Holbein-erasmus.jpg' },
+  detailedDescription: 
+   { articleBody: 'Desiderius Erasmus, Kuzey Avrupa Rönesansı\'nın önemli ustası ve klasik edebiyat araştırmacısı, hümanist bilgin ve ilahiyatçı.',
+     url: 'https://tr.wikipedia.org/wiki/Desiderius_Erasmus',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-14:11:43: https://www.googleapis.com/customsearch/v1?q=Desiderius Erasmus&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:11:43: received_result_no=1
+2017-01-05-14:11:43: finish
+2017-01-05-14:11:43: process is finished
+2017-01-05-14:11:43: -----------------Printed Results------------------------
+2017-01-05-14:11:43: Desiderius Erasmus
+2017-01-05-14:11:48: message: sohbet
+2017-01-05-14:11:48: SearchTerm from OZ:sohbet
+2017-01-05-14:11:48: State machine is initialized with input: 
+2017-01-05-14:11:48: sohbet
+2017-01-05-14:11:48: Searching for phrase :sohbet
+2017-01-05-14:11:48: Response for phrase :sohbet
+
+2017-01-05-14:11:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 17.780405 } ] }
+2017-01-05-14:11:48: ItemlistElement for phrase : sohbet
+2017-01-05-14:11:48: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01nxfw',
+     name: 'Tanrı ile Sohbet',
+     '@type': [ 'BookSeries', 'Thing' ],
+     description: 'Edebiyat Serisi',
+     url: 'http://www.cwg.org/' },
+  resultScore: 17.780405 }
+2017-01-05-14:11:48: Callback for phrase : sohbet
+2017-01-05-14:11:48: result of :sohbet
+2017-01-05-14:11:48: { '@id': 'kg:/m/01nxfw',
+  name: 'Tanrı ile Sohbet',
+  '@type': [ 'BookSeries', 'Thing' ],
+  description: 'Edebiyat Serisi',
+  url: 'http://www.cwg.org/' }
+2017-01-05-14:11:48: https://www.googleapis.com/customsearch/v1?q=Tanrı ile Sohbet&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:11:48: received_result_no=1
+2017-01-05-14:11:48: finish
+2017-01-05-14:11:48: process is finished
+2017-01-05-14:11:48: -----------------Printed Results------------------------
+2017-01-05-14:11:48: Tanrı ile Sohbet
+2017-01-05-14:11:50: 2: slide left gesture is called
+2017-01-05-14:11:59: section_count is:0
+2017-01-05-14:11:59: https://www.googleapis.com/customsearch/v1?q=Tanrı ile Sohbet&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:11:59: AftermoveSectionUp section_count is: 0
+2017-01-05-14:12:31: AftermoveSectionUp section_count is: 0
+2017-01-05-14:12:36: message: mezun
+2017-01-05-14:12:36: SearchTerm from OZ:mezun
+2017-01-05-14:12:36: State machine is initialized with input: 
+2017-01-05-14:12:36: mezun
+2017-01-05-14:12:36: Searching for phrase :mezun
+2017-01-05-14:12:36: Response for phrase :mezun
+
+2017-01-05-14:12:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.353283 } ] }
+2017-01-05-14:12:36: ItemlistElement for phrase : mezun
+2017-01-05-14:12:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07cdz',
+     name: 'Mezun',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '1967 yapımı film',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTBEcGE7C3eh94EtJ6HH5pJ-ZfzK4HzMJ4od1hR8FzP4dKc0dGk',
+        url: 'https://commons.wikimedia.org/wiki/File:Dustin_Hoffman.jpg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Mezun, orijinal ismiyle The Graduate 1967 yapımı Mike Nichols\'ın yönettiği Amerikan komedi drama filmi. Charles Webb\'in 1963 yılında yayınladığı aynı adlı roman baz alınarak çekilmiştir. ',
+        url: 'https://tr.wikipedia.org/wiki/Mezun',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.mgm.com/title_title.do?title_star=GRADUATE' },
+  resultScore: 43.353283 }
+2017-01-05-14:12:36: Callback for phrase : mezun
+2017-01-05-14:12:36: result of :mezun
+2017-01-05-14:12:36: { '@id': 'kg:/m/07cdz',
+  name: 'Mezun',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '1967 yapımı film',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTBEcGE7C3eh94EtJ6HH5pJ-ZfzK4HzMJ4od1hR8FzP4dKc0dGk',
+     url: 'https://commons.wikimedia.org/wiki/File:Dustin_Hoffman.jpg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Mezun, orijinal ismiyle The Graduate 1967 yapımı Mike Nichols\'ın yönettiği Amerikan komedi drama filmi. Charles Webb\'in 1963 yılında yayınladığı aynı adlı roman baz alınarak çekilmiştir. ',
+     url: 'https://tr.wikipedia.org/wiki/Mezun',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.mgm.com/title_title.do?title_star=GRADUATE' }
+2017-01-05-14:12:36: https://www.googleapis.com/customsearch/v1?q=Mezun&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:12:36: received_result_no=1
+2017-01-05-14:12:36: finish
+2017-01-05-14:12:36: process is finished
+2017-01-05-14:12:36: -----------------Printed Results------------------------
+2017-01-05-14:12:36: Mezun
+2017-01-05-14:12:40: message: eylül
+2017-01-05-14:12:40: SearchTerm from OZ:eylül
+2017-01-05-14:12:40: State machine is initialized with input: 
+2017-01-05-14:12:40: eylül
+2017-01-05-14:12:40: Searching for phrase :eylül
+2017-01-05-14:12:41: Response for phrase :eylül
+
+2017-01-05-14:12:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 84.147964 } ] }
+2017-01-05-14:12:41: ItemlistElement for phrase : eylül
+2017-01-05-14:12:41: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0d0vp3',
+     name: '11 Eylül saldırıları',
+     '@type': [ 'Event', 'Thing' ],
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTWwgNnYluEcl3TmXd3XL-tGWz1Cn1ZNVjSeWvaoVvO3vJbhh9z',
+        url: 'https://commons.wikimedia.org/wiki/File:North_face_south_tower_after_plane_strike_9-11.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+     detailedDescription: 
+      { articleBody: '11 Eylül saldırıları, El-Kaide\'ye bağlı kişiler tarafından kaçırılan uçakların 11 Eylül 2001 tarihinde Amerika Birleşik Devletleri\'ndeki iki farklı hedefe intihar saldırısı düzenlemesiyle gerçekleşen bir dizi saldırı. ',
+        url: 'https://tr.wikipedia.org/wiki/11_Eyl%C3%BCl_sald%C4%B1r%C4%B1lar%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 84.147964 }
+2017-01-05-14:12:41: Callback for phrase : eylül
+2017-01-05-14:12:41: result of :eylül
+2017-01-05-14:12:41: { '@id': 'kg:/m/0d0vp3',
+  name: '11 Eylül saldırıları',
+  '@type': [ 'Event', 'Thing' ],
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcTWwgNnYluEcl3TmXd3XL-tGWz1Cn1ZNVjSeWvaoVvO3vJbhh9z',
+     url: 'https://commons.wikimedia.org/wiki/File:North_face_south_tower_after_plane_strike_9-11.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/2.0' },
+  detailedDescription: 
+   { articleBody: '11 Eylül saldırıları, El-Kaide\'ye bağlı kişiler tarafından kaçırılan uçakların 11 Eylül 2001 tarihinde Amerika Birleşik Devletleri\'ndeki iki farklı hedefe intihar saldırısı düzenlemesiyle gerçekleşen bir dizi saldırı. ',
+     url: 'https://tr.wikipedia.org/wiki/11_Eyl%C3%BCl_sald%C4%B1r%C4%B1lar%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-14:12:41: https://www.googleapis.com/customsearch/v1?q=11 Eylül saldırıları&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-14:12:41: received_result_no=1
+2017-01-05-14:12:41: finish
+2017-01-05-14:12:41: process is finished
+2017-01-05-14:12:41: -----------------Printed Results------------------------
+2017-01-05-14:12:41: 11 Eylül saldırıları
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

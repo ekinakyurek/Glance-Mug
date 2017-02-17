@@ -1,0 +1,757 @@
+2017-01-05-09:04:31: message: 
+2017-01-05-09:04:31: SearchTerm from OZ:
+2017-01-05-09:04:35: AftermoveSectionUp section_count is: 0
+2017-01-05-09:04:35: message: ukrayna
+2017-01-05-09:04:35: SearchTerm from OZ:ukrayna
+2017-01-05-09:04:35: State machine is initialized with input: 
+2017-01-05-09:04:35: ukrayna
+2017-01-05-09:04:35: Searching for phrase :ukrayna
+2017-01-05-09:04:36: Response for phrase :ukrayna
+
+2017-01-05-09:04:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 78.381844 } ] }
+2017-01-05-09:04:36: ItemlistElement for phrase : ukrayna
+2017-01-05-09:04:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07t21',
+     name: 'Ukrayna',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQGGnILYuCw5cnbxv9zQYyhCaulAxPYgEnbtJuPkeEkTk6WHKVU',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg' },
+     detailedDescription: 
+      { articleBody: 'Ukrayna, Doğu Avrupa\'da bir ülke. 603.628 km² yüz ölçümüyle tamamı Avrupa\'da olan en geniş ülkedir. Doğusunda ve kuzeydoğusunda Rusya, kuzeybatısında Beyaz Rusya, batısında Polonya, Slovakya ve Macaristan, güneybatısında Romanya ve Moldova ile kara sınırı vardır. ',
+        url: 'https://tr.wikipedia.org/wiki/Ukrayna',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ukraine.com/' },
+  resultScore: 78.381844 }
+2017-01-05-09:04:36: Callback for phrase : ukrayna
+2017-01-05-09:04:36: result of :ukrayna
+2017-01-05-09:04:36: { '@id': 'kg:/m/07t21',
+  name: 'Ukrayna',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Avrupa\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQGGnILYuCw5cnbxv9zQYyhCaulAxPYgEnbtJuPkeEkTk6WHKVU',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg' },
+  detailedDescription: 
+   { articleBody: 'Ukrayna, Doğu Avrupa\'da bir ülke. 603.628 km² yüz ölçümüyle tamamı Avrupa\'da olan en geniş ülkedir. Doğusunda ve kuzeydoğusunda Rusya, kuzeybatısında Beyaz Rusya, batısında Polonya, Slovakya ve Macaristan, güneybatısında Romanya ve Moldova ile kara sınırı vardır. ',
+     url: 'https://tr.wikipedia.org/wiki/Ukrayna',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ukraine.com/' }
+2017-01-05-09:04:36: https://www.googleapis.com/customsearch/v1?q=Ukrayna&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:04:36: received_result_no=1
+2017-01-05-09:04:36: finish
+2017-01-05-09:04:36: process is finished
+2017-01-05-09:04:36: -----------------Printed Results------------------------
+2017-01-05-09:04:36: Ukrayna
+2017-01-05-09:04:39: 2: slide right gesture is called
+2017-01-05-09:04:39: AftermoveSectionUp section_count is: 0
+2017-01-05-09:04:40: 2: slide right gesture is called
+2017-01-05-09:04:41: 2: slide right gesture is called
+2017-01-05-09:04:42: 2: slide right gesture is called
+2017-01-05-09:04:51: message: selami şahin
+2017-01-05-09:04:51: SearchTerm from OZ:selami şahin
+2017-01-05-09:04:51: State machine is initialized with input: 
+2017-01-05-09:04:51: selami şahin
+2017-01-05-09:04:51: Searching for phrase :selami şahin
+2017-01-05-09:04:51: Response for phrase :selami şahin
+
+2017-01-05-09:04:51: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 451.977081 } ] }
+2017-01-05-09:04:51: ItemlistElement for phrase : selami şahin
+2017-01-05-09:04:51: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/03xngrh',
+     name: 'Selami Şahin',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Müzisyen',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQgexjtyR7lF1wAct7Apn-JHhwZ5ICopTMkyRgkw-itqu7FCwNf',
+        url: 'https://en.wikipedia.org/wiki/Selami_%C5%9Eahin',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Selami Şahin, Türk müzisyen, besteci, söz yazarı ve yapımcı.',
+        url: 'https://tr.wikipedia.org/wiki/Selami_%C5%9Eahin',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.selamisahin.com.tr/' },
+  resultScore: 451.977081 }
+2017-01-05-09:04:51: Callback for phrase : selami şahin
+2017-01-05-09:04:51: result of :selami şahin
+2017-01-05-09:04:51: { '@id': 'kg:/m/03xngrh',
+  name: 'Selami Şahin',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Müzisyen',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQgexjtyR7lF1wAct7Apn-JHhwZ5ICopTMkyRgkw-itqu7FCwNf',
+     url: 'https://en.wikipedia.org/wiki/Selami_%C5%9Eahin',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Selami Şahin, Türk müzisyen, besteci, söz yazarı ve yapımcı.',
+     url: 'https://tr.wikipedia.org/wiki/Selami_%C5%9Eahin',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.selamisahin.com.tr/' }
+2017-01-05-09:04:51: https://www.googleapis.com/customsearch/v1?q=Selami Şahin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:04:51: received_result_no=1
+2017-01-05-09:04:51: finish
+2017-01-05-09:04:51: process is finished
+2017-01-05-09:04:51: -----------------Printed Results------------------------
+2017-01-05-09:04:51: Selami Şahin
+2017-01-05-09:04:55: 2: slide right gesture is called
+2017-01-05-09:04:56: 2: slide left gesture is called
+2017-01-05-09:04:57: 2: slide left gesture is called
+2017-01-05-09:05:22: message: ayper maral
+2017-01-05-09:05:22: SearchTerm from OZ:ayper maral
+2017-01-05-09:05:22: State machine is initialized with input: 
+2017-01-05-09:05:22: ayper maral
+2017-01-05-09:05:22: Searching for phrase :ayper maral
+2017-01-05-09:05:23: Response for phrase :ayper maral
+
+2017-01-05-09:05:23: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-05-09:05:23: ItemlistElement for phrase : ayper maral
+2017-01-05-09:05:23: undefined
+2017-01-05-09:05:23: Failed callback for phrase : ayper maral
+
+2017-01-05-09:05:23: nothing found for :ayper maral
+2017-01-05-09:05:23: finish
+2017-01-05-09:05:23: Nothing found
+2017-01-05-09:05:23: -----------------Printed Results------------------------
+2017-01-05-09:05:28: message: ayten maral
+2017-01-05-09:05:28: SearchTerm from OZ:ayten maral
+2017-01-05-09:05:28: State machine is initialized with input: 
+2017-01-05-09:05:28: ayten maral
+2017-01-05-09:05:28: Searching for phrase :ayten maral
+2017-01-05-09:05:28: Response for phrase :ayten maral
+
+2017-01-05-09:05:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-05-09:05:28: ItemlistElement for phrase : ayten maral
+2017-01-05-09:05:28: undefined
+2017-01-05-09:05:28: Failed callback for phrase : ayten maral
+
+2017-01-05-09:05:28: nothing found for :ayten maral
+2017-01-05-09:05:28: finish
+2017-01-05-09:05:28: Nothing found
+2017-01-05-09:05:28: -----------------Printed Results------------------------
+2017-01-05-09:05:34: message: vietnam
+2017-01-05-09:05:34: SearchTerm from OZ:vietnam
+2017-01-05-09:05:34: State machine is initialized with input: 
+2017-01-05-09:05:34: vietnam
+2017-01-05-09:05:34: Searching for phrase :vietnam
+2017-01-05-09:05:34: Response for phrase :vietnam
+
+2017-01-05-09:05:34: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 110.791588 } ] }
+2017-01-05-09:05:34: ItemlistElement for phrase : vietnam
+2017-01-05-09:05:34: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01crd5',
+     name: 'Vietnam',
+     '@type': [ 'Country', 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRay24X_syvhm8KJ3uHevyA4LNVL6ibBCsnnL3ApwkO5TCqSg7L',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg' },
+     detailedDescription: 
+      { articleBody: 'Vietnam, resmi adı ile Vietnam Sosyalist Cumhuriyeti, Güneydoğu Asya\'da, Çinhindi Yarımadası\'nın doğusunu kaplayan bir ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Vietnam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.vietnam.gov.vn' },
+  resultScore: 110.791588 }
+2017-01-05-09:05:35: Callback for phrase : vietnam
+2017-01-05-09:05:35: result of :vietnam
+2017-01-05-09:05:35: { '@id': 'kg:/m/01crd5',
+  name: 'Vietnam',
+  '@type': [ 'Country', 'AdministrativeArea', 'Place', 'Thing' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRay24X_syvhm8KJ3uHevyA4LNVL6ibBCsnnL3ApwkO5TCqSg7L',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg' },
+  detailedDescription: 
+   { articleBody: 'Vietnam, resmi adı ile Vietnam Sosyalist Cumhuriyeti, Güneydoğu Asya\'da, Çinhindi Yarımadası\'nın doğusunu kaplayan bir ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Vietnam',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.vietnam.gov.vn' }
+2017-01-05-09:05:35: https://www.googleapis.com/customsearch/v1?q=Vietnam&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:05:35: received_result_no=1
+2017-01-05-09:05:35: finish
+2017-01-05-09:05:35: process is finished
+2017-01-05-09:05:35: -----------------Printed Results------------------------
+2017-01-05-09:05:35: Vietnam
+2017-01-05-09:05:47: message: vietnam
+2017-01-05-09:05:47: SearchTerm from OZ:vietnam
+2017-01-05-09:05:47: State machine is initialized with input: 
+2017-01-05-09:05:47: vietnam
+2017-01-05-09:05:47: Searching for phrase :vietnam
+2017-01-05-09:05:47: Response for phrase :vietnam
+
+2017-01-05-09:05:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 110.791588 } ] }
+2017-01-05-09:05:47: ItemlistElement for phrase : vietnam
+2017-01-05-09:05:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01crd5',
+     name: 'Vietnam',
+     '@type': [ 'Country', 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRay24X_syvhm8KJ3uHevyA4LNVL6ibBCsnnL3ApwkO5TCqSg7L',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg' },
+     detailedDescription: 
+      { articleBody: 'Vietnam, resmi adı ile Vietnam Sosyalist Cumhuriyeti, Güneydoğu Asya\'da, Çinhindi Yarımadası\'nın doğusunu kaplayan bir ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Vietnam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.vietnam.gov.vn' },
+  resultScore: 110.791588 }
+2017-01-05-09:05:47: Callback for phrase : vietnam
+2017-01-05-09:05:47: result of :vietnam
+2017-01-05-09:05:47: { '@id': 'kg:/m/01crd5',
+  name: 'Vietnam',
+  '@type': [ 'Country', 'AdministrativeArea', 'Place', 'Thing' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRay24X_syvhm8KJ3uHevyA4LNVL6ibBCsnnL3ApwkO5TCqSg7L',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg' },
+  detailedDescription: 
+   { articleBody: 'Vietnam, resmi adı ile Vietnam Sosyalist Cumhuriyeti, Güneydoğu Asya\'da, Çinhindi Yarımadası\'nın doğusunu kaplayan bir ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Vietnam',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.vietnam.gov.vn' }
+2017-01-05-09:05:47: https://www.googleapis.com/customsearch/v1?q=Vietnam&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:05:47: received_result_no=1
+2017-01-05-09:05:47: finish
+2017-01-05-09:05:47: process is finished
+2017-01-05-09:05:47: -----------------Printed Results------------------------
+2017-01-05-09:05:47: Vietnam
+2017-01-05-09:05:54: message: vietnam
+2017-01-05-09:05:54: SearchTerm from OZ:vietnam
+2017-01-05-09:05:54: State machine is initialized with input: 
+2017-01-05-09:05:54: vietnam
+2017-01-05-09:05:54: Searching for phrase :vietnam
+2017-01-05-09:05:54: Response for phrase :vietnam
+
+2017-01-05-09:05:54: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 110.791588 } ] }
+2017-01-05-09:05:54: ItemlistElement for phrase : vietnam
+2017-01-05-09:05:54: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01crd5',
+     name: 'Vietnam',
+     '@type': [ 'Country', 'AdministrativeArea', 'Place', 'Thing' ],
+     description: 'Asya\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRay24X_syvhm8KJ3uHevyA4LNVL6ibBCsnnL3ApwkO5TCqSg7L',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg' },
+     detailedDescription: 
+      { articleBody: 'Vietnam, resmi adı ile Vietnam Sosyalist Cumhuriyeti, Güneydoğu Asya\'da, Çinhindi Yarımadası\'nın doğusunu kaplayan bir ülkedir. ',
+        url: 'https://tr.wikipedia.org/wiki/Vietnam',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.vietnam.gov.vn' },
+  resultScore: 110.791588 }
+2017-01-05-09:05:54: Callback for phrase : vietnam
+2017-01-05-09:05:54: result of :vietnam
+2017-01-05-09:05:54: { '@id': 'kg:/m/01crd5',
+  name: 'Vietnam',
+  '@type': [ 'Country', 'AdministrativeArea', 'Place', 'Thing' ],
+  description: 'Asya\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcRay24X_syvhm8KJ3uHevyA4LNVL6ibBCsnnL3ApwkO5TCqSg7L',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg' },
+  detailedDescription: 
+   { articleBody: 'Vietnam, resmi adı ile Vietnam Sosyalist Cumhuriyeti, Güneydoğu Asya\'da, Çinhindi Yarımadası\'nın doğusunu kaplayan bir ülkedir. ',
+     url: 'https://tr.wikipedia.org/wiki/Vietnam',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.vietnam.gov.vn' }
+2017-01-05-09:05:54: https://www.googleapis.com/customsearch/v1?q=Vietnam&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:05:54: received_result_no=1
+2017-01-05-09:05:54: finish
+2017-01-05-09:05:54: process is finished
+2017-01-05-09:05:54: -----------------Printed Results------------------------
+2017-01-05-09:05:54: Vietnam
+2017-01-05-09:06:08: message: ukrayna
+2017-01-05-09:06:08: SearchTerm from OZ:ukrayna
+2017-01-05-09:06:08: State machine is initialized with input: 
+2017-01-05-09:06:08: ukrayna
+2017-01-05-09:06:08: Searching for phrase :ukrayna
+2017-01-05-09:06:09: Response for phrase :ukrayna
+
+2017-01-05-09:06:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 78.381844 } ] }
+2017-01-05-09:06:09: ItemlistElement for phrase : ukrayna
+2017-01-05-09:06:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07t21',
+     name: 'Ukrayna',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQGGnILYuCw5cnbxv9zQYyhCaulAxPYgEnbtJuPkeEkTk6WHKVU',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg' },
+     detailedDescription: 
+      { articleBody: 'Ukrayna, Doğu Avrupa\'da bir ülke. 603.628 km² yüz ölçümüyle tamamı Avrupa\'da olan en geniş ülkedir. Doğusunda ve kuzeydoğusunda Rusya, kuzeybatısında Beyaz Rusya, batısında Polonya, Slovakya ve Macaristan, güneybatısında Romanya ve Moldova ile kara sınırı vardır. ',
+        url: 'https://tr.wikipedia.org/wiki/Ukrayna',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ukraine.com/' },
+  resultScore: 78.381844 }
+2017-01-05-09:06:09: Callback for phrase : ukrayna
+2017-01-05-09:06:09: result of :ukrayna
+2017-01-05-09:06:09: { '@id': 'kg:/m/07t21',
+  name: 'Ukrayna',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Avrupa\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQGGnILYuCw5cnbxv9zQYyhCaulAxPYgEnbtJuPkeEkTk6WHKVU',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg' },
+  detailedDescription: 
+   { articleBody: 'Ukrayna, Doğu Avrupa\'da bir ülke. 603.628 km² yüz ölçümüyle tamamı Avrupa\'da olan en geniş ülkedir. Doğusunda ve kuzeydoğusunda Rusya, kuzeybatısında Beyaz Rusya, batısında Polonya, Slovakya ve Macaristan, güneybatısında Romanya ve Moldova ile kara sınırı vardır. ',
+     url: 'https://tr.wikipedia.org/wiki/Ukrayna',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ukraine.com/' }
+2017-01-05-09:06:09: https://www.googleapis.com/customsearch/v1?q=Ukrayna&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:09: received_result_no=1
+2017-01-05-09:06:09: finish
+2017-01-05-09:06:09: process is finished
+2017-01-05-09:06:09: -----------------Printed Results------------------------
+2017-01-05-09:06:09: Ukrayna
+2017-01-05-09:06:11: message: ukrayna
+2017-01-05-09:06:11: SearchTerm from OZ:ukrayna
+2017-01-05-09:06:11: State machine is initialized with input: 
+2017-01-05-09:06:11: ukrayna
+2017-01-05-09:06:11: Searching for phrase :ukrayna
+2017-01-05-09:06:12: Response for phrase :ukrayna
+
+2017-01-05-09:06:12: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 78.381844 } ] }
+2017-01-05-09:06:12: ItemlistElement for phrase : ukrayna
+2017-01-05-09:06:12: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/07t21',
+     name: 'Ukrayna',
+     '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQGGnILYuCw5cnbxv9zQYyhCaulAxPYgEnbtJuPkeEkTk6WHKVU',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg' },
+     detailedDescription: 
+      { articleBody: 'Ukrayna, Doğu Avrupa\'da bir ülke. 603.628 km² yüz ölçümüyle tamamı Avrupa\'da olan en geniş ülkedir. Doğusunda ve kuzeydoğusunda Rusya, kuzeybatısında Beyaz Rusya, batısında Polonya, Slovakya ve Macaristan, güneybatısında Romanya ve Moldova ile kara sınırı vardır. ',
+        url: 'https://tr.wikipedia.org/wiki/Ukrayna',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ukraine.com/' },
+  resultScore: 78.381844 }
+2017-01-05-09:06:12: Callback for phrase : ukrayna
+2017-01-05-09:06:12: result of :ukrayna
+2017-01-05-09:06:12: { '@id': 'kg:/m/07t21',
+  name: 'Ukrayna',
+  '@type': [ 'Country', 'AdministrativeArea', 'Thing', 'Place' ],
+  description: 'Avrupa\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQGGnILYuCw5cnbxv9zQYyhCaulAxPYgEnbtJuPkeEkTk6WHKVU',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Ukraine.svg' },
+  detailedDescription: 
+   { articleBody: 'Ukrayna, Doğu Avrupa\'da bir ülke. 603.628 km² yüz ölçümüyle tamamı Avrupa\'da olan en geniş ülkedir. Doğusunda ve kuzeydoğusunda Rusya, kuzeybatısında Beyaz Rusya, batısında Polonya, Slovakya ve Macaristan, güneybatısında Romanya ve Moldova ile kara sınırı vardır. ',
+     url: 'https://tr.wikipedia.org/wiki/Ukrayna',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ukraine.com/' }
+2017-01-05-09:06:12: https://www.googleapis.com/customsearch/v1?q=Ukrayna&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:12: received_result_no=1
+2017-01-05-09:06:12: finish
+2017-01-05-09:06:12: process is finished
+2017-01-05-09:06:12: -----------------Printed Results------------------------
+2017-01-05-09:06:12: Ukrayna
+2017-01-05-09:06:14: message: avrupa
+2017-01-05-09:06:14: SearchTerm from OZ:avrupa
+2017-01-05-09:06:14: State machine is initialized with input: 
+2017-01-05-09:06:14: avrupa
+2017-01-05-09:06:14: Searching for phrase :avrupa
+2017-01-05-09:06:15: Response for phrase :avrupa
+
+2017-01-05-09:06:15: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 242.251633 } ] }
+2017-01-05-09:06:15: ItemlistElement for phrase : avrupa
+2017-01-05-09:06:15: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02j9z',
+     name: 'Avrupa',
+     '@type': [ 'Thing', 'AdministrativeArea', 'Place', 'Continent' ],
+     description: 'Kıta',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRgPeN1sue6XV1NyVAKU4gpVQJORLf2Kmljn8awWKGvFW9rs2O1',
+        url: 'https://commons.wikimedia.org/wiki/File:Europe.jpg' },
+     detailedDescription: 
+      { articleBody: 'Avrupa, Afrika\'nın kuzeyinde, Asya\'nın batısında ve Atlas Okyanusu\'nun doğusunda bulunan, yarımada şeklindeki kıta. Dünyanın en küçük ikinci kıtasıdır.',
+        url: 'https://tr.wikipedia.org/wiki/Avrupa',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 242.251633 }
+2017-01-05-09:06:15: Callback for phrase : avrupa
+2017-01-05-09:06:15: result of :avrupa
+2017-01-05-09:06:15: { '@id': 'kg:/m/02j9z',
+  name: 'Avrupa',
+  '@type': [ 'Thing', 'AdministrativeArea', 'Place', 'Continent' ],
+  description: 'Kıta',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRgPeN1sue6XV1NyVAKU4gpVQJORLf2Kmljn8awWKGvFW9rs2O1',
+     url: 'https://commons.wikimedia.org/wiki/File:Europe.jpg' },
+  detailedDescription: 
+   { articleBody: 'Avrupa, Afrika\'nın kuzeyinde, Asya\'nın batısında ve Atlas Okyanusu\'nun doğusunda bulunan, yarımada şeklindeki kıta. Dünyanın en küçük ikinci kıtasıdır.',
+     url: 'https://tr.wikipedia.org/wiki/Avrupa',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-05-09:06:15: https://www.googleapis.com/customsearch/v1?q=Avrupa&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:15: received_result_no=1
+2017-01-05-09:06:15: finish
+2017-01-05-09:06:15: process is finished
+2017-01-05-09:06:15: -----------------Printed Results------------------------
+2017-01-05-09:06:15: Avrupa
+2017-01-05-09:06:21: message: zeki müren
+2017-01-05-09:06:21: SearchTerm from OZ:zeki müren
+2017-01-05-09:06:21: State machine is initialized with input: 
+2017-01-05-09:06:21: zeki müren
+2017-01-05-09:06:21: Searching for phrase :zeki müren
+2017-01-05-09:06:22: Response for phrase :zeki müren
+
+2017-01-05-09:06:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 613.585693 } ] }
+2017-01-05-09:06:22: ItemlistElement for phrase : zeki müren
+2017-01-05-09:06:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 613.585693 }
+2017-01-05-09:06:22: Callback for phrase : zeki müren
+2017-01-05-09:06:22: result of :zeki müren
+2017-01-05-09:06:22: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2017-01-05-09:06:22: https://www.googleapis.com/customsearch/v1?q=Zeki Müren&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:22: received_result_no=1
+2017-01-05-09:06:22: finish
+2017-01-05-09:06:22: process is finished
+2017-01-05-09:06:22: -----------------Printed Results------------------------
+2017-01-05-09:06:22: Zeki Müren
+2017-01-05-09:06:24: 2: slide right gesture is called
+2017-01-05-09:06:26: 2: slide right gesture is called
+2017-01-05-09:06:29: AftermoveSectionUp section_count is: 0
+2017-01-05-09:06:30: message: orhan baba
+2017-01-05-09:06:30: SearchTerm from OZ:orhan baba
+2017-01-05-09:06:30: State machine is initialized with input: 
+2017-01-05-09:06:30: orhan baba
+2017-01-05-09:06:30: Searching for phrase :orhan baba
+2017-01-05-09:06:31: Response for phrase :orhan baba
+
+2017-01-05-09:06:31: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-05-09:06:31: ItemlistElement for phrase : orhan baba
+2017-01-05-09:06:31: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-05-09:06:31: Callback for phrase : orhan baba
+2017-01-05-09:06:31: result of :orhan baba
+2017-01-05-09:06:31: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-05-09:06:31: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:31: received_result_no=1
+2017-01-05-09:06:31: finish
+2017-01-05-09:06:31: process is finished
+2017-01-05-09:06:31: -----------------Printed Results------------------------
+2017-01-05-09:06:31: Orhan Gencebay
+2017-01-05-09:06:42: message: orhan baba
+2017-01-05-09:06:42: SearchTerm from OZ:orhan baba
+2017-01-05-09:06:42: State machine is initialized with input: 
+2017-01-05-09:06:42: orhan baba
+2017-01-05-09:06:42: Searching for phrase :orhan baba
+2017-01-05-09:06:42: Response for phrase :orhan baba
+
+2017-01-05-09:06:42: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-05-09:06:42: ItemlistElement for phrase : orhan baba
+2017-01-05-09:06:42: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-05-09:06:42: Callback for phrase : orhan baba
+2017-01-05-09:06:42: result of :orhan baba
+2017-01-05-09:06:42: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-05-09:06:42: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:42: received_result_no=1
+2017-01-05-09:06:42: finish
+2017-01-05-09:06:42: process is finished
+2017-01-05-09:06:42: -----------------Printed Results------------------------
+2017-01-05-09:06:42: Orhan Gencebay
+2017-01-05-09:06:47: message: orhan gencebay
+2017-01-05-09:06:47: SearchTerm from OZ:orhan gencebay
+2017-01-05-09:06:47: State machine is initialized with input: 
+2017-01-05-09:06:47: orhan gencebay
+2017-01-05-09:06:47: Searching for phrase :orhan gencebay
+2017-01-05-09:06:47: Response for phrase :orhan gencebay
+
+2017-01-05-09:06:47: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 595.95874 } ] }
+2017-01-05-09:06:47: ItemlistElement for phrase : orhan gencebay
+2017-01-05-09:06:47: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 595.95874 }
+2017-01-05-09:06:47: Callback for phrase : orhan gencebay
+2017-01-05-09:06:47: result of :orhan gencebay
+2017-01-05-09:06:47: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-05-09:06:47: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:06:47: received_result_no=1
+2017-01-05-09:06:47: finish
+2017-01-05-09:06:47: process is finished
+2017-01-05-09:06:47: -----------------Printed Results------------------------
+2017-01-05-09:06:47: Orhan Gencebay
+2017-01-05-09:07:06: AftermoveSectionDown section_count is: 1
+2017-01-05-09:07:20: AftermoveSectionDown section_count is: 1
+2017-01-05-09:07:23: section_count is:0
+2017-01-05-09:07:23: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:07:23: AftermoveSectionUp section_count is: 0
+2017-01-05-09:07:23: AftermoveSectionUp section_count is: 0
+2017-01-05-09:07:51: message: 
+2017-01-05-09:07:51: SearchTerm from OZ:
+2017-01-05-09:09:33: AftermoveSectionUp section_count is: 0
+2017-01-05-09:09:35: AftermoveSectionDown section_count is: 1
+2017-01-05-09:09:39: 2: slide right gesture is called
+2017-01-05-09:09:41: section_count is:0
+2017-01-05-09:09:41: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:09:41: AftermoveSectionUp section_count is: 0
+2017-01-05-09:09:42: AftermoveSectionDown section_count is: 1
+2017-01-05-09:09:42: section_count is:0
+2017-01-05-09:09:42: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:09:42: AftermoveSectionUp section_count is: 0
+2017-01-05-09:09:43: 1: slide right gesture is called
+2017-01-05-09:09:57: AftermoveSectionUp section_count is: 0
+2017-01-05-09:09:58: 2: slide left gesture is called
+2017-01-05-09:10:00: 2: slide right gesture is called
+2017-01-05-09:10:02: 2: slide left gesture is called
+2017-01-05-09:10:04: 2: slide right gesture is called
+2017-01-05-09:10:04: 2: slide right gesture is called
+2017-01-05-09:10:05: AftermoveSectionDown section_count is: 1
+2017-01-05-09:10:05: AftermoveSectionDown section_count is: 1
+2017-01-05-09:10:05: section_count is:0
+2017-01-05-09:10:05: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:10:05: AftermoveSectionUp section_count is: 0
+2017-01-05-09:10:05: AftermoveSectionDown section_count is: 1
+2017-01-05-09:10:06: AftermoveSectionDown section_count is: 1
+2017-01-05-09:10:06: section_count is:0
+2017-01-05-09:10:06: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-05-09:10:06: AftermoveSectionUp section_count is: 0
+2017-01-05-09:10:07: AftermoveSectionDown section_count is: 1
+2017-01-05-09:10:07: AftermoveSectionDown section_count is: 1

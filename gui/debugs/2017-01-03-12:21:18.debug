@@ -1,0 +1,802 @@
+2017-01-03-12:21:28: 2: slide right gesture is called
+2017-01-03-12:21:28: 2: slide right gesture is called
+2017-01-03-12:21:29: 2: slide right gesture is called
+2017-01-03-12:21:31: 1: slide left gesture is called
+2017-01-03-12:21:32: 1: slide left gesture is called
+2017-01-03-12:21:32: 1: slide left gesture is called
+2017-01-03-12:21:47: 2: slide right gesture is called
+2017-01-03-12:21:47: 2: slide right gesture is called
+2017-01-03-12:21:48: 2: slide right gesture is called
+2017-01-03-12:21:49: AftermoveSectionUp section_count is: 0
+2017-01-03-12:21:51: 2: slide left gesture is called
+2017-01-03-12:21:51: 2: slide left gesture is called
+2017-01-03-12:21:54: 1: slide right gesture is called
+2017-01-03-12:21:55: AftermoveSectionUp section_count is: 0
+2017-01-03-12:21:55: 1: slide right gesture is called
+2017-01-03-12:21:56: 1: slide left gesture is called
+2017-01-03-12:21:56: 1: slide left gesture is called
+2017-01-03-12:21:57: 1: slide left gesture is called
+2017-01-03-12:21:57: 1: slide left gesture is called
+2017-01-03-12:21:59: 1: slide right gesture is called
+2017-01-03-12:21:59: 1: slide right gesture is called
+2017-01-03-12:22:00: 1: slide right gesture is called
+2017-01-03-12:22:00: 1: slide right gesture is called
+2017-01-03-12:22:01: 1: slide left gesture is called
+2017-01-03-12:22:02: 1: slide left gesture is called
+2017-01-03-12:22:03: 1: slide left gesture is called
+2017-01-03-12:22:05: 2: slide left gesture is called
+2017-01-03-12:22:06: 2: slide right gesture is called
+2017-01-03-12:22:07: 2: slide left gesture is called
+2017-01-03-12:23:08: message: 
+2017-01-03-12:23:08: SearchTerm from OZ:
+2017-01-03-12:23:12: AftermoveSectionDown section_count is: 0
+2017-01-03-12:23:58: message: anlam, kelime
+2017-01-03-12:23:58: SearchTerm from OZ:anlam, kelime
+2017-01-03-12:23:58: State machine is initialized with input: 
+2017-01-03-12:23:58: anlam, kelime
+2017-01-03-12:23:58: Searching for phrase :anlam
+2017-01-03-12:23:59: Response for phrase :anlam
+
+2017-01-03-12:23:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 10.397612 } ] }
+2017-01-03-12:23:59: ItemlistElement for phrase : anlam
+2017-01-03-12:23:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/1s05vjxdn',
+     name: 'Anlam',
+     '@type': [ 'Thing' ],
+     description: 'Harcıalem\'in şarkısı' },
+  resultScore: 10.397612 }
+2017-01-03-12:23:59: Callback for phrase : anlam
+2017-01-03-12:23:59: result of :anlam
+2017-01-03-12:23:59: { '@id': 'kg:/g/1s05vjxdn',
+  name: 'Anlam',
+  '@type': [ 'Thing' ],
+  description: 'Harcıalem\'in şarkısı' }
+2017-01-03-12:23:59: https://www.googleapis.com/customsearch/v1?q=Anlam&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:23:59: received_result_no=1
+2017-01-03-12:23:59: Searching for phrase : kelime
+2017-01-03-12:24:00: Response for phrase : kelime
+
+2017-01-03-12:24:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 15.949548 } ] }
+2017-01-03-12:24:00: ItemlistElement for phrase :  kelime
+2017-01-03-12:24:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/113qbfmmx',
+     name: 'Kelime Oyunu',
+     '@type': [ 'TVSeries', 'Thing' ],
+     description: 'TV Programı',
+     detailedDescription: 
+      { articleBody: 'Kelime Oyunu, sunuculuğunu Ali İhsan Varol\'un yaptığı, sırasıyla Kanal 1, Bloomberg HT ve Show TV\'de yayınlanmış olan yarışma programıdır.',
+        url: 'https://tr.wikipedia.org/wiki/Kelime_Oyunu',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 15.949548 }
+2017-01-03-12:24:00: Callback for phrase :  kelime
+2017-01-03-12:24:00: result of : kelime
+2017-01-03-12:24:00: { '@id': 'kg:/g/113qbfmmx',
+  name: 'Kelime Oyunu',
+  '@type': [ 'TVSeries', 'Thing' ],
+  description: 'TV Programı',
+  detailedDescription: 
+   { articleBody: 'Kelime Oyunu, sunuculuğunu Ali İhsan Varol\'un yaptığı, sırasıyla Kanal 1, Bloomberg HT ve Show TV\'de yayınlanmış olan yarışma programıdır.',
+     url: 'https://tr.wikipedia.org/wiki/Kelime_Oyunu',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:24:00: received_result_no=2
+2017-01-03-12:24:00: finish
+2017-01-03-12:24:00: process is finished
+2017-01-03-12:24:00: -----------------Printed Results------------------------
+2017-01-03-12:24:00: Anlam
+2017-01-03-12:24:00: Kelime Oyunu
+2017-01-03-12:24:02: section_count is:1
+2017-01-03-12:24:02: AftermoveSectionDown section_count is: 1
+2017-01-03-12:24:02: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:02: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:03: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:03: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:03: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:04: 2: slide left gesture is called
+2017-01-03-12:24:05: 2: slide left gesture is called
+2017-01-03-12:24:07: 1: slide right gesture is called
+2017-01-03-12:24:07: 1: slide right gesture is called
+2017-01-03-12:24:08: 1: slide right gesture is called
+2017-01-03-12:24:08: 2: slide right gesture is called
+2017-01-03-12:24:09: 2: slide right gesture is called
+2017-01-03-12:24:11: 1: slide right gesture is called
+2017-01-03-12:24:12: 2: slide left gesture is called
+2017-01-03-12:24:12: 2: slide left gesture is called
+2017-01-03-12:24:13: section_count is:1
+2017-01-03-12:24:13: AftermoveSectionUp section_count is: 1
+2017-01-03-12:24:14: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:15: section_count is:1
+2017-01-03-12:24:15: AftermoveSectionUp section_count is: 1
+2017-01-03-12:24:15: section_count is:0
+2017-01-03-12:24:15: AftermoveSectionUp section_count is: 0
+2017-01-03-12:24:16: 2: slide left gesture is called
+2017-01-03-12:24:16: 2: slide left gesture is called
+2017-01-03-12:24:17: 2: slide right gesture is called
+2017-01-03-12:24:17: 2: slide right gesture is called
+2017-01-03-12:24:19: 1: slide right gesture is called
+2017-01-03-12:24:19: 1: slide right gesture is called
+2017-01-03-12:24:20: 1: slide left gesture is called
+2017-01-03-12:24:21: section_count is:1
+2017-01-03-12:24:21: AftermoveSectionDown section_count is: 1
+2017-01-03-12:24:22: section_count is:0
+2017-01-03-12:24:22: AftermoveSectionUp section_count is: 0
+2017-01-03-12:24:23: 2: slide left gesture is called
+2017-01-03-12:24:23: 2: slide left gesture is called
+2017-01-03-12:24:23: 2: slide left gesture is called
+2017-01-03-12:24:24: 2: slide left gesture is called
+2017-01-03-12:24:25: 1: slide right gesture is called
+2017-01-03-12:24:26: 1: slide right gesture is called
+2017-01-03-12:24:26: 1: slide right gesture is called
+2017-01-03-12:24:26: 1: slide right gesture is called
+2017-01-03-12:24:27: section_count is:1
+2017-01-03-12:24:27: AftermoveSectionDown section_count is: 1
+2017-01-03-12:24:40: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:40: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:40: section_count is:1
+2017-01-03-12:24:40: AftermoveSectionUp section_count is: 1
+2017-01-03-12:24:41: section_count is:0
+2017-01-03-12:24:41: AftermoveSectionUp section_count is: 0
+2017-01-03-12:24:47: section_count is:1
+2017-01-03-12:24:47: AftermoveSectionDown section_count is: 1
+2017-01-03-12:24:49: AftermoveSectionDown section_count is: 2
+2017-01-03-12:24:50: section_count is:1
+2017-01-03-12:24:50: AftermoveSectionUp section_count is: 1
+2017-01-03-12:24:50: section_count is:0
+2017-01-03-12:24:50: AftermoveSectionUp section_count is: 0
+2017-01-03-12:24:50: AftermoveSectionUp section_count is: 0
+2017-01-03-12:24:51: 2: slide left gesture is called
+2017-01-03-12:24:51: 2: slide left gesture is called
+2017-01-03-12:24:52: 2: slide right gesture is called
+2017-01-03-12:24:54: 1: slide right gesture is called
+2017-01-03-12:24:55: 1: slide right gesture is called
+2017-01-03-12:24:55: 1: slide right gesture is called
+2017-01-03-12:24:55: 1: slide right gesture is called
+2017-01-03-12:24:56: message: orhan boba, ozan güven, müslüm baba
+2017-01-03-12:24:56: SearchTerm from OZ:orhan boba, ozan güven, müslüm baba
+2017-01-03-12:24:56: State machine is initialized with input: 
+2017-01-03-12:24:56: orhan boba, ozan güven, müslüm baba
+2017-01-03-12:24:56: Searching for phrase :orhan boba
+2017-01-03-12:24:56: Response for phrase :orhan boba
+
+2017-01-03-12:24:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-01-03-12:24:56: ItemlistElement for phrase : orhan boba
+2017-01-03-12:24:56: undefined
+2017-01-03-12:24:56: Failed callback for phrase : orhan boba
+
+2017-01-03-12:24:56: nothing found for :orhan boba
+2017-01-03-12:24:56: Searching for phrase : ozan güven
+2017-01-03-12:24:57: Response for phrase : ozan güven
+
+2017-01-03-12:24:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 431.181824 } ] }
+2017-01-03-12:24:57: ItemlistElement for phrase :  ozan güven
+2017-01-03-12:24:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Dizi oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 431.181824 }
+2017-01-03-12:24:57: Callback for phrase :  ozan güven
+2017-01-03-12:24:57: result of : ozan güven
+2017-01-03-12:24:57: { '@id': 'kg:/m/0fq0b9t',
+  name: 'Ozan Güven',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Dizi oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:24:57: https://www.googleapis.com/customsearch/v1?q=Ozan Güven&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:24:57: received_result_no=1
+2017-01-03-12:24:57: Searching for phrase : müslüm baba
+2017-01-03-12:24:57: Response for phrase : müslüm baba
+
+2017-01-03-12:24:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 300.252716 } ] }
+2017-01-03-12:24:57: ItemlistElement for phrase :  müslüm baba
+2017-01-03-12:24:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/073s6b',
+     name: 'Müslüm Gürses',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Müzisyen',
+     detailedDescription: 
+      { articleBody: 'Müslüm Gürses ya da gerçek adı ile Müslüm Akbaş, Türkmen asıllı arabesk ve Türk halk müzisyeni. Müzik dünyasında ‘‘Müslüm Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/M%C3%BCsl%C3%BCm_G%C3%BCrses',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 300.252716 }
+2017-01-03-12:24:57: Callback for phrase :  müslüm baba
+2017-01-03-12:24:57: result of : müslüm baba
+2017-01-03-12:24:57: { '@id': 'kg:/m/073s6b',
+  name: 'Müslüm Gürses',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Müzisyen',
+  detailedDescription: 
+   { articleBody: 'Müslüm Gürses ya da gerçek adı ile Müslüm Akbaş, Türkmen asıllı arabesk ve Türk halk müzisyeni. Müzik dünyasında ‘‘Müslüm Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/M%C3%BCsl%C3%BCm_G%C3%BCrses',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:24:57: received_result_no=2
+2017-01-03-12:24:57: finish
+2017-01-03-12:24:57: process is finished
+2017-01-03-12:24:57: -----------------Printed Results------------------------
+2017-01-03-12:24:57: Ozan Güven
+2017-01-03-12:24:57: Müslüm Gürses
+2017-01-03-12:25:01: section_count is:1
+2017-01-03-12:25:01: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:03: 2: slide left gesture is called
+2017-01-03-12:25:04: 2: slide right gesture is called
+2017-01-03-12:25:04: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:05: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:05: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:05: section_count is:1
+2017-01-03-12:25:05: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:06: section_count is:0
+2017-01-03-12:25:06: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:06: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:07: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:07: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:07: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:08: section_count is:1
+2017-01-03-12:25:08: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:08: section_count is:0
+2017-01-03-12:25:08: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:08: section_count is:1
+2017-01-03-12:25:08: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:08: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:08: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:10: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:10: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:10: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:10: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:10: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:11: section_count is:1
+2017-01-03-12:25:11: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:14: 1: slide right gesture is called
+2017-01-03-12:25:14: 1: slide left gesture is called
+2017-01-03-12:25:14: 1: slide left gesture is called
+2017-01-03-12:25:15: 1: slide left gesture is called
+2017-01-03-12:25:15: 1: slide left gesture is called
+2017-01-03-12:25:17: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:17: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:18: section_count is:1
+2017-01-03-12:25:18: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:18: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:19: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:19: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:19: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:20: message: orhan baba, ozan güven, müslüm baba
+2017-01-03-12:25:20: SearchTerm from OZ:orhan baba, ozan güven, müslüm baba
+2017-01-03-12:25:20: State machine is initialized with input: 
+2017-01-03-12:25:20: orhan baba, ozan güven, müslüm baba
+2017-01-03-12:25:20: Searching for phrase :orhan baba
+2017-01-03-12:25:20: section_count is:1
+2017-01-03-12:25:20: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:20: section_count is:0
+2017-01-03-12:25:20: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:20: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:20: Response for phrase :orhan baba
+
+2017-01-03-12:25:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-03-12:25:20: ItemlistElement for phrase : orhan baba
+2017-01-03-12:25:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-03-12:25:20: Callback for phrase : orhan baba
+2017-01-03-12:25:20: result of :orhan baba
+2017-01-03-12:25:20: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-03-12:25:20: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:25:20: received_result_no=1
+2017-01-03-12:25:20: Searching for phrase : ozan güven
+2017-01-03-12:25:20: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:20: AftermoveSectionDown section_count is: 0
+2017-01-03-12:25:20: Response for phrase : ozan güven
+
+2017-01-03-12:25:20: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 431.181824 } ] }
+2017-01-03-12:25:20: ItemlistElement for phrase :  ozan güven
+2017-01-03-12:25:20: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Dizi oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 431.181824 }
+2017-01-03-12:25:20: Callback for phrase :  ozan güven
+2017-01-03-12:25:20: result of : ozan güven
+2017-01-03-12:25:20: { '@id': 'kg:/m/0fq0b9t',
+  name: 'Ozan Güven',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Dizi oyuncusu',
+  detailedDescription: 
+   { articleBody: 'Ozan Muharrem Güven, Türk dizi, sinema ve tiyatro oyuncusu.',
+     url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:25:20: received_result_no=2
+2017-01-03-12:25:20: Searching for phrase : müslüm baba
+2017-01-03-12:25:21: Response for phrase : müslüm baba
+
+2017-01-03-12:25:21: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 300.252716 } ] }
+2017-01-03-12:25:21: ItemlistElement for phrase :  müslüm baba
+2017-01-03-12:25:21: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/073s6b',
+     name: 'Müslüm Gürses',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Müzisyen',
+     detailedDescription: 
+      { articleBody: 'Müslüm Gürses ya da gerçek adı ile Müslüm Akbaş, Türkmen asıllı arabesk ve Türk halk müzisyeni. Müzik dünyasında ‘‘Müslüm Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/M%C3%BCsl%C3%BCm_G%C3%BCrses',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 300.252716 }
+2017-01-03-12:25:21: Callback for phrase :  müslüm baba
+2017-01-03-12:25:21: result of : müslüm baba
+2017-01-03-12:25:21: { '@id': 'kg:/m/073s6b',
+  name: 'Müslüm Gürses',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Müzisyen',
+  detailedDescription: 
+   { articleBody: 'Müslüm Gürses ya da gerçek adı ile Müslüm Akbaş, Türkmen asıllı arabesk ve Türk halk müzisyeni. Müzik dünyasında ‘‘Müslüm Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/M%C3%BCsl%C3%BCm_G%C3%BCrses',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:25:21: received_result_no=3
+2017-01-03-12:25:21: finish
+2017-01-03-12:25:21: process is finished
+2017-01-03-12:25:21: -----------------Printed Results------------------------
+2017-01-03-12:25:21: Orhan Gencebay
+2017-01-03-12:25:21: Ozan Güven
+2017-01-03-12:25:21: Müslüm Gürses
+2017-01-03-12:25:22: section_count is:1
+2017-01-03-12:25:22: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:22: section_count is:2
+2017-01-03-12:25:22: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:22: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:23: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:23: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:23: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:23: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:24: section_count is:2
+2017-01-03-12:25:24: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:24: section_count is:1
+2017-01-03-12:25:24: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:25: section_count is:0
+2017-01-03-12:25:25: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:25: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:25: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:26: section_count is:1
+2017-01-03-12:25:26: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:27: section_count is:2
+2017-01-03-12:25:27: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:28: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:28: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:29: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:29: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:29: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:30: section_count is:2
+2017-01-03-12:25:30: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:30: section_count is:1
+2017-01-03-12:25:30: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:31: section_count is:2
+2017-01-03-12:25:31: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:32: section_count is:1
+2017-01-03-12:25:32: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:34: section_count is:0
+2017-01-03-12:25:34: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:34: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:35: section_count is:1
+2017-01-03-12:25:35: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:37: section_count is:2
+2017-01-03-12:25:37: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:37: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:38: section_count is:2
+2017-01-03-12:25:38: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:39: section_count is:1
+2017-01-03-12:25:39: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:39: section_count is:2
+2017-01-03-12:25:39: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:40: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:42: 1: slide right gesture is called
+2017-01-03-12:25:42: 1: slide right gesture is called
+2017-01-03-12:25:43: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:43: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:44: section_count is:2
+2017-01-03-12:25:44: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:44: section_count is:1
+2017-01-03-12:25:44: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:44: section_count is:2
+2017-01-03-12:25:44: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:46: 2: slide left gesture is called
+2017-01-03-12:25:47: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:48: section_count is:2
+2017-01-03-12:25:48: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:48: section_count is:1
+2017-01-03-12:25:48: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:48: section_count is:2
+2017-01-03-12:25:48: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:50: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:51: section_count is:2
+2017-01-03-12:25:51: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:51: section_count is:1
+2017-01-03-12:25:51: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:52: section_count is:2
+2017-01-03-12:25:52: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:52: section_count is:1
+2017-01-03-12:25:52: AftermoveSectionUp section_count is: 1
+2017-01-03-12:25:52: section_count is:0
+2017-01-03-12:25:52: AftermoveSectionUp section_count is: 0
+2017-01-03-12:25:53: section_count is:1
+2017-01-03-12:25:53: AftermoveSectionDown section_count is: 1
+2017-01-03-12:25:54: 1: slide right gesture is called
+2017-01-03-12:25:54: 1: slide right gesture is called
+2017-01-03-12:25:55: section_count is:2
+2017-01-03-12:25:55: AftermoveSectionDown section_count is: 2
+2017-01-03-12:25:55: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:56: 1: slide right gesture is called
+2017-01-03-12:25:56: 1: slide right gesture is called
+2017-01-03-12:25:57: 1: slide right gesture is called
+2017-01-03-12:25:57: 1: slide right gesture is called
+2017-01-03-12:25:57: 1: slide left gesture is called
+2017-01-03-12:25:58: AftermoveSectionDown section_count is: 3
+2017-01-03-12:25:59: section_count is:2
+2017-01-03-12:25:59: AftermoveSectionUp section_count is: 2
+2017-01-03-12:25:59: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:00: section_count is:2
+2017-01-03-12:26:00: AftermoveSectionUp section_count is: 2
+2017-01-03-12:26:00: section_count is:1
+2017-01-03-12:26:00: AftermoveSectionUp section_count is: 1
+2017-01-03-12:26:00: section_count is:0
+2017-01-03-12:26:00: AftermoveSectionUp section_count is: 0
+2017-01-03-12:26:01: 1: slide right gesture is called
+2017-01-03-12:26:01: 1: slide right gesture is called
+2017-01-03-12:26:03: 1: slide right gesture is called
+2017-01-03-12:26:04: 1: slide left gesture is called
+2017-01-03-12:26:05: 1: slide left gesture is called
+2017-01-03-12:26:07: section_count is:1
+2017-01-03-12:26:07: AftermoveSectionDown section_count is: 1
+2017-01-03-12:26:08: 2: slide left gesture is called
+2017-01-03-12:26:08: 2: slide left gesture is called
+2017-01-03-12:26:09: 1: slide right gesture is called
+2017-01-03-12:26:10: section_count is:2
+2017-01-03-12:26:10: AftermoveSectionDown section_count is: 2
+2017-01-03-12:26:10: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:10: section_count is:2
+2017-01-03-12:26:10: AftermoveSectionUp section_count is: 2
+2017-01-03-12:26:12: 1: slide right gesture is called
+2017-01-03-12:26:12: 1: slide right gesture is called
+2017-01-03-12:26:16: section_count is:1
+2017-01-03-12:26:16: AftermoveSectionUp section_count is: 1
+2017-01-03-12:26:17: section_count is:2
+2017-01-03-12:26:17: AftermoveSectionDown section_count is: 2
+2017-01-03-12:26:17: 1: slide right gesture is called
+2017-01-03-12:26:18: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:18: 1: slide left gesture is called
+2017-01-03-12:26:19: 1: slide right gesture is called
+2017-01-03-12:26:20: section_count is:2
+2017-01-03-12:26:20: AftermoveSectionUp section_count is: 2
+2017-01-03-12:26:20: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:20: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:22: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:22: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:22: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:22: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:24: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:24: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:24: section_count is:2
+2017-01-03-12:26:24: AftermoveSectionUp section_count is: 2
+2017-01-03-12:26:24: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:25: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:25: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:25: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:26: section_count is:2
+2017-01-03-12:26:26: AftermoveSectionUp section_count is: 2
+2017-01-03-12:26:26: section_count is:1
+2017-01-03-12:26:26: AftermoveSectionUp section_count is: 1
+2017-01-03-12:26:28: 1: slide right gesture is called
+2017-01-03-12:26:29: 1: slide left gesture is called
+2017-01-03-12:26:29: 1: slide left gesture is called
+2017-01-03-12:26:30: section_count is:0
+2017-01-03-12:26:30: AftermoveSectionUp section_count is: 0
+2017-01-03-12:26:30: 1: slide left gesture is called
+2017-01-03-12:26:31: section_count is:1
+2017-01-03-12:26:31: AftermoveSectionDown section_count is: 1
+2017-01-03-12:26:31: section_count is:2
+2017-01-03-12:26:31: AftermoveSectionDown section_count is: 2
+2017-01-03-12:26:33: 1: slide right gesture is called
+2017-01-03-12:26:34: 1: slide right gesture is called
+2017-01-03-12:26:34: 1: slide right gesture is called
+2017-01-03-12:26:34: 1: slide right gesture is called
+2017-01-03-12:26:35: 1: slide right gesture is called
+2017-01-03-12:26:35: 1: slide right gesture is called
+2017-01-03-12:26:35: 1: slide right gesture is called
+2017-01-03-12:26:35: 1: slide right gesture is called
+2017-01-03-12:26:35: 1: slide right gesture is called
+2017-01-03-12:26:36: 1: slide right gesture is called
+2017-01-03-12:26:37: 1: slide right gesture is called
+2017-01-03-12:26:37: 1: slide right gesture is called
+2017-01-03-12:26:37: AftermoveSectionDown section_count is: 3
+2017-01-03-12:26:38: 1: slide right gesture is called
+2017-01-03-12:26:38: 1: slide right gesture is called
+2017-01-03-12:26:38: 1: slide right gesture is called
+2017-01-03-12:26:38: 1: slide right gesture is called
+2017-01-03-12:26:38: 1: slide left gesture is called
+2017-01-03-12:26:39: 1: slide left gesture is called
+2017-01-03-12:26:39: 1: slide left gesture is called
+2017-01-03-12:27:30: AftermoveSectionDown section_count is: 3
+2017-01-03-12:27:30: AftermoveSectionDown section_count is: 3
+2017-01-03-12:27:30: AftermoveSectionDown section_count is: 3
+2017-01-03-12:27:30: AftermoveSectionDown section_count is: 3
+2017-01-03-12:27:31: AftermoveSectionDown section_count is: 3
+2017-01-03-12:27:33: section_count is:2
+2017-01-03-12:27:33: AftermoveSectionUp section_count is: 2
+2017-01-03-12:27:33: section_count is:1
+2017-01-03-12:27:33: AftermoveSectionUp section_count is: 1
+2017-01-03-12:27:33: section_count is:0
+2017-01-03-12:27:33: AftermoveSectionUp section_count is: 0
+2017-01-03-12:27:33: section_count is:1
+2017-01-03-12:27:33: AftermoveSectionDown section_count is: 1
+2017-01-03-12:27:34: 2: slide left gesture is called
+2017-01-03-12:27:35: 2: slide right gesture is called
+2017-01-03-12:27:35: 2: slide right gesture is called
+2017-01-03-12:27:36: section_count is:0
+2017-01-03-12:27:36: AftermoveSectionUp section_count is: 0
+2017-01-03-12:27:37: section_count is:1
+2017-01-03-12:27:37: AftermoveSectionDown section_count is: 1
+2017-01-03-12:27:44: 2: slide right gesture is called
+2017-01-03-12:28:03: section_count is:2
+2017-01-03-12:28:03: AftermoveSectionDown section_count is: 2
+2017-01-03-12:28:03: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:05: 2: slide right gesture is called
+2017-01-03-12:28:05: 2: slide right gesture is called
+2017-01-03-12:28:06: 2: slide left gesture is called
+2017-01-03-12:28:20: 1: slide left gesture is called
+2017-01-03-12:28:21: 1: slide left gesture is called
+2017-01-03-12:28:22: 2: slide left gesture is called
+2017-01-03-12:28:23: section_count is:2
+2017-01-03-12:28:23: AftermoveSectionUp section_count is: 2
+2017-01-03-12:28:24: 2: slide left gesture is called
+2017-01-03-12:28:25: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:26: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:27: section_count is:2
+2017-01-03-12:28:27: AftermoveSectionUp section_count is: 2
+2017-01-03-12:28:27: section_count is:1
+2017-01-03-12:28:27: AftermoveSectionUp section_count is: 1
+2017-01-03-12:28:27: section_count is:0
+2017-01-03-12:28:27: AftermoveSectionUp section_count is: 0
+2017-01-03-12:28:28: 2: slide left gesture is called
+2017-01-03-12:28:28: 2: slide left gesture is called
+2017-01-03-12:28:28: 2: slide left gesture is called
+2017-01-03-12:28:28: 2: slide left gesture is called
+2017-01-03-12:28:28: 2: slide left gesture is called
+2017-01-03-12:28:29: 2: slide left gesture is called
+2017-01-03-12:28:29: 2: slide left gesture is called
+2017-01-03-12:28:29: 2: slide left gesture is called
+2017-01-03-12:28:29: 2: slide left gesture is called
+2017-01-03-12:28:30: 2: slide right gesture is called
+2017-01-03-12:28:30: 2: slide right gesture is called
+2017-01-03-12:28:31: 2: slide right gesture is called
+2017-01-03-12:28:31: 2: slide right gesture is called
+2017-01-03-12:28:31: section_count is:1
+2017-01-03-12:28:31: AftermoveSectionDown section_count is: 1
+2017-01-03-12:28:31: section_count is:2
+2017-01-03-12:28:31: AftermoveSectionDown section_count is: 2
+2017-01-03-12:28:32: section_count is:1
+2017-01-03-12:28:32: AftermoveSectionUp section_count is: 1
+2017-01-03-12:28:34: 2: slide left gesture is called
+2017-01-03-12:28:34: 2: slide left gesture is called
+2017-01-03-12:28:34: 2: slide left gesture is called
+2017-01-03-12:28:34: 2: slide left gesture is called
+2017-01-03-12:28:35: 2: slide right gesture is called
+2017-01-03-12:28:35: 2: slide right gesture is called
+2017-01-03-12:28:35: 2: slide right gesture is called
+2017-01-03-12:28:36: 2: slide right gesture is called
+2017-01-03-12:28:36: 2: slide right gesture is called
+2017-01-03-12:28:37: section_count is:2
+2017-01-03-12:28:37: AftermoveSectionDown section_count is: 2
+2017-01-03-12:28:38: 2: slide left gesture is called
+2017-01-03-12:28:38: 2: slide left gesture is called
+2017-01-03-12:28:39: 2: slide right gesture is called
+2017-01-03-12:28:40: section_count is:1
+2017-01-03-12:28:40: AftermoveSectionUp section_count is: 1
+2017-01-03-12:28:40: section_count is:0
+2017-01-03-12:28:40: AftermoveSectionUp section_count is: 0
+2017-01-03-12:28:41: 2: slide left gesture is called
+2017-01-03-12:28:41: 2: slide left gesture is called
+2017-01-03-12:28:41: 2: slide right gesture is called
+2017-01-03-12:28:42: 2: slide right gesture is called
+2017-01-03-12:28:42: section_count is:1
+2017-01-03-12:28:42: AftermoveSectionDown section_count is: 1
+2017-01-03-12:28:42: section_count is:2
+2017-01-03-12:28:42: AftermoveSectionDown section_count is: 2
+2017-01-03-12:28:43: section_count is:1
+2017-01-03-12:28:43: AftermoveSectionUp section_count is: 1
+2017-01-03-12:28:43: section_count is:0
+2017-01-03-12:28:43: AftermoveSectionUp section_count is: 0
+2017-01-03-12:28:45: section_count is:1
+2017-01-03-12:28:45: AftermoveSectionDown section_count is: 1
+2017-01-03-12:28:46: 2: slide left gesture is called
+2017-01-03-12:28:46: 2: slide left gesture is called
+2017-01-03-12:28:47: 2: slide left gesture is called
+2017-01-03-12:28:48: 2: slide right gesture is called
+2017-01-03-12:28:48: 2: slide right gesture is called
+2017-01-03-12:28:49: 2: slide right gesture is called
+2017-01-03-12:28:49: 2: slide right gesture is called
+2017-01-03-12:28:49: 2: slide right gesture is called
+2017-01-03-12:28:49: section_count is:2
+2017-01-03-12:28:49: AftermoveSectionDown section_count is: 2
+2017-01-03-12:28:49: AftermoveSectionDown section_count is: 3
+2017-01-03-12:28:50: section_count is:2
+2017-01-03-12:28:50: AftermoveSectionUp section_count is: 2
+2017-01-03-12:28:50: section_count is:1
+2017-01-03-12:28:50: AftermoveSectionUp section_count is: 1
+2017-01-03-12:28:50: section_count is:0
+2017-01-03-12:28:50: AftermoveSectionUp section_count is: 0
+2017-01-03-12:28:51: AftermoveSectionUp section_count is: 0
+2017-01-03-12:28:51: 2: slide left gesture is called
+2017-01-03-12:28:52: 2: slide left gesture is called
+2017-01-03-12:28:52: 2: slide right gesture is called
+2017-01-03-12:28:53: 2: slide right gesture is called
+2017-01-03-12:28:53: 2: slide right gesture is called
+2017-01-03-12:28:54: section_count is:1
+2017-01-03-12:28:54: AftermoveSectionDown section_count is: 1
+2017-01-03-12:28:55: 2: slide left gesture is called
+2017-01-03-12:28:55: 2: slide right gesture is called
+2017-01-03-12:28:56: 2: slide right gesture is called
+2017-01-03-12:28:56: 2: slide right gesture is called
+2017-01-03-12:28:56: 2: slide right gesture is called
+2017-01-03-12:28:57: 2: slide right gesture is called
+2017-01-03-12:28:58: 2: slide left gesture is called
+2017-01-03-12:28:58: 2: slide left gesture is called
+2017-01-03-12:30:42: section_count is:0
+2017-01-03-12:30:42: AftermoveSectionUp section_count is: 0
+2017-01-03-12:30:43: section_count is:1
+2017-01-03-12:30:43: AftermoveSectionDown section_count is: 1
+2017-01-03-12:30:43: section_count is:2
+2017-01-03-12:30:43: AftermoveSectionDown section_count is: 2
+2017-01-03-12:30:45: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:45: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:45: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:46: 2: slide left gesture is called
+2017-01-03-12:30:47: 2: slide left gesture is called
+2017-01-03-12:30:48: 2: slide left gesture is called
+2017-01-03-12:30:48: 2: slide left gesture is called
+2017-01-03-12:30:49: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:49: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:49: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:49: section_count is:2
+2017-01-03-12:30:49: AftermoveSectionUp section_count is: 2
+2017-01-03-12:30:50: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:50: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:50: section_count is:2
+2017-01-03-12:30:50: AftermoveSectionUp section_count is: 2
+2017-01-03-12:30:50: section_count is:1
+2017-01-03-12:30:50: AftermoveSectionUp section_count is: 1
+2017-01-03-12:30:52: 2: slide left gesture is called
+2017-01-03-12:30:55: 2: slide right gesture is called
+2017-01-03-12:30:55: 2: slide right gesture is called
+2017-01-03-12:30:56: 2: slide left gesture is called
+2017-01-03-12:30:56: 2: slide left gesture is called
+2017-01-03-12:30:57: section_count is:2
+2017-01-03-12:30:57: AftermoveSectionDown section_count is: 2
+2017-01-03-12:30:57: AftermoveSectionDown section_count is: 3
+2017-01-03-12:30:58: AftermoveSectionDown section_count is: 3

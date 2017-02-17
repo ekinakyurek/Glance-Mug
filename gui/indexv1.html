@@ -246,19 +246,12 @@
                 document.getElementById("desc0").innerHTML = description;
                 document.getElementById("WikiData0").innerHTML = resultStorage[section_count]['detailedDescription']['articleBody'];
 
-                var url = "https://www.googleapis.com/customsearch/v1?q=" + name + "&num=" + count + "&start=" + startIndex + "&key=" + key + "&cx=" + cx + "&searchType=image";
-                my_console_log(url);
-                $.getJSON(url, function (image_data) {
-                    //imageArray.push(image_data.items.map(function (item) { return item.link; }));
-                    document.getElementById("img0").src = image_data.items[0].link;
-                    document.getElementById("img1").src = image_data.items[1].link;
-                    document.getElementById("img2").src = image_data.items[2].link;
-                    document.getElementById("img3").src = image_data.items[3].link;
-                    document.getElementById("img4").src = image_data.items[4].link;
-                });
 
-
-
+                document.getElementById("img0").src = imageArray[section_count][0];
+                document.getElementById("img1").src = imageArray[section_count][1];
+                document.getElementById("img2").src = imageArray[section_count][2];
+                document.getElementById("img3").src = imageArray[section_count][3];
+                document.getElementById("img4").src = imageArray[section_count][4];
             }
             var log_direction = direction ? 'moveSectionUp' : 'moveSectionDown';
             my_console_log("After" + log_direction + " section_count is: " + section_count)

@@ -307,7 +307,7 @@ def reader():
                     if (len(ret.strip()) > 0):
                         ret = discarder(ret.split(" "))
 
-                    print "Sending: " + ret
+                    #print "Sending: " + ret
 
                     ascii_text = ret.encode('utf-8').strip()
 

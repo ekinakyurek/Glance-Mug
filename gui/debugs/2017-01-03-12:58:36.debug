@@ -1,0 +1,371 @@
+2017-01-03-12:58:46: message: 
+2017-01-03-12:58:46: SearchTerm from OZ:
+2017-01-03-12:59:01: message: orhan baba, müslüm gürses, edirne
+2017-01-03-12:59:01: SearchTerm from OZ:orhan baba, müslüm gürses, edirne
+2017-01-03-12:59:01: State machine is initialized with input: 
+2017-01-03-12:59:01: orhan baba, müslüm gürses, edirne
+2017-01-03-12:59:01: Searching for phrase :orhan baba
+2017-01-03-12:59:01: Response for phrase :orhan baba
+
+2017-01-03-12:59:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 182.23497 } ] }
+2017-01-03-12:59:01: ItemlistElement for phrase : orhan baba
+2017-01-03-12:59:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 182.23497 }
+2017-01-03-12:59:01: Callback for phrase : orhan baba
+2017-01-03-12:59:01: result of :orhan baba
+2017-01-03-12:59:01: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-03-12:59:01: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:01: received_result_no=1
+2017-01-03-12:59:01: Searching for phrase : müslüm gürses
+2017-01-03-12:59:02: Response for phrase : müslüm gürses
+
+2017-01-03-12:59:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 565.565735 } ] }
+2017-01-03-12:59:02: ItemlistElement for phrase :  müslüm gürses
+2017-01-03-12:59:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/073s6b',
+     name: 'Müslüm Gürses',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Müzisyen',
+     detailedDescription: 
+      { articleBody: 'Müslüm Gürses ya da gerçek adı ile Müslüm Akbaş, Türkmen asıllı arabesk ve Türk halk müzisyeni. Müzik dünyasında ‘‘Müslüm Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/M%C3%BCsl%C3%BCm_G%C3%BCrses',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 565.565735 }
+2017-01-03-12:59:02: Callback for phrase :  müslüm gürses
+2017-01-03-12:59:02: result of : müslüm gürses
+2017-01-03-12:59:02: { '@id': 'kg:/m/073s6b',
+  name: 'Müslüm Gürses',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Müzisyen',
+  detailedDescription: 
+   { articleBody: 'Müslüm Gürses ya da gerçek adı ile Müslüm Akbaş, Türkmen asıllı arabesk ve Türk halk müzisyeni. Müzik dünyasında ‘‘Müslüm Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/M%C3%BCsl%C3%BCm_G%C3%BCrses',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:59:02: received_result_no=2
+2017-01-03-12:59:02: Searching for phrase : edirne
+2017-01-03-12:59:02: Response for phrase : edirne
+
+2017-01-03-12:59:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 49.207729 } ] }
+2017-01-03-12:59:02: ItemlistElement for phrase :  edirne
+2017-01-03-12:59:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01frpx',
+     name: 'Edirne',
+     '@type': [ 'City', 'Place', 'Thing' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRb5mW_hLxIX7GZ4Bc_KiOOYReyzC19kOrRzSsw8uTKla3GRrw_',
+        url: 'https://commons.wikimedia.org/wiki/File:Adalet_Tower_in_Edirne,_Turkey.jpg' },
+     detailedDescription: 
+      { articleBody: 'Edirne, Türkiye\'nin Edirne ilinde yer alan şehir ve aynı ilin merkez ilçesi. Marmara Bölgesi\'nin Trakya kesiminde, Yunanistan ve Bulgaristan sınırında yer almaktadır. 2014 sayımına göre toplam nüfusu 165.979\'dur.',
+        url: 'https://tr.wikipedia.org/wiki/Edirne',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 49.207729 }
+2017-01-03-12:59:02: Callback for phrase :  edirne
+2017-01-03-12:59:02: result of : edirne
+2017-01-03-12:59:02: { '@id': 'kg:/m/01frpx',
+  name: 'Edirne',
+  '@type': [ 'City', 'Place', 'Thing' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRb5mW_hLxIX7GZ4Bc_KiOOYReyzC19kOrRzSsw8uTKla3GRrw_',
+     url: 'https://commons.wikimedia.org/wiki/File:Adalet_Tower_in_Edirne,_Turkey.jpg' },
+  detailedDescription: 
+   { articleBody: 'Edirne, Türkiye\'nin Edirne ilinde yer alan şehir ve aynı ilin merkez ilçesi. Marmara Bölgesi\'nin Trakya kesiminde, Yunanistan ve Bulgaristan sınırında yer almaktadır. 2014 sayımına göre toplam nüfusu 165.979\'dur.',
+     url: 'https://tr.wikipedia.org/wiki/Edirne',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-03-12:59:02: received_result_no=3
+2017-01-03-12:59:02: finish
+2017-01-03-12:59:02: process is finished
+2017-01-03-12:59:02: -----------------Printed Results------------------------
+2017-01-03-12:59:02: Orhan Gencebay
+2017-01-03-12:59:02: Müslüm Gürses
+2017-01-03-12:59:02: Edirne
+2017-01-03-12:59:05: 2: slide right gesture is called
+2017-01-03-12:59:05: 2: slide right gesture is called
+2017-01-03-12:59:06: section_count is:1
+2017-01-03-12:59:06: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:06: AftermoveSectionDown section_count is: 1
+2017-01-03-12:59:06: section_count is:2
+2017-01-03-12:59:06: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:06: AftermoveSectionDown section_count is: 2
+2017-01-03-12:59:06: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:06: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:08: 2: slide right gesture is called
+2017-01-03-12:59:08: 2: slide left gesture is called
+2017-01-03-12:59:08: 2: slide left gesture is called
+2017-01-03-12:59:09: section_count is:2
+2017-01-03-12:59:09: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:09: AftermoveSectionUp section_count is: 2
+2017-01-03-12:59:10: section_count is:1
+2017-01-03-12:59:10: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:10: AftermoveSectionUp section_count is: 1
+2017-01-03-12:59:11: 2: slide right gesture is called
+2017-01-03-12:59:11: 2: slide right gesture is called
+2017-01-03-12:59:12: 2: slide left gesture is called
+2017-01-03-12:59:12: 2: slide left gesture is called
+2017-01-03-12:59:13: 2: slide left gesture is called
+2017-01-03-12:59:14: section_count is:2
+2017-01-03-12:59:14: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:14: AftermoveSectionDown section_count is: 2
+2017-01-03-12:59:14: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:15: 2: slide left gesture is called
+2017-01-03-12:59:16: 2: slide right gesture is called
+2017-01-03-12:59:16: 2: slide right gesture is called
+2017-01-03-12:59:17: 2: slide right gesture is called
+2017-01-03-12:59:18: 2: slide right gesture is called
+2017-01-03-12:59:19: 2: slide left gesture is called
+2017-01-03-12:59:20: 2: slide left gesture is called
+2017-01-03-12:59:21: 2: slide left gesture is called
+2017-01-03-12:59:22: 2: slide left gesture is called
+2017-01-03-12:59:23: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:26: 2: slide right gesture is called
+2017-01-03-12:59:27: 2: slide right gesture is called
+2017-01-03-12:59:28: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:28: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:29: section_count is:2
+2017-01-03-12:59:30: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:30: AftermoveSectionUp section_count is: 2
+2017-01-03-12:59:31: section_count is:1
+2017-01-03-12:59:31: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:31: AftermoveSectionUp section_count is: 1
+2017-01-03-12:59:31: section_count is:0
+2017-01-03-12:59:31: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:31: AftermoveSectionUp section_count is: 0
+2017-01-03-12:59:33: 2: slide left gesture is called
+2017-01-03-12:59:33: 2: slide left gesture is called
+2017-01-03-12:59:34: 2: slide left gesture is called
+2017-01-03-12:59:35: section_count is:1
+2017-01-03-12:59:35: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:35: AftermoveSectionDown section_count is: 1
+2017-01-03-12:59:36: 2: slide left gesture is called
+2017-01-03-12:59:37: 2: slide left gesture is called
+2017-01-03-12:59:37: 2: slide right gesture is called
+2017-01-03-12:59:37: 2: slide right gesture is called
+2017-01-03-12:59:38: 2: slide right gesture is called
+2017-01-03-12:59:40: section_count is:2
+2017-01-03-12:59:40: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:40: AftermoveSectionDown section_count is: 2
+2017-01-03-12:59:42: 2: slide left gesture is called
+2017-01-03-12:59:44: 1: slide left gesture is called
+2017-01-03-12:59:45: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:45: section_count is:2
+2017-01-03-12:59:45: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-12:59:45: AftermoveSectionUp section_count is: 2
+2017-01-03-12:59:46: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:50: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:51: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:53: AftermoveSectionDown section_count is: 3
+2017-01-03-12:59:59: 2: slide right gesture is called
+2017-01-03-13:00:00: 2: slide right gesture is called
+2017-01-03-13:00:01: AftermoveSectionDown section_count is: 3
+2017-01-03-13:00:01: AftermoveSectionDown section_count is: 3
+2017-01-03-13:00:01: AftermoveSectionDown section_count is: 3
+2017-01-03-13:00:02: section_count is:2
+2017-01-03-13:00:02: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:02: AftermoveSectionUp section_count is: 2
+2017-01-03-13:00:02: AftermoveSectionDown section_count is: 3
+2017-01-03-13:00:04: section_count is:2
+2017-01-03-13:00:04: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:04: AftermoveSectionUp section_count is: 2
+2017-01-03-13:00:04: section_count is:1
+2017-01-03-13:00:04: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:04: AftermoveSectionUp section_count is: 1
+2017-01-03-13:00:06: section_count is:0
+2017-01-03-13:00:06: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:06: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:06: section_count is:1
+2017-01-03-13:00:06: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:06: AftermoveSectionDown section_count is: 1
+2017-01-03-13:00:06: section_count is:2
+2017-01-03-13:00:06: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:06: AftermoveSectionDown section_count is: 2
+2017-01-03-13:00:08: section_count is:1
+2017-01-03-13:00:08: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:08: AftermoveSectionUp section_count is: 1
+2017-01-03-13:00:10: section_count is:0
+2017-01-03-13:00:10: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:10: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:10: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:22: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:27: section_count is:1
+2017-01-03-13:00:27: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:27: AftermoveSectionDown section_count is: 1
+2017-01-03-13:00:29: section_count is:2
+2017-01-03-13:00:29: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:29: AftermoveSectionDown section_count is: 2
+2017-01-03-13:00:32: AftermoveSectionDown section_count is: 3
+2017-01-03-13:00:46: section_count is:2
+2017-01-03-13:00:46: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:46: AftermoveSectionUp section_count is: 2
+2017-01-03-13:00:46: section_count is:1
+2017-01-03-13:00:46: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:46: AftermoveSectionUp section_count is: 1
+2017-01-03-13:00:49: section_count is:0
+2017-01-03-13:00:49: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:49: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:49: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:50: section_count is:1
+2017-01-03-13:00:50: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:50: AftermoveSectionDown section_count is: 1
+2017-01-03-13:00:52: section_count is:0
+2017-01-03-13:00:52: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:52: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:52: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:52: section_count is:1
+2017-01-03-13:00:52: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:52: AftermoveSectionDown section_count is: 1
+2017-01-03-13:00:55: section_count is:0
+2017-01-03-13:00:55: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:55: AftermoveSectionUp section_count is: 0
+2017-01-03-13:00:56: section_count is:1
+2017-01-03-13:00:56: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:00:56: AftermoveSectionDown section_count is: 1
+2017-01-03-13:00:58: 2: slide right gesture is called
+2017-01-03-13:00:59: 2: slide right gesture is called
+2017-01-03-13:00:59: 2: slide right gesture is called
+2017-01-03-13:01:00: 2: slide right gesture is called
+2017-01-03-13:01:01: 2: slide left gesture is called
+2017-01-03-13:01:02: 2: slide right gesture is called
+2017-01-03-13:01:03: 2: slide right gesture is called
+2017-01-03-13:01:04: section_count is:2
+2017-01-03-13:01:04: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:01:04: AftermoveSectionDown section_count is: 2
+2017-01-03-13:01:04: 2: slide right gesture is called
+2017-01-03-13:01:05: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:08: 2: slide right gesture is called
+2017-01-03-13:01:09: 2: slide right gesture is called
+2017-01-03-13:01:09: 2: slide right gesture is called
+2017-01-03-13:01:09: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:09: 2: slide right gesture is called
+2017-01-03-13:01:10: section_count is:2
+2017-01-03-13:01:10: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:01:10: AftermoveSectionUp section_count is: 2
+2017-01-03-13:01:11: 1: slide right gesture is called
+2017-01-03-13:01:12: 1: slide left gesture is called
+2017-01-03-13:01:13: 1: slide left gesture is called
+2017-01-03-13:01:14: 1: slide left gesture is called
+2017-01-03-13:01:14: 1: slide left gesture is called
+2017-01-03-13:01:15: 2: slide right gesture is called
+2017-01-03-13:01:15: 1: slide left gesture is called
+2017-01-03-13:01:16: 1: slide left gesture is called
+2017-01-03-13:01:16: section_count is:1
+2017-01-03-13:01:16: https://www.googleapis.com/customsearch/v1?q=Müslüm Gürses&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:01:16: AftermoveSectionUp section_count is: 1
+2017-01-03-13:01:20: 1: slide left gesture is called
+2017-01-03-13:01:21: 1: slide left gesture is called
+2017-01-03-13:01:22: 1: slide right gesture is called
+2017-01-03-13:01:23: 1: slide right gesture is called
+2017-01-03-13:01:24: section_count is:2
+2017-01-03-13:01:24: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:01:24: AftermoveSectionDown section_count is: 2
+2017-01-03-13:01:24: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:25: 1: slide right gesture is called
+2017-01-03-13:01:26: 1: slide right gesture is called
+2017-01-03-13:01:26: 1: slide right gesture is called
+2017-01-03-13:01:27: 1: slide right gesture is called
+2017-01-03-13:01:29: 2: slide left gesture is called
+2017-01-03-13:01:30: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:30: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:30: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:31: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:32: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:32: AftermoveSectionDown section_count is: 3
+2017-01-03-13:01:33: section_count is:2
+2017-01-03-13:01:33: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:01:33: AftermoveSectionUp section_count is: 2
+2017-01-03-13:20:12: 1: slide right gesture is called
+2017-01-03-13:20:15: 1: slide left gesture is called
+2017-01-03-13:20:16: 1: slide left gesture is called
+2017-01-03-13:20:17: 1: slide left gesture is called
+2017-01-03-13:20:18: AftermoveSectionDown section_count is: 3
+2017-01-03-13:20:18: AftermoveSectionDown section_count is: 3
+2017-01-03-13:20:18: section_count is:2
+2017-01-03-13:20:18: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:20:18: AftermoveSectionUp section_count is: 2
+2017-01-03-13:20:20: 1: slide left gesture is called
+2017-01-03-13:20:22: 1: slide left gesture is called
+2017-01-03-13:21:39: AftermoveSectionDown section_count is: 3
+2017-01-03-13:21:40: section_count is:2
+2017-01-03-13:21:40: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:21:40: AftermoveSectionUp section_count is: 2
+2017-01-03-13:21:46: 2: slide right gesture is called
+2017-01-03-13:21:48: 2: slide right gesture is called
+2017-01-03-13:22:03: 2: slide right gesture is called
+2017-01-03-13:22:06: 2: slide right gesture is called
+2017-01-03-13:22:07: 2: slide right gesture is called
+2017-01-03-13:22:08: 2: slide right gesture is called
+2017-01-03-13:22:08: 2: slide right gesture is called
+2017-01-03-13:22:09: 2: slide right gesture is called
+2017-01-03-13:22:10: 2: slide right gesture is called
+2017-01-03-13:22:10: 2: slide right gesture is called
+2017-01-03-13:22:11: 2: slide right gesture is called
+2017-01-03-13:22:11: 2: slide right gesture is called
+2017-01-03-13:22:12: AftermoveSectionDown section_count is: 3
+2017-01-03-13:22:12: section_count is:2
+2017-01-03-13:22:12: https://www.googleapis.com/customsearch/v1?q=Edirne&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-03-13:22:12: AftermoveSectionUp section_count is: 2
+2017-01-03-13:22:14: 2: slide right gesture is called
+2017-01-03-13:22:14: AftermoveSectionDown section_count is: 3
+2017-01-03-13:22:19: 2: slide right gesture is called
+2017-01-03-13:22:19: 2: slide right gesture is called

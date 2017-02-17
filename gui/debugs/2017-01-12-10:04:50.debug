@@ -1,0 +1,949 @@
+2017-01-12-10:04:57: 2: slide left gesture is called
+2017-01-12-10:05:05: AftermoveSectionUp section_count is: 0
+2017-01-12-10:05:06: 1: slide left gesture is called
+2017-01-12-10:05:07: message: 
+2017-01-12-10:05:07: SearchTerm from OZ:
+2017-01-12-10:05:29: 1: slide right gesture is called
+2017-01-12-10:05:38: message: ispanya,orhan gencebay
+2017-01-12-10:05:38: SearchTerm from OZ:ispanya,orhan gencebay
+2017-01-12-10:05:38: State machine is initialized with input: 
+2017-01-12-10:05:38: ispanya,orhan gencebay
+2017-01-12-10:05:38: Searching for phrase :ispanya
+2017-01-12-10:05:38: Response for phrase :ispanya
+
+2017-01-12-10:05:38: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 54.074356 } ] }
+2017-01-12-10:05:39: ItemlistElement for phrase : ispanya
+2017-01-12-10:05:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06mkj',
+     name: 'İspanya',
+     '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRifpJT7Ojbn9kj22XzMd8WfGQ921RBs3kPCgjvZZ7ZuwBKCIcP',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785-1873_and_1875-1931).svg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İspanya ya da resmî adıyla İspanya Krallığı Avrupa\'nın güneybatısında, İber Yarımadası\'nda yer alan ülkedir. Güneyde ve doğuda Akdeniz\'e, kuzeyde ise Atlantik Okyanusu\'na kıyısı vardır. ',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0spanya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 54.074356 }
+2017-01-12-10:05:39: Callback for phrase : ispanya
+2017-01-12-10:05:39: result of :ispanya
+2017-01-12-10:05:39: { '@id': 'kg:/m/06mkj',
+  name: 'İspanya',
+  '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+  description: 'Avrupa\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRifpJT7Ojbn9kj22XzMd8WfGQ921RBs3kPCgjvZZ7ZuwBKCIcP',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785-1873_and_1875-1931).svg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'İspanya ya da resmî adıyla İspanya Krallığı Avrupa\'nın güneybatısında, İber Yarımadası\'nda yer alan ülkedir. Güneyde ve doğuda Akdeniz\'e, kuzeyde ise Atlantik Okyanusu\'na kıyısı vardır. ',
+     url: 'https://tr.wikipedia.org/wiki/%C4%B0spanya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-12-10:05:39: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:05:39: received_result_no=1
+2017-01-12-10:05:39: Searching for phrase :orhan gencebay
+2017-01-12-10:05:39: Response for phrase :orhan gencebay
+
+2017-01-12-10:05:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 593.777527 } ] }
+2017-01-12-10:05:39: ItemlistElement for phrase : orhan gencebay
+2017-01-12-10:05:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 593.777527 }
+2017-01-12-10:05:39: Callback for phrase : orhan gencebay
+2017-01-12-10:05:39: result of :orhan gencebay
+2017-01-12-10:05:39: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-12-10:05:39: received_result_no=2
+2017-01-12-10:05:39: finish
+2017-01-12-10:05:39: process is finished
+2017-01-12-10:05:39: -----------------Printed Results------------------------
+2017-01-12-10:05:39: İspanya
+2017-01-12-10:05:39: Orhan Gencebay
+2017-01-12-10:05:44: 2: slide right gesture is called
+2017-01-12-10:05:46: section_count is:1
+2017-01-12-10:05:46: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:05:46: AftermoveSectionDown section_count is: 1
+2017-01-12-10:05:46: AftermoveSectionDown section_count is: 2
+2017-01-12-10:05:52: 2: slide left gesture is called
+2017-01-12-10:05:53: 2: slide left gesture is called
+2017-01-12-10:05:53: 2: slide left gesture is called
+2017-01-12-10:05:53: 2: slide left gesture is called
+2017-01-12-10:05:58: 2: slide left gesture is called
+2017-01-12-10:05:59: 2: slide right gesture is called
+2017-01-12-10:06:00: 2: slide right gesture is called
+2017-01-12-10:06:00: 2: slide right gesture is called
+2017-01-12-10:06:00: 2: slide right gesture is called
+2017-01-12-10:06:01: AftermoveSectionDown section_count is: 2
+2017-01-12-10:06:01: section_count is:1
+2017-01-12-10:06:01: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:01: AftermoveSectionUp section_count is: 1
+2017-01-12-10:06:03: section_count is:0
+2017-01-12-10:06:03: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:03: AftermoveSectionUp section_count is: 0
+2017-01-12-10:06:04: 1: slide right gesture is called
+2017-01-12-10:06:05: 1: slide right gesture is called
+2017-01-12-10:06:07: 1: slide left gesture is called
+2017-01-12-10:06:11: AftermoveSectionUp section_count is: 0
+2017-01-12-10:06:12: section_count is:1
+2017-01-12-10:06:12: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:12: AftermoveSectionDown section_count is: 1
+2017-01-12-10:06:20: section_count is:0
+2017-01-12-10:06:20: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:20: AftermoveSectionUp section_count is: 0
+2017-01-12-10:06:20: section_count is:1
+2017-01-12-10:06:20: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:20: AftermoveSectionDown section_count is: 1
+2017-01-12-10:06:45: 2: slide left gesture is called
+2017-01-12-10:06:58: section_count is:0
+2017-01-12-10:06:58: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:58: AftermoveSectionUp section_count is: 0
+2017-01-12-10:06:58: section_count is:1
+2017-01-12-10:06:58: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:06:58: AftermoveSectionDown section_count is: 1
+2017-01-12-10:07:03: section_count is:0
+2017-01-12-10:07:03: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:07:03: AftermoveSectionUp section_count is: 0
+2017-01-12-10:07:03: AftermoveSectionUp section_count is: 0
+2017-01-12-10:07:11: AftermoveSectionUp section_count is: 0
+2017-01-12-10:07:32: message: ispanya,orhan gencebay
+2017-01-12-10:07:32: SearchTerm from OZ:ispanya,orhan gencebay
+2017-01-12-10:07:32: State machine is initialized with input: 
+2017-01-12-10:07:32: ispanya,orhan gencebay
+2017-01-12-10:07:32: Searching for phrase :ispanya
+2017-01-12-10:07:32: Response for phrase :ispanya
+
+2017-01-12-10:07:32: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 54.074356 } ] }
+2017-01-12-10:07:32: ItemlistElement for phrase : ispanya
+2017-01-12-10:07:32: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06mkj',
+     name: 'İspanya',
+     '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+     description: 'Avrupa\'da bir ülke',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRifpJT7Ojbn9kj22XzMd8WfGQ921RBs3kPCgjvZZ7ZuwBKCIcP',
+        url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785-1873_and_1875-1931).svg',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'İspanya ya da resmî adıyla İspanya Krallığı Avrupa\'nın güneybatısında, İber Yarımadası\'nda yer alan ülkedir. Güneyde ve doğuda Akdeniz\'e, kuzeyde ise Atlantik Okyanusu\'na kıyısı vardır. ',
+        url: 'https://tr.wikipedia.org/wiki/%C4%B0spanya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 54.074356 }
+2017-01-12-10:07:32: Callback for phrase : ispanya
+2017-01-12-10:07:32: result of :ispanya
+2017-01-12-10:07:32: { '@id': 'kg:/m/06mkj',
+  name: 'İspanya',
+  '@type': [ 'Country', 'Place', 'Thing', 'AdministrativeArea' ],
+  description: 'Avrupa\'da bir ülke',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRifpJT7Ojbn9kj22XzMd8WfGQ921RBs3kPCgjvZZ7ZuwBKCIcP',
+     url: 'https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1785-1873_and_1875-1931).svg',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'İspanya ya da resmî adıyla İspanya Krallığı Avrupa\'nın güneybatısında, İber Yarımadası\'nda yer alan ülkedir. Güneyde ve doğuda Akdeniz\'e, kuzeyde ise Atlantik Okyanusu\'na kıyısı vardır. ',
+     url: 'https://tr.wikipedia.org/wiki/%C4%B0spanya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-12-10:07:32: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:07:32: received_result_no=1
+2017-01-12-10:07:32: Searching for phrase :orhan gencebay
+2017-01-12-10:07:33: Response for phrase :orhan gencebay
+
+2017-01-12-10:07:33: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 593.777527 } ] }
+2017-01-12-10:07:33: ItemlistElement for phrase : orhan gencebay
+2017-01-12-10:07:33: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 593.777527 }
+2017-01-12-10:07:33: Callback for phrase : orhan gencebay
+2017-01-12-10:07:33: result of :orhan gencebay
+2017-01-12-10:07:33: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-01-12-10:07:33: received_result_no=2
+2017-01-12-10:07:33: finish
+2017-01-12-10:07:33: process is finished
+2017-01-12-10:07:33: -----------------Printed Results------------------------
+2017-01-12-10:07:33: İspanya
+2017-01-12-10:07:33: Orhan Gencebay
+2017-01-12-10:07:59: AftermoveSectionUp section_count is: 0
+2017-01-12-10:08:01: AftermoveSectionUp section_count is: 0
+2017-01-12-10:08:44: section_count is:1
+2017-01-12-10:08:44: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:08:44: AftermoveSectionDown section_count is: 1
+2017-01-12-10:08:52: AftermoveSectionDown section_count is: 2
+2017-01-12-10:08:57: section_count is:1
+2017-01-12-10:08:57: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:08:57: AftermoveSectionUp section_count is: 1
+2017-01-12-10:08:59: 2: slide right gesture is called
+2017-01-12-10:09:04: section_count is:0
+2017-01-12-10:09:04: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:09:04: AftermoveSectionUp section_count is: 0
+2017-01-12-10:09:26: section_count is:1
+2017-01-12-10:09:26: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:09:26: AftermoveSectionDown section_count is: 1
+2017-01-12-10:09:37: AftermoveSectionDown section_count is: 2
+2017-01-12-10:09:38: section_count is:1
+2017-01-12-10:09:38: https://www.googleapis.com/customsearch/v1?q=Orhan Gencebay&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:09:38: AftermoveSectionUp section_count is: 1
+2017-01-12-10:09:45: section_count is:0
+2017-01-12-10:09:45: https://www.googleapis.com/customsearch/v1?q=İspanya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:09:45: AftermoveSectionUp section_count is: 0
+2017-01-12-10:09:47: message: bologna
+2017-01-12-10:09:47: SearchTerm from OZ:bologna
+2017-01-12-10:09:47: State machine is initialized with input: 
+2017-01-12-10:09:47: bologna
+2017-01-12-10:09:47: Searching for phrase :bologna
+2017-01-12-10:09:48: Response for phrase :bologna
+
+2017-01-12-10:09:48: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 58.273212 } ] }
+2017-01-12-10:09:48: ItemlistElement for phrase : bologna
+2017-01-12-10:09:48: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0kz4w',
+     name: 'Bologna FC 1909',
+     '@type': [ 'SportsTeam', 'Organization', 'Corporation', 'Thing' ],
+     description: 'Futbol takımı',
+     detailedDescription: 
+      { articleBody: 'Bologna FC 1909, şu anda Serie A\'de mücadele eden İtalyan futbol kulübü.\nBologna şehrinde 1909 yılında kurulan kulüp mavi ve kırmızı renkli formaları nedeniyle rossoblù olarak da biliniyor. ',
+        url: 'https://tr.wikipedia.org/wiki/Bologna_FC_1909',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.bolognafc.it/' },
+  resultScore: 58.273212 }
+2017-01-12-10:09:48: Callback for phrase : bologna
+2017-01-12-10:09:48: result of :bologna
+2017-01-12-10:09:48: { '@id': 'kg:/m/0kz4w',
+  name: 'Bologna FC 1909',
+  '@type': [ 'SportsTeam', 'Organization', 'Corporation', 'Thing' ],
+  description: 'Futbol takımı',
+  detailedDescription: 
+   { articleBody: 'Bologna FC 1909, şu anda Serie A\'de mücadele eden İtalyan futbol kulübü.\nBologna şehrinde 1909 yılında kurulan kulüp mavi ve kırmızı renkli formaları nedeniyle rossoblù olarak da biliniyor. ',
+     url: 'https://tr.wikipedia.org/wiki/Bologna_FC_1909',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.bolognafc.it/' }
+2017-01-12-10:09:48: https://www.googleapis.com/customsearch/v1?q=Bologna FC 1909&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:09:48: received_result_no=1
+2017-01-12-10:09:48: finish
+2017-01-12-10:09:48: process is finished
+2017-01-12-10:09:48: -----------------Printed Results------------------------
+2017-01-12-10:09:48: Bologna FC 1909
+2017-01-12-10:09:53: AftermoveSectionUp section_count is: 0
+2017-01-12-10:09:55: message: bolonya
+2017-01-12-10:09:55: SearchTerm from OZ:bolonya
+2017-01-12-10:09:55: State machine is initialized with input: 
+2017-01-12-10:09:55: bolonya
+2017-01-12-10:09:55: Searching for phrase :bolonya
+2017-01-12-10:09:56: Response for phrase :bolonya
+
+2017-01-12-10:09:56: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 28.425095 } ] }
+2017-01-12-10:09:56: ItemlistElement for phrase : bolonya
+2017-01-12-10:09:56: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/096g3',
+     name: 'Bologna',
+     '@type': [ 'City', 'Thing', 'Place' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSj-aCVUZ8QPwPKLKF8qaiq6JsBY2QAidoK10gBRLn-qtxEntyu',
+        url: 'https://commons.wikimedia.org/wiki/File:Bologna_seen_from_Asinelli_tower.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Bologna, İtalya\'nın kuzeyinde Emilia-Romagna bölgesinde yer alan bir şehirdir. Emilia-Romagna bölgesi ve ayni ismi tasiyan Bologna ili merkezidir.\n',
+        url: 'https://tr.wikipedia.org/wiki/Bologna',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.comune.bologna.it/' },
+  resultScore: 28.425095 }
+2017-01-12-10:09:56: Callback for phrase : bolonya
+2017-01-12-10:09:56: result of :bolonya
+2017-01-12-10:09:56: { '@id': 'kg:/m/096g3',
+  name: 'Bologna',
+  '@type': [ 'City', 'Thing', 'Place' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcSj-aCVUZ8QPwPKLKF8qaiq6JsBY2QAidoK10gBRLn-qtxEntyu',
+     url: 'https://commons.wikimedia.org/wiki/File:Bologna_seen_from_Asinelli_tower.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Bologna, İtalya\'nın kuzeyinde Emilia-Romagna bölgesinde yer alan bir şehirdir. Emilia-Romagna bölgesi ve ayni ismi tasiyan Bologna ili merkezidir.\n',
+     url: 'https://tr.wikipedia.org/wiki/Bologna',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.comune.bologna.it/' }
+2017-01-12-10:09:56: https://www.googleapis.com/customsearch/v1?q=Bologna&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:09:56: received_result_no=1
+2017-01-12-10:09:56: finish
+2017-01-12-10:09:56: process is finished
+2017-01-12-10:09:56: -----------------Printed Results------------------------
+2017-01-12-10:09:56: Bologna
+2017-01-12-10:09:59: AftermoveSectionUp section_count is: 0
+2017-01-12-10:10:27: 2: slide right gesture is called
+2017-01-12-10:10:32: 2: slide right gesture is called
+2017-01-12-10:10:36: AftermoveSectionDown section_count is: 1
+2017-01-12-10:11:50: AftermoveSectionDown section_count is: 1
+2017-01-12-10:11:50: 2: slide left gesture is called
+2017-01-12-10:11:52: AftermoveSectionDown section_count is: 1
+2017-01-12-10:12:46: AftermoveSectionDown section_count is: 1
+2017-01-12-10:12:47: 2: slide right gesture is called
+2017-01-12-10:12:47: section_count is:0
+2017-01-12-10:12:47: https://www.googleapis.com/customsearch/v1?q=Bologna&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:12:47: AftermoveSectionUp section_count is: 0
+2017-01-12-10:12:50: 2: slide left gesture is called
+2017-01-12-10:12:50: 1: slide right gesture is called
+2017-01-12-10:12:50: AftermoveSectionDown section_count is: 1
+2017-01-12-10:13:02: 1: slide left gesture is called
+2017-01-12-10:13:02: 1: slide right gesture is called
+2017-01-12-10:13:27: section_count is:0
+2017-01-12-10:13:27: https://www.googleapis.com/customsearch/v1?q=Bologna&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:13:27: AftermoveSectionUp section_count is: 0
+2017-01-12-10:13:29: 1: slide right gesture is called
+2017-01-12-10:13:56: message: psikoloji
+2017-01-12-10:13:56: SearchTerm from OZ:psikoloji
+2017-01-12-10:13:56: State machine is initialized with input: 
+2017-01-12-10:13:56: psikoloji
+2017-01-12-10:13:56: Searching for phrase :psikoloji
+2017-01-12-10:13:57: Response for phrase :psikoloji
+
+2017-01-12-10:13:57: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 22.494566 } ] }
+2017-01-12-10:13:57: ItemlistElement for phrase : psikoloji
+2017-01-12-10:13:57: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0bk72',
+     name: 'Amerikan Psikoloji Birliği',
+     '@type': [ 'Organization', 'Corporation', 'Thing' ],
+     url: 'http://www.apa.org/' },
+  resultScore: 22.494566 }
+2017-01-12-10:13:57: Callback for phrase : psikoloji
+2017-01-12-10:13:57: result of :psikoloji
+2017-01-12-10:13:57: { '@id': 'kg:/m/0bk72',
+  name: 'Amerikan Psikoloji Birliği',
+  '@type': [ 'Organization', 'Corporation', 'Thing' ],
+  url: 'http://www.apa.org/' }
+2017-01-12-10:13:57: https://www.googleapis.com/customsearch/v1?q=Amerikan Psikoloji Birliği&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:13:57: received_result_no=1
+2017-01-12-10:13:57: finish
+2017-01-12-10:13:57: process is finished
+2017-01-12-10:13:57: -----------------Printed Results------------------------
+2017-01-12-10:13:57: Amerikan Psikoloji Birliği
+2017-01-12-10:14:01: 2: slide left gesture is called
+2017-01-12-10:14:14: 2: slide right gesture is called
+2017-01-12-10:14:15: AftermoveSectionUp section_count is: 0
+2017-01-12-10:14:21: AftermoveSectionUp section_count is: 0
+2017-01-12-10:15:15: AftermoveSectionUp section_count is: 0
+2017-01-12-10:16:13: AftermoveSectionUp section_count is: 0
+2017-01-12-10:16:16: AftermoveSectionUp section_count is: 0
+2017-01-12-10:16:16: AftermoveSectionDown section_count is: 1
+2017-01-12-10:16:32: section_count is:0
+2017-01-12-10:16:32: https://www.googleapis.com/customsearch/v1?q=Amerikan Psikoloji Birliği&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:16:32: AftermoveSectionUp section_count is: 0
+2017-01-12-10:16:36: message: havalimanı
+2017-01-12-10:16:36: SearchTerm from OZ:havalimanı
+2017-01-12-10:16:36: State machine is initialized with input: 
+2017-01-12-10:16:36: havalimanı
+2017-01-12-10:16:36: Searching for phrase :havalimanı
+2017-01-12-10:16:37: Response for phrase :havalimanı
+
+2017-01-12-10:16:37: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 59.385994 } ] }
+2017-01-12-10:16:37: ItemlistElement for phrase : havalimanı
+2017-01-12-10:16:37: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01qsjp',
+     name: 'Düsseldorf Uluslararası Havalimanı',
+     '@type': [ 'Airport', 'Thing', 'Place' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ2P5xu1_W5NEEBqoeazSr1s6Zbl0jnPVAyShBmHM_1WiJcOXkN',
+        url: 'https://commons.wikimedia.org/wiki/File:D%C3%BCsseldorf_Airport_-_DUS_-_Flughafen_D%C3%BCsseldorf_(10713537076).jpg',
+        license: 'http://creativecommons.org/licenses/by/2.0' },
+     detailedDescription: 
+      { articleBody: 'Düsseldorf Uluslararası Havalimanı, Almanya´da Düsseldorf şehrinin 6 km kuzeyinde bulunan uluslararası havalimanı.',
+        url: 'https://tr.wikipedia.org/wiki/D%C3%BCsseldorf_Uluslararas%C4%B1_Havaliman%C4%B1',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.dus.com/dus_en/' },
+  resultScore: 59.385994 }
+2017-01-12-10:16:37: Callback for phrase : havalimanı
+2017-01-12-10:16:37: result of :havalimanı
+2017-01-12-10:16:37: { '@id': 'kg:/m/01qsjp',
+  name: 'Düsseldorf Uluslararası Havalimanı',
+  '@type': [ 'Airport', 'Thing', 'Place' ],
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ2P5xu1_W5NEEBqoeazSr1s6Zbl0jnPVAyShBmHM_1WiJcOXkN',
+     url: 'https://commons.wikimedia.org/wiki/File:D%C3%BCsseldorf_Airport_-_DUS_-_Flughafen_D%C3%BCsseldorf_(10713537076).jpg',
+     license: 'http://creativecommons.org/licenses/by/2.0' },
+  detailedDescription: 
+   { articleBody: 'Düsseldorf Uluslararası Havalimanı, Almanya´da Düsseldorf şehrinin 6 km kuzeyinde bulunan uluslararası havalimanı.',
+     url: 'https://tr.wikipedia.org/wiki/D%C3%BCsseldorf_Uluslararas%C4%B1_Havaliman%C4%B1',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.dus.com/dus_en/' }
+2017-01-12-10:16:37: https://www.googleapis.com/customsearch/v1?q=Düsseldorf Uluslararası Havalimanı&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:16:37: received_result_no=1
+2017-01-12-10:16:37: finish
+2017-01-12-10:16:37: process is finished
+2017-01-12-10:16:37: -----------------Printed Results------------------------
+2017-01-12-10:16:37: Düsseldorf Uluslararası Havalimanı
+2017-01-12-10:18:21: message: berlin
+2017-01-12-10:18:21: SearchTerm from OZ:berlin
+2017-01-12-10:18:21: State machine is initialized with input: 
+2017-01-12-10:18:21: berlin
+2017-01-12-10:18:21: Searching for phrase :berlin
+2017-01-12-10:18:22: Response for phrase :berlin
+
+2017-01-12-10:18:22: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 90.173546 } ] }
+2017-01-12-10:18:22: ItemlistElement for phrase : berlin
+2017-01-12-10:18:22: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0156q',
+     name: 'Berlin',
+     '@type': 
+      [ 'Thing',
+        'Place',
+        'City',
+        'LandmarksOrHistoricalBuildings',
+        'AdministrativeArea' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRFwozqys5VngCTVO3L6fkbHBD_DoJJzVBu0ztWojEQBUOCf6yr',
+        url: 'https://lg.wikipedia.org/wiki/Berlin',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Berlin, Almanya\'nın başkenti ve en b��yük şehridir. Berlin, aynı zamanda bir eyalet-kenttir.\nII. Dünya Savaşı öncesinde 4,3 milyon kişinin yaşadığı şehirde 2008 itibarıyla 3,5 milyon kişi yaşamaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Berlin',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.berlin.de' },
+  resultScore: 90.173546 }
+2017-01-12-10:18:22: Callback for phrase : berlin
+2017-01-12-10:18:22: result of :berlin
+2017-01-12-10:18:22: { '@id': 'kg:/m/0156q',
+  name: 'Berlin',
+  '@type': 
+   [ 'Thing',
+     'Place',
+     'City',
+     'LandmarksOrHistoricalBuildings',
+     'AdministrativeArea' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRFwozqys5VngCTVO3L6fkbHBD_DoJJzVBu0ztWojEQBUOCf6yr',
+     url: 'https://lg.wikipedia.org/wiki/Berlin',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Berlin, Almanya\'nın başkenti ve en b��yük şehridir. Berlin, aynı zamanda bir eyalet-kenttir.\nII. Dünya Savaşı öncesinde 4,3 milyon kişinin yaşadığı şehirde 2008 itibarıyla 3,5 milyon kişi yaşamaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Berlin',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.berlin.de' }
+2017-01-12-10:18:22: https://www.googleapis.com/customsearch/v1?q=Berlin&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:18:22: received_result_no=1
+2017-01-12-10:18:22: finish
+2017-01-12-10:18:22: process is finished
+2017-01-12-10:18:22: -----------------Printed Results------------------------
+2017-01-12-10:18:22: Berlin
+2017-01-12-10:20:23: AftermoveSectionUp section_count is: 0
+2017-01-12-10:20:28: message: finans
+2017-01-12-10:20:28: SearchTerm from OZ:finans
+2017-01-12-10:20:28: State machine is initialized with input: 
+2017-01-12-10:20:28: finans
+2017-01-12-10:20:28: Searching for phrase :finans
+2017-01-12-10:20:28: Response for phrase :finans
+
+2017-01-12-10:20:28: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 27.368042 } ] }
+2017-01-12-10:20:28: ItemlistElement for phrase : finans
+2017-01-12-10:20:28: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0cfk70',
+     name: 'QNB Finansbank',
+     '@type': [ 'Corporation', 'Thing', 'Organization' ],
+     description: 'Banka',
+     detailedDescription: 
+      { articleBody: 'QNB Finansbank, 26 Ekim 1987 tarihinde Hüsnü Özyeğin tarafından kurulan banka. Finansbank, 2006 yılının Ağustos ayında Yunanistan\'ın en büyük bankası National Bank of Greece tarafından satın alınmıştır. ',
+        url: 'https://tr.wikipedia.org/wiki/QNB_Finansbank',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 27.368042 }
+2017-01-12-10:20:28: Callback for phrase : finans
+2017-01-12-10:20:28: result of :finans
+2017-01-12-10:20:28: { '@id': 'kg:/m/0cfk70',
+  name: 'QNB Finansbank',
+  '@type': [ 'Corporation', 'Thing', 'Organization' ],
+  description: 'Banka',
+  detailedDescription: 
+   { articleBody: 'QNB Finansbank, 26 Ekim 1987 tarihinde Hüsnü Özyeğin tarafından kurulan banka. Finansbank, 2006 yılının Ağustos ayında Yunanistan\'ın en büyük bankası National Bank of Greece tarafından satın alınmıştır. ',
+     url: 'https://tr.wikipedia.org/wiki/QNB_Finansbank',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-12-10:20:28: https://www.googleapis.com/customsearch/v1?q=QNB Finansbank&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:20:28: received_result_no=1
+2017-01-12-10:20:28: finish
+2017-01-12-10:20:28: process is finished
+2017-01-12-10:20:28: -----------------Printed Results------------------------
+2017-01-12-10:20:28: QNB Finansbank
+2017-01-12-10:20:59: message: koç
+2017-01-12-10:20:59: SearchTerm from OZ:koç
+2017-01-12-10:20:59: State machine is initialized with input: 
+2017-01-12-10:20:59: koç
+2017-01-12-10:20:59: Searching for phrase :koç
+2017-01-12-10:20:59: Response for phrase :koç
+
+2017-01-12-10:20:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 43.580212 } ] }
+2017-01-12-10:20:59: ItemlistElement for phrase : koç
+2017-01-12-10:20:59: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/080zj2',
+     name: 'Koç Holding',
+     '@type': [ 'Corporation', 'Thing', 'Organization' ],
+     description: 'Şirket',
+     detailedDescription: 
+      { articleBody: 'Koç Holding, 1926 yılında Vehbi Koç tarafından kurulan holding Türkiye\'nin ilk holdingidir ve en büyük özel kuruluşlarından birisidir. Holding merkez binası Üsküdar Nakkaştepe\'dedir.\nKoç Holding\'in geçmişi kurucusu Vehbi Koç\'un 1920\'lerde Ankara\'da ticarete atılmasına değin iner. ',
+        url: 'https://tr.wikipedia.org/wiki/Ko%C3%A7_Holding',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.koc.com.tr' },
+  resultScore: 43.580212 }
+2017-01-12-10:20:59: Callback for phrase : koç
+2017-01-12-10:20:59: result of :koç
+2017-01-12-10:20:59: { '@id': 'kg:/m/080zj2',
+  name: 'Koç Holding',
+  '@type': [ 'Corporation', 'Thing', 'Organization' ],
+  description: 'Şirket',
+  detailedDescription: 
+   { articleBody: 'Koç Holding, 1926 yılında Vehbi Koç tarafından kurulan holding Türkiye\'nin ilk holdingidir ve en büyük özel kuruluşlarından birisidir. Holding merkez binası Üsküdar Nakkaştepe\'dedir.\nKoç Holding\'in geçmişi kurucusu Vehbi Koç\'un 1920\'lerde Ankara\'da ticarete atılmasına değin iner. ',
+     url: 'https://tr.wikipedia.org/wiki/Ko%C3%A7_Holding',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.koc.com.tr' }
+2017-01-12-10:20:59: https://www.googleapis.com/customsearch/v1?q=Koç Holding&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:20:59: received_result_no=1
+2017-01-12-10:20:59: finish
+2017-01-12-10:20:59: process is finished
+2017-01-12-10:20:59: -----------------Printed Results------------------------
+2017-01-12-10:20:59: Koç Holding
+2017-01-12-10:21:38: message: gpa
+2017-01-12-10:21:38: SearchTerm from OZ:gpa
+2017-01-12-10:21:38: State machine is initialized with input: 
+2017-01-12-10:21:38: gpa
+2017-01-12-10:21:38: Searching for phrase :gpa
+2017-01-12-10:21:39: Response for phrase :gpa
+
+2017-01-12-10:21:39: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 18.14345 } ] }
+2017-01-12-10:21:39: ItemlistElement for phrase : gpa
+2017-01-12-10:21:39: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02jcv3',
+     name: 'Uluslararası Bakalorya',
+     '@type': [ 'Corporation', 'Thing', 'Organization' ],
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTDjK-7Wha_3jOT0Lc_Ru3ZikN_nyI0Bk4JZuNR9e5HcbiBJep1',
+        url: 'https://commons.wikimedia.org/wiki/File:IB_logo.gif' },
+     detailedDescription: 
+      { articleBody: 'International Baccalaureate ya da Uluslararası Bakalorya, Uluslararası Bakalorya Örgütü tarafından dünyanın birçok ülkesinde uygulanan ve 3 değişik gruptan oluşan bir sistemdir.',
+        url: 'https://tr.wikipedia.org/wiki/Uluslararas%C4%B1_Bakalorya',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.ibo.org/' },
+  resultScore: 18.14345 }
+2017-01-12-10:21:39: Callback for phrase : gpa
+2017-01-12-10:21:39: result of :gpa
+2017-01-12-10:21:39: { '@id': 'kg:/m/02jcv3',
+  name: 'Uluslararası Bakalorya',
+  '@type': [ 'Corporation', 'Thing', 'Organization' ],
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcTDjK-7Wha_3jOT0Lc_Ru3ZikN_nyI0Bk4JZuNR9e5HcbiBJep1',
+     url: 'https://commons.wikimedia.org/wiki/File:IB_logo.gif' },
+  detailedDescription: 
+   { articleBody: 'International Baccalaureate ya da Uluslararası Bakalorya, Uluslararası Bakalorya Örgütü tarafından dünyanın birçok ülkesinde uygulanan ve 3 değişik gruptan oluşan bir sistemdir.',
+     url: 'https://tr.wikipedia.org/wiki/Uluslararas%C4%B1_Bakalorya',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.ibo.org/' }
+2017-01-12-10:21:39: https://www.googleapis.com/customsearch/v1?q=Uluslararası Bakalorya&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:21:39: received_result_no=1
+2017-01-12-10:21:39: finish
+2017-01-12-10:21:39: process is finished
+2017-01-12-10:21:39: -----------------Printed Results------------------------
+2017-01-12-10:21:39: Uluslararası Bakalorya
+2017-01-12-10:23:42: message: erasmus
+2017-01-12-10:23:42: SearchTerm from OZ:erasmus
+2017-01-12-10:23:42: State machine is initialized with input: 
+2017-01-12-10:23:42: erasmus
+2017-01-12-10:23:42: Searching for phrase :erasmus
+2017-01-12-10:23:43: Response for phrase :erasmus
+
+2017-01-12-10:23:43: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 32.507862 } ] }
+2017-01-12-10:23:43: ItemlistElement for phrase : erasmus
+2017-01-12-10:23:43: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/02rpq',
+     name: 'Desiderius Erasmus',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Filozof',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQT_7SYzBATZb_un5iX-yr46bzQKko-2MGjyecOE3MZi_TXB3QM',
+        url: 'https://commons.wikimedia.org/wiki/File:Holbein-erasmus.jpg' },
+     detailedDescription: 
+      { articleBody: 'Desiderius Erasmus, Kuzey Avrupa Rönesansı\'nın önemli ustası ve klasik edebiyat araştırmacısı, hümanist bilgin ve ilahiyatçı.',
+        url: 'https://tr.wikipedia.org/wiki/Desiderius_Erasmus',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 32.507862 }
+2017-01-12-10:23:43: Callback for phrase : erasmus
+2017-01-12-10:23:43: result of :erasmus
+2017-01-12-10:23:43: { '@id': 'kg:/m/02rpq',
+  name: 'Desiderius Erasmus',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Filozof',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQT_7SYzBATZb_un5iX-yr46bzQKko-2MGjyecOE3MZi_TXB3QM',
+     url: 'https://commons.wikimedia.org/wiki/File:Holbein-erasmus.jpg' },
+  detailedDescription: 
+   { articleBody: 'Desiderius Erasmus, Kuzey Avrupa Rönesansı\'nın önemli ustası ve klasik edebiyat araştırmacısı, hümanist bilgin ve ilahiyatçı.',
+     url: 'https://tr.wikipedia.org/wiki/Desiderius_Erasmus',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-12-10:23:43: https://www.googleapis.com/customsearch/v1?q=Desiderius Erasmus&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:23:43: received_result_no=1
+2017-01-12-10:23:43: finish
+2017-01-12-10:23:43: process is finished
+2017-01-12-10:23:43: -----------------Printed Results------------------------
+2017-01-12-10:23:43: Desiderius Erasmus
+2017-01-12-10:24:35: message: bocconi
+2017-01-12-10:24:35: SearchTerm from OZ:bocconi
+2017-01-12-10:24:35: State machine is initialized with input: 
+2017-01-12-10:24:35: bocconi
+2017-01-12-10:24:35: Searching for phrase :bocconi
+2017-01-12-10:24:36: Response for phrase :bocconi
+
+2017-01-12-10:24:36: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 26.68569 } ] }
+2017-01-12-10:24:36: ItemlistElement for phrase : bocconi
+2017-01-12-10:24:36: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/034dx6',
+     '@type': 
+      [ 'CollegeOrUniversity',
+        'Thing',
+        'Place',
+        'EducationalOrganization',
+        'Organization' ],
+     description: 'Milano, İtalya\'da bir vakıf üniversitesi',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR9QG4l90vGq92E_NdmgSIYgu_1YjbIxceM4vvrKk2MK-XzIf_1',
+        url: 'https://it.wikipedia.org/wiki/SDA_Bocconi_School_of_Management',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     url: 'http://www.unibocconi.it/' },
+  resultScore: 26.68569 }
+2017-01-12-10:24:36: Callback for phrase : bocconi
+2017-01-12-10:24:36: result of :bocconi
+2017-01-12-10:24:36: { '@id': 'kg:/m/034dx6',
+  '@type': 
+   [ 'CollegeOrUniversity',
+     'Thing',
+     'Place',
+     'EducationalOrganization',
+     'Organization' ],
+  description: 'Milano, İtalya\'da bir vakıf üniversitesi',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcR9QG4l90vGq92E_NdmgSIYgu_1YjbIxceM4vvrKk2MK-XzIf_1',
+     url: 'https://it.wikipedia.org/wiki/SDA_Bocconi_School_of_Management',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  url: 'http://www.unibocconi.it/' }
+2017-01-12-10:24:36: https://www.googleapis.com/customsearch/v1?q=bocconi&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:24:36: received_result_no=1
+2017-01-12-10:24:36: finish
+2017-01-12-10:24:36: process is finished
+2017-01-12-10:24:36: -----------------Printed Results------------------------
+2017-01-12-10:24:36: bocconi
+2017-01-12-10:24:45: 1: slide right gesture is called
+2017-01-12-10:25:40: message: rahat
+2017-01-12-10:25:40: SearchTerm from OZ:rahat
+2017-01-12-10:25:40: State machine is initialized with input: 
+2017-01-12-10:25:40: rahat
+2017-01-12-10:25:40: Searching for phrase :rahat
+2017-01-12-10:25:40: Response for phrase :rahat
+
+2017-01-12-10:25:40: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 31.645325 } ] }
+2017-01-12-10:25:40: ItemlistElement for phrase : rahat
+2017-01-12-10:25:40: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01vttk',
+     name: 'Rahat',
+     '@type': [ 'City', 'Place', 'Thing' ],
+     description: 'Şehir',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ-a9_tMPIlgOCSfPwMllpoETKIXaL4h0-LdBWSIG3e5vf4wTRX',
+        url: 'https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_17458_Rahat_city_from_hills_of_North.jpg',
+        license: 'http://creativecommons.org/licenses/by/2.5' },
+     detailedDescription: 
+      { articleBody: 'Rahat, İsrail\'in güneyinde yer alan bir şehirdir. Şehir, İsrail\'in Güney Bölgesi\'nde yer almaktadır. Şehrin nüfusu 10 Mart 2014 tarihli sayıma göre 60,400\'dür.',
+        url: 'https://tr.wikipedia.org/wiki/Rahat',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 31.645325 }
+2017-01-12-10:25:40: Callback for phrase : rahat
+2017-01-12-10:25:40: result of :rahat
+2017-01-12-10:25:40: { '@id': 'kg:/m/01vttk',
+  name: 'Rahat',
+  '@type': [ 'City', 'Place', 'Thing' ],
+  description: 'Şehir',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcQ-a9_tMPIlgOCSfPwMllpoETKIXaL4h0-LdBWSIG3e5vf4wTRX',
+     url: 'https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_17458_Rahat_city_from_hills_of_North.jpg',
+     license: 'http://creativecommons.org/licenses/by/2.5' },
+  detailedDescription: 
+   { articleBody: 'Rahat, İsrail\'in güneyinde yer alan bir şehirdir. Şehir, İsrail\'in Güney Bölgesi\'nde yer almaktadır. Şehrin nüfusu 10 Mart 2014 tarihli sayıma göre 60,400\'dür.',
+     url: 'https://tr.wikipedia.org/wiki/Rahat',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-01-12-10:25:40: https://www.googleapis.com/customsearch/v1?q=Rahat&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:25:40: received_result_no=1
+2017-01-12-10:25:40: finish
+2017-01-12-10:25:40: process is finished
+2017-01-12-10:25:40: -----------------Printed Results------------------------
+2017-01-12-10:25:40: Rahat
+2017-01-12-10:31:16: 2: slide right gesture is called
+2017-01-12-10:31:16: 2: slide right gesture is called
+2017-01-12-10:31:16: 2: slide left gesture is called
+2017-01-12-10:31:20: AftermoveSectionDown section_count is: 1
+2017-01-12-10:31:20: section_count is:0
+2017-01-12-10:31:20: https://www.googleapis.com/customsearch/v1?q=Rahat&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:31:20: AftermoveSectionUp section_count is: 0
+2017-01-12-10:31:21: 2: slide right gesture is called
+2017-01-12-10:31:22: 1: slide left gesture is called
+2017-01-12-10:31:32: 2: slide right gesture is called
+2017-01-12-10:31:58: 2: slide left gesture is called
+2017-01-12-10:32:02: AftermoveSectionUp section_count is: 0
+2017-01-12-10:32:05: 2: slide left gesture is called
+2017-01-12-10:32:13: 2: slide right gesture is called
+2017-01-12-10:32:23: AftermoveSectionDown section_count is: 1
+2017-01-12-10:33:15: 2: slide right gesture is called
+2017-01-12-10:33:20: AftermoveSectionDown section_count is: 1
+2017-01-12-10:33:42: 2: slide left gesture is called
+2017-01-12-10:33:52: AftermoveSectionDown section_count is: 1
+2017-01-12-10:34:04: 2: slide left gesture is called
+2017-01-12-10:34:42: section_count is:0
+2017-01-12-10:34:42: https://www.googleapis.com/customsearch/v1?q=Rahat&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:34:42: AftermoveSectionUp section_count is: 0
+2017-01-12-10:35:31: AftermoveSectionUp section_count is: 0
+2017-01-12-10:35:58: AftermoveSectionDown section_count is: 1
+2017-01-12-10:37:48: 2: slide right gesture is called
+2017-01-12-10:40:41: AftermoveSectionDown section_count is: 1
+2017-01-12-10:40:42: AftermoveSectionDown section_count is: 1
+2017-01-12-10:40:42: section_count is:0
+2017-01-12-10:40:42: https://www.googleapis.com/customsearch/v1?q=Rahat&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:40:42: AftermoveSectionUp section_count is: 0
+2017-01-12-10:40:49: AftermoveSectionUp section_count is: 0
+2017-01-12-10:40:50: AftermoveSectionUp section_count is: 0
+2017-01-12-10:41:09: 2: slide left gesture is called
+2017-01-12-10:41:11: 2: slide left gesture is called
+2017-01-12-10:41:27: AftermoveSectionUp section_count is: 0
+2017-01-12-10:41:29: AftermoveSectionDown section_count is: 1
+2017-01-12-10:42:01: 2: slide right gesture is called
+2017-01-12-10:42:07: AftermoveSectionDown section_count is: 1
+2017-01-12-10:42:10: 2: slide left gesture is called
+2017-01-12-10:42:12: 2: slide right gesture is called
+2017-01-12-10:43:02: section_count is:0
+2017-01-12-10:43:02: https://www.googleapis.com/customsearch/v1?q=Rahat&num=5&start=1&key=AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE&cx=007548910499588559159:lepkrgs8oig&searchType=image
+2017-01-12-10:43:02: AftermoveSectionUp section_count is: 0
+2017-01-12-10:43:06: AftermoveSectionUp section_count is: 0
+2017-01-12-10:45:49: AftermoveSectionUp section_count is: 0
+2017-01-12-10:45:59: 1: slide right gesture is called
+2017-01-12-10:46:00: AftermoveSectionDown section_count is: 1
+2017-01-12-10:46:00: 2: slide right gesture is called
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
