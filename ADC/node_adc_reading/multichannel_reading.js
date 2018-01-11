@@ -2,6 +2,15 @@
  * Created by ekin on 04/10/2016.
  */
 //Inlude gesture and event libraries
+
+var debug=false
+
+process.argv.forEach(function (val, index, array) {
+    if(val.startsWith("debug")){
+	debug = val.substring(6)
+    }
+});
+
 var gesture = require("./node_modules/gesture")
 var EventEmitter = require("events").EventEmitter;
 //create eventEmitter and gesture_recognizer objects.
@@ -43,4 +52,4 @@ ee.on("swipe-down,2", function (data) {
 ee.on("click-event,2", function (data) {
 	    console.log("2:click detected at point:" + data);
 });
-gesture_recognizer.startMultiChannelReading(ee,[0,1,2]);
+gesture_recognizer.startMultiChannelReading(ee,[0,1,2], debug);

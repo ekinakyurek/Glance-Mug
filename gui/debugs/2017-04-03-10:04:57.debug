@@ -1,0 +1,753 @@
+2017-04-03-10:04:57: State machine is initialized with input: 
+2017-04-03-10:04:57: Yasaklar konulsa da güneş balçıkla sıvanmaz RTÜK gerekçesi huzur ve güven ortamının bozuyor yasak,Noun konul,Other da,Other güneş,Noun balçık,Noun sıva,Other
+2017-04-03-10:04:57: Input words : 
+2017-04-03-10:04:57: [ 'Yasaklar',
+  'konulsa',
+  'da',
+  'güneş',
+  'balçıkla',
+  'sıvanmaz',
+  'RTÜK',
+  'gerekçesi',
+  'huzur' ]
+2017-04-03-10:04:57: Input roots : 
+2017-04-03-10:04:57: [ 've',
+  'güven',
+  'ortamının',
+  'bozuyor',
+  'yasak',
+  'konul',
+  'da',
+  'güneş',
+  'balçık',
+  'sıva' ]
+2017-04-03-10:04:57: Searching for phrase :Yasaklar
+2017-04-03-10:04:58: Response for phrase :Yasaklar
+
+2017-04-03-10:04:58: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 19.25498 } ] }
+2017-04-03-10:04:58: ItemlistElement for phrase : Yasaklar
+2017-04-03-10:04:58: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0vpdwyd',
+     name: 'Yasaklar',
+     '@type': [ 'Movie', 'Thing' ],
+     description: 'Film' },
+  resultScore: 19.25498 }
+2017-04-03-10:04:58: Callback for phrase : Yasaklar
+2017-04-03-10:04:58: Callback for word is succeed :Yasaklar
+2017-04-03-10:04:58: Word is going to iteration : Yasaklar
+2017-04-03-10:04:58: Iteration for phrase : Yasaklar konulsa
+2017-04-03-10:04:58: Searching for phrase :Yasaklar konulsa
+2017-04-03-10:04:59: Response for phrase :Yasaklar konulsa
+
+2017-04-03-10:04:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:04:59: ItemlistElement for phrase : Yasaklar konulsa
+2017-04-03-10:04:59: undefined
+2017-04-03-10:04:59: Failed callback for phras : Yasaklar konulsa
+
+2017-04-03-10:04:59: Callback for iteration phrase is succeed :Yasaklar konulsa
+2017-04-03-10:04:59: Score for phrase isnull : Yasaklar konulsa
+2017-04-03-10:04:59: iteration phrase is going root iteration :Yasaklar konulsa
+2017-04-03-10:04:59: Root iteration for phrase : Yasaklar güven
+2017-04-03-10:04:59: Searching for phrase :Yasaklar güven
+2017-04-03-10:04:59: Response for phrase :Yasaklar güven
+
+2017-04-03-10:04:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:04:59: ItemlistElement for phrase : Yasaklar güven
+2017-04-03-10:04:59: undefined
+2017-04-03-10:04:59: Failed callback for phras : Yasaklar güven
+
+2017-04-03-10:04:59: Callback for root iteration phrase is succeed :Yasaklar güven
+2017-04-03-10:04:59: Score for phrase isnull : Yasaklar güven
+2017-04-03-10:04:59: Root iteration phrase is going to matching :Yasaklar güven
+2017-04-03-10:04:59: Matching result for phrase : Yasaklar
+
+2017-04-03-10:04:59: { '@id': 'kg:/m/0vpdwyd',
+  name: 'Yasaklar',
+  '@type': [ 'Movie', 'Thing' ],
+  description: 'Film' }
+2017-04-03-10:04:59: Result for phrase will not be printed because it is not noun : Yasaklar
+2017-04-03-10:04:59: System goes new search 
+2017-04-03-10:04:59: Searching for phrase :konulsa
+2017-04-03-10:04:59: Response for phrase :konulsa
+
+2017-04-03-10:04:59: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:04:59: ItemlistElement for phrase : konulsa
+2017-04-03-10:04:59: undefined
+2017-04-03-10:04:59: Failed callback for phras : konulsa
+
+2017-04-03-10:04:59: Callback for word is succeed :konulsa
+2017-04-03-10:04:59: Word is going to root_serach : konulsa
+2017-04-03-10:04:59: Searching for phrase :güven
+2017-04-03-10:05:00: Response for phrase :güven
+
+2017-04-03-10:05:00: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 25.634714 } ] }
+2017-04-03-10:05:00: ItemlistElement for phrase : güven
+2017-04-03-10:05:00: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0fq0b9t',
+     name: 'Ozan Güven',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Televizyon oyuncusu',
+     detailedDescription: 
+      { articleBody: 'Ozan Muharrem Güven, Türk televizyon, sinema ve tiyatro oyuncusu.',
+        url: 'https://tr.wikipedia.org/wiki/Ozan_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 25.634714 }
+2017-04-03-10:05:00: Callback for phrase : güven
+2017-04-03-10:05:00: Callback for root is succeed :güven
+2017-04-03-10:05:00: Root is going to iteration : güven
+2017-04-03-10:05:00: Iteration for phrase : güven da
+2017-04-03-10:05:00: Searching for phrase :güven da
+2017-04-03-10:05:01: Response for phrase :güven da
+
+2017-04-03-10:05:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 37.883911 } ] }
+2017-04-03-10:05:01: ItemlistElement for phrase : güven da
+2017-04-03-10:05:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gl0wy',
+     name: 'Mehmet Güven',
+     '@type': [ 'Thing', 'Person' ],
+     description: 'Futbol oyuncusu',
+     image: 
+      { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRTLxT_xSEmfsaaYaoxmz5wrKpNQFnhIZnXv2dztGQegjDwQO9o',
+        url: 'https://en.wikipedia.org/wiki/Mehmet_G%C3%BCven',
+        license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+     detailedDescription: 
+      { articleBody: 'Mehmet Güven Türk, orta saha oyuncusudur. Osmanlıspor\'da forma giymektedir.',
+        url: 'https://tr.wikipedia.org/wiki/Mehmet_G%C3%BCven',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 37.883911 }
+2017-04-03-10:05:01: Callback for phrase : güven da
+2017-04-03-10:05:01: Callback for iteration phrase is succeed :güven da
+2017-04-03-10:05:01: Score for phrase is37.883911 : güven da
+2017-04-03-10:05:01: iteration phrase is going next iteration :güven da
+2017-04-03-10:05:01: Iteration for phrase : güven da güneş
+2017-04-03-10:05:01: Searching for phrase :güven da güneş
+2017-04-03-10:05:01: Response for phrase :güven da güneş
+
+2017-04-03-10:05:01: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 10.745267 } ] }
+2017-04-03-10:05:01: ItemlistElement for phrase : güven da güneş
+2017-04-03-10:05:01: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/11css79ytx',
+     name: 'Esin Güneş',
+     '@type': [ 'Person', 'Thing' ],
+     detailedDescription: 
+      { articleBody: 'Esin Güneş, boşanmak istediği eşi tarafından 25 yaşında öldürülen sınıf öğretmeni. Ölüm sebebinin intihar değil cinayet olduğu, 3 yıl süren hukuk mücadelesi ile ortaya çıktı. ',
+        url: 'https://tr.wikipedia.org/wiki/Esin_G%C3%BCne%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 10.745267 }
+2017-04-03-10:05:01: Callback for phrase : güven da güneş
+2017-04-03-10:05:01: Callback for iteration phrase is succeed :güven da güneş
+2017-04-03-10:05:01: Score for phrase is10.745267 : güven da güneş
+2017-04-03-10:05:01: iteration phrase is going root iteration :güven da güneş
+2017-04-03-10:05:01: Root iteration for phrase : güven da bozuyor
+2017-04-03-10:05:01: Searching for phrase :güven da bozuyor
+2017-04-03-10:05:02: Response for phrase :güven da bozuyor
+
+2017-04-03-10:05:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:02: ItemlistElement for phrase : güven da bozuyor
+2017-04-03-10:05:02: undefined
+2017-04-03-10:05:02: Failed callback for phras : güven da bozuyor
+
+2017-04-03-10:05:02: Callback for root iteration phrase is succeed :güven da bozuyor
+2017-04-03-10:05:02: Score for phrase isnull : güven da bozuyor
+2017-04-03-10:05:02: Root iteration phrase is going to matching :güven da bozuyor
+2017-04-03-10:05:02: Matching result for phrase : güven da
+
+2017-04-03-10:05:02: { '@id': 'kg:/m/0gl0wy',
+  name: 'Mehmet Güven',
+  '@type': [ 'Thing', 'Person' ],
+  description: 'Futbol oyuncusu',
+  image: 
+   { contentUrl: 'http://t2.gstatic.com/images?q=tbn:ANd9GcRTLxT_xSEmfsaaYaoxmz5wrKpNQFnhIZnXv2dztGQegjDwQO9o',
+     url: 'https://en.wikipedia.org/wiki/Mehmet_G%C3%BCven',
+     license: 'http://creativecommons.org/licenses/by-sa/3.0' },
+  detailedDescription: 
+   { articleBody: 'Mehmet Güven Türk, orta saha oyuncusudur. Osmanlıspor\'da forma giymektedir.',
+     url: 'https://tr.wikipedia.org/wiki/Mehmet_G%C3%BCven',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-04-03-10:05:02: Result for phrase will be printed : güven da
+2017-04-03-10:05:02: System goes new search 
+2017-04-03-10:05:02: Searching for phrase :güneş
+2017-04-03-10:05:02: Response for phrase :güneş
+
+2017-04-03-10:05:02: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 102.620361 } ] }
+2017-04-03-10:05:02: ItemlistElement for phrase : güneş
+2017-04-03-10:05:02: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06m_p',
+     name: 'Güneş',
+     '@type': [ 'Thing' ],
+     description: 'Yıldız',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSxLsFtPE2Dgw-W_1taaIwuSqJB-6y3jlHSi4n7eY8SPyHmNFTS',
+        url: 'https://simple.wikipedia.org/wiki/Sun' },
+     detailedDescription: 
+      { articleBody: 'Güneş, Güneş Sistemi\'nin merkezinde yer alan yıldız. Orta büyüklükte bir yıldız olan Güneş, tek başına Güneş Sistemi kütlesinin % 99,8\'ini oluşturur. ',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCne%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 102.620361 }
+2017-04-03-10:05:02: Callback for phrase : güneş
+2017-04-03-10:05:02: Callback for word is succeed :güneş
+2017-04-03-10:05:02: Word is going to iteration : güneş
+2017-04-03-10:05:02: Iteration for phrase : güneş balçıkla
+2017-04-03-10:05:02: Searching for phrase :güneş balçıkla
+2017-04-03-10:05:03: Response for phrase :güneş balçıkla
+
+2017-04-03-10:05:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:03: ItemlistElement for phrase : güneş balçıkla
+2017-04-03-10:05:03: undefined
+2017-04-03-10:05:03: Failed callback for phras : güneş balçıkla
+
+2017-04-03-10:05:03: Callback for iteration phrase is succeed :güneş balçıkla
+2017-04-03-10:05:03: Score for phrase isnull : güneş balçıkla
+2017-04-03-10:05:03: iteration phrase is going root iteration :güneş balçıkla
+2017-04-03-10:05:03: Root iteration for phrase : güneş yasak
+2017-04-03-10:05:03: Searching for phrase :güneş yasak
+2017-04-03-10:05:03: Response for phrase :güneş yasak
+
+2017-04-03-10:05:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:03: ItemlistElement for phrase : güneş yasak
+2017-04-03-10:05:03: undefined
+2017-04-03-10:05:03: Failed callback for phras : güneş yasak
+
+2017-04-03-10:05:03: Callback for root iteration phrase is succeed :güneş yasak
+2017-04-03-10:05:03: Score for phrase isnull : güneş yasak
+2017-04-03-10:05:03: Root iteration phrase is going to matching :güneş yasak
+2017-04-03-10:05:03: Matching result for phrase : güneş
+
+2017-04-03-10:05:03: { '@id': 'kg:/m/06m_p',
+  name: 'Güneş',
+  '@type': [ 'Thing' ],
+  description: 'Yıldız',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSxLsFtPE2Dgw-W_1taaIwuSqJB-6y3jlHSi4n7eY8SPyHmNFTS',
+     url: 'https://simple.wikipedia.org/wiki/Sun' },
+  detailedDescription: 
+   { articleBody: 'Güneş, Güneş Sistemi\'nin merkezinde yer alan yıldız. Orta büyüklükte bir yıldız olan Güneş, tek başına Güneş Sistemi kütlesinin % 99,8\'ini oluşturur. ',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%BCne%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-04-03-10:05:03: Result for phrase will be printed : güneş
+2017-04-03-10:05:03: System goes new search 
+2017-04-03-10:05:03: Searching for phrase :balçıkla
+2017-04-03-10:05:04: Response for phrase :balçıkla
+
+2017-04-03-10:05:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:04: ItemlistElement for phrase : balçıkla
+2017-04-03-10:05:04: undefined
+2017-04-03-10:05:04: Failed callback for phras : balçıkla
+
+2017-04-03-10:05:04: Callback for word is succeed :balçıkla
+2017-04-03-10:05:04: Word is going to root_serach : balçıkla
+2017-04-03-10:05:04: Searching for phrase :yasak
+2017-04-03-10:05:05: Response for phrase :yasak
+
+2017-04-03-10:05:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 35.129951 } ] }
+2017-04-03-10:05:05: ItemlistElement for phrase : yasak
+2017-04-03-10:05:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0j0b2',
+     name: 'Yasak Şehir',
+     '@type': 
+      [ 'TouristAttraction',
+        'Place',
+        'Thing',
+        'CivicStructure',
+        'LandmarksOrHistoricalBuildings' ],
+     description: 'Saray',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS4rHIiGfmGyKt0kPFKtZPBVyYQy6iHQX8mDZPrVFD0-oc9_BKs',
+        url: 'https://commons.wikimedia.org/wiki/File:Forbidden_City_Beijing_Shenwumen_Gate.JPG',
+        license: 'http://www.gnu.org/copyleft/fdl.html' },
+     detailedDescription: 
+      { articleBody: 'Yasak Şehir Ming Hanedanı\'nından Çing Hanedanı\'nın sonuna kadar kullanılmış Çin imparatorluk sarayıdır. Çin\'in Pekin şehrinin ortasında bulunmaktadır. ',
+        url: 'https://tr.wikipedia.org/wiki/Yasak_%C5%9Eehir',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.dpm.org.cn/index1024768.html' },
+  resultScore: 35.129951 }
+2017-04-03-10:05:05: Callback for phrase : yasak
+2017-04-03-10:05:05: Callback for root is succeed :yasak
+2017-04-03-10:05:05: Root is going to iteration : yasak
+2017-04-03-10:05:05: Iteration for phrase : yasak sıvanmaz
+2017-04-03-10:05:05: Searching for phrase :yasak sıvanmaz
+2017-04-03-10:05:05: Response for phrase :yasak sıvanmaz
+
+2017-04-03-10:05:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:05: ItemlistElement for phrase : yasak sıvanmaz
+2017-04-03-10:05:05: undefined
+2017-04-03-10:05:05: Failed callback for phras : yasak sıvanmaz
+
+2017-04-03-10:05:05: Callback for iteration phrase is succeed :yasak sıvanmaz
+2017-04-03-10:05:05: Score for phrase isnull : yasak sıvanmaz
+2017-04-03-10:05:05: iteration phrase is going root iteration :yasak sıvanmaz
+2017-04-03-10:05:05: Root iteration for phrase : yasak konul
+2017-04-03-10:05:05: Searching for phrase :yasak konul
+2017-04-03-10:05:05: Response for phrase :yasak konul
+
+2017-04-03-10:05:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:05: ItemlistElement for phrase : yasak konul
+2017-04-03-10:05:05: undefined
+2017-04-03-10:05:05: Failed callback for phras : yasak konul
+
+2017-04-03-10:05:05: Callback for root iteration phrase is succeed :yasak konul
+2017-04-03-10:05:05: Score for phrase isnull : yasak konul
+2017-04-03-10:05:05: Root iteration phrase is going to matching :yasak konul
+2017-04-03-10:05:05: Matching result for phrase : yasak
+
+2017-04-03-10:05:05: { '@id': 'kg:/m/0j0b2',
+  name: 'Yasak Şehir',
+  '@type': 
+   [ 'TouristAttraction',
+     'Place',
+     'Thing',
+     'CivicStructure',
+     'LandmarksOrHistoricalBuildings' ],
+  description: 'Saray',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcS4rHIiGfmGyKt0kPFKtZPBVyYQy6iHQX8mDZPrVFD0-oc9_BKs',
+     url: 'https://commons.wikimedia.org/wiki/File:Forbidden_City_Beijing_Shenwumen_Gate.JPG',
+     license: 'http://www.gnu.org/copyleft/fdl.html' },
+  detailedDescription: 
+   { articleBody: 'Yasak Şehir Ming Hanedanı\'nından Çing Hanedanı\'nın sonuna kadar kullanılmış Çin imparatorluk sarayıdır. Çin\'in Pekin şehrinin ortasında bulunmaktadır. ',
+     url: 'https://tr.wikipedia.org/wiki/Yasak_%C5%9Eehir',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.dpm.org.cn/index1024768.html' }
+2017-04-03-10:05:05: Result for phrase will not be printed because it is not noun : yasak
+2017-04-03-10:05:05: System goes new search 
+2017-04-03-10:05:05: Searching for phrase :sıvanmaz
+2017-04-03-10:05:06: Response for phrase :sıvanmaz
+
+2017-04-03-10:05:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:06: ItemlistElement for phrase : sıvanmaz
+2017-04-03-10:05:06: undefined
+2017-04-03-10:05:06: Failed callback for phras : sıvanmaz
+
+2017-04-03-10:05:06: Callback for word is succeed :sıvanmaz
+2017-04-03-10:05:06: Word is going to root_serach : sıvanmaz
+2017-04-03-10:05:06: Searching for phrase :konul
+2017-04-03-10:05:06: Response for phrase :konul
+
+2017-04-03-10:05:06: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 0.257045 } ] }
+2017-04-03-10:05:06: ItemlistElement for phrase : konul
+2017-04-03-10:05:06: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/12h2svhfz',
+     name: 'Gönül Bünyatzade',
+     '@type': [ 'Thing', 'Person' ],
+     detailedDescription: 
+      { articleBody: 'Gönül Bünyatzade – Azerbaycanlı filozof.',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%B6n%C3%BCl_B%C3%BCnyatzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 0.257045 }
+2017-04-03-10:05:06: Callback for phrase : konul
+2017-04-03-10:05:06: Callback for root is succeed :konul
+2017-04-03-10:05:06: Root is going to iteration : konul
+2017-04-03-10:05:06: Iteration for phrase : konul RTÜK
+2017-04-03-10:05:06: Searching for phrase :konul RTÜK
+2017-04-03-10:05:07: Response for phrase :konul RTÜK
+
+2017-04-03-10:05:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:07: ItemlistElement for phrase : konul RTÜK
+2017-04-03-10:05:07: undefined
+2017-04-03-10:05:07: Failed callback for phras : konul RTÜK
+
+2017-04-03-10:05:07: Callback for iteration phrase is succeed :konul RTÜK
+2017-04-03-10:05:07: Score for phrase isnull : konul RTÜK
+2017-04-03-10:05:07: iteration phrase is going root iteration :konul RTÜK
+2017-04-03-10:05:07: Root iteration for phrase : konul da
+2017-04-03-10:05:07: Searching for phrase :konul da
+2017-04-03-10:05:07: Response for phrase :konul da
+
+2017-04-03-10:05:07: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 0.257045 } ] }
+2017-04-03-10:05:07: ItemlistElement for phrase : konul da
+2017-04-03-10:05:07: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/g/12h2svhfz',
+     name: 'Gönül Bünyatzade',
+     '@type': [ 'Thing', 'Person' ],
+     detailedDescription: 
+      { articleBody: 'Gönül Bünyatzade – Azerbaycanlı filozof.',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%B6n%C3%BCl_B%C3%BCnyatzade',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 0.257045 }
+2017-04-03-10:05:07: Callback for phrase : konul da
+2017-04-03-10:05:07: Callback for root iteration phrase is succeed :konul da
+2017-04-03-10:05:07: Score for phrase is0.257045 : konul da
+2017-04-03-10:05:07: Root iteration phrase is going next iteration :konul da
+2017-04-03-10:05:07: Iteration for phrase : konul da gerekçesi
+2017-04-03-10:05:07: Searching for phrase :konul da gerekçesi
+2017-04-03-10:05:08: Response for phrase :konul da gerekçesi
+
+2017-04-03-10:05:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:08: ItemlistElement for phrase : konul da gerekçesi
+2017-04-03-10:05:08: undefined
+2017-04-03-10:05:08: Failed callback for phras : konul da gerekçesi
+
+2017-04-03-10:05:08: Callback for iteration phrase is succeed :konul da gerekçesi
+2017-04-03-10:05:08: Score for phrase isnull : konul da gerekçesi
+2017-04-03-10:05:08: iteration phrase is going root iteration :konul da gerekçesi
+2017-04-03-10:05:08: Root iteration for phrase : konul da güneş
+2017-04-03-10:05:08: Searching for phrase :konul da güneş
+2017-04-03-10:05:08: Response for phrase :konul da güneş
+
+2017-04-03-10:05:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:08: ItemlistElement for phrase : konul da güneş
+2017-04-03-10:05:08: undefined
+2017-04-03-10:05:08: Failed callback for phras : konul da güneş
+
+2017-04-03-10:05:08: Callback for root iteration phrase is succeed :konul da güneş
+2017-04-03-10:05:08: Score for phrase isnull : konul da güneş
+2017-04-03-10:05:08: Root iteration phrase is going to matching :konul da güneş
+2017-04-03-10:05:08: Matching result for phrase : konul da
+
+2017-04-03-10:05:08: { '@id': 'kg:/g/12h2svhfz',
+  name: 'Gönül Bünyatzade',
+  '@type': [ 'Thing', 'Person' ],
+  detailedDescription: 
+   { articleBody: 'Gönül Bünyatzade – Azerbaycanlı filozof.',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%B6n%C3%BCl_B%C3%BCnyatzade',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-04-03-10:05:08: Result for phrase will be printed : konul da
+2017-04-03-10:05:08: System goes new search 
+2017-04-03-10:05:08: Searching for phrase :gerekçesi
+2017-04-03-10:05:08: Response for phrase :gerekçesi
+
+2017-04-03-10:05:08: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:08: ItemlistElement for phrase : gerekçesi
+2017-04-03-10:05:08: undefined
+2017-04-03-10:05:08: Failed callback for phras : gerekçesi
+
+2017-04-03-10:05:08: Callback for word is succeed :gerekçesi
+2017-04-03-10:05:08: Word is going to root_serach : gerekçesi
+2017-04-03-10:05:08: Searching for phrase :güneş
+2017-04-03-10:05:09: Response for phrase :güneş
+
+2017-04-03-10:05:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 102.620361 } ] }
+2017-04-03-10:05:09: ItemlistElement for phrase : güneş
+2017-04-03-10:05:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/06m_p',
+     name: 'Güneş',
+     '@type': [ 'Thing' ],
+     description: 'Yıldız',
+     image: 
+      { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSxLsFtPE2Dgw-W_1taaIwuSqJB-6y3jlHSi4n7eY8SPyHmNFTS',
+        url: 'https://simple.wikipedia.org/wiki/Sun' },
+     detailedDescription: 
+      { articleBody: 'Güneş, Güneş Sistemi\'nin merkezinde yer alan yıldız. Orta büyüklükte bir yıldız olan Güneş, tek başına Güneş Sistemi kütlesinin % 99,8\'ini oluşturur. ',
+        url: 'https://tr.wikipedia.org/wiki/G%C3%BCne%C5%9F',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 102.620361 }
+2017-04-03-10:05:09: Callback for phrase : güneş
+2017-04-03-10:05:09: Callback for root is succeed :güneş
+2017-04-03-10:05:09: Root is going to iteration : güneş
+2017-04-03-10:05:09: Iteration for phrase : güneş huzur
+2017-04-03-10:05:09: Searching for phrase :güneş huzur
+2017-04-03-10:05:09: Response for phrase :güneş huzur
+
+2017-04-03-10:05:09: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 5.422427 } ] }
+2017-04-03-10:05:09: ItemlistElement for phrase : güneş huzur
+2017-04-03-10:05:09: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0v322bw',
+     name: 'Köprü',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Ayşe Kulin tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Köprü, Ayşe Kulin\'in 2002 yılında yayınlanan romanı. 2006\'da başrolünde Erdal Beşikçioğlu\'nun yer aldığı televizyon dizisine uyarlandı.',
+        url: 'https://tr.wikipedia.org/wiki/K%C3%B6pr%C3%BC_(roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 5.422427 }
+2017-04-03-10:05:09: Callback for phrase : güneş huzur
+2017-04-03-10:05:09: Callback for iteration phrase is succeed :güneş huzur
+2017-04-03-10:05:09: Score for phrase is5.422427 : güneş huzur
+2017-04-03-10:05:09: iteration phrase is going root iteration :güneş huzur
+2017-04-03-10:05:09: Root iteration for phrase : güneş balçık
+2017-04-03-10:05:09: Searching for phrase :güneş balçık
+2017-04-03-10:05:10: Response for phrase :güneş balçık
+
+2017-04-03-10:05:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-04-03-10:05:10: ItemlistElement for phrase : güneş balçık
+2017-04-03-10:05:10: undefined
+2017-04-03-10:05:10: Failed callback for phras : güneş balçık
+
+2017-04-03-10:05:10: Callback for root iteration phrase is succeed :güneş balçık
+2017-04-03-10:05:10: Score for phrase isnull : güneş balçık
+2017-04-03-10:05:10: Root iteration phrase is going to matching :güneş balçık
+2017-04-03-10:05:10: Matching result for phrase : güneş
+
+2017-04-03-10:05:10: { '@id': 'kg:/m/06m_p',
+  name: 'Güneş',
+  '@type': [ 'Thing' ],
+  description: 'Yıldız',
+  image: 
+   { contentUrl: 'http://t3.gstatic.com/images?q=tbn:ANd9GcSxLsFtPE2Dgw-W_1taaIwuSqJB-6y3jlHSi4n7eY8SPyHmNFTS',
+     url: 'https://simple.wikipedia.org/wiki/Sun' },
+  detailedDescription: 
+   { articleBody: 'Güneş, Güneş Sistemi\'nin merkezinde yer alan yıldız. Orta büyüklükte bir yıldız olan Güneş, tek başına Güneş Sistemi kütlesinin % 99,8\'ini oluşturur. ',
+     url: 'https://tr.wikipedia.org/wiki/G%C3%BCne%C5%9F',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-04-03-10:05:10: Result for phrase will be printed : güneş
+2017-04-03-10:05:10: System goes new search 
+2017-04-03-10:05:10: Searching for phrase :huzur
+2017-04-03-10:05:10: Response for phrase :huzur
+
+2017-04-03-10:05:10: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 22.24366 } ] }
+2017-04-03-10:05:10: ItemlistElement for phrase : huzur
+2017-04-03-10:05:10: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/09gbhxz',
+     name: 'Huzur',
+     '@type': [ 'Book', 'Thing' ],
+     description: 'Ahmet Hamdi Tanpınar tarafından yazılan roman',
+     detailedDescription: 
+      { articleBody: 'Huzur, Ahmet Hamdi Tanpınar tarafından yazılmış roman. 22 Şubat 1948 - 2 Haziran 1948 tarihleri arasında Cumhuriyet Gazetesi tarafından tefrika edilmiş, 1949 yılında da kitap olarak tek cilt halinde basılmıştır. 1949 yılından 2004 yılına kadar on üç kez basımı yapılan Huzur, en son Dergah yayınları tarafından yayınlanmıştır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Huzur_(roman)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } },
+  resultScore: 22.24366 }
+2017-04-03-10:05:10: Callback for phrase : huzur
+2017-04-03-10:05:10: Callback for word is succeed :huzur
+2017-04-03-10:05:10: last word is noun here is the result of :huzur
+2017-04-03-10:05:10: { '@id': 'kg:/m/09gbhxz',
+  name: 'Huzur',
+  '@type': [ 'Book', 'Thing' ],
+  description: 'Ahmet Hamdi Tanpınar tarafından yazılan roman',
+  detailedDescription: 
+   { articleBody: 'Huzur, Ahmet Hamdi Tanpınar tarafından yazılmış roman. 22 Şubat 1948 - 2 Haziran 1948 tarihleri arasında Cumhuriyet Gazetesi tarafından tefrika edilmiş, 1949 yılında da kitap olarak tek cilt halinde basılmıştır. 1949 yılından 2004 yılına kadar on üç kez basımı yapılan Huzur, en son Dergah yayınları tarafından yayınlanmıştır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Huzur_(roman)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' } }
+2017-04-03-10:05:10: finish
+2017-04-03-10:05:10: -----------------Printed Results------------------------
+2017-04-03-10:05:10: Mehmet Güven
+2017-04-03-10:05:10: Güneş
+2017-04-03-10:05:10: Gönül Bünyatzade
+2017-04-03-10:05:10: Güneş
+2017-04-03-10:05:10: Huzur
