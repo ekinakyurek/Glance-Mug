@@ -66,7 +66,6 @@ def recordAudio():
 
         if(len(framesTemp) == int(RATE / CHUNK * RECORD_SECONDS)):
             framesTemp.pop(0)
-
     """
     stream.stop_stream()
     stream.close()
@@ -122,7 +121,7 @@ def transcript(flac_cont, result):
             'config': {
                 'encoding': 'FLAC',  # raw 16-bit signed LE samples
                 'sampleRate': RATE,  # 16 khz
-                'languageCode': 'tr-TR',  # a BCP-47 language tag tr-TR
+                'languageCode': 'en-US',  # a BCP-47 language tag tr-TR
                 'maxAlternatives': 0,
             },
             'audio': {
@@ -131,6 +130,7 @@ def transcript(flac_cont, result):
             })
             
     response = service_request.execute()
+    print(response)
     sentence = json.dumps(response) 
     hop = json.loads(sentence)
     
@@ -210,7 +210,7 @@ def foma_thread(word, index, totalW, totalR):
     #print word
 
     if (len(word.strip()) > 0):
-        cmd = 'foma -e "load /home/pi/Desktop/TRmorph/trmorph.fst" -e "up {0}" -e "quit"'.format(word)
+        cmd = 'foma -e "load /home/pi/TRmorph/trmorph.fst" -e "up {0}" -e "quit"'.format(word)
         p = subprocess.Popen(cmd, shell=True, universal_newlines=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out, err = p.communicate()
         asd = out.split("\n")
@@ -301,7 +301,7 @@ def reader():
                     
                     ret = messageHandler()
                     #ret = "bir iki 12 simit oluyor sdfds izliyorum filmlerinki fazlalar"
-                    #ret = "  aç"
+                    #ret = "  aï¿½"
 
                     #print "|" + ret + "|"
                     if (len(ret.strip()) > 0):
@@ -337,7 +337,7 @@ def main():
     try:
         tr = Thread(target=reader)
         tra = Thread(target=recordAudio)
-
+        print(tra)
     except:
        print "Error: unable to start thread"
     
@@ -354,3 +354,4 @@ if __name__ == '__main__':
         GRAPH_ENABLED = True
 
     main()
+

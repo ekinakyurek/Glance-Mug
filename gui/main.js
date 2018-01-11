@@ -1,10 +1,12 @@
 'use strict'
 const electron = require('electron')
 //initialization for gesture.js
-var gesture = require("./node_modules/gesture")
+var gesture = require("./node_modules/gesture.js")
 var EventEmitter = require("events").EventEmitter;
 var ee = new EventEmitter();
-var gesture_recognizer = new gesture(0,0, 4096, '3300')
+//var gesture_recognizer = new gesture(0,0, 4096, '3300')
+const path = require('path')
+const url = require('url')
 
 
 // Module to control application life.
@@ -21,8 +23,11 @@ function createWindow () {
   mainWindow = new BrowserWindow({width: 240, height: 320})
 
   // and load the index.html of the app.
-  mainWindow.loadURL(`file://${__dirname}/index.html`)
-
+  mainWindow.loadURL(url.format({
+    pathname: path.join(__dirname, 'index_old.html'),
+    protocol: 'file:',
+    slashes: true
+  }))
   // Open the DevTools.
  // mainWindow.webContents.openDevTools()
 
@@ -34,7 +39,7 @@ function createWindow () {
     mainWindow = null
   })
 
-  gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
+  //gesture_recognizer.startMultiChannelReading(mainWindow.webContents,[0,1,2]);		     
 }
 
 

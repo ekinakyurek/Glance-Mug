@@ -10,7 +10,7 @@ var adc = new ads1x15(chip);
 
 //    var adc = new ads1x15(chip, 0x48, 'dev/i2c-0');
 
-var channel = 2; //channel 0, 1, 2, or 3...
+var channel = 0; //channel 0, 1, 2, or 3...
 var samplesPerSecond = '860'; // see index.js for allowed values for your chip
 var progGainAmp = 6144; // see index.js for allowed values for your chip
 var gestureArray = [];

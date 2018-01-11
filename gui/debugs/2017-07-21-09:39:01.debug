@@ -1,0 +1,146 @@
+2017-07-21-09:39:01: State machine is initialized with input: 
+2017-07-21-09:39:02: Açlık Oyunları, Orhan Gencebay, Zeki Müren
+2017-07-21-09:39:02: Searching for phrase :Açlık Oyunları
+2017-07-21-09:39:03: Response for phrase :Açlık Oyunları
+
+2017-07-21-09:39:03: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 575.12561 } ] }
+2017-07-21-09:39:03: ItemlistElement for phrase : Açlık Oyunları
+2017-07-21-09:39:03: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/0gkz15s',
+     name: 'Açlık Oyunları',
+     '@type': [ 'Thing', 'Movie' ],
+     description: '2012 yapımı film',
+     image: 
+      { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRIkjzLt97bPSLFf7nwgAYxAQRuB0NlGsBGwhKYQFgZqmiyI8-6',
+        url: 'https://commons.wikimedia.org/wiki/File:Thehungergames.jpg',
+        license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+     detailedDescription: 
+      { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+        url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.thehungergamesmovie.com/index.html' },
+  resultScore: 575.12561 }
+2017-07-21-09:39:03: Callback for phrase : Açlık Oyunları
+2017-07-21-09:39:03: result of :Açlık Oyunları
+2017-07-21-09:39:03: { '@id': 'kg:/m/0gkz15s',
+  name: 'Açlık Oyunları',
+  '@type': [ 'Thing', 'Movie' ],
+  description: '2012 yapımı film',
+  image: 
+   { contentUrl: 'http://t0.gstatic.com/images?q=tbn:ANd9GcRIkjzLt97bPSLFf7nwgAYxAQRuB0NlGsBGwhKYQFgZqmiyI8-6',
+     url: 'https://commons.wikimedia.org/wiki/File:Thehungergames.jpg',
+     license: 'http://creativecommons.org/licenses/by-sa/4.0' },
+  detailedDescription: 
+   { articleBody: 'Açlık Oyunları Suzanne Collins\'in aynı adlı romanından uyarlanan Gary Ross\'un yönettiği bilim kurgu, aksiyon, dram tarzındaki film. ',
+     url: 'https://tr.wikipedia.org/wiki/A%C3%A7l%C4%B1k_Oyunlar%C4%B1_(film)',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.thehungergamesmovie.com/index.html' }
+2017-07-21-09:39:03: Searching for phrase : Orhan Gencebay
+2017-07-21-09:39:04: Response for phrase : Orhan Gencebay
+
+2017-07-21-09:39:04: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 593.564148 } ] }
+2017-07-21-09:39:04: ItemlistElement for phrase :  Orhan Gencebay
+2017-07-21-09:39:04: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01v89v1',
+     name: 'Orhan Gencebay',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Besteci',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+        url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+     detailedDescription: 
+      { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+        url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.orhangencebay.com.tr/' },
+  resultScore: 593.564148 }
+2017-07-21-09:39:04: Callback for phrase :  Orhan Gencebay
+2017-07-21-09:39:04: result of : Orhan Gencebay
+2017-07-21-09:39:04: { '@id': 'kg:/m/01v89v1',
+  name: 'Orhan Gencebay',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Besteci',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcT7b4fgc_CbVqeJvFMFPzTW240VR7bZpuyiCsbyfKzSQ6LUznMU',
+     url: 'https://en.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'http://creativecommons.org/publicdomain/zero/1.0/deed.en' },
+  detailedDescription: 
+   { articleBody: 'Orhan Gencebay ya da gerçek adıyla Orhan Kencebay Türk besteci, ses sanatçısı, şair, enstrümanist, aranjör, müzik yapımcısı, müzik direktörü ve aktördür. Müzik dünyasında ‘‘Orhan Baba’’ olarak tanınır.\n',
+     url: 'https://tr.wikipedia.org/wiki/Orhan_Gencebay',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.orhangencebay.com.tr/' }
+2017-07-21-09:39:04: Searching for phrase : Zeki Müren
+2017-07-21-09:39:05: Response for phrase : Zeki Müren
+
+2017-07-21-09:39:05: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     resultScore: 'goog:resultScore',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: 
+   [ { '@type': 'EntitySearchResult',
+       result: [Object],
+       resultScore: 615.093811 } ] }
+2017-07-21-09:39:05: ItemlistElement for phrase :  Zeki Müren
+2017-07-21-09:39:05: { '@type': 'EntitySearchResult',
+  result: 
+   { '@id': 'kg:/m/01s0ykl',
+     name: 'Zeki Müren',
+     '@type': [ 'Person', 'Thing' ],
+     description: 'Şarkıcı',
+     image: 
+      { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRXZJlawkA4csrcVYC2MxiQ3zmvA65mMytEs0yoqxtNNP1jBhA1',
+        url: 'https://tr.wikipedia.org/wiki/Dosya:Zeki_M%C3%BCren_signature.png' },
+     detailedDescription: 
+      { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+        url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+        license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+     url: 'http://www.zekimuren.net/' },
+  resultScore: 615.093811 }
+2017-07-21-09:39:05: Callback for phrase :  Zeki Müren
+2017-07-21-09:39:05: result of : Zeki Müren
+2017-07-21-09:39:05: { '@id': 'kg:/m/01s0ykl',
+  name: 'Zeki Müren',
+  '@type': [ 'Person', 'Thing' ],
+  description: 'Şarkıcı',
+  image: 
+   { contentUrl: 'http://t1.gstatic.com/images?q=tbn:ANd9GcRXZJlawkA4csrcVYC2MxiQ3zmvA65mMytEs0yoqxtNNP1jBhA1',
+     url: 'https://tr.wikipedia.org/wiki/Dosya:Zeki_M%C3%BCren_signature.png' },
+  detailedDescription: 
+   { articleBody: 'Zeki Müren, Türk şarkıcı, besteci, söz yazarı, oyuncu ve şair. "Sanat Güneşi" ve "Paşa" olarak anılan Müren, Klasik Türk müziğinin en büyük isimlerinden biri olarak kabul edilir. ',
+     url: 'https://tr.wikipedia.org/wiki/Zeki_M%C3%BCren',
+     license: 'https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License' },
+  url: 'http://www.zekimuren.net/' }
+2017-07-21-09:39:05: finish
+2017-07-21-09:39:05: -----------------Printed Results------------------------
+2017-07-21-09:39:05: Açlık Oyunları
+2017-07-21-09:39:05: Orhan Gencebay
+2017-07-21-09:39:05: Zeki Müren

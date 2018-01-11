@@ -20,7 +20,8 @@ var event_emitter = require('events').EventEmitter;
 var kg_ee = new event_emitter();
 var k = 0 ;
 var search = require('./web_search_new.js');
-var test_input = "Açlık Oyunları, Orhan Gencebay, Zeki Müren";
+var data=fs.readFileSync('data.json');
+var test_input=JSON.parse(data);
 
 search.starter(test_input,true,kg_ee, my_console_log)
 

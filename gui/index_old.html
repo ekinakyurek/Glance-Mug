@@ -1,0 +1,463 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=240, initial-scale=1">
+    <title>I am a Mug</title>
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        div#WikiData0 {
+            color: white;
+            vertical-align: center;
+            padding-top: 30px;
+        }
+
+        div#header0 {
+            height: 20px;
+            background: rgba(128, 128, 128, 0.6);
+            vertical-align: middle;
+            width: 100%;
+            margin: 0px auto;
+            text-align: center;
+        }
+        div#header1 {
+            height: 20px;
+            background:black;
+            vertical-align: middle;
+            width: 100%;
+            margin: 0px auto;
+            text-align: center;
+        }
+        p{
+            display: block;
+            color: white;
+            —webkit-margin-before: 1em;
+            —webkit-margin-before: 1em;
+            —webkit-margin-before: 0px;
+            —webkit-margin-before: 0px;
+        }
+
+        p#WikiData0 {
+            color: #FFF;
+            text-align: justify;
+            font-family: "Verdana";
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 12;
+            -webkit-box-orient: vertical;
+        }
+
+        p#desc0 {
+            color: #FFF;
+            text-align: center;
+            font-family: "Verdana";
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+
+        }
+
+        p#info0 {
+            color: #FFF;
+            text-align: center;
+            font-weight: bold;
+            font-family: "Verdana";
+
+        }
+
+        img {
+            padding-top: 0;
+            display: block;
+            margin-top: 0;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .intro {
+            margin: 0 auto;
+            height: 240px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColor: ['#000'],
+                paddingBottom: '20px',
+                controlArrows: false,
+                loopHorizontal: false,
+                autoScrolling: false,
+                scrollBar: false,
+                responsiveWidth: 400,
+                scrollingSpeed: 500
+            });
+        });
+    </script>
+    <script>
+        'use strict'
+        var ee = require('electron').ipcRenderer;
+        var remote = require('electron').remote;
+        var https = require('https')
+        var net = require('net');
+        var client = new net.Socket();
+        var event_emitter = require('events').EventEmitter;
+        var search = require("./web_search.js")
+        var countClick = 0;
+        var countSlideLeft = 0;
+        var countSlideRight = 0;
+        var countMoveSectionUp = 0;
+        var countMoveSectionDown = 0;
+
+        var section_count = 0;
+        var dataLength = 0;
+        var count = '5';
+        var format = 'xml';
+        var startIndex = '1';
+        var onprocess = false;
+        var debug = true;
+        var searchTerm = "";
+        var idCount = 0;
+        var key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+        var cx = '007548910499588559159:lepkrgs8oig';
+        var api_host = 'kgsearch.googleapis.com';
+        var api_key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE';
+        var resultStorage = [];
+        var imageArray = [];
+        var item = [];
+
+        var fs = require('fs');
+        var util = require('util');
+        var user_date = new Date().toISOString().replace(/T/, '-').replace(/\..+/, '')
+        var log_file = fs.createWriteStream(__dirname + '/debugs/' + user_date + '.debug', {flags : 'w'});
+        var log_stdout = process.stdout;
+
+        var gesture_on_progress = false
+
+
+
+	    var my_console_log = function(d) { //
+        var date = new Date().toISOString().replace(/T/, '-').replace(/\..+/, '') + ": "
+        if (util!=null) {
+                log_file.write(date + util.format(d) + '\n');
+                log_stdout.write(date + util.format(d) + '\n');
+        }else{
+                console.log(d);
+            }
+        };
+
+        var made_gesture = function(){
+            gesture_on_progress = true;
+            setTimeout(function(){
+                gesture_on_progress = false
+            },10);
+        }
+
+        ee.on("swipe-down,1", function (data) {
+            countSlideRight++;
+            if(!gesture_on_progress) {
+                my_console_log("1: slide right gesture is called");
+                made_gesture()
+                $.fn.fullpage.moveSlideRight();
+            }
+
+        });
+
+        ee.on("swipe-up,2", function (data) {
+            countSlideRight++;
+            if(!gesture_on_progress) {
+                my_console_log("2: slide right gesture is called");
+                made_gesture()
+                $.fn.fullpage.moveSlideRight();
+            }
+        });
+
+        ee.on("swipe-up,1", function (data) {
+            countSlideLeft++;
+            if(!gesture_on_progress) {
+                my_console_log("1: slide left gesture is called");
+                made_gesture();
+                $.fn.fullpage.moveSlideLeft();
+            }
+        });
+
+        ee.on("swipe-down,2", function (data) {
+            countSlideLeft++;
+            if(!gesture_on_progress) {
+                my_console_log("2: slide left gesture is called");
+                made_gesture();
+                $.fn.fullpage.moveSlideLeft();
+            }
+        });
+
+
+        var handle_section_changes = function(direction){
+            if(!direction){
+                section_count++;
+                countMoveSectionDown++;
+            }else{
+                section_count--;
+                countMoveSectionUp++
+            }
+
+            if (resultStorage.length <= section_count || imageArray.length <= section_count ) {
+                section_count = resultStorage.length;
+            }else if(section_count < 0){
+                section_count=0;
+            } else {
+                my_console_log("section_count is:"+ section_count)
+                var name = resultStorage[section_count]['name'] || resultStorage[section_count]['description'];
+                document.getElementById("info0").innerHTML = name;
+                var description = resultStorage[section_count]['description'] || resultStorage[section_count]['detailedDescription']['articleBody'];
+                document.getElementById("img0").src = "";
+                document.getElementById("img1").src = "";
+                document.getElementById("img2").src = "";
+                document.getElementById("img3").src = "";
+                document.getElementById("img4").src = "";
+
+                document.getElementById("desc0").innerHTML = description;
+                document.getElementById("WikiData0").innerHTML = resultStorage[section_count]['detailedDescription']['articleBody'];
+
+
+                document.getElementById("img0").src = imageArray[section_count][0];
+                document.getElementById("img1").src = imageArray[section_count][1];
+                document.getElementById("img2").src = imageArray[section_count][2];
+                document.getElementById("img3").src = imageArray[section_count][3];
+                document.getElementById("img4").src = imageArray[section_count][4];
+            }
+            var log_direction  = direction ? 'moveSectionUp':'moveSectionDown';
+            my_console_log("After" + log_direction +" section_count is: " + section_count)
+        }
+
+        ee.on("swipe-down,0", function (data) {
+            if(!gesture_on_progress) {
+                made_gesture()
+                handle_section_changes(true);
+            }
+        });
+
+        ee.on("swipe-up,0", function (data) {
+            if(!gesture_on_progress) {
+                made_gesture()
+                handle_section_changes(false)
+            }
+        });
+
+
+        ee.on("click-event,2", function (data) {
+            my_console_log("2:click detected at point:" + data);
+            countClick++;
+
+            if (!onprocess) {
+                onprocess = true;
+                document.getElementById("info0").innerHTML = "ARIYORUM";
+
+                client = new net.Socket();
+
+
+                client.connect(10000, '127.0.0.1', function () {
+                    my_console_log('Connected');
+
+                    var started = client.write('Start');
+                    setTimeout(function(){
+                        onprocess = false;
+                        if(document.getElementById("info0").innerHTML == "ARIYORUM"){
+                            document.getElementById("info0").innerHTML = "Bağlantı Hatası";
+                        }
+                    },12000)
+
+                    if(!started){
+                        my_console_log('connected but couldnt written')
+                        document.getElementById("info0").innerHTML = "Bağlantı Hatası";
+                    }
+                });
+
+                client.on('close', function () {
+                    my_console_log('Connection closed');
+
+                   // var last_result = resultStorage[section_count] || {name: "Merhaba"}
+                    my_console_log('connection closed in close')
+                   // document.getElementById("info0").innerHTML = last_result.name;
+                });
+
+                client.on('error', function () {
+                    document.getElementById("info0").innerHTML = "Bağlantı Hatası";
+                    my_console_log('Connection closed with error');
+                    onprocess = false
+                });
+
+                client.on('timeout', function () {
+                    document.getElementById("info0").innerHTML = "Bağlantı Hatası";
+                    my_console_log('Connection closed with timeout');
+                    onprocess = false
+                });
+
+
+
+                client.on('data', function (data) {
+
+                    my_console_log('Data received from stt: ' + data);
+                    searchTerm = data.toString();
+                    my_console_log('SearchTerm from microphone:' + searchTerm);
+                    //var texturlTR = "https://tr.wikipedia.org/w/api.php?format=" + format + "&action=query&prop=extracts&exintro=&explaintext=&titles=" + searchTerm;
+                    //my_console_log(texturlTR)
+                    //var yandexTanslateURL = "https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20161109T203752Z.31a66f7b078518f9.4cfb304a7f2d5dadbb4aa80ac4261c70258e5816&text=" + searchTerm + "&lang=tr-en&format=json"
+                    // my_console_log(yandexTanslateURL)
+                    // ----receive function----v
+
+                   var received_result_no = 0;
+                   var section_count =0; //extra
+		           var kg_ee = new event_emitter();
+                  
+		          if(searchTerm != ''){
+                       search.starter(searchTerm,debug, kg_ee, my_console_log)
+                   
+                  }else{
+                        document.getElementById("info0").innerHTML = "Nothing Here";
+                        document.getElementById("desc0").innerHTML = "I couldn't heard you";
+                        document.getElementById("WikiData0").innerHTML = "I am sorry :(";
+                        document.getElementById("img0").src = "travolta.gif";
+                        document.getElementById("img1").src = "travolta.gif";
+                        document.getElementById("img2").src = "travolta.gif";
+                        document.getElementById("img3").src = "travolta.gif";
+                        document.getElementById("img4").src = "travolta.gif";
+                  	onprocess = false;
+		  }
+
+                  kg_ee.on("result", function (data) {
+
+                    data.name = data.name || data.description;
+                    data.description = data.description || "";
+                      if (data.detailedDescription != undefined) {
+                          data.detailedDescription.articleBody = data.detailedDescription.articleBody || "";
+                      }else{
+                          data.detailedDescription= {articleBody: ""};
+                      }
+
+			            if(received_result_no == 0){
+                            resultStorage = [];
+                            imageArray = [];
+
+
+
+                            var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key="+ key + "&cx=" + cx + "&searchType=image";
+                            my_console_log(url);
+                            $.getJSON(url, function (image_data) {
+                                //imageArray.push(image_data.items.map(function (item) { return item.link; }));
+                                document.getElementById("info0").innerHTML = data.name;
+                                document.getElementById("desc0").innerHTML = data.description;
+                                document.getElementById("WikiData0").innerHTML = data.detailedDescription.articleBody;
+                                document.getElementById("img0").src = image_data.items[0].link;
+                                document.getElementById("img1").src = image_data.items[1].link;
+                                document.getElementById("img2").src = image_data.items[2].link;
+                                document.getElementById("img3").src = image_data.items[3].link;
+                                document.getElementById("img4").src = image_data.items[4].link;
+                                item = [];
+                                for(var i=0; i<image_data.items.length; i++){
+                                    item.push(image_data.items[i].link)
+                                }
+                                resultStorage.push(data);
+                                imageArray.push(item);
+                            });
+                            }else{
+
+                              var url = "https://www.googleapis.com/customsearch/v1?q=" + data.name + "&num=" + count + "&start=" + startIndex + "&key=" + key + "&cx=" + cx + "&searchType=image";
+                              item = [];
+                             $.getJSON(url, function (image_data) {
+                                  //imageArray.push(image_data.items.map(function (item) { return item.link; }));            
+                        	    for(var i=0; i<image_data.items.length; i++){
+                                        item.push(image_data.items[i].link);
+                                }
+                                    resultStorage.push(data);
+                                    imageArray.push(item);
+                             });
+
+			                }
+                        //section_count++;//extra
+                        received_result_no++;
+                        my_console_log("received_result_no=" + received_result_no)
+                    });
+
+                    kg_ee.on('error_occurs', function(data){
+                        onprocess = false;
+                        document.getElementById("info0").innerHTML = "Nothing Here";
+                        document.getElementById("desc0").innerHTML = "I couldn't find anytihng";
+                        document.getElementById("WikiData0").innerHTML = "I am sorry :(";
+                        document.getElementById("img0").src = "travolta.gif";
+                        document.getElementById("img1").src = "travolta.gif";
+                        document.getElementById("img2").src = "travolta.gif";
+                        document.getElementById("img3").src = "travolta.gif";
+                        document.getElementById("img4").src = "travolta.gif";
+                    });
+
+            	    kg_ee.on("finished", function (data) {
+                        onprocess = false;
+                        my_console_log("process is finished")
+            		});
+
+                    client.destroy(); // kill client after server's response
+                });
+            }
+
+        });
+
+    </script>
+
+    <div id="fullpage">
+
+        <div class="section active" id="section0">
+            <div id="header0"><p id="info0">Merhaba</p>
+                   <div id="header1"> <p id="desc0"> </p>
+                   </div>
+            </div>
+
+            <div class="slide">
+                <div class="intro" id="WikiData0">
+                    <p id="WikiData0"> </p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img0" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img1" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img2" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img3" src="1.jpg" />
+                </div>
+            </div>
+            <div class="slide">
+                <div class="intro">
+                    <img class="img-responsive" id="img4" src="1.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

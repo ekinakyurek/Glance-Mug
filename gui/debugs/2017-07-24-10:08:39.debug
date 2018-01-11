@@ -1,0 +1,21 @@
+2017-07-24-10:08:40: State machine is initialized with input: 
+2017-07-24-10:08:40: frames1
+2017-07-24-10:08:40: Searching for phrase :frames1
+2017-07-24-10:08:41: Response for phrase :frames1
+
+2017-07-24-10:08:41: { '@context': 
+   { '@vocab': 'http://schema.org/',
+     goog: 'http://schema.googleapis.com/',
+     EntitySearchResult: 'goog:EntitySearchResult',
+     detailedDescription: 'goog:detailedDescription',
+     kg: 'http://g.co/kg' },
+  '@type': 'ItemList',
+  itemListElement: [] }
+2017-07-24-10:08:41: ItemlistElement for phrase : frames1
+2017-07-24-10:08:41: undefined
+2017-07-24-10:08:41: Failed callback for phrase : frames1
+
+2017-07-24-10:08:41: nothing found for :frames1
+2017-07-24-10:08:41: finish
+2017-07-24-10:08:41: Nothing found
+2017-07-24-10:08:41: -----------------Printed Results------------------------
