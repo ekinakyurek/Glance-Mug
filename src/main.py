@@ -12,11 +12,11 @@ from MicandSearch.MicToSearch import *
 import getgoogleresult
 
 SENSORS=False
-if sys.platform != "darwin":
+if sys.platform == "darwin" or sys.platfrom.startswith("win"):
+   print "Local Development"
+else:
    import Adafruit_ADS1x15
    SENSORS=True
-else:
-   print "No ADC Found, terminal input will be used"
 
 pygame.init()
 SearchTerms=[]
@@ -295,10 +295,6 @@ class MyFrame():
     def KeyboardControl(self):
         while True:
            self.results = [{"name":"ekin","description":"ekin akyurek"}]
-           self.processResults()
-           time.sleep(10.0)
-
-
 
     def Potentio(self):
         global picPaths
