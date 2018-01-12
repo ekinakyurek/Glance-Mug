@@ -7,7 +7,7 @@ Ahmet Börütecene, İdil Bostan, Ekin Akyürek, Alpay Sabuncuoğlu, İlker Temu
 ### 1) Google Cloud SDK for Speech-To-Text
 #### Download the SDK
    ```HTML
-   https://cloud.google.com/sdk/downloads  
+   https://cloud.google.com/sdk/downloads
    ```
 #### Unzip and Type:
    ```Shell
@@ -29,7 +29,7 @@ You should not need to login. We use credentials.
 https://developers.google.com/knowledge-graph/
 ```
 
-### 3) TRMorph for accurate searchTerm
+### 3) TRMorph for accurate Search
 ### Follow the instructions
 ```Shell
 morph/
