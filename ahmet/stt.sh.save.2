@@ -1,5 +1,0 @@
-echo "Recording your Speech (Ctrl+C to Transcribe)"
-arecord -D plughw:1 -q -f cd -t wav -d 5 -r 16000 | flac - -f --best --sample-rate 16000 -s -o ahmetb.flac;
- 
-echo "Converting Speech to Text..."
-wget -q -U --post-file ahmetb.flac --header="Content-Type: audio/x-flac; rate=16000" -O - "https://speech.googleapis.com/v1beta1/operations/syncRecognize?client=chromium&lang=en_us&key=AIzaSyDoTp6Uic

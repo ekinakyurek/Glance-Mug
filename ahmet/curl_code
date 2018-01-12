@@ -1,4 +1,0 @@
-curl -s -k -H "Content-Type: application/json" \
-    -H "Authorization: Bearer ya29.CjA7Ayom6VQB8nXuG-zdgXSE_Cp28oYfeKOEG-AMLrHICJU7C5YKIapR3tbHSElv0c8" \
-    https://speech.googleapis.com/v1beta1/speech:syncrecognize \
-    -d @sync-request.json

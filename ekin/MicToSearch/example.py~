@@ -1,5 +1,0 @@
-from MicToSearch import *
-obj = MicToSearch()
-obj.startrecording()
-results = obj.searchlastspeech()
-obj.stoprecording()
