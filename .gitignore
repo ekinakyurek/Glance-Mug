@@ -90,3 +90,4 @@ ENV/
 
 ./ADC/node_adc_reading/node_modules/node-ads1x15/
 ./gui/node_modules/node-ads1x15/
+*.pyc
