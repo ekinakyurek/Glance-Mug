@@ -1,5 +1,10 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src import MicToSearch
+from src import getgoogleresult
 import time
-from MicandSearch.MicToSearch import *
 obj = MicToSearch(morph_location="../morph/trmorph.fst",record_folder="../records/",debug=False)
 obj.startrecording()
 time.sleep(10)

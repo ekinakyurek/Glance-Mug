@@ -1,0 +1,4 @@
+Adafruit-ADS1x15
+PyAudio
+pygame
+scipy

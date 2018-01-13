@@ -33,7 +33,7 @@ class MicToText:
                  rate=48000,
                  record_seconds=9,
                  partition=3,
-                 morph_location="../binaries/trmorph.fst",
+                 morph_location="../morph/trmorph.fst",
                  record_folder="../records/",
                  debug=False):
         self.debug=debug

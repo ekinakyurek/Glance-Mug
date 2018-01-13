@@ -8,8 +8,8 @@ from pygame.locals import *
 from scipy import stats
 from threading import Thread
 
-from MicandSearch.MicToSearch import *
-import getgoogleresult
+from src import MicToSearch
+from src import getgoogleresult
 
 SENSORS=False
 if sys.platform == "darwin" or sys.platfrom.startswith("win"):
