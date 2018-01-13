@@ -2,6 +2,11 @@
 
 Ahmet Börütecene, İdil Bostan, Ekin Akyürek, Alpay Sabuncuoğlu, İlker Temuzkuşu, Çağlar Genç, Tilbe Göksun, Oğuzhan Özcan. (2018). Through the Glance Mug: A Familiar Artefact to Support Opportunistic Search in Meetings. In Proceedings of the 12th International Conference on Tangible, Embedded and Embodied Interaction (TEI ‘18). ACM, Stockholm, Sweden, 10 Pages.
 
+## How To Run
+```shell
+python main.py
+```
+
 ## Dependencies
 ### 1) PyAudio for Recording
 #### Follow the instructions
