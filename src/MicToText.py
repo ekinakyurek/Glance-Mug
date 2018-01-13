@@ -34,6 +34,7 @@ class MicToText:
                  record_seconds=9,
                  partition=3,
                  morph_location="../morph/trmorph.fst",
+                 key_location= "../keys/google.json",
                  record_folder="../records/",
                  debug=False):
         self.debug=debug
@@ -54,6 +55,7 @@ class MicToText:
         self.recordThread = None
         self.running = True
         self.MORPH=morph_location
+        self.KEYLOCATION=key_location
 
     def signal_handler(self, signal, frame):
         print "signal is detected"

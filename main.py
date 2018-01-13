@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 import sys
 reload(sys)
@@ -6,6 +5,7 @@ sys.setdefaultencoding("utf-8")
 import pygame,os,sys,random,time,shutil,urllib2,StringIO
 from pygame.locals import *
 from scipy import stats
+
 from threading import Thread
 
 from src import MicToSearch
@@ -19,6 +19,8 @@ else:
    SENSORS=True
 
 pygame.init()
+clock = pygame.time.Clock()
+
 SearchTerms=[]
 description=[]
 detailedDescription=[]
@@ -213,18 +215,19 @@ class MyFrame():
     def __init__(self):
       self.first=0
       global SearchTerms
-
       self.sub_num=len(SearchTerms)
       self.sub_cur=0
       self.mictoSearch = MicToSearch()
       if SENSORS:
          t = Thread(target=self.Potentio)
+         t.start()
       else:
-         t = Thread(target=self.KeyboardControl)
-      t.start()
+         self.KeyboardControl()
+
       #self.mictoSearch.startrecording()
       self.currentSubject=0
       self.currentPicture=0
+
     def nextPicture(self):
         global picPaths
         if self.currentPicture < 5 and self.currentPicture >= 0:
@@ -292,9 +295,26 @@ class MyFrame():
              #.encode('utf-8'))
 
          self.panel=Mypanel(self)
+    def quit(self):
+       print "Quiting"
+
+
     def KeyboardControl(self):
-        while True:
-           self.results = [{"name":"ekin","description":"ekin akyurek"}]
+        running=True
+        while running:
+           for event in pygame.event.get():
+              if event.type == pygame.QUIT:
+                 running=False
+              if event.type == pygame.KEYUP:
+                 if event.key == pygame.K_UP:  print("UP")
+                 if event.key == pygame.K_DOWN: print("DOWN")
+                 if event.key == pygame.K_LEFT: print("LEFT")
+                 if event.key == pygame.K_RIGHT: print("RIGHT")
+                 if event.key == pygame.K_SPACE: print("SEARCH TRIGGER")
+
+        self.quit()
+
+
 
     def Potentio(self):
         global picPaths
