@@ -13,6 +13,7 @@ class WebSearch:
     api_host = "https://kgsearch.googleapis.com";
 
     def __init__(self, api_key="AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE",debug=False) :
+        print debug
         self.api_key = api_key
         self.words = []
         self.roots = []

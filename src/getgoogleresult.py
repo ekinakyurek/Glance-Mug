@@ -8,10 +8,10 @@ key = 'AIzaSyDoTp6UicPtIH_JVy-cFwoebTEp9-rRHYE'
 cx = '007548910499588559159:lepkrgs8oig'
 api_host = 'kgsearch.googleapis.com'
 
-def createImageFolder(searchTerm,ID):
+def createImageFolder(searchTerm,ID,imgfolder='images/keyword'):
     global count
     searchTerm= searchTerm.replace(" ","+")
-    path = '../images/keyword'+str(ID)
+    path = imgfolder + str(ID)
     if not os.path.exists(path):
         os.makedirs(path)
         i=1
