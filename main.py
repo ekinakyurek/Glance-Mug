@@ -10,6 +10,8 @@ from threading import Thread
 
 from src import MicToSearch
 from src import getgoogleresult
+from src import ptext
+ptext.FONT_NAME_TEMPLATE = "fonts/%s.ttf"
 
 SENSORS=False
 if sys.platform == "darwin" or sys.platfrom.startswith("win"):
@@ -48,101 +50,45 @@ class Mypanel():
       self.lineSubTitle2=[]
       self.lineText=[]
       self.lineText2=[]
-      self.screen = pygame.display.set_mode((240,320))
-      pygame.display.set_caption("Smart Mug")
+      self.screen = pygame.display.set_mode((240, 320), pygame.NOFRAME)
       #fontName
-      self.f = pygame.font.match_font(u'dejavuserif')
+      self.f = "Verdana-Bold" #"Boogaloo"
       #fontSize
-      self.fontText=pygame.font.Font(self.f,16)
-      self.fontSubTitle=pygame.font.Font(self.f,20)
-      self.fontTitle=pygame.font.Font(self.f,25)
+      self.fontText=11
+      self.fontSubTitle=11
+      self.fontTitle=12
       self.screen.fill(self.black)
-      char_width,char_height=self.fontText.size('a')
-      print char_width
-      char_width,char_height=self.fontTitle.size('a')
-      print char_width
       #get google results
       for i in range(len(SearchTerms)):
         picPaths.append([])
-      	folderPath="./folder"+str(i)+"/"
-      	getgoogleresult.createImageFolder(SearchTerms[i],i)
-        image_wiki="./folder"+str(i)+"/temp0.jpg"
+      	folderPath="images/keyword"+str(i)+"/"
+      	getgoogleresult.createImageFolder(SearchTerms[i],i,imgfolder='images/keyword')
+        image_wiki="images/keyword"+str(i)+"/temp0.bmp"
         self.wiki=pygame.Surface((240,320))
-        self.wiki.fill(self.black)
-        self.lineTitle=self.splitText(0,0,SearchTerms[i],self.fontTitle)
-        self.lineSubTitle=self.splitText(0,0,description[i],self.fontSubTitle)
-        if i<(len(detailedDescription)):
-             self.lineText=self.splitText(0,0,detailedDescription[i],self.fontText)
-        self.height=0
+        self.wiki.fill((77,77,77),rect=pygame.Rect(0,0,240,25))
+        self.wiki.fill(self.black,rect=pygame.Rect(0,25,240,215))
+        ptext.draw(SearchTerms[i],midtop=(120, 5),  width=235, surf=self.wiki, fontname=self.f, fontsize=self.fontTitle,    align="center")
+        ptext.draw(description[i],midtop=(120, 32), width=235, surf=self.wiki, fontname=self.f, fontsize=self.fontSubTitle, align="center")
+        if i<len(detailedDescription):
+           ptext.draw(detailedDescription[i],(5,80), width=235, surf=self.wiki, fontname=self.f, fontsize=self.fontText)
         pygame.image.save(self.wiki,image_wiki)
         self.files=os.listdir(folderPath)
-        image_wiki=folderPath+"temp0.jpg"
+        image_wiki=folderPath+"temp0.bmp"
         picPaths[i].append(image_wiki)
         print self.files
         for file in self.files:
           print file
-          if file !="temp0.jpg":
+          if file !="temp0.bmp":
             picPaths[i].append(folderPath+file)
       print picPaths
-      image_wiki="./folder"+str(0)+"/temp0.jpg"
+      image_wiki="images/keyword"+str(0)+"/temp0.bmp"
       image = os.path.basename(image_wiki)
       image=pygame.image.load(image_wiki).convert()
-      image=pygame.transform.scale(image,(240,320))
+      #image=pygame.transform.scale(image,(240,320))
       self.screen.blit(image,(0,0))
       image_old=image
       pygame.display.flip()
   #split the text to lines that fit into the screen
-   def splitText(self,x,y,text,myfont):
-     if len(text)>0: #number of lines
-        space=5
-        print text
-
-        num_line=0
-        #line width
-        line_width=0
-        global char_height
-        height = self.height + y
-        line=[]
-        if height<320:
-         for i in range(len(text)):
-          #get the width of the letter
-          char_width,char_height=myfont.size(text[i])
-          line_width = char_width+line_width
-          #for the first letter
-          if i==0:
-            line.append(text[i])
-          #if there is still spice in the line
-          elif line_width<240:
-           line[num_line]=line[num_line]+text[i]
-           #go to the next line
-          else:
-           line_width=char_width
-           #increment the line
-           num_line=num_line+1
-           line.append(text[i])
-         #calculate the max lines that can be displayed
-         test=True
-         #if the number of lines is bigger then what the screen can handle cut the text and add three points
-         print num_line
-         for i in range(0,num_line+1):
-          if test:
-           print char_height
-           print myfont
-           if (self.height+char_height+space) >= 320:
-             line[i]=list(line[i])
-             line[i][len(line[i])-3:len(line[i])]=u'...'
-             line[i]=u''.join(line[i])
-             test=False
-             print line[i]
-           test=myfont.render(line[i],1,(255,255,255))
-           self.wiki.blit(test,(x,(y+self.height)))
-           self.height+=char_height+space
-   #display the text in the screen
-
-    #the transition between text and image
-
-
-     	  #render text
    def HorizontalImage(self,image_nex,dir):
        global image_old
 
@@ -217,7 +163,10 @@ class MyFrame():
       global SearchTerms
       self.sub_num=len(SearchTerms)
       self.sub_cur=0
-      self.mictoSearch = MicToSearch()
+      self.mictoSearch = MicToSearch(morph_location="morph/trmorph.fst", record_folder="records/")
+      self.currentSubject=0
+      self.currentPicture=0
+
       if SENSORS:
          t = Thread(target=self.Potentio)
          t.start()
@@ -225,8 +174,6 @@ class MyFrame():
          self.KeyboardControl()
 
       #self.mictoSearch.startrecording()
-      self.currentSubject=0
-      self.currentPicture=0
 
     def nextPicture(self):
         global picPaths
@@ -286,6 +233,7 @@ class MyFrame():
         global detailedDescription
 
         if len(self.results)>0:
+         print self.results
          for i in range(len(self.results)):
             SearchTerms.append(self.results[i]['name'])
             #.encode('utf-8'))
@@ -306,11 +254,26 @@ class MyFrame():
               if event.type == pygame.QUIT:
                  running=False
               if event.type == pygame.KEYUP:
-                 if event.key == pygame.K_UP:  print("UP")
-                 if event.key == pygame.K_DOWN: print("DOWN")
-                 if event.key == pygame.K_LEFT: print("LEFT")
-                 if event.key == pygame.K_RIGHT: print("RIGHT")
-                 if event.key == pygame.K_SPACE: print("SEARCH TRIGGER")
+                 if event.key == pygame.K_SPACE:
+                    print("Search Triggered");
+                    self.results=self.mictoSearch.searchlastspeech()
+                    print self.results
+                    if (len(self.results)>0):
+                       if self.first!=0:
+		          for i in range(len(SearchTerms)):
+		             folder="./folder" + str(i) + "/"
+                             shutil.rmtree(folder)
+                       else:
+                          self.first=1
+                          description=[]
+                          SearchTerms=[]
+		          picPaths=[]
+                          self.processResults()
+                    self.processResults()
+                 if event.key == pygame.K_DOWN: self.downScroll()
+                 if event.key == pygame.K_LEFT: self.previousPicture()
+                 if event.key == pygame.K_RIGHT: self.nextPicture()
+                 if event.key == pygame.K_UP: self.upScroll()
 
         self.quit()
 
