@@ -311,6 +311,7 @@ class MyFrame():
 
 
     def KeyboardControl(self):
+        clock = pygame.time.Clock()
         while self.running:
            for event in pygame.event.get():
               if event.type == pygame.QUIT:
@@ -337,6 +338,8 @@ class MyFrame():
                  if event.key == pygame.K_LEFT: self.previousPicture()
                  if event.key == pygame.K_RIGHT: self.nextPicture()
                  if event.key == pygame.K_UP: self.upScroll()
+        clock.tick(5)
+
 
         self.quit()
 
