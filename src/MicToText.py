@@ -31,7 +31,7 @@ class MicToText:
                  format=pyaudio.paInt16,
                  channels=1,
                  rate=48000,
-                 record_seconds=9,
+                 record_seconds=15,
                  partition=3,
                  morph_location="../morph/trmorph.fst",
                  key_location= "../keys/google.json",
@@ -56,6 +56,7 @@ class MicToText:
         self.running = True
         self.MORPH=morph_location
         self.KEYLOCATION=key_location
+        self.threads = [];
 
     def signal_handler(self, signal, frame):
         print "signal is detected"
@@ -155,7 +156,7 @@ class MicToText:
         #print "-----"
 
     def start(self):
-        signal.signal(signal.SIGINT, self.signal_handler)
+        #signal.signal(signal.SIGINT, self.signal_handler)
         try:
             self.recordThread = Thread(target=self.recordAudio)
             self.recordThread.start()
@@ -166,7 +167,6 @@ class MicToText:
 
     def stop(self):
         self.running = False
-        self.recordThread.join()
         if self.debug: print(" -- stopped -- ")
 
 
@@ -191,7 +191,7 @@ class MicToText:
 
     def messageHandler(self):
         results = []
-        threads = []
+        self.threads = []
         totalResult = u''
 
         self.splitAudio()
@@ -202,13 +202,13 @@ class MicToText:
         try:
             for i in range(0,self.partition):
                 results.append([])
-                threads.append(Thread(target=self.transcript, args=(self.RECORDFOLDER+"output"+str(i)+".flac",  results[i])))
-                threads[i].start()
+                self.threads.append(Thread(target=self.transcript, args=(self.RECORDFOLDER+"output"+str(i)+".flac",  results[i])))
+                self.threads[i].start()
         except:
             print "Error: unable to start thread"
 
         for i in range(0, self.partition):
-            threads[i].join()
+            self.threads[i].join()
 
 
         """
@@ -284,20 +284,20 @@ class MicToText:
     def discarder(self, words):
         if self.debug: print words
         ret = ""
-        threads = []
+        self.threads = []
         totalR = [""] * len(words)
         totalW = [""] * len(words)
 
         for i in range(len(words)):
             word = words[i].encode('utf-8')
             t = Thread(target=self.foma_thread, args=(word, i, totalW, totalR))
-            threads.append(t)
-            threads[i].start()
+            self.threads.append(t)
+            self.threads[i].start()
 
-        for i in range(len(threads)):
-            threads[i].join()
+        for i in range(len(self.threads)):
+            self.threads[i].join()
 
-        for i in range(len(threads)):
+        for i in range(len(self.threads)):
             #print "|" + totalW[i] + "|"
             if (len(totalW[i]) == 0):
                 continue
@@ -305,7 +305,7 @@ class MicToText:
                 ret = ret + ' '
             ret = ret + totalW[i]
 
-        for i in range(len(threads)):
+        for i in range(len(self.threads)):
             #print "|" + totalR[i] + "|"
             if (len(totalR[i]) == 0):
                 continue
